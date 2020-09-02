@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
+import { MatAutocompleteModule } from '@angular/material/autocomplete'
+import { MatExpansionModule } from '@angular/material/expansion'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatInputModule } from '@angular/material/input'
 
@@ -26,6 +28,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms'
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
+    MatAutocompleteModule,
+    MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,
     ReactiveFormsModule,

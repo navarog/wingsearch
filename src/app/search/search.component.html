@@ -2,3 +2,19 @@
     <mat-label>Name, power, condition</mat-label>
     <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()">
 </mat-form-field>
+<mat-expansion-panel hideToggle>
+    <mat-expansion-panel-header>
+        <mat-panel-title>
+            
+        </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-form-field appearance="standard">
+        <mat-label>Applicable bonus card name, condition</mat-label>
+        <input type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()" [matAutocomplete]="auto">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onQueryChange()">
+            <mat-option *ngFor="let card of filteredBonusCards | async" [value]="card['Name']">
+                {{card['Name']}}
+            </mat-option>
+        </mat-autocomplete>
+    </mat-form-field>
+</mat-expansion-panel>

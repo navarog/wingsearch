@@ -16,7 +16,9 @@ export const initialState: AppState = {
         bonusCards: bonusCardsSearch,
     },
     // @ts-ignore
-    displayedCards: BirdCards.concat(BonusCards)
+    displayedCards: BirdCards.concat(BonusCards),
+    // @ts-ignore
+    activeBonusCards: BonusCards,
 }
 
 const reducer = createReducer(
@@ -30,12 +32,39 @@ const reducer = createReducer(
             ]
         })
 
-        if (!displayedCards.length) {
+        const bonusCards = state.search.bonusCards.search({
+            query: action.main, field: [
+                'Name',
+                'Condition',
+                'VP',
+            ]
+        })
+
+        displayedCards = displayedCards.concat(bonusCards)
+
+        if (!displayedCards.length && !action.main) {
             // @ts-ignore
             displayedCards = BirdCards.concat(BonusCards)
         }
 
         return { ...state, displayedCards }
+    }),
+
+    on(appActions.bonusCardSearch, (state, action) => {
+        let activeBonusCards = state.search.bonusCards.search({
+            query: action.bonus, field: [
+                'Name',
+                'Condition',
+                'VP',
+            ]
+        })
+
+        if (!activeBonusCards.length && !action.bonus) {
+            // @ts-ignore
+            activeBonusCards = BonusCards
+        }
+
+        return {...state, activeBonusCards}
     })
 )
 

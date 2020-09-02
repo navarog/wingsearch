@@ -2,7 +2,7 @@
 
 <div *ngFor="let card of cards | async">
     <div *ngIf="isBirdCard(card)">
-        {{card['Common name']}}
+        {{card['Common name']}} ({{card['Scientific name']}})
     </div>
 
     <div *ngIf="isBonusCard(card)">
