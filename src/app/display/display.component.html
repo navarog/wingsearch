@@ -1,0 +1,11 @@
+<!-- <p>{{cards | async | json}}</p> -->
+
+<div *ngFor="let card of cards | async">
+    <div *ngIf="isBirdCard(card)">
+        {{card['Common name']}}
+    </div>
+
+    <div *ngIf="isBonusCard(card)">
+        {{card['Name']}}
+    </div>
+</div>
