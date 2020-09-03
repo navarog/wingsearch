@@ -1,0 +1,44 @@
+.option-container {
+    display: flex;
+    flex: auto 1 1;
+    flex-wrap: nowrap;
+    height: 128px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+}
+
+.name {
+    font-size: large;
+    font-family: DarbogBold, Arial, Helvetica;
+    color: #666666;
+    line-height: 30px;
+}
+
+.description {
+    font-family: FuturaLight, Arial, Helvetica;
+    line-height: 30px;
+}
+
+.explanation {
+    font-style: italic;
+    font-size: smaller;
+    font-family: FuturaLight, Arial, Helvetica;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    line-height: 20px;
+    white-space: normal;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+img {
+    height: 102px;
+    margin: 8px 20px 8px 0;
+}

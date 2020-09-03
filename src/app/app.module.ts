@@ -17,13 +17,15 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools'
 import { environment } from '../environments/environment'
 import { appReducer } from './store/app.reducer'
 import { DisplayComponent } from './display/display.component'
-import { ReactiveFormsModule, FormsModule } from '@angular/forms'
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
-    DisplayComponent
+    DisplayComponent,
+    BonusCardOptionComponent
   ],
   imports: [
     BrowserModule,

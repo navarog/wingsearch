@@ -30,3 +30,32 @@ $wingsearch-theme: mat-light-theme($wingsearch-primary, $wingsearch-accent, $win
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.bonus-card-option {
+    height: 128px!important;
+}
+
+@font-face {
+    font-family: CardenioModernRegular;
+    src: url('assets/fonts/CardenioModern-Regular.otf') format("opentype");
+}
+
+@font-face {
+    font-family: CardenioModernBold;
+    src: url('assets/fonts/CardenioModern-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: ThirstyRoughLt;
+    src: url('assets/fonts/ThirstyRoughLt.otf') format("opentype");
+}
+
+@font-face {
+    font-family: DarbogBold;
+    src: url('assets/fonts/Darbog-Bold.otf') format("opentype");
+}
+
+@font-face {
+    font-family: FuturaLight;
+    src: url('assets/fonts/Futura-Light.otf') format("opentype");
+}

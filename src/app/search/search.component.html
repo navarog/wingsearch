@@ -18,8 +18,8 @@
             <mat-icon>close</mat-icon>
         </button>
         <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onQueryChange()">
-            <mat-option *ngFor="let card of filteredBonusCards | async" [value]="card['Name']">
-                {{card['Name']}}
+            <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async" [value]="card['Name']">
+                <app-bonus-card-option [card]="card"></app-bonus-card-option>
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>

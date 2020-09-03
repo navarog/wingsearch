@@ -1,0 +1,15 @@
+<div class="option-container">
+    <img src="../../assets/cards/backgrounds/bonus-background.jpg" alt="{{card.Name}} bonus card" loading="lazy">
+
+    <div class="description-container">
+        <div class="name">
+            {{card.Name}}
+        </div>
+        <div class="description">
+            {{card.Condition}}
+        </div>
+        <div class="explanation" *ngIf="card['Explanatory text']">
+            {{card['Explanatory text']}}
+        </div>
+    </div>
+</div>
