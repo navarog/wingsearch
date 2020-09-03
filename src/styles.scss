@@ -30,9 +30,16 @@ $wingsearch-theme: mat-light-theme($wingsearch-primary, $wingsearch-accent, $win
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@media screen and (min-width: 600px) {
+    .bonus-card-option {
+        height: 128px!important;
+    }
+}
 
-.bonus-card-option {
-    height: 128px!important;
+@media screen and (max-width: 599px) {
+    .bonus-card-option {
+        height: 148px!important;
+    }
 }
 
 @font-face {
