@@ -1,0 +1,332 @@
+[
+    {
+        "Name": "Anatomist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with body parts in their names",
+        "Explanatory text": "Body parts include back, beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, leg, neck, rump, shoulder, tail, throat, toe, wing",
+        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "%": 22,
+        "id": 1000
+    },
+    {
+        "Name": "Backyard Birder",
+        "Expansion": "core",
+        "Automa": null,
+        "Condition": "Birds worth less than 4 points",
+        "Explanatory text": null,
+        "VP": "5 to 6 birds: 3; 6+ birds: 6",
+        "%": 42,
+        "id": 1001
+    },
+    {
+        "Name": "Behaviorist",
+        "Expansion": "european",
+        "Automa": null,
+        "Condition": "For each column that contains birds with 3 different power colors:",
+        "Explanatory text": "Birds with no power count as white.",
+        "VP": "3 per column",
+        "%": "-",
+        "id": 1002
+    },
+    {
+        "Name": "Bird Bander",
+        "Expansion": "european",
+        "Automa": "X",
+        "Condition": "Birds that can live in multiple habitats",
+        "Explanatory text": null,
+        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "%": 31,
+        "id": 1003
+    },
+    {
+        "Name": "Bird Counter",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with a [flocking] power",
+        "Explanatory text": null,
+        "VP": "2 per bird",
+        "%": 15,
+        "id": 1004
+    },
+    {
+        "Name": "Bird Feeder",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat [seed]",
+        "Explanatory text": null,
+        "VP": "5 to 7 birds: 3; 8+ birds: 7",
+        "%": 44,
+        "id": 1005
+    },
+    {
+        "Name": "Breeding Manager",
+        "Expansion": "core",
+        "Automa": null,
+        "Condition": "Birds that have at least 4 eggs laid on them",
+        "Explanatory text": null,
+        "VP": "1 per bird",
+        "%": "28*",
+        "id": 1006
+    },
+    {
+        "Name": "Cartographer",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with geography terms in their name",
+        "Explanatory text": "Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Corsican, Eastern, Eurasian, European, Inca, Mississippi, Moor, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
+        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "%": 21,
+        "id": 1007
+    },
+    {
+        "Name": "Citizen Scientist",
+        "Expansion": "european",
+        "Automa": "X",
+        "Condition": "Birds with tucked cards",
+        "Explanatory text": null,
+        "VP": "4 to 6 birds: 3; 7+ birds: 6",
+        "%": "21*",
+        "id": 1008
+    },
+    {
+        "Name": "Diet Specialist",
+        "Expansion": "european",
+        "Automa": "X",
+        "Condition": "Birds with a food cost of 3 food",
+        "Explanatory text": null,
+        "VP": "2 to 3 birds: 3; 4+ birds: 6",
+        "%": 29,
+        "id": 1009
+    },
+    {
+        "Name": "Ecologist",
+        "Expansion": "core",
+        "Automa": null,
+        "Condition": "Birds in your habitat with the fewest birds.",
+        "Explanatory text": "Ties count.",
+        "VP": "2 per bird",
+        "%": "-",
+        "id": 1010
+    },
+    {
+        "Name": "Enclosure Builder",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with [ground] nests",
+        "Explanatory text": "Birds must have a [ground] or [star] nest symbol.",
+        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "%": 31,
+        "id": 1011
+    },
+    {
+        "Name": "Ethologist",
+        "Expansion": "european",
+        "Automa": null,
+        "Condition": "In any one habitat:",
+        "Explanatory text": "Birds with no power count as white.",
+        "VP": "2 per power color",
+        "%": "-",
+        "id": 1012
+    },
+    {
+        "Name": "Falconer",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with a [predator] power",
+        "Explanatory text": null,
+        "VP": "2 per bird",
+        "%": 13,
+        "id": 1013
+    },
+    {
+        "Name": "Fishery Manager",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat [fish]",
+        "Explanatory text": null,
+        "VP": "2 to 3 birds: 3; 4+ birds: 8",
+        "%": 18,
+        "id": 1014
+    },
+    {
+        "Name": "Food Web Expert",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat only [invertebrate]",
+        "Explanatory text": null,
+        "VP": "2 per bird",
+        "%": 9,
+        "id": 1015
+    },
+    {
+        "Name": "Forester",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that can only live in [forest]",
+        "Explanatory text": null,
+        "VP": "3 to 4 birds: 4; 5 birds: 5",
+        "%": 24,
+        "id": 1016
+    },
+    {
+        "Name": "Historian",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds named after a person",
+        "Explanatory text": "Any bird with an 's in its name.",
+        "VP": "2 per bird",
+        "%": 11,
+        "id": 1017
+    },
+    {
+        "Name": "Large Bird Specialist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with wingspans over 65 cm",
+        "Explanatory text": null,
+        "VP": "4 to 5 birds: 3; 6+ birds: 6",
+        "%": 35,
+        "id": 1018
+    },
+    {
+        "Name": "Nest Box Builder",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with [cavity] nests",
+        "Explanatory text": "Birds must have a [cavity] or [star] nest symbol.",
+        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "%": 31,
+        "id": 1019
+    },
+    {
+        "Name": "Omnivore Specialist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat [wild]",
+        "Explanatory text": "Any bird that specifically has a [wild] symbol as part of its food cost.",
+        "VP": "2 per bird",
+        "%": 16,
+        "id": 1020
+    },
+    {
+        "Name": "Oologist",
+        "Expansion": "core",
+        "Automa": null,
+        "Condition": "Birds that have at least 1 egg laid on them",
+        "Explanatory text": null,
+        "VP": "7 to 8 birds: 3; 9+ birds: 6",
+        "%": "-",
+        "id": 1021
+    },
+    {
+        "Name": "Passerine Specialist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with wingspans 30 cm or less",
+        "Explanatory text": null,
+        "VP": "4 to 5 birds: 3; 6+ birds: 6",
+        "%": 35,
+        "id": 1022
+    },
+    {
+        "Name": "Photographer",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with colors in their names",
+        "Explanatory text": "Colors include ash, black, blue, bronze, brown, cerulean, chestnut, coal, ferruginous, gold, gray, grey, green, honey, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
+        "VP": "4 to 5 brids: 3; 6+ birds: 7",
+        "%": 34,
+        "id": 1023
+    },
+    {
+        "Name": "Platform Builder",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with [platform] nests",
+        "Explanatory text": "Birds must have a [platform] or [star] nest symbol.",
+        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "%": 31,
+        "id": 1024
+    },
+    {
+        "Name": "Prairie Manager",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that can only live in [grassland]",
+        "Explanatory text": null,
+        "VP": "2 to 3 birds: 3; 4+ birds: 8",
+        "%": 19,
+        "id": 1025
+    },
+    {
+        "Name": "Rodentologist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat [rodent]",
+        "Explanatory text": null,
+        "VP": "2 per bird",
+        "%": 15,
+        "id": 1026
+    },
+    {
+        "Name": "Visionary Leader",
+        "Expansion": "core",
+        "Automa": null,
+        "Condition": "Bird cards in hand at end of game",
+        "Explanatory text": null,
+        "VP": "5 to 7 birds: 4; 8+ birds: 7",
+        "%": "-",
+        "id": 1027
+    },
+    {
+        "Name": "Viticulturalist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that eat [fruit]",
+        "Explanatory text": null,
+        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "%": 22,
+        "id": 1028
+    },
+    {
+        "Name": "Wetland Scientist",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds that can only live in [wetland]",
+        "Explanatory text": null,
+        "VP": "3 to 4 birds: 3; 5 birds: 7",
+        "%": 26,
+        "id": 1029
+    },
+    {
+        "Name": "Wildlife Gardener",
+        "Expansion": "core",
+        "Automa": "X",
+        "Condition": "Birds with [bowl] nests",
+        "Explanatory text": "Birds must have a [bowl] or [star] nest symbol.",
+        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "%": 31,
+        "id": 1030
+    },
+    {
+        "Name": "[automa] Autwitcher",
+        "Expansion": "european",
+        "Automa": "X",
+        "Condition": "Birds that are worth 3 or 4 points",
+        "Explanatory text": "The automa keeps up to 2 of them (higher value first).",
+        "VP": "-",
+        "%": 44,
+        "id": 1031
+    },
+    {
+        "Name": "[automa] RASPB Life Fellow",
+        "Expansion": "european",
+        "Automa": "X",
+        "Condition": "Birds that are worth 5, 6, or 7 points",
+        "Explanatory text": "The automa keeps the highest valued one.",
+        "VP": "-",
+        "%": 28,
+        "id": 1032
+    }
+]
