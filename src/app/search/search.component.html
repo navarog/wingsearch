@@ -1,16 +1,23 @@
 <mat-form-field appearance="standard">
-    <mat-label>Name, power, condition</mat-label>
+    <mat-label>Search birds and bonus cards</mat-label>
     <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()">
+    <mat-hint>Use card name or description</mat-hint>
 </mat-form-field>
 <mat-expansion-panel hideToggle>
     <mat-expansion-panel-header>
         <mat-panel-title>
-            
+
         </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-form-field appearance="standard">
-        <mat-label>Applicable bonus card name, condition</mat-label>
-        <input type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()" [matAutocomplete]="auto">
+        <mat-label>Search birds by applicable bonus card</mat-label>
+        <mat-hint>Use bonus card name or condition</mat-hint>
+        <input #bonusInput type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()"
+            [matAutocomplete]="auto">
+        <button mat-icon-button *ngIf="query.bonus" matSuffix mat-icon-button aria-label="Clear"
+            (click)="query.bonus=''; onBonusChange(); onQueryChange()">
+            <mat-icon>close</mat-icon>
+        </button>
         <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onQueryChange()">
             <mat-option *ngFor="let card of filteredBonusCards | async" [value]="card['Name']">
                 {{card['Name']}}

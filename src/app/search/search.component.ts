@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { search, bonusCardSearch } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
@@ -18,8 +18,8 @@ export class SearchComponent implements OnInit {
 
   filteredBonusCards: Observable<BonusCard[]>
 
-  constructor(private store: Store<{app: AppState}>) {
-    this.filteredBonusCards = this.store.select(({app}) => app.activeBonusCards)
+  constructor(private store: Store<{ app: AppState }>) {
+    this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
   }
 
   ngOnInit(): void {

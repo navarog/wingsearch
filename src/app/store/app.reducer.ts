@@ -4,6 +4,7 @@ import { AppState, isBirdCard } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import { birdCardsSearch, bonusCardsSearch } from './cards-search'
+import { bonusSearchMap } from './bonus-search-map'
 
 
 export const initialState: AppState = {
@@ -32,19 +33,29 @@ const reducer = createReducer(
             ]
         })
 
-        const bonusCards = state.search.bonusCards.search({
-            query: action.main, field: [
-                'Name',
-                'Condition',
-                'VP',
-            ]
-        })
-
-        displayedCards = displayedCards.concat(bonusCards)
-
         if (!displayedCards.length && !action.main) {
             // @ts-ignore
             displayedCards = BirdCards.concat(BonusCards)
+        }
+
+        if (action.bonus) {
+            const bonusCards = state.search.bonusCards.search({
+                query: action.bonus, field: 'Name'
+            })
+
+            if (bonusCards.length === 1) {
+                displayedCards = displayedCards.filter(isBirdCard).filter(bonusSearchMap[bonusCards[0].id])
+            }
+        } else {
+            const bonusCards = state.search.bonusCards.search({
+                query: action.main, field: [
+                    'Name',
+                    'Condition',
+                    'VP',
+                ]
+            })
+
+            displayedCards = displayedCards.concat(bonusCards)
         }
 
         return { ...state, displayedCards }
@@ -64,7 +75,7 @@ const reducer = createReducer(
             activeBonusCards = BonusCards
         }
 
-        return {...state, activeBonusCards}
+        return { ...state, activeBonusCards }
     })
 )
 

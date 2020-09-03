@@ -27,5 +27,3 @@ export const bonusCardsSearch = FlexSearch.create({
 })
 
 bonusCardsSearch.add(BonusCards)
-
-
