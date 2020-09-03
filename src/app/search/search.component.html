@@ -1,15 +1,14 @@
-<mat-form-field appearance="standard">
-    <mat-label>Search birds and bonus cards</mat-label>
-    <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()">
-    <mat-hint>Use card name or description</mat-hint>
-</mat-form-field>
-<mat-expansion-panel hideToggle>
-    <mat-expansion-panel-header>
+<mat-expansion-panel>
+    <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
-
+            <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
+                <mat-label>Search birds and bonus cards</mat-label>
+                <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()" (keydown)="onKeyDown($event)">
+                <mat-hint>Use card name or description</mat-hint>
+            </mat-form-field>
         </mat-panel-title>
-    </mat-expansion-panel-header>
-    <mat-form-field appearance="standard">
+     </mat-expansion-panel-header>
+    <mat-form-field class="long-field" appearance="standard">
         <mat-label>Search birds by applicable bonus card</mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
         <input #bonusInput type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()"

@@ -23,72 +23,75 @@ export const bonusSearchMap = {
         return birdCard['Egg capacity'] >= 4
     },
     1007: (birdCard: BirdCard) => {
-        return !!birdCard['Citizen Scientist']
+        return !!birdCard.Cartographer
     },
     1008: (birdCard: BirdCard) => {
-        return !!birdCard['Diet Specialist']
+        return !!birdCard['Citizen Scientist']
     },
     1009: (birdCard: BirdCard) => {
-        return true
+        return !!birdCard['Diet Specialist']
     },
     1010: (birdCard: BirdCard) => {
-        return !!birdCard['Enclosure Builder']
+        return true
     },
     1011: (birdCard: BirdCard) => {
-        return true
+        return !!birdCard['Enclosure Builder']
     },
     1012: (birdCard: BirdCard) => {
-        return !!birdCard.Falconer
-    },
-    1013: (birdCard: BirdCard) => {
-        return !!birdCard['Fishery Manager']
-    },
-    1014: (birdCard: BirdCard) => {
-        return !!birdCard['Food Web Expert']
-    },
-    1015: (birdCard: BirdCard) => {
-        return !!birdCard.Forester
-    },
-    1016: (birdCard: BirdCard) => {
-        return !!birdCard.Historian
-    },
-    1017: (birdCard: BirdCard) => {
-        return !!birdCard['Large Bird Specialist']
-    },
-    1018: (birdCard: BirdCard) => {
-        return !!birdCard['Nest Box Builder']
-    },
-    1019: (birdCard: BirdCard) => {
-        return !!birdCard['Omnivore Expert']
-    },
-    1020: (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] > 0
-    },
-    1021: (birdCard: BirdCard) => {
-        return !!birdCard['Passerine Specialist']
-    },
-    1022: (birdCard: BirdCard) => {
-        return !!birdCard.Photographer
-    },
-    1023: (birdCard: BirdCard) => {
-        return !!birdCard['Platform Builder']
-    },
-    1024: (birdCard: BirdCard) => {
-        return !!birdCard['Prairie Manager']
-    },
-    1025: (birdCard: BirdCard) => {
-        return !!birdCard.Rodentologist
-    },
-    1026: (birdCard: BirdCard) => {
         return true
     },
+    1013: (birdCard: BirdCard) => {
+        return !!birdCard.Falconer
+    },
+    1014: (birdCard: BirdCard) => {
+        return !!birdCard['Fishery Manager']
+    },
+    1015: (birdCard: BirdCard) => {
+        return !!birdCard['Food Web Expert']
+    },
+    1016: (birdCard: BirdCard) => {
+        return !!birdCard.Forester
+    },
+    1017: (birdCard: BirdCard) => {
+        return !!birdCard.Historian
+    },
+    1018: (birdCard: BirdCard) => {
+        return !!birdCard['Large Bird Specialist']
+    },
+    1019: (birdCard: BirdCard) => {
+        return !!birdCard['Nest Box Builder']
+    },
+    1020: (birdCard: BirdCard) => {
+        return !!birdCard['Omnivore Expert']
+    },
+    1021: (birdCard: BirdCard) => {
+        return birdCard['Egg capacity'] > 0
+    },
+    1022: (birdCard: BirdCard) => {
+        return !!birdCard['Passerine Specialist']
+    },
+    1023: (birdCard: BirdCard) => {
+        return !!birdCard.Photographer
+    },
+    1024: (birdCard: BirdCard) => {
+        return !!birdCard['Platform Builder']
+    },
+    1025: (birdCard: BirdCard) => {
+        return !!birdCard['Prairie Manager']
+    },
+    1026: (birdCard: BirdCard) => {
+        return !!birdCard.Rodentologist
+    },
     1027: (birdCard: BirdCard) => {
-        return !!birdCard.Viticulturalist
+        return true
     },
     1028: (birdCard: BirdCard) => {
-        return !!birdCard['Wetland Scientist']
+        return !!birdCard.Viticulturalist
     },
     1029: (birdCard: BirdCard) => {
+        return !!birdCard['Wetland Scientist']
+    },
+    1030: (birdCard: BirdCard) => {
         return !!birdCard['Wildlife Gardener']
     },
     1031: (birdCard: BirdCard) => {

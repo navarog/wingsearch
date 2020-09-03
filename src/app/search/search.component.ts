@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { search, bonusCardSearch } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
@@ -31,5 +31,13 @@ export class SearchComponent implements OnInit {
 
   onBonusChange() {
     this.store.dispatch(bonusCardSearch(this.query))
+  }
+
+  onKeyDown(event: KeyboardEvent) {
+    event.cancelBubble = true
+    console.log(event)
+    if (event.key === ' ') {
+      this.query.bonus += ' '
+    }
   }
 }
