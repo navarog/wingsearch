@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { BonusCard } from '../store/app.interfaces';
+import { Component, OnInit, Input } from '@angular/core'
+import { BonusCard } from '../store/app.interfaces'
 
 @Component({
   selector: 'app-bonus-card',
