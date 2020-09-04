@@ -19,13 +19,15 @@ import { appReducer } from './store/app.reducer'
 import { DisplayComponent } from './display/display.component'
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.component'
+import { ImagePlaceholderDirective } from './image-placeholder.directive'
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchComponent,
     DisplayComponent,
-    BonusCardOptionComponent
+    BonusCardOptionComponent,
+    ImagePlaceholderDirective
   ],
   imports: [
     BrowserModule,
