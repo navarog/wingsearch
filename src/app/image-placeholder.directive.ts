@@ -1,9 +1,11 @@
-import { Directive, ElementRef, Renderer2, Input, AfterViewInit } from '@angular/core'
+import { Directive, ElementRef, Renderer2, Input, AfterViewInit, AfterViewChecked } from '@angular/core'
 
 @Directive({
   selector: '[appImagePlaceholder]',
 })
-export class ImagePlaceholderDirective implements AfterViewInit {
+export class ImagePlaceholderDirective implements AfterViewChecked, AfterViewInit {
+
+  private initialized = false
 
   constructor(
     private elem: ElementRef,
@@ -22,12 +24,19 @@ export class ImagePlaceholderDirective implements AfterViewInit {
 
   private _REMOTE_MARKERS: any[] = ['http', 'msecnd.net', 'yum-resources']
 
-   ngAfterViewInit() {
+  ngAfterViewInit() {
     this.currentElement = this.elem.nativeElement
+  }
+
+  ngAfterViewChecked() {
+    if (this.initialized || this.currentElement.offsetWidth === 0 || this.currentElement.offsetHeight === 0)
+      return
+
     this.transform(this.src)
   }
 
-   transform(asset: string) {
+  transform(asset: string) {
+    this.initialized = true
     const finalImageUrl = asset
     const fallbackImage = this.placeholder ? this.placeholder : ''
     if (!asset || asset === '') {
