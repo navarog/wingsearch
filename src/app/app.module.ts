@@ -4,6 +4,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete'
 import { MatButtonModule } from '@angular/material/button'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { MatFormFieldModule } from '@angular/material/form-field'
+import { MatGridListModule } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 
@@ -17,9 +18,10 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools'
 import { environment } from '../environments/environment'
 import { appReducer } from './store/app.reducer'
 import { DisplayComponent } from './display/display.component'
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.component'
-import { ImagePlaceholderDirective } from './image-placeholder.directive'
+import { BirdCardComponent } from './bird-card/bird-card.component'
+import { BonusCardComponent } from './bonus-card/bonus-card.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ import { ImagePlaceholderDirective } from './image-placeholder.directive'
     SearchComponent,
     DisplayComponent,
     BonusCardOptionComponent,
-    ImagePlaceholderDirective
+    BirdCardComponent,
+    BonusCardComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +41,7 @@ import { ImagePlaceholderDirective } from './image-placeholder.directive'
     MatButtonModule,
     MatExpansionModule,
     MatFormFieldModule,
+    MatGridListModule,
     MatIconModule,
     MatInputModule,
     ReactiveFormsModule,

@@ -12,12 +12,22 @@ export class DisplayComponent implements OnInit {
 
   cards: Observable<(BirdCard | BonusCard)[]>
 
+  private readonly CARD_MINIMUM_WIDTH = 165
+
+  private readonly MAX_DISPLAY_COLUMNS = 6
+
   constructor(private store: Store<{ app: AppState }>) {
     this.cards = this.store.select(({ app }) => app.displayedCards)
   }
 
-  ngOnInit(): void {
+  columns: number
 
+  ngOnInit(): void {
+    this.columns = this.calculateColumns(window.innerWidth)
+  }
+
+  private calculateColumns(width): number {
+    return Math.min(Math.floor(width / this.CARD_MINIMUM_WIDTH), this.MAX_DISPLAY_COLUMNS)
   }
 
   isBirdCard(card: BirdCard | BonusCard): card is BirdCard {
@@ -28,4 +38,7 @@ export class DisplayComponent implements OnInit {
     return isBonusCard(card)
   }
 
+  onResize(event) {
+    this.columns = this.calculateColumns(event.target.innerWidth)
+  }
 }
