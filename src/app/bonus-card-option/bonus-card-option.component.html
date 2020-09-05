@@ -4,11 +4,9 @@
         onerror="this.style.display='none'" alt="{{card.Name}} bonus card" loading="lazy">
     </div>
     <div class="description-container">
-        <div class="name">
-            {{card.Name}}
+        <div class="name" [innerHTML]="card.Name | iconize">
         </div>
-        <div class="description">
-            {{card.Condition}}
+        <div class="description" [innerHTML]="card.Condition | iconize">
         </div>
         <div class="explanation" *ngIf="card['Explanatory text']">
             {{card['Explanatory text']}}

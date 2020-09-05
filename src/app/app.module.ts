@@ -4,7 +4,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete'
 import { MatButtonModule } from '@angular/material/button'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { MatFormFieldModule } from '@angular/material/form-field'
-import { MatGridListModule } from '@angular/material/grid-list';
+import { MatGridListModule } from '@angular/material/grid-list'
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 
@@ -22,6 +22,8 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.component'
 import { BirdCardComponent } from './bird-card/bird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
+import { HttpClientModule } from '@angular/common/http'
+import { IconizePipe } from './iconize.pipe'
 
 @NgModule({
   declarations: [
@@ -30,13 +32,15 @@ import { BonusCardComponent } from './bonus-card/bonus-card.component'
     DisplayComponent,
     BonusCardOptionComponent,
     BirdCardComponent,
-    BonusCardComponent
+    BonusCardComponent,
+    IconizePipe
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatExpansionModule,
