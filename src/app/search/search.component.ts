@@ -35,7 +35,6 @@ export class SearchComponent implements OnInit {
 
   onKeyDown(event: KeyboardEvent) {
     event.cancelBubble = true
-    console.log(event)
     if (event.key === ' ') {
       this.query.bonus += ' '
     }
