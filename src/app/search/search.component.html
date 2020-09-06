@@ -2,14 +2,21 @@
     <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
             <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
-                <mat-label>Search birds and bonus cards</mat-label>
-                <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()" (keydown)="onKeyDown($event)">
+                <mat-label>
+                    <img class="input-image" src="../../assets/icons/png/flocking.png" aria-hidden="true">
+                    Search birds and bonus cards
+                </mat-label>
+                <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()"
+                    (keydown)="onKeyDown($event)">
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
         </mat-panel-title>
-     </mat-expansion-panel-header>
+    </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
-        <mat-label>Search birds by applicable bonus card</mat-label>
+        <mat-label>
+            <img class="input-image" src="../../assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
+            Search birds by applicable bonus card
+        </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
         <input #bonusInput type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()"
             [matAutocomplete]="auto">
@@ -18,7 +25,8 @@
             <mat-icon>close</mat-icon>
         </button>
         <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onQueryChange()">
-            <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async" [value]="card['Name']">
+            <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
+                [value]="card['Name']">
                 <app-bonus-card-option [card]="card"></app-bonus-card-option>
             </mat-option>
         </mat-autocomplete>
