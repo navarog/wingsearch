@@ -8,7 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles & cp docs/index.html docs/404.html"
+    "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles & cp docs/index.html docs/404.html",
+    "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles & cp dist/wingsearch/index.html dist/wingsearch/404.html"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,7 @@
     "@angular/platform-browser": "~9.1.12",
     "@angular/platform-browser-dynamic": "~9.1.12",
     "@angular/router": "~9.1.12",
+    "@angular/service-worker": "~9.1.12",
     "@ngrx/effects": "^10.0.0",
     "@ngrx/router-store": "^10.0.0",
     "@ngrx/store": "^10.0.0",

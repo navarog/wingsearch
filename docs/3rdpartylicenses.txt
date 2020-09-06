@@ -91,6 +91,9 @@ MIT
 @angular/router
 MIT
 
+@angular/service-worker
+MIT
+
 @ngrx/router-store
 MIT
 

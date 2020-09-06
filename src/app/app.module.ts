@@ -24,6 +24,7 @@ import { BirdCardComponent } from './bird-card/bird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
 import { HttpClientModule } from '@angular/common/http'
 import { IconizePipe } from './iconize.pipe'
+import { ServiceWorkerModule } from '@angular/service-worker'
 
 @NgModule({
   declarations: [
@@ -52,6 +53,7 @@ import { IconizePipe } from './iconize.pipe'
     StoreModule.forRoot({app: appReducer, router: routerReducer}, {}),
     StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
   bootstrap: [AppComponent]
