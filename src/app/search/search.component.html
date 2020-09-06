@@ -3,7 +3,7 @@
         <mat-panel-title>
             <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
                 <mat-label>
-                    <img class="input-image" src="../../assets/icons/png/flocking.png" aria-hidden="true">
+                    <img class="input-image" src="assets/icons/png/flocking.png" aria-hidden="true">
                     Search birds and bonus cards
                 </mat-label>
                 <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()"
@@ -14,7 +14,7 @@
     </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
         <mat-label>
-            <img class="input-image" src="../../assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
+            <img class="input-image" src="assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
             Search birds by applicable bonus card
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
