@@ -18,6 +18,7 @@ export interface BirdCard {
     Color: Color | null
     PowerCategory: PowerCategory | null
     'Power text': null | string
+    Note: null | string
     Predator: string | null
     Flocking: string | null
     'Bonus card': string | null
@@ -117,6 +118,7 @@ export interface BonusCard {
     'Explanatory text': null | string
     VP: string
     '%': number | string
+    Note: null | string
     isBirdCard: () => false
     isBonusCard: () => true
 }
