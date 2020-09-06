@@ -1,11 +1,26 @@
 import { createReducer, on } from '@ngrx/store'
 import * as appActions from './app.actions'
-import { AppState, isBirdCard } from './app.interfaces'
+import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import { birdCardsSearch, bonusCardsSearch } from './cards-search'
 import { bonusSearchMap } from './bonus-search-map'
 
+
+const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
+
+    const birdCards = cards.filter(isBirdCard).length
+    const bonusCards = cards.filter(isBonusCard).length
+
+    const habitat = cards.filter(isBirdCard).reduce((acc, val: BirdCard) => {
+        acc.forest += val.Forest ? 1 : 0
+        acc.grassland += val.Grassland ? 1 : 0
+        acc.wetland += val.Wetland ? 1 : 0
+        return acc
+    }, { forest: 0, grassland: 0, wetland: 0 })
+
+    return { birdCards, bonusCards, habitat }
+}
 
 export const initialState: AppState = {
     // @ts-ignore
@@ -20,6 +35,8 @@ export const initialState: AppState = {
     displayedCards: BirdCards.concat(BonusCards),
     // @ts-ignore
     activeBonusCards: BonusCards,
+    // @ts-ignore
+    displayedStats: calculateDisplayedStats(BirdCards.concat(BonusCards)),
 }
 
 const reducer = createReducer(
@@ -58,7 +75,7 @@ const reducer = createReducer(
             displayedCards = displayedCards.concat(bonusCards)
         }
 
-        return { ...state, displayedCards }
+        return { ...state, displayedCards, displayedStats: calculateDisplayedStats(displayedCards) }
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {

@@ -1,9 +1,11 @@
 mat-panel-title > mat-form-field {
     margin-bottom: 20px;
+    width: 300px;
+    margin-right: 16px;
 }
 
-mat-panel-title > mat-form-field {
-    width: 300px;
+mat-panel-title {
+    justify-content: space-between;
 }
 
 .long-field {

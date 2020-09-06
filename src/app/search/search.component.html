@@ -1,4 +1,4 @@
-<mat-expansion-panel>
+<mat-expansion-panel (window:resize)="onResize()">
     <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
             <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
@@ -10,6 +10,7 @@
                     (keydown)="onKeyDown($event)">
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
+            <app-stats *ngIf="canFitStats" [mobile]="false"></app-stats>
         </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
@@ -31,4 +32,5 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
+    <app-stats *ngIf="!canFitStats" [mobile]="true"></app-stats>
 </mat-expansion-panel>

@@ -1,5 +1,5 @@
 <mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)">
-    <mat-grid-tile *ngFor="let card of cards | async">
+    <mat-grid-tile *ngFor="let card of cards$ | async">
         <div *ngIf="isBirdCard(card)" class="fill-parent">
             <app-bird-card [card]="card"></app-bird-card>
         </div>

@@ -10,14 +10,14 @@ import { Observable } from 'rxjs'
 })
 export class DisplayComponent implements OnInit {
 
-  cards: Observable<(BirdCard | BonusCard)[]>
+  cards$: Observable<(BirdCard | BonusCard)[]>
 
   private readonly CARD_MINIMUM_WIDTH = 165
 
   private readonly MAX_DISPLAY_COLUMNS = 6
 
   constructor(private store: Store<{ app: AppState }>) {
-    this.cards = this.store.select(({ app }) => app.displayedCards)
+    this.cards$ = this.store.select(({ app }) => app.displayedCards)
   }
 
   columns: number

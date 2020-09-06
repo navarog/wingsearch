@@ -1,0 +1,24 @@
+<div class="stats-container" [ngClass]="{mobile: mobile}" *ngIf="stats$ | async as stats">
+    <span class="stats-entry">
+        {{stats.bonusCards}}
+        <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
+    </span>
+    <span class="stats-entry">
+        {{stats.birdCards}}
+        <img src="assets/icons/png/bird.png" alt="birds">
+    </span>
+    <div class="habitat-container" [ngClass]="{mobile: mobile}">
+        <span class="stats-entry">
+            {{stats.habitat.forest}}
+            <img src="assets/icons/png/forest.png" alt="birds">
+        </span>
+        <span class="stats-entry">
+            {{stats.habitat.grassland}}
+            <img src="assets/icons/png/grassland.png" alt="birds">
+        </span>
+        <span class="stats-entry">
+            {{stats.habitat.wetland}}
+            <img src="assets/icons/png/wetland.png" alt="birds">
+        </span>
+    </div>
+</div>

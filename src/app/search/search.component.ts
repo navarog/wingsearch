@@ -20,11 +20,14 @@ export class SearchComponent implements OnInit {
 
   filteredBonusCards: Observable<BonusCard[]>
 
+  canFitStats: boolean
+
   constructor(private store: Store<{ app: AppState }>) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
   }
 
   ngOnInit(): void {
+    this.canFitStats = window.innerWidth >= 600
   }
 
   onQueryChange() {
@@ -42,5 +45,9 @@ export class SearchComponent implements OnInit {
     if (event.key === ' ') {
       this.query.bonus += ' '
     }
+  }
+
+  onResize() {
+    this.canFitStats = window.innerWidth >= 600
   }
 }

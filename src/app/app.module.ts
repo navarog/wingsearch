@@ -24,7 +24,8 @@ import { BirdCardComponent } from './bird-card/bird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
 import { HttpClientModule } from '@angular/common/http'
 import { IconizePipe } from './iconize.pipe'
-import { ServiceWorkerModule } from '@angular/service-worker'
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { StatsComponent } from './stats/stats.component'
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ServiceWorkerModule } from '@angular/service-worker'
     BonusCardOptionComponent,
     BirdCardComponent,
     BonusCardComponent,
-    IconizePipe
+    IconizePipe,
+    StatsComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,7 @@ export interface AppState {
     }
     displayedCards: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
+    displayedStats: DisplayedStats
 }
 
 export interface BirdCard {
@@ -127,4 +128,14 @@ export function isBonusCard(object: any): object is BonusCard {
 export enum Expansion {
     Core = 'core',
     European = 'european',
+}
+
+export interface DisplayedStats {
+    birdCards: number
+    bonusCards: number
+    habitat: {
+        forest: number
+        grassland: number
+        wetland: number
+    }
 }
