@@ -16,6 +16,8 @@ export class SearchComponent implements OnInit {
     bonus: '',
   }
 
+  bonusfield = ''
+
   filteredBonusCards: Observable<BonusCard[]>
 
   constructor(private store: Store<{ app: AppState }>) {
@@ -30,7 +32,9 @@ export class SearchComponent implements OnInit {
   }
 
   onBonusChange() {
-    this.store.dispatch(bonusCardSearch(this.query))
+    this.query.bonus = ''
+    this.onQueryChange()
+    this.store.dispatch(bonusCardSearch({ bonus: this.bonusfield }))
   }
 
   onKeyDown(event: KeyboardEvent) {

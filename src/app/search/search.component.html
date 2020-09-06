@@ -18,13 +18,13 @@
             Search birds by applicable bonus card
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
-        <input #bonusInput type="text" matInput [(ngModel)]="query.bonus" (ngModelChange)="onBonusChange()"
+        <input #bonusInput type="text" matInput [(ngModel)]="bonusfield" (ngModelChange)="onBonusChange()"
             [matAutocomplete]="auto">
-        <button mat-icon-button *ngIf="query.bonus" matSuffix mat-icon-button aria-label="Clear"
-            (click)="query.bonus=''; onBonusChange(); onQueryChange()">
+        <button mat-icon-button *ngIf="bonusfield" matSuffix mat-icon-button aria-label="Clear"
+            (click)="bonusfield=''; query.bonus=''; onBonusChange(); onQueryChange()">
             <mat-icon>close</mat-icon>
         </button>
-        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="onQueryChange()">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="query.bonus = bonusfield; onQueryChange()">
             <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
                 [value]="card['Name']">
                 <app-bonus-card-option [card]="card"></app-bonus-card-option>
