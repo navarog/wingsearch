@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser'
 import { NgModule } from '@angular/core'
 import { MatAutocompleteModule } from '@angular/material/autocomplete'
 import { MatButtonModule } from '@angular/material/button'
+import { MatCardModule } from '@angular/material/card'
+import { MatDialogModule } from '@angular/material/dialog'
 import { MatExpansionModule } from '@angular/material/expansion'
 import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatGridListModule } from '@angular/material/grid-list'
@@ -24,8 +26,9 @@ import { BirdCardComponent } from './bird-card/bird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
 import { HttpClientModule } from '@angular/common/http'
 import { IconizePipe } from './iconize.pipe'
-import { ServiceWorkerModule } from '@angular/service-worker';
+import { ServiceWorkerModule } from '@angular/service-worker'
 import { StatsComponent } from './stats/stats.component'
+import { CardDetailComponent } from './card-detail/card-detail.component'
 
 @NgModule({
   declarations: [
@@ -36,7 +39,8 @@ import { StatsComponent } from './stats/stats.component'
     BirdCardComponent,
     BonusCardComponent,
     IconizePipe,
-    StatsComponent
+    StatsComponent,
+    CardDetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -46,18 +50,21 @@ import { StatsComponent } from './stats/stats.component'
     HttpClientModule,
     MatAutocompleteModule,
     MatButtonModule,
+    MatCardModule,
+    MatDialogModule,
     MatExpansionModule,
     MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
     MatInputModule,
     ReactiveFormsModule,
-    StoreModule.forRoot({app: appReducer, router: routerReducer}, {}),
+    StoreModule.forRoot({ app: appReducer, router: routerReducer }, {}),
     StoreRouterConnectingModule.forRoot(),
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [CardDetailComponent]
 })
 export class AppModule { }

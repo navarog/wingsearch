@@ -39,6 +39,18 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     bottom: -4px;
 }
 
+.card-detail-panel {
+    max-width: min(700px, 80vw)!important;
+
+    .mat-dialog-container {
+        background-color: unset;
+        padding: 0;
+        border-radius: 0;
+        box-shadow: none;
+        overflow-x: hidden;
+    }
+}
+
 @media screen and (min-width: 600px) {
     .bonus-card-option {
         height: 128px!important;

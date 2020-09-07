@@ -1,0 +1,79 @@
+.detail-container {
+    display: flex;
+}
+
+.detail-container.mobile {
+    flex-direction: column;
+    max-height: 100vh;
+
+    .data-container {
+        margin-bottom: 20px;
+    }
+}
+
+.detail-container > * {
+    flex: 1 1 0px
+}
+
+.data-container {
+    border-radius: 15px;
+    min-width: 185px;
+}
+
+.detail-container > div {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.detail-container.mobile > div {
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.Brown {
+    background-image: url('../../assets/cards/backgrounds/Brown.png');
+}
+
+.Pink {
+    background-image: url('../../assets/cards/backgrounds/Pink.png');
+}
+
+.White {
+    background-image: url('../../assets/cards/backgrounds/White.png');
+    background-position-y: -350px;
+}
+
+.Teal {
+    background-image: url('../../assets/cards/backgrounds/Teal.png');
+}
+
+.image {
+    width: 100%;
+    border-radius: 8px;
+    max-width: 300px;
+    border-radius: 15px;
+    width: max-content;
+}
+
+.mobile .image {
+    max-width: 80vw;
+}
+
+.title {
+    font-family: CardenioModernBold, Arial, Helvetica;
+    font-size: 22px;
+}
+
+.scientific { 
+    font-family: ThirstyRoughLt, Arial, Helvetica;
+    color: #666666;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.note {
+    font-family: FuturaLight, Arial, Helvetica;
+    font-style: italic;
+}

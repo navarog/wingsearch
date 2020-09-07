@@ -1,0 +1,20 @@
+<div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
+    <div *ngIf="isBonusCard(data.card)">
+        <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Name']}} bird card"
+            loading="lazy">
+    </div>
+    <div *ngIf="isBirdCard(data.card)">
+        <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg" alt="{{data.card['Common name']}} bird card"
+            loading="lazy">
+    </div>
+    <mat-card class="data-container" *ngIf="isBirdCard(data.card)" [ngClass]="data.card['Color'] || 'White'">
+        <div class="title">
+            {{data.card['Common name']}}
+        </div>
+        <div class="scientific">
+            {{data.card['Scientific name']}}
+        </div>
+        <p class="power" [innerHTML]="data.card['Power text'] | iconize"></p>
+        <p class="note" [innerHTML]="data.card.Note | iconize"></p>
+    </mat-card>
+</div>
