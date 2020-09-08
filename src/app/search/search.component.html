@@ -21,7 +21,7 @@
         <mat-hint>Use bonus card name or condition</mat-hint>
         <input #bonusInput type="text" matInput [(ngModel)]="bonusfield" (ngModelChange)="onBonusChange()"
             [matAutocomplete]="auto">
-        <button mat-icon-button *ngIf="bonusfield" matSuffix mat-icon-button aria-label="Clear"
+        <button mat-icon-button *ngIf="bonusfield" matSuffix aria-label="Clear"
             (click)="bonusfield=''; query.bonus=''; onBonusChange(); onQueryChange()">
             <mat-icon>close</mat-icon>
         </button>

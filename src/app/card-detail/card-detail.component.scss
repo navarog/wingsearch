@@ -77,3 +77,14 @@
     font-family: FuturaLight, Arial, Helvetica;
     font-style: italic;
 }
+
+button {
+    position: absolute;
+    top: 0px;
+    right: 6px;
+
+    mat-icon {
+        font-size: 36px;
+        width: 36px;
+    }
+}

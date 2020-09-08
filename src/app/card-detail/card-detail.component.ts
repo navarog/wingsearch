@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Inject } from '@angular/core'
+import { Component, OnInit, Inject } from '@angular/core'
 import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 
