@@ -66,6 +66,20 @@
     font-size: 22px;
 }
 
+.bonus.title {
+    font-family: DarbogBold, Arial, Helvetica;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.bonus.data-container {
+    background-color: #edf0e7;
+}
+
+.large-font {
+    font-size: large
+}
+
 .scientific { 
     font-family: ThirstyRoughLt, Arial, Helvetica;
     color: #666666;
@@ -80,11 +94,13 @@
 
 button {
     position: absolute;
-    top: 0px;
+    top: 6px;
     right: 6px;
 
     mat-icon {
         font-size: 36px;
         width: 36px;
+        color: white;
+        opacity: 0.5;
     }
 }
