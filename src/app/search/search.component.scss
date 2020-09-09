@@ -1,3 +1,10 @@
+@media screen and (min-width: 850px) {
+    mat-expansion-panel {
+        max-width: 700px;
+        margin: 0 auto 40vh auto;
+    }
+}
+
 mat-panel-title > mat-form-field {
     margin-bottom: 20px;
     width: 300px;

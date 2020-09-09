@@ -28,8 +28,44 @@ $wingsearch-theme: mat-light-theme($wingsearch-primary, $wingsearch-accent, $win
 
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html, body, .flycatcher { height: 100%; }
+
+body { 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-image: url('assets/background.png');
+    background-size: cover;
+}
+
+.flycatcher {
+    background-image: url('assets/flycatcher.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.wingsearch-title {
+    display: none;
+}
+
+@media screen and (min-width: 850px) {
+    .flycatcher {
+        padding-top: 6vh;
+        background-position-y: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .wingsearch-title {
+        display: unset;
+        font-family: CardenioModernBold, Arial, sans-serif;
+        color: white;
+        font-size: 140px;
+        line-height: 140px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 3vh;
+    }
+}
 
 .icon-image {
     max-width: 18px;
@@ -86,4 +122,9 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @font-face {
     font-family: FuturaLight;
     src: url('assets/fonts/Futura-Light.otf') format("opentype");
+}
+
+@font-face {
+    font-family: FuturaCondensed;
+    src: url('assets/fonts/Futura-Condensed-Regular.otf') format("opentype");
 }
