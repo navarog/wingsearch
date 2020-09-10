@@ -14,6 +14,11 @@ export class SearchComponent implements OnInit {
   query = {
     main: '',
     bonus: '',
+    habitat: {
+      forest: true,
+      grassland: true,
+      wetland: true
+    }
   }
 
   bonusfield = ''
@@ -49,5 +54,10 @@ export class SearchComponent implements OnInit {
 
   onResize() {
     this.canFitStats = window.innerWidth >= 600
+  }
+
+  onStatsChange(habitatControls) {
+    this.query.habitat = habitatControls
+    this.onQueryChange()
   }
 }

@@ -75,7 +75,13 @@ const reducer = createReducer(
             displayedCards = displayedCards.concat(bonusCards)
         }
 
-        return { ...state, displayedCards, displayedStats: calculateDisplayedStats(displayedCards) }
+        const displayedStats = calculateDisplayedStats(displayedCards)
+
+        displayedCards = displayedCards.filter(card => isBonusCard(card) || (action.habitat.forest && card.Forest)
+            || (action.habitat.grassland && card.Grassland) || (action.habitat.wetland && card.Wetland)
+        )
+
+        return { ...state, displayedCards, displayedStats }
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {

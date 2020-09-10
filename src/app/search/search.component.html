@@ -14,7 +14,7 @@
                 </button>
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
-            <app-stats *ngIf="canFitStats" [mobile]="false"></app-stats>
+            <app-stats *ngIf="canFitStats" [mobile]="false" [habitatControls]="query.habitat" (statsChange)="onStatsChange($event)"></app-stats>
         </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
@@ -37,5 +37,5 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
-    <app-stats *ngIf="!canFitStats" [mobile]="true"></app-stats>
+    <app-stats *ngIf="!canFitStats" [mobile]="true" [habitatControls]="query.habitat" (statsChange)="onStatsChange($event)"></app-stats>
 </mat-expansion-panel>

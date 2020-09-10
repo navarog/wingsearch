@@ -8,15 +8,15 @@
         <img src="assets/icons/png/bird.png" alt="birds">
     </span>
     <div class="habitat-container" [ngClass]="{mobile: mobile}">
-        <span class="stats-entry">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.forest}" (click)="toggleStats('forest', $event)">
             {{stats.habitat.forest}}
             <img src="assets/icons/png/forest.png" alt="birds">
         </span>
-        <span class="stats-entry">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.grassland}" (click)="toggleStats('grassland', $event)">
             {{stats.habitat.grassland}}
             <img src="assets/icons/png/grassland.png" alt="birds">
         </span>
-        <span class="stats-entry">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.wetland}" (click)="toggleStats('wetland', $event)">
             {{stats.habitat.wetland}}
             <img src="assets/icons/png/wetland.png" alt="birds">
         </span>
