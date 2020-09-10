@@ -18,6 +18,11 @@
 .data-container {
     border-radius: 15px;
     min-width: 185px;
+    overflow-y: scroll;
+}
+
+.mobile .data-container {
+    overflow-y: unset;
 }
 
 .detail-container > div {
@@ -57,10 +62,17 @@
 
 .image-container {
     max-width: min(300px, 43vh);
+}    
+
+@media screen and (max-height: 450px) {
+    .image-container {
+        max-width: 61.75vh;
+    }
 }
+
 .mobile .image-container {
     max-width: 80vw
-}
+}    
 
 .title {
     font-family: CardenioModernBold, Arial, Helvetica;
