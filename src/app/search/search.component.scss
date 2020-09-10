@@ -3,6 +3,10 @@
         max-width: 700px;
         margin: 0 auto 40vh auto;
     }
+
+    mat-expansion-panel.mat-expanded {
+        margin: 0 auto 18vh auto;
+    }
 }
 
 mat-panel-title > mat-form-field {
@@ -50,4 +54,71 @@ mat-panel-title {
 .clickable {
     cursor: pointer;
     display: flex;
+    min-width: 100px;
+}
+
+::ng-deep {
+    .custom-slider .ng5-slider {
+        margin: 10px 0 18px;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-bar {
+        background: #cecece;
+        height: 2px;
+        width: calc(100% - 8px);
+        margin-left: 8px;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-selection {
+        background: #666666;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-pointer {
+        width: 12px;
+        height: 12px;
+        top: auto;
+        bottom: -3px;
+        background-color: #666666;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-pointer:after {
+        display: none;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-bubble {
+        bottom: 14px;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-limit {
+        font-weight: bold;
+        color: #666666;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-tick {
+        width: 8px;
+        height: 8px;
+        margin-left: 4px;
+        background: #cecece;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-tick-value { 
+        top: unset;
+        color: #666666;
+        font-family: DarbogBold;
+    }
+
+    .custom-slider .ng5-slider .ng5-slider-tick.ng5-slider-selected {
+       background: #666666;
+    }
+}
+
+.custom-slider {
+    width: 100%;
+    width: -webkit-fill-available;
+}
+
+.slider-wrapper {
+    display: flex;
+    height: 40px;
+    flex: 1 1 auto;
 }

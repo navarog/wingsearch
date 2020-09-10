@@ -7,7 +7,7 @@
         {{stats.birdCards}}
         <img src="assets/icons/png/bird.png" alt="birds">
     </span>
-    <div class="habitat-container" [ngClass]="{mobile: mobile}">
+    <div class="habitat-container" [ngClass]="{mobile: mobile}" matTooltip="Filter birds that can live in a specific habitat">
         <span class="stats-entry" [ngClass]="{inactive: !habitatControls.forest}" (click)="toggleStats('forest', $event)">
             {{stats.habitat.forest}}
             <img src="assets/icons/png/forest.png" alt="birds">

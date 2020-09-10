@@ -82,7 +82,15 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Origin) || allowedExpansions.includes(card.Expansion)
+            allowedExpansions.includes(card.Expansion)
+        )
+
+        displayedCards = displayedCards.filter(card =>
+            isBonusCard(card) || (action.eggs.min <= card['Egg capacity'] && action.eggs.max >= card['Egg capacity'])
+        )
+
+        displayedCards = displayedCards.filter(card =>
+            isBonusCard(card) || (action.points.min <= card['Victory points'] && action.points.max >= card['Victory points'])
         )
 
         const displayedStats = calculateDisplayedStats(displayedCards)

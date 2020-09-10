@@ -9,6 +9,8 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
+import { MatTooltipModule } from '@angular/material/tooltip'
+import { Ng5SliderModule } from 'ng5-slider'
 
 import { AppRoutingModule } from './app-routing.module'
 import { AppComponent } from './app.component'
@@ -57,6 +59,8 @@ import { CardDetailComponent } from './card-detail/card-detail.component'
     MatGridListModule,
     MatIconModule,
     MatInputModule,
+    MatTooltipModule,
+    Ng5SliderModule,
     ReactiveFormsModule,
     StoreModule.forRoot({ app: appReducer, router: routerReducer }, {}),
     StoreRouterConnectingModule.forRoot(),

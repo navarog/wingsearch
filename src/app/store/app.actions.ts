@@ -10,6 +10,14 @@ export const search = createAction('[App] Search', props<{
     },
     expansion: {
         european: boolean
+    },
+    eggs: {
+        min: number,
+        max: number
+    },
+    points: {
+        min: number,
+        max: number
     }
 }>()
 )

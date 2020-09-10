@@ -14,7 +14,7 @@ export interface BirdCard {
     id: number
     'Common name': string
     'Scientific name': string
-    Origin: Origin
+    Expansion: Expansion
     Color: Color | null
     PowerCategory: PowerCategory | null
     'Power text': null | string
@@ -87,13 +87,6 @@ export enum NestType {
     Wild = 'Wild',
 }
 
-export enum Origin {
-    Chinesepromo = 'chinesepromo',
-    European = 'european',
-    Originalcore = 'originalcore',
-    Swiftstart = 'swiftstart',
-}
-
 export enum PowerCategory {
     CachingFood = 'Caching Food',
     CardDrawing = 'Card-drawing',
@@ -130,6 +123,9 @@ export function isBonusCard(object: any): object is BonusCard {
 export enum Expansion {
     Core = 'core',
     European = 'european',
+    Originalcore = 'originalcore',
+    Chinesepromo = 'chinesepromo',
+    Swiftstart = 'swiftstart',
 }
 
 export interface DisplayedStats {
