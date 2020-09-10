@@ -81,7 +81,9 @@ const reducer = createReducer(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, ALLWAYS_ALLOWED_EXPANSIONS
         )
 
-        displayedCards = displayedCards.filter(card => allowedExpansions.includes(card['Origin']) || allowedExpansions.includes(card['Expansion']))
+        displayedCards = displayedCards.filter(card =>
+            allowedExpansions.includes(card.Origin) || allowedExpansions.includes(card.Expansion)
+        )
 
         const displayedStats = calculateDisplayedStats(displayedCards)
 
