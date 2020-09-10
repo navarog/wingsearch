@@ -8,6 +8,10 @@
                 </mat-label>
                 <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()"
                     (keydown)="onKeyDown($event)">
+                <button mat-icon-button *ngIf="query.main" matSuffix aria-label="Clear"
+                    (click)="query.main=''; onQueryChange()">
+                    <mat-icon>close</mat-icon>
+                </button>
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
             <app-stats *ngIf="canFitStats" [mobile]="false"></app-stats>
@@ -25,7 +29,8 @@
             (click)="bonusfield=''; query.bonus=''; onBonusChange(); onQueryChange()">
             <mat-icon>close</mat-icon>
         </button>
-        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="query.bonus = bonusfield; onQueryChange()">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+            (optionSelected)="query.bonus = bonusfield; onQueryChange()">
             <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
                 [value]="card['Name']">
                 <app-bonus-card-option [card]="card"></app-bonus-card-option>
