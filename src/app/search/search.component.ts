@@ -18,6 +18,9 @@ export class SearchComponent implements OnInit {
       forest: true,
       grassland: true,
       wetland: true
+    },
+    expansion: {
+      european: true
     }
   }
 
@@ -42,7 +45,7 @@ export class SearchComponent implements OnInit {
   onBonusChange() {
     this.query.bonus = ''
     this.onQueryChange()
-    this.store.dispatch(bonusCardSearch({ bonus: this.bonusfield }))
+    this.store.dispatch(bonusCardSearch({ bonus: this.bonusfield, expansion: this.query.expansion }))
   }
 
   onKeyDown(event: KeyboardEvent) {
@@ -58,6 +61,19 @@ export class SearchComponent implements OnInit {
 
   onStatsChange(habitatControls) {
     this.query.habitat = habitatControls
+    this.onQueryChange()
+  }
+
+  clearFilter() {
+    this.query = { ...this.query, main: '', bonus: '', habitat: { forest: true, grassland: true, wetland: true } }
+    this.bonusfield = ''
+    this.onBonusChange()
+    this.onQueryChange()
+  }
+
+  toggleExpansion(expansion: 'european') {
+    this.query = { ...this.query, expansion: {...this.query.expansion, [expansion]: !this.query.expansion[expansion]}}
+    this.onBonusChange()
     this.onQueryChange()
   }
 }

@@ -14,7 +14,8 @@
                 </button>
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
-            <app-stats *ngIf="canFitStats" [mobile]="false" [habitatControls]="query.habitat" (statsChange)="onStatsChange($event)"></app-stats>
+            <app-stats *ngIf="canFitStats" [mobile]="false" [habitatControls]="query.habitat"
+                (statsChange)="onStatsChange($event)"></app-stats>
         </mat-panel-title>
     </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
@@ -37,5 +38,19 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
-    <app-stats *ngIf="!canFitStats" [mobile]="true" [habitatControls]="query.habitat" (statsChange)="onStatsChange($event)"></app-stats>
+    <div class="row">
+        <span class="clickable" [ngClass]="{inactive: !query.expansion.european}"
+            (click)="toggleExpansion('european');">
+            <img class="expansion-image" src="assets/icons/png/european.png" aria-hidden="false"
+                aria-label="Toggle european expansion">
+            <div class="description"> European expansion</div>
+        </span>
+    </div>
+    <div class="row">
+        <button mat-raised-button color="primary" aria-label="Reset all filters" (click)="clearFilter()">
+            Reset <mat-icon>filter_alt</mat-icon>
+        </button>
+    </div>
+    <app-stats *ngIf="!canFitStats" [mobile]="true" [habitatControls]="query.habitat"
+        (statsChange)="onStatsChange($event)"></app-stats>
 </mat-expansion-panel>

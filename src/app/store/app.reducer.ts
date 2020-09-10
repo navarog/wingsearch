@@ -7,6 +7,8 @@ import { birdCardsSearch, bonusCardsSearch } from './cards-search'
 import { bonusSearchMap } from './bonus-search-map'
 
 
+const ALLWAYS_ALLOWED_EXPANSIONS = ['originalcore', 'core', 'swiftstart']
+
 const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
 
     const birdCards = cards.filter(isBirdCard).length
@@ -74,6 +76,12 @@ const reducer = createReducer(
 
             displayedCards = displayedCards.concat(bonusCards)
         }
+
+        const allowedExpansions = Object.entries(action.expansion).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, ALLWAYS_ALLOWED_EXPANSIONS
+        )
+
+        displayedCards = displayedCards.filter(card => allowedExpansions.includes(card['Origin']) || allowedExpansions.includes(card['Expansion']))
 
         const displayedStats = calculateDisplayedStats(displayedCards)
 

@@ -22,3 +22,32 @@ mat-panel-title {
 .input-image {
     height: 15.5px;
 }
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.expansion-image {
+    max-height: 40px;
+}
+
+.description {
+    font-family: CardenioModernBold, Arial, Helvetica;
+    color: #666666;
+    font-size: larger;
+    white-space: break-spaces;
+    max-width: 60px;
+}
+
+.inactive {
+    opacity: 0.5;
+}
+
+.clickable {
+    cursor: pointer;
+    display: flex;
+}
