@@ -1,9 +1,9 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
-    <div *ngIf="isBonusCard(data.card)">
+    <div *ngIf="isBonusCard(data.card)" class="image-container">
         <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Name']}} bird card"
             loading="lazy">
     </div>
-    <div *ngIf="isBirdCard(data.card)">
+    <div *ngIf="isBirdCard(data.card)" class="image-container">
         <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg" alt="{{data.card['Common name']}} bird card"
             loading="lazy">
     </div>
