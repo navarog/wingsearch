@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599816240998,
+  "timestamp": 1599823882077,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/wingsearch/favicon.ico",
         "/wingsearch/index.html",
-        "/wingsearch/main-es2015.4dd931370ba06e41fa7e.js",
-        "/wingsearch/main-es5.4dd931370ba06e41fa7e.js",
+        "/wingsearch/main-es2015.4739cd848c370039afbc.js",
+        "/wingsearch/main-es5.4739cd848c370039afbc.js",
         "/wingsearch/manifest.webmanifest",
         "/wingsearch/polyfills-es2015.f332a089ad1600448873.js",
         "/wingsearch/polyfills-es5.177e85a9724683782539.js",
@@ -719,7 +719,7 @@
     "/wingsearch/assets/cards/bonuses/1031.jpg": "0dde54c35f11f454cda6e6a9bad725996dd67c4e",
     "/wingsearch/assets/cards/bonuses/1032.jpg": "b9cfe72971ff08baa6327f5b2de5eb560166f628",
     "/wingsearch/assets/data/bonus.json": "fc084f8476684a6b7864a836eec2dc1ca83e4299",
-    "/wingsearch/assets/data/master.json": "0e88ae4b8a3653c67a5d697be682d7698583edb4",
+    "/wingsearch/assets/data/master.json": "131d29ab26f2bffa37d7294599a9874e5d27e8c9",
     "/wingsearch/assets/flycatcher.png": "b4a2b337e243cedf7e88ca85c6f0704e019b309d",
     "/wingsearch/assets/fonts/CardenioModern-Bold.otf": "5397c649cb12f850d827036779555fef399bb6ae",
     "/wingsearch/assets/fonts/CardenioModern-Regular.otf": "1e36c9d3df6952d5e59e692176d6f955fda3f4a9",
@@ -795,9 +795,9 @@
     "/wingsearch/assets/icons/svg/wetland.svg": "020f4e7c32457d8ae4d84b3dd9422f8cc3e22661",
     "/wingsearch/assets/icons/svg/wild.svg": "0ad0134d9ac2159bf2361fcbc1d734a289d986e0",
     "/wingsearch/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/wingsearch/index.html": "06a17afc4399956687bf1a9152eee1a52b073540",
-    "/wingsearch/main-es2015.4dd931370ba06e41fa7e.js": "27a56dc0342abb314269922f0942751a1ce51099",
-    "/wingsearch/main-es5.4dd931370ba06e41fa7e.js": "bce711389baed618243a31b27fd6d87a81c5f5b0",
+    "/wingsearch/index.html": "0410f810e6a5f7eaf03e33df907e4fbcdcb682da",
+    "/wingsearch/main-es2015.4739cd848c370039afbc.js": "6d7c618332afa67faca36e42787580454d4ec5ca",
+    "/wingsearch/main-es5.4739cd848c370039afbc.js": "8f1703429ffe3b78ebb75a07be849e582a63b931",
     "/wingsearch/manifest.webmanifest": "07b82232124cb44d950b77c68e4c60e0a351d37e",
     "/wingsearch/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/wingsearch/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
