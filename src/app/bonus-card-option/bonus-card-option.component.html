@@ -1,7 +1,11 @@
 <div class="option-container">
     <div class="image-wrapper">
-    <img src="assets/cards/bonuses/{{card.id}}.jpg"
-        onerror="this.style.display='none'" alt="{{card.Name}} bonus card" loading="lazy">
+        <picture>
+            <source type="image/webp" srcset="assets/cards/bonuses/{{card.id}}.webp">
+            <source type="image/jpeg" srcset="assets/cards/bonuses/{{card.id}}.jpg">
+            <img src="assets/cards/bonuses/{{card.id}}.jpg" onerror="this.style.display='none'"
+                alt="{{card.Name}} bonus card" loading="lazy">
+        </picture>
     </div>
     <div class="description-container">
         <div class="name" [innerHTML]="card.Name | iconize">

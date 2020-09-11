@@ -3,7 +3,11 @@
         <mat-panel-title>
             <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
                 <mat-label>
-                    <img class="input-image" src="assets/icons/png/flocking.png" aria-hidden="true">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/flocking.webp">
+                        <source type="image/png" srcset="assets/icons/png/flocking.png">
+                        <img class="input-image" src="assets/icons/png/flocking.png" aria-hidden="true">
+                    </picture>
                     Search birds and bonus cards
                 </mat-label>
                 <input matInput autocomplete="off" [(ngModel)]='query.main' (ngModelChange)="onQueryChange()"
@@ -20,23 +24,30 @@
     </mat-expansion-panel-header>
     <mat-form-field class="long-field" appearance="standard">
         <mat-label>
-            <img class="input-image" src="assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
+            <picture>
+                <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
+                <source type="image/jpeg" srcset="assets/cards/backgrounds/bonus-background.jpg">
+                <img class="input-image" src="assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
+            </picture>
             Search birds by applicable bonus cards
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
         <mat-chip-list #chipList aria-label="Bonus cards selection">
-            <mat-chip class="custom-chip" *ngFor="let card of query.bonus" [removable]="true" (removed)="removeBonus(card)">
+            <mat-chip class="custom-chip" *ngFor="let card of query.bonus" [removable]="true"
+                (removed)="removeBonus(card)">
                 {{card}}
                 <mat-icon matChipRemove>cancel</mat-icon>
             </mat-chip>
             <input #bonusInput [matChipInputFor]="chipList" type="text" matInput [formControl]="bonusControl"
-                [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''" (click)="openPanel()">
+                [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''"
+                (click)="openPanel()">
             <button mat-icon-button *ngIf="bonusControl.value || query.bonus.length" matSuffix aria-label="Clear"
                 (click)="bonusControl.setValue(''); bonusInput.value = ''; query.bonus=[]; onBonusChange(); onQueryChange()">
                 <mat-icon>close</mat-icon>
             </button>
         </mat-chip-list>
-        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete" (optionSelected)="addBonus($event); bonusInput.value = ''">
+        <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
+            (optionSelected)="addBonus($event); bonusInput.value = ''">
             <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
                 [value]="card['Name']">
                 <app-bonus-card-option [card]="card"></app-bonus-card-option>
@@ -46,8 +57,12 @@
     <div class="row">
         <span class="clickable" [ngClass]="{inactive: !query.expansion.european}" (click)="toggleExpansion('european');"
             matTooltip="Toggle if you don't play with that expansion">
-            <img class="expansion-image" src="assets/icons/png/european.png" aria-hidden="false"
-                aria-label="Toggle european expansion">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/european.webp">
+                <source type="image/png" srcset="assets/icons/png/european.png">
+                <img class="expansion-image" src="assets/icons/png/european.png" aria-hidden="false"
+                    aria-label="Toggle european expansion">
+            </picture>
             <div class="description"> European expansion</div>
         </span>
         <span class="slider-wrapper">
@@ -55,13 +70,17 @@
                 <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
                     (userChangeEnd)="onEggsChange()"></ng5-slider>
             </div>
-            <img src="assets/icons/png/egg.png" aria-hidden="false" matTooltip="Filter by the egg capacity"
-                aria-label="Select number of eggs" style="max-height: 24px; width: auto; margin-left: 10px">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/egg.webp">
+                <source type="image/png" srcset="assets/icons/png/egg.png">
+                <img src="assets/icons/png/egg.png" aria-hidden="false" matTooltip="Filter by the egg capacity"
+                    aria-label="Select number of eggs" style="max-height: 24px; width: auto; margin-left: 10px">
+            </picture>
         </span>
     </div>
     <div class="row">
-        <button mat-raised-button color="primary" aria-label="Reset all filters" (click)="clearFilter(); bonusInput.value = ''"
-            matTooltip="Reset all filters (except expansions)">
+        <button mat-raised-button color="primary" aria-label="Reset all filters"
+            (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
             Reset <mat-icon>filter_alt</mat-icon>
         </button>
         <span class="slider-wrapper">
@@ -69,8 +88,12 @@
                 <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
                     (userChangeEnd)="onPointsChange()"></ng5-slider>
             </div>
-            <img src="assets/icons/png/point.png" aria-hidden="false" matTooltip="Filter by the number of points"
-                aria-label="Select number of points" style="max-height: 34px; width: auto; margin-left: 10px">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/point.webp">
+                <source type="image/png" srcset="assets/icons/png/point.png">
+                <img src="assets/icons/png/point.png" aria-hidden="false" matTooltip="Filter by the number of points"
+                    aria-label="Select number of points" style="max-height: 34px; width: auto; margin-left: 10px">
+            </picture>
         </span>
     </div>
     <app-stats *ngIf="!canFitStats" [mobile]="true" [habitatControls]="query.habitat"

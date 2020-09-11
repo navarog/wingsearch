@@ -37,10 +37,18 @@ body {
     background-size: cover;
 }
 
+.webpalpha body {
+    background-image: url('assets/background.webp');
+}
+
 .flycatcher {
     background-image: url('assets/flycatcher.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.webpalpha .flycatcher {
+    background-image: url('assets/flycatcher.webp');
 }
 
 .wingsearch-title {

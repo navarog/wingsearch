@@ -1,3 +1,8 @@
 <div class="image-wrapper" (click)="openDialog()">
-    <img class="image" src="assets/cards/birds/{{card.id}}.jpg" alt="{{card['Common name']}} bird card" loading="lazy">
+    <picture>
+        <source type="image/webp" srcset="assets/cards/birds/{{card.id}}.webp">
+        <source type="image/jpeg" srcset="assets/cards/birds/{{card.id}}.jpg">
+        <img class="image" src="assets/cards/birds/{{card.id}}.jpg" alt="{{card['Common name']}} bird card"
+            loading="lazy">
+    </picture>
 </div>

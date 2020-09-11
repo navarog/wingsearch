@@ -1,24 +1,48 @@
 <div class="stats-container" [ngClass]="{mobile: mobile}" *ngIf="stats$ | async as stats">
     <span class="stats-entry">
         {{stats.bonusCards}}
-        <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
+        <picture>
+            <source type="image/webp" srcset="assets/cards/backgrounds/bonus-background.webp">
+            <source type="image/png" srcset="assets/cards/backgrounds/bonus-background.jpg">
+            <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
+        </picture>
     </span>
     <span class="stats-entry">
         {{stats.birdCards}}
-        <img src="assets/icons/png/bird.png" alt="birds">
+        <picture>
+            <source type="image/webp" srcset="assets/icons/png/bird.webp">
+            <source type="image/png" srcset="assets/icons/png/bird.jpg">
+            <img src="assets/icons/png/bird.png" alt="birds">
+        </picture>
     </span>
-    <div class="habitat-container" [ngClass]="{mobile: mobile}" matTooltip="Filter birds that can live in a specific habitat">
-        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.forest}" (click)="toggleStats('forest', $event)">
+    <div class="habitat-container" [ngClass]="{mobile: mobile}"
+        matTooltip="Filter birds that can live in a specific habitat">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.forest}"
+            (click)="toggleStats('forest', $event)">
             {{stats.habitat.forest}}
-            <img src="assets/icons/png/forest.png" alt="birds">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/forest.webp">
+                <source type="image/png" srcset="assets/icons/png/forest.jpg">
+                <img src="assets/icons/png/forest.png" alt="forest birds">
+            </picture>
         </span>
-        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.grassland}" (click)="toggleStats('grassland', $event)">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.grassland}"
+            (click)="toggleStats('grassland', $event)">
             {{stats.habitat.grassland}}
-            <img src="assets/icons/png/grassland.png" alt="birds">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/grassland.webp">
+                <source type="image/png" srcset="assets/icons/png/grassland.jpg">
+                <img src="assets/icons/png/grassland.png" alt="grassland birds">
+            </picture>
         </span>
-        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.wetland}" (click)="toggleStats('wetland', $event)">
+        <span class="stats-entry" [ngClass]="{inactive: !habitatControls.wetland}"
+            (click)="toggleStats('wetland', $event)">
             {{stats.habitat.wetland}}
-            <img src="assets/icons/png/wetland.png" alt="birds">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/wetland.webp">
+                <source type="image/png" srcset="assets/icons/png/wetland.jpg">
+                <img src="assets/icons/png/wetland.png" alt="wetland birds">
+            </picture>
         </span>
     </div>
 </div>

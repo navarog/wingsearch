@@ -1,11 +1,19 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
     <div *ngIf="isBonusCard(data.card)" class="image-container">
-        <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Name']}} bird card"
-            loading="lazy">
+        <picture>
+            <source type="image/webp" srcset="assets/cards/bonuses/{{data.card.id}}.webp">
+            <source type="image/jpeg" srcset="assets/cards/bonuses/{{data.card.id}}.jpg">
+            <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Name']}} bird card"
+                loading="lazy">
+        </picture>
     </div>
     <div *ngIf="isBirdCard(data.card)" class="image-container">
-        <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg" alt="{{data.card['Common name']}} bird card"
-            loading="lazy">
+        <picture>
+            <source type="image/webp" srcset="assets/cards/birds/{{data.card.id}}.webp">
+            <source type="image/jpeg" srcset="assets/cards/birds/{{data.card.id}}.jpg">
+            <img class="image" src="assets/cards/birds/{{data.card.id}}.jpg"
+                alt="{{data.card['Common name']}} bird card" loading="lazy">
+        </picture>
     </div>
     <mat-card class="data-container" *ngIf="isBirdCard(data.card)" [ngClass]="data.card['Color'] || 'White'">
         <div class="title">
