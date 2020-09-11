@@ -4,7 +4,7 @@
 }
 
 .image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bird-background.jpg');
+    background-image: url('../../assets/cards/backgrounds/bird-background.webp');
     background-size: cover;
     border-radius: 8px;
     width: 100%;
@@ -12,6 +12,6 @@
     cursor: pointer;
 }
 
-.webpalpha .image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bird-background.webp');
+.no-webpalpha .image-wrapper {
+    background-image: url('../../assets/cards/backgrounds/bird-background.jpg');
 }

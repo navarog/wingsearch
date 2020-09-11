@@ -40,12 +40,12 @@
     margin-bottom: auto;
 }
 
-.webpalpha .image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bonus-background.webp');
+.no-webpalpha .image-wrapper {
+    background-image: url('../../assets/cards/backgrounds/bonus-background.jpg');
 }
 
 .image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bonus-background.jpg');
+    background-image: url('../../assets/cards/backgrounds/bonus-background.webp');
     background-size: contain;
     height: 102px;
     max-width: 66.55px;
