@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599851696229,
+  "timestamp": 1599852201008,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/wingsearch/polyfills-es5.177e85a9724683782539.js",
         "/wingsearch/runtime-es2015.0dae8cbc97194c7caed4.js",
         "/wingsearch/runtime-es5.0dae8cbc97194c7caed4.js",
-        "/wingsearch/styles.3ce05f3c98663dc289c2.css"
+        "/wingsearch/styles.6e48f9d744a230fe60c2.css"
       ],
       "patterns": []
     },
@@ -1481,7 +1481,7 @@
     "/wingsearch/assets/icons/svg/wetland.svg": "020f4e7c32457d8ae4d84b3dd9422f8cc3e22661",
     "/wingsearch/assets/icons/svg/wild.svg": "0ad0134d9ac2159bf2361fcbc1d734a289d986e0",
     "/wingsearch/favicon.ico": "88ad95853d220a482ba198cfccd6ae2dbbd96f99",
-    "/wingsearch/index.html": "dcb5d00d061b913638659e84aa29dd7dcf22f00d",
+    "/wingsearch/index.html": "965646a5e9cbc25a8af2d75a7b39ecbad4851b39",
     "/wingsearch/main-es2015.80e8e92ee6a51a61afce.js": "7bec3d05349a704b26fc3b050388a68c6820c60a",
     "/wingsearch/main-es5.80e8e92ee6a51a61afce.js": "79b7a47be848ca7624816f2f9794dc81f208100a",
     "/wingsearch/manifest.webmanifest": "311fdfa831893091396a95e606b26647dc382838",
@@ -1489,7 +1489,7 @@
     "/wingsearch/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
     "/wingsearch/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/wingsearch/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/wingsearch/styles.3ce05f3c98663dc289c2.css": "8e8dca343da9f32d0a6e6d539e7c602f8d567a1e"
+    "/wingsearch/styles.6e48f9d744a230fe60c2.css": "89178e251fdbd0a284b003e40f4d106b027a25b6"
   },
   "navigationUrls": [
     {
