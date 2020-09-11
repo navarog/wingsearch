@@ -21,7 +21,7 @@
     <mat-form-field class="long-field" appearance="standard">
         <mat-label>
             <img class="input-image" src="assets/cards/backgrounds/bonus-background.jpg" aria-hidden="true">
-            Search birds by applicable bonus card
+            Search birds by applicable bonus cards
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
         <mat-chip-list #chipList aria-label="Bonus cards selection">
@@ -30,7 +30,7 @@
                 <mat-icon matChipRemove>cancel</mat-icon>
             </mat-chip>
             <input #bonusInput [matChipInputFor]="chipList" type="text" matInput [formControl]="bonusControl"
-                [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''">
+                [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''" (click)="openPanel()">
             <button mat-icon-button *ngIf="bonusControl.value || query.bonus.length" matSuffix aria-label="Clear"
                 (click)="bonusControl.setValue(''); bonusInput.value = ''; query.bonus=[]; onBonusChange(); onQueryChange()">
                 <mat-icon>close</mat-icon>

@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core'
+import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { search, bonusCardSearch } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
 import { FormControl } from '@angular/forms'
-import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete'
+import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/material/autocomplete'
 
 @Component({
   selector: 'app-search',
@@ -60,6 +60,9 @@ export class SearchComponent implements OnInit {
     min: 0,
     max: 9
   }
+
+  @ViewChild(MatAutocompleteTrigger)
+  autocomplete: MatAutocompleteTrigger
 
   constructor(private store: Store<{ app: AppState }>) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
@@ -136,5 +139,9 @@ export class SearchComponent implements OnInit {
     this.query = {...this.query, bonus: this.query.bonus.filter(name => name !== bonus)}
     this.onBonusChange()
     this.onQueryChange()
+  }
+
+  openPanel() {
+    this.autocomplete.openPanel()
   }
 }
