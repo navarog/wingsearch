@@ -103,6 +103,9 @@ MIT
 @ngrx/store-devtools
 MIT
 
+Modernizr
+MIT
+
 core-js
 MIT
 Copyright (c) 2014-2020 Denis Pushkarev
