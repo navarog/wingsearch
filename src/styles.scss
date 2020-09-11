@@ -33,22 +33,22 @@ html, body, .flycatcher { height: 100%; }
 body { 
     margin: 0; 
     font-family: Roboto, "Helvetica Neue", sans-serif;
-    background-image: url('assets/background.png');
+    background-image: url('assets/background.webp');
     background-size: cover;
 }
 
-.webpalpha body {
-    background-image: url('assets/background.webp');
+.no-webpalpha body {
+    background-image: url('assets/background.png');
 }
 
 .flycatcher {
-    background-image: url('assets/flycatcher.png');
+    background-image: url('assets/flycatcher.webp');
     background-size: contain;
     background-repeat: no-repeat;
 }
 
-.webpalpha .flycatcher {
-    background-image: url('assets/flycatcher.webp');
+.no-webpalpha .flycatcher {
+    background-image: url('assets/flycatcher.png');
 }
 
 .wingsearch-title {
