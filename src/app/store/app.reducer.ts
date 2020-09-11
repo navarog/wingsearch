@@ -57,14 +57,12 @@ const reducer = createReducer(
             displayedCards = BirdCards.concat(BonusCards)
         }
 
-        if (action.bonus) {
-            const bonusCards = state.search.bonusCards.search({
-                query: action.bonus, field: 'Name'
-            })
+        if (action.bonus.length) {
+            const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.Name))
 
-            if (bonusCards.length === 1) {
-                displayedCards = displayedCards.filter(isBirdCard).filter(bonusSearchMap[bonusCards[0].id])
-            }
+            displayedCards = displayedCards.filter(isBirdCard).filter(card =>
+                bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id](card), true)
+            )
         } else {
             const bonusCards = state.search.bonusCards.search({
                 query: action.main, field: [
@@ -104,17 +102,19 @@ const reducer = createReducer(
 
     on(appActions.bonusCardSearch, (state, action) => {
         let activeBonusCards = state.search.bonusCards.search({
-            query: action.bonus, field: [
+            query: action.bonusfield, field: [
                 'Name',
                 'Condition',
                 'VP',
             ]
         })
 
-        if (!activeBonusCards.length && !action.bonus) {
+        if (!activeBonusCards.length && !action.bonusfield) {
             // @ts-ignore
             activeBonusCards = BonusCards
         }
+
+        activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.Name))
 
         return { ...state, activeBonusCards }
     })

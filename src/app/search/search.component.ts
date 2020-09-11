@@ -4,6 +4,8 @@ import { search, bonusCardSearch } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
+import { FormControl } from '@angular/forms'
+import { MatAutocompleteSelectedEvent } from '@angular/material/autocomplete'
 
 @Component({
   selector: 'app-search',
@@ -14,7 +16,7 @@ export class SearchComponent implements OnInit {
 
   query = {
     main: '',
-    bonus: '',
+    bonus: [],
     habitat: {
       forest: true,
       grassland: true,
@@ -33,7 +35,7 @@ export class SearchComponent implements OnInit {
     }
   }
 
-  bonusfield = ''
+  bonusControl = new FormControl()
 
   filteredBonusCards: Observable<BonusCard[]>
 
@@ -65,6 +67,7 @@ export class SearchComponent implements OnInit {
 
   ngOnInit(): void {
     this.canFitStats = window.innerWidth >= 600
+    this.bonusControl.valueChanges.subscribe(() => this.onBonusChange())
   }
 
   onQueryChange() {
@@ -72,15 +75,12 @@ export class SearchComponent implements OnInit {
   }
 
   onBonusChange() {
-    this.query.bonus = ''
-    this.onQueryChange()
-    this.store.dispatch(bonusCardSearch({ bonus: this.bonusfield, expansion: this.query.expansion }))
+    this.store.dispatch(bonusCardSearch({ bonus: this.query.bonus, bonusfield: this.bonusControl.value, expansion: this.query.expansion }))
   }
 
   onKeyDown(event: KeyboardEvent) {
-    event.cancelBubble = true
     if (event.key === ' ') {
-      this.query.bonus += ' '
+      event.cancelBubble = true
     }
   }
 
@@ -99,12 +99,12 @@ export class SearchComponent implements OnInit {
     this.query = {
       ...this.query,
       main: '',
-      bonus: '',
+      bonus: [],
       habitat: { forest: true, grassland: true, wetland: true },
       eggs: { ...this.eggs },
       points: { ...this.points }
     }
-    this.bonusfield = ''
+    this.bonusControl.setValue('')
     this.onBonusChange()
     this.onQueryChange()
   }
@@ -122,6 +122,19 @@ export class SearchComponent implements OnInit {
 
   onPointsChange() {
     this.query = { ...this.query, points: { ...this.points } }
+    this.onQueryChange()
+  }
+
+  addBonus(event: MatAutocompleteSelectedEvent) {
+    this.query = {...this.query, bonus: [...this.query.bonus, event.option.value]}
+    this.bonusControl.setValue('')
+    this.onBonusChange()
+    this.onQueryChange()
+  }
+
+  removeBonus(bonus: string) {
+    this.query = {...this.query, bonus: this.query.bonus.filter(name => name !== bonus)}
+    this.onBonusChange()
     this.onQueryChange()
   }
 }
