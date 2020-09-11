@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1599844956760,
+  "timestamp": 1599851696229,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -728,7 +728,7 @@
         "/wingsearch/assets/icons/pwa/72x72.png",
         "/wingsearch/assets/icons/pwa/72x72.webp",
         "/wingsearch/assets/icons/pwa/96x196.png",
-        "/wingsearch/assets/icons/pwa/96x196.webp",
+        "/wingsearch/assets/icons/pwa/96x96.webp",
         "/wingsearch/assets/icons/svg/bird.svg",
         "/wingsearch/assets/icons/svg/bowl.svg",
         "/wingsearch/assets/icons/svg/card.svg",
@@ -1458,7 +1458,7 @@
     "/wingsearch/assets/icons/pwa/72x72.png": "82838986ec1692bef0a26d511356d8c5acd1ca5c",
     "/wingsearch/assets/icons/pwa/72x72.webp": "fb827495d76c5d361017ffd8a32d936e7a1155e0",
     "/wingsearch/assets/icons/pwa/96x196.png": "274c88f8996ca18d1e87924bff45806c2a97d06a",
-    "/wingsearch/assets/icons/pwa/96x196.webp": "4392b1a0ba6c72398b3adfe69afc591a85765269",
+    "/wingsearch/assets/icons/pwa/96x96.webp": "4392b1a0ba6c72398b3adfe69afc591a85765269",
     "/wingsearch/assets/icons/svg/bird.svg": "ba00e64d5e15d69481dd47c6f2979664b2477054",
     "/wingsearch/assets/icons/svg/bowl.svg": "bff912c5a8f6625ae08c77abf2e5619b87bfd0ba",
     "/wingsearch/assets/icons/svg/card.svg": "780d73b658476eefa28f871e6abf6380f048376b",
