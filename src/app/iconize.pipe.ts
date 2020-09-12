@@ -9,7 +9,7 @@ export class IconizePipe implements PipeTransform {
   <picture>
     <source type="image/webp" srcset="assets/icons/png/$1.webp">
     <source type="image/png" srcset="assets/icons/png/$1.png">
-    <img class="icon-image" src="assets/icons/png/$1.png" aria-hidden="false" aria-label="$1 icon">
+    <img class="icon-image" src="assets/icons/png/$1.png" alt="$1" aria-hidden="false" aria-label="$1 icon">
   </picture>
   `
 
