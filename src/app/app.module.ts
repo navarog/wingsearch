@@ -32,6 +32,8 @@ import { IconizePipe } from './iconize.pipe'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { StatsComponent } from './stats/stats.component'
 import { CardDetailComponent } from './card-detail/card-detail.component'
+import { CookiesService } from './cookies.service';
+import { ConsentComponent } from './consent/consent.component'
 
 @NgModule({
   declarations: [
@@ -44,6 +46,7 @@ import { CardDetailComponent } from './card-detail/card-detail.component'
     IconizePipe,
     StatsComponent,
     CardDetailComponent,
+    ConsentComponent,
   ],
   imports: [
     BrowserModule,
@@ -69,7 +72,7 @@ import { CardDetailComponent } from './card-detail/card-detail.component'
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
   ],
-  providers: [],
+  providers: [CookiesService],
   bootstrap: [AppComponent],
   entryComponents: [CardDetailComponent]
 })

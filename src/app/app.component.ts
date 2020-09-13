@@ -1,16 +1,18 @@
-import { Component } from '@angular/core'
+import { Component, OnInit } from '@angular/core'
 import { MatIconRegistry } from '@angular/material/icon'
 import { DomSanitizer } from '@angular/platform-browser'
+import { CookiesService } from './cookies.service'
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'wingsearch'
+  displayConsent = false
 
-  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer) {
+  constructor(iconRegistry: MatIconRegistry, sanitizer: DomSanitizer, private cookies: CookiesService) {
     iconRegistry.addSvgIcon('bird', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/bird.svg'))
     iconRegistry.addSvgIcon('bowl', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/bowl.svg'))
     iconRegistry.addSvgIcon('card', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/card.svg'))
@@ -32,5 +34,14 @@ export class AppComponent {
     iconRegistry.addSvgIcon('star', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/star.svg'))
     iconRegistry.addSvgIcon('wetland', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/wetland.svg'))
     iconRegistry.addSvgIcon('wild', sanitizer.bypassSecurityTrustResourceUrl('assets/icons/svg/wild.svg'))
+  }
+
+  ngOnInit(): void {
+    if (!this.cookies.getCookie('consent'))
+      this.displayConsent = true
+  }
+
+  onConsentChange() {
+    this.displayConsent = false
   }
 }

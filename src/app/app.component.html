@@ -15,7 +15,9 @@
         <picture>
             <source type="image/webp" srcset="assets/tit.webp">
             <source type="image/png" srcset="assets/tit.png">
-            <img class="input-image" src="assets/tit.png" alt="Great Tit" aria-hidden="true">
+            <img src="assets/tit.png" alt="Great Tit" aria-hidden="true">
         </picture>
     </div>
 </footer>
+
+<app-consent *ngIf="displayConsent" (consentChange)="onConsentChange()"></app-consent>

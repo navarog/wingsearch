@@ -1,0 +1,59 @@
+:host {
+    background-image: url('../../assets/consent-background.webp');
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 10px;
+}
+
+.no-webpalpha :host {
+    background-image: url('../../assets/consent-background.jpg');
+}
+
+mat-card {
+    border-radius: 10px;
+    max-width: 315px;
+    background: unset;
+    background-image: url('../../assets/falcon.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.no-webpalpha mat-card {
+    background-image: url('../../assets/falcon.png');
+}
+
+mat-card-actions {
+    display: flex;
+}
+
+.choice {
+    margin-right: 20px;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    cursor: pointer;
+}
+
+.choice:first-of-type {
+    margin-left: 10px;
+}
+
+.green {
+    color: darkgreen;
+}
+
+.gray {
+    color: #666666;
+}
+
+.body {
+    display: flex;
+    
+    img {
+        max-width: 55px;
+    }
+}
+
+.text {
+    padding-right: 82px;
+}
