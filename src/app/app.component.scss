@@ -1,3 +1,9 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 footer {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +11,7 @@ footer {
     background-image: url('../assets/footer-background.webp');
     background-size: contain;
     padding: 20px;
+    margin-top: auto;
 }
 
 .no-webpalpha footer {
@@ -26,6 +33,8 @@ footer {
     align-items: center;
     flex-grow: 1;
     justify-content: center;
+    margin: 10px 0;
+
     .text {
         text-align: center;
         font-size: 16px;
