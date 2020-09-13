@@ -1,6 +1,20 @@
 <!doctype html>
 <html lang="en">
+
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177825186-1"></script>
+  <script>
+    function escape(str) { return str.replace(/([.*+?\^$(){}|\[\]\/\\])/g, '\\$1'); }
+    const match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape('consent') + '=([^;]*)'));
+    if (match && match[1] == 1) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177825186-1');
+    }
+  </script>
   <meta charset="utf-8">
   <title>Wingsearch - Wingspan cards search</title>
   <base href="/wingsearch/">
@@ -12,15 +26,18 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="preload" as="font" href="assets/fonts/Darbog-Bold.otf" type="font/otf" crossorigin="anonymous">
   <link rel="preload" as="font" href="assets/fonts/CardenioModern-Bold.otf" type="font/otf" crossorigin="anonymous">
-  <link rel="preload" as="font" href="assets/fonts/Futura-Condensed-Regular.otf" type="font/otf" crossorigin="anonymous">
+  <link rel="preload" as="font" href="assets/fonts/Futura-Condensed-Regular.otf" type="font/otf"
+    crossorigin="anonymous">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
 <link rel="stylesheet" href="styles.6e48f9d744a230fe60c2.css"></head>
+
 <body class="mat-typography">
   <div class="flycatcher">
     <div class="wingsearch-title">WINGSEARCH</div>
     <app-root></app-root>
   </div>
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.177e85a9724683782539.js" nomodule defer></script><script src="polyfills-es2015.f332a089ad1600448873.js" type="module"></script><script src="main-es2015.b7a458ddf4f91dd3b0fe.js" type="module"></script><script src="main-es5.b7a458ddf4f91dd3b0fe.js" nomodule defer></script></body>
+<script src="runtime-es2015.0dae8cbc97194c7caed4.js" type="module"></script><script src="runtime-es5.0dae8cbc97194c7caed4.js" nomodule defer></script><script src="polyfills-es5.177e85a9724683782539.js" nomodule defer></script><script src="polyfills-es2015.f332a089ad1600448873.js" type="module"></script><script src="main-es2015.169f0b20c065d9a0b4db.js" type="module"></script><script src="main-es5.169f0b20c065d9a0b4db.js" nomodule defer></script></body>
+
 </html>
