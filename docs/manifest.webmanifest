@@ -1,8 +1,8 @@
 {
   "name": "Wingsearch",
   "short_name": "Wingsearch",
-  "theme_color": "#a0dfd9",
-  "background_color": "#fafafa",
+  "theme_color": "#936e39",
+  "background_color": "#62430f",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
