@@ -12,8 +12,71 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$wingsearch-primary: mat-palette($mat-indigo);
-$wingsearch-accent: mat-palette($mat-pink, A200, A100, A400);
+
+$wingsearch-primary: mat-palette((
+    50 : #ece8e2,
+    100 : #d0c7b7,
+    200 : #b1a187,
+    300 : #917b57,
+    400 : #7a5f33,
+    500 : #62430f,
+    600 : #5a3d0d,
+    700 : #50340b,
+    800 : #462c08,
+    900 : #341e04,
+    A100 : #ffaf6c,
+    A200 : #ff9439,
+    A400 : #ff7806,
+    A700 : #eb6c00,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #ffffff,
+        400 : #ffffff,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+));
+$wingsearch-accent: mat-palette((
+    50 : #e5f4f3,
+    100 : #bee4e1,
+    200 : #93d3cd,
+    300 : #67c1b8,
+    400 : #47b3a9,
+    500 : #26a69a,
+    600 : #229e92,
+    700 : #1c9588,
+    800 : #178b7e,
+    900 : #0d7b6c,
+    A100 : #adfff3,
+    A200 : #7affec,
+    A400 : #47ffe4,
+    A700 : #2dffe0,
+    contrast: (
+        50 : #000000,
+        100 : #000000,
+        200 : #000000,
+        300 : #000000,
+        400 : #000000,
+        500 : #ffffff,
+        600 : #ffffff,
+        700 : #ffffff,
+        800 : #ffffff,
+        900 : #ffffff,
+        A100 : #000000,
+        A200 : #000000,
+        A400 : #000000,
+        A700 : #000000,
+    )
+));
 
 // The warn palette is optional (defaults to red).
 $wingsearch-warn: mat-palette($mat-red);
