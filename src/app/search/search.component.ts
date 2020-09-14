@@ -18,10 +18,14 @@ export class SearchComponent implements OnInit {
   query = {
     main: '',
     bonus: [],
-    habitat: {
-      forest: true,
-      grassland: true,
-      wetland: true
+    stats: {
+      habitat: {
+        forest: true,
+        grassland: true,
+        wetland: true
+      },
+      birds: true,
+      bonuses: true
     },
     expansion: {
       european: true
@@ -99,8 +103,8 @@ export class SearchComponent implements OnInit {
     this.canFitStats = window.innerWidth >= 600
   }
 
-  onStatsChange(habitatControls) {
-    this.query.habitat = habitatControls
+  onStatsChange(stats) {
+    this.query.stats = stats
     this.onQueryChange()
   }
 
@@ -111,7 +115,11 @@ export class SearchComponent implements OnInit {
       ...this.query,
       main: '',
       bonus: [],
-      habitat: { forest: true, grassland: true, wetland: true },
+      stats: {
+        habitat: { forest: true, grassland: true, wetland: true },
+        birds: true,
+        bonuses: true
+      },
       eggs: { ...this.eggs },
       points: { ...this.points }
     }

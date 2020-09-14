@@ -18,7 +18,7 @@
                 </button>
                 <mat-hint>Use card name or description</mat-hint>
             </mat-form-field>
-            <app-stats *ngIf="canFitStats" [mobile]="false" [habitatControls]="query.habitat"
+            <app-stats *ngIf="canFitStats" [mobile]="false" [statsControls]="query.stats"
                 (statsChange)="onStatsChange($event)"></app-stats>
         </mat-panel-title>
     </mat-expansion-panel-header>
@@ -96,6 +96,6 @@
             </picture>
         </span>
     </div>
-    <app-stats *ngIf="!canFitStats" [mobile]="true" [habitatControls]="query.habitat"
+    <app-stats *ngIf="!canFitStats" [mobile]="true" [statsControls]="query.stats"
         (statsChange)="onStatsChange($event)"></app-stats>
 </mat-expansion-panel>

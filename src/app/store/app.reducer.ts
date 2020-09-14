@@ -93,8 +93,13 @@ const reducer = createReducer(
 
         const displayedStats = calculateDisplayedStats(displayedCards)
 
-        displayedCards = displayedCards.filter(card => isBonusCard(card) || (action.habitat.forest && card.Forest)
-            || (action.habitat.grassland && card.Grassland) || (action.habitat.wetland && card.Wetland)
+        displayedCards = displayedCards.filter(card =>
+            (isBonusCard(card) && action.stats.bonuses)
+            || (isBirdCard(card) && (
+                (action.stats.habitat.forest && card.Forest)
+                || (action.stats.habitat.grassland && card.Grassland)
+                || (action.stats.habitat.wetland && card.Wetland)
+            ))
         )
 
         return { ...state, displayedCards, displayedStats }
