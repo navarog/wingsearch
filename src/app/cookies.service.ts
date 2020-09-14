@@ -26,11 +26,16 @@ export class CookiesService {
     return ''
   }
 
-  public setCookie(name: string, value: string, expireDays: number, path: string = '') {
+  public setCookie(name: string, value: string, expireDays: number, ignoreConsent = false, path: string = '') {
+    if (!ignoreConsent && !this.hasConsent()) return
     const d: Date = new Date()
     d.setTime(d.getTime() + expireDays * 24 * 60 * 60 * 1000)
     const expires = `expires=${d.toUTCString()}`
     const cpath = path ? `; path=${path}` : ''
     document.cookie = `${name}=${value}; ${expires}${cpath}; SameSite=Lax`
+  }
+
+  public hasConsent(): boolean {
+    return this.getCookie('consent') === '1'
   }
 }

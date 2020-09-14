@@ -16,7 +16,7 @@ export class ConsentComponent implements OnInit {
   }
 
   setConsent(value: string) {
-    this.cookies.setCookie('consent', value, 180)
+    this.cookies.setCookie('consent', value, 180, true)
     this.consentChange.emit(value)
   }
 }

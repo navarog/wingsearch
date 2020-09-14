@@ -6,6 +6,7 @@ import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
 import { FormControl } from '@angular/forms'
 import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/material/autocomplete'
+import { CookiesService } from '../cookies.service'
 
 @Component({
   selector: 'app-search',
@@ -64,8 +65,15 @@ export class SearchComponent implements OnInit {
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
 
-  constructor(private store: Store<{ app: AppState }>) {
+  constructor(private store: Store<{ app: AppState }>, private cookies: CookiesService) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
+    this.query = {
+      ...this.query,
+      expansion: {
+        european: cookies.getCookie('expansion.european') !== '0'
+      }
+    }
+    store.dispatch(search(this.query))
   }
 
   ngOnInit(): void {
@@ -114,6 +122,7 @@ export class SearchComponent implements OnInit {
 
   toggleExpansion(expansion: 'european') {
     this.query = { ...this.query, expansion: { ...this.query.expansion, [expansion]: !this.query.expansion[expansion] } }
+    this.cookies.setCookie(`expansion.${expansion}`, this.query.expansion[expansion] ? '1' : '0', 365)
     this.onBonusChange()
     this.onQueryChange()
   }
@@ -129,14 +138,14 @@ export class SearchComponent implements OnInit {
   }
 
   addBonus(event: MatAutocompleteSelectedEvent) {
-    this.query = {...this.query, bonus: [...this.query.bonus, event.option.value]}
+    this.query = { ...this.query, bonus: [...this.query.bonus, event.option.value] }
     this.bonusControl.setValue('')
     this.onBonusChange()
     this.onQueryChange()
   }
 
   removeBonus(bonus: string) {
-    this.query = {...this.query, bonus: this.query.bonus.filter(name => name !== bonus)}
+    this.query = { ...this.query, bonus: this.query.bonus.filter(name => name !== bonus) }
     this.onBonusChange()
     this.onQueryChange()
   }
