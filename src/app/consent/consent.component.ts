@@ -18,5 +18,16 @@ export class ConsentComponent implements OnInit {
   setConsent(value: string) {
     this.cookies.setCookie('consent', value, 180, true)
     this.consentChange.emit(value)
+
+    if (value === '1') {
+      // @ts-ignore
+      window.dataLayer = window.dataLayer || []
+      // @ts-ignore
+      function gtag() { dataLayer.push(arguments) }
+      // @ts-ignore
+      gtag('js', new Date())
+      // @ts-ignore
+      gtag('config', 'UA-177825186-1')
+    }
   }
 }
