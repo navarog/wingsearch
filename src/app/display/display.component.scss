@@ -1,6 +1,10 @@
 .fill-parent {
-    height: 100%;
+    height: calc(100% - 2px);
     width: 100%;
+    padding: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #f5f6f1;
 }
 
 mat-grid-list {

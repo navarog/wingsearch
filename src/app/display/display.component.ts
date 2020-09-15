@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { AppState, BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
+import { MatDialog } from '@angular/material/dialog'
+import { CardDetailComponent } from '../card-detail/card-detail.component'
 
 @Component({
   selector: 'app-display',
@@ -16,7 +18,7 @@ export class DisplayComponent implements OnInit {
 
   private readonly MAX_DISPLAY_COLUMNS = 6
 
-  constructor(private store: Store<{ app: AppState }>) {
+  constructor(private store: Store<{ app: AppState }>, public dialog: MatDialog) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
   }
 
@@ -40,5 +42,13 @@ export class DisplayComponent implements OnInit {
 
   onResize(event) {
     this.columns = this.calculateColumns(event.target.innerWidth)
+  }
+
+  openDialog(card: BirdCard | BonusCard) {
+    this.dialog.open(CardDetailComponent, {
+      data: { card },
+      panelClass: 'card-detail-panel',
+      closeOnNavigation: true
+    })
   }
 }
