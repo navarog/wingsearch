@@ -6,6 +6,7 @@ export interface AppState {
         bonusCards: any
     }
     displayedCards: (BirdCard | BonusCard)[]
+    displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
     displayedStats: DisplayedStats
 }

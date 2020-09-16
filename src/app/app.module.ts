@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser'
+import { InfiniteScrollModule } from 'ngx-infinite-scroll'
 import { NgModule } from '@angular/core'
 import { MatAutocompleteModule } from '@angular/material/autocomplete'
 import { MatButtonModule } from '@angular/material/button'
@@ -32,7 +33,7 @@ import { IconizePipe } from './iconize.pipe'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { StatsComponent } from './stats/stats.component'
 import { CardDetailComponent } from './card-detail/card-detail.component'
-import { CookiesService } from './cookies.service';
+import { CookiesService } from './cookies.service'
 import { ConsentComponent } from './consent/consent.component'
 
 @NgModule({
@@ -54,6 +55,7 @@ import { ConsentComponent } from './consent/consent.component'
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
+    InfiniteScrollModule,
     MatAutocompleteModule,
     MatButtonModule,
     MatCardModule,

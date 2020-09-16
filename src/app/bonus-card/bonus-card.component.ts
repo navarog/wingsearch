@@ -2,6 +2,7 @@ import { Component, OnInit, Input } from '@angular/core'
 import { BonusCard } from '../store/app.interfaces'
 import { MatDialog } from '@angular/material/dialog'
 import { CardDetailComponent } from '../card-detail/card-detail.component'
+import { Observable } from 'rxjs'
 
 @Component({
   selector: 'app-bonus-card',
@@ -12,6 +13,9 @@ export class BonusCardComponent implements OnInit {
 
   @Input()
   card: BonusCard
+
+  @Input()
+  cardHeight$: Observable<number>
 
   constructor(public dialog: MatDialog) { }
 

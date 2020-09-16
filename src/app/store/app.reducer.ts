@@ -8,6 +8,7 @@ import { bonusSearchMap } from './bonus-search-map'
 
 
 const ALLWAYS_ALLOWED_EXPANSIONS = ['originalcore', 'core', 'swiftstart']
+const SLICE_WINDOW = 18
 
 const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
 
@@ -34,7 +35,9 @@ export const initialState: AppState = {
         bonusCards: bonusCardsSearch,
     },
     // @ts-ignore
-    displayedCards: BirdCards.concat(BonusCards),
+    displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
+    // @ts-ignore
+    displayedCardsHidden: BirdCards.concat(BonusCards).slice(SLICE_WINDOW),
     // @ts-ignore
     activeBonusCards: BonusCards,
     // @ts-ignore
@@ -102,7 +105,10 @@ const reducer = createReducer(
             ))
         )
 
-        return { ...state, displayedCards, displayedStats }
+        const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
+        displayedCards = displayedCards.slice(0, SLICE_WINDOW)
+
+        return { ...state, displayedCards, displayedCardsHidden, displayedStats }
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {
@@ -122,6 +128,13 @@ const reducer = createReducer(
         activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.Name))
 
         return { ...state, activeBonusCards }
+    }),
+
+    on(appActions.scroll, (state, action) => {
+        const displayedCards = state.displayedCards.concat(state.displayedCardsHidden.slice(0, SLICE_WINDOW))
+        const displayedCardsHidden = state.displayedCardsHidden.slice(SLICE_WINDOW)
+
+        return { ...state, displayedCards, displayedCardsHidden }
     })
 )
 

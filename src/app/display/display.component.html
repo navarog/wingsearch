@@ -1,4 +1,5 @@
-<mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)">
+<mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)"
+    infiniteScroll [infiniteScrollDistance]="3" [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
     <mat-grid-tile *ngFor="let card of cards$ | async">
         <mat-card #cardElement *ngIf="isBirdCard(card)" class="fill-parent" (click)="openDialog(card)">
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>

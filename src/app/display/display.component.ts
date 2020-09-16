@@ -4,6 +4,7 @@ import { AppState, BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { CardDetailComponent } from '../card-detail/card-detail.component'
+import { scroll } from '../store/app.actions'
 
 @Component({
   selector: 'app-display',
@@ -60,5 +61,9 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       panelClass: 'card-detail-panel',
       closeOnNavigation: true
     })
+  }
+
+  onScroll() {
+    this.store.dispatch(scroll())
   }
 }

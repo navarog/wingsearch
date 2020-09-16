@@ -29,3 +29,5 @@ export const search = createAction('[App] Search', props<{
 export const bonusCardSearch = createAction('[App] Bonus Card Search',
     props<{ bonus: string[], bonusfield: string, expansion: { european: boolean } }>()
 )
+
+export const scroll = createAction('[App] Scroll')
