@@ -7,7 +7,7 @@
 footer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: center;
     background-image: url('../assets/footer-background.webp');
     background-size: contain;
     padding: 20px;
@@ -46,6 +46,12 @@ footer {
             color: black;
             text-decoration: unset;
         }
+    }
+}
+
+@media screen and (min-width: 720px) {
+    footer {
+        flex-wrap: nowrap;
     }
 }
 

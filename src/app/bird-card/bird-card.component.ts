@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, ViewChild, ElementRef, AfterViewInit } from '@angular/core'
+import { Component, OnInit, Input } from '@angular/core'
+import { Observable } from 'rxjs'
 import { BirdCard } from '../store/app.interfaces'
 
 @Component({
@@ -11,16 +12,18 @@ export class BirdCardComponent implements OnInit {
   @Input()
   card: BirdCard
 
+  @Input()
+  cardHeight$: Observable<number>
+
   habitats: string[]
   eggs: any[]
-  nest: 'string'
+  powerTitle = '<span class="intro">[text]: </span>'
 
   constructor() { }
 
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
     this.eggs = Array(this.card['Egg capacity'])
-    this.nest = this.resolveNestType()
   }
 
   buildFoodCostString() {
@@ -39,8 +42,18 @@ export class BirdCardComponent implements OnInit {
   }
 
   resolveNestType() {
-    const nestMap = {Wild: 'star', None: null}
+    const nestMap = { Wild: 'star', None: null }
 
-    return nestMap[this.card['Nest type']] || this.card['Nest type'].toLowerCase()
+    return Object.keys(nestMap).includes(this.card['Nest type']) ? nestMap[this.card['Nest type']] : this.card['Nest type'].toLowerCase()
+  }
+
+  getPowerTitle() {
+    const textMap = {
+      Brown: 'WHEN ACTIVATED',
+      White: 'WHEN PLAYED',
+      Pink: 'ONCE BETWEEN TURNS',
+      Teal: 'ROUND END'
+    }
+    return this.powerTitle.replace(/\[text\]/g, textMap[this.card.Color])
   }
 }

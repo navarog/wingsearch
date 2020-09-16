@@ -139,11 +139,15 @@ body {
 }
 
 .icon-image {
-    max-width: 18px;
-    max-height: 18px;
-    margin: 0 2px;
+    max-width: 1em;
+    max-height: 1em;
     position: relative;
-    bottom: -4px;
+    bottom: -0.1em;
+}
+
+.icon-picture {
+    max-height: 1em;
+    max-width: 1em;
 }
 
 .card-detail-panel {

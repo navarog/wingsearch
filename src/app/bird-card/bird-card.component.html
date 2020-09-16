@@ -1,44 +1,48 @@
-<div #contentWrapper class="content-wrapper">
+<div #contentWrapper class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight">
     <div class="upper-row">
         <div class="grey-square">
             <div class="habitats">
-                <picture *ngFor="let habitat of habitats; index as i" class="habitat-wrapper habitat-{{i + 1}}-{{habitats.length}}">
+                <picture *ngFor="let habitat of habitats; index as i"
+                    class="habitat-wrapper habitat-{{i + 1}}-{{habitats.length}}">
                     <source type="image/webp" srcset="assets/icons/png/{{habitat.toLowerCase()}}.webp">
                     <source type="image/png" srcset="assets/icons/png/{{habitat.toLowerCase()}}.jpg">
                     <img src="assets/icons/png/{{habitat.toLowerCase()}}.png" alt="{{habitat.toLowerCase()}} birds"
                         class="habitat">
                 </picture>
             </div>
-            <div class="food" [innerHTML]="buildFoodCostString() | iconize"></div>
+            <div class="food" [innerHTML]="buildFoodCostString() | iconize"
+                [ngStyle]="{'font-size.px': cardHeight * 0.04, 'line-height.px': cardHeight * 0.04}"></div>
         </div>
-        <div class="title-border" *ngIf="contentWrapper.offsetHeight"
-            [ngStyle]="{'border-width.px': contentWrapper.offsetHeight / 460}">
-            <div class="title"
-                [ngStyle]="{'font-size.px': contentWrapper.offsetHeight * 0.042, 'line-height.px': contentWrapper.offsetHeight * 0.042}">
+        <div class="title-border" [ngStyle]="{'border-width.px': cardHeight / 460}">
+            <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
                 {{card['Common name']}}
             </div>
             <div class="scientific"
-                [ngStyle]="{'font-size.px': contentWrapper.offsetHeight * 0.03, 'line-height.px': contentWrapper.offsetHeight * 0.035}">
+                [ngStyle]="{'font-size.px': cardHeight * 0.03, 'line-height.px': cardHeight * 0.035}">
                 {{card['Scientific name']}}
             </div>
         </div>
     </div>
     <div class="middle-row">
-        <div class="left-column" *ngIf="contentWrapper.offsetHeight">
-            <span [innerHTML]="card['Victory points']+'[point]' | iconize" class="points" 
-            [ngStyle]="{'font-size.px': contentWrapper.offsetHeight * 0.064, 'line-height.px': contentWrapper.offsetHeight * 0.064}"></span>
-            <picture *ngIf="nest" class="nest">
+        <div class="left-column" *ngIf="cardHeight">
+            <span [innerHTML]="card['Victory points']+'[point]' | iconize" class="points"
+                [ngStyle]="{'font-size.px': cardHeight * 0.064, 'line-height.px': cardHeight * 0.064}"></span>
+            <picture *ngIf="resolveNestType() as nest" class="nest">
                 <source type="image/webp" srcset="assets/icons/png/{{nest}}.webp">
                 <source type="image/png" srcset="assets/icons/png/{{nest}}.png">
                 <img src="assets/icons/png/{{nest}}.png" alt="{{card['Nest type']}}" aria-hidden="true">
             </picture>
             <div class="eggs">
-                <picture *ngFor="let egg of eggs" class="egg" [ngStyle]="{'max-height.px': contentWrapper.offsetHeight / 20.64}">
-                    <source type="image/webp" srcset="assets/icons/png/smallegg.webp"> 
+                <picture *ngFor="let egg of eggs" class="egg" [ngStyle]="{'max-height.px': cardHeight / 20.64}">
+                    <source type="image/webp" srcset="assets/icons/png/smallegg.webp">
                     <source type="image/png" srcset="assets/icons/png/smallegg.png">
                     <img src="assets/icons/png/smallegg.png" alt="smallegg" aria-hidden="true">
                 </picture>
-                </div>
+            </div>
         </div>
+    </div>
+    <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
+        <div class='text' *ngIf="card.Color" [innerHTML]="getPowerTitle() + (card['Power text'] | iconize)"
+            [ngStyle]="{'font-size.px': cardHeight * 0.04, 'line-height.px': cardHeight * 0.04 + 1}"></div>
     </div>
 </div>
