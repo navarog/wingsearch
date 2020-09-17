@@ -1,7 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { BonusCard } from '../store/app.interfaces'
 import { MatDialog } from '@angular/material/dialog'
-import { CardDetailComponent } from '../card-detail/card-detail.component'
 import { Observable } from 'rxjs'
 
 @Component({
@@ -22,11 +21,16 @@ export class BonusCardComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  openDialog() {
-    this.dialog.open(CardDetailComponent, {
-      data: { card: this.card },
-      panelClass: 'card-detail-panel',
-      closeOnNavigation: true
-    })
+  getPointConditions(): {value: string, point: boolean}[][] {
+    return this.card.VP.split(';').reduce((acc, condition) => {
+      const match = condition.match(/[0-9]+\[point\]/)
+
+      if (!match)
+        return acc
+      if (!match.index)
+        return [...acc, [{ value: match[0], point: true }, { value: condition.slice(match[0].length), point: false }]]
+      else
+        return [...acc, [{ value: condition.slice(0, match.index), point: false }, { value: match[0], point: true }]]
+    }, [])
   }
 }

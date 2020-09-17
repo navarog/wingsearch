@@ -1,4 +1,84 @@
 .content-wrapper {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: DarbogBold, Arial, Helvetica;
+    color: #666666;
+    margin: 4%;
+    height: 14%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cee4e6;
+    border-style: double;
+    border-width: 3px;
+
+    ::ng-deep {
+        .icon-picture {
+            margin-right: 2%;
+        }
+
+        .icon-image {
+            bottom: unset;
+        }
+    }
+}
+
+.description {
+    height: 14%;
+    margin: 7%;
+    margin-bottom: 2%;
+    font-family: FuturaLight;
+    text-align: center;
+}
+
+.points {
+    margin: 0 12%;
+    display: flex;
+    justify-content: space-around;
+    font-family: CardenioModernBold;
+    color: #666666;
+
+    .condition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .part.point{
+            font-size: 1.5em;
+            line-height: 1.8em;
+
+            ::ng-deep {
+                .icon-image {
+                    max-height: 1.5em;
+                    max-width: 1.5em;
+                    bottom: -0.5em;
+                    left: -0.3em;
+                }
+
+                .icon-picture {
+                    max-height: 1.5em;
+                    max-width: 1.5em;
+                }
+            }
+        }
+    }
+}
+
+.explanation {
+    font-family: FuturaLight;
+    font-style: italic;
+    margin: 4%;
+    text-align: center;
+}
+
+.percentage {
+    font-family: FuturaLight;
+    margin-top: auto;
+    margin-bottom: 2%;
+    text-align: center;
 }

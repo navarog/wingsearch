@@ -1,12 +1,12 @@
 <mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)"
-    infiniteScroll [infiniteScrollDistance]="3" [infiniteScrollThrottle]="50" (scrolled)="onScroll()">
+    infiniteScroll [infiniteScrollDistance]="3" [infiniteScrollThrottle]="50" [alwaysCallback]="true" (scrolled)="onScroll()">
     <mat-grid-tile *ngFor="let card of cards$ | async">
         <mat-card #cardElement *ngIf="isBirdCard(card)" class="fill-parent" (click)="openDialog(card)">
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
         </mat-card>
 
-        <div *ngIf="isBonusCard(card)" class="fill-parent">
-            <app-bonus-card [card]="card"></app-bonus-card>
-        </div>
+        <mat-card #cardElement *ngIf="isBonusCard(card)" class="fill-parent" (click)="openDialog(card)">
+            <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
+        </mat-card>
     </mat-grid-tile>
 </mat-grid-list>
