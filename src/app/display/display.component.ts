@@ -3,8 +3,9 @@ import { Store } from '@ngrx/store'
 import { AppState, BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
-import { CardDetailComponent } from '../card-detail/card-detail.component'
 import { scroll } from '../store/app.actions'
+import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
+import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
 
 @Component({
   selector: 'app-display',
@@ -55,11 +56,25 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight))
   }
 
-  openDialog(card: BirdCard | BonusCard) {
-    this.dialog.open(CardDetailComponent, {
+  openBirdDialog(card: BirdCard) {
+    this.dialog.open(BirdCardDetailComponent, {
       data: { card },
       panelClass: 'card-detail-panel',
-      closeOnNavigation: true
+      closeOnNavigation: true,
+      height: '100vh',
+      width: '80vw',
+      maxWidth: '80vw',
+    })
+  }
+
+openBonusDialog(card: BonusCard) {
+    this.dialog.open(BonusCardDetailComponent, {
+      data: { card },
+      panelClass: 'card-detail-panel',
+      closeOnNavigation: true,
+      height: '100vh',
+      width: '80vw',
+      maxWidth: '80vw',
     })
   }
 

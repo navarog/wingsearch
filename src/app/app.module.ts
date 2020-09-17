@@ -34,7 +34,9 @@ import { ServiceWorkerModule } from '@angular/service-worker'
 import { StatsComponent } from './stats/stats.component'
 import { CardDetailComponent } from './card-detail/card-detail.component'
 import { CookiesService } from './cookies.service'
-import { ConsentComponent } from './consent/consent.component'
+import { ConsentComponent } from './consent/consent.component';
+import { BirdCardDetailComponent } from './bird-card/bird-card-detail/bird-card-detail.component';
+import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-card-detail.component'
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { ConsentComponent } from './consent/consent.component'
     StatsComponent,
     CardDetailComponent,
     ConsentComponent,
+    BirdCardDetailComponent,
+    BonusCardDetailComponent,
   ],
   imports: [
     BrowserModule,
@@ -76,6 +80,9 @@ import { ConsentComponent } from './consent/consent.component'
   ],
   providers: [CookiesService],
   bootstrap: [AppComponent],
-  entryComponents: [CardDetailComponent]
+  entryComponents: [
+    BirdCardDetailComponent,
+    BonusCardDetailComponent,
+  ]
 })
 export class AppModule { }

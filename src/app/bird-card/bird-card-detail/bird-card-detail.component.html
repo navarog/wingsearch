@@ -1,0 +1,13 @@
+<div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
+    <div class="flex-content">
+        <mat-card class="card-wrapper">
+            <div #cardElement class="card-content">
+                <app-bird-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bird-card>
+            </div>
+            <div class="note" [innerHTML]="data.card.Note | iconize"></div>
+        </mat-card>
+    </div>
+    <div class="flex-content right">
+
+    </div>
+</div>

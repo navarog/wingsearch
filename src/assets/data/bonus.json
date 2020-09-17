@@ -72,7 +72,7 @@
         "Condition": "Birds that have at least 4 eggs laid on them",
         "Explanatory text": null,
         "VP": "1[point] per bird",
-        "%": "28*",
+        "%": 28,
         "Note": "Count only bird cards that have 4 egg tokens sitting on them at game end.",
         "id": 1006
     },
@@ -94,7 +94,7 @@
         "Condition": "Birds with tucked cards",
         "Explanatory text": null,
         "VP": "4 to 6 birds: 3[point]; 7+ birds: 6[point]",
-        "%": "21*",
+        "%": 21,
         "Note": null,
         "id": 1008
     },
