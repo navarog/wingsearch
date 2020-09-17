@@ -1,1 +1,17 @@
-<p>bonus-card-detail works!</p>
+<div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
+    <div class="flex-content">
+        <mat-card class="card-wrapper">
+            <div #cardElement class="card-content">
+                <app-bonus-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bonus-card>
+            </div>
+            <div class="note" *ngIf="data.card.Note" [innerHTML]="data.card.Note | iconize"></div>
+        </mat-card>
+    </div>
+    <div class="flex-content right">
+
+    </div>
+</div>
+
+<button mat-icon-button matDialogClose aria-label="Clear">
+    <mat-icon>close</mat-icon>
+</button>

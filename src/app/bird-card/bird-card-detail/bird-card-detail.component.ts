@@ -37,5 +37,4 @@ export class BirdCardDetailComponent implements OnInit, AfterViewInit {
     else
       return 'desktop'
   }
-
 }
