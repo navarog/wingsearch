@@ -34,7 +34,7 @@
 .desktop {
     .card-wrapper {
         max-height: 90vh;
-        min-height: min(90vh, 250px * 1.56);
+        min-height: min(90vh, max(250px * 1.56, 35vw * 1.56));
         overflow-y: auto;
     }
 
