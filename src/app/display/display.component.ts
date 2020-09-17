@@ -15,6 +15,7 @@ import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-
 export class DisplayComponent implements OnInit, AfterViewInit {
 
   cards$: Observable<(BirdCard | BonusCard)[]>
+  scrollDisabled$: Observable<boolean>
 
   private readonly CARD_MINIMUM_WIDTH = 165
 
@@ -27,6 +28,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   constructor(private store: Store<{ app: AppState }>, public dialog: MatDialog) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
+    this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
   }
 
   columns: number
@@ -67,7 +69,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     })
   }
 
-openBonusDialog(card: BonusCard) {
+  openBonusDialog(card: BonusCard) {
     this.dialog.open(BonusCardDetailComponent, {
       data: { card },
       panelClass: 'card-detail-panel',

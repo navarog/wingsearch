@@ -9,6 +9,7 @@ export interface AppState {
     displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
     displayedStats: DisplayedStats
+    scrollDisabled: boolean
 }
 
 export interface BirdCard {

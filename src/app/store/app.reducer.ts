@@ -42,6 +42,7 @@ export const initialState: AppState = {
     activeBonusCards: BonusCards,
     // @ts-ignore
     displayedStats: calculateDisplayedStats(BirdCards.concat(BonusCards)),
+    scrollDisabled: false
 }
 
 const reducer = createReducer(
@@ -108,7 +109,7 @@ const reducer = createReducer(
         const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
         displayedCards = displayedCards.slice(0, SLICE_WINDOW)
 
-        return { ...state, displayedCards, displayedCardsHidden, displayedStats }
+        return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false }
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {
@@ -134,7 +135,7 @@ const reducer = createReducer(
         const displayedCards = state.displayedCards.concat(state.displayedCardsHidden.slice(0, SLICE_WINDOW))
         const displayedCardsHidden = state.displayedCardsHidden.slice(SLICE_WINDOW)
 
-        return { ...state, displayedCards, displayedCardsHidden }
+        return { ...state, displayedCards, displayedCardsHidden, scrollDisabled: !displayedCardsHidden.length }
     })
 )
 
