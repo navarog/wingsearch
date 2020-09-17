@@ -80,3 +80,16 @@
     margin-top: -10%;
     font-size: 16px;
 }
+
+button {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+
+    mat-icon {
+        font-size: 36px;
+        width: 36px;
+        color: white;
+        opacity: 0.5;
+    }
+}
