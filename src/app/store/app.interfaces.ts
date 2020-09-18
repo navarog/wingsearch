@@ -114,6 +114,7 @@ export interface BonusCard {
     VP: string
     '%': number | string
     Note: null | string
+    'VP Average': number
     isBirdCard: () => false
     isBonusCard: () => true
 }
