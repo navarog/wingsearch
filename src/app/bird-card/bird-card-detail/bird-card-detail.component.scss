@@ -188,3 +188,51 @@ button {
 .carousel::-webkit-scrollbar-thumb {
     background-color: #666666;
 }
+
+.mobile {
+    .carousel-title {
+        font-size: 2em;
+        line-height: calc(1em + 2px);
+        font-family: CardenioModernBold, Arial, Helvetica;
+        color: #666666;
+        text-align: center;
+        margin-bottom: 0.2em;
+        background-color: #f5f6f1;
+        padding: 0.5em;
+        border-radius: 1vw;
+    }
+
+    .carousel-wrapper {
+        height: unset;
+        margin-bottom: 5vh;
+    }
+    
+    .carousel {
+        flex: unset;
+        overflow-y: unset;
+        overflow-x: unset;
+    }
+
+    .bonus-card-wrapper {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .bonus-card-stats {
+        display: flex;
+        position: unset;
+        width: -webkit-fill-available;
+        background-color: #f5f6f1;
+        padding: 4px;
+        border-radius: 0 0 4px 4px;
+        font-size: 1.5em;
+
+        .bonus-card-vp-average {
+            font-size: unset;
+        }
+    }
+
+    .bonus-card-wrapper:hover~.bonus-card-wrapper {
+        transform: translateY(87%)
+    }
+}

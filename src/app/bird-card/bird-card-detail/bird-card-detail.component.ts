@@ -37,13 +37,17 @@ export class BirdCardDetailComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit(): void {
     setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
-    setTimeout(() => this.bonusCardHeight$.next(window.innerWidth / 5 * 1.50), 0)
+    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
+  }
+
+  calcBonusCardHeight(): number {
+    return (this.layout === 'desktop') ? window.innerWidth / 5 * 1.50 : this.cardHeight$.value
   }
 
   onResize(event) {
     this.layout = this.calculateLayout(event.target.innerWidth)
     setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
-    setTimeout(() => this.bonusCardHeight$.next(window.innerWidth / 5 * 1.50), 0)
+    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
   }
 
   calculateLayout(width): 'desktop' | 'mobile' {
