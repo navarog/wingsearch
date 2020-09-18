@@ -5,9 +5,10 @@
         "Automa": "X",
         "Condition": "Birds with body parts in their names",
         "Explanatory text": "Body parts include back, beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, leg, neck, rump, shoulder, tail, throat, toe, wing",
-        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
         "%": 22,
         "Note": null,
+        "VP Average": 1.25,
         "id": 1000
     },
     {
@@ -16,9 +17,10 @@
         "Automa": null,
         "Condition": "Birds worth less than 4 points",
         "Explanatory text": null,
-        "VP": "5 to 6 birds: 3; 6+ birds: 6",
+        "VP": "5 to 6 birds: 3[point]; 6+ birds: 6[point]",
         "%": 42,
         "Note": "Count the birds you played that have a face value of 0, 1, 2, or 3 points.",
+        "VP Average": 0.75,
         "id": 1001
     },
     {
@@ -27,9 +29,10 @@
         "Automa": null,
         "Condition": "For each column that contains birds with 3 different power colors:",
         "Explanatory text": "Birds with no power count as white.",
-        "VP": "3 per column",
+        "VP": "3[point] per column",
         "%": "-",
         "Note": null,
+        "VP Average": 0.0,
         "id": 1002
     },
     {
@@ -38,9 +41,10 @@
         "Automa": "X",
         "Condition": "Birds that can live in multiple habitats",
         "Explanatory text": null,
-        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
         "%": 31,
         "Note": null,
+        "VP Average": 1.0,
         "id": 1003
     },
     {
@@ -49,9 +53,10 @@
         "Automa": "X",
         "Condition": "Birds with a [flocking] power",
         "Explanatory text": null,
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 15,
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
+        "VP Average": 2.0,
         "id": 1004
     },
     {
@@ -60,9 +65,10 @@
         "Automa": "X",
         "Condition": "Birds that eat [seed]",
         "Explanatory text": null,
-        "VP": "5 to 7 birds: 3; 8+ birds: 7",
+        "VP": "5 to 7 birds: 3[point]; 8+ birds: 7[point]",
         "%": 44,
         "Note": null,
+        "VP Average": 0.75,
         "id": 1005
     },
     {
@@ -71,9 +77,10 @@
         "Automa": null,
         "Condition": "Birds that have at least 4 eggs laid on them",
         "Explanatory text": null,
-        "VP": "1 per bird",
-        "%": "28*",
+        "VP": "1[point] per bird",
+        "%": 28,
         "Note": "Count only bird cards that have 4 egg tokens sitting on them at game end.",
+        "VP Average": 1.0,
         "id": 1006
     },
     {
@@ -82,9 +89,10 @@
         "Automa": "X",
         "Condition": "Birds with geography terms in their name",
         "Explanatory text": "Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Corsican, Eastern, Eurasian, European, Inca, Mississippi, Moor, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
-        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
         "%": 21,
         "Note": null,
+        "VP Average": 1.25,
         "id": 1007
     },
     {
@@ -93,9 +101,10 @@
         "Automa": "X",
         "Condition": "Birds with tucked cards",
         "Explanatory text": null,
-        "VP": "4 to 6 birds: 3; 7+ birds: 6",
-        "%": "21*",
+        "VP": "4 to 6 birds: 3[point]; 7+ birds: 6[point]",
+        "%": 21,
         "Note": null,
+        "VP Average": 0.75,
         "id": 1008
     },
     {
@@ -104,9 +113,10 @@
         "Automa": "X",
         "Condition": "Birds with a food cost of 3 food",
         "Explanatory text": null,
-        "VP": "2 to 3 birds: 3; 4+ birds: 6",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 6[point]",
         "%": 29,
         "Note": null,
+        "VP Average": 1.25,
         "id": 1009
     },
     {
@@ -115,9 +125,10 @@
         "Automa": null,
         "Condition": "Birds in your habitat with the fewest birds.",
         "Explanatory text": "Ties count.",
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": "-",
         "Note": "Count the number of birds you played, in the habitat where you played the fewest birds. If you have two habitats tied for fewest birds, you may still score this bonus. For example, if all of your habitats have 3 birds in them, your habitat with the fewest birds has 3 birds in it.",
+        "VP Average": 0.0,
         "id": 1010
     },
     {
@@ -126,9 +137,10 @@
         "Automa": "X",
         "Condition": "Birds with [ground] nests",
         "Explanatory text": "Birds must have a [ground] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+        "VP Average": 1.0,
         "id": 1011
     },
     {
@@ -137,9 +149,10 @@
         "Automa": null,
         "Condition": "In any one habitat:",
         "Explanatory text": "Birds with no power count as white.",
-        "VP": "2 per power color",
+        "VP": "2[point] per power color",
         "%": "-",
         "Note": null,
+        "VP Average": 0.0,
         "id": 1012
     },
     {
@@ -148,9 +161,10 @@
         "Automa": "X",
         "Condition": "Birds with a [predator] power",
         "Explanatory text": null,
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 13,
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
+        "VP Average": 2.0,
         "id": 1013
     },
     {
@@ -159,9 +173,10 @@
         "Automa": "X",
         "Condition": "Birds that eat [fish]",
         "Explanatory text": null,
-        "VP": "2 to 3 birds: 3; 4+ birds: 8",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 8[point]",
         "%": 18,
         "Note": null,
+        "VP Average": 1.5,
         "id": 1014
     },
     {
@@ -170,9 +185,10 @@
         "Automa": "X",
         "Condition": "Birds that eat only [invertebrate]",
         "Explanatory text": null,
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 9,
         "Note": null,
+        "VP Average": 2.0,
         "id": 1015
     },
     {
@@ -181,9 +197,10 @@
         "Automa": "X",
         "Condition": "Birds that can only live in [forest]",
         "Explanatory text": null,
-        "VP": "3 to 4 birds: 4; 5 birds: 5",
+        "VP": "3 to 4 birds: 4[point]; 5 birds: 5[point]",
         "%": 24,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+        "VP Average": 1.0,
         "id": 1016
     },
     {
@@ -192,9 +209,10 @@
         "Automa": "X",
         "Condition": "Birds named after a person",
         "Explanatory text": "Any bird with an 's in its name.",
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 11,
         "Note": null,
+        "VP Average": 2.0,
         "id": 1017
     },
     {
@@ -203,9 +221,10 @@
         "Automa": "X",
         "Condition": "Birds with wingspans over 65 cm",
         "Explanatory text": null,
-        "VP": "4 to 5 birds: 3; 6+ birds: 6",
+        "VP": "4 to 5 birds: 3[point]; 6+ birds: 6[point]",
         "%": 35,
         "Note": "Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
+        "VP Average": 0.75,
         "id": 1018
     },
     {
@@ -214,9 +233,10 @@
         "Automa": "X",
         "Condition": "Birds with [cavity] nests",
         "Explanatory text": "Birds must have a [cavity] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+        "VP Average": 1.0,
         "id": 1019
     },
     {
@@ -225,9 +245,10 @@
         "Automa": "X",
         "Condition": "Birds that eat [wild]",
         "Explanatory text": "Any bird that specifically has a [wild] symbol as part of its food cost.",
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 16,
         "Note": null,
+        "VP Average": 2.0,
         "id": 1020
     },
     {
@@ -236,9 +257,10 @@
         "Automa": null,
         "Condition": "Birds that have at least 1 egg laid on them",
         "Explanatory text": null,
-        "VP": "7 to 8 birds: 3; 9+ birds: 6",
+        "VP": "7 to 8 birds: 3[point]; 9+ birds: 6[point]",
         "%": "-",
         "Note": "Count only bird cards that have at least 1 egg token sitting on them at game end.",
+        "VP Average": 0.0,
         "id": 1021
     },
     {
@@ -247,9 +269,10 @@
         "Automa": "X",
         "Condition": "Birds with wingspans 30 cm or less",
         "Explanatory text": null,
-        "VP": "4 to 5 birds: 3; 6+ birds: 6",
+        "VP": "4 to 5 birds: 3[point]; 6+ birds: 6[point]",
         "%": 35,
         "Note": "Count the birds you played that have wingspans 30cm or less. Wingspans of exactly 30cm count toward this bonus.",
+        "VP Average": 0.75,
         "id": 1022
     },
     {
@@ -258,9 +281,10 @@
         "Automa": "X",
         "Condition": "Birds with colors in their names",
         "Explanatory text": "Colors include ash, black, blue, bronze, brown, cerulean, chestnut, coal, ferruginous, gold, gray, grey, green, honey, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
-        "VP": "4 to 5 brids: 3; 6+ birds: 7",
+        "VP": "4 to 5 brids: 3[point]; 6+ birds: 7[point]",
         "%": 34,
         "Note": null,
+        "VP Average": 0.75,
         "id": 1023
     },
     {
@@ -269,9 +293,10 @@
         "Automa": "X",
         "Condition": "Birds with [platform] nests",
         "Explanatory text": "Birds must have a [platform] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+        "VP Average": 1.0,
         "id": 1024
     },
     {
@@ -280,9 +305,10 @@
         "Automa": "X",
         "Condition": "Birds that can only live in [grassland]",
         "Explanatory text": null,
-        "VP": "2 to 3 birds: 3; 4+ birds: 8",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 8[point]",
         "%": 19,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+        "VP Average": 1.25,
         "id": 1025
     },
     {
@@ -291,9 +317,10 @@
         "Automa": "X",
         "Condition": "Birds that eat [rodent]",
         "Explanatory text": null,
-        "VP": "2 per bird",
+        "VP": "2[point] per bird",
         "%": 15,
         "Note": null,
+        "VP Average": 2.0,
         "id": 1026
     },
     {
@@ -302,9 +329,10 @@
         "Automa": null,
         "Condition": "Bird cards in hand at end of game",
         "Explanatory text": null,
-        "VP": "5 to 7 birds: 4; 8+ birds: 7",
+        "VP": "5 to 7 birds: 4[point]; 8+ birds: 7[point]",
         "%": "-",
         "Note": "Count the bird cards still in your hand at the end of the game.",
+        "VP Average": 0.0,
         "id": 1027
     },
     {
@@ -313,9 +341,10 @@
         "Automa": "X",
         "Condition": "Birds that eat [fruit]",
         "Explanatory text": null,
-        "VP": "2 to 3 birds: 3; 4+ birds: 7",
+        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
         "%": 22,
         "Note": null,
+        "VP Average": 1.5,
         "id": 1028
     },
     {
@@ -324,9 +353,10 @@
         "Automa": "X",
         "Condition": "Birds that can only live in [wetland]",
         "Explanatory text": null,
-        "VP": "3 to 4 birds: 3; 5 birds: 7",
+        "VP": "3 to 4 birds: 3[point]; 5 birds: 7[point]",
         "%": 26,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+        "VP Average": 1.0,
         "id": 1029
     },
     {
@@ -335,9 +365,10 @@
         "Automa": "X",
         "Condition": "Birds with [bowl] nests",
         "Explanatory text": "Birds must have a [bowl] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4; 6+ birds: 7",
+        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+        "VP Average": 1.0,
         "id": 1030
     },
     {
@@ -349,6 +380,7 @@
         "VP": "-",
         "%": 44,
         "Note": null,
+        "VP Average": 0.0,
         "id": 1031
     },
     {
@@ -360,6 +392,7 @@
         "VP": "-",
         "%": 28,
         "Note": null,
+        "VP Average": 0.0,
         "id": 1032
     }
 ]
