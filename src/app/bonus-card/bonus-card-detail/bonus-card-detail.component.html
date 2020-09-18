@@ -1,6 +1,6 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
     <div class="flex-content">
-        <mat-card class="card-wrapper">
+        <mat-card class="card-wrapper" [ngStyle]="{'border-radius.px': (cardHeight$ | async) * 0.025}">
             <div #cardElement class="card-content">
                 <app-bonus-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bonus-card>
             </div>
@@ -15,7 +15,7 @@
             </div>
             <div class="carousel">
                 <div #bonusCardElement class="bonus-card-wrapper" *ngFor="let bonus of bonusCards$ | async; index as i"
-                    [ngStyle]="{'height.px': bonusCardHeight$ | async, 'z-index': i}">
+                    [ngStyle]="{'height.px': bonusCardHeight$ | async, 'border-radius.px': (bonusCardHeight$ | async) * 0.025, 'z-index': i}">
                     <app-bonus-card [card]="bonus" [cardHeight$]="bonusCardHeight$"></app-bonus-card>
                     <div class="bonus-card-stats">
                         <div class="bonus-card-title" *ngIf="layout !== 'mobile'">{{bonus.Name}}</div>
