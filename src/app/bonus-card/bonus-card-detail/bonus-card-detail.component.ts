@@ -2,7 +2,7 @@ import { AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from 
 import { MAT_DIALOG_DATA } from '@angular/material/dialog'
 import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
-import { first, flatMap, map, mergeMap, tap } from 'rxjs/operators'
+import { first, flatMap, map, tap } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
 import { bonusSearchMap } from 'src/app/store/bonus-search-map'
 
@@ -68,5 +68,28 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
       return 'mobile'
     else
       return 'desktop'
+  }
+
+  bonusCardStyle(i: number) {
+    return this.bonusCardHeight$.pipe(
+      map(height => {
+        const styles = { 'height.px': height, 'z-index': i }
+        if (this.layout === 'desktop')
+          return { 'border-radius.px': height * 0.025, ...styles }
+        else
+          return { 'border-top-left-radius.px': height * 0.025, 'border-top-right-radius.px': height * 0.025, ...styles }
+      })
+    )
+  }
+
+  cardStatsStyle() {
+    return this.bonusCardHeight$.pipe(
+      map(height => {
+        if (this.layout === 'desktop')
+          return { }
+        else
+          return { 'border-bottom-left-radius.px': height * 0.025, 'border-bottom-right-radius.px': height * 0.025 }
+      })
+    )
   }
 }

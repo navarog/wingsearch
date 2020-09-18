@@ -56,4 +56,27 @@ export class BirdCardDetailComponent implements OnInit, AfterViewInit {
     else
       return 'desktop'
   }
+
+  bonusCardStyle(i: number) {
+    return this.bonusCardHeight$.pipe(
+      map(height => {
+        const styles = { 'height.px': height, 'z-index': i }
+        if (this.layout === 'desktop')
+          return { 'border-radius.px': height * 0.025, ...styles }
+        else
+          return { 'border-top-left-radius.px': height * 0.025, 'border-top-right-radius.px': height * 0.025, ...styles }
+      })
+    )
+  }
+
+  cardStatsStyle() {
+    return this.bonusCardHeight$.pipe(
+      map(height => {
+        if (this.layout === 'desktop')
+          return {}
+        else
+          return { 'border-bottom-left-radius.px': height * 0.025, 'border-bottom-right-radius.px': height * 0.025 }
+      })
+    )
+  }
 }

@@ -16,9 +16,9 @@
             </div>
             <div class="carousel">
                 <div #bonusCardElement class="bonus-card-wrapper" *ngFor="let bonus of bonusCards$ | async; index as i"
-                    [ngStyle]="{'height.px': bonusCardHeight$ | async, 'border-radius.px': (bonusCardHeight$ | async) * 0.025, 'z-index': i}">
+                    [ngStyle]="bonusCardStyle(i) | async">
                     <app-bonus-card [card]="bonus" [cardHeight$]="bonusCardHeight$"></app-bonus-card>
-                    <div class="bonus-card-stats">
+                    <div class="bonus-card-stats" [ngStyle]="cardStatsStyle() | async">
                         <div class="bonus-card-title" *ngIf="layout !== 'mobile'">{{bonus.Name}}</div>
                         <div class="bonus-card-vp-average">
                             {{bonus['VP Average']}}
