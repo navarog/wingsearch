@@ -115,6 +115,7 @@ export interface BonusCard {
     '%': number | string
     Note: null | string
     'VP Average': number
+    birdIds?: number[]
     isBirdCard: () => false
     isBonusCard: () => true
 }

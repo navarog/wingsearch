@@ -10,7 +10,10 @@
     <div class="flex-content right">
         <div class="carousel-info" *ngIf="layout !== 'mobile'"></div>
         <div class="carousel-wrapper">
-            <div class="carousel-title">Compatible bonus cards</div>
+            <div class="carousel-title">
+                Compatible bonus cards
+                <div class="subtitle">(Best point value)</div>
+            </div>
             <div class="carousel">
                 <div #bonusCardElement class="bonus-card-wrapper" *ngFor="let bonus of bonusCards$ | async; index as i"
                     [ngStyle]="{'height.px': bonusCardHeight$ | async, 'z-index': i}">

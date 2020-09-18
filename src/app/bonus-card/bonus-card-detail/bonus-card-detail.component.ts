@@ -1,7 +1,10 @@
-import { AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core';
-import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { BehaviorSubject } from 'rxjs';
-import { BonusCard } from 'src/app/store/app.interfaces';
+import { AfterViewInit, Component, ElementRef, Inject, OnInit, ViewChild } from '@angular/core'
+import { MAT_DIALOG_DATA } from '@angular/material/dialog'
+import { select, Store } from '@ngrx/store'
+import { BehaviorSubject, Observable } from 'rxjs'
+import { first, flatMap, map, mergeMap, tap } from 'rxjs/operators'
+import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
+import { bonusSearchMap } from 'src/app/store/bonus-search-map'
 
 @Component({
   selector: 'app-bonus-card-detail',
@@ -15,20 +18,49 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
 
   layout: 'desktop' | 'mobile'
   cardHeight$ = new BehaviorSubject<number>(0)
+  bonusCardHeight$ = new BehaviorSubject<number>(0)
+  bonusCards$: Observable<BonusCard[]>
+  birds: BirdCard[]
+  compatibleBirdIds: number[]
 
-  constructor(@Inject(MAT_DIALOG_DATA) public data: { card: BonusCard }) { }
+
+  constructor(@Inject(MAT_DIALOG_DATA) public data: { card: BonusCard }, private store: Store<{ app: AppState }>) { }
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)
+    this.bonusCards$ = this.store.pipe(
+      select(({ app }) => app.birdCards),
+      first(),
+      tap(birds => {
+        this.birds = birds
+        this.compatibleBirdIds = birds.filter((bird) => bonusSearchMap[this.data.card.id](bird)).map(bird => bird.id)
+      }),
+      flatMap(() => this.store.select(({ app }) => app.bonusCards)),
+      map(cards => cards.filter(card => card['VP Average'] && card.id !== this.data.card.id)
+        .map(bonus => ({
+          ...bonus,
+          birdIds: this.birds.filter((bird) => bonusSearchMap[bonus.id](bird))
+            .map(bird => bird.id).filter(id => this.compatibleBirdIds.includes(id))
+        }))
+        .filter(bonus => bonus.birdIds.length).
+        sort((a, b) => b.birdIds.length * b['VP Average'] - a.birdIds.length * a['VP Average'])
+      )
+    )
   }
 
   ngAfterViewInit(): void {
     setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
+    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
+  }
+
+  calcBonusCardHeight(): number {
+    return (this.layout === 'desktop') ? window.innerWidth / 5 * 1.50 : this.cardHeight$.value
   }
 
   onResize(event) {
     this.layout = this.calculateLayout(event.target.innerWidth)
     setTimeout(() => this.cardHeight$.next(this.cardElement.nativeElement.offsetHeight), 0)
+    setTimeout(() => this.bonusCardHeight$.next(this.calcBonusCardHeight()), 0)
   }
 
   calculateLayout(width): 'desktop' | 'mobile' {

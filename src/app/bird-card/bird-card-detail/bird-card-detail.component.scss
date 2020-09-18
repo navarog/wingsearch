@@ -157,6 +157,10 @@ button {
         font-size: 2.4vw;
         line-height: calc(2.4vw + 2px);
         margin-bottom: 0.4vw;
+        
+        .subtitle {
+            font-size: 0.8em;
+        }
     }
 
     .bonus-card-vp-average {
@@ -229,6 +233,7 @@ button {
 
         .bonus-card-vp-average {
             font-size: unset;
+            line-height: unset;
         }
     }
 
