@@ -1,19 +1,17 @@
 <div class="option-container">
-    <div class="image-wrapper">
-        <picture>
-            <source type="image/webp" srcset="assets/cards/bonuses/{{card.id}}.webp">
-            <source type="image/jpeg" srcset="assets/cards/bonuses/{{card.id}}.jpg">
-            <img src="assets/cards/bonuses/{{card.id}}.jpg" onerror="this.style.display='none'"
-                alt="{{card.Name}} bonus card" loading="lazy">
-        </picture>
-    </div>
-    <div class="description-container">
-        <div class="name" [innerHTML]="card.Name | iconize">
+    <div class="row">
+        <div class="description-container">
+            <div class="name" [innerHTML]="card.Name | iconize">
+            </div>
+            <div class="description" [innerHTML]="card.Condition | iconize">
+            </div>
         </div>
-        <div class="description" [innerHTML]="card.Condition | iconize">
-        </div>
-        <div class="explanation" *ngIf="card['Explanatory text']">
-            {{card['Explanatory text']}}
+        <div class="points">
+            <div class="condition" *ngFor="let condition of getPointConditions()">
+                <div class="part" [ngClass]="{point: part.point}" *ngFor="let part of condition"
+                    [innerHTML]="part.value | iconize"></div>
+            </div>
         </div>
     </div>
+    <div class="explanation" *ngIf="card['Explanatory text']" [innerHTML]="card['Explanatory text'] | iconize"></div>
 </div>

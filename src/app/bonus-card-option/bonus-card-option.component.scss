@@ -1,5 +1,6 @@
 .option-container {
     display: flex;
+    flex-direction: column;
     flex: auto 1 1;
     flex-wrap: nowrap;
     height: 128px;
@@ -40,21 +41,54 @@
     margin-bottom: auto;
 }
 
-.no-webpalpha .image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bonus-background.jpg');
+.points {
+    display: flex;
+    justify-content: space-around;
+    font-family: CardenioModernBold;
+    color: #666666;
+    margin-left: auto;
+    padding-right: 0.2em;
+
+    .condition {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+        .part.point {
+            font-size: 1.4em;
+            line-height: 1.8em;
+
+            ::ng-deep {
+                .icon-image {
+                    max-height: 1.5em;
+                    max-width: 1.5em;
+                    bottom: -0.5em;
+                    left: -0.3em;
+                }
+
+                .icon-picture {
+                    max-height: 1.5em;
+                    max-width: 1.5em;
+                }
+            }
+        }
+
+        .part.point:not(:first-child) {
+            margin-top: -1em;
+        }
+
+        .part.point:first-child {
+            margin-bottom: -0.8em;
+        }
+
+    }
+
+    :not(:first-child) {
+        margin-left: 0.2em;
+    }
 }
 
-.image-wrapper {
-    background-image: url('../../assets/cards/backgrounds/bonus-background.webp');
-    background-size: contain;
-    height: 102px;
-    max-width: 66.55px;
-    min-width: 66.55px;
-    margin: 8px 20px 8px 0;
-    border-radius: 5px;
-}
-
-img {
-    height: 100%;   
-    border-radius: 5px;
+.row {
+    display: flex;
+    flex-wrap: nowrap;
 }
