@@ -17,7 +17,7 @@ export class BirdCardComponent implements OnInit {
 
   habitats: string[]
   eggs: any[]
-  powerTitle = '<span class="intro">[text]: </span>'
+  powerTitle = '<span class="intro">[power][text]: </span>'
 
   constructor() { }
 
@@ -48,12 +48,17 @@ export class BirdCardComponent implements OnInit {
   }
 
   getPowerTitle() {
+    const escapePower = (power: string) => power ? `[${power.toLowerCase()}]` : ''
+    const powerKeys = ['Predator', 'Flocking']
     const textMap = {
       Brown: 'WHEN ACTIVATED',
       White: 'WHEN PLAYED',
       Pink: 'ONCE BETWEEN TURNS',
       Teal: 'ROUND END'
     }
-    return this.powerTitle.replace(/\[text\]/g, textMap[this.card.Color])
+
+    return this.powerTitle
+      .replace(/\[power\]/g, escapePower(powerKeys.find(key => this.card[key])))
+      .replace(/\[text\]/g, textMap[this.card.Color])
   }
 }
