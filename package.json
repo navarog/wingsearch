@@ -33,7 +33,6 @@
     "Modernizr": "https://modernizr.com/download?webpalpha-setclasses",
     "flexsearch": "^0.6.32",
     "fs": "0.0.1-security",
-    "modernizr": "^3.11.3",
     "ng5-slider": "^1.2.4",
     "ngx-infinite-scroll": "^9.1.0",
     "rxjs": "~6.5.4",

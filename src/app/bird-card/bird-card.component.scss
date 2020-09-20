@@ -1,6 +1,7 @@
 .content-wrapper {
     width: 100%;
     height: 100%;
+    background-size: contain;
 }
 
 .grey-square {
@@ -43,6 +44,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #f5f6f1;
 }
 
 .habitats {

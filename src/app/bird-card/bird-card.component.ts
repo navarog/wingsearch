@@ -61,4 +61,8 @@ export class BirdCardComponent implements OnInit {
       .replace(/\[power\]/g, escapePower(powerKeys.find(key => this.card[key])))
       .replace(/\[text\]/g, textMap[this.card.Color])
   }
+
+  getBirdSilhouette() {
+    return `background-image: url(assets/cards/birds/${this.card.id}.${Modernizr.webpalpha ? 'webp' : 'png'})`
+  }
 }
