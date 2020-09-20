@@ -2,7 +2,7 @@
   "name": "Wingsearch",
   "short_name": "Wingsearch",
   "theme_color": "#936e39",
-  "background_color": "#62430f",
+  "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
@@ -32,8 +32,20 @@
       "purpose": "maskable any"
     },
     {
+      "src": "assets/icons/pwa/128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
       "src": "assets/icons/pwa/144x144.png",
       "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "assets/icons/pwa/152x152.png",
+      "sizes": "152x152",
       "type": "image/png",
       "purpose": "maskable any"
     },
