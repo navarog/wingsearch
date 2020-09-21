@@ -5,11 +5,24 @@ import BonusCards from '../../assets/data/bonus.json'
 export const birdCardsSearch = FlexSearch.create({
     doc: {
         id: 'id',
-        field: [
-            'Common name',
-            'Scientific name',
-            'Power text',
-        ]
+        field: {
+            'Common name': {
+                encode: 'icase',
+                tokenize: 'full',
+                threshold: false,
+            },
+            'Scientific name': {
+                encode: 'icase',
+                tokenize: 'full',
+                threshold: false
+            },
+            'Power text': {
+                encode: 'icase',
+                tokenize: 'strict',
+                threshold: 3,
+                resolution: 9
+            },
+        }
     }
 })
 
@@ -18,11 +31,25 @@ birdCardsSearch.add(BirdCards)
 export const bonusCardsSearch = FlexSearch.create({
     doc: {
         id: 'id',
-        field: [
-            'Name',
-            'Condition',
-            'VP',
-        ]
+        field: {
+            Name: {
+                encode: 'icase',
+                tokenize: 'full',
+                threshold: false,
+            },
+            Condition: {
+                encode: 'icase',
+                tokenize: 'strict',
+                threshold: 3,
+                resolution: 9
+            },
+            VP: {
+                encode: 'icase',
+                tokenize: 'strict',
+                threshold: 3,
+                resolution: 9
+            },
+        }
     }
 })
 
