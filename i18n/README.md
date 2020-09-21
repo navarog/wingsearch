@@ -2,7 +2,7 @@
 
 If you own the game in other language which is not fully translated and want to contribute, I'd really appreciate that. To make the whole process the easiest, please follow the next steps.
 
-* Copy file [`empty_table.xlsx`](empty_table.xlsx) and name it according to respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for german it would be `de.xlsx`) and save it in this folder.
+* Copy file [`template.xlsx`](template.xlsx) and name it according to respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for german it would be `de.xlsx`) and save it in this folder.
 
 * Fill the necessary information in the file. Do not change any predefined cells. The file consists of 3 sheets. 
 
