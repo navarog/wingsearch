@@ -8,8 +8,8 @@ If you own the game in other language which is not fully translated and want to 
 
 * **Pay attention to the following format.** Specify icons in card descriptions using their name inside of square brackets.
 
-E.g. for example for American Bittern (*Botaurus lentiginosus*) power text in english looks like this: `Player(s) with the fewest [wetland] birds: draw 1 [card].
-`
+E.g. for American Bittern (*Botaurus lentiginosus*), the power text in english looks like this: `Player(s) with the fewest [wetland] birds: draw 1 [card].`
+
 Below you find the table of all needed icons and their codes.
 
 | Icon | Code |
@@ -44,8 +44,8 @@ Below you find the table of all needed icons and their codes.
 | Field | Description |
 | ----------- | ----------- |
 | id | Internal identificator of the bird, do not change this value |
-| English name| The common name of a bird in english. It helps you to identify, which bird should be in that column  |
-| Scientific name| The name of a bird in latin. It helps you to identify, which bird should be in that column  |
+| English name| The common name of a bird in english. It helps you to identify, which bird should be in that row  |
+| Scientific name| The name of a bird in latin. It helps you to identify, which bird should be in that row  |
 | Name| Fill there the common name of a bird in a desired language |
 | Power text| Fill there the ability of the bird. Leave empty if the bird has no ability |
 | Note| Fill there additional information about a bird from the appendix. Leave empty if the bird has no additional info |
@@ -54,7 +54,7 @@ Below you find the table of all needed icons and their codes.
 | Field | Description |
 | ----------- | ----------- |
 | id | Internal identificator of the bird, do not change this value |
-| English name| The name of a bonus card in english. It helps you to identify, which bird should be in that column  |
+| English name| The name of a bonus card in english. It helps you to identify, which bonus card should be in that row  |
 | Name| Fill there the title of a bonus card in a desired language |
 | Condition| Main description of a bonus card following the title|
 | Explanatory text| Additional explanation of bonus card condition, typically found at the bottom of the card |
