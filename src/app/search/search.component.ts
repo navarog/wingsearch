@@ -37,6 +37,12 @@ export class SearchComponent implements OnInit {
     points: {
       min: 0,
       max: 9
+    },
+    colors: {
+      brown: true,
+      pink: true,
+      white: true,
+      teal: true
     }
   }
 
@@ -121,7 +127,8 @@ export class SearchComponent implements OnInit {
         bonuses: true
       },
       eggs: { ...this.eggs },
-      points: { ...this.points }
+      points: { ...this.points },
+      colors: { brown: true, pink: true, white: true, teal: true}
     }
     this.bonusControl.setValue('')
     this.onBonusChange()
@@ -160,5 +167,10 @@ export class SearchComponent implements OnInit {
 
   openPanel() {
     this.autocomplete.openPanel()
+  }
+
+  togglePower(color: string) {
+    this.query = { ...this.query, colors: { ...this.query.colors, [color]: !this.query.colors[color]}}
+    this.onQueryChange()
   }
 }

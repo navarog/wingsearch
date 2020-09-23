@@ -83,8 +83,13 @@ const reducer = createReducer(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, ALLWAYS_ALLOWED_EXPANSIONS
         )
 
+        const allowedColors = Object.entries(action.colors).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
         displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Expansion)
+            allowedExpansions.includes(card.Expansion) &&
+            (isBonusCard(card) || allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white'))
         )
 
         displayedCards = displayedCards.filter(card =>

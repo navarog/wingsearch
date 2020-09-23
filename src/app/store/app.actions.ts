@@ -22,6 +22,12 @@ export const search = createAction('[App] Search', props<{
     points: {
         min: number,
         max: number
+    },
+    colors: {
+        brown: boolean,
+        pink: boolean,
+        white: boolean,
+        teal: boolean
     }
 }>()
 )
