@@ -37,6 +37,14 @@ export const search = createAction('[App] Search', props<{
         rodent: boolean,
         'wild (food)': boolean,
         'no-food': boolean
+    },
+    nest: {
+        Bowl: boolean,
+        Cavity: boolean,
+        Ground: boolean,
+        None: boolean,
+        Platform: boolean,
+        Wild: boolean
     }
 }>()
 )

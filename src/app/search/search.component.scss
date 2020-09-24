@@ -155,3 +155,12 @@ mat-chip.custom-chip {
     max-width: 30px;
     margin: 0 8px;
 }
+
+.flex-center {
+    display: flex;
+    align-items: center;
+
+    .food-image {
+        max-width: 50px;
+    }
+}

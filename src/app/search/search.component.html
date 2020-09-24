@@ -147,6 +147,56 @@
             </picture>
         </span>
     </div>
+<div class="row justify-content-unset" matTooltip="Toggle birds with a specific nest type">
+        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/bowl.webp">
+                <source type="image/png" srcset="assets/icons/png/bowl.png">
+                <img class="food-image" src="assets/icons/png/bowl.png" aria-hidden="false"
+                    aria-label="Toggle bowl" alt="bowl">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/cavity.webp">
+                <source type="image/png" srcset="assets/icons/png/cavity.png">
+                <img class="food-image" src="assets/icons/png/cavity.png" aria-hidden="false"
+                    aria-label="Toggle cavity" alt="cavity">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/ground.webp">
+                <source type="image/png" srcset="assets/icons/png/ground.png">
+                <img class="food-image" src="assets/icons/png/ground.png" aria-hidden="false"
+                    aria-label="Toggle ground" alt="ground">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Platform}" (click)="toggleNest('Platform')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/platform.webp">
+                <source type="image/png" srcset="assets/icons/png/platform.png">
+                <img class="food-image" src="assets/icons/png/platform.png" aria-hidden="false"
+                    aria-label="Toggle platform" alt="platform">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/star.webp">
+                <source type="image/png" srcset="assets/icons/png/star.png">
+                <img class="food-image" src="assets/icons/png/star.png" aria-hidden="false"
+                    aria-label="Toggle wild" alt="wild">
+            </picture>
+        </span>
+        <span class="pointer shrink flex-center" [ngClass]="{inactive: !query.nest.None}" (click)="toggleNest('None')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/none.webp">
+                <source type="image/png" srcset="assets/icons/png/none.png">
+                <img class="food-image" src="assets/icons/png/none.png" aria-hidden="false"
+                    aria-label="Toggle none" alt="none">
+            </picture>
+        </span>
+    </div>
     <div class="row">
         <span class="slider-wrapper">
             <div class="custom-slider" style="max-width: 272px">

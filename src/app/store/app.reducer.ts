@@ -97,10 +97,16 @@ const reducer = createReducer(
             (acc, val) => val[1] ? acc : [...acc, val[0]], []
         )
 
+        const allowedNests = Object.entries(action.nest).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
         displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Expansion) &&
-            (isBonusCard(card) || allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
-            (isBonusCard(card) || !eatsForbiddenFood(card, forbiddenFood))
+            allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
+                allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
+                !eatsForbiddenFood(card, forbiddenFood) &&
+                allowedNests.includes(card['Nest type'])
+            )
         )
 
         displayedCards = displayedCards.filter(card =>
