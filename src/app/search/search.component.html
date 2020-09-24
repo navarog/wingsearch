@@ -55,7 +55,7 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
-    <div class="row justify-content-unset" matTooltip="Toggle birds with specific power color">
+    <div class="row justify-content-unset" matTooltip="Toggle birds with a specific power color">
         <span class="pointer shrink" [ngClass]="{inactive: !query.colors.brown}" (click)="togglePower('brown')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/brown.webp">
@@ -86,6 +86,64 @@
                 <source type="image/png" srcset="assets/icons/png/teal.png">
                 <img class="power-image" src="assets/icons/png/teal.png" aria-hidden="false"
                     aria-label="Toggle teal power" alt="teal power">
+            </picture>
+        </span>
+    </div>
+<div class="row justify-content-unset" matTooltip="Toggle birds with a specific food cost">
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.invertebrate}" (click)="toggleFood('invertebrate')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/invertebrate.webp">
+                <source type="image/png" srcset="assets/icons/png/invertebrate.png">
+                <img class="food-image" src="assets/icons/png/invertebrate.png" aria-hidden="false"
+                    aria-label="Toggle invertebrate" alt="invertebrate">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.seed}" (click)="toggleFood('seed')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/seed.webp">
+                <source type="image/png" srcset="assets/icons/png/seed.png">
+                <img class="food-image" src="assets/icons/png/seed.png" aria-hidden="false"
+                    aria-label="Toggle seed" alt="seed">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.fruit}" (click)="toggleFood('fruit')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/fruit.webp">
+                <source type="image/png" srcset="assets/icons/png/fruit.png">
+                <img class="food-image" src="assets/icons/png/fruit.png" aria-hidden="false"
+                    aria-label="Toggle fruit" alt="fruit">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.fish}" (click)="toggleFood('fish')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/fish.webp">
+                <source type="image/png" srcset="assets/icons/png/fish.png">
+                <img class="food-image" src="assets/icons/png/fish.png" aria-hidden="false"
+                    aria-label="Toggle fish" alt="fish">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.rodent}" (click)="toggleFood('rodent')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/rodent.webp">
+                <source type="image/png" srcset="assets/icons/png/rodent.png">
+                <img class="food-image" src="assets/icons/png/rodent.png" aria-hidden="false"
+                    aria-label="Toggle rodent" alt="rodent">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food['wild (food)']}" (click)="toggleFood('wild (food)')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/wild.webp">
+                <source type="image/png" srcset="assets/icons/png/wild.png">
+                <img class="food-image" src="assets/icons/png/wild.png" aria-hidden="false"
+                    aria-label="Toggle wild (food)" alt="wild (food)">
+            </picture>
+        </span>
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food['no-food']}" (click)="toggleFood('no-food')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/no-food.webp">
+                <source type="image/png" srcset="assets/icons/png/no-food.png">
+                <img class="food-image" src="assets/icons/png/no-food.png" aria-hidden="false"
+                    aria-label="Toggle no-food" alt="no-food">
             </picture>
         </span>
     </div>

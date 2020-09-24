@@ -43,6 +43,15 @@ export class SearchComponent implements OnInit {
       pink: true,
       white: true,
       teal: true
+    },
+    food: {
+      invertebrate: true,
+      seed: true,
+      fruit: true,
+      fish: true,
+      rodent: true,
+      'no-food': true,
+      'wild (food)': true
     }
   }
 
@@ -128,7 +137,8 @@ export class SearchComponent implements OnInit {
       },
       eggs: { ...this.eggs },
       points: { ...this.points },
-      colors: { brown: true, pink: true, white: true, teal: true}
+      colors: { brown: true, pink: true, white: true, teal: true},
+      food: { invertebrate: true, seed: true, fruit: true, fish: true, rodent: true, 'wild (food)': true, 'no-food': true }
     }
     this.bonusControl.setValue('')
     this.onBonusChange()
@@ -171,6 +181,11 @@ export class SearchComponent implements OnInit {
 
   togglePower(color: string) {
     this.query = { ...this.query, colors: { ...this.query.colors, [color]: !this.query.colors[color]}}
+    this.onQueryChange()
+  }
+
+  toggleFood(food: string) {
+    this.query = { ...this.query, food: { ...this.query.food, [food]: !this.query.food[food] } }
     this.onQueryChange()
   }
 }
