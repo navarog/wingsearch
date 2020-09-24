@@ -14,7 +14,7 @@ export class IconizePipe implements PipeTransform {
   `
 
   transform(value: string, ...args: unknown[]): string {
-    return value && value.replace(/\[([a-z]+)\]/g, this.BASE_HTML_STRING)
+    return value && value.replace(/\[([a-z\-]+)\]/g, this.BASE_HTML_STRING)
   }
 
 }

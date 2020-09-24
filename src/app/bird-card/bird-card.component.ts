@@ -38,7 +38,7 @@ export class BirdCardComponent implements OnInit {
 
     return (this.card['* (food cost)'] ? '*' : '') + Object.entries(food)
       .reduce((acc, val) => ([...acc, ...Array.from({ length: val[1] }, () => `[${val[0]}]`)]), [])
-      .join(this.card['/ (food cost)'] ? '/' : '+')
+      .join(this.card['/ (food cost)'] ? '/' : '+') || '[no-food]'
   }
 
   resolveNestType() {
