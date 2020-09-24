@@ -153,14 +153,14 @@ button {
     width: 16vw;
     text-align: center;
     flex-direction: column;
-    background-color: white;
+    background-color: #f5f6f1;
     padding: 1vw;
     border-radius: 1vw;
 
     .bonus-card-title {
         font-family: DarbogBold, Arial, Helvetica;
-        font-size: 2.4vw;
-        line-height: calc(2.4vw + 2px);
+        font-size: 2.3vw;
+        line-height: calc(2.3vw + 2px);
         margin-bottom: 0.4vw;
     }
 
