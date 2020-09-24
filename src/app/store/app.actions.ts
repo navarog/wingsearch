@@ -22,6 +22,29 @@ export const search = createAction('[App] Search', props<{
     points: {
         min: number,
         max: number
+    },
+    colors: {
+        brown: boolean,
+        pink: boolean,
+        white: boolean,
+        teal: boolean
+    },
+    food: {
+        invertebrate: boolean,
+        seed: boolean,
+        fruit: boolean,
+        fish: boolean,
+        rodent: boolean,
+        'wild (food)': boolean,
+        'no-food': boolean
+    },
+    nest: {
+        Bowl: boolean,
+        Cavity: boolean,
+        Ground: boolean,
+        None: boolean,
+        Platform: boolean,
+        Wild: boolean
     }
 }>()
 )

@@ -25,6 +25,12 @@ const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStat
     return { birdCards, bonusCards, habitat }
 }
 
+const eatsForbiddenFood = (card: BirdCard, forbiddenFood: string[]): boolean => {
+    const foodKeys = ['Invertebrate', 'Seed', 'Fruit', 'Fish', 'Rodent', 'Wild (food)']
+    const birdFood = foodKeys.filter(key => card[key]).map(key => key.toLowerCase())
+    return (!birdFood.length && forbiddenFood.includes('no-food')) || !!birdFood.find(food => forbiddenFood.includes(food))
+}
+
 export const initialState: AppState = {
     // @ts-ignore
     birdCards: BirdCards,
@@ -83,8 +89,24 @@ const reducer = createReducer(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, ALLWAYS_ALLOWED_EXPANSIONS
         )
 
+        const allowedColors = Object.entries(action.colors).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
+        const forbiddenFood = Object.entries(action.food).reduce(
+            (acc, val) => val[1] ? acc : [...acc, val[0]], []
+        )
+
+        const allowedNests = Object.entries(action.nest).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
         displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Expansion)
+            allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
+                allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
+                !eatsForbiddenFood(card, forbiddenFood) &&
+                allowedNests.includes(card['Nest type'])
+            )
         )
 
         displayedCards = displayedCards.filter(card =>
