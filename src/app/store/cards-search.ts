@@ -18,7 +18,7 @@ export const birdCardsSearch = FlexSearch.create({
             },
             'Power text': {
                 encode: 'icase',
-                tokenize: 'strict',
+                tokenize: 'reverse',
                 threshold: 3,
                 resolution: 9
             },
@@ -39,13 +39,13 @@ export const bonusCardsSearch = FlexSearch.create({
             },
             Condition: {
                 encode: 'icase',
-                tokenize: 'strict',
+                tokenize: 'reverse',
                 threshold: 3,
                 resolution: 9
             },
             VP: {
                 encode: 'icase',
-                tokenize: 'strict',
+                tokenize: 'reverse',
                 threshold: 3,
                 resolution: 9
             },
