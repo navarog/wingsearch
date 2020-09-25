@@ -8,5 +8,10 @@
 }
 
 mat-grid-list {
-    margin: 20px 5px;
+    margin: 20px auto;
+    max-width: 1400px;
+}
+
+:host {
+    padding: 0 5px;
 }

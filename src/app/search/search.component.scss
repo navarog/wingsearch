@@ -1,12 +1,12 @@
 @media screen and (min-width: 850px) {
     mat-expansion-panel {
         max-width: 700px;
-        margin: 0 auto 40vh auto;
+        margin: 0 auto 300px auto;
         background-color: #f5f6f1;
     }
 
     mat-expansion-panel.mat-expanded {
-        margin: 0 auto 18vh auto;
+        margin: 0 auto 100px auto;
     }
 }
 
