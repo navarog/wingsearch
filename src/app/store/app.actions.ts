@@ -55,6 +55,11 @@ export const bonusCardSearch = createAction('[App] Bonus Card Search',
 
 export const scroll = createAction('[App] Scroll')
 
-// TODO proper typing
 export const setLanguage = createAction('[App] Set language',
-    props<{ payload: {birds: object, bonuses: object, other: object} }>())
+    props<{
+        payload: {
+            birds: { 'Common name': string, 'Power text': string, 'Note': string }[],
+            bonuses: { 'Name': string, 'Condition': string, 'Explanatory text': string, 'VP': string, 'Note': string },
+            other: { [key: string]: { Translated: string } }
+        }
+    }>())

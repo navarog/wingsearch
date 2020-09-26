@@ -39,6 +39,7 @@ import { ConsentComponent } from './consent/consent.component'
 import { BirdCardDetailComponent } from './bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AppEffects } from './store/app.effects'
+import { TranslatePipe } from './translate.pipe'
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { AppEffects } from './store/app.effects'
     ConsentComponent,
     BirdCardDetailComponent,
     BonusCardDetailComponent,
+    TranslatePipe,
   ],
   imports: [
     BrowserModule,
@@ -81,7 +83,7 @@ import { AppEffects } from './store/app.effects'
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     EffectsModule.forRoot([AppEffects]),
   ],
-  providers: [CookiesService],
+  providers: [CookiesService, TranslatePipe],
   bootstrap: [AppComponent],
   entryComponents: [
     BirdCardDetailComponent,

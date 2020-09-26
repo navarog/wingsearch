@@ -10,6 +10,7 @@ export interface AppState {
     activeBonusCards: BonusCard[]
     displayedStats: DisplayedStats
     scrollDisabled: boolean
+    translatedContent: { [key: string]: { Translated: string } }
 }
 
 export interface BirdCard {
