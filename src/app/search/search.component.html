@@ -244,6 +244,7 @@
                     <mat-option class="language-option" *ngFor="let language of supportedLanguages" [value]="language.value">
                         <span>
                             <picture>
+                                <source type="image/webp" srcset="assets/icons/i18n/{{language.value}}.webp">
                                 <source type="image/jpg" srcset="assets/icons/i18n/{{language.value}}.jpg">
                                 <img src="assets/icons/i18n/{{language.value}}.jpg">
                             </picture>
