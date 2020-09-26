@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { search, bonusCardSearch } from '../store/app.actions'
+import { search, bonusCardSearch, changeLanguage, resetLanguage } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
@@ -16,8 +16,8 @@ import { CookiesService } from '../cookies.service'
 export class SearchComponent implements OnInit {
 
   readonly supportedLanguages = [
-    { value: 'en', display: 'English'},
-    { value: 'nl', display: 'Dutch'}
+    { value: 'en', display: 'English' },
+    { value: 'nl', display: 'Dutch' }
   ]
 
   query = {
@@ -113,6 +113,8 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
     this.canFitStats = window.innerWidth >= 600
     this.bonusControl.valueChanges.subscribe(() => this.onBonusChange())
+    if (this.cookies.hasConsent())
+      this.language = this.cookies.getCookie('language') || this.language
   }
 
   onQueryChange() {
@@ -210,7 +212,13 @@ export class SearchComponent implements OnInit {
     this.onQueryChange()
   }
 
-  languageChange(language) {
-    console.log(language)
+  languageChange(language: string) {
+    if (language === 'en') {
+      this.cookies.deleteCookie('language')
+      this.store.dispatch(resetLanguage())
+    } else {
+      this.cookies.setCookie('language', language, 180)
+      this.store.dispatch(changeLanguage({ language }))
+    }
   }
 }

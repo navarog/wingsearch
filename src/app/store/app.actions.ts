@@ -63,3 +63,7 @@ export const setLanguage = createAction('[App] Set language',
             other: { [key: string]: { Translated: string } }
         }
     }>())
+
+export const changeLanguage = createAction('[App] Change language', props<{ language: string }>())
+
+export const resetLanguage = createAction('[App] Reset language')

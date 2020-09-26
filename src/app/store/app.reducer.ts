@@ -194,6 +194,26 @@ const reducer = createReducer(
             activeBonusCards: bonusCards,
             translatedContent: action.payload.other
         }
+    }),
+
+    // @ts-ignore
+    on(appActions.resetLanguage, (state, action) => {
+        return {
+            ...state,
+            // @ts-ignore
+            birdCards: BirdCards,
+            // @ts-ignore
+            bonusCards: BonusCards,
+            // @ts-ignore
+            search: { birdCards: birdCardsSearch(BirdCards), bonusCards: bonusCardsSearch(BonusCards) },
+            // @ts-ignore
+            displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
+            // @ts-ignore
+            displayedCardsHidden: BirdCards.concat(BonusCards).slice(SLICE_WINDOW),
+            // @ts-ignore
+            activeBonusCards: BonusCards,
+            translatedContent: {}
+        }
     })
 )
 
