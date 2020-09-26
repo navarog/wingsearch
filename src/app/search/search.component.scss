@@ -30,9 +30,34 @@ mat-panel-title {
 }
 
 .row {
-    width: 100%;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 460px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .flex-column:last-child {
+        flex-direction: row;
+        align-items: center;
+
+        button {
+            margin-top: 4px;
+        }
+    }
+}
+
+.flex-mgt20 {
+    display: flex;
     margin-top: 20px;
 }
 
@@ -56,6 +81,10 @@ mat-panel-title {
     cursor: pointer;
     display: flex;
     min-width: 100px;
+}
+
+.clickable:first-child {
+    padding-top: 16px;
 }
 
 ::ng-deep {
@@ -163,4 +192,8 @@ mat-chip.custom-chip {
     .food-image {
         max-width: 50px;
     }
+}
+
+button {
+    max-height: 40px;
 }

@@ -55,7 +55,7 @@
             </mat-option>
         </mat-autocomplete>
     </mat-form-field>
-    <div class="row justify-content-unset" matTooltip="Toggle birds with a specific power color">
+    <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific power color">
         <span class="pointer shrink" [ngClass]="{inactive: !query.colors.brown}" (click)="togglePower('brown')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/brown.webp">
@@ -89,8 +89,9 @@
             </picture>
         </span>
     </div>
-<div class="row justify-content-unset" matTooltip="Toggle birds with a specific food cost">
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.invertebrate}" (click)="toggleFood('invertebrate')">
+    <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific food cost">
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food.invertebrate}"
+            (click)="toggleFood('invertebrate')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/invertebrate.webp">
                 <source type="image/png" srcset="assets/icons/png/invertebrate.png">
@@ -102,35 +103,36 @@
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/seed.webp">
                 <source type="image/png" srcset="assets/icons/png/seed.png">
-                <img class="food-image" src="assets/icons/png/seed.png" aria-hidden="false"
-                    aria-label="Toggle seed" alt="seed">
+                <img class="food-image" src="assets/icons/png/seed.png" aria-hidden="false" aria-label="Toggle seed"
+                    alt="seed">
             </picture>
         </span>
         <span class="pointer shrink" [ngClass]="{inactive: !query.food.fruit}" (click)="toggleFood('fruit')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fruit.webp">
                 <source type="image/png" srcset="assets/icons/png/fruit.png">
-                <img class="food-image" src="assets/icons/png/fruit.png" aria-hidden="false"
-                    aria-label="Toggle fruit" alt="fruit">
+                <img class="food-image" src="assets/icons/png/fruit.png" aria-hidden="false" aria-label="Toggle fruit"
+                    alt="fruit">
             </picture>
         </span>
         <span class="pointer shrink" [ngClass]="{inactive: !query.food.fish}" (click)="toggleFood('fish')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fish.webp">
                 <source type="image/png" srcset="assets/icons/png/fish.png">
-                <img class="food-image" src="assets/icons/png/fish.png" aria-hidden="false"
-                    aria-label="Toggle fish" alt="fish">
+                <img class="food-image" src="assets/icons/png/fish.png" aria-hidden="false" aria-label="Toggle fish"
+                    alt="fish">
             </picture>
         </span>
         <span class="pointer shrink" [ngClass]="{inactive: !query.food.rodent}" (click)="toggleFood('rodent')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/rodent.webp">
                 <source type="image/png" srcset="assets/icons/png/rodent.png">
-                <img class="food-image" src="assets/icons/png/rodent.png" aria-hidden="false"
-                    aria-label="Toggle rodent" alt="rodent">
+                <img class="food-image" src="assets/icons/png/rodent.png" aria-hidden="false" aria-label="Toggle rodent"
+                    alt="rodent">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food['wild (food)']}" (click)="toggleFood('wild (food)')">
+        <span class="pointer shrink" [ngClass]="{inactive: !query.food['wild (food)']}"
+            (click)="toggleFood('wild (food)')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/wild.webp">
                 <source type="image/png" srcset="assets/icons/png/wild.png">
@@ -147,99 +149,107 @@
             </picture>
         </span>
     </div>
-<div class="row justify-content-unset" matTooltip="Toggle birds with a specific nest type">
-        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/bowl.webp">
-                <source type="image/png" srcset="assets/icons/png/bowl.png">
-                <img class="food-image" src="assets/icons/png/bowl.png" aria-hidden="false"
-                    aria-label="Toggle bowl" alt="bowl">
-            </picture>
-        </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/cavity.webp">
-                <source type="image/png" srcset="assets/icons/png/cavity.png">
-                <img class="food-image" src="assets/icons/png/cavity.png" aria-hidden="false"
-                    aria-label="Toggle cavity" alt="cavity">
-            </picture>
-        </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/ground.webp">
-                <source type="image/png" srcset="assets/icons/png/ground.png">
-                <img class="food-image" src="assets/icons/png/ground.png" aria-hidden="false"
-                    aria-label="Toggle ground" alt="ground">
-            </picture>
-        </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Platform}" (click)="toggleNest('Platform')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/platform.webp">
-                <source type="image/png" srcset="assets/icons/png/platform.png">
-                <img class="food-image" src="assets/icons/png/platform.png" aria-hidden="false"
-                    aria-label="Toggle platform" alt="platform">
-            </picture>
-        </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/star.webp">
-                <source type="image/png" srcset="assets/icons/png/star.png">
-                <img class="food-image" src="assets/icons/png/star.png" aria-hidden="false"
-                    aria-label="Toggle wild" alt="wild">
-            </picture>
-        </span>
-        <span class="pointer shrink flex-center" [ngClass]="{inactive: !query.nest.None}" (click)="toggleNest('None')">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/none.webp">
-                <source type="image/png" srcset="assets/icons/png/none.png">
-                <img class="food-image" src="assets/icons/png/none.png" aria-hidden="false"
-                    aria-label="Toggle none" alt="none">
-            </picture>
-        </span>
-    </div>
     <div class="row">
-        <span class="slider-wrapper">
-            <div class="custom-slider" style="max-width: 272px">
-                <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
-                    (userChangeEnd)="onEggsChange()"></ng5-slider>
+        <div class="flex-column">
+            <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific nest type">
+                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/bowl.webp">
+                        <source type="image/png" srcset="assets/icons/png/bowl.png">
+                        <img class="food-image" src="assets/icons/png/bowl.png" aria-hidden="false"
+                            aria-label="Toggle bowl" alt="bowl">
+                    </picture>
+                </span>
+                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/cavity.webp">
+                        <source type="image/png" srcset="assets/icons/png/cavity.png">
+                        <img class="food-image" src="assets/icons/png/cavity.png" aria-hidden="false"
+                            aria-label="Toggle cavity" alt="cavity">
+                    </picture>
+                </span>
+                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/ground.webp">
+                        <source type="image/png" srcset="assets/icons/png/ground.png">
+                        <img class="food-image" src="assets/icons/png/ground.png" aria-hidden="false"
+                            aria-label="Toggle ground" alt="ground">
+                    </picture>
+                </span>
+                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Platform}"
+                    (click)="toggleNest('Platform')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/platform.webp">
+                        <source type="image/png" srcset="assets/icons/png/platform.png">
+                        <img class="food-image" src="assets/icons/png/platform.png" aria-hidden="false"
+                            aria-label="Toggle platform" alt="platform">
+                    </picture>
+                </span>
+                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/star.webp">
+                        <source type="image/png" srcset="assets/icons/png/star.png">
+                        <img class="food-image" src="assets/icons/png/star.png" aria-hidden="false"
+                            aria-label="Toggle wild" alt="wild">
+                    </picture>
+                </span>
+                <span class="pointer shrink flex-center" [ngClass]="{inactive: !query.nest.None}"
+                    (click)="toggleNest('None')">
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/none.webp">
+                        <source type="image/png" srcset="assets/icons/png/none.png">
+                        <img class="food-image" src="assets/icons/png/none.png" aria-hidden="false"
+                            aria-label="Toggle none" alt="none">
+                    </picture>
+                </span>
             </div>
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/egg.webp">
-                <source type="image/png" srcset="assets/icons/png/egg.png">
-                <img src="assets/icons/png/egg.png" alt="egg" aria-hidden="false"
-                    matTooltip="Filter by the egg capacity" aria-label="Select number of eggs"
-                    style="max-height: 24px; width: auto; margin-left: 10px">
-            </picture>
-        </span>
-        <span class="clickable" [ngClass]="{inactive: !query.expansion.european}" (click)="toggleExpansion('european');"
-            matTooltip="Toggle if you don't play with that expansion">
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/european.webp">
-                <source type="image/png" srcset="assets/icons/png/european.png">
-                <img class="expansion-image" src="assets/icons/png/european.png" aria-hidden="false"
-                    aria-label="Toggle european expansion" alt="european expansion">
-            </picture>
-            <div class="description"> European expansion</div>
-        </span>
-    </div>
-    <div class="row">
-        <span class="slider-wrapper">
-            <div class="custom-slider" style="max-width: 400px">
-                <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
-                    (userChangeEnd)="onPointsChange()"></ng5-slider>
+            <div class="flex-mgt20">
+                <span class="slider-wrapper">
+                    <div class="custom-slider" style="max-width: 272px">
+                        <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
+                            (userChangeEnd)="onEggsChange()"></ng5-slider>
+                    </div>
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/egg.webp">
+                        <source type="image/png" srcset="assets/icons/png/egg.png">
+                        <img src="assets/icons/png/egg.png" alt="egg" aria-hidden="false"
+                            matTooltip="Filter by the egg capacity" aria-label="Select number of eggs"
+                            style="max-height: 24px; width: auto; margin-left: 10px">
+                    </picture>
+                </span>
             </div>
-            <picture>
-                <source type="image/webp" srcset="assets/icons/png/point.webp">
-                <source type="image/png" srcset="assets/icons/png/point.png">
-                <img src="assets/icons/png/point.png" alt="point" aria-hidden="false"
-                    matTooltip="Filter by the number of points" aria-label="Select number of points"
-                    style="max-height: 34px; width: auto; margin-left: 10px">
-            </picture>
-        </span>
-        <button mat-raised-button color="primary" aria-label="Reset all filters"
-            (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
-            Reset <mat-icon>filter_alt</mat-icon>
-        </button>
+            <div class="flex-mgt20">
+                <span class="slider-wrapper">
+                    <div class="custom-slider" style="max-width: 400px">
+                        <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
+                            (userChangeEnd)="onPointsChange()"></ng5-slider>
+                    </div>
+                    <picture>
+                        <source type="image/webp" srcset="assets/icons/png/point.webp">
+                        <source type="image/png" srcset="assets/icons/png/point.png">
+                        <img src="assets/icons/png/point.png" alt="point" aria-hidden="false"
+                            matTooltip="Filter by the number of points" aria-label="Select number of points"
+                            style="max-height: 34px; width: auto; margin-left: 10px">
+                    </picture>
+                </span>
+            </div>
+        </div>
+        <div class="flex-column">
+            <span class="clickable" [ngClass]="{inactive: !query.expansion.european}"
+                (click)="toggleExpansion('european');" matTooltip="Toggle if you don't play with that expansion">
+                <picture>
+                    <source type="image/webp" srcset="assets/icons/png/european.webp">
+                    <source type="image/png" srcset="assets/icons/png/european.png">
+                    <img class="expansion-image" src="assets/icons/png/european.png" aria-hidden="false"
+                        aria-label="Toggle european expansion" alt="european expansion">
+                </picture>
+                <div class="description"> European expansion</div>
+            </span>
+            <button mat-raised-button color="primary" aria-label="Reset all filters"
+                (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
+                Reset <mat-icon>filter_alt</mat-icon>
+            </button>
+        </div>
     </div>
     <app-stats *ngIf="!canFitStats" [mobile]="true" [statsControls]="query.stats" (statsChange)="onStatsChange($event)">
     </app-stats>
