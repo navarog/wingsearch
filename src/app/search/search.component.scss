@@ -41,7 +41,46 @@ mat-panel-title {
     justify-content: space-between;
 }
 
+.flex-column:last-child {
+    align-items: flex-end;
+}
+
+.language-select {
+    max-width: 50px;
+    flex: 1 1 0;
+    max-height: 50px;
+    top: 12px;
+}
+
+.language-option {
+    ::ng-deep .mat-option-text {
+        display: flex;
+    }
+
+    span {
+        width: 2.5em;
+        display: flex;
+        justify-content: center;
+
+        img {
+            max-height: 1em;
+        }
+    }
+}
+
+mat-select-trigger {
+    img {
+        max-height: 1em;
+    }
+}
+
 @media screen and (max-width: 460px) {
+    .language-select {
+        width: 20px;
+        margin: 0 10px;
+        top: 4px;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -49,6 +88,7 @@ mat-panel-title {
     .flex-column:last-child {
         flex-direction: row;
         align-items: center;
+        margin-top: 20px;
 
         button {
             margin-top: 4px;

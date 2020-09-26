@@ -235,6 +235,23 @@
             </div>
         </div>
         <div class="flex-column">
+            <mat-form-field class="language-select">
+                <mat-label>Language</mat-label>
+                <mat-select [(ngModel)]="language" (ngModelChange)="languageChange($event)">
+                    <mat-select-trigger>
+                        <img src="assets/icons/i18n/{{language}}.jpg">
+                    </mat-select-trigger>
+                    <mat-option class="language-option" *ngFor="let language of supportedLanguages" [value]="language.value">
+                        <span>
+                            <picture>
+                                <source type="image/jpg" srcset="assets/icons/i18n/{{language.value}}.jpg">
+                                <img src="assets/icons/i18n/{{language.value}}.jpg">
+                            </picture>
+                        </span>
+                        {{language.display}}
+                    </mat-option>
+                </mat-select>
+            </mat-form-field>
             <span class="clickable" [ngClass]="{inactive: !query.expansion.european}"
                 (click)="toggleExpansion('european');" matTooltip="Toggle if you don't play with that expansion">
                 <picture>

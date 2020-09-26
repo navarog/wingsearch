@@ -12,6 +12,7 @@ import { MatFormFieldModule } from '@angular/material/form-field'
 import { MatGridListModule } from '@angular/material/grid-list'
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
+import { MatSelectModule } from '@angular/material/select'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
@@ -74,6 +75,7 @@ import { TranslatePipe } from './translate.pipe'
     MatGridListModule,
     MatIconModule,
     MatInputModule,
+    MatSelectModule,
     MatTooltipModule,
     Ng5SliderModule,
     ReactiveFormsModule,

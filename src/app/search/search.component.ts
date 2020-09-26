@@ -15,6 +15,11 @@ import { CookiesService } from '../cookies.service'
 })
 export class SearchComponent implements OnInit {
 
+  readonly supportedLanguages = [
+    { value: 'en', display: 'English'},
+    { value: 'nl', display: 'Dutch'}
+  ]
+
   query = {
     main: '',
     bonus: [],
@@ -88,6 +93,8 @@ export class SearchComponent implements OnInit {
     min: 0,
     max: 9
   }
+
+  language = 'en'
 
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
@@ -201,5 +208,9 @@ export class SearchComponent implements OnInit {
   toggleNest(nest: string) {
     this.query = { ...this.query, nest: { ...this.query.nest, [nest]: !this.query.nest[nest] } }
     this.onQueryChange()
+  }
+
+  languageChange(language) {
+    console.log(language)
   }
 }
