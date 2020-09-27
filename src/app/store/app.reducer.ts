@@ -171,7 +171,7 @@ const reducer = createReducer(
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
-        })
+        }).sort((a, b) => a['Common name'].localeCompare(b['Common name'], action.language))
 
         // @ts-ignore
         const bonusCards: BonusCard[] = BonusCards.map(card => {
@@ -180,7 +180,7 @@ const reducer = createReducer(
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
-        })
+        }).sort((a, b) => a.Name.localeCompare(b.Name, action.language))
 
         return {
             ...state,

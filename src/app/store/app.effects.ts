@@ -16,7 +16,7 @@ export class AppEffects {
             const language = action.language || (this.cookies.hasConsent() && this.cookies.getCookie('language'))
             if (language)
                 return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
-                    map((data) => ({ type: '[App] Set language', payload: data }))
+                    map((data) => ({ type: '[App] Set language', payload: data, language }))
                 )
             else
                 return of({ type: '[App] English' })
