@@ -7511,7 +7511,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
-        "Power text": "Trade 1 [wild] for any [wild] from the supply.",
+        "Power text": "Trade 1 [wild] for any other [wild] from the supply.",
         "Note": null,
         "Predator": null,
         "Flocking": null,
