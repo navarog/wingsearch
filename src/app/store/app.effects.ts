@@ -8,7 +8,7 @@ import { changeLanguage } from './app.actions'
 
 @Injectable()
 export class AppEffects {
-    readonly I18N_FOLDER = '../assets/data/i18n/'
+    readonly I18N_FOLDER = 'assets/data/i18n/'
 
     loadLanguage$ = createEffect(() => this.actions$.pipe(
         ofType(ROOT_EFFECTS_INIT, changeLanguage),
