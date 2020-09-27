@@ -168,8 +168,8 @@ const reducer = createReducer(
         const birdCards: BirdCard[] = BirdCards.map(card => {
             const translatedKeys = ['Common name', 'Power text', 'Note']
             const translated = action.payload.birds[card.id]
-            const mergeContent = translatedKeys.reduce(
-                (acc, key) => (translated[key].trim() ? { ...acc, [key]: translated[key].trim() } : acc), {})
+            const mergeContent = translatedKeys.reduce((acc, key) =>
+                (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
         })
 
@@ -177,8 +177,8 @@ const reducer = createReducer(
         const bonusCards: BonusCard[] = BonusCards.map(card => {
             const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
             const translated = action.payload.bonuses[card.id]
-            const mergeContent = translatedKeys.reduce(
-                (acc, key) => (String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
+            const mergeContent = translatedKeys.reduce((acc, key) =>
+                (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
         })
 
