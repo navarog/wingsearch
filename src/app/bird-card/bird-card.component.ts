@@ -1,6 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
 import { BirdCard } from '../store/app.interfaces'
+import { TranslatePipe } from '../translate.pipe'
 
 @Component({
   selector: 'app-bird-card',
@@ -19,7 +20,7 @@ export class BirdCardComponent implements OnInit {
   eggs: any[]
   powerTitle = '<span class="intro">[power][text]: </span>'
 
-  constructor() { }
+  constructor(private translate: TranslatePipe) { }
 
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
@@ -59,7 +60,7 @@ export class BirdCardComponent implements OnInit {
 
     return this.powerTitle
       .replace(/\[power\]/g, escapePower(powerKeys.find(key => this.card[key])))
-      .replace(/\[text\]/g, textMap[this.card.Color])
+      .replace(/\[text\]/g, this.translate.transform(textMap[this.card.Color]))
   }
 
   getBirdSilhouette() {

@@ -16,6 +16,6 @@
         [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042 + 1}"></div>
     <div class="percentage" *ngIf="card['%'] !== '-'"
         [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034 + 1}">
-        ({{card['%']}}% of cards)
+        ({{card['%'] + '% ' + ('of cards' | translate)}})
     </div>
 </div>

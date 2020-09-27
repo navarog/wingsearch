@@ -37,8 +37,10 @@ export const initialState: AppState = {
     // @ts-ignore
     bonusCards: BonusCards,
     search: {
-        birdCards: birdCardsSearch,
-        bonusCards: bonusCardsSearch,
+        // @ts-ignore
+        birdCards: birdCardsSearch(BirdCards),
+        // @ts-ignore
+        bonusCards: bonusCardsSearch(BonusCards),
     },
     // @ts-ignore
     displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
@@ -48,7 +50,8 @@ export const initialState: AppState = {
     activeBonusCards: BonusCards,
     // @ts-ignore
     displayedStats: calculateDisplayedStats(BirdCards.concat(BonusCards)),
-    scrollDisabled: false
+    scrollDisabled: false,
+    translatedContent: {}
 }
 
 const reducer = createReducer(
@@ -64,7 +67,7 @@ const reducer = createReducer(
 
         if (!displayedCards.length && !action.main) {
             // @ts-ignore
-            displayedCards = BirdCards.concat(BonusCards)
+            displayedCards = state.birdCards.concat(state.bonusCards)
         }
 
         if (action.bonus.length) {
@@ -145,7 +148,7 @@ const reducer = createReducer(
 
         if (!activeBonusCards.length && !action.bonusfield) {
             // @ts-ignore
-            activeBonusCards = BonusCards
+            activeBonusCards = state.bonusCards
         }
 
         activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.Name))
@@ -158,6 +161,59 @@ const reducer = createReducer(
         const displayedCardsHidden = state.displayedCardsHidden.slice(SLICE_WINDOW)
 
         return { ...state, displayedCards, displayedCardsHidden, scrollDisabled: !displayedCardsHidden.length }
+    }),
+
+    on(appActions.setLanguage, (state, action) => {
+        // @ts-ignore
+        const birdCards: BirdCard[] = BirdCards.map(card => {
+            const translatedKeys = ['Common name', 'Power text', 'Note']
+            const translated = action.payload.birds[card.id]
+            const mergeContent = translatedKeys.reduce((acc, key) =>
+                (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
+            return { ...card, ...mergeContent }
+        })
+
+        // @ts-ignore
+        const bonusCards: BonusCard[] = BonusCards.map(card => {
+            const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
+            const translated = action.payload.bonuses[card.id]
+            const mergeContent = translatedKeys.reduce((acc, key) =>
+                (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
+            return { ...card, ...mergeContent }
+        })
+
+        return {
+            ...state,
+            birdCards,
+            bonusCards,
+            search: { birdCards: birdCardsSearch(birdCards), bonusCards: bonusCardsSearch(bonusCards) },
+            // @ts-ignore
+            displayedCards: birdCards.concat(bonusCards).slice(0, SLICE_WINDOW),
+            // @ts-ignore
+            displayedCardsHidden: birdCards.concat(bonusCards).slice(SLICE_WINDOW),
+            activeBonusCards: bonusCards,
+            translatedContent: action.payload.other
+        }
+    }),
+
+    // @ts-ignore
+    on(appActions.resetLanguage, (state, action) => {
+        return {
+            ...state,
+            // @ts-ignore
+            birdCards: BirdCards,
+            // @ts-ignore
+            bonusCards: BonusCards,
+            // @ts-ignore
+            search: { birdCards: birdCardsSearch(BirdCards), bonusCards: bonusCardsSearch(BonusCards) },
+            // @ts-ignore
+            displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
+            // @ts-ignore
+            displayedCardsHidden: BirdCards.concat(BonusCards).slice(SLICE_WINDOW),
+            // @ts-ignore
+            activeBonusCards: BonusCards,
+            translatedContent: {}
+        }
     })
 )
 

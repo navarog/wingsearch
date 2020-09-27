@@ -7,8 +7,8 @@ export class CookiesService {
 
   constructor() { }
 
-  public deleteCookie(name) {
-    this.setCookie(name, '', -1)
+  public deleteCookie(name, ignoreConsent = false) {
+    this.setCookie(name, '', -1, ignoreConsent)
   }
 
   public getCookie(name: string) {

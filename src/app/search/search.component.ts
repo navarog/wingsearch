@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { search, bonusCardSearch } from '../store/app.actions'
+import { search, bonusCardSearch, changeLanguage, resetLanguage } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
@@ -14,6 +14,16 @@ import { CookiesService } from '../cookies.service'
   styleUrls: ['./search.component.scss']
 })
 export class SearchComponent implements OnInit {
+
+  readonly supportedLanguages = [
+    { value: 'en', display: 'English' },
+    { value: 'nl', display: 'Dutch' },
+    { value: 'fr', display: 'French' },
+    { value: 'de', display: 'German' },
+    { value: 'pl', display: 'Polish' },
+    { value: 'es', display: 'Spanish' },
+    { value: 'tr', display: 'Turkish' },
+  ]
 
   query = {
     main: '',
@@ -89,6 +99,8 @@ export class SearchComponent implements OnInit {
     max: 9
   }
 
+  language = 'en'
+
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
 
@@ -106,6 +118,8 @@ export class SearchComponent implements OnInit {
   ngOnInit(): void {
     this.canFitStats = window.innerWidth >= 600
     this.bonusControl.valueChanges.subscribe(() => this.onBonusChange())
+    if (this.cookies.hasConsent())
+      this.language = this.cookies.getCookie('language') || this.language
   }
 
   onQueryChange() {
@@ -201,5 +215,15 @@ export class SearchComponent implements OnInit {
   toggleNest(nest: string) {
     this.query = { ...this.query, nest: { ...this.query.nest, [nest]: !this.query.nest[nest] } }
     this.onQueryChange()
+  }
+
+  languageChange(language: string) {
+    if (language === 'en') {
+      this.cookies.deleteCookie('language')
+      this.store.dispatch(resetLanguage())
+    } else {
+      this.cookies.setCookie('language', language, 180)
+      this.store.dispatch(changeLanguage({ language }))
+    }
   }
 }
