@@ -12,7 +12,9 @@
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
 
-      gtag('config', 'UA-177825186-1');
+      let languageMatch = document.cookie.match(RegExp('(?:^|;\\s*)' + escape('language') + '=([^;]*)'));
+      gtag('config', 'UA-177825186-1', { 'dimension1': (languageMatch && languageMatch[1]) || 'en' });
+
     }
   </script>
   <meta charset="utf-8">

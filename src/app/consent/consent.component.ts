@@ -27,7 +27,7 @@ export class ConsentComponent implements OnInit {
       // @ts-ignore
       gtag('js', new Date())
       // @ts-ignore
-      gtag('config', 'UA-177825186-1')
+      gtag('config', 'UA-177825186-1', { dimension1: this.cookies.getCookie('language') || 'en' })
     }
   }
 }
