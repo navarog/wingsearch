@@ -7,6 +7,8 @@ import { Options } from 'ng5-slider'
 import { FormControl } from '@angular/forms'
 import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/material/autocomplete'
 import { CookiesService } from '../cookies.service'
+import { MatDialog } from '@angular/material/dialog'
+import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
 
 @Component({
   selector: 'app-search',
@@ -104,7 +106,7 @@ export class SearchComponent implements OnInit {
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
 
-  constructor(private store: Store<{ app: AppState }>, private cookies: CookiesService) {
+  constructor(private store: Store<{ app: AppState }>, private cookies: CookiesService, public dialog: MatDialog) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
     this.query = {
       ...this.query,
@@ -225,5 +227,9 @@ export class SearchComponent implements OnInit {
       this.cookies.setCookie('language', language, 180)
       this.store.dispatch(changeLanguage({ language }))
     }
+  }
+
+  openLanguageDialog() {
+    this.dialog.open(LanguageDialogComponent, { closeOnNavigation: true, maxWidth: 'min(700px, 80vw)' })
   }
 }

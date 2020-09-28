@@ -45,11 +45,28 @@ mat-panel-title {
     align-items: flex-end;
 }
 
+.language-wrapper {
+    max-height: 50px;
+    max-width: 78px;
+    flex: 1 1 0;
+    display: flex;
+    justify-content: flex-end;
+    top: 12px;
+
+    div {
+        margin: auto 4px auto 0;
+    
+        mat-icon {
+            cursor: pointer;
+            color: #555555;
+        }
+    }
+}
+
 .language-select {
     max-width: 50px;
     flex: 1 1 0;
     max-height: 50px;
-    top: 12px;
 }
 
 .language-option {
@@ -75,10 +92,13 @@ mat-select-trigger {
 }
 
 @media screen and (max-width: 460px) {
+    .language-wrapper {
+        top: 4px;
+    }
+
     .language-select {
         width: 20px;
-        margin: 0 10px;
-        top: 4px;
+        margin: 0 10px 0 0px;
     }
 
     .row {

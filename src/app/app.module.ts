@@ -41,6 +41,7 @@ import { BirdCardDetailComponent } from './bird-card/bird-card-detail/bird-card-
 import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AppEffects } from './store/app.effects'
 import { TranslatePipe } from './translate.pipe'
+import { LanguageDialogComponent } from './search/language-dialog/language-dialog.component'
 
 @NgModule({
   declarations: [
@@ -57,6 +58,7 @@ import { TranslatePipe } from './translate.pipe'
     BirdCardDetailComponent,
     BonusCardDetailComponent,
     TranslatePipe,
+    LanguageDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -90,6 +92,7 @@ import { TranslatePipe } from './translate.pipe'
   entryComponents: [
     BirdCardDetailComponent,
     BonusCardDetailComponent,
+    LanguageDialogComponent,
   ]
 })
 export class AppModule { }
