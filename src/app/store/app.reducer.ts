@@ -164,23 +164,41 @@ const reducer = createReducer(
     }),
 
     on(appActions.setLanguage, (state, action) => {
-        // @ts-ignore
-        const birdCards: BirdCard[] = BirdCards.map(card => {
+        const translateBirds = (card: BirdCard) => {
             const translatedKeys = ['Common name', 'Power text', 'Note']
             const translated = action.payload.birds[card.id]
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
-        }).sort((a, b) => a['Common name'].localeCompare(b['Common name'], action.language))
+        }
 
-        // @ts-ignore
-        const bonusCards: BonusCard[] = BonusCards.map(card => {
+        const translateBonuses = (card: BonusCard) => {
             const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
             const translated = action.payload.bonuses[card.id]
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
             return { ...card, ...mergeContent }
-        }).sort((a, b) => a.Name.localeCompare(b.Name, action.language))
+        }
+
+        const sortCardsByKey = (key: string, automaLast = false) => {
+            if (automaLast)
+                return (a, b) => ((Number(!!a.Name.match(/\[automa\]/)) - Number(!!b.Name.match(/\[automa\]/))) ||
+                    a[key].localeCompare(b[key], action.language))
+            else
+                return (a, b) => a[key].localeCompare(b[key], action.language)
+        }
+
+        // @ts-ignore
+        const birdCards: BirdCard[] = BirdCards.map(translateBirds).sort(sortCardsByKey('Common name'))
+
+        // @ts-ignore
+        const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Name'))
+
+        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
+        const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
+            .map(translateBirds).sort(sortCardsByKey('Common name'))
+        const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
+            .map(translateBonuses).sort(sortCardsByKey('Name', true))
 
         return {
             ...state,
@@ -188,9 +206,9 @@ const reducer = createReducer(
             bonusCards,
             search: { birdCards: birdCardsSearch(birdCards), bonusCards: bonusCardsSearch(bonusCards) },
             // @ts-ignore
-            displayedCards: birdCards.concat(bonusCards).slice(0, SLICE_WINDOW),
+            displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
             // @ts-ignore
-            displayedCardsHidden: birdCards.concat(bonusCards).slice(SLICE_WINDOW),
+            displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
             activeBonusCards: bonusCards,
             translatedContent: action.payload.other
         }
