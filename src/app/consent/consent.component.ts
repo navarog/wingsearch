@@ -1,4 +1,5 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core'
+import { AnalyticsService } from '../analytics.service'
 import { CookiesService } from '../cookies.service'
 
 @Component({
@@ -10,7 +11,7 @@ export class ConsentComponent implements OnInit {
   @Output()
   consentChange = new EventEmitter<string>()
 
-  constructor(private cookies: CookiesService) { }
+  constructor(private cookies: CookiesService, private analytics: AnalyticsService) { }
 
   ngOnInit(): void {
   }
@@ -24,10 +25,7 @@ export class ConsentComponent implements OnInit {
       window.dataLayer = window.dataLayer || []
       // @ts-ignore
       function gtag() { dataLayer.push(arguments) }
-      // @ts-ignore
-      gtag('js', new Date())
-      // @ts-ignore
-      gtag('config', 'UA-177825186-1', { dimension1: this.cookies.getCookie('language') || 'en' })
+      this.analytics.setLanguage(this.cookies.getCookie('language') || 'en')
     }
   }
 }

@@ -1,5 +1,6 @@
 <div class="stats-container" [ngClass]="{mobile: mobile}" *ngIf="stats$ | async as stats">
-    <span class="stats-entry" [ngClass]="{inactive: !statsControls.bonuses}" (click)="toggleCards('bonuses', $event)"
+    <span appAnalyticsEvent="Toggle bonuses" class="stats-entry" [ngClass]="{inactive: !statsControls.bonuses}"
+        (click)="toggleCards('bonuses', $event)"
         matTooltip="{{statsControls.bonuses ? 'Filter out' : 'Count in'}} all bonuses">
         {{stats.bonusCards}}
         <picture>
@@ -8,7 +9,8 @@
             <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
         </picture>
     </span>
-    <span class="stats-entry" [ngClass]="{inactive: !statsControls.birds}" (click)="toggleCards('birds', $event)"
+    <span appAnalyticsEvent="Toggle birds" class="stats-entry" [ngClass]="{inactive: !statsControls.birds}"
+        (click)="toggleCards('birds', $event)"
         matTooltip="{{statsControls.birds ? 'Filter out' : 'Count in'}} all birds">
         {{stats.birdCards}}
         <picture>
@@ -19,8 +21,8 @@
     </span>
     <div class="habitat-container" [ngClass]="{mobile: mobile}"
         matTooltip="Filter birds that can live in a specific habitat">
-        <span class="stats-entry" [ngClass]="{inactive: !statsControls.habitat.forest}"
-            (click)="toggleHabitat('forest', $event)">
+        <span appAnalyticsEvent="Toggle habitat" eventLabel="forest" class="stats-entry"
+            [ngClass]="{inactive: !statsControls.habitat.forest}" (click)="toggleHabitat('forest', $event)">
             {{stats.habitat.forest}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/forest.webp">
@@ -28,8 +30,8 @@
                 <img src="assets/icons/png/forest.png" alt="forest birds">
             </picture>
         </span>
-        <span class="stats-entry" [ngClass]="{inactive: !statsControls.habitat.grassland}"
-            (click)="toggleHabitat('grassland', $event)">
+        <span appAnalyticsEvent="Toggle habitat" eventLabel="grassland" class="stats-entry"
+            [ngClass]="{inactive: !statsControls.habitat.grassland}" (click)="toggleHabitat('grassland', $event)">
             {{stats.habitat.grassland}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/grassland.webp">
@@ -37,8 +39,8 @@
                 <img src="assets/icons/png/grassland.png" alt="grassland birds">
             </picture>
         </span>
-        <span class="stats-entry" [ngClass]="{inactive: !statsControls.habitat.wetland}"
-            (click)="toggleHabitat('wetland', $event)">
+        <span appAnalyticsEvent="Toggle habitat" eventLabel="wetland" class="stats-entry"
+            [ngClass]="{inactive: !statsControls.habitat.wetland}" (click)="toggleHabitat('wetland', $event)">
             {{stats.habitat.wetland}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/wetland.webp">

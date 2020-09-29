@@ -1,11 +1,14 @@
-<mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)"
-    infiniteScroll [infiniteScrollDistance]="3" [infiniteScrollThrottle]="50" [infiniteScrollDisabled]="scrollDisabled$ | async" (scrolled)="onScroll()">
+<mat-grid-list [cols]="columns" rowHeight="28:43" gutterSize="16px" (window:resize)="onResize($event)" infiniteScroll
+    [infiniteScrollDistance]="3" [infiniteScrollThrottle]="50" [infiniteScrollDisabled]="scrollDisabled$ | async"
+    (scrolled)="onScroll()">
     <mat-grid-tile *ngFor="let card of cards$ | async">
-        <mat-card #cardElement *ngIf="isBirdCard(card)" class="fill-parent" (click)="openBirdDialog(card)">
+        <mat-card #cardElement appAnalyticsEvent="Bird detail" [eventLabel]="card['Common name']"
+            *ngIf="isBirdCard(card)" class="fill-parent" (click)="openBirdDialog(card)">
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
         </mat-card>
 
-        <mat-card #cardElement *ngIf="isBonusCard(card)" class="fill-parent" (click)="openBonusDialog(card)">
+        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card['Name']" *ngIf="isBonusCard(card)"
+            class="fill-parent" (click)="openBonusDialog(card)">
             <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
         </mat-card>
     </mat-grid-tile>

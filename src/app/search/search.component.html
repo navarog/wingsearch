@@ -1,7 +1,7 @@
 <mat-expansion-panel (window:resize)="onResize()">
     <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
-            <mat-form-field appearance="standard" (click)="$event.cancelBubble = true">
+            <mat-form-field appAnalyticsEvent="Main search" appearance="standard" (click)="$event.cancelBubble = true">
                 <mat-label>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/flocking.webp">
@@ -56,7 +56,8 @@
         </mat-autocomplete>
     </mat-form-field>
     <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific power color">
-        <span class="pointer shrink" [ngClass]="{inactive: !query.colors.brown}" (click)="togglePower('brown')">
+        <span appAnalyticsEvent="Toggle power" eventLabel="brown" class="pointer shrink"
+            [ngClass]="{inactive: !query.colors.brown}" (click)="togglePower('brown')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/brown.webp">
                 <source type="image/png" srcset="assets/icons/png/brown.png">
@@ -64,7 +65,8 @@
                     aria-label="Toggle brown power" alt="brown power">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.colors.pink}" (click)="togglePower('pink')">
+        <span appAnalyticsEvent="Toggle power" eventLabel="pink" class="pointer shrink"
+            [ngClass]="{inactive: !query.colors.pink}" (click)="togglePower('pink')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/pink.webp">
                 <source type="image/png" srcset="assets/icons/png/pink.png">
@@ -72,7 +74,8 @@
                     aria-label="Toggle pink power" alt="pink power">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.colors.white}" (click)="togglePower('white')">
+        <span appAnalyticsEvent="Toggle power" eventLabel="white" class="pointer shrink"
+            [ngClass]="{inactive: !query.colors.white}" (click)="togglePower('white')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/white.webp">
                 <source type="image/png" srcset="assets/icons/png/white.png">
@@ -80,7 +83,8 @@
                     aria-label="Toggle white power" alt="white power">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')">
+        <span appAnalyticsEvent="Toggle power" eventLabel="teal" class="pointer shrink"
+            [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/teal.webp">
                 <source type="image/png" srcset="assets/icons/png/teal.png">
@@ -90,8 +94,8 @@
         </span>
     </div>
     <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific food cost">
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.invertebrate}"
-            (click)="toggleFood('invertebrate')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="invertebrate" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.invertebrate}" (click)="toggleFood('invertebrate')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/invertebrate.webp">
                 <source type="image/png" srcset="assets/icons/png/invertebrate.png">
@@ -99,7 +103,8 @@
                     aria-label="Toggle invertebrate" alt="invertebrate">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.seed}" (click)="toggleFood('seed')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="seed" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.seed}" (click)="toggleFood('seed')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/seed.webp">
                 <source type="image/png" srcset="assets/icons/png/seed.png">
@@ -107,7 +112,8 @@
                     alt="seed">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.fruit}" (click)="toggleFood('fruit')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="fruit" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.fruit}" (click)="toggleFood('fruit')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fruit.webp">
                 <source type="image/png" srcset="assets/icons/png/fruit.png">
@@ -115,7 +121,8 @@
                     alt="fruit">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.fish}" (click)="toggleFood('fish')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="fish" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.fish}" (click)="toggleFood('fish')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fish.webp">
                 <source type="image/png" srcset="assets/icons/png/fish.png">
@@ -123,7 +130,8 @@
                     alt="fish">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food.rodent}" (click)="toggleFood('rodent')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="rodent" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.rodent}" (click)="toggleFood('rodent')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/rodent.webp">
                 <source type="image/png" srcset="assets/icons/png/rodent.png">
@@ -131,8 +139,8 @@
                     alt="rodent">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food['wild (food)']}"
-            (click)="toggleFood('wild (food)')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="wild" class="pointer shrink"
+            [ngClass]="{inactive: !query.food['wild (food)']}" (click)="toggleFood('wild (food)')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/wild.webp">
                 <source type="image/png" srcset="assets/icons/png/wild.png">
@@ -140,7 +148,8 @@
                     aria-label="Toggle wild (food)" alt="wild (food)">
             </picture>
         </span>
-        <span class="pointer shrink" [ngClass]="{inactive: !query.food['no-food']}" (click)="toggleFood('no-food')">
+        <span appAnalyticsEvent="Toggle food" eventLabel="no-food" class="pointer shrink"
+            [ngClass]="{inactive: !query.food['no-food']}" (click)="toggleFood('no-food')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/no-food.webp">
                 <source type="image/png" srcset="assets/icons/png/no-food.png">
@@ -152,7 +161,8 @@
     <div class="row">
         <div class="flex-column">
             <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific nest type">
-                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="bowl" class="pointer shrink"
+                    [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/bowl.webp">
                         <source type="image/png" srcset="assets/icons/png/bowl.png">
@@ -160,7 +170,8 @@
                             aria-label="Toggle bowl" alt="bowl">
                     </picture>
                 </span>
-                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="cavity" class="pointer shrink"
+                    [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/cavity.webp">
                         <source type="image/png" srcset="assets/icons/png/cavity.png">
@@ -168,7 +179,8 @@
                             aria-label="Toggle cavity" alt="cavity">
                     </picture>
                 </span>
-                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="ground" class="pointer shrink"
+                    [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/ground.webp">
                         <source type="image/png" srcset="assets/icons/png/ground.png">
@@ -176,8 +188,8 @@
                             aria-label="Toggle ground" alt="ground">
                     </picture>
                 </span>
-                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Platform}"
-                    (click)="toggleNest('Platform')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="platform" class="pointer shrink"
+                    [ngClass]="{inactive: !query.nest.Platform}" (click)="toggleNest('Platform')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/platform.webp">
                         <source type="image/png" srcset="assets/icons/png/platform.png">
@@ -185,7 +197,8 @@
                             aria-label="Toggle platform" alt="platform">
                     </picture>
                 </span>
-                <span class="pointer shrink" [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="wild" class="pointer shrink"
+                    [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/star.webp">
                         <source type="image/png" srcset="assets/icons/png/star.png">
@@ -193,8 +206,8 @@
                             aria-label="Toggle wild" alt="wild">
                     </picture>
                 </span>
-                <span class="pointer shrink flex-center" [ngClass]="{inactive: !query.nest.None}"
-                    (click)="toggleNest('None')">
+                <span appAnalyticsEvent="Toggle nest" eventLabel="none" class="pointer shrink flex-center"
+                    [ngClass]="{inactive: !query.nest.None}" (click)="toggleNest('None')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/none.webp">
                         <source type="image/png" srcset="assets/icons/png/none.png">
@@ -204,7 +217,7 @@
                 </span>
             </div>
             <div class="flex-mgt20">
-                <span class="slider-wrapper">
+                <span appAnalyticsEvent="Slide eggs" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 272px">
                         <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
                             (userChangeEnd)="onEggsChange()"></ng5-slider>
@@ -219,7 +232,7 @@
                 </span>
             </div>
             <div class="flex-mgt20">
-                <span class="slider-wrapper">
+                <span appAnalyticsEvent="Slide points" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
                         <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
                             (userChangeEnd)="onPointsChange()"></ng5-slider>
@@ -236,7 +249,8 @@
         </div>
         <div class="flex-column">
             <div class="language-wrapper">
-                <div matTooltip="More about language support" (click)="openLanguageDialog()">
+                <div appAnalyticsEvent="Show language support" matTooltip="More about language support"
+                    (click)="openLanguageDialog()">
                     <mat-icon>help_outline</mat-icon>
                 </div>
                 <mat-form-field class="language-select">
@@ -259,8 +273,9 @@
                     </mat-select>
                 </mat-form-field>
             </div>
-            <span class="clickable" [ngClass]="{inactive: !query.expansion.european}"
-                (click)="toggleExpansion('european');" matTooltip="Toggle if you don't play with that expansion">
+            <span appAnalyticsEvent="Toggle expansion" class="clickable"
+                [ngClass]="{inactive: !query.expansion.european}" (click)="toggleExpansion('european');"
+                matTooltip="Toggle if you don't play with that expansion">
                 <picture>
                     <source type="image/webp" srcset="assets/icons/png/european.webp">
                     <source type="image/png" srcset="assets/icons/png/european.png">
@@ -269,7 +284,7 @@
                 </picture>
                 <div class="description"> European expansion</div>
             </span>
-            <button mat-raised-button color="primary" aria-label="Reset all filters"
+            <button appAnalyticsEvent="Reset filter" mat-raised-button color="primary" aria-label="Reset all filters"
                 (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
                 Reset <mat-icon>filter_alt</mat-icon>
             </button>

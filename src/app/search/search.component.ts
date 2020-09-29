@@ -9,6 +9,7 @@ import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/m
 import { CookiesService } from '../cookies.service'
 import { MatDialog } from '@angular/material/dialog'
 import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
+import { AnalyticsService } from '../analytics.service'
 
 @Component({
   selector: 'app-search',
@@ -106,7 +107,12 @@ export class SearchComponent implements OnInit {
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
 
-  constructor(private store: Store<{ app: AppState }>, private cookies: CookiesService, public dialog: MatDialog) {
+  constructor(
+    private store: Store<{ app: AppState }>,
+    private cookies: CookiesService,
+    public dialog: MatDialog,
+    private analytics: AnalyticsService
+  ) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
     this.query = {
       ...this.query,
@@ -227,6 +233,8 @@ export class SearchComponent implements OnInit {
       this.cookies.setCookie('language', language, 180)
       this.store.dispatch(changeLanguage({ language }))
     }
+
+    this.analytics.setLanguage(language)
   }
 
   openLanguageDialog() {

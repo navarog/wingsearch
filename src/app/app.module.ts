@@ -36,12 +36,14 @@ import { IconizePipe } from './iconize.pipe'
 import { StatsComponent } from './stats/stats.component'
 import { CardDetailComponent } from './card-detail/card-detail.component'
 import { CookiesService } from './cookies.service'
+import { AnalyticsService } from './analytics.service'
 import { ConsentComponent } from './consent/consent.component'
 import { BirdCardDetailComponent } from './bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AppEffects } from './store/app.effects'
 import { TranslatePipe } from './translate.pipe'
 import { LanguageDialogComponent } from './search/language-dialog/language-dialog.component'
+import { AnalyticsEventDirective } from './analytics-event.directive'
 
 @NgModule({
   declarations: [
@@ -59,6 +61,7 @@ import { LanguageDialogComponent } from './search/language-dialog/language-dialo
     BonusCardDetailComponent,
     TranslatePipe,
     LanguageDialogComponent,
+    AnalyticsEventDirective,
   ],
   imports: [
     BrowserModule,
@@ -87,7 +90,11 @@ import { LanguageDialogComponent } from './search/language-dialog/language-dialo
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     EffectsModule.forRoot([AppEffects]),
   ],
-  providers: [CookiesService, TranslatePipe],
+  providers: [
+    AnalyticsService,
+    CookiesService, 
+    TranslatePipe,
+  ],
   bootstrap: [AppComponent],
   entryComponents: [
     BirdCardDetailComponent,
