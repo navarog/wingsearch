@@ -92,7 +92,7 @@ import { AnalyticsEventDirective } from './analytics-event.directive'
   ],
   providers: [
     AnalyticsService,
-    CookiesService, 
+    CookiesService,
     TranslatePipe,
   ],
   bootstrap: [AppComponent],
