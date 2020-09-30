@@ -20,12 +20,7 @@ export class ConsentComponent implements OnInit {
     this.cookies.setCookie('consent', value, 180, true)
     this.consentChange.emit(value)
 
-    if (value === '1') {
-      // @ts-ignore
-      window.dataLayer = window.dataLayer || []
-      // @ts-ignore
-      function gtag() { dataLayer.push(arguments) }
+    if (value === '1')
       this.analytics.setLanguage(this.cookies.getCookie('language') || 'en')
-    }
   }
 }

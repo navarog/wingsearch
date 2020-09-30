@@ -6,6 +6,7 @@ import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
 import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
+import { AnalyticsService } from '../analytics.service'
 
 @Component({
   selector: 'app-display',
@@ -26,7 +27,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   cardHeight$ = new BehaviorSubject<number>(0)
 
-  constructor(private store: Store<{ app: AppState }>, public dialog: MatDialog) {
+  constructor(private store: Store<{ app: AppState }>, public dialog: MatDialog, private analytics: AnalyticsService) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
     this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
   }
@@ -82,5 +83,6 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   onScroll() {
     this.store.dispatch(scroll())
+    this.analytics.sendEvent('Scroll cards', { event_category: 'engagement' })
   }
 }
