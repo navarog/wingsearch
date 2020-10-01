@@ -7,7 +7,6 @@ import { birdCardsSearch, bonusCardsSearch } from './cards-search'
 import { bonusSearchMap } from './bonus-search-map'
 
 
-const ALLWAYS_ALLOWED_EXPANSIONS = ['originalcore', 'core', 'swiftstart']
 const SLICE_WINDOW = 18
 
 const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
@@ -89,7 +88,7 @@ const reducer = createReducer(
         }
 
         const allowedExpansions = Object.entries(action.expansion).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, ALLWAYS_ALLOWED_EXPANSIONS
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
         )
 
         const allowedColors = Object.entries(action.colors).reduce(
@@ -192,7 +191,7 @@ const reducer = createReducer(
         const birdCards: BirdCard[] = BirdCards.map(translateBirds).sort(sortCardsByKey('Common name'))
 
         // @ts-ignore
-        const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Name'))
+        const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Name', true))
 
         const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
         const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))

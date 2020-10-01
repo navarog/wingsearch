@@ -13,7 +13,10 @@ export const search = createAction('[App] Search', props<{
         bonuses: boolean
     },
     expansion: {
-        european: boolean
+        core: boolean,
+        swiftstart: boolean,
+        european: boolean,
+        oceania: boolean,
     },
     eggs: {
         min: number,

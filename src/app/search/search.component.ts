@@ -10,6 +10,7 @@ import { CookiesService } from '../cookies.service'
 import { MatDialog } from '@angular/material/dialog'
 import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
 import { AnalyticsService } from '../analytics.service'
+import { access } from 'fs'
 
 @Component({
   selector: 'app-search',
@@ -28,6 +29,13 @@ export class SearchComponent implements OnInit {
     { value: 'tr', display: 'Turkish' },
   ]
 
+  readonly supportedExpansions = [
+    { value: 'core', display: 'Base game' },
+    { value: 'swiftstart', display: 'Swift-start pack' },
+    { value: 'european', display: 'European expansion' },
+    { value: 'oceania', display: 'Oceania expansion' },
+  ]
+
   query = {
     main: '',
     bonus: [],
@@ -41,7 +49,10 @@ export class SearchComponent implements OnInit {
       bonuses: true
     },
     expansion: {
-      european: true
+      core: true,
+      swiftstart: true,
+      european: true,
+      oceania: true,
     },
     eggs: {
       min: 0,
@@ -103,6 +114,7 @@ export class SearchComponent implements OnInit {
   }
 
   language = 'en'
+  selectedExpansions = ['core', 'swiftstart', 'european', 'oceania']
 
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
@@ -117,9 +129,14 @@ export class SearchComponent implements OnInit {
     this.query = {
       ...this.query,
       expansion: {
-        european: cookies.getCookie('expansion.european') !== '0'
+        core: cookies.getCookie('expansion.core') !== '0',
+        swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
       }
     }
+
+    this.selectedExpansions = Object.entries(this.query.expansion).reduce((acc, entry) => entry[1] ? [...acc, entry[0]] : acc, [])
     store.dispatch(search(this.query))
   }
 
@@ -172,13 +189,6 @@ export class SearchComponent implements OnInit {
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
     }
     this.bonusControl.setValue('')
-    this.onBonusChange()
-    this.onQueryChange()
-  }
-
-  toggleExpansion(expansion: 'european') {
-    this.query = { ...this.query, expansion: { ...this.query.expansion, [expansion]: !this.query.expansion[expansion] } }
-    this.cookies.setCookie(`expansion.${expansion}`, this.query.expansion[expansion] ? '1' : '0', 365)
     this.onBonusChange()
     this.onQueryChange()
   }
@@ -239,5 +249,23 @@ export class SearchComponent implements OnInit {
 
   openLanguageDialog() {
     this.dialog.open(LanguageDialogComponent, { closeOnNavigation: true, maxWidth: 'min(700px, 80vw)' })
+  }
+
+  expansionChange(selectedExpansions: string[]) {
+    this.query = {
+      ...this.query,
+      // @ts-ignore
+      expansion: {
+        ...Object.keys(this.query.expansion).reduce((acc, val) => ({ ...acc, [val]: false }), {}),
+        ...selectedExpansions.reduce((acc, val) => ({ ...acc, [val]: true }), {})
+      }
+    }
+
+    Object.entries(this.query.expansion).forEach(entry =>
+      this.cookies.setCookie(`expansion.${entry[0]}`, entry[1] ? '1' : '0', 365)
+    )
+
+    this.onBonusChange()
+    this.onQueryChange()
   }
 }

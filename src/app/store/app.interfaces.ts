@@ -134,10 +134,9 @@ export function isBonusCard(object: any): object is BonusCard {
 
 export enum Expansion {
     Core = 'core',
-    European = 'european',
-    Originalcore = 'originalcore',
-    Chinesepromo = 'chinesepromo',
     Swiftstart = 'swiftstart',
+    European = 'european',
+    Oceania = 'oceania'
 }
 
 export interface DisplayedStats {
