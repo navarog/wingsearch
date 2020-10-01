@@ -2,7 +2,7 @@
     {
         "Common name": "Acorn Woodpecker",
         "Scientific name": "Melanerpes formicivorus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -57,7 +57,7 @@
     {
         "Common name": "American Avocet ",
         "Scientific name": "Recurvirostra americana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
         "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [ground] nest.",
@@ -112,7 +112,7 @@
     {
         "Common name": "American Bittern ",
         "Scientific name": "Botaurus lentiginosus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Player(s) with the fewest [wetland] birds: draw 1 [card].",
@@ -167,7 +167,7 @@
     {
         "Common name": "American Coot",
         "Scientific name": "Fulica americana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -222,7 +222,7 @@
     {
         "Common name": "American Crow ",
         "Scientific name": "Corvus brachyrhynchos",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Discard 1 [egg] from any of your other birds to gain 1 [wild] from the supply.",
@@ -277,7 +277,7 @@
     {
         "Common name": "American Goldfinch ",
         "Scientific name": "Spinus tristis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 3 [seed] from the supply.",
@@ -332,7 +332,7 @@
     {
         "Common name": "American Kestrel ",
         "Scientific name": "Falco sparverius",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -387,7 +387,7 @@
     {
         "Common name": "American Oystercatcher",
         "Scientific name": "Haematopus palliatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw [card] equal to the number of players +1. Starting with you and proceeding clockwise, each player selects 1 of those cards and places it in their hand. You keep the extra card.",
@@ -515,7 +515,7 @@
     {
         "Common name": "American Robin",
         "Scientific name": "Turdus migratorius",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -570,7 +570,7 @@
     {
         "Common name": "American White Pelican ",
         "Scientific name": "Pelecanus erythrorhynchos",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Discard a [fish] to tuck 2 [card] from the deck behind this bird.",
@@ -625,7 +625,7 @@
     {
         "Common name": "American Woodcock",
         "Scientific name": "Scolopax minor",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -680,7 +680,7 @@
     {
         "Common name": "Anhinga",
         "Scientific name": "Anhinga anhinga",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -735,7 +735,7 @@
     {
         "Common name": "Anna's Hummingbird ",
         "Scientific name": "Calypte anna",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Each player gains 1 [die] from the birdfeeder, starting with the player of your choice.",
@@ -790,7 +790,7 @@
     {
         "Common name": "Ash-Throated Flycatcher ",
         "Scientific name": "Myiarchus cinerascens",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on each of your birds with a [cavity] nest.",
@@ -845,7 +845,7 @@
     {
         "Common name": "Atlantic Puffin",
         "Scientific name": "Fratercula arctica",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -955,7 +955,7 @@
     {
         "Common name": "Baird's Sparrow ",
         "Scientific name": "Ammodramus bairdii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on any bird.",
@@ -1010,7 +1010,7 @@
     {
         "Common name": "Bald Eagle ",
         "Scientific name": "Haliaeetus leucocephalus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain all [fish] that are in the birdfeeder.",
@@ -1065,7 +1065,7 @@
     {
         "Common name": "Baltimore Oriole ",
         "Scientific name": "Icterus galbula",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "All players gain 1 [fruit] from the supply.",
@@ -1120,7 +1120,7 @@
     {
         "Common name": "Barn Owl",
         "Scientific name": "Tyto alba",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -1175,7 +1175,7 @@
     {
         "Common name": "Barn Swallow",
         "Scientific name": "Hirundo rustica",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -1230,7 +1230,7 @@
     {
         "Common name": "Barred Owl",
         "Scientific name": "Strix varia",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
@@ -1290,7 +1290,7 @@
     {
         "Common name": "Barrow's Goldeneye ",
         "Scientific name": "Bucephala islandica",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
         "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [cavity] nest.",
@@ -1345,7 +1345,7 @@
     {
         "Common name": "Bell's Vireo",
         "Scientific name": "Vireo bellii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -1400,7 +1400,7 @@
     {
         "Common name": "Belted Kingfisher ",
         "Scientific name": "Megaceryle alcyon",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Food from Supply",
         "Power text": "When another player plays a [wetland] bird, gain 1 [fish] from the supply.",
@@ -1455,7 +1455,7 @@
     {
         "Common name": "Bewick's Wren",
         "Scientific name": "Thryomanes bewickii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -1575,7 +1575,7 @@
     {
         "Common name": "Black Skimmer ",
         "Scientific name": "Rynchops niger",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -1630,7 +1630,7 @@
     {
         "Common name": "Black Tern",
         "Scientific name": "Chlidonias niger",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 1 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -1685,7 +1685,7 @@
     {
         "Common name": "Black Vulture ",
         "Scientific name": "Coragyps atratus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
@@ -1795,7 +1795,7 @@
     {
         "Common name": "Black-Bellied Whistling Duck",
         "Scientific name": "Dendrocygna autumnalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Discard 1 [seed] to tuck 2 [card] from the deck behind this bird.",
@@ -1850,7 +1850,7 @@
     {
         "Common name": "Black-Billed Magpie ",
         "Scientific name": "Pica hudsonia",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
@@ -1960,7 +1960,7 @@
     {
         "Common name": "Black-Crowned Night-Heron ",
         "Scientific name": "Nycticorax nycticorax",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Discard 1 [egg] from any of your other birds to gain 1 [wild] from the supply.",
@@ -2070,7 +2070,7 @@
     {
         "Common name": "Black-Necked Stilt ",
         "Scientific name": "Himantopus mexicanus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card].",
@@ -2235,7 +2235,7 @@
     {
         "Common name": "Blue Grosbeak",
         "Scientific name": "Passerina caerulea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -2295,7 +2295,7 @@
     {
         "Common name": "Blue Jay",
         "Scientific name": "Cyanocitta cristata",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -2350,7 +2350,7 @@
     {
         "Common name": "Blue-Gray Gnatcatcher ",
         "Scientific name": "Polioptila caerulea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 1 [invertebrate] from the supply.",
@@ -2405,7 +2405,7 @@
     {
         "Common name": "Blue-Winged Warbler",
         "Scientific name": "Vermivora cyanoptera",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -2515,7 +2515,7 @@
     {
         "Common name": "Bobolink",
         "Scientific name": "Dolichonyx oryzivorus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on each of your birds with a [ground] nest.",
@@ -2685,7 +2685,7 @@
     {
         "Common name": "Brewer's Blackbird ",
         "Scientific name": "Euphagus cyanocephalus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -2795,7 +2795,7 @@
     {
         "Common name": "Bronzed Cowbird ",
         "Scientific name": "Molothrus aeneus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
         "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
@@ -2850,7 +2850,7 @@
     {
         "Common name": "Brown Pelican",
         "Scientific name": "Pelecanus occidentalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 3 [fish] from the supply.",
@@ -2905,7 +2905,7 @@
     {
         "Common name": "Brown-Headed Cowbird ",
         "Scientific name": "Molothrus ater",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
         "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
@@ -3015,7 +3015,7 @@
     {
         "Common name": "Burrowing Owl ",
         "Scientific name": "Athene cunicularia",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -3070,7 +3070,7 @@
     {
         "Common name": "Bushtit",
         "Scientific name": "Psaltriparus minimus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -3130,7 +3130,7 @@
     {
         "Common name": "California Condor",
         "Scientific name": "Gymnogyps californianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -3185,7 +3185,7 @@
     {
         "Common name": "California Quail ",
         "Scientific name": "Callipepla californica",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on this bird.",
@@ -3240,7 +3240,7 @@
     {
         "Common name": "Canada Goose ",
         "Scientific name": "Branta canadensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Discard 1 [seed] to tuck 2 [card] from the deck behind this bird.",
@@ -3350,7 +3350,7 @@
     {
         "Common name": "Carolina Chickadee ",
         "Scientific name": "Poecile carolinensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
@@ -3405,7 +3405,7 @@
     {
         "Common name": "Carolina Wren",
         "Scientific name": "Thryothorus ludovicianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card].",
@@ -3515,7 +3515,7 @@
     {
         "Common name": "Cassin's Finch",
         "Scientific name": "Haemorhous cassinii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -3570,7 +3570,7 @@
     {
         "Common name": "Cassin's Sparrow ",
         "Scientific name": "Peucaea cassinii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on any bird.",
@@ -3625,7 +3625,7 @@
     {
         "Common name": "Cedar Waxwing",
         "Scientific name": "Bombycilla cedrorum",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [fruit] from the supply.",
@@ -3680,7 +3680,7 @@
     {
         "Common name": "Cerulean Warbler ",
         "Scientific name": "Setophaga cerulea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -3795,7 +3795,7 @@
     {
         "Common name": "Chestnut-Collared Longspur ",
         "Scientific name": "Calcarius ornatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -3850,7 +3850,7 @@
     {
         "Common name": "Chihuahuan Raven",
         "Scientific name": "Corvus cryptoleucus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Discard 1 [egg] from any of your other birds to gain 2 [wild] from the supply.",
@@ -3905,7 +3905,7 @@
     {
         "Common name": "Chimney Swift",
         "Scientific name": "Chaetura pelagica",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -3965,7 +3965,7 @@
     {
         "Common name": "Chipping Sparrow ",
         "Scientific name": "Spizella passerina",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on any bird.",
@@ -4020,7 +4020,7 @@
     {
         "Common name": "Clark's Grebe ",
         "Scientific name": "Aechmophorus clarkii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 1 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -4075,7 +4075,7 @@
     {
         "Common name": "Clark's Nutcracker ",
         "Scientific name": "Nucifraga columbiana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -4547,7 +4547,7 @@
     {
         "Common name": "Common Grackle ",
         "Scientific name": "Quiscalus quiscula",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -4712,7 +4712,7 @@
     {
         "Common name": "Common Loon",
         "Scientific name": "Gavia immer",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Player(s) with the fewest [wetland] birds: draw 1 [card].",
@@ -4767,7 +4767,7 @@
     {
         "Common name": "Common Merganser ",
         "Scientific name": "Mergus merganser",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -4882,7 +4882,7 @@
     {
         "Common name": "Common Nighthawk ",
         "Scientific name": "Chordeiles minor",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -4992,7 +4992,7 @@
     {
         "Common name": "Common Raven",
         "Scientific name": "Corvus corax",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Discard 1 [egg] from any of your other birds to gain 2 [wild] from the supply.",
@@ -5167,7 +5167,7 @@
     {
         "Common name": "Common Yellowthroat ",
         "Scientific name": "Geothlypis trichas",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -5222,7 +5222,7 @@
     {
         "Common name": "Cooper's Hawk ",
         "Scientific name": "Accipiter cooperii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
@@ -5332,7 +5332,7 @@
     {
         "Common name": "Dark-Eyed Junco",
         "Scientific name": "Junco hyemalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
@@ -5387,7 +5387,7 @@
     {
         "Common name": "Dickcissel",
         "Scientific name": "Spiza americana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -5447,7 +5447,7 @@
     {
         "Common name": "Double-Crested Cormorant ",
         "Scientific name": "Phalacrocorax auritus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Discard [fish] to tuck 2 [card] from the deck behind this bird.",
@@ -5502,7 +5502,7 @@
     {
         "Common name": "Downy Woodpecker ",
         "Scientific name": "Picoides pubescens",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
@@ -5612,7 +5612,7 @@
     {
         "Common name": "Eastern Bluebird",
         "Scientific name": "Sialia sialis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
@@ -5732,7 +5732,7 @@
     {
         "Common name": "Eastern Kingbird",
         "Scientific name": "Tyrannus tyrannus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Food from Supply",
         "Power text": "When another player plays a [forest] bird, gain 1 [invertebrate] from the supply.",
@@ -5792,7 +5792,7 @@
     {
         "Common name": "Eastern Phoebe ",
         "Scientific name": "Sayornis phoebe",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "All players gain 1 [invertebrate] from the supply.",
@@ -5847,7 +5847,7 @@
     {
         "Common name": "Eastern Screech Owl ",
         "Scientific name": "Megascops asio",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -6899,7 +6899,7 @@
     {
         "Common name": "Ferruginous Hawk ",
         "Scientific name": "Buteo regalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -6954,7 +6954,7 @@
     {
         "Common name": "Fish Crow",
         "Scientific name": "Corvus ossifragus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Discard 1 [egg] from any of your other birds to gain 1 [wild] from the supply.",
@@ -7009,7 +7009,7 @@
     {
         "Common name": "Forster's Tern ",
         "Scientific name": "Sterna forsteri",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 1 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -7064,7 +7064,7 @@
     {
         "Common name": "Franklin's Gull ",
         "Scientific name": "Leucophaeus pipixcan",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Discard 1 [egg] to draw 2 [card].",
@@ -7179,7 +7179,7 @@
     {
         "Common name": "Golden Eagle",
         "Scientific name": "Aquila chrysaetos",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
@@ -7239,7 +7239,7 @@
     {
         "Common name": "Grasshopper Sparrow ",
         "Scientific name": "Ammodramus savannarum",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on any bird.",
@@ -7294,7 +7294,7 @@
     {
         "Common name": "Gray Catbird",
         "Scientific name": "Dumetella carolinensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "Repeat a brown power on one other bird in this habitat.",
@@ -7354,7 +7354,7 @@
     {
         "Common name": "Great Blue Heron",
         "Scientific name": "Ardea herodias",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [wetland]. Pay its normal cost.",
@@ -7414,7 +7414,7 @@
     {
         "Common name": "Great Crested Flycatcher ",
         "Scientific name": "Myiarchus crinitus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain 1 [invertebrate] from the birdfeeder, if there is one.",
@@ -7524,7 +7524,7 @@
     {
         "Common name": "Great Egret",
         "Scientific name": "Ardea alba",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [wetland]. Pay its normal cost.",
@@ -7584,7 +7584,7 @@
     {
         "Common name": "Great Horned Owl ",
         "Scientific name": "Bubo virginianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
@@ -7758,7 +7758,7 @@
     {
         "Common name": "Greater Prairie Chicken ",
         "Scientific name": "Tympanuchus cupido",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -7813,7 +7813,7 @@
     {
         "Common name": "Greater Roadrunner ",
         "Scientific name": "Geococcyx californianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <50cm, tuck it behind this bird. If not, discard it.",
@@ -7868,7 +7868,7 @@
     {
         "Common name": "Green Heron",
         "Scientific name": "Butorides virescens",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Trade 1 [wild] for any other [wild] from the supply.",
@@ -8161,7 +8161,7 @@
     {
         "Common name": "Hermit Thrush",
         "Scientific name": "Catharus guttatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Player(s) with fewest [forest] birds gain 1 [die] from birdfeeder.",
@@ -8276,7 +8276,7 @@
     {
         "Common name": "Hooded Merganser",
         "Scientific name": "Lophodytes cucullatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "Repeat 1 [predator] power in this habitat.",
@@ -8336,7 +8336,7 @@
     {
         "Common name": "Hooded Warbler",
         "Scientific name": "Setophaga citrina",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -8391,7 +8391,7 @@
     {
         "Common name": "Horned Lark",
         "Scientific name": "Eremophila alpestris",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Flocking",
         "Power text": "When another player plays a [grassland] bird, tuck 1 [card] from your hand behind this bird.",
@@ -8451,7 +8451,7 @@
     {
         "Common name": "House Finch",
         "Scientific name": "Haemorhous mexicanus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -8566,7 +8566,7 @@
     {
         "Common name": "House Wren",
         "Scientific name": "Troglodytes aedon",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [grassland] or [forest]. Pay its normal cost.",
@@ -8630,7 +8630,7 @@
     {
         "Common name": "Inca Dove",
         "Scientific name": "Columbina inca",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on each of your birds with a [platform] nest.",
@@ -8685,7 +8685,7 @@
     {
         "Common name": "Indigo Bunting ",
         "Scientific name": "Passerina cyanea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if there is one.",
@@ -8740,7 +8740,7 @@
     {
         "Common name": "Juniper Titmouse ",
         "Scientific name": "Baeolophus ridgwayi",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
@@ -8795,7 +8795,7 @@
     {
         "Common name": "Killdeer",
         "Scientific name": "Charadrius vociferus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Discard 1 [egg] to draw 2 [card].",
@@ -8850,7 +8850,7 @@
     {
         "Common name": "King Rail",
         "Scientific name": "Rallus elegans",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -8905,7 +8905,7 @@
     {
         "Common name": "Lazuli Bunting ",
         "Scientific name": "Passerina amoena",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "All players lay 1 [egg] on any 1 [bowl] bird. You may lay 1 [egg] on 1 additional [bowl] bird.",
@@ -9015,7 +9015,7 @@
     {
         "Common name": "Lincoln's Sparrow",
         "Scientific name": "Melospiza lincolnii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -9185,7 +9185,7 @@
     {
         "Common name": "Loggerhead Shrike",
         "Scientific name": "Lanius ludovicianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Caching Food",
         "Power text": "When another player takes the \"gain food\" action, if they gain any number of [rodent], also gain 1 [rodent] from the supply and cache it on this card.",
@@ -9300,7 +9300,7 @@
     {
         "Common name": "Mallard",
         "Scientific name": "Anas platyrhynchos",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 1 [card].",
@@ -9355,7 +9355,7 @@
     {
         "Common name": "Mississippi Kite",
         "Scientific name": "Ictinia mississippiensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
@@ -9542,7 +9542,7 @@
     {
         "Common name": "Mountain Bluebird ",
         "Scientific name": "Sialia currucoides",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
@@ -9597,7 +9597,7 @@
     {
         "Common name": "Mountain Chickadee ",
         "Scientific name": "Poecile gambeli",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
@@ -9652,7 +9652,7 @@
     {
         "Common name": "Mourning Dove ",
         "Scientific name": "Zenaida macroura",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on this bird.",
@@ -9767,7 +9767,7 @@
     {
         "Common name": "Northern Bobwhite",
         "Scientific name": "Colinus virginianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on this bird.",
@@ -9827,7 +9827,7 @@
     {
         "Common name": "Northern Cardinal ",
         "Scientific name": "Cardinalis cardinalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 1 [fruit] from the supply.",
@@ -9882,7 +9882,7 @@
     {
         "Common name": "Northern Flicker",
         "Scientific name": "Colaptes auratus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain all [invertebrate] that are in the birdfeeder.",
@@ -10052,7 +10052,7 @@
     {
         "Common name": "Northern Harrier ",
         "Scientific name": "Circus cyaneus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
@@ -10107,7 +10107,7 @@
     {
         "Common name": "Northern Mockingbird ",
         "Scientific name": "Mimus polyglottos",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "Repeat a brown power on one other bird in this habitat.",
@@ -10162,7 +10162,7 @@
     {
         "Common name": "Northern Shoveler ",
         "Scientific name": "Spatula clypeata",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "All players draw 1 [card] from the deck.",
@@ -10217,7 +10217,7 @@
     {
         "Common name": "Osprey",
         "Scientific name": "Pandion haliaetus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "All players gain 1 [fish] from the supply.",
@@ -10272,7 +10272,7 @@
     {
         "Common name": "Painted Bunting ",
         "Scientific name": "Passerina ciris",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -10442,7 +10442,7 @@
     {
         "Common name": "Peregrine Falcon ",
         "Scientific name": "Falco peregrinus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
@@ -10497,7 +10497,7 @@
     {
         "Common name": "Pied-Billed Grebe ",
         "Scientific name": "Podilymbus podiceps",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -10552,7 +10552,7 @@
     {
         "Common name": "Pileated Woodpecker ",
         "Scientific name": "Dryocopus pileatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "All players lay 1 [egg] on any 1 [cavity] bird. You may lay 1 [egg] on 1 additional [cavity] bird.",
@@ -10607,7 +10607,7 @@
     {
         "Common name": "Pine Siskin",
         "Scientific name": "Spinus pinus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
@@ -10662,7 +10662,7 @@
     {
         "Common name": "Prothonotary Warbler",
         "Scientific name": "Protonotaria citrea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -10717,7 +10717,7 @@
     {
         "Common name": "Purple Gallinule ",
         "Scientific name": "Porphyrio martinicus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "All players draw 1 [card] from the deck.",
@@ -10772,7 +10772,7 @@
     {
         "Common name": "Purple Martin",
         "Scientific name": "Progne subis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -10827,7 +10827,7 @@
     {
         "Common name": "Pygmy Nuthatch",
         "Scientific name": "Sitta pygmaea",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [invertebrate] or 1 [seed] from the supply.",
@@ -10882,7 +10882,7 @@
     {
         "Common name": "Red Crossbill",
         "Scientific name": "Loxia curvirostra",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "All players gain 1 [seed] from the supply.",
@@ -11115,7 +11115,7 @@
     {
         "Common name": "Red-Bellied Woodpecker ",
         "Scientific name": "Melanerpes carolinus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -11225,7 +11225,7 @@
     {
         "Common name": "Red-Breasted Nuthatch ",
         "Scientific name": "Sitta canadensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
@@ -11280,7 +11280,7 @@
     {
         "Common name": "Red-Cockaded Woodpecker ",
         "Scientific name": "Picoides borealis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -11335,7 +11335,7 @@
     {
         "Common name": "Red-Eyed Vireo ",
         "Scientific name": "Vireo olivaceus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
@@ -11390,7 +11390,7 @@
     {
         "Common name": "Red-Headed Woodpecker ",
         "Scientific name": "Melanerpes erythrocephalus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -11500,7 +11500,7 @@
     {
         "Common name": "Red-Shouldered Hawk ",
         "Scientific name": "Buteo lineatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it under this bird. If not, discard it.",
@@ -11555,7 +11555,7 @@
     {
         "Common name": "Red-Tailed Hawk ",
         "Scientific name": "Buteo jamaicensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
@@ -11610,7 +11610,7 @@
     {
         "Common name": "Red-Winged Blackbird ",
         "Scientific name": "Agelaius phoeniceus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -11665,7 +11665,7 @@
     {
         "Common name": "Ring-Billed Gull",
         "Scientific name": "Larus delawarensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -11720,7 +11720,7 @@
     {
         "Common name": "Rose-Breasted Grosbeak ",
         "Scientific name": "Pheucticus ludovicianus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain 1 [seed] or [fruit] from the birdfeeder, if there is one.",
@@ -11775,7 +11775,7 @@
     {
         "Common name": "Roseate Spoonbill ",
         "Scientific name": "Platalea ajaja",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -11830,7 +11830,7 @@
     {
         "Common name": "Ruby-Crowned Kinglet ",
         "Scientific name": "Regulus calendula",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
@@ -11885,7 +11885,7 @@
     {
         "Common name": "Ruby-Throated Hummingbird",
         "Scientific name": "Archilochus colubris",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Each player gains 1 [die] from the birdfeeder, starting with the player of your choice.",
@@ -11940,7 +11940,7 @@
     {
         "Common name": "Ruddy Duck",
         "Scientific name": "Oxyura jamaicensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -12055,7 +12055,7 @@
     {
         "Common name": "Sandhill Crane",
         "Scientific name": "Antigone canadensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Discard 1 [seed] to tuck 2 [card] from the deck behind this bird.",
@@ -12110,7 +12110,7 @@
     {
         "Common name": "Savannah Sparrow ",
         "Scientific name": "Passerculus sandwichensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
@@ -12220,7 +12220,7 @@
     {
         "Common name": "Say's Phoebe",
         "Scientific name": "Sayornis saya",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Egg-laying",
         "Power text": "Lay 1 [egg] on each of your birds with a [bowl] nest.",
@@ -12330,7 +12330,7 @@
     {
         "Common name": "Scissor-Tailed Flycatcher ",
         "Scientific name": "Tyrannus forficatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "All players gain 1 [invertebrate] from the supply.",
@@ -12513,7 +12513,7 @@
     {
         "Common name": "Snowy Egret ",
         "Scientific name": "Egretta thula",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -12623,7 +12623,7 @@
     {
         "Common name": "Song Sparrow ",
         "Scientific name": "Melospiza melodia",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -12678,7 +12678,7 @@
     {
         "Common name": "Spotted Owl",
         "Scientific name": "Strix occidentalis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -12733,7 +12733,7 @@
     {
         "Common name": "Spotted Sandpiper ",
         "Scientific name": "Actitis macularius",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "All players draw 1 [card] from the deck.",
@@ -12788,7 +12788,7 @@
     {
         "Common name": "Spotted Towhee ",
         "Scientific name": "Pipilo maculatus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 1 [seed] from the supply.",
@@ -12843,7 +12843,7 @@
     {
         "Common name": "Sprague's Pipit",
         "Scientific name": "Anthus spragueii",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -12953,7 +12953,7 @@
     {
         "Common name": "Steller's Jay",
         "Scientific name": "Cyanocitta stelleri",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
@@ -13008,7 +13008,7 @@
     {
         "Common name": "Swainson's Hawk",
         "Scientific name": "Buteo swainsoni",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
@@ -13118,7 +13118,7 @@
     {
         "Common name": "Tree Swallow ",
         "Scientific name": "Tachycineta bicolor",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -13173,7 +13173,7 @@
     {
         "Common name": "Trumpeter Swan",
         "Scientific name": "Cygnus buccinator",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -13228,7 +13228,7 @@
     {
         "Common name": "Tufted Titmouse",
         "Scientific name": "Baeolophus bicolor",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
@@ -13288,7 +13288,7 @@
     {
         "Common name": "Turkey Vulture",
         "Scientific name": "Cathartes aura",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
@@ -13398,7 +13398,7 @@
     {
         "Common name": "Violet-Green Swallow ",
         "Scientific name": "Tachycineta thalassina",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
@@ -13453,7 +13453,7 @@
     {
         "Common name": "Western Meadowlark",
         "Scientific name": "Sturnella neglecta",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "All players lay 1 [egg] on any 1 [ground] bird. You may lay 1 [egg] on 1 additional [ground] bird.",
@@ -13513,7 +13513,7 @@
     {
         "Common name": "Western Tanager",
         "Scientific name": "Piranga ludoviciana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
         "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if there is one.",
@@ -13743,7 +13743,7 @@
     {
         "Common name": "White-Breasted Nuthatch ",
         "Scientific name": "Sitta carolinensis",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
         "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
@@ -13798,7 +13798,7 @@
     {
         "Common name": "White-Crowned Sparrow ",
         "Scientific name": "Zonotrichia leucophrys",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -13853,7 +13853,7 @@
     {
         "Common name": "White-Faced Ibis ",
         "Scientific name": "Plegadis chihi",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -14018,7 +14018,7 @@
     {
         "Common name": "Whooping Crane",
         "Scientific name": "Grus americana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -14073,7 +14073,7 @@
     {
         "Common name": "Wild Turkey",
         "Scientific name": "Meleagris gallopavo",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": null,
         "PowerCategory": null,
         "Power text": null,
@@ -14128,7 +14128,7 @@
     {
         "Common name": "Willet",
         "Scientific name": "Tringa semipalmata",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
         "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
@@ -14183,7 +14183,7 @@
     {
         "Common name": "Wilson's Snipe",
         "Scientific name": "Gallinago delicata",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "All players draw 1 [card] from the deck.",
@@ -14293,7 +14293,7 @@
     {
         "Common name": "Wood Duck",
         "Scientific name": "Aix sponsa",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
         "Power text": "Draw 2 [card]. If you do, discard 1 [card] from your hand at the end of your turn.",
@@ -14348,7 +14348,7 @@
     {
         "Common name": "Wood Stork",
         "Scientific name": "Mycteria americana",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "White",
         "PowerCategory": "Other",
         "Power text": "Draw 2 new bonus cards and keep 1.",
@@ -14403,7 +14403,7 @@
     {
         "Common name": "Yellow-Bellied Sapsucker ",
         "Scientific name": "Sphyrapicus varius",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
         "Power text": "Gain 1 [invertebrate] from the supply.",
@@ -14458,7 +14458,7 @@
     {
         "Common name": "Yellow-Billed Cuckoo",
         "Scientific name": "Coccyzus americanus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
         "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
@@ -14518,7 +14518,7 @@
     {
         "Common name": "Yellow-Breasted Chat ",
         "Scientific name": "Icteria virens",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Other",
         "Power text": "If this bird is to the right of all other birds in its habitat, move it to another habitat.",
@@ -14573,7 +14573,7 @@
     {
         "Common name": "Yellow-Headed Blackbird ",
         "Scientific name": "Xanthocephalus xanthocephalus",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
@@ -14628,7 +14628,7 @@
     {
         "Common name": "Yellow-Rumped Warbler ",
         "Scientific name": "Setophaga coronata",
-        "Expansion": "originalcore",
+        "Expansion": "core",
         "Color": "Brown",
         "PowerCategory": "Flocking",
         "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
