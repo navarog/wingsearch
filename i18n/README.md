@@ -2,7 +2,7 @@
 
 If you own the game in other language which is not fully translated (or you have found a typo) and want to contribute, I'd really appreciate that. To make the whole process the easiest, please follow the next steps.
 
-* If the language is already partially translated, simply open the corresponding file. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for german it would be `de.xlsx`) and save it in this folder.
+* If the language is already partially translated, simply download the corresponding file from above. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for german it would be `de.xlsx`) and save it in this folder.
 
 * Fill the necessary information in the file. Do not change any predefined cells. The file consists of 3 sheets. 
 
@@ -73,4 +73,4 @@ Below you find the table of all needed icons and their codes.
 In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/wingspan-card-list.xlsx) or open a github issue.
 
 ## Submitting your file
-If you know how to work with git, just open the pull request. If not, you can email me the file at matej.cief[at]gmail.com
+If you know how to work with git, just open the pull request. If not, you can email me the file at matej.cief@gmail.com
