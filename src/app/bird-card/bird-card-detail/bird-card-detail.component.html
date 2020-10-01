@@ -5,6 +5,19 @@
                 <app-bird-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bird-card>
             </div>
             <div class="note" *ngIf="data.card.Note" [innerHTML]="data.card.Note | iconize"></div>
+            <div class="rulings" *ngIf="data.card.rulings.length">
+                <h2>Official rulings</h2>
+                <div class="ruling" *ngFor="let ruling of data.card.rulings">
+                    <span [innerHTML]="ruling.text | iconize"></span>
+                    <a [href]="ruling.source" target="_blank" rel="noopener noreferrer"
+                        *ngIf="ruling.source.startsWith('http')">
+                        <mat-icon svgIcon="externalLink"></mat-icon>
+                    </a>
+                    <a [matTooltip]="ruling.source" *ngIf="!ruling.source.startsWith('http')">
+                        <mat-icon svgIcon="externalLink"></mat-icon>
+                    </a>
+                </div>
+            </div>
         </mat-card>
     </div>
     <div class="flex-content right">
@@ -37,6 +50,6 @@
     </div>
 </div>
 
-<button mat-icon-button matDialogClose aria-label="Clear">
+<button mat-icon-button matDialogClose cdkFocusInitial aria-label="Clear">
     <mat-icon>close</mat-icon>
 </button>

@@ -63,6 +63,7 @@ export interface BirdCard {
     'Platform Builder': string | null
     'Prairie Manager': string | null
     Rodentologist: string | null
+    rulings: Ruling[]
     Viticulturalist: string | null
     'Wetland Scientist': string | null
     'Wildlife Gardener': string | null
@@ -105,6 +106,11 @@ export enum PowerCategory {
     Tucking = 'Tucking',
 }
 
+export interface Ruling {
+    text: string
+    source: string
+}
+
 export interface BonusCard {
     id: number
     Name: string
@@ -117,6 +123,7 @@ export interface BonusCard {
     Note: null | string
     'VP Average': number
     birdIds?: number[]
+    rulings: Ruling[]
     isBirdCard: () => false
     isBonusCard: () => true
 }

@@ -5,6 +5,7 @@ import { BehaviorSubject, Observable } from 'rxjs'
 import { map } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
 import { bonusSearchMap } from 'src/app/store/bonus-search-map'
+import { DomSanitizer } from '@angular/platform-browser'
 
 @Component({
   selector: 'app-bird-card-detail',
@@ -21,7 +22,11 @@ export class BirdCardDetailComponent implements OnInit, AfterViewInit {
   bonusCardHeight$ = new BehaviorSubject<number>(0)
   bonusCards$: Observable<BonusCard[]>
 
-  constructor(@Inject(MAT_DIALOG_DATA) public data: { card: BirdCard }, private store: Store<{ app: AppState }>) { }
+  constructor(
+    @Inject(MAT_DIALOG_DATA) public data: { card: BirdCard },
+    private store: Store<{ app: AppState }>,
+    private sanitizer: DomSanitizer
+  ) { }
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)
