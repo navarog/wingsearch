@@ -163,6 +163,8 @@ body {
 .mat-dialog-content.detail-container {
     height: 100vh;
     max-height: unset;
+    margin: 0;
+    padding: 0;
 }
 
 @media screen and (min-width: 600px) {
