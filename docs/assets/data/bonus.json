@@ -9,7 +9,17 @@
         "%": 22,
         "Note": null,
         "VP Average": 1.25,
-        "id": 1000
+        "id": 1000,
+        "rulings": [
+            {
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant section of the <i>European Expansion<\/i> rulebook. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the <i>wing<\/i> in <strong>Burrowing Owl<\/strong>).",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
+            },
+            {
+                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+            }
+        ]
     },
     {
         "Name": "Backyard Birder",
@@ -21,7 +31,8 @@
         "%": 42,
         "Note": "Count the birds you played that have a face value of 0, 1, 2, or 3 points.",
         "VP Average": 0.75,
-        "id": 1001
+        "id": 1001,
+        "rulings": []
     },
     {
         "Name": "Behaviorist",
@@ -33,7 +44,8 @@
         "%": "-",
         "Note": null,
         "VP Average": 0.0,
-        "id": 1002
+        "id": 1002,
+        "rulings": []
     },
     {
         "Name": "Bird Bander",
@@ -45,7 +57,8 @@
         "%": 31,
         "Note": null,
         "VP Average": 1.0,
-        "id": 1003
+        "id": 1003,
+        "rulings": []
     },
     {
         "Name": "Bird Counter",
@@ -57,7 +70,8 @@
         "%": 15,
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
         "VP Average": 2.0,
-        "id": 1004
+        "id": 1004,
+        "rulings": []
     },
     {
         "Name": "Bird Feeder",
@@ -69,7 +83,8 @@
         "%": 44,
         "Note": null,
         "VP Average": 0.75,
-        "id": 1005
+        "id": 1005,
+        "rulings": []
     },
     {
         "Name": "Breeding Manager",
@@ -81,7 +96,8 @@
         "%": 28,
         "Note": "Count only bird cards that have 4 egg tokens sitting on them at game end.",
         "VP Average": 1.0,
-        "id": 1006
+        "id": 1006,
+        "rulings": []
     },
     {
         "Name": "Cartographer",
@@ -93,7 +109,17 @@
         "%": 21,
         "Note": null,
         "VP Average": 1.25,
-        "id": 1007
+        "id": 1007,
+        "rulings": [
+            {
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including <i>prairie<\/i> (which is printed on the bonus card only in newer printings), and those in the relevant section of the <i>European Expansion<\/i> rulebook.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            },
+            {
+                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+            }
+        ]
     },
     {
         "Name": "Citizen Scientist",
@@ -105,7 +131,13 @@
         "%": 21,
         "Note": null,
         "VP Average": 0.75,
-        "id": 1008
+        "id": 1008,
+        "rulings": [
+            {
+                "text": "In games where the Automa has drawn this bonus card, the Automa selects birds that have tucking powers; these powers are precisely those which contain the word `tuck' or `tucked'.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+            }
+        ]
     },
     {
         "Name": "Diet Specialist",
@@ -117,7 +149,8 @@
         "%": 29,
         "Note": null,
         "VP Average": 1.25,
-        "id": 1009
+        "id": 1009,
+        "rulings": []
     },
     {
         "Name": "Ecologist",
@@ -129,7 +162,8 @@
         "%": "-",
         "Note": "Count the number of birds you played, in the habitat where you played the fewest birds. If you have two habitats tied for fewest birds, you may still score this bonus. For example, if all of your habitats have 3 birds in them, your habitat with the fewest birds has 3 birds in it.",
         "VP Average": 0.0,
-        "id": 1010
+        "id": 1010,
+        "rulings": []
     },
     {
         "Name": "Enclosure Builder",
@@ -141,7 +175,8 @@
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
         "VP Average": 1.0,
-        "id": 1011
+        "id": 1011,
+        "rulings": []
     },
     {
         "Name": "Ethologist",
@@ -153,7 +188,8 @@
         "%": "-",
         "Note": null,
         "VP Average": 0.0,
-        "id": 1012
+        "id": 1012,
+        "rulings": []
     },
     {
         "Name": "Falconer",
@@ -165,7 +201,8 @@
         "%": 13,
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
         "VP Average": 2.0,
-        "id": 1013
+        "id": 1013,
+        "rulings": []
     },
     {
         "Name": "Fishery Manager",
@@ -177,7 +214,8 @@
         "%": 18,
         "Note": null,
         "VP Average": 1.5,
-        "id": 1014
+        "id": 1014,
+        "rulings": []
     },
     {
         "Name": "Food Web Expert",
@@ -189,7 +227,8 @@
         "%": 9,
         "Note": null,
         "VP Average": 2.0,
-        "id": 1015
+        "id": 1015,
+        "rulings": []
     },
     {
         "Name": "Forester",
@@ -201,7 +240,8 @@
         "%": 24,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
         "VP Average": 1.0,
-        "id": 1016
+        "id": 1016,
+        "rulings": []
     },
     {
         "Name": "Historian",
@@ -213,7 +253,8 @@
         "%": 11,
         "Note": null,
         "VP Average": 2.0,
-        "id": 1017
+        "id": 1017,
+        "rulings": []
     },
     {
         "Name": "Large Bird Specialist",
@@ -225,7 +266,8 @@
         "%": 35,
         "Note": "Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
         "VP Average": 0.75,
-        "id": 1018
+        "id": 1018,
+        "rulings": []
     },
     {
         "Name": "Nest Box Builder",
@@ -237,7 +279,8 @@
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
         "VP Average": 1.0,
-        "id": 1019
+        "id": 1019,
+        "rulings": []
     },
     {
         "Name": "Omnivore Specialist",
@@ -249,7 +292,8 @@
         "%": 16,
         "Note": null,
         "VP Average": 2.0,
-        "id": 1020
+        "id": 1020,
+        "rulings": []
     },
     {
         "Name": "Oologist",
@@ -261,7 +305,8 @@
         "%": "-",
         "Note": "Count only bird cards that have at least 1 egg token sitting on them at game end.",
         "VP Average": 0.0,
-        "id": 1021
+        "id": 1021,
+        "rulings": []
     },
     {
         "Name": "Passerine Specialist",
@@ -273,7 +318,8 @@
         "%": 35,
         "Note": "Count the birds you played that have wingspans 30cm or less. Wingspans of exactly 30cm count toward this bonus.",
         "VP Average": 0.75,
-        "id": 1022
+        "id": 1022,
+        "rulings": []
     },
     {
         "Name": "Photographer",
@@ -285,7 +331,21 @@
         "%": 34,
         "Note": null,
         "VP Average": 0.75,
-        "id": 1023
+        "id": 1023,
+        "rulings": [
+            {
+                "text": "The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack)",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            },
+            {
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant section of the <i>European Expansion<\/i> rulebook, and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the \\textbf{Violet-Green Swallow}, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong>Barred Owl<\/strong>), but see <strong>European Honey Buzzard<\/strong> and <strong>Northern Bobwhite<\/strong>.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
+            },
+            {
+                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+            }
+        ]
     },
     {
         "Name": "Platform Builder",
@@ -297,7 +357,8 @@
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
         "VP Average": 1.0,
-        "id": 1024
+        "id": 1024,
+        "rulings": []
     },
     {
         "Name": "Prairie Manager",
@@ -309,7 +370,8 @@
         "%": 19,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
         "VP Average": 1.25,
-        "id": 1025
+        "id": 1025,
+        "rulings": []
     },
     {
         "Name": "Rodentologist",
@@ -321,7 +383,13 @@
         "%": 15,
         "Note": null,
         "VP Average": 2.0,
-        "id": 1026
+        "id": 1026,
+        "rulings": [
+            {
+                "text": "The bonus card's condition is \"Birds that eat [rodent]\", not \"Birds that only eat [rodent]\", and its clarification text is, \"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These errors were corrected in the third printing, and a corrected card is available in the update pack.)",
+                "source": "Card update pack."
+            }
+        ]
     },
     {
         "Name": "Visionary Leader",
@@ -333,7 +401,8 @@
         "%": "-",
         "Note": "Count the bird cards still in your hand at the end of the game.",
         "VP Average": 0.0,
-        "id": 1027
+        "id": 1027,
+        "rulings": []
     },
     {
         "Name": "Viticulturalist",
@@ -345,7 +414,8 @@
         "%": 22,
         "Note": null,
         "VP Average": 1.5,
-        "id": 1028
+        "id": 1028,
+        "rulings": []
     },
     {
         "Name": "Wetland Scientist",
@@ -357,7 +427,8 @@
         "%": 26,
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
         "VP Average": 1.0,
-        "id": 1029
+        "id": 1029,
+        "rulings": []
     },
     {
         "Name": "Wildlife Gardener",
@@ -369,7 +440,8 @@
         "%": 31,
         "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
         "VP Average": 1.0,
-        "id": 1030
+        "id": 1030,
+        "rulings": []
     },
     {
         "Name": "[automa] Autwitcher",
@@ -381,7 +453,8 @@
         "%": 44,
         "Note": null,
         "VP Average": 0.0,
-        "id": 1031
+        "id": 1031,
+        "rulings": []
     },
     {
         "Name": "[automa] RASPB Life Fellow",
@@ -393,6 +466,7 @@
         "%": 28,
         "Note": null,
         "VP Average": 0.0,
-        "id": 1032
+        "id": 1032,
+        "rulings": []
     }
 ]

@@ -51,7 +51,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 2
+        "id": 2,
+        "rulings": []
     },
     {
         "Common name": "American Avocet ",
@@ -105,7 +106,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 3
+        "id": 3,
+        "rulings": []
     },
     {
         "Common name": "American Bittern ",
@@ -159,7 +161,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 4
+        "id": 4,
+        "rulings": []
     },
     {
         "Common name": "American Coot",
@@ -213,7 +216,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 5
+        "id": 5,
+        "rulings": []
     },
     {
         "Common name": "American Crow ",
@@ -267,7 +271,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 6
+        "id": 6,
+        "rulings": []
     },
     {
         "Common name": "American Goldfinch ",
@@ -321,7 +326,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 7
+        "id": 7,
+        "rulings": []
     },
     {
         "Common name": "American Kestrel ",
@@ -375,7 +381,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 8
+        "id": 8,
+        "rulings": []
     },
     {
         "Common name": "American Oystercatcher",
@@ -429,7 +436,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 9
+        "id": 9,
+        "rulings": [
+            {
+                "text": "When using this bird's power in a game against the Automa, draw 3 [card], keep 2 of them, and discard the other.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31504"
+            },
+            {
+                "text": "When using this bird's power, you may take the drawn cards from the deck and\/or from the bird tray, despite the bird's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2449964\/article\/35131047#35131047"
+            }
+        ]
     },
     {
         "Common name": "American Redstart",
@@ -483,7 +500,17 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 10
+        "id": 10,
+        "rulings": [
+            {
+                "text": "This bird's power lets you take 1 food from the birdfeeder, as if [wild] were replaced by [die] in the power text.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/447732882596986\/?comment_id=447733369263604"
+            },
+            {
+                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
+            }
+        ]
     },
     {
         "Common name": "American Robin",
@@ -537,7 +564,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 11
+        "id": 11,
+        "rulings": []
     },
     {
         "Common name": "American White Pelican ",
@@ -591,7 +619,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 12
+        "id": 12,
+        "rulings": []
     },
     {
         "Common name": "American Woodcock",
@@ -645,7 +674,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 13
+        "id": 13,
+        "rulings": []
     },
     {
         "Common name": "Anhinga",
@@ -699,7 +729,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 14
+        "id": 14,
+        "rulings": []
     },
     {
         "Common name": "Anna's Hummingbird ",
@@ -753,7 +784,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 15
+        "id": 15,
+        "rulings": []
     },
     {
         "Common name": "Ash-Throated Flycatcher ",
@@ -807,7 +839,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 16
+        "id": 16,
+        "rulings": []
     },
     {
         "Common name": "Atlantic Puffin",
@@ -861,7 +894,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 17
+        "id": 17,
+        "rulings": []
     },
     {
         "Common name": "Audouin's Gull",
@@ -915,7 +949,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 18
+        "id": 18,
+        "rulings": []
     },
     {
         "Common name": "Baird's Sparrow ",
@@ -969,7 +1004,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 19
+        "id": 19,
+        "rulings": []
     },
     {
         "Common name": "Bald Eagle ",
@@ -1023,7 +1059,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 20
+        "id": 20,
+        "rulings": []
     },
     {
         "Common name": "Baltimore Oriole ",
@@ -1077,7 +1114,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 21
+        "id": 21,
+        "rulings": []
     },
     {
         "Common name": "Barn Owl",
@@ -1131,7 +1169,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 22
+        "id": 22,
+        "rulings": []
     },
     {
         "Common name": "Barn Swallow",
@@ -1185,7 +1224,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 23
+        "id": 23,
+        "rulings": []
     },
     {
         "Common name": "Barred Owl",
@@ -1239,7 +1279,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 24
+        "id": 24,
+        "rulings": [
+            {
+                "text": "This bird does not count toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/#comment-31995"
+            }
+        ]
     },
     {
         "Common name": "Barrow's Goldeneye ",
@@ -1293,7 +1339,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 25
+        "id": 25,
+        "rulings": []
     },
     {
         "Common name": "Bell's Vireo",
@@ -1347,7 +1394,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 26
+        "id": 26,
+        "rulings": []
     },
     {
         "Common name": "Belted Kingfisher ",
@@ -1401,7 +1449,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 27
+        "id": 27,
+        "rulings": []
     },
     {
         "Common name": "Bewick's Wren",
@@ -1455,7 +1504,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 28
+        "id": 28,
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Black Redstart",
@@ -1509,7 +1564,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 29
+        "id": 29,
+        "rulings": [
+            {
+                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
+            }
+        ]
     },
     {
         "Common name": "Black Skimmer ",
@@ -1563,7 +1624,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 30
+        "id": 30,
+        "rulings": []
     },
     {
         "Common name": "Black Tern",
@@ -1617,7 +1679,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 31
+        "id": 31,
+        "rulings": []
     },
     {
         "Common name": "Black Vulture ",
@@ -1671,7 +1734,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 32
+        "id": 32,
+        "rulings": []
     },
     {
         "Common name": "Black Woodpecker",
@@ -1725,7 +1789,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 33
+        "id": 33,
+        "rulings": []
     },
     {
         "Common name": "Black-Bellied Whistling Duck",
@@ -1779,7 +1844,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 34
+        "id": 34,
+        "rulings": []
     },
     {
         "Common name": "Black-Billed Magpie ",
@@ -1833,7 +1899,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 35
+        "id": 35,
+        "rulings": []
     },
     {
         "Common name": "Black-Chinned Hummingbird",
@@ -1887,7 +1954,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 36
+        "id": 36,
+        "rulings": []
     },
     {
         "Common name": "Black-Crowned Night-Heron ",
@@ -1941,7 +2009,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 37
+        "id": 37,
+        "rulings": []
     },
     {
         "Common name": "Black-Headed Gull",
@@ -1995,7 +2064,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 38
+        "id": 38,
+        "rulings": []
     },
     {
         "Common name": "Black-Necked Stilt ",
@@ -2049,7 +2119,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 39
+        "id": 39,
+        "rulings": []
     },
     {
         "Common name": "Black-Tailed Godwit",
@@ -2103,7 +2174,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 40
+        "id": 40,
+        "rulings": []
     },
     {
         "Common name": "Black-Throated Diver",
@@ -2157,7 +2229,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 41
+        "id": 41,
+        "rulings": []
     },
     {
         "Common name": "Blue Grosbeak",
@@ -2211,7 +2284,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 42
+        "id": 42,
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Blue Jay",
@@ -2265,7 +2344,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 43
+        "id": 43,
+        "rulings": []
     },
     {
         "Common name": "Blue-Gray Gnatcatcher ",
@@ -2319,7 +2399,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 44
+        "id": 44,
+        "rulings": []
     },
     {
         "Common name": "Blue-Winged Warbler",
@@ -2373,7 +2454,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 45
+        "id": 45,
+        "rulings": []
     },
     {
         "Common name": "Bluethroat",
@@ -2427,7 +2509,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 46
+        "id": 46,
+        "rulings": []
     },
     {
         "Common name": "Bobolink",
@@ -2481,7 +2564,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 47
+        "id": 47,
+        "rulings": []
     },
     {
         "Common name": "Bonelli's Eagle",
@@ -2535,7 +2619,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 48
+        "id": 48,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Brant",
@@ -2589,7 +2679,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 49
+        "id": 49,
+        "rulings": []
     },
     {
         "Common name": "Brewer's Blackbird ",
@@ -2643,7 +2734,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 50
+        "id": 50,
+        "rulings": []
     },
     {
         "Common name": "Broad-Winged Hawk",
@@ -2697,7 +2789,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 51
+        "id": 51,
+        "rulings": []
     },
     {
         "Common name": "Bronzed Cowbird ",
@@ -2751,7 +2844,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 52
+        "id": 52,
+        "rulings": []
     },
     {
         "Common name": "Brown Pelican",
@@ -2805,7 +2899,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 53
+        "id": 53,
+        "rulings": []
     },
     {
         "Common name": "Brown-Headed Cowbird ",
@@ -2859,7 +2954,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 54
+        "id": 54,
+        "rulings": []
     },
     {
         "Common name": "Bullfinch",
@@ -2913,7 +3009,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 55
+        "id": 55,
+        "rulings": []
     },
     {
         "Common name": "Burrowing Owl ",
@@ -2967,7 +3064,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 56
+        "id": 56,
+        "rulings": []
     },
     {
         "Common name": "Bushtit",
@@ -3021,7 +3119,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 57
+        "id": 57,
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
         "Common name": "California Condor",
@@ -3075,7 +3179,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 58
+        "id": 58,
+        "rulings": []
     },
     {
         "Common name": "California Quail ",
@@ -3129,7 +3234,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 59
+        "id": 59,
+        "rulings": []
     },
     {
         "Common name": "Canada Goose ",
@@ -3183,7 +3289,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 60
+        "id": 60,
+        "rulings": []
     },
     {
         "Common name": "Canvasback",
@@ -3237,7 +3344,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 61
+        "id": 61,
+        "rulings": []
     },
     {
         "Common name": "Carolina Chickadee ",
@@ -3291,7 +3399,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 62
+        "id": 62,
+        "rulings": []
     },
     {
         "Common name": "Carolina Wren",
@@ -3345,7 +3454,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 63
+        "id": 63,
+        "rulings": []
     },
     {
         "Common name": "Carrion Crow",
@@ -3399,7 +3509,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 64
+        "id": 64,
+        "rulings": []
     },
     {
         "Common name": "Cassin's Finch",
@@ -3453,7 +3564,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 65
+        "id": 65,
+        "rulings": []
     },
     {
         "Common name": "Cassin's Sparrow ",
@@ -3507,7 +3619,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 66
+        "id": 66,
+        "rulings": []
     },
     {
         "Common name": "Cedar Waxwing",
@@ -3561,7 +3674,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 67
+        "id": 67,
+        "rulings": []
     },
     {
         "Common name": "Cerulean Warbler ",
@@ -3615,7 +3729,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 68
+        "id": 68,
+        "rulings": []
     },
     {
         "Common name": "Cetti's Warbler",
@@ -3669,7 +3784,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 69
+        "id": 69,
+        "rulings": [
+            {
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+            }
+        ]
     },
     {
         "Common name": "Chestnut-Collared Longspur ",
@@ -3723,7 +3844,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 70
+        "id": 70,
+        "rulings": []
     },
     {
         "Common name": "Chihuahuan Raven",
@@ -3777,7 +3899,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 71
+        "id": 71,
+        "rulings": []
     },
     {
         "Common name": "Chimney Swift",
@@ -3831,7 +3954,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 72
+        "id": 72,
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Chipping Sparrow ",
@@ -3885,7 +4014,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 73
+        "id": 73,
+        "rulings": []
     },
     {
         "Common name": "Clark's Grebe ",
@@ -3939,7 +4069,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 74
+        "id": 74,
+        "rulings": []
     },
     {
         "Common name": "Clark's Nutcracker ",
@@ -3993,7 +4124,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 75
+        "id": 75,
+        "rulings": []
     },
     {
         "Common name": "Coal Tit",
@@ -4047,7 +4179,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 76
+        "id": 76,
+        "rulings": [
+            {
+                "text": "You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/486158122087795\/?comment_id=486188425418098&reply_comment_id=486277005409240"
+            },
+            {
+                "text": "Food cached on this bird is \"used\" (for points) and hence does not count as unused food when breaking point ties while scoring.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
+            }
+        ]
     },
     {
         "Common name": "Common Blackbird",
@@ -4101,7 +4243,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 77
+        "id": 77,
+        "rulings": [
+            {
+                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            }
+        ]
     },
     {
         "Common name": "Common Buzzard",
@@ -4155,7 +4303,21 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 78
+        "id": 78,
+        "rulings": [
+            {
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+            },
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Common Chaffinch",
@@ -4209,7 +4371,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 79
+        "id": 79,
+        "rulings": []
     },
     {
         "Common name": "Common Chiffchaff",
@@ -4263,7 +4426,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 80
+        "id": 80,
+        "rulings": []
     },
     {
         "Common name": "Common Cuckoo",
@@ -4317,7 +4481,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 81
+        "id": 81,
+        "rulings": []
     },
     {
         "Common name": "Common Goldeneye",
@@ -4371,7 +4536,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 82
+        "id": 82,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
+            }
+        ]
     },
     {
         "Common name": "Common Grackle ",
@@ -4425,7 +4596,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 83
+        "id": 83,
+        "rulings": []
     },
     {
         "Common name": "Common Kingfisher",
@@ -4479,7 +4651,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 84
+        "id": 84,
+        "rulings": []
     },
     {
         "Common name": "Common Little Bittern",
@@ -4533,7 +4706,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 85
+        "id": 85,
+        "rulings": []
     },
     {
         "Common name": "Common Loon",
@@ -4587,7 +4761,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 86
+        "id": 86,
+        "rulings": []
     },
     {
         "Common name": "Common Merganser ",
@@ -4641,7 +4816,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 87
+        "id": 87,
+        "rulings": []
     },
     {
         "Common name": "Common Moorhen",
@@ -4695,7 +4871,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 88
+        "id": 88,
+        "rulings": [
+            {
+                "text": "Using this bird's power to play a bird in your [wetland] triggers the power of the <strong>Belted Kingfisher<\/strong> on another player's player mat, despite the <strong>Belted Kingfisher<\/strong>'s entry in the Appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
+            }
+        ]
     },
     {
         "Common name": "Common Nighthawk ",
@@ -4749,7 +4931,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 89
+        "id": 89,
+        "rulings": []
     },
     {
         "Common name": "Common Nightingale",
@@ -4803,7 +4986,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 90
+        "id": 90,
+        "rulings": []
     },
     {
         "Common name": "Common Raven",
@@ -4857,7 +5041,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 91
+        "id": 91,
+        "rulings": []
     },
     {
         "Common name": "Common Starling",
@@ -4911,7 +5096,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 92
+        "id": 92,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Common Swift",
@@ -4965,7 +5156,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 93
+        "id": 93,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Common Yellowthroat ",
@@ -5019,7 +5216,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 94
+        "id": 94,
+        "rulings": []
     },
     {
         "Common name": "Cooper's Hawk ",
@@ -5073,7 +5271,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 95
+        "id": 95,
+        "rulings": []
     },
     {
         "Common name": "Corsican Nuthatch",
@@ -5127,7 +5326,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 96
+        "id": 96,
+        "rulings": []
     },
     {
         "Common name": "Dark-Eyed Junco",
@@ -5181,7 +5381,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 97
+        "id": 97,
+        "rulings": []
     },
     {
         "Common name": "Dickcissel",
@@ -5235,7 +5436,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 98
+        "id": 98,
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
         "Common name": "Double-Crested Cormorant ",
@@ -5289,7 +5496,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 99
+        "id": 99,
+        "rulings": []
     },
     {
         "Common name": "Downy Woodpecker ",
@@ -5343,7 +5551,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 100
+        "id": 100,
+        "rulings": []
     },
     {
         "Common name": "Dunnock",
@@ -5397,7 +5606,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 101
+        "id": 101,
+        "rulings": []
     },
     {
         "Common name": "Eastern Bluebird",
@@ -5451,7 +5661,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 102
+        "id": 102,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Eastern Imperial Eagle",
@@ -5505,7 +5721,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 103
+        "id": 103,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Eastern Kingbird",
@@ -5559,7 +5781,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 104
+        "id": 104,
+        "rulings": [
+            {
+                "text": "This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the \"play a bird\" card action to do so (instead using, e.g., the <strong>Goldcrest<\/strong>'s power), despite the bird's entry in the Appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
+            }
+        ]
     },
     {
         "Common name": "Eastern Phoebe ",
@@ -5613,7 +5841,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 105
+        "id": 105,
+        "rulings": []
     },
     {
         "Common name": "Eastern Screech Owl ",
@@ -5667,7 +5896,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 106
+        "id": 106,
+        "rulings": []
     },
     {
         "Common name": "Eleonora's Falcon",
@@ -5721,7 +5951,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 107
+        "id": 107,
+        "rulings": [
+            {
+                "text": "Consistent with the card's printing, this bird's power is not a [predator] power.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=472457173457890&comment_id=472491826787758&reply_comment_id=472965330073741"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Collared-Dove",
@@ -5775,7 +6011,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 108
+        "id": 108,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Golden Oriole",
@@ -5829,7 +6071,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 109
+        "id": 109,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Green Woodpecker",
@@ -5883,7 +6131,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 110
+        "id": 110,
+        "rulings": [
+            {
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Hobby",
@@ -5937,7 +6191,21 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 111
+        "id": 111,
+        "rulings": [
+            {
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+            },
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Jay",
@@ -5991,7 +6259,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 112
+        "id": 112,
+        "rulings": []
     },
     {
         "Common name": "Eurasian Magpie",
@@ -6045,7 +6314,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 113
+        "id": 113,
+        "rulings": []
     },
     {
         "Common name": "Eurasian Nutcracker",
@@ -6099,7 +6369,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 114
+        "id": 114,
+        "rulings": []
     },
     {
         "Common name": "Eurasian Nuthatch",
@@ -6153,7 +6424,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 115
+        "id": 115,
+        "rulings": [
+            {
+                "text": "You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/486158122087795\/?comment_id=486188425418098&reply_comment_id=486277005409240"
+            },
+            {
+                "text": "Food cached on this bird is \"used\" (for points) and hence does not count as unused food when breaking point ties while scoring.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Sparrowhawk",
@@ -6207,7 +6488,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 116
+        "id": 116,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Tree Sparrow",
@@ -6261,7 +6548,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 117
+        "id": 117,
+        "rulings": []
     },
     {
         "Common name": "European Bee-Eater",
@@ -6315,7 +6603,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 118
+        "id": 118,
+        "rulings": []
     },
     {
         "Common name": "European Goldfinch",
@@ -6369,7 +6658,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 119
+        "id": 119,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "European Honey Buzzard",
@@ -6423,7 +6718,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 120
+        "id": 120,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2341899\/article\/33709956#33709956"
+            }
+        ]
     },
     {
         "Common name": "European Robin",
@@ -6477,7 +6778,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 121
+        "id": 121,
+        "rulings": []
     },
     {
         "Common name": "European Roller",
@@ -6531,7 +6833,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 122
+        "id": 122,
+        "rulings": [
+            {
+                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            }
+        ]
     },
     {
         "Common name": "European Turtle Dove",
@@ -6585,7 +6893,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 123
+        "id": 123,
+        "rulings": []
     },
     {
         "Common name": "Ferruginous Hawk ",
@@ -6639,7 +6948,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 124
+        "id": 124,
+        "rulings": []
     },
     {
         "Common name": "Fish Crow",
@@ -6693,7 +7003,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 125
+        "id": 125,
+        "rulings": []
     },
     {
         "Common name": "Forster's Tern ",
@@ -6747,7 +7058,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 126
+        "id": 126,
+        "rulings": []
     },
     {
         "Common name": "Franklin's Gull ",
@@ -6801,7 +7113,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 127
+        "id": 127,
+        "rulings": []
     },
     {
         "Common name": "Goldcrest",
@@ -6855,7 +7168,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 128
+        "id": 128,
+        "rulings": [
+            {
+                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong>Eastern Kingbird<\/strong> on another player's player mat, despite the <strong>Eastern Kingbird<\/strong>'s entry in the Appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
+            }
+        ]
     },
     {
         "Common name": "Golden Eagle",
@@ -6909,7 +7228,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 129
+        "id": 129,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
+            }
+        ]
     },
     {
         "Common name": "Grasshopper Sparrow ",
@@ -6963,7 +7288,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 130
+        "id": 130,
+        "rulings": []
     },
     {
         "Common name": "Gray Catbird",
@@ -7017,7 +7343,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 131
+        "id": 131,
+        "rulings": [
+            {
+                "text": "This bird's power activates another bird's power. Any other brown power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            }
+        ]
     },
     {
         "Common name": "Great Blue Heron",
@@ -7071,7 +7403,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 132
+        "id": 132,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Great Crested Flycatcher ",
@@ -7125,7 +7463,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 133
+        "id": 133,
+        "rulings": []
     },
     {
         "Common name": "Great Crested Grebe",
@@ -7179,7 +7518,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 134
+        "id": 134,
+        "rulings": []
     },
     {
         "Common name": "Great Egret",
@@ -7233,7 +7573,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 135
+        "id": 135,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Great Horned Owl ",
@@ -7287,7 +7633,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 136
+        "id": 136,
+        "rulings": []
     },
     {
         "Common name": "Great Tit",
@@ -7341,7 +7688,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 137
+        "id": 137,
+        "rulings": []
     },
     {
         "Common name": "Greater Flamingo",
@@ -7395,7 +7743,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 138
+        "id": 138,
+        "rulings": [
+            {
+                "text": "This bird's power is brown despite its entry in the <i>European Expansion<\/i> rulebook appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/448650129171928\/?comment_id=448787489158192"
+            },
+            {
+                "text": "When using this bird's power in a game against the Automa, (since it is a brown power) the Automa always has zero action cubes in its [wetland].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2331577\/article\/33966554#33966554"
+            }
+        ]
     },
     {
         "Common name": "Greater Prairie Chicken ",
@@ -7449,7 +7807,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 139
+        "id": 139,
+        "rulings": []
     },
     {
         "Common name": "Greater Roadrunner ",
@@ -7503,7 +7862,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 140
+        "id": 140,
+        "rulings": []
     },
     {
         "Common name": "Green Heron",
@@ -7557,7 +7917,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 141
+        "id": 141,
+        "rulings": [
+            {
+                "text": "Trading counts as \"spending\".",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
+            },
+            {
+                "text": "You may not use this bird's power to trade a food token for a food token of the same type.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=591878014849138&comment_id=591932641510342&reply_comment_id=594264341277172"
+            }
+        ]
     },
     {
         "Common name": "Grey Heron",
@@ -7611,7 +7981,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 142
+        "id": 142,
+        "rulings": []
     },
     {
         "Common name": "Greylag Goose",
@@ -7665,7 +8036,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 143
+        "id": 143,
+        "rulings": [
+            {
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
+            }
+        ]
     },
     {
         "Common name": "Griffon Vulture",
@@ -7719,7 +8096,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 144
+        "id": 144,
+        "rulings": []
     },
     {
         "Common name": "Hawfinch",
@@ -7773,7 +8151,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 145
+        "id": 145,
+        "rulings": []
     },
     {
         "Common name": "Hermit Thrush",
@@ -7827,7 +8206,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 146
+        "id": 146,
+        "rulings": []
     },
     {
         "Common name": "Hooded Crow",
@@ -7881,7 +8261,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 147
+        "id": 147,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Hooded Merganser",
@@ -7935,7 +8321,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 148
+        "id": 148,
+        "rulings": [
+            {
+                "text": "This bird's power activates another bird's power. Any other predator power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            }
+        ]
     },
     {
         "Common name": "Hooded Warbler",
@@ -7989,7 +8381,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 149
+        "id": 149,
+        "rulings": []
     },
     {
         "Common name": "Horned Lark",
@@ -8043,7 +8436,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 150
+        "id": 150,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "House Finch",
@@ -8097,7 +8496,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 151
+        "id": 151,
+        "rulings": []
     },
     {
         "Common name": "House Sparrow",
@@ -8151,7 +8551,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 152
+        "id": 152,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "House Wren",
@@ -8205,7 +8611,17 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 153
+        "id": 153,
+        "rulings": [
+            {
+                "text": "When using this bird's power, the additional bird must be played in the same habitat as this bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30838"
+            },
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Inca Dove",
@@ -8259,7 +8675,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 154
+        "id": 154,
+        "rulings": []
     },
     {
         "Common name": "Indigo Bunting ",
@@ -8313,7 +8730,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 155
+        "id": 155,
+        "rulings": []
     },
     {
         "Common name": "Juniper Titmouse ",
@@ -8367,7 +8785,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 156
+        "id": 156,
+        "rulings": []
     },
     {
         "Common name": "Killdeer",
@@ -8421,7 +8840,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 157
+        "id": 157,
+        "rulings": []
     },
     {
         "Common name": "King Rail",
@@ -8475,7 +8895,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 158
+        "id": 158,
+        "rulings": []
     },
     {
         "Common name": "Lazuli Bunting ",
@@ -8529,7 +8950,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 159
+        "id": 159,
+        "rulings": []
     },
     {
         "Common name": "Lesser Whitethroat",
@@ -8583,7 +9005,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 160
+        "id": 160,
+        "rulings": []
     },
     {
         "Common name": "Lincoln's Sparrow",
@@ -8637,7 +9060,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 161
+        "id": 161,
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Little Bustard",
@@ -8691,7 +9120,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 162
+        "id": 162,
+        "rulings": []
     },
     {
         "Common name": "Little Owl",
@@ -8745,7 +9175,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 163
+        "id": 163,
+        "rulings": []
     },
     {
         "Common name": "Loggerhead Shrike",
@@ -8799,7 +9230,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 164
+        "id": 164,
+        "rulings": []
     },
     {
         "Common name": "Long-Tailed Tit",
@@ -8853,7 +9285,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 165
+        "id": 165,
+        "rulings": [
+            {
+                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            }
+        ]
     },
     {
         "Common name": "Mallard",
@@ -8907,7 +9345,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 166
+        "id": 166,
+        "rulings": []
     },
     {
         "Common name": "Mississippi Kite",
@@ -8961,7 +9400,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 167
+        "id": 167,
+        "rulings": []
     },
     {
         "Common name": "Moltoni's Warbler",
@@ -9015,7 +9455,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 168
+        "id": 168,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
+            }
+        ]
     },
     {
         "Common name": "Montagu's Harrier",
@@ -9069,7 +9515,25 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 169
+        "id": 169,
+        "rulings": [
+            {
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "Even when using this bird's power to play it on top of another bird, this bird can only be played in [grassland].",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+            },
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Mountain Bluebird ",
@@ -9123,7 +9587,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 170
+        "id": 170,
+        "rulings": []
     },
     {
         "Common name": "Mountain Chickadee ",
@@ -9177,7 +9642,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 171
+        "id": 171,
+        "rulings": []
     },
     {
         "Common name": "Mourning Dove ",
@@ -9231,7 +9697,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 172
+        "id": 172,
+        "rulings": []
     },
     {
         "Common name": "Mute Swan",
@@ -9285,7 +9752,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 173
+        "id": 173,
+        "rulings": [
+            {
+                "text": "This bird's power is a [flocking] power and hence this card should have a [flocking] symbol.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/#comment-36281"
+            }
+        ]
     },
     {
         "Common name": "Northern Bobwhite",
@@ -9339,7 +9812,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 174
+        "id": 174,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/450308885672719\/?comment_id=450451978991743&reply_comment_id=452668538770087"
+            }
+        ]
     },
     {
         "Common name": "Northern Cardinal ",
@@ -9393,7 +9872,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 175
+        "id": 175,
+        "rulings": []
     },
     {
         "Common name": "Northern Flicker",
@@ -9447,7 +9927,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 176
+        "id": 176,
+        "rulings": []
     },
     {
         "Common name": "Northern Gannet",
@@ -9501,7 +9982,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 177
+        "id": 177,
+        "rulings": []
     },
     {
         "Common name": "Northern Goshawk",
@@ -9555,7 +10037,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 178
+        "id": 178,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Northern Harrier ",
@@ -9609,7 +10097,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 179
+        "id": 179,
+        "rulings": []
     },
     {
         "Common name": "Northern Mockingbird ",
@@ -9663,7 +10152,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 180
+        "id": 180,
+        "rulings": []
     },
     {
         "Common name": "Northern Shoveler ",
@@ -9717,7 +10207,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 181
+        "id": 181,
+        "rulings": []
     },
     {
         "Common name": "Osprey",
@@ -9771,7 +10262,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 182
+        "id": 182,
+        "rulings": []
     },
     {
         "Common name": "Painted Bunting ",
@@ -9825,7 +10317,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 183
+        "id": 183,
+        "rulings": []
     },
     {
         "Common name": "Painted Whitestart",
@@ -9879,7 +10372,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 184
+        "id": 184,
+        "rulings": [
+            {
+                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
+            }
+        ]
     },
     {
         "Common name": "Parrot Crossbill",
@@ -9933,7 +10432,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 185
+        "id": 185,
+        "rulings": []
     },
     {
         "Common name": "Peregrine Falcon ",
@@ -9987,7 +10487,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 186
+        "id": 186,
+        "rulings": []
     },
     {
         "Common name": "Pied-Billed Grebe ",
@@ -10041,7 +10542,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 187
+        "id": 187,
+        "rulings": []
     },
     {
         "Common name": "Pileated Woodpecker ",
@@ -10095,7 +10597,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 188
+        "id": 188,
+        "rulings": []
     },
     {
         "Common name": "Pine Siskin",
@@ -10149,7 +10652,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 189
+        "id": 189,
+        "rulings": []
     },
     {
         "Common name": "Prothonotary Warbler",
@@ -10203,7 +10707,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 190
+        "id": 190,
+        "rulings": []
     },
     {
         "Common name": "Purple Gallinule ",
@@ -10257,7 +10762,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 191
+        "id": 191,
+        "rulings": []
     },
     {
         "Common name": "Purple Martin",
@@ -10311,7 +10817,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 192
+        "id": 192,
+        "rulings": []
     },
     {
         "Common name": "Pygmy Nuthatch",
@@ -10365,7 +10872,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 193
+        "id": 193,
+        "rulings": []
     },
     {
         "Common name": "Red Crossbill",
@@ -10419,7 +10927,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 194
+        "id": 194,
+        "rulings": []
     },
     {
         "Common name": "Red Kite",
@@ -10473,7 +10982,21 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 195
+        "id": 195,
+        "rulings": [
+            {
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+            },
+            {
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Red Knot",
@@ -10527,7 +11050,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 196
+        "id": 196,
+        "rulings": []
     },
     {
         "Common name": "Red-Backed Shrike",
@@ -10581,7 +11105,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 197
+        "id": 197,
+        "rulings": []
     },
     {
         "Common name": "Red-Bellied Woodpecker ",
@@ -10635,7 +11160,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 198
+        "id": 198,
+        "rulings": []
     },
     {
         "Common name": "Red-Breasted Merganser",
@@ -10689,7 +11215,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 199
+        "id": 199,
+        "rulings": []
     },
     {
         "Common name": "Red-Breasted Nuthatch ",
@@ -10743,7 +11270,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 200
+        "id": 200,
+        "rulings": []
     },
     {
         "Common name": "Red-Cockaded Woodpecker ",
@@ -10797,7 +11325,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 201
+        "id": 201,
+        "rulings": []
     },
     {
         "Common name": "Red-Eyed Vireo ",
@@ -10851,7 +11380,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 203
+        "id": 203,
+        "rulings": []
     },
     {
         "Common name": "Red-Headed Woodpecker ",
@@ -10905,7 +11435,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 204
+        "id": 204,
+        "rulings": []
     },
     {
         "Common name": "Red-Legged Partridge",
@@ -10959,7 +11490,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 205
+        "id": 205,
+        "rulings": []
     },
     {
         "Common name": "Red-Shouldered Hawk ",
@@ -11013,7 +11545,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 206
+        "id": 206,
+        "rulings": []
     },
     {
         "Common name": "Red-Tailed Hawk ",
@@ -11067,7 +11600,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 207
+        "id": 207,
+        "rulings": []
     },
     {
         "Common name": "Red-Winged Blackbird ",
@@ -11121,7 +11655,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 208
+        "id": 208,
+        "rulings": []
     },
     {
         "Common name": "Ring-Billed Gull",
@@ -11175,7 +11710,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 209
+        "id": 209,
+        "rulings": []
     },
     {
         "Common name": "Rose-Breasted Grosbeak ",
@@ -11229,7 +11765,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 210
+        "id": 210,
+        "rulings": []
     },
     {
         "Common name": "Roseate Spoonbill ",
@@ -11283,7 +11820,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 211
+        "id": 211,
+        "rulings": []
     },
     {
         "Common name": "Ruby-Crowned Kinglet ",
@@ -11337,7 +11875,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 212
+        "id": 212,
+        "rulings": []
     },
     {
         "Common name": "Ruby-Throated Hummingbird",
@@ -11391,7 +11930,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 213
+        "id": 213,
+        "rulings": []
     },
     {
         "Common name": "Ruddy Duck",
@@ -11445,7 +11985,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 214
+        "id": 214,
+        "rulings": []
     },
     {
         "Common name": "Ruff",
@@ -11499,7 +12040,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 215
+        "id": 215,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Sandhill Crane",
@@ -11553,7 +12100,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 216
+        "id": 216,
+        "rulings": []
     },
     {
         "Common name": "Savannah Sparrow ",
@@ -11607,7 +12155,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 217
+        "id": 217,
+        "rulings": []
     },
     {
         "Common name": "Savi's Warbler",
@@ -11661,7 +12210,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 218
+        "id": 218,
+        "rulings": []
     },
     {
         "Common name": "Say's Phoebe",
@@ -11715,7 +12265,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 219
+        "id": 219,
+        "rulings": []
     },
     {
         "Common name": "Scaled Quail",
@@ -11769,7 +12320,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 220
+        "id": 220,
+        "rulings": []
     },
     {
         "Common name": "Scissor-Tailed Flycatcher ",
@@ -11823,7 +12375,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 221
+        "id": 221,
+        "rulings": []
     },
     {
         "Common name": "Short-Toed Treecreeper",
@@ -11877,7 +12430,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 222
+        "id": 222,
+        "rulings": [
+            {
+                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong>Eastern Kingbird<\/strong> on another player's player mat, despite the <strong>Eastern Kingbird<\/strong>'s entry in the Appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
+            }
+        ]
     },
     {
         "Common name": "Snow Bunting",
@@ -11931,7 +12490,21 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 223
+        "id": 223,
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-35706"
+            },
+            {
+                "text": "When using this bird's power, draw the [card] from the bird tray before it is refilled.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2336787\/article\/33673995#33673995"
+            },
+            {
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Common name": "Snowy Egret ",
@@ -11985,7 +12558,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 224
+        "id": 224,
+        "rulings": []
     },
     {
         "Common name": "Snowy Owl",
@@ -12039,7 +12613,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 225
+        "id": 225,
+        "rulings": []
     },
     {
         "Common name": "Song Sparrow ",
@@ -12093,7 +12668,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 226
+        "id": 226,
+        "rulings": []
     },
     {
         "Common name": "Spotted Owl",
@@ -12147,7 +12723,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 227
+        "id": 227,
+        "rulings": []
     },
     {
         "Common name": "Spotted Sandpiper ",
@@ -12201,7 +12778,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 228
+        "id": 228,
+        "rulings": []
     },
     {
         "Common name": "Spotted Towhee ",
@@ -12255,7 +12833,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 229
+        "id": 229,
+        "rulings": []
     },
     {
         "Common name": "Sprague's Pipit",
@@ -12309,7 +12888,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 230
+        "id": 230,
+        "rulings": []
     },
     {
         "Common name": "Squacco Heron",
@@ -12363,7 +12943,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 231
+        "id": 231,
+        "rulings": []
     },
     {
         "Common name": "Steller's Jay",
@@ -12417,7 +12998,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 232
+        "id": 232,
+        "rulings": []
     },
     {
         "Common name": "Swainson's Hawk",
@@ -12471,7 +13053,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 233
+        "id": 233,
+        "rulings": []
     },
     {
         "Common name": "Thekla's Lark",
@@ -12525,7 +13108,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 234
+        "id": 234,
+        "rulings": []
     },
     {
         "Common name": "Tree Swallow ",
@@ -12579,7 +13163,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 235
+        "id": 235,
+        "rulings": []
     },
     {
         "Common name": "Trumpeter Swan",
@@ -12633,7 +13218,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 236
+        "id": 236,
+        "rulings": []
     },
     {
         "Common name": "Tufted Titmouse",
@@ -12687,7 +13273,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 237
+        "id": 237,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Turkey Vulture",
@@ -12741,7 +13333,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 238
+        "id": 238,
+        "rulings": []
     },
     {
         "Common name": "Vaux's Swift",
@@ -12795,7 +13388,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 239
+        "id": 239,
+        "rulings": []
     },
     {
         "Common name": "Violet-Green Swallow ",
@@ -12849,7 +13443,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 240
+        "id": 240,
+        "rulings": []
     },
     {
         "Common name": "Western Meadowlark",
@@ -12903,7 +13498,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 241
+        "id": 241,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to lay 2 [egg], they must be laid on different [ground]\/[star] birds.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/322004815169794\/?comment_id=322006528502956"
+            }
+        ]
     },
     {
         "Common name": "Western Tanager",
@@ -12957,7 +13558,13 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 242
+        "id": 242,
+        "rulings": [
+            {
+                "text": "When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+            }
+        ]
     },
     {
         "Common name": "White Stork",
@@ -13011,7 +13618,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 243
+        "id": 243,
+        "rulings": []
     },
     {
         "Common name": "White Wagtail",
@@ -13065,7 +13673,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 244
+        "id": 244,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
+            }
+        ]
     },
     {
         "Common name": "White-Backed Woodpecker",
@@ -13119,7 +13733,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 245
+        "id": 245,
+        "rulings": []
     },
     {
         "Common name": "White-Breasted Nuthatch ",
@@ -13173,7 +13788,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 246
+        "id": 246,
+        "rulings": []
     },
     {
         "Common name": "White-Crowned Sparrow ",
@@ -13227,7 +13843,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 247
+        "id": 247,
+        "rulings": []
     },
     {
         "Common name": "White-Faced Ibis ",
@@ -13281,7 +13898,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 248
+        "id": 248,
+        "rulings": []
     },
     {
         "Common name": "White-Throated Dipper",
@@ -13335,7 +13953,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 249
+        "id": 249,
+        "rulings": []
     },
     {
         "Common name": "White-Throated Swift",
@@ -13389,7 +14008,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 250
+        "id": 250,
+        "rulings": []
     },
     {
         "Common name": "Whooping Crane",
@@ -13443,7 +14063,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 251
+        "id": 251,
+        "rulings": []
     },
     {
         "Common name": "Wild Turkey",
@@ -13497,7 +14118,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 252
+        "id": 252,
+        "rulings": []
     },
     {
         "Common name": "Willet",
@@ -13551,7 +14173,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 253
+        "id": 253,
+        "rulings": []
     },
     {
         "Common name": "Wilson's Snipe",
@@ -13605,7 +14228,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 254
+        "id": 254,
+        "rulings": []
     },
     {
         "Common name": "Wilson's Storm Petrel",
@@ -13659,7 +14283,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 255
+        "id": 255,
+        "rulings": []
     },
     {
         "Common name": "Wood Duck",
@@ -13713,7 +14338,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 256
+        "id": 256,
+        "rulings": []
     },
     {
         "Common name": "Wood Stork",
@@ -13767,7 +14393,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
-        "id": 257
+        "id": 257,
+        "rulings": []
     },
     {
         "Common name": "Yellow-Bellied Sapsucker ",
@@ -13821,7 +14448,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 258
+        "id": 258,
+        "rulings": []
     },
     {
         "Common name": "Yellow-Billed Cuckoo",
@@ -13875,7 +14503,13 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 259
+        "id": 259,
+        "rulings": [
+            {
+                "text": "You may not use this bird's power to lay an [egg] on another player's bird.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+            }
+        ]
     },
     {
         "Common name": "Yellow-Breasted Chat ",
@@ -13929,7 +14563,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 260
+        "id": 260,
+        "rulings": []
     },
     {
         "Common name": "Yellow-Headed Blackbird ",
@@ -13983,7 +14618,8 @@
         "Viticulturalist": null,
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
-        "id": 261
+        "id": 261,
+        "rulings": []
     },
     {
         "Common name": "Yellow-Rumped Warbler ",
@@ -14037,7 +14673,8 @@
         "Viticulturalist": "X",
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
-        "id": 262
+        "id": 262,
+        "rulings": []
     },
     {
         "Common name": "Yellowhammer",
@@ -14091,6 +14728,12 @@
         "Viticulturalist": null,
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
-        "id": 263
+        "id": 263,
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
+            }
+        ]
     }
 ]
