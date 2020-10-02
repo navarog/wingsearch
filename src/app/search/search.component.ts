@@ -90,6 +90,7 @@ export class SearchComponent implements OnInit {
   bonusControl = new FormControl()
 
   filteredBonusCards: Observable<BonusCard[]>
+  bonusCards: Observable<BonusCard[]>
 
   canFitStats: boolean
 
@@ -126,6 +127,7 @@ export class SearchComponent implements OnInit {
     private analytics: AnalyticsService
   ) {
     this.filteredBonusCards = this.store.select(({ app }) => app.activeBonusCards)
+    this.bonusCards = this.store.select(({ app }) => app.bonusCards)
     this.query = {
       ...this.query,
       expansion: {
@@ -210,8 +212,8 @@ export class SearchComponent implements OnInit {
     this.onQueryChange()
   }
 
-  removeBonus(bonus: string) {
-    this.query = { ...this.query, bonus: this.query.bonus.filter(name => name !== bonus) }
+  removeBonus(bonus: number) {
+    this.query = { ...this.query, bonus: this.query.bonus.filter(id => id !== bonus) }
     this.onBonusChange()
     this.onQueryChange()
   }

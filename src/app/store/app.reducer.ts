@@ -70,7 +70,7 @@ const reducer = createReducer(
         }
 
         if (action.bonus.length) {
-            const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.Name))
+            const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.id))
 
             displayedCards = displayedCards.filter(isBirdCard).filter(card =>
                 bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id](card), true)
@@ -150,7 +150,7 @@ const reducer = createReducer(
             activeBonusCards = state.bonusCards
         }
 
-        activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.Name))
+        activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.id))
 
         return { ...state, activeBonusCards }
     }),
@@ -208,13 +208,52 @@ const reducer = createReducer(
             displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
             // @ts-ignore
             displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
-            activeBonusCards: bonusCards,
-            translatedContent: action.payload.other
+            activeBonusCards: bonusCards.filter(b => state.activeBonusCards.find(ab => b.id === ab.id)),
+            translatedContent: action.payload.other,
+            scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
         }
     }),
 
     // @ts-ignore
     on(appActions.resetLanguage, (state, action) => {
+        const birdToEnglish = (bird: BirdCard) => {
+            const englishBird = BirdCards.find(eb => eb.id === bird.id)
+
+            return {
+                ...bird,
+                'Common name': englishBird['Common name'],
+                'Power text': englishBird['Power text'],
+                Note: englishBird.Note
+            }
+        }
+
+        const bonusToEnglish = (bonus: BonusCard) => {
+            const englishBonus = BonusCards.find(eb => eb.id === bonus.id)
+
+            return {
+                ...bonus,
+                Name: englishBonus.Name,
+                Condition: englishBonus.Condition,
+                'Explanatory text': englishBonus['Explanatory text'],
+                VP: englishBonus.VP,
+                Note: englishBonus.Note
+            }
+        }
+
+        const sortCardsByKey = (key: string, automaLast = false) => {
+            if (automaLast)
+                return (a, b) => ((Number(!!a.Name.match(/\[automa\]/)) - Number(!!b.Name.match(/\[automa\]/))) ||
+                    a[key].localeCompare(b[key], 'en'))
+            else
+                return (a, b) => a[key].localeCompare(b[key], 'en')
+        }
+
+        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
+        const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
+            .map(birdToEnglish).sort(sortCardsByKey('Common name'))
+        const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
+            .map(bonusToEnglish).sort(sortCardsByKey('Name', true))
+
         return {
             ...state,
             // @ts-ignore
@@ -224,12 +263,13 @@ const reducer = createReducer(
             // @ts-ignore
             search: { birdCards: birdCardsSearch(BirdCards), bonusCards: bonusCardsSearch(BonusCards) },
             // @ts-ignore
-            displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
+            displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
             // @ts-ignore
-            displayedCardsHidden: BirdCards.concat(BonusCards).slice(SLICE_WINDOW),
+            displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
             // @ts-ignore
-            activeBonusCards: BonusCards,
-            translatedContent: {}
+            activeBonusCards: BonusCards.filter(eb => state.activeBonusCards.find(b => b.id === eb.id)),
+            translatedContent: {},
+            scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
         }
     })
 )

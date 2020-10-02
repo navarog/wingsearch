@@ -35,11 +35,13 @@
         </mat-label>
         <mat-hint>Use bonus card name or condition</mat-hint>
         <mat-chip-list #chipList aria-label="Bonus cards selection">
-            <mat-chip class="custom-chip" *ngFor="let card of query.bonus" [removable]="true"
-                (removed)="removeBonus(card)">
-                {{card}}
-                <mat-icon matChipRemove>cancel</mat-icon>
-            </mat-chip>
+            <ng-container *ngFor="let bonus of bonusCards | async">
+                <mat-chip class="custom-chip" [removable]="true" *ngIf="query.bonus.includes(bonus.id)"
+                    (removed)="removeBonus(bonus.id)">
+                    {{ bonus.Name }}
+                    <mat-icon matChipRemove>cancel</mat-icon>
+                </mat-chip>
+            </ng-container>
             <input #bonusInput [matChipInputFor]="chipList" type="text" matInput [formControl]="bonusControl"
                 [matAutocomplete]="auto" (matChipInputTokenEnd)="bonusControl.setValue(''); bonusInput.value = ''"
                 (click)="openPanel()">
@@ -51,7 +53,7 @@
         <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete"
             (optionSelected)="addBonus($event); bonusInput.value = ''">
             <mat-option class="bonus-card-option" *ngFor="let card of filteredBonusCards | async"
-                [value]="card['Name']">
+                [value]="card.id">
                 <app-bonus-card-option [card]="card"></app-bonus-card-option>
             </mat-option>
         </mat-autocomplete>
@@ -259,51 +261,51 @@
                     <mat-select [(ngModel)]="language" (ngModelChange)="languageChange($event)">
                         <mat-select-trigger>
                             <img src="assets/icons/i18n/{{language}}.jpg">
-                        </mat-select-trigger>
-                        <mat-option class="language-option" *ngFor="let language of supportedLanguages"
-                            [value]="language.value">
-                            <span>
-                                <picture>
-                                    <source type="image/webp" srcset="assets/icons/i18n/{{language.value}}.webp">
-                                    <source type="image/jpg" srcset="assets/icons/i18n/{{language.value}}.jpg">
-                                    <img src="assets/icons/i18n/{{language.value}}.jpg">
-                                </picture>
-                            </span>
-                            {{language.display}}
-                        </mat-option>
-                    </mat-select>
-                </mat-form-field>
-            </div>
-            <div class="expansion-wrapper">
-                <mat-form-field>
-                    <mat-label>Expansions</mat-label>
-                    <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple>
-                        <mat-select-trigger>
-                            <picture *ngFor="let expansion of selectedExpansions">
-                                <source type="image/webp" srcset="assets/icons/png/{{expansion}}.webp">
-                                <source type="image/jpg" srcset="assets/icons/png/{{expansion}}.png">
-                                <img src="assets/icons/png/{{expansion}}.png">
+                    </mat-select-trigger>
+                    <mat-option class="language-option" *ngFor="let language of supportedLanguages"
+                        [value]="language.value">
+                        <span>
+                            <picture>
+                                <source type="image/webp" srcset="assets/icons/i18n/{{language.value}}.webp">
+                                <source type="image/jpg" srcset="assets/icons/i18n/{{language.value}}.jpg">
+                                <img src="assets/icons/i18n/{{language.value}}.jpg">
                             </picture>
-                        </mat-select-trigger>
-                        <mat-option class="expansion-option" *ngFor="let expansion of supportedExpansions"
-                            [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
-                            <span>
-                                <picture>
-                                    <source type="image/webp" srcset="assets/icons/png/{{expansion.value}}.webp">
-                                    <source type="image/jpg" srcset="assets/icons/png/{{expansion.value}}.png">
-                                    <img src="assets/icons/png/{{expansion.value}}.png">
-                                </picture>
-                            </span>
-                            {{expansion.display}}
-                        </mat-option>
+                        </span>
+                        {{language.display}}
+                    </mat-option>
                     </mat-select>
-                </mat-form-field>
-            </div>
-            <button appAnalyticsEvent="Reset filter" mat-raised-button color="primary" aria-label="Reset all filters"
-                (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
-                Reset <mat-icon>filter_alt</mat-icon>
-            </button>
-        </div>
+    </mat-form-field>
+    </div>
+    <div class="expansion-wrapper">
+        <mat-form-field>
+            <mat-label>Expansions</mat-label>
+            <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple>
+                <mat-select-trigger>
+                    <picture *ngFor="let expansion of selectedExpansions">
+                        <source type="image/webp" srcset="assets/icons/png/{{expansion}}.webp">
+                        <source type="image/jpg" srcset="assets/icons/png/{{expansion}}.png">
+                        <img src="assets/icons/png/{{expansion}}.png">
+                    </picture>
+                </mat-select-trigger>
+                <mat-option class="expansion-option" *ngFor="let expansion of supportedExpansions"
+                    [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
+                    <span>
+                        <picture>
+                            <source type="image/webp" srcset="assets/icons/png/{{expansion.value}}.webp">
+                            <source type="image/jpg" srcset="assets/icons/png/{{expansion.value}}.png">
+                            <img src="assets/icons/png/{{expansion.value}}.png">
+                        </picture>
+                    </span>
+                    {{expansion.display}}
+                </mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <button appAnalyticsEvent="Reset filter" mat-raised-button color="primary" aria-label="Reset all filters"
+        (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
+        Reset <mat-icon>filter_alt</mat-icon>
+    </button>
+    </div>
     </div>
     <app-stats *ngIf="!canFitStats" [mobile]="true" [statsControls]="query.stats" (statsChange)="onStatsChange($event)">
     </app-stats>
