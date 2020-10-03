@@ -11,7 +11,7 @@
     },
     "2": {
         "name": "Powers",
-        "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power \"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti's Warbler<\/strong>) does not count double toward the \\textbf{[card] in hand} end-of-round goal.",
+        "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power \"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
         "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
     },
     "3": {
@@ -51,7 +51,7 @@
     },
     "10": {
         "name": "Violet",
-        "text": "The word <i>violet<\/i> is a keyword for the <strong>Photographer<\/strong> bonus card. (This keyword currently occurs only on the \\textbf{Violet-Green Swallow}, which already contains another keyword for <strong>Photographer<\/strong>.) ",
+        "text": "The word <i>violet<\/i> is a keyword for the <strong>Photographer<\/strong> bonus card. (This keyword currently occurs only on the <strong>Violet-Green Swallow<\/strong>, which already contains another keyword for <strong>Photographer<\/strong>.) ",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980"
     },
     "11": {
