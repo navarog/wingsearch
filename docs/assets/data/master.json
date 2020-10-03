@@ -55,7 +55,7 @@
         "rulings": []
     },
     {
-        "Common name": "American Avocet ",
+        "Common name": "American Avocet",
         "Scientific name": "Recurvirostra americana",
         "Expansion": "core",
         "Color": "Pink",
@@ -107,10 +107,15 @@
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
         "id": 3,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "You may not use this bird's power to lay an [egg] on another player's bird.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+            }
+        ]
     },
     {
-        "Common name": "American Bittern ",
+        "Common name": "American Bittern",
         "Scientific name": "Botaurus lentiginosus",
         "Expansion": "core",
         "Color": "Brown",
@@ -220,7 +225,7 @@
         "rulings": []
     },
     {
-        "Common name": "American Crow ",
+        "Common name": "American Crow",
         "Scientific name": "Corvus brachyrhynchos",
         "Expansion": "core",
         "Color": "Brown",
@@ -275,7 +280,7 @@
         "rulings": []
     },
     {
-        "Common name": "American Goldfinch ",
+        "Common name": "American Goldfinch",
         "Scientific name": "Spinus tristis",
         "Expansion": "core",
         "Color": "White",
@@ -330,7 +335,7 @@
         "rulings": []
     },
     {
-        "Common name": "American Kestrel ",
+        "Common name": "American Kestrel",
         "Scientific name": "Falco sparverius",
         "Expansion": "core",
         "Color": "Brown",
@@ -568,7 +573,7 @@
         "rulings": []
     },
     {
-        "Common name": "American White Pelican ",
+        "Common name": "American White Pelican",
         "Scientific name": "Pelecanus erythrorhynchos",
         "Expansion": "core",
         "Color": "Brown",
@@ -733,7 +738,7 @@
         "rulings": []
     },
     {
-        "Common name": "Anna's Hummingbird ",
+        "Common name": "Anna's Hummingbird",
         "Scientific name": "Calypte anna",
         "Expansion": "core",
         "Color": "Brown",
@@ -788,7 +793,7 @@
         "rulings": []
     },
     {
-        "Common name": "Ash-Throated Flycatcher ",
+        "Common name": "Ash-Throated Flycatcher",
         "Scientific name": "Myiarchus cinerascens",
         "Expansion": "core",
         "Color": "White",
@@ -953,7 +958,7 @@
         "rulings": []
     },
     {
-        "Common name": "Baird's Sparrow ",
+        "Common name": "Baird's Sparrow",
         "Scientific name": "Ammodramus bairdii",
         "Expansion": "core",
         "Color": "Brown",
@@ -1008,7 +1013,7 @@
         "rulings": []
     },
     {
-        "Common name": "Bald Eagle ",
+        "Common name": "Bald Eagle",
         "Scientific name": "Haliaeetus leucocephalus",
         "Expansion": "core",
         "Color": "White",
@@ -1063,7 +1068,7 @@
         "rulings": []
     },
     {
-        "Common name": "Baltimore Oriole ",
+        "Common name": "Baltimore Oriole",
         "Scientific name": "Icterus galbula",
         "Expansion": "core",
         "Color": "Brown",
@@ -1288,7 +1293,7 @@
         ]
     },
     {
-        "Common name": "Barrow's Goldeneye ",
+        "Common name": "Barrow's Goldeneye",
         "Scientific name": "Bucephala islandica",
         "Expansion": "core",
         "Color": "Pink",
@@ -1340,7 +1345,16 @@
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
         "id": 25,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
+            },
+            {
+                "text": "You may not use this bird's power to lay an [egg] on another player's bird.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+            }
+        ]
     },
     {
         "Common name": "Bell's Vireo",
@@ -1398,7 +1412,7 @@
         "rulings": []
     },
     {
-        "Common name": "Belted Kingfisher ",
+        "Common name": "Belted Kingfisher",
         "Scientific name": "Megaceryle alcyon",
         "Expansion": "core",
         "Color": "Pink",
@@ -1450,7 +1464,12 @@
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
         "id": 27,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the \"play a bird\" card action to do so (instead using, e.g., the <strong>Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
+            }
+        ]
     },
     {
         "Common name": "Bewick's Wren",
@@ -1573,7 +1592,7 @@
         ]
     },
     {
-        "Common name": "Black Skimmer ",
+        "Common name": "Black Skimmer",
         "Scientific name": "Rynchops niger",
         "Expansion": "core",
         "Color": "Brown",
@@ -1683,7 +1702,7 @@
         "rulings": []
     },
     {
-        "Common name": "Black Vulture ",
+        "Common name": "Black Vulture",
         "Scientific name": "Coragyps atratus",
         "Expansion": "core",
         "Color": "Pink",
@@ -1848,7 +1867,7 @@
         "rulings": []
     },
     {
-        "Common name": "Black-Billed Magpie ",
+        "Common name": "Black-Billed Magpie",
         "Scientific name": "Pica hudsonia",
         "Expansion": "core",
         "Color": "Pink",
@@ -1958,7 +1977,7 @@
         "rulings": []
     },
     {
-        "Common name": "Black-Crowned Night-Heron ",
+        "Common name": "Black-Crowned Night-Heron",
         "Scientific name": "Nycticorax nycticorax",
         "Expansion": "core",
         "Color": "Brown",
@@ -2068,7 +2087,7 @@
         "rulings": []
     },
     {
-        "Common name": "Black-Necked Stilt ",
+        "Common name": "Black-Necked Stilt",
         "Scientific name": "Himantopus mexicanus",
         "Expansion": "core",
         "Color": "White",
@@ -2348,7 +2367,7 @@
         "rulings": []
     },
     {
-        "Common name": "Blue-Gray Gnatcatcher ",
+        "Common name": "Blue-Gray Gnatcatcher",
         "Scientific name": "Polioptila caerulea",
         "Expansion": "core",
         "Color": "Brown",
@@ -2683,7 +2702,7 @@
         "rulings": []
     },
     {
-        "Common name": "Brewer's Blackbird ",
+        "Common name": "Brewer's Blackbird",
         "Scientific name": "Euphagus cyanocephalus",
         "Expansion": "core",
         "Color": "Brown",
@@ -2735,7 +2754,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 50,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
         "Common name": "Broad-Winged Hawk",
@@ -2793,7 +2817,7 @@
         "rulings": []
     },
     {
-        "Common name": "Bronzed Cowbird ",
+        "Common name": "Bronzed Cowbird",
         "Scientific name": "Molothrus aeneus",
         "Expansion": "core",
         "Color": "Pink",
@@ -2845,7 +2869,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 52,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "You may not use this bird's power to lay an [egg] on another player's bird.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+            }
+        ]
     },
     {
         "Common name": "Brown Pelican",
@@ -2903,7 +2932,7 @@
         "rulings": []
     },
     {
-        "Common name": "Brown-Headed Cowbird ",
+        "Common name": "Brown-Headed Cowbird",
         "Scientific name": "Molothrus ater",
         "Expansion": "core",
         "Color": "Pink",
@@ -2955,7 +2984,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 54,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "You may not use this bird's power to lay an [egg] on another player's bird.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
+            }
+        ]
     },
     {
         "Common name": "Bullfinch",
@@ -3013,7 +3047,7 @@
         "rulings": []
     },
     {
-        "Common name": "Burrowing Owl ",
+        "Common name": "Burrowing Owl",
         "Scientific name": "Athene cunicularia",
         "Expansion": "core",
         "Color": "Brown",
@@ -3065,7 +3099,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 56,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2207647\/article\/32048074#32048074"
+            }
+        ]
     },
     {
         "Common name": "Bushtit",
@@ -3183,7 +3222,7 @@
         "rulings": []
     },
     {
-        "Common name": "California Quail ",
+        "Common name": "California Quail",
         "Scientific name": "Callipepla californica",
         "Expansion": "core",
         "Color": "Brown",
@@ -3238,7 +3277,7 @@
         "rulings": []
     },
     {
-        "Common name": "Canada Goose ",
+        "Common name": "Canada Goose",
         "Scientific name": "Branta canadensis",
         "Expansion": "core",
         "Color": "Brown",
@@ -3348,7 +3387,7 @@
         "rulings": []
     },
     {
-        "Common name": "Carolina Chickadee ",
+        "Common name": "Carolina Chickadee",
         "Scientific name": "Poecile carolinensis",
         "Expansion": "core",
         "Color": "Brown",
@@ -3568,7 +3607,7 @@
         "rulings": []
     },
     {
-        "Common name": "Cassin's Sparrow ",
+        "Common name": "Cassin's Sparrow",
         "Scientific name": "Peucaea cassinii",
         "Expansion": "core",
         "Color": "Brown",
@@ -3678,7 +3717,7 @@
         "rulings": []
     },
     {
-        "Common name": "Cerulean Warbler ",
+        "Common name": "Cerulean Warbler",
         "Scientific name": "Setophaga cerulea",
         "Expansion": "core",
         "Color": "White",
@@ -3793,7 +3832,7 @@
         ]
     },
     {
-        "Common name": "Chestnut-Collared Longspur ",
+        "Common name": "Chestnut-Collared Longspur",
         "Scientific name": "Calcarius ornatus",
         "Expansion": "core",
         "Color": "White",
@@ -3963,7 +4002,7 @@
         ]
     },
     {
-        "Common name": "Chipping Sparrow ",
+        "Common name": "Chipping Sparrow",
         "Scientific name": "Spizella passerina",
         "Expansion": "core",
         "Color": "Brown",
@@ -4018,7 +4057,7 @@
         "rulings": []
     },
     {
-        "Common name": "Clark's Grebe ",
+        "Common name": "Clark's Grebe",
         "Scientific name": "Aechmophorus clarkii",
         "Expansion": "core",
         "Color": "Brown",
@@ -4073,7 +4112,7 @@
         "rulings": []
     },
     {
-        "Common name": "Clark's Nutcracker ",
+        "Common name": "Clark's Nutcracker",
         "Scientific name": "Nucifraga columbiana",
         "Expansion": "core",
         "Color": "Brown",
@@ -4545,7 +4584,7 @@
         ]
     },
     {
-        "Common name": "Common Grackle ",
+        "Common name": "Common Grackle",
         "Scientific name": "Quiscalus quiscula",
         "Expansion": "core",
         "Color": "Brown",
@@ -4597,7 +4636,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 83,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
         "Common name": "Common Kingfisher",
@@ -4765,7 +4809,7 @@
         "rulings": []
     },
     {
-        "Common name": "Common Merganser ",
+        "Common name": "Common Merganser",
         "Scientific name": "Mergus merganser",
         "Expansion": "core",
         "Color": "Brown",
@@ -4880,7 +4924,7 @@
         ]
     },
     {
-        "Common name": "Common Nighthawk ",
+        "Common name": "Common Nighthawk",
         "Scientific name": "Chordeiles minor",
         "Expansion": "core",
         "Color": "Brown",
@@ -4932,7 +4976,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 89,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Common Nightingale",
@@ -5165,7 +5214,7 @@
         ]
     },
     {
-        "Common name": "Common Yellowthroat ",
+        "Common name": "Common Yellowthroat",
         "Scientific name": "Geothlypis trichas",
         "Expansion": "core",
         "Color": "Brown",
@@ -5220,7 +5269,7 @@
         "rulings": []
     },
     {
-        "Common name": "Cooper's Hawk ",
+        "Common name": "Cooper's Hawk",
         "Scientific name": "Accipiter cooperii",
         "Expansion": "core",
         "Color": "Brown",
@@ -5445,7 +5494,7 @@
         ]
     },
     {
-        "Common name": "Double-Crested Cormorant ",
+        "Common name": "Double-Crested Cormorant",
         "Scientific name": "Phalacrocorax auritus",
         "Expansion": "core",
         "Color": "Brown",
@@ -5500,7 +5549,7 @@
         "rulings": []
     },
     {
-        "Common name": "Downy Woodpecker ",
+        "Common name": "Downy Woodpecker",
         "Scientific name": "Picoides pubescens",
         "Expansion": "core",
         "Color": "White",
@@ -5552,7 +5601,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 100,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Dunnock",
@@ -5790,7 +5844,7 @@
         ]
     },
     {
-        "Common name": "Eastern Phoebe ",
+        "Common name": "Eastern Phoebe",
         "Scientific name": "Sayornis phoebe",
         "Expansion": "core",
         "Color": "Brown",
@@ -5845,7 +5899,7 @@
         "rulings": []
     },
     {
-        "Common name": "Eastern Screech Owl ",
+        "Common name": "Eastern Screech Owl",
         "Scientific name": "Megascops asio",
         "Expansion": "core",
         "Color": "Brown",
@@ -6897,7 +6951,7 @@
         "rulings": []
     },
     {
-        "Common name": "Ferruginous Hawk ",
+        "Common name": "Ferruginous Hawk",
         "Scientific name": "Buteo regalis",
         "Expansion": "core",
         "Color": "Brown",
@@ -7007,7 +7061,7 @@
         "rulings": []
     },
     {
-        "Common name": "Forster's Tern ",
+        "Common name": "Forster's Tern",
         "Scientific name": "Sterna forsteri",
         "Expansion": "core",
         "Color": "Brown",
@@ -7062,7 +7116,7 @@
         "rulings": []
     },
     {
-        "Common name": "Franklin's Gull ",
+        "Common name": "Franklin's Gull",
         "Scientific name": "Leucophaeus pipixcan",
         "Expansion": "core",
         "Color": "Brown",
@@ -7237,7 +7291,7 @@
         ]
     },
     {
-        "Common name": "Grasshopper Sparrow ",
+        "Common name": "Grasshopper Sparrow",
         "Scientific name": "Ammodramus savannarum",
         "Expansion": "core",
         "Color": "Brown",
@@ -7412,7 +7466,7 @@
         ]
     },
     {
-        "Common name": "Great Crested Flycatcher ",
+        "Common name": "Great Crested Flycatcher",
         "Scientific name": "Myiarchus crinitus",
         "Expansion": "core",
         "Color": "Brown",
@@ -7464,7 +7518,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 133,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+            }
+        ]
     },
     {
         "Common name": "Great Crested Grebe",
@@ -7582,7 +7641,7 @@
         ]
     },
     {
-        "Common name": "Great Horned Owl ",
+        "Common name": "Great Horned Owl",
         "Scientific name": "Bubo virginianus",
         "Expansion": "core",
         "Color": "Brown",
@@ -7756,7 +7815,7 @@
         ]
     },
     {
-        "Common name": "Greater Prairie Chicken ",
+        "Common name": "Greater Prairie Chicken",
         "Scientific name": "Tympanuchus cupido",
         "Expansion": "core",
         "Color": "White",
@@ -7808,10 +7867,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 139,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Cartographer<\/strong> bonus card. (In early printings that bonus card did list include the keyword <i>prairie<\/i>.)",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
-        "Common name": "Greater Roadrunner ",
+        "Common name": "Greater Roadrunner",
         "Scientific name": "Geococcyx californianus",
         "Expansion": "core",
         "Color": "Brown",
@@ -8683,7 +8747,7 @@
         "rulings": []
     },
     {
-        "Common name": "Indigo Bunting ",
+        "Common name": "Indigo Bunting",
         "Scientific name": "Passerina cyanea",
         "Expansion": "core",
         "Color": "Brown",
@@ -8735,10 +8799,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 155,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+            }
+        ]
     },
     {
-        "Common name": "Juniper Titmouse ",
+        "Common name": "Juniper Titmouse",
         "Scientific name": "Baeolophus ridgwayi",
         "Expansion": "core",
         "Color": "Brown",
@@ -8903,7 +8972,7 @@
         "rulings": []
     },
     {
-        "Common name": "Lazuli Bunting ",
+        "Common name": "Lazuli Bunting",
         "Scientific name": "Passerina amoena",
         "Expansion": "core",
         "Color": "Brown",
@@ -8955,7 +9024,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 159,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to lay 2 [egg], they must be laid on different [bowl]\/[star] birds.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/322004815169794\/?comment_id=322006528502956"
+            }
+        ]
     },
     {
         "Common name": "Lesser Whitethroat",
@@ -9540,7 +9614,7 @@
         ]
     },
     {
-        "Common name": "Mountain Bluebird ",
+        "Common name": "Mountain Bluebird",
         "Scientific name": "Sialia currucoides",
         "Expansion": "core",
         "Color": "White",
@@ -9592,10 +9666,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 170,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
-        "Common name": "Mountain Chickadee ",
+        "Common name": "Mountain Chickadee",
         "Scientific name": "Poecile gambeli",
         "Expansion": "core",
         "Color": "Brown",
@@ -9650,7 +9729,7 @@
         "rulings": []
     },
     {
-        "Common name": "Mourning Dove ",
+        "Common name": "Mourning Dove",
         "Scientific name": "Zenaida macroura",
         "Expansion": "core",
         "Color": "Brown",
@@ -9825,7 +9904,7 @@
         ]
     },
     {
-        "Common name": "Northern Cardinal ",
+        "Common name": "Northern Cardinal",
         "Scientific name": "Cardinalis cardinalis",
         "Expansion": "core",
         "Color": "Brown",
@@ -10050,7 +10129,7 @@
         ]
     },
     {
-        "Common name": "Northern Harrier ",
+        "Common name": "Northern Harrier",
         "Scientific name": "Circus cyaneus",
         "Expansion": "core",
         "Color": "Brown",
@@ -10105,7 +10184,7 @@
         "rulings": []
     },
     {
-        "Common name": "Northern Mockingbird ",
+        "Common name": "Northern Mockingbird",
         "Scientific name": "Mimus polyglottos",
         "Expansion": "core",
         "Color": "Brown",
@@ -10157,10 +10236,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 180,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird's power activates another bird's power. Any other brown power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            }
+        ]
     },
     {
-        "Common name": "Northern Shoveler ",
+        "Common name": "Northern Shoveler",
         "Scientific name": "Spatula clypeata",
         "Expansion": "core",
         "Color": "Brown",
@@ -10270,7 +10354,7 @@
         "rulings": []
     },
     {
-        "Common name": "Painted Bunting ",
+        "Common name": "Painted Bunting",
         "Scientific name": "Passerina ciris",
         "Expansion": "core",
         "Color": "White",
@@ -10440,7 +10524,7 @@
         "rulings": []
     },
     {
-        "Common name": "Peregrine Falcon ",
+        "Common name": "Peregrine Falcon",
         "Scientific name": "Falco peregrinus",
         "Expansion": "core",
         "Color": "Brown",
@@ -10495,7 +10579,7 @@
         "rulings": []
     },
     {
-        "Common name": "Pied-Billed Grebe ",
+        "Common name": "Pied-Billed Grebe",
         "Scientific name": "Podilymbus podiceps",
         "Expansion": "core",
         "Color": "Brown",
@@ -10550,7 +10634,7 @@
         "rulings": []
     },
     {
-        "Common name": "Pileated Woodpecker ",
+        "Common name": "Pileated Woodpecker",
         "Scientific name": "Dryocopus pileatus",
         "Expansion": "core",
         "Color": "Brown",
@@ -10602,7 +10686,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 188,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to lay 2 [egg], they must be laid on different [cavity]\/[star] birds.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/322004815169794\/?comment_id=322006528502956"
+            }
+        ]
     },
     {
         "Common name": "Pine Siskin",
@@ -10715,7 +10804,7 @@
         "rulings": []
     },
     {
-        "Common name": "Purple Gallinule ",
+        "Common name": "Purple Gallinule",
         "Scientific name": "Porphyrio martinicus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11113,7 +11202,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Bellied Woodpecker ",
+        "Common name": "Red-Bellied Woodpecker",
         "Scientific name": "Melanerpes carolinus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11223,7 +11312,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Breasted Nuthatch ",
+        "Common name": "Red-Breasted Nuthatch",
         "Scientific name": "Sitta canadensis",
         "Expansion": "core",
         "Color": "Brown",
@@ -11278,7 +11367,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Cockaded Woodpecker ",
+        "Common name": "Red-Cockaded Woodpecker",
         "Scientific name": "Picoides borealis",
         "Expansion": "core",
         "Color": "White",
@@ -11333,7 +11422,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Eyed Vireo ",
+        "Common name": "Red-Eyed Vireo",
         "Scientific name": "Vireo olivaceus",
         "Expansion": "core",
         "Color": "White",
@@ -11385,10 +11474,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 203,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
-        "Common name": "Red-Headed Woodpecker ",
+        "Common name": "Red-Headed Woodpecker",
         "Scientific name": "Melanerpes erythrocephalus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11498,7 +11592,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Shouldered Hawk ",
+        "Common name": "Red-Shouldered Hawk",
         "Scientific name": "Buteo lineatus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11553,7 +11647,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Tailed Hawk ",
+        "Common name": "Red-Tailed Hawk",
         "Scientific name": "Buteo jamaicensis",
         "Expansion": "core",
         "Color": "Brown",
@@ -11608,7 +11702,7 @@
         "rulings": []
     },
     {
-        "Common name": "Red-Winged Blackbird ",
+        "Common name": "Red-Winged Blackbird",
         "Scientific name": "Agelaius phoeniceus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11660,7 +11754,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 208,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
         "Common name": "Ring-Billed Gull",
@@ -11718,7 +11817,7 @@
         "rulings": []
     },
     {
-        "Common name": "Rose-Breasted Grosbeak ",
+        "Common name": "Rose-Breasted Grosbeak",
         "Scientific name": "Pheucticus ludovicianus",
         "Expansion": "core",
         "Color": "Brown",
@@ -11770,10 +11869,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 210,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30543"
+            }
+        ]
     },
     {
-        "Common name": "Roseate Spoonbill ",
+        "Common name": "Roseate Spoonbill",
         "Scientific name": "Platalea ajaja",
         "Expansion": "core",
         "Color": "White",
@@ -11828,7 +11932,7 @@
         "rulings": []
     },
     {
-        "Common name": "Ruby-Crowned Kinglet ",
+        "Common name": "Ruby-Crowned Kinglet",
         "Scientific name": "Regulus calendula",
         "Expansion": "core",
         "Color": "White",
@@ -11880,7 +11984,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 212,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Ruby-Throated Hummingbird",
@@ -12108,7 +12217,7 @@
         "rulings": []
     },
     {
-        "Common name": "Savannah Sparrow ",
+        "Common name": "Savannah Sparrow",
         "Scientific name": "Passerculus sandwichensis",
         "Expansion": "core",
         "Color": "White",
@@ -12160,7 +12269,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 217,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
+            }
+        ]
     },
     {
         "Common name": "Savi's Warbler",
@@ -12328,7 +12442,7 @@
         "rulings": []
     },
     {
-        "Common name": "Scissor-Tailed Flycatcher ",
+        "Common name": "Scissor-Tailed Flycatcher",
         "Scientific name": "Tyrannus forficatus",
         "Expansion": "core",
         "Color": "Brown",
@@ -12511,7 +12625,7 @@
         ]
     },
     {
-        "Common name": "Snowy Egret ",
+        "Common name": "Snowy Egret",
         "Scientific name": "Egretta thula",
         "Expansion": "core",
         "Color": "Brown",
@@ -12621,7 +12735,7 @@
         "rulings": []
     },
     {
-        "Common name": "Song Sparrow ",
+        "Common name": "Song Sparrow",
         "Scientific name": "Melospiza melodia",
         "Expansion": "core",
         "Color": "Brown",
@@ -12673,7 +12787,12 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 226,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Common name": "Spotted Owl",
@@ -12731,7 +12850,7 @@
         "rulings": []
     },
     {
-        "Common name": "Spotted Sandpiper ",
+        "Common name": "Spotted Sandpiper",
         "Scientific name": "Actitis macularius",
         "Expansion": "core",
         "Color": "Brown",
@@ -12783,10 +12902,15 @@
         "Wetland Scientist": "X",
         "Wildlife Gardener": null,
         "id": 228,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird is worth 5 points, not 4. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
-        "Common name": "Spotted Towhee ",
+        "Common name": "Spotted Towhee",
         "Scientific name": "Pipilo maculatus",
         "Expansion": "core",
         "Color": "Brown",
@@ -13116,7 +13240,7 @@
         "rulings": []
     },
     {
-        "Common name": "Tree Swallow ",
+        "Common name": "Tree Swallow",
         "Scientific name": "Tachycineta bicolor",
         "Expansion": "core",
         "Color": "Brown",
@@ -13396,7 +13520,7 @@
         "rulings": []
     },
     {
-        "Common name": "Violet-Green Swallow ",
+        "Common name": "Violet-Green Swallow",
         "Scientific name": "Tachycineta thalassina",
         "Expansion": "core",
         "Color": "Brown",
@@ -13741,7 +13865,7 @@
         "rulings": []
     },
     {
-        "Common name": "White-Breasted Nuthatch ",
+        "Common name": "White-Breasted Nuthatch",
         "Scientific name": "Sitta carolinensis",
         "Expansion": "core",
         "Color": "Brown",
@@ -13796,7 +13920,7 @@
         "rulings": []
     },
     {
-        "Common name": "White-Crowned Sparrow ",
+        "Common name": "White-Crowned Sparrow",
         "Scientific name": "Zonotrichia leucophrys",
         "Expansion": "core",
         "Color": "Brown",
@@ -13848,10 +13972,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": null,
         "id": 247,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
-        "Common name": "White-Faced Ibis ",
+        "Common name": "White-Faced Ibis",
         "Scientific name": "Plegadis chihi",
         "Expansion": "core",
         "Color": "Brown",
@@ -14401,7 +14530,7 @@
         "rulings": []
     },
     {
-        "Common name": "Yellow-Bellied Sapsucker ",
+        "Common name": "Yellow-Bellied Sapsucker",
         "Scientific name": "Sphyrapicus varius",
         "Expansion": "core",
         "Color": "Brown",
@@ -14516,7 +14645,7 @@
         ]
     },
     {
-        "Common name": "Yellow-Breasted Chat ",
+        "Common name": "Yellow-Breasted Chat",
         "Scientific name": "Icteria virens",
         "Expansion": "core",
         "Color": "Brown",
@@ -14568,10 +14697,15 @@
         "Wetland Scientist": null,
         "Wildlife Gardener": "X",
         "id": 260,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
-        "Common name": "Yellow-Headed Blackbird ",
+        "Common name": "Yellow-Headed Blackbird",
         "Scientific name": "Xanthocephalus xanthocephalus",
         "Expansion": "core",
         "Color": "Brown",
@@ -14623,10 +14757,15 @@
         "Wetland Scientist": "X",
         "Wildlife Gardener": "X",
         "id": 261,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
+            }
+        ]
     },
     {
-        "Common name": "Yellow-Rumped Warbler ",
+        "Common name": "Yellow-Rumped Warbler",
         "Scientific name": "Setophaga coronata",
         "Expansion": "core",
         "Color": "Brown",
