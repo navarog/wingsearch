@@ -80,7 +80,13 @@
     font-style: italic;
     padding: 0 5% 3%;
     margin-top: -10%;
-    font-size: 16px;
+    font-size: 18px;
+
+    h2 {
+        margin: 0px 0 6px;
+        font-family: CardenioModernBold;
+        text-align: center;
+    }
 }
 
 .rulings {
@@ -107,6 +113,16 @@
 
     .ruling:not(:first-child) {
         margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .note {
+        font-size: 16px;
+    }
+
+    .rulings {
+        font-size: 16px;
     }
 }
 

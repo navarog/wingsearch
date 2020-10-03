@@ -4,7 +4,10 @@
             <div #cardElement class="card-content">
                 <app-bonus-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bonus-card>
             </div>
-            <div class="note" *ngIf="data.card.Note" [innerHTML]="data.card.Note | iconize"></div>
+            <div class="note" *ngIf="data.card.Note">
+                <h2>Appendix entry</h2>
+                <div [innerHTML]="data.card.Note | iconize"></div>
+            </div>            
             <div class="rulings" *ngIf="data.card.rulings.length">
                 <h2>Official rulings</h2>
                 <div class="ruling" *ngFor="let ruling of data.card.rulings">
