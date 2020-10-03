@@ -166,16 +166,26 @@ const reducer = createReducer(
         const translateBirds = (card: BirdCard) => {
             const translatedKeys = ['Common name', 'Power text', 'Note']
             const translated = action.payload.birds[card.id]
+
+            if (!translated)
+                return card
+                
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
+
             return { ...card, ...mergeContent }
         }
 
         const translateBonuses = (card: BonusCard) => {
             const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
             const translated = action.payload.bonuses[card.id]
+
+            if (!translated)
+                return card
+
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
+
             return { ...card, ...mergeContent }
         }
 
