@@ -169,7 +169,7 @@ const reducer = createReducer(
 
             if (!translated)
                 return card
-                
+
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
 
