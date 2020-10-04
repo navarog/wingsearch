@@ -9,6 +9,11 @@ import { bonusSearchMap } from './bonus-search-map'
 
 const SLICE_WINDOW = 18
 
+// @ts-ignore
+const englishBirdCardsMap: BirdCard[] = BirdCards.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
+// @ts-ignore
+const englishBonusCardsMap: BonusCard[] = BonusCards.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
+
 const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStats => {
 
     const birdCards = cards.filter(isBirdCard).length
@@ -166,27 +171,29 @@ const reducer = createReducer(
         const translateBirds = (card: BirdCard) => {
             const translatedKeys = ['Common name', 'Power text', 'Note']
             const translated = action.payload.birds[card.id]
+            const englishBird = englishBirdCardsMap[card.id]
 
             if (!translated)
-                return card
+                return englishBird
 
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
 
-            return { ...card, ...mergeContent }
+            return { ...englishBird, ...mergeContent }
         }
 
         const translateBonuses = (card: BonusCard) => {
             const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
             const translated = action.payload.bonuses[card.id]
+            const englishBonus = englishBonusCardsMap[card.id]
 
             if (!translated)
-                return card
+                return englishBonus
 
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
 
-            return { ...card, ...mergeContent }
+            return { ...englishBonus, ...mergeContent }
         }
 
         const sortCardsByKey = (key: string, automaLast = false) => {
@@ -227,27 +234,11 @@ const reducer = createReducer(
     // @ts-ignore
     on(appActions.resetLanguage, (state, action) => {
         const birdToEnglish = (bird: BirdCard) => {
-            const englishBird = BirdCards.find(eb => eb.id === bird.id)
-
-            return {
-                ...bird,
-                'Common name': englishBird['Common name'],
-                'Power text': englishBird['Power text'],
-                Note: englishBird.Note
-            }
+            return englishBirdCardsMap[bird.id]
         }
 
         const bonusToEnglish = (bonus: BonusCard) => {
-            const englishBonus = BonusCards.find(eb => eb.id === bonus.id)
-
-            return {
-                ...bonus,
-                Name: englishBonus.Name,
-                Condition: englishBonus.Condition,
-                'Explanatory text': englishBonus['Explanatory text'],
-                VP: englishBonus.VP,
-                Note: englishBonus.Note
-            }
+            return englishBonusCardsMap[bonus.id]
         }
 
         const sortCardsByKey = (key: string, automaLast = false) => {
