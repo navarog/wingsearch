@@ -95,6 +95,15 @@
                     aria-label="Toggle teal power" alt="teal power">
             </picture>
         </span>
+        <span appAnalyticsEvent="Toggle power" eventLabel="yellow" class="pointer shrink"
+            [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/yellow.webp">
+                <source type="image/png" srcset="assets/icons/png/yellow.png">
+                <img class="power-image" src="assets/icons/png/yellow.png" aria-hidden="false"
+                    aria-label="Toggle yellow power" alt="yellow power">
+            </picture>
+        </span>
     </div>
     <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific food cost">
         <span appAnalyticsEvent="Toggle food" eventLabel="invertebrate" class="pointer shrink"
@@ -140,6 +149,15 @@
                 <source type="image/png" srcset="assets/icons/png/rodent.png">
                 <img class="food-image" src="assets/icons/png/rodent.png" aria-hidden="false" aria-label="Toggle rodent"
                     alt="rodent">
+            </picture>
+        </span>
+        <span appAnalyticsEvent="Toggle food" eventLabel="nectar" class="pointer shrink"
+            [ngClass]="{inactive: !query.food.nectar}" (click)="toggleFood('nectar')">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/nectar.webp">
+                <source type="image/png" srcset="assets/icons/png/nectar.png">
+                <img class="food-image" src="assets/icons/png/nectar.png" aria-hidden="false" aria-label="Toggle nectar"
+                    alt="nectar">
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="wild" class="pointer shrink"

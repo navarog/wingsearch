@@ -66,7 +66,8 @@ export class SearchComponent implements OnInit {
       brown: true,
       pink: true,
       white: true,
-      teal: true
+      teal: true,
+      yellow: true
     },
     food: {
       invertebrate: true,
@@ -74,6 +75,7 @@ export class SearchComponent implements OnInit {
       fruit: true,
       fish: true,
       rodent: true,
+      nectar: true,
       'no-food': true,
       'wild (food)': true
     },
@@ -186,8 +188,8 @@ export class SearchComponent implements OnInit {
       },
       eggs: { ...this.eggs },
       points: { ...this.points },
-      colors: { brown: true, pink: true, white: true, teal: true },
-      food: { invertebrate: true, seed: true, fruit: true, fish: true, rodent: true, 'wild (food)': true, 'no-food': true },
+      colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
+      food: { invertebrate: true, seed: true, fruit: true, fish: true, rodent: true, nectar: true, 'wild (food)': true, 'no-food': true },
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
     }
     this.bonusControl.setValue('')

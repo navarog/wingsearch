@@ -28,7 +28,7 @@ export interface BirdCard {
     'Victory points': number
     'Nest type': NestType
     'Egg capacity': number
-    Wingspan: number
+    Wingspan: string
     Forest: string | null
     Grassland: string | null
     Wetland: string | null
@@ -36,6 +36,7 @@ export interface BirdCard {
     Seed: number | null
     Fruit: number | null
     Fish: number | null
+    Nectar: number | null
     Rodent: number | null
     'Wild (food)': number | null
     '/ (food cost)': string | null

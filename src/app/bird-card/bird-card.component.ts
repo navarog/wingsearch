@@ -34,6 +34,7 @@ export class BirdCardComponent implements OnInit {
       fruit: this.card.Fruit,
       fish: this.card.Fish,
       rodent: this.card.Rodent,
+      nectar: this.card.Nectar,
       wild: this.card['Wild (food)']
     }
 
@@ -55,7 +56,8 @@ export class BirdCardComponent implements OnInit {
       Brown: 'WHEN ACTIVATED',
       White: 'WHEN PLAYED',
       Pink: 'ONCE BETWEEN TURNS',
-      Teal: 'ROUND END'
+      Teal: 'ROUND END',
+      Yellow: 'GAME END'
     }
 
     return this.powerTitle

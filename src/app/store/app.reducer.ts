@@ -30,7 +30,7 @@ const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStat
 }
 
 const eatsForbiddenFood = (card: BirdCard, forbiddenFood: string[]): boolean => {
-    const foodKeys = ['Invertebrate', 'Seed', 'Fruit', 'Fish', 'Rodent', 'Wild (food)']
+    const foodKeys = ['Invertebrate', 'Seed', 'Fruit', 'Fish', 'Rodent', 'Nectar', 'Wild (food)']
     const birdFood = foodKeys.filter(key => card[key]).map(key => key.toLowerCase())
     return (!birdFood.length && forbiddenFood.includes('no-food')) || !!birdFood.find(food => forbiddenFood.includes(food))
 }

@@ -30,7 +30,8 @@ export const search = createAction('[App] Search', props<{
         brown: boolean,
         pink: boolean,
         white: boolean,
-        teal: boolean
+        teal: boolean,
+        yellow: boolean
     },
     food: {
         invertebrate: boolean,
@@ -38,6 +39,7 @@ export const search = createAction('[App] Search', props<{
         fruit: boolean,
         fish: boolean,
         rodent: boolean,
+        nectar: boolean,
         'wild (food)': boolean,
         'no-food': boolean
     },
