@@ -10521,7 +10521,7 @@
         "Flocking": null,
         "Bonus card": null,
         "Victory points": 2.0,
-        "Nest type": null,
+        "Nest type": "None",
         "Egg capacity": null,
         "Wingspan": "29",
         "Forest": "X",
