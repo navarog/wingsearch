@@ -61,13 +61,18 @@ export const initialState: AppState = {
 const reducer = createReducer(
     initialState,
     on(appActions.search, (state, action) => {
-        let displayedCards = state.search.birdCards.search({
-            query: action.main, field: [
-                'Common name',
-                'Scientific name',
-                'Power text',
+        let displayedCards = Array.from(new Set([
+            'Common name',
+            'Scientific name',
+            'Power text',
+        ].reduce((acc, val) => {
+            return [
+                ...acc,
+                ...state.search.birdCards.search({
+                    query: action.main, field: val
+                })
             ]
-        })
+        }, [])))
 
         if (!displayedCards.length && !action.main) {
             // @ts-ignore
@@ -81,13 +86,18 @@ const reducer = createReducer(
                 bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id](card), true)
             )
         } else {
-            const bonusCards = state.search.bonusCards.search({
-                query: action.main, field: [
-                    'Name',
-                    'Condition',
-                    'VP',
+            const bonusCards = Array.from(new Set([
+                'Name',
+                'Condition',
+                'VP',
+            ].reduce((acc, val) => {
+                return [
+                    ...acc,
+                    ...state.search.bonusCards.search({
+                        query: action.main, field: val
+                    })
                 ]
-            })
+            }, [])))
 
             displayedCards = displayedCards.concat(bonusCards)
         }
@@ -142,13 +152,18 @@ const reducer = createReducer(
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {
-        let activeBonusCards = state.search.bonusCards.search({
-            query: action.bonusfield, field: [
-                'Name',
-                'Condition',
-                'VP',
+        let activeBonusCards = Array.from(new Set([
+            'Name',
+            'Condition',
+            'VP',
+        ].reduce((acc, val) => {
+            return [
+                ...acc,
+                ...state.search.bonusCards.search({
+                    query: action.bonusfield, field: val
+                })
             ]
-        })
+        }, [])))
 
         if (!activeBonusCards.length && !action.bonusfield) {
             // @ts-ignore
@@ -227,6 +242,7 @@ const reducer = createReducer(
             displayedCardsHidden: displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW),
             activeBonusCards: bonusCards.filter(b => state.activeBonusCards.find(ab => b.id === ab.id)),
             translatedContent: action.payload.other,
+            // @ts-ignore
             scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
         }
     }),
@@ -270,6 +286,7 @@ const reducer = createReducer(
             // @ts-ignore
             activeBonusCards: BonusCards.filter(eb => state.activeBonusCards.find(b => b.id === eb.id)),
             translatedContent: {},
+            // @ts-ignore
             scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
         }
     })
