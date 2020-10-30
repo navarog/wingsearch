@@ -6,8 +6,8 @@
         [ngStyle]="{'font-size.px': cardHeight * 0.052, 'line-height.px': cardHeight * 0.052 + 1}"></div>
 
     <div class="points">
-        <div class="condition" *ngFor="let condition of getPointConditions()"
-            [ngStyle]="{'font-size.px': cardHeight * 0.052, 'line-height.px': cardHeight * 0.052 + 1}">
+        <div class="condition c{{c}}-{{i}}" *ngFor="let condition of getPointConditions(); index as i; count as c"
+            [ngStyle]="{'font-size.px': cardHeight * 0.05, 'line-height.px': cardHeight * 0.05 + 1}">
             <div class="part" [ngClass]="{point: part.point}" *ngFor="let part of condition"
                 [innerHTML]="part.value | iconize"></div>
         </div>

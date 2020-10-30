@@ -100,4 +100,19 @@ export const bonusSearchMap = {
     1032: (birdCard: BirdCard) => {
         return birdCard['Victory points'] >= 6 || birdCard['Victory points'] <= 7
     },
+    1033: (birdCard: BirdCard) => {
+        return !!birdCard.Forest
+    },
+    1034: (birdCard: BirdCard) => {
+        return !!birdCard.Grassland
+    },
+    1035: (birdCard: BirdCard) => {
+        return true
+    },
+    1036: (birdCard: BirdCard) => {
+        return true
+    },
+    1037: (birdCard: BirdCard) => {
+        return !!birdCard.Wetland
+    },
 }
