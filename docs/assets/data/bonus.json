@@ -231,6 +231,19 @@
         "rulings": []
     },
     {
+        "Name": "Forest Data Analyst",
+        "Expansion": "oceania",
+        "Automa": null,
+        "Condition": "Consecutive birds in [forest] with ascending or descending wingspans",
+        "Explanatory text": null,
+        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+        "%": "-",
+        "Note": null,
+        "VP Average": 1.5,
+        "id": 1033,
+        "rulings": []
+    },
+    {
         "Name": "Forester",
         "Expansion": "core",
         "Automa": "X",
@@ -241,6 +254,19 @@
         "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
         "VP Average": 1.0,
         "id": 1016,
+        "rulings": []
+    },
+    {
+        "Name": "Grassland Data Analyst",
+        "Expansion": "oceania",
+        "Automa": null,
+        "Condition": "Consecutive birds in [grassland] with ascending or descending wingspans",
+        "Explanatory text": null,
+        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+        "%": "-",
+        "Note": null,
+        "VP Average": 1.5,
+        "id": 1034,
         "rulings": []
     },
     {
@@ -267,6 +293,19 @@
         "Note": "Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
         "VP Average": 0.75,
         "id": 1018,
+        "rulings": []
+    },
+    {
+        "Name": "Mechanical Engineer",
+        "Expansion": "oceania",
+        "Automa": "X",
+        "Condition": "Sets of the 4 nest types",
+        "Explanatory text": "Each star nest can be treated as any 1 nest type. No card can be part of more than one set.",
+        "VP": "1 set = [bowl] [cavity] [ground] [platform]; one set: 3[point]; two sets: 8[point]",
+        "%": "-",
+        "Note": null,
+        "VP Average": 0.75,
+        "id": 1035,
         "rulings": []
     },
     {
@@ -392,6 +431,19 @@
         ]
     },
     {
+        "Name": "Site Selection Expert",
+        "Expansion": "oceania",
+        "Automa": null,
+        "Condition": "Columns with a matching pair or trio of nests",
+        "Explanatory text": "Different columns may (but need not) score using different nest types. Star nests are wild, but each counts only once.",
+        "VP": "2 of the same nest in a column: 1[point]; 3 of the same nest in a column: 3[point]",
+        "%": "-",
+        "Note": null,
+        "VP Average": 0.75,
+        "id": 1036,
+        "rulings": []
+    },
+    {
         "Name": "Visionary Leader",
         "Expansion": "core",
         "Automa": null,
@@ -415,6 +467,19 @@
         "Note": null,
         "VP Average": 1.5,
         "id": 1028,
+        "rulings": []
+    },
+    {
+        "Name": "Wetland Data Analyst",
+        "Expansion": "oceania",
+        "Automa": null,
+        "Condition": "Consecutive birds in [wetland] with ascending or descending wingspans",
+        "Explanatory text": null,
+        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+        "%": "-",
+        "Note": null,
+        "VP Average": 1.5,
+        "id": 1037,
         "rulings": []
     },
     {
@@ -449,7 +514,7 @@
         "Automa": "X",
         "Condition": "Birds that are worth 3 or 4 points",
         "Explanatory text": "The automa keeps up to 2 of them (higher value first).",
-        "VP": "-",
+        "VP": null,
         "%": 44,
         "Note": null,
         "VP Average": 0.0,
@@ -462,7 +527,7 @@
         "Automa": "X",
         "Condition": "Birds that are worth 5, 6, or 7 points",
         "Explanatory text": "The automa keeps the highest valued one.",
-        "VP": "-",
+        "VP": null,
         "%": 28,
         "Note": null,
         "VP Average": 0.0,
