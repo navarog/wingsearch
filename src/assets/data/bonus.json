@@ -239,7 +239,7 @@
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
         "Note": null,
-        "VP Average": 1.5,
+        "VP Average": 0.0,
         "id": 1033,
         "rulings": []
     },
@@ -265,7 +265,7 @@
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
         "Note": null,
-        "VP Average": 1.5,
+        "VP Average": 0.0,
         "id": 1034,
         "rulings": []
     },
@@ -304,7 +304,7 @@
         "VP": "1 set = [bowl] [cavity] [ground] [platform]; one set: 3[point]; two sets: 8[point]",
         "%": "-",
         "Note": null,
-        "VP Average": 0.75,
+        "VP Average": 0.0,
         "id": 1035,
         "rulings": []
     },
@@ -439,7 +439,7 @@
         "VP": "2 of the same nest in a column: 1[point]; 3 of the same nest in a column: 3[point]",
         "%": "-",
         "Note": null,
-        "VP Average": 0.75,
+        "VP Average": 0.0,
         "id": 1036,
         "rulings": []
     },
@@ -478,7 +478,7 @@
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
         "Note": null,
-        "VP Average": 1.5,
+        "VP Average": 0.0,
         "id": 1037,
         "rulings": []
     },
