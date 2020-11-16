@@ -9,8 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "http-server": "http-server -p 8080 -c-1 dist/wingsearch",
-    "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles & cp docs/index.html docs/404.html",
-    "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles & cp dist/wingsearch/index.html dist/wingsearch/404.html"
+    "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles & copy /Y docs\\index.html docs\\404.html",
+    "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles & copy /Y dist\\wingsearch\\index.html dist\\wingsearch\\404.html"
   },
   "private": true,
   "dependencies": {
