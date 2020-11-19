@@ -8,3 +8,4 @@ do
     cwebp "$file" -o "${file%.*}.webp"
 done
 
+# Argument to blend with card background: -blend_alpha f5f6f1

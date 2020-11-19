@@ -43,3 +43,6 @@ Thumbs.db
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Utils
+scripts/libwebp/
