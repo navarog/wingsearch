@@ -67,7 +67,8 @@ Below you find the table of all needed icons and their codes.
 | WHEN ACTIVATED| Add local translation of respected brown power text |
 | WHEN PLAYED| Add local translation of respected white power text  |
 | ONCE BETWEEN TURNS| Add local translation of respected pink power text |
-| ROUND END| Add local translation of respected teal power text|
+| ROUND END| Add local translation of respected teal power text (European expansion)|
+| GAME END| Add local translation of respected yellow power text (Oceania expansion)|
 | of cards| `% of cards` is the text found at the bottom of bonus cards describing how many percent of bird cards fulfill the condition |
 
 In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/wingspan-card-list.xlsx) or open a github issue.
