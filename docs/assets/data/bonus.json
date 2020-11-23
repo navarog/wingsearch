@@ -4,10 +4,10 @@
         "Expansion": "core",
         "Automa": "X",
         "Condition": "Birds with body parts in their names",
-        "Explanatory text": "Body parts include back, beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, leg, neck, rump, shoulder, tail, throat, toe, wing",
+        "Explanatory text": "Body parts include beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, neck, rump, shoulder, tail, throat, wing",
         "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
         "%": 22,
-        "Note": null,
+        "Note": "Include these terms, if you play with: <br>European expansion: back, leg, toe <br>Oceania expansion: back, ear, foot, head, mouth, wattle",
         "VP Average": 1.25,
         "id": 1000,
         "rulings": [
@@ -104,10 +104,10 @@
         "Expansion": "core",
         "Automa": "X",
         "Condition": "Birds with geography terms in their name",
-        "Explanatory text": "Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Corsican, Eastern, Eurasian, European, Inca, Mississippi, Moor, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
+        "Explanatory text": "Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Mississippi, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
         "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
         "%": 21,
-        "Note": null,
+        "Note": "Include these terms, if you play with: <br>European expansion: Corsican, Eurasian, European, Moor <br>Oceania expansion: Australasian, Australian, mallee, New Holland, North, Pacific, plains, sea, scrub, South",
         "VP Average": 1.25,
         "id": 1007,
         "rulings": [
@@ -238,7 +238,7 @@
         "Explanatory text": null,
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
-        "Note": null,
+        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1033,
         "rulings": []
@@ -264,7 +264,7 @@
         "Explanatory text": null,
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
-        "Note": null,
+        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1034,
         "rulings": []
@@ -303,7 +303,7 @@
         "Explanatory text": "Each star nest can be treated as any 1 nest type. No card can be part of more than one set.",
         "VP": "1 set = [bowl] [cavity] [ground] [platform]; one set: 3[point]; two sets: 8[point]",
         "%": "-",
-        "Note": null,
+        "Note": "This card is looking for sets of the four nest types among all of your birds. The order and location of the nests do not matter; it only matters that each set includes all four nest types.<br> Each star nest can be substituted for one nest of any type in one set. For example:<ul><li>a cavity nest, a platform nest, and two stars would be a complete set.<\/li><li>two cavity nests, two platform nests, a bowl nest, a ground nest, and two stars would be two complete sets.<\/li><li>two bowl nests, two cavity nests, two platform nests, and one star nest count as one set, not two, because the star nest can only be a member of one set.<\/li><\/ul>",
         "VP Average": 0.0,
         "id": 1035,
         "rulings": []
@@ -365,10 +365,10 @@
         "Expansion": "core",
         "Automa": "X",
         "Condition": "Birds with colors in their names",
-        "Explanatory text": "Colors include ash, black, blue, bronze, brown, cerulean, chestnut, coal, ferruginous, gold, gray, grey, green, honey, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
+        "Explanatory text": "Colors include ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
         "VP": "4 to 5 brids: 3[point]; 6+ birds: 7[point]",
         "%": 34,
-        "Note": null,
+        "Note": "Include these terms, if you play with: <br>European expansion: coal, grey <br>Oceania expansion: crimson, orange, pink, rufous, silver, sulphur, tawny <br><br>The European Expansion rulebook erroneously includes honey as a term for the Photographer bonus.\ncard. Honey does not count as a color word.",
         "VP Average": 0.75,
         "id": 1023,
         "rulings": [
@@ -438,7 +438,7 @@
         "Explanatory text": "Different columns may (but need not) score using different nest types. Star nests are wild, but each counts only once.",
         "VP": "2 of the same nest in a column: 1[point]; 3 of the same nest in a column: 3[point]",
         "%": "-",
-        "Note": null,
+        "Note": "This bonus card grants points for each column that contains more than one nest of some type. A column is worth 0, 1, or 3 points, according to whether it has 0, 2, or 3 matching nests in that column, respectively. Different columns may (but need not) score using different nest types. <br><br>Star nests are wild. A single star nest counts only once; it cannot be used to match 2 different kinds of nests in the same column.",
         "VP Average": 0.0,
         "id": 1036,
         "rulings": []
@@ -477,7 +477,7 @@
         "Explanatory text": null,
         "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
         "%": "-",
-        "Note": null,
+        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1037,
         "rulings": []
