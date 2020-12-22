@@ -26,7 +26,7 @@ export const bonusSearchMap = {
         return !!birdCard.Cartographer
     },
     1008: (birdCard: BirdCard) => {
-        return !!birdCard['Citizen Scientist']
+        return !!birdCard.Flocking
     },
     1009: (birdCard: BirdCard) => {
         return !!birdCard['Diet Specialist']

@@ -50,7 +50,6 @@ export interface BirdCard {
     'Bird Bander': string | null
     'Bird Counter': string | null
     'Bird Feeder': string | null
-    'Citizen Scientist': string | null
     'Diet Specialist': string | null
     'Enclosure Builder': string | null
     Falconer: string | null
@@ -134,7 +133,7 @@ export function isBonusCard(object: any): object is BonusCard {
 }
 
 export enum Expansion {
-    Core = 'core',
+    Core = 'originalcore',
     Swiftstart = 'swiftstart',
     European = 'european',
     Oceania = 'oceania'
