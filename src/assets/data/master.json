@@ -503,8 +503,12 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31504"
             },
             {
-                "text": "When using this bird's power, you may take the drawn cards from the deck and\/or from the bird tray, despite the bird's entry in the Appendix.",
+                "text": "When using this bird's power, you may take the drawn cards from the deck and\/or from the bird tray, despite this bird's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2449964\/article\/35131047#35131047"
+            },
+            {
+                "text": "When using this bird's power, you must draw all X+1 cards as instructed, since some of them are allocated to other players.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/649739262396346\/"
             }
         ]
     },
@@ -2016,7 +2020,7 @@
         "id": 27,
         "rulings": [
             {
-                "text": "This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the \"play a bird\" card action to do so (instead using, e.g., the <strong>Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
+                "text": "This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong>Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ]
@@ -2076,7 +2080,7 @@
         "id": 28,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -3021,7 +3025,7 @@
         "id": 42,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -3411,7 +3415,7 @@
         "id": 48,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -3526,7 +3530,7 @@
         "id": 50,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -4096,7 +4100,7 @@
         "id": 57,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -4761,7 +4765,7 @@
         "id": 69,
         "rulings": [
             {
-                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
             }
         ]
@@ -4931,7 +4935,7 @@
         "id": 72,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -5160,7 +5164,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/486158122087795\/?comment_id=486188425418098&reply_comment_id=486277005409240"
             },
             {
-                "text": "Food cached on this bird is \"used\" (for points) and hence does not count as unused food when breaking point ties while scoring.",
+                "text": "Food cached on this bird is <i>\"used\"<\/i> (for points) and hence does not count as unused food when breaking point ties while scoring.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
             }
         ]
@@ -5343,7 +5347,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -5628,7 +5632,7 @@
         "id": 83,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -5968,7 +5972,7 @@
         "id": 89,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -6138,7 +6142,7 @@
         "id": 92,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -6198,7 +6202,7 @@
         "id": 93,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -6643,7 +6647,7 @@
         "id": 98,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -6758,7 +6762,7 @@
         "id": 100,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\"<\/i> (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -6873,7 +6877,7 @@
         "id": 102,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -6933,7 +6937,7 @@
         "id": 103,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -6993,7 +6997,7 @@
         "id": 104,
         "rulings": [
             {
-                "text": "This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the \"play a bird\" card action to do so (instead using, e.g., the <strong>Goldcrest<\/strong>'s power), despite the bird's entry in the Appendix.",
+                "text": "This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong>Goldcrest<\/strong>'s power), despite this bird's entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ]
@@ -7106,7 +7110,12 @@
         "Wildlife Gardener": null,
         "Note": null,
         "id": 285,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/649739262396346\/"
+            }
+        ]
     },
     {
         "Common name": "Eastern Screech Owl",
@@ -7273,8 +7282,8 @@
         "id": 107,
         "rulings": [
             {
-                "text": "Consistent with the card's printing, this bird's power is not a [predator] power.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=472457173457890&comment_id=472491826787758&reply_comment_id=472965330073741"
+                "text": "A future printing of this card will have the [predator] symbol; for now, play the card as printed.",
+                "source": "https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/#comment-36469"
             }
         ]
     },
@@ -7331,7 +7340,12 @@
         "Wildlife Gardener": null,
         "Note": "Do not discard any seed tokens; they must be distributed to other players.",
         "id": 287,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power, you must gain all [seed] available in the birdfeeder, since some of it may be allocated to other players.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/649739262396346\/"
+            }
+        ]
     },
     {
         "Common name": "Eurasian Collared-Dove",
@@ -7388,7 +7402,7 @@
         "id": 108,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -7508,7 +7522,7 @@
         "id": 110,
         "rulings": [
             {
-                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
             }
         ]
@@ -7576,7 +7590,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -7805,7 +7819,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/486158122087795\/?comment_id=486188425418098&reply_comment_id=486277005409240"
             },
             {
-                "text": "Food cached on this bird is \"used\" (for points) and hence does not count as unused food when breaking point ties while scoring.",
+                "text": "Food cached on this bird is <i>\"used\"<\/i> (for points) and hence does not count as unused food when breaking point ties while scoring.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
             }
         ]
@@ -7865,7 +7879,7 @@
         "id": 116,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -8035,7 +8049,7 @@
         "id": 119,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -8095,8 +8109,8 @@
         "id": 120,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2341899\/article\/33709956#33709956"
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird no longer qualifies for it.",
+                "source": "Oceania Expansion rulebook"
             }
         ]
     },
@@ -8885,7 +8899,7 @@
         "id": 131,
         "rulings": [
             {
-                "text": "This bird's power activates another bird's power. Any other brown power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
             }
         ]
@@ -8945,7 +8959,7 @@
         "id": 132,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -9120,7 +9134,7 @@
         "id": 135,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -9294,7 +9308,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/448650129171928\/?comment_id=448787489158192"
             },
             {
-                "text": "When using this bird's power in a game against the Automa, (since it is a brown power) the Automa always has zero action cubes in its [wetland].",
+                "text": "Since this power is brown, when activating it in a game against the Automa the Automa always has zero action cubes in its [wetland].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2331577\/article\/33966554#33966554"
             }
         ]
@@ -9469,16 +9483,12 @@
         "id": 141,
         "rulings": [
             {
-                "text": "Trading counts as \"spending\".",
+                "text": "<i>\"Trading\"<\/i> counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
             },
             {
                 "text": "You may not use this bird's power to trade a food token for a food token of the same type.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=591878014849138&comment_id=591932641510342&reply_comment_id=594264341277172"
-            },
-            {
-                "text": "You may trade a cached food token on one of your birds and move the food into your personal",
-                "source": "supply. https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/589893495047590"
             }
         ]
     },
@@ -9922,7 +9932,7 @@
         "id": 143,
         "rulings": [
             {
-                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not other quantities. When in your hand this card does not count toward end-of-round bonuses.",
+                "text": "This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
             }
         ]
@@ -10147,7 +10157,7 @@
         "id": 147,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -10207,7 +10217,7 @@
         "id": 148,
         "rulings": [
             {
-                "text": "This bird's power activates another bird's power. Any other predator power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
             }
         ]
@@ -10322,7 +10332,7 @@
         "id": 150,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -10547,7 +10557,7 @@
         "id": 152,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -10611,7 +10621,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-30838"
             },
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -11449,7 +11459,12 @@
         "Wildlife Gardener": "X",
         "Note": null,
         "id": 306,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "source": "Oceania Expansion rulebook"
+            }
+        ]
     },
     {
         "Common name": "Lincoln's Sparrow",
@@ -11506,7 +11521,7 @@
         "id": 161,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -11843,6 +11858,10 @@
             {
                 "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "When scoring the Site Selection Expert bonus card, this bird's [star] nest can count as different nest types in the two columns in which it was played.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
             }
         ]
     },
@@ -12396,7 +12415,7 @@
         "id": 168,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "text": "If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
             }
         ]
@@ -12460,7 +12479,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
-                "text": "Even when using this bird's power to play it on top of another bird, this bird can only be played in [grassland].",
+                "text": "Even when using this bird's power to play it on top of another bird, this bird may only be played in [grassland].",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
@@ -12468,7 +12487,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -12528,7 +12547,7 @@
         "id": 170,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -12753,8 +12772,8 @@
         "id": 173,
         "rulings": [
             {
-                "text": "This bird's power is a [flocking] power and hence this card should have a [flocking] symbol.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/#comment-36281"
+                "text": "A future printing of this card will have the [flocking] symbol; for now, play the card as printed.",
+                "source": "https:\/\/stonemaiergames.com\/games\/wingspan\/rules\/#comment-36469"
             }
         ]
     },
@@ -12811,7 +12830,12 @@
         "Wildlife Gardener": "X",
         "Note": "Before gaining this food, you may reroll the dice in the birdfeeder if they are all showing one face.",
         "id": 317,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "source": "Oceania Expansion rulebook"
+            }
+        ]
     },
     {
         "Common name": "Noisy Miner",
@@ -13203,7 +13227,7 @@
         "id": 178,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -13318,7 +13342,7 @@
         "id": 180,
         "rulings": [
             {
-                "text": "This bird's power activates another bird's power. Any other brown power in the habitat can be so activated, regardless of the relative position of that bird and this one.",
+                "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
             }
         ]
@@ -14716,7 +14740,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -15271,7 +15295,7 @@
         "id": 203,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -15606,7 +15630,7 @@
         "id": 208,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -16001,7 +16025,7 @@
         "id": 212,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -16171,7 +16195,7 @@
         "id": 215,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -16339,7 +16363,12 @@
         "Wildlife Gardener": "X",
         "Note": null,
         "id": 339,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "source": "Oceania Expansion rulebook"
+            }
+        ]
     },
     {
         "Common name": "Sacred Kingfisher",
@@ -16506,7 +16535,7 @@
         "id": 217,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -16909,7 +16938,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2336787\/article\/33673995#33673995"
             },
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in the bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ]
@@ -17079,7 +17108,7 @@
         "id": 226,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -17192,7 +17221,12 @@
         "Wildlife Gardener": null,
         "Note": "You must pay the food cost of the cassowary, but not the egg cost. You may play the cassowary in an empty space, but then you must pay its egg cost and you do not lay eggs or gain fruit.",
         "id": 343,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When using this bird's power to discard another bird from your mat, all food cached on that bird, [egg] laid on that bird, and [card] tucked under that bird are discarded.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/649739262396346\/"
+            }
+        ]
     },
     {
         "Common name": "Spangled Drongo",
@@ -17857,7 +17891,12 @@
         "Wildlife Gardener": "X",
         "Note": "The copied power must be a brown \u201cwhen activated\u201d power.",
         "id": 349,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions, e.g., being the rightmost bird in its habitat---this bird may move to that habitat, even one in which in cannot be played.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
+            }
+        ]
     },
     {
         "Common name": "Swainson's Hawk",
@@ -18189,7 +18228,7 @@
         "id": 237,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a \"play a second bird\" power, you may then use the latter bird's power to play yet another bird.",
+                "text": "If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ]
@@ -18302,7 +18341,12 @@
         "Wildlife Gardener": "X",
         "Note": "The copied power must be a brown \u201cwhen activated\u201d power.",
         "id": 351,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions, e.g., being the rightmost bird in its habitat---this bird may move to that habitat, even one in which in cannot be played.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
+            }
+        ]
     },
     {
         "Common name": "Vaux's Swift",
@@ -18754,7 +18798,7 @@
         "id": 244,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "text": "If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
             }
         ]
@@ -19034,7 +19078,7 @@
         "id": 247,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -19924,7 +19968,7 @@
         "id": 260,
         "rulings": [
             {
-                "text": "When using this bird's power to move this bird to another habitat, the action cube stays on the current habitat.",
+                "text": "When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ]
@@ -19984,7 +20028,7 @@
         "id": 261,
         "rulings": [
             {
-                "text": "If this bird already has the maximum number of [egg] on it, you can still use its power to tuck a [card].",
+                "text": "If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2144148\/article\/31158388#31158388"
             }
         ]
@@ -20099,7 +20143,7 @@
         "id": 263,
         "rulings": [
             {
-                "text": "If you use this bird's power to play another bird with a teal power, you can resolve that power at any point among your other remaining teal powers.",
+                "text": "If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2324875\/article\/33515239#33515239"
             }
         ]

@@ -12,11 +12,11 @@
         "id": 1000,
         "rulings": [
             {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant section of the <i>European Expansion<\/i> rulebook. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the <i>wing<\/i> in <strong>Burrowing Owl<\/strong>).",
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant sections of the expansion rulebooks. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the <i>wing<\/i> in <strong>Burrowing Owl<\/strong>).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
             },
             {
-                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "text": "On this bonus card `name' refers only to the common name, not the scientific name.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
             }
         ]
@@ -112,11 +112,11 @@
         "id": 1007,
         "rulings": [
             {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including <i>prairie<\/i> (which is printed on the bonus card only in newer printings), and those in the relevant section of the <i>European Expansion<\/i> rulebook.",
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including <i>prairie<\/i> (which is printed on this bonus card only in newer printings), and those in the relevant sections of the expansion rulebooks.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             },
             {
-                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "text": "On this bonus card `name' refers only to the common name, not the scientific name.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
             }
         ]
@@ -241,7 +241,12 @@
         "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1033,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+            }
+        ]
     },
     {
         "Name": "Forester",
@@ -267,7 +272,12 @@
         "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1034,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+            }
+        ]
     },
     {
         "Name": "Historian",
@@ -377,11 +387,11 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             },
             {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant section of the <i>European Expansion<\/i> rulebook, and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong>Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong>Barred Owl<\/strong>), but see <strong>European Honey Buzzard<\/strong> and <strong>Northern Bobwhite<\/strong>.",
+                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding <i>honey<\/i> in the <i>European Expansion<\/i> rulebook---see <strong>Honey<\/strong>), and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong>Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong>Barred Owl<\/strong>), but see <strong>Northern Bobwhite<\/strong>.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
             },
             {
-                "text": "On this bonus card `name` refers only to the common name, not the scientific name.",
+                "text": "On this bonus card `name' refers only to the common name, not the scientific name.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
             }
         ]
@@ -425,7 +435,7 @@
         "id": 1026,
         "rulings": [
             {
-                "text": "The bonus card's condition is \"Birds that eat [rodent]\", not \"Birds that only eat [rodent]\", and its clarification text is, \"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These errors were corrected in the third printing, and a corrected card is available in the update pack.)",
+                "text": "This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
                 "source": "Card update pack."
             }
         ]
@@ -441,7 +451,12 @@
         "Note": "This bonus card grants points for each column that contains more than one nest of some type. A column is worth 0, 1, or 3 points, according to whether it has 0, 2, or 3 matching nests in that column, respectively. Different columns may (but need not) score using different nest types. <br><br>Star nests are wild. A single star nest counts only once; it cannot be used to match 2 different kinds of nests in the same column.",
         "VP Average": 0.0,
         "id": 1036,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played. ",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
+            }
+        ]
     },
     {
         "Name": "Visionary Leader",
@@ -480,7 +495,12 @@
         "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
         "VP Average": 0.0,
         "id": 1037,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+            }
+        ]
     },
     {
         "Name": "Wetland Scientist",
