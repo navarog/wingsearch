@@ -352,7 +352,12 @@
         "Note": null,
         "VP Average": 2.0,
         "id": 1020,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "The percentage on this bonus card should be 16\\%. (This misprint was corrected in print by February 2020.)",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+            }
+        ]
     },
     {
         "Name": "Oologist",
