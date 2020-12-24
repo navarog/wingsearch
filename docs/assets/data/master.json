@@ -9655,7 +9655,12 @@
         "Wildlife Gardener": null,
         "Note": "These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal. <br>These birds can still be played like any other bird in the 5th column, forgoing their power. <br>The next bird you play in this habitat is placed to the right of this bird.",
         "id": 142,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            }
+        ]
     },
     {
         "Common name": "Grey Shrikethrush",
