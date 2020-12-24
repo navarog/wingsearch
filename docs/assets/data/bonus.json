@@ -71,7 +71,12 @@
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
         "VP Average": 2.0,
         "id": 1004,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "A bird with a [flocking] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Name": "Bird Feeder",
@@ -202,7 +207,12 @@
         "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
         "VP Average": 2.0,
         "id": 1013,
-        "rulings": []
+        "rulings": [
+            {
+                "text": "A bird with a [predator] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
+                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+            }
+        ]
     },
     {
         "Name": "Fishery Manager",
@@ -383,7 +393,7 @@
         "id": 1023,
         "rulings": [
             {
-                "text": "The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack)",
+                "text": "The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             },
             {
