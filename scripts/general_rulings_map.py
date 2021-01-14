@@ -18,7 +18,7 @@ rulings = {
     '20200208': lambda row: row['Color'] == 'Pink',
     '2020022b': lambda row: not pd.isna(row['Power text']) and re.search(r"it becomes a tucked card", row['Power text'], re.IGNORECASE) is not None,
     '20200330': lambda row: row['Color'] == 'Pink',
-    '20200404': lambda row: not pd.isna(row['Power text']) and re.search(r"draw|lay|gain", row['Power text'], re.IGNORECASE) is not None,
+    '20200404': lambda row: not pd.isna(row['Power text']) and re.search(r"(\s|^)draw|(\s|^)lay|(\s|^)gain", row['Power text'], re.IGNORECASE) is not None,
     '20200511': lambda row: not pd.isna(row['* (food cost)']),
     '20200712': lambda row: False,
     '20200716a': lambda row: row['Common name'] in ['American Oystercatcher', 'Belted Kingfisher', 'Eastern Kingbird'],
