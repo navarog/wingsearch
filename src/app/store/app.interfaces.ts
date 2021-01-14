@@ -64,6 +64,7 @@ export interface BirdCard {
     'Prairie Manager': string | null
     Rodentologist: string | null
     rulings: Ruling[]
+    additionalRulings: Ruling[]
     Viticulturalist: string | null
     'Wetland Scientist': string | null
     'Wildlife Gardener': string | null
@@ -124,6 +125,7 @@ export interface BonusCard {
     'VP Average': number
     birdIds?: number[]
     rulings: Ruling[]
+    additionalRulings: Ruling[]
     isBirdCard: () => false
     isBonusCard: () => true
 }
