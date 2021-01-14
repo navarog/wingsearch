@@ -75,10 +75,15 @@
     }
 }
 
+.negative-margin {
+    margin-top: calc(-10% - 12px);
+}
+
 .note {
     font-family: FuturaLight, Arial, Helvetica;
     font-style: italic;
     padding: 0 5% 0%;
+    margin-bottom: 3%!important;
     margin-top: -10%;
     font-size: 18px;
 
