@@ -46,3 +46,6 @@ Thumbs.db
 
 # Utils
 scripts/libwebp/
+
+# Python files
+__pycache__/
