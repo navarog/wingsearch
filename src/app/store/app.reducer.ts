@@ -170,7 +170,9 @@ const reducer = createReducer(
             activeBonusCards = state.bonusCards
         }
 
-        activeBonusCards = activeBonusCards.filter(card => !action.bonus.includes(card.id))
+        activeBonusCards = activeBonusCards
+            .filter(card => !action.bonus.includes(card.id))
+            .filter(card => action.expansion[card.Expansion])
 
         return { ...state, activeBonusCards }
     }),

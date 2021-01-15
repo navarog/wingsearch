@@ -87,7 +87,8 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="teal" class="pointer shrink"
-            [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')">
+            [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')"
+            *ngIf="query.expansion.european">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/teal.webp">
                 <source type="image/png" srcset="assets/icons/png/teal.png">
@@ -96,7 +97,8 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="yellow" class="pointer shrink"
-            [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')">
+            [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')"
+            *ngIf="query.expansion.oceania">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/yellow.webp">
                 <source type="image/png" srcset="assets/icons/png/yellow.png">
@@ -152,7 +154,8 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="nectar" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.nectar}" (click)="toggleFood('nectar')">
+            [ngClass]="{inactive: !query.food.nectar}" (click)="toggleFood('nectar')"
+            *ngIf="query.expansion.oceania">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/nectar.webp">
                 <source type="image/png" srcset="assets/icons/png/nectar.png">
