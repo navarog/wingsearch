@@ -86,7 +86,7 @@
     },
     "17": {
         "name": "Trade",
-        "text": "<i>\"Trading\"<\/i> counts as <i>\"spending\"<\/i>.",
+        "text": "<i>\"Trading\"<\/i> (e.g., when using the <strong>Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
     },
     "18": {
@@ -126,12 +126,37 @@
     },
     "25": {
         "name": "Discard",
-        "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+        "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
         "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
     },
     "26": {
         "name": "Ability",
         "text": "<i>\"Ability\"<\/i> is a synonym of <i>\"power\"<\/i>.",
         "source": "https:\/\/www.boardgamegeek.com\/thread\/2558020\/article\/36492150#36492150"
+    },
+    "27": {
+        "name": "Giving",
+        "text": "<i>\"Giving\"<\/i> a resource to another player does not count as <i>\"spending\"<\/i>.",
+        "source": "https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+    },
+    "28": {
+        "name": "Copy",
+        "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+    },
+    "29": {
+        "name": "Copy",
+        "text": "Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong>Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+    },
+    "30": {
+        "name": "Repeat",
+        "text": "When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong>Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+    },
+    "31": {
+        "name": "Copy",
+        "text": "When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong>Superb Lyrebird<\/strong> copies the <strong>Coat Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
     }
 }
