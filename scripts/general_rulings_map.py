@@ -27,5 +27,8 @@ rulings = {
     '20201009': lambda row: False,
     '20201116a': lambda row: False,
     '20201117': lambda row: not pd.isna(row['Power text']) and re.search(r"discard.*\[(egg|seed|invertebrate|fish|fruit|nectar|wild|rodent)\]", row['Power text'], re.IGNORECASE) is not None,
-    '20201211': lambda row: False
+    '20210101': lambda row: False,
+    '20201211': lambda row: False,
+    '20210199a': lambda row: False,
+    '20210199b': lambda row: False,
 }

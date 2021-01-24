@@ -385,7 +385,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -793,7 +793,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -1397,7 +1397,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -2445,7 +2445,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -2913,7 +2913,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -3120,7 +3120,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -3810,7 +3810,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -4907,7 +4907,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -5586,7 +5586,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -5916,6 +5916,10 @@
             {
                 "text": "Food cached on this bird is <i>\"used\"<\/i> (for points) and hence does not count as unused food when breaking point ties while scoring.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
+            },
+            {
+                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
         "additionalRulings": [
@@ -5985,7 +5989,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -6763,7 +6767,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
             },
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -6950,7 +6954,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -7028,7 +7032,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -7098,7 +7102,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -7470,7 +7474,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -7662,7 +7666,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -8473,7 +8477,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -8946,6 +8950,10 @@
             {
                 "text": "Food cached on this bird is <i>\"used\"<\/i> (for points) and hence does not count as unused food when breaking point ties while scoring.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
+            },
+            {
+                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
         "additionalRulings": [
@@ -9627,7 +9635,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -9765,7 +9773,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -10202,6 +10210,10 @@
             {
                 "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            },
+            {
+                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             }
         ],
         "additionalRulings": []
@@ -11647,6 +11659,10 @@
             {
                 "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            },
+            {
+                "text": "This bird cannot copy the power of a bird with a <i>\"copy\"<\/i> power that is not a predator power, even if that bird copied a predator power earlier in the turn.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             }
         ],
         "additionalRulings": []
@@ -11918,7 +11934,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -12053,7 +12069,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -12380,7 +12396,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -12445,7 +12461,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -12575,7 +12591,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -12701,7 +12717,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -12958,7 +12974,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -13345,7 +13361,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -13621,7 +13637,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
             },
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -14121,7 +14137,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -15233,6 +15249,10 @@
             {
                 "text": "This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
+            },
+            {
+                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             }
         ],
         "additionalRulings": []
@@ -15737,7 +15757,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -16687,7 +16707,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -17908,7 +17928,12 @@
         "Wildlife Gardener": null,
         "Note": null,
         "id": 334,
-        "rulings": [],
+        "rulings": [
+            {
+                "text": "Using this bird's power to give a [nectar] to another player does not count as <i>\"spending\"<\/i>, so when you do you do not add nectar to the <i>\"spent nectar\"<\/i> space for its habitat.",
+                "source": "https:\/\/discord.com\/channels\/608588053052653580\/693358238439047229\/794607413088485398"
+            }
+        ],
         "additionalRulings": [
             {
                 "text": "Regular reroll rules apply whenever you have the opportunity to gain food from the birdfeeder.",
@@ -18676,13 +18701,13 @@
         "id": 339,
         "rulings": [
             {
-                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, but <i>rufous<\/i> is a keyword, and hence this bird qualifies for that bonus card.",
                 "source": "Oceania Expansion rulebook"
             }
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -18832,7 +18857,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -19216,7 +19241,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
             },
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             }
         ]
@@ -19676,7 +19701,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -20327,7 +20352,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -20456,12 +20481,20 @@
         "id": 349,
         "rulings": [
             {
-                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions, e.g., being the rightmost bird in its habitat---this bird may move to that habitat, even one in which in cannot be played.",
+                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---this bird may move to that habitat, even one in which it cannot be played.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
             },
             {
                 "text": "This bird counts towards <strong>Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/708244956545776\/?comment_id=708275409876064"
+            },
+            {
+                "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>).",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+            },
+            {
+                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong>Coat Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
         "additionalRulings": []
@@ -20634,7 +20667,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "<i>\"Discarding\"<\/i> counts as <i>\"spending\"<\/i>.",
+                "text": "<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
                 "source": "https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
             },
             {
@@ -20962,12 +20995,20 @@
         "id": 351,
         "rulings": [
             {
-                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions, e.g., being the rightmost bird in its habitat---this bird may move to that habitat, even one in which in cannot be played.",
+                "text": "If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---this bird may move to that habitat, even one in which it cannot be played.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
             },
             {
                 "text": "This bird counts towards <strong>Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/708244956545776\/?comment_id=708275409876064"
+            },
+            {
+                "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>).",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+            },
+            {
+                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong>Coat Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
         "additionalRulings": []
