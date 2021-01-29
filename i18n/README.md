@@ -50,6 +50,15 @@ Below you find the table of all needed icons and their codes.
 | Power text| Fill there the ability of the bird. Leave empty if the bird has no ability |
 | Note| Fill there additional information about a bird from the appendix. Leave empty if the bird has no additional info |
 
+**Language dependent bonus cards - applicable birds for these bonus cards may differ in your language. There are predefined values for english, please change those columns according to the rules of your language.**
+
+| Field | Description |
+| ----------- | ----------- |
+| Anatomist| Type **X** if the bird is eligible for this bonus card. Leave empty otherwise|
+| Cartographer| Type **X** if the bird is eligible for this bonus card. Leave empty otherwise|
+| Historian| Type **X** if the bird is eligible for this bonus card. Leave empty otherwise|
+| Photographer| Type **X** if the bird is eligible for this bonus card. Leave empty otherwise|
+
 ### Bonuses
 | Field | Description |
 | ----------- | ----------- |
