@@ -1,6 +1,7 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { AppState, BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
+import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
+import { selectCard, State } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
@@ -16,6 +17,7 @@ import { AnalyticsService } from '../analytics.service'
 export class DisplayComponent implements OnInit, AfterViewInit {
 
   cards$: Observable<(BirdCard | BonusCard)[]>
+  selectedCard$: Observable<BirdCard | BonusCard>
   scrollDisabled$: Observable<boolean>
 
   private readonly CARD_MINIMUM_WIDTH = 165
@@ -27,15 +29,26 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   cardHeight$ = new BehaviorSubject<number>(0)
 
-  constructor(private store: Store<{ app: AppState }>, public dialog: MatDialog, private analytics: AnalyticsService) {
+  constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
     this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
+    this.selectedCard$ = this.store.select(selectCard)
   }
 
   columns: number
 
   ngOnInit(): void {
     this.columns = this.calculateColumns(window.innerWidth)
+    this.selectedCard$.subscribe(card => {
+      this.dialog.closeAll()
+      if (!card)
+        return
+      
+      if (isBirdCard(card))
+          this.openBirdDialog(card)
+        else if (isBonusCard(card))
+          this.openBonusDialog(card)
+    })
   }
 
   ngAfterViewInit(): void {

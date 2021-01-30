@@ -3,12 +3,12 @@
     (scrolled)="onScroll()">
     <mat-grid-tile *ngFor="let card of cards$ | async">
         <mat-card #cardElement appAnalyticsEvent="Bird detail" [eventLabel]="card['Common name']"
-            *ngIf="isBirdCard(card)" class="fill-parent" (click)="openBirdDialog(card)">
+            *ngIf="isBirdCard(card)" class="fill-parent" routerLink="/card/{{card.id}}">
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
         </mat-card>
 
         <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card['Name']" *ngIf="isBonusCard(card)"
-            class="fill-parent" (click)="openBonusDialog(card)">
+            class="fill-parent" routerLink="/card/{{card.id}}">
             <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
         </mat-card>
     </mat-grid-tile>
