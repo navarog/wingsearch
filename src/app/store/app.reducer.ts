@@ -187,6 +187,7 @@ const reducer = createReducer(
     on(appActions.setLanguage, (state, action) => {
         const translateBirds = (card: BirdCard) => {
             const translatedKeys = ['Common name', 'Power text', 'Note']
+            const bonusKeys = ['Anatomist', 'Cartographer', 'Historian', 'Photographer']
             const translated = action.payload.birds[card.id]
             const englishBird = englishBirdCardsMap[card.id]
 
@@ -196,7 +197,8 @@ const reducer = createReducer(
             const mergeContent = translatedKeys.reduce((acc, key) =>
                 (translated[key] && String(translated[key]).trim() ? { ...acc, [key]: String(translated[key]).trim() } : acc), {})
 
-            return { ...englishBird, ...mergeContent }
+            const bonuses = bonusKeys.reduce((acc, key) => ({...acc, [key]: translated[key]}), {})
+            return { ...englishBird, ...mergeContent, ...bonuses }
         }
 
         const translateBonuses = (card: BonusCard) => {
