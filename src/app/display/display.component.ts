@@ -8,6 +8,7 @@ import { scroll } from '../store/app.actions'
 import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AnalyticsService } from '../analytics.service'
+import { ActivatedRoute, Router } from '@angular/router'
 
 @Component({
   selector: 'app-display',
@@ -29,7 +30,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   cardHeight$ = new BehaviorSubject<number>(0)
 
-  constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService) {
+  constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService, private router: Router, private route: ActivatedRoute) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
     this.scrollDisabled$ = this.store.select(({ app }) => app.scrollDisabled)
     this.selectedCard$ = this.store.select(selectCard)
@@ -81,6 +82,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       width: '80vw',
       maxWidth: '80vw',
     })
+    .afterClosed().subscribe(() => this.router.navigate(['/']))
   }
 
   openBonusDialog(card: BonusCard) {
