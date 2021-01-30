@@ -94,6 +94,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       width: '80vw',
       maxWidth: '80vw',
     })
+    .afterClosed().subscribe(() => this.router.navigate(['/']))
   }
 
   onScroll() {
