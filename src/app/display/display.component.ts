@@ -25,10 +25,13 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   private readonly MAX_DISPLAY_COLUMNS = 6
 
+  private readonly DIALOG_ID = '0'
+
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
 
   cardHeight$ = new BehaviorSubject<number>(0)
+  isSelectedCardBird: boolean;
 
   constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService, private router: Router, private route: ActivatedRoute) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
@@ -41,14 +44,21 @@ export class DisplayComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
     this.columns = this.calculateColumns(window.innerWidth)
     this.selectedCard$.subscribe(card => {
-      this.dialog.closeAll()
-      if (!card)
+      if (!card) {
+        this.dialog.closeAll()
+        this.isSelectedCardBird = null;
         return
-      
-      if (isBirdCard(card))
-          this.openBirdDialog(card)
-        else if (isBonusCard(card))
-          this.openBonusDialog(card)
+      }
+
+      if ((isBirdCard(card) && this.isSelectedCardBird) || (isBonusCard(card) && this.isSelectedCardBird === false)) {
+        const dialogRef = this.dialog.getDialogById(this.DIALOG_ID).componentInstance
+        dialogRef.data = { card: card }
+        dialogRef.initBonuses()
+      } else {
+        this.dialog.closeAll()
+        this.isSelectedCardBird = isBirdCard(card)
+        isBirdCard(card) ? this.openBirdDialog(card) : this.openBonusDialog(card)
+      }
     })
   }
 
@@ -81,8 +91,8 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-    })
-    .afterClosed().subscribe(() => this.router.navigate(['/']))
+      id: this.DIALOG_ID,
+    }).afterClosed().subscribe(() => this.router.navigate(['/']))
   }
 
   openBonusDialog(card: BonusCard) {
@@ -93,8 +103,8 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-    })
-    .afterClosed().subscribe(() => this.router.navigate(['/']))
+      id: this.DIALOG_ID,
+    }).afterClosed().subscribe(() => this.router.navigate(['/']))
   }
 
   onScroll() {

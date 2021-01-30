@@ -28,6 +28,10 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
 
   ngOnInit(): void {
     this.layout = this.calculateLayout(window.innerWidth)
+    this.initBonuses()
+  }
+
+  initBonuses() {
     this.bonusCards$ = this.store.pipe(
       select(({ app }) => app.birdCards),
       first(),
