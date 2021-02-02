@@ -45,4 +45,8 @@
         <div class='text' *ngIf="card.Color" [innerHTML]="(getPowerTitle() + card['Power text'] | iconize)"
             [ngStyle]="{'font-size.px': cardHeight * 0.039, 'line-height.px': cardHeight * 0.039 + 1}"></div>
     </div>
+    <div class="footer">
+        <img class="expansion-indicator" src="assets/icons/svg/expansion-indicators/{{card.Expansion}}.svg"
+            [alt]="card.Expansion" aria-label="expansion indicator">
+    </div>
 </div>

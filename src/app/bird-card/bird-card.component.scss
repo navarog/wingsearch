@@ -180,3 +180,14 @@
 .yellow {
     background-color: #debc3f;
 }
+
+.footer {
+    height: 9%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.expansion-indicator {
+    height: 100%;
+    border-bottom-right-radius: 8px;
+}
