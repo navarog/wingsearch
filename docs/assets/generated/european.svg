@@ -1,0 +1,18 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="-600 -600 1500 1500">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #706159;
+      }
+
+      .cls-2 {
+        font-size: 444px;
+        fill: #fff;
+        font-family: CardenioModern-Bold, Cardenio Modern;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="299.71" cy="299.71" r="299.71"/>
+  <text class="cls-2" transform="translate(129.94 460.79)">EE</text>
+</svg>
