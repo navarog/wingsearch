@@ -108,7 +108,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-      id: this.BIRD_DIALOG_ID + '1',
+      id: this.BONUS_DIALOG_ID,
     }).afterClosed().subscribe(() => {
       if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID))
         this.router.navigate(['/'])
