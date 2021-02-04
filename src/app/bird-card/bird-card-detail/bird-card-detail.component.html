@@ -6,13 +6,13 @@
             </div>
             <div class="note" *ngIf="data.card.Note">
                 <h2>Appendix entry</h2>
-                <div [innerHTML]="data.card.Note | iconize"></div>
+                <div [innerHTML]="data.card.Note | iconize | safe" applinkWatchero></div>
             </div>
             <div class="rulings" [ngClass]="{'negative-margin': !data.card.Note}" *ngIf="data.card.rulings.length || data.card.additionalRulings.length">
                 <h2 *ngIf="data.card.rulings.length">Official rulings</h2>
                 <div>
                     <div class="ruling" *ngFor="let ruling of data.card.rulings">
-                        <span [innerHTML]="ruling.text | iconize"></span>
+                        <span [innerHTML]="ruling.text | iconize | safe" applinkWatcher></span>
                         <a [href]="ruling.source" target="_blank" rel="noopener noreferrer"
                             *ngIf="ruling.source.startsWith('http')">
                             <mat-icon svgIcon="externalLink"></mat-icon>
@@ -26,7 +26,7 @@
                     : "Related rulings"}}</h2>
                 <div>
                     <div class="ruling" *ngFor="let ruling of data.card.additionalRulings">
-                        <span [innerHTML]="ruling.text | iconize"></span>
+                        <span [innerHTML]="ruling.text | iconize | safe" applinkWatcher></span>
                         <a [href]="ruling.source" target="_blank" rel="noopener noreferrer"
                             *ngIf="ruling.source.startsWith('http')">
                             <mat-icon svgIcon="externalLink"></mat-icon>

@@ -43,7 +43,9 @@ import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-c
 import { AppEffects } from './store/app.effects'
 import { TranslatePipe } from './translate.pipe'
 import { LanguageDialogComponent } from './search/language-dialog/language-dialog.component'
-import { AnalyticsEventDirective } from './analytics-event.directive'
+import { AnalyticsEventDirective } from './analytics-event.directive';
+import { ApplinkDirective } from './applink.directive';
+import { SafePipe } from './safe.pipe'
 
 @NgModule({
   declarations: [
@@ -62,6 +64,8 @@ import { AnalyticsEventDirective } from './analytics-event.directive'
     TranslatePipe,
     LanguageDialogComponent,
     AnalyticsEventDirective,
+    ApplinkDirective,
+    SafePipe,
   ],
   imports: [
     BrowserModule,

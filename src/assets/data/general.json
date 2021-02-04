@@ -1,7 +1,7 @@
 {
     "0": {
         "name": "Prairie",
-        "text": "The word <i>prairie<\/i> is a keyword for the <strong>Cartographer<\/strong> bonus card. (This omission was corrected in print by December 2019.)",
+        "text": "The word <i>prairie<\/i> is a keyword for the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card. (This omission was corrected in print by December 2019.)",
         "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
     },
     "1": {
@@ -11,7 +11,7 @@
     },
     "2": {
         "name": "Powers",
-        "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti\u2019s Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
+        "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
         "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
     },
     "3": {
@@ -36,7 +36,7 @@
     },
     "7": {
         "name": "End of your turn",
-        "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+        "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
     },
     "8": {
@@ -46,17 +46,17 @@
     },
     "9": {
         "name": "End-of-round goal",
-        "text": "A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong>Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
+        "text": "A card in your hand with the power, <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\"<\/i> (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>), does not count toward end-of-round goals.",
         "source": "https:\/\/www.boardgamegeek.com\/thread\/2365136\/article\/34012183#34012183"
     },
     "10": {
         "name": "Violet",
-        "text": "The word <i>violet<\/i> is a keyword for the <strong>Photographer<\/strong> bonus card. (This keyword currently occurs only on the <strong>Violet-Green Swallow<\/strong>, which already contains another keyword for <strong>Photographer<\/strong>.) ",
+        "text": "The word <i>violet<\/i> is a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card. (This keyword currently occurs only on the <strong applink=\"\/card\/240\">Violet-Green Swallow<\/strong>, which already contains another keyword for <strong applink=\"\/card\/1023\">Photographer<\/strong>.) ",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980"
     },
     "11": {
         "name": "Action",
-        "text": "Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong>American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
+        "text": "Unless specifically stated, your actions are assumed only to affect your player mat, supply, etc. (For example, the <strong applink=\"\/card\/3\">American Avocet<\/strong>'s power may not be used to lay an [egg] on another player's bird.)",
         "source": "https:\/\/www.boardgamegeek.com\/thread\/2146296\/article\/33747572#33747572"
     },
     "12": {
@@ -66,7 +66,7 @@
     },
     "13": {
         "name": "It becomes a tucked card",
-        "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong>Common Buzzard<\/strong>) qualify for the <strong>Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
+        "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
     },
     "14": {
@@ -86,12 +86,12 @@
     },
     "17": {
         "name": "Trade",
-        "text": "<i>\"Trading\"<\/i> (e.g., when using the <strong>Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
+        "text": "<i>\"Trading\"<\/i> (e.g., when using the <strong applink=\"\/card\/141\">Green Heron<\/strong>'s power) counts as <i>\"spending\"<\/i>.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=589893495047590&comment_id=589910088379264"
     },
     "18": {
         "name": "Appendix",
-        "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong>American Oystercatcher<\/strong>, <strong>Belted Kingfisher<\/strong>, and <strong>Eastern Kingbird<\/strong>.)",
+        "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong applink=\"\/card\/9\">American Oystercatcher<\/strong>, <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>, and <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>.)",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
     },
     "19": {
@@ -111,7 +111,7 @@
     },
     "22": {
         "name": "Honey",
-        "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card.",
+        "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
         "source": "Oceania Expansion rulebook"
     },
     "23": {
@@ -141,22 +141,22 @@
     },
     "28": {
         "name": "Copy",
-        "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
+        "text": "When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>), it repeats the copying power printed on that bird and not any powers that bird repeated earlier in the turn.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
     },
     "29": {
         "name": "Copy",
-        "text": "Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong>Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
+        "text": "Since being a predator power is a property of a power, a bird with a <i>\"copy\"<\/i> power copying a predator power and the power succeedings counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>. In particular, even if the copying bird is in the same habitat as the <strong applink=\"\/card\/148\">Hooded Merganser<\/strong>, that latter bird cannot repeat this bird's power, since the power printed on this card is not a predator power.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
     },
     "30": {
         "name": "Repeat",
-        "text": "When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong>Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
+        "text": "When a bird with a <i>\"repeat\"<\/i> power (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>), it repeats the power printed on the bird with the <i>\"copy\"<\/i> power and not any powers that bird copied earlier in the turn.",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
     },
     "31": {
         "name": "Copy",
-        "text": "When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong>Superb Lyrebird<\/strong> copies the <strong>Coat Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+        "text": "When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/256\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
     }
 }

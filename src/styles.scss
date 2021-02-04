@@ -167,6 +167,10 @@ body {
     padding: 0;
 }
 
+strong[applink] {
+    cursor: pointer;
+}
+
 @media screen and (min-width: 600px) {
     .bonus-card-option {
         height: 128px!important;
