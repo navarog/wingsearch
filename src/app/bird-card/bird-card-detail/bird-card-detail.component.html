@@ -1,6 +1,6 @@
 <div matDialogContent class="detail-container" [ngClass]="layout" (window:resize)="onResize($event)">
     <div class="flex-content">
-        <mat-card class="card-wrapper" [ngStyle]="{'border-radius.px': (cardHeight$ | async) * 0.025}">
+        <mat-card #cardWrapper class="card-wrapper" [ngStyle]="{'border-radius.px': (cardHeight$ | async) * 0.025}">
             <div #cardElement class="card-content">
                 <app-bird-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bird-card>
             </div>
@@ -46,7 +46,7 @@
                 Compatible bonus cards
                 <div class="subtitle">(Best point value)</div>
             </div>
-            <div class="carousel">
+            <div #carousel class="carousel">
                 <div #bonusCardElement class="bonus-card-wrapper" *ngFor="let bonus of bonusCards$ | async; index as i"
                     [ngStyle]="bonusCardStyle(i) | async">
                     <app-bonus-card [card]="bonus" [cardHeight$]="bonusCardHeight$"></app-bonus-card>

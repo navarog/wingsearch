@@ -89,11 +89,12 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     this.dialog.open(BirdCardDetailComponent, {
       data: { card },
       panelClass: 'card-detail-panel',
-      closeOnNavigation: true,
+      closeOnNavigation: false,
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
       id: this.BIRD_DIALOG_ID,
+      autoFocus: false,
     }).afterClosed().subscribe(() => {
       if (!this.dialog.getDialogById(this.BONUS_DIALOG_ID))
         this.router.navigate(['/'])
@@ -104,11 +105,12 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     this.dialog.open(BonusCardDetailComponent, {
       data: { card },
       panelClass: 'card-detail-panel',
-      closeOnNavigation: true,
+      closeOnNavigation: false,
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
       id: this.BONUS_DIALOG_ID,
+      autoFocus: false,
     }).afterClosed().subscribe(() => {
       if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID))
         this.router.navigate(['/'])

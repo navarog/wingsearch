@@ -15,6 +15,10 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
 
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
+  @ViewChild('cardWrapper', { read: ElementRef })
+  cardWrapper: ElementRef
+  @ViewChild('carousel', { read: ElementRef })
+  carousel: ElementRef
 
   layout: 'desktop' | 'mobile'
   cardHeight$ = new BehaviorSubject<number>(0)
@@ -50,6 +54,8 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
         sort((a, b) => b.birdIds.length * b['VP Average'] - a.birdIds.length * a['VP Average'])
       )
     )
+    this.cardWrapper?.nativeElement.scroll(0, 0)
+    this.carousel?.nativeElement.scroll(0, 0)
   }
 
   ngAfterViewInit(): void {
