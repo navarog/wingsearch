@@ -26,13 +26,14 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   private readonly MAX_DISPLAY_COLUMNS = 6
 
-  private readonly DIALOG_ID = '0'
+  private readonly BIRD_DIALOG_ID = '0'
+  private readonly BONUS_DIALOG_ID = '1'
 
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
 
   cardHeight$ = new BehaviorSubject<number>(0)
-  isSelectedCardBird: boolean;
+  isSelectedCardBird: boolean
 
   constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService, private router: Router, private route: ActivatedRoute) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
@@ -47,12 +48,12 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     this.selectedCard$.subscribe(card => {
       if (!card) {
         this.dialog.closeAll()
-        this.isSelectedCardBird = null;
+        this.isSelectedCardBird = null
         return
       }
 
       if ((isBirdCard(card) && this.isSelectedCardBird) || (isBonusCard(card) && this.isSelectedCardBird === false)) {
-        const dialogRef = this.dialog.getDialogById(this.DIALOG_ID + this.isSelectedCardBird ? '0' : '1').componentInstance
+        const dialogRef = this.dialog.getDialogById(this.isSelectedCardBird ? this.BIRD_DIALOG_ID : this.BONUS_DIALOG_ID).componentInstance
         dialogRef.data = { card: card }
         dialogRef.initBonuses()
       } else {
@@ -92,12 +93,9 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-      id: this.DIALOG_ID + '0',
-    }).afterClosed().pipe(
-      mergeMap(() => this.store.select(selectCardId)),
-      first(),
-    ).subscribe((cardId) => {
-      if (cardId === card.id.toString())
+      id: this.BIRD_DIALOG_ID,
+    }).afterClosed().subscribe(() => {
+      if (!this.dialog.getDialogById(this.BONUS_DIALOG_ID))
         this.router.navigate(['/'])
     })
   }
@@ -110,12 +108,9 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-      id: this.DIALOG_ID + '1',
-    }).afterClosed().pipe(
-      mergeMap(() => this.store.select(selectCardId)),
-      first(),
-    ).subscribe((cardId) => {
-      if (cardId === card.id.toString())
+      id: this.BIRD_DIALOG_ID + '1',
+    }).afterClosed().subscribe(() => {
+      if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID))
         this.router.navigate(['/'])
     })
   }
