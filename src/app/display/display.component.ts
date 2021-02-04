@@ -1,7 +1,7 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
-import { selectCard, State } from '../store/router'
+import { selectCard, State, selectCardId } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
@@ -9,6 +9,7 @@ import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AnalyticsService } from '../analytics.service'
 import { ActivatedRoute, Router } from '@angular/router'
+import { first, mergeMap } from 'rxjs/operators'
 
 @Component({
   selector: 'app-display',
@@ -51,7 +52,7 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       }
 
       if ((isBirdCard(card) && this.isSelectedCardBird) || (isBonusCard(card) && this.isSelectedCardBird === false)) {
-        const dialogRef = this.dialog.getDialogById(this.DIALOG_ID).componentInstance
+        const dialogRef = this.dialog.getDialogById(this.DIALOG_ID + this.isSelectedCardBird ? '0' : '1').componentInstance
         dialogRef.data = { card: card }
         dialogRef.initBonuses()
       } else {
@@ -91,8 +92,14 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-      id: this.DIALOG_ID,
-    }).afterClosed().subscribe(() => this.router.navigate(['/']))
+      id: this.DIALOG_ID + '0',
+    }).afterClosed().pipe(
+      mergeMap(() => this.store.select(selectCardId)),
+      first(),
+    ).subscribe((cardId) => {
+      if (cardId === card.id.toString())
+        this.router.navigate(['/'])
+    })
   }
 
   openBonusDialog(card: BonusCard) {
@@ -103,8 +110,14 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       height: '100vh',
       width: '80vw',
       maxWidth: '80vw',
-      id: this.DIALOG_ID,
-    }).afterClosed().subscribe(() => this.router.navigate(['/']))
+      id: this.DIALOG_ID + '1',
+    }).afterClosed().pipe(
+      mergeMap(() => this.store.select(selectCardId)),
+      first(),
+    ).subscribe((cardId) => {
+      if (cardId === card.id.toString())
+        this.router.navigate(['/'])
+    })
   }
 
   onScroll() {
