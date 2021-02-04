@@ -593,7 +593,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong>American Oystercatcher<\/strong>, <strong>Belted Kingfisher<\/strong>, and <strong>Eastern Kingbird<\/strong>.)",
+                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong applink=\"\/card\/9\">American Oystercatcher<\/strong>, <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>, and <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>.)",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             },
             {
@@ -661,7 +661,7 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/447732882596986\/?comment_id=447733369263604"
             },
             {
-                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "text": "This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
             }
         ],
@@ -2085,7 +2085,7 @@
         "id": 24,
         "rulings": [
             {
-                "text": "This bird does not count toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird does not count toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31995"
             }
         ],
@@ -2146,7 +2146,7 @@
         "id": 25,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
             },
             {
@@ -2293,13 +2293,13 @@
         "id": 27,
         "rulings": [
             {
-                "text": "This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong>Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
+                "text": "This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong applink=\"\/card\/88\">Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ],
         "additionalRulings": [
             {
-                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong>American Oystercatcher<\/strong>, <strong>Belted Kingfisher<\/strong>, and <strong>Eastern Kingbird<\/strong>.)",
+                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong applink=\"\/card\/9\">American Oystercatcher<\/strong>, <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>, and <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>.)",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             },
             {
@@ -2509,7 +2509,7 @@
         "id": 29,
         "rulings": [
             {
-                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "text": "This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
             }
         ],
@@ -2698,7 +2698,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -3931,7 +3931,7 @@
         "id": 48,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -4652,7 +4652,7 @@
         "id": 56,
         "rulings": [
             {
-                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "text": "This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2207647\/article\/32048074#32048074"
             }
         ],
@@ -5464,7 +5464,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti\u2019s Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
+                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ]
@@ -5777,7 +5777,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -5918,7 +5918,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
             },
             {
-                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
+                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
@@ -6049,7 +6049,7 @@
         "id": 77,
         "rulings": [
             {
-                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "text": "If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
@@ -6110,21 +6110,21 @@
         "id": 78,
         "rulings": [
             {
-                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
-                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "text": "In games where the Automa has drawn the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
         "additionalRulings": [
             {
-                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong>Common Buzzard<\/strong>) qualify for the <strong>Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
+                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
@@ -6377,7 +6377,7 @@
         "id": 82,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
             }
         ],
@@ -6757,7 +6757,7 @@
         "id": 88,
         "rulings": [
             {
-                "text": "Using this bird's power to play a bird in your [wetland] triggers the power of the <strong>Belted Kingfisher<\/strong> on another player's player mat, despite the <strong>Belted Kingfisher<\/strong>'s entry in the Appendix.",
+                "text": "Using this bird's power to play a bird in your [wetland] triggers the power of the <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>'s entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ],
@@ -7022,7 +7022,7 @@
         "id": 92,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             },
             {
@@ -7092,7 +7092,7 @@
         "id": 93,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             },
             {
@@ -7163,7 +7163,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -7919,7 +7919,7 @@
         "id": 103,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -7985,13 +7985,13 @@
         "id": 104,
         "rulings": [
             {
-                "text": "This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong>Goldcrest<\/strong>'s power), despite this bird's entry in the Appendix.",
+                "text": "This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong applink=\"\/card\/128\">Goldcrest<\/strong>'s power), despite this bird's entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ],
         "additionalRulings": [
             {
-                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong>American Oystercatcher<\/strong>, <strong>Belted Kingfisher<\/strong>, and <strong>Eastern Kingbird<\/strong>.)",
+                "text": "If information printed on a card conflicts with the card's appendix entry, the information on the card takes precedence. (See <strong applink=\"\/card\/9\">American Oystercatcher<\/strong>, <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>, and <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>.)",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             },
             {
@@ -8140,7 +8140,7 @@
         "id": 285,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/649739262396346\/"
             }
         ],
@@ -8467,7 +8467,7 @@
         "id": 108,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             },
             {
@@ -8537,7 +8537,7 @@
         "id": 109,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
             }
         ],
@@ -8629,7 +8629,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti\u2019s Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
+                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ]
@@ -8689,21 +8689,21 @@
         "id": 111,
         "rulings": [
             {
-                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
-                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "text": "In games where the Automa has drawn the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
         "additionalRulings": [
             {
-                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong>Common Buzzard<\/strong>) qualify for the <strong>Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
+                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
@@ -8952,7 +8952,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2361799\/article\/33951687#33951687"
             },
             {
-                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
+                "text": "When a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>) copies this bird's power, that bird retains the ability to spend [seed] cached on it until the end of the turn but no longer.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
@@ -9022,7 +9022,7 @@
         "id": 116,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -9234,7 +9234,7 @@
         "id": 119,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -9312,7 +9312,7 @@
         "id": 120,
         "rulings": [
             {
-                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird no longer qualifies for it.",
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird no longer qualifies for it.",
                 "source": "Oceania Expansion rulebook"
             }
         ],
@@ -9447,7 +9447,7 @@
         "id": 122,
         "rulings": [
             {
-                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "text": "If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
@@ -9704,7 +9704,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -9898,7 +9898,7 @@
         "id": 128,
         "rulings": [
             {
-                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong>Eastern Kingbird<\/strong> on another player's player mat, despite the <strong>Eastern Kingbird<\/strong>'s entry in the Appendix.",
+                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>'s entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ],
@@ -9964,7 +9964,7 @@
         "id": 129,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2246435\/article\/32571727#32571727"
             }
         ],
@@ -10212,7 +10212,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
             },
             {
-                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
+                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             }
         ],
@@ -10410,7 +10410,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -10735,7 +10735,7 @@
         "id": 139,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Cartographer<\/strong> bonus card. (In early printings that bonus card did list include the keyword <i>prairie<\/i>.)",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card. (In early printings that bonus card did list include the keyword <i>prairie<\/i>.)",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
             }
         ],
@@ -11039,7 +11039,7 @@
         "id": 142,
         "rulings": [
             {
-                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "text": "If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
@@ -11345,7 +11345,7 @@
         ],
         "additionalRulings": [
             {
-                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong>Cetti\u2019s Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
+                "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ]
@@ -11591,7 +11591,7 @@
         "id": 147,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -11778,7 +11778,7 @@
         "id": 150,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -12059,7 +12059,7 @@
         "id": 152,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             },
             {
@@ -13103,7 +13103,7 @@
         "id": 306,
         "rulings": [
             {
-                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
                 "source": "Oceania Expansion rulebook"
             }
         ],
@@ -13567,7 +13567,7 @@
         "id": 165,
         "rulings": [
             {
-                "text": "If a bird (e.g., <strong>Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
+                "text": "If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
@@ -14271,7 +14271,7 @@
         "id": 169,
         "rulings": [
             {
-                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
@@ -14279,17 +14279,17 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
-                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "text": "In games where the Automa has drawn the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
         "additionalRulings": [
             {
-                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong>Common Buzzard<\/strong>) qualify for the <strong>Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
+                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
@@ -14672,7 +14672,7 @@
         "id": 317,
         "rulings": [
             {
-                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
                 "source": "Oceania Expansion rulebook"
             }
         ],
@@ -14864,7 +14864,7 @@
         "id": 174,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/450308885672719\/?comment_id=450451978991743&reply_comment_id=452668538770087"
             }
         ],
@@ -15125,7 +15125,7 @@
         "id": 178,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -15251,7 +15251,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2139859\/article\/31096068#31096068"
             },
             {
-                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong>Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
+                "text": "When this bird repeats the power of a bird with a <i>\"copy\"<\/i> power (e.g., the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong>), this bird repeats the copying power printed on that bird and not any powers that bird copied earlier in the turn.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             }
         ],
@@ -15621,7 +15621,7 @@
         "id": 184,
         "rulings": [
             {
-                "text": "This bird does not count toward the <strong>Anatomist<\/strong> bonus card.",
+                "text": "This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/453193798717561\/?comment_id=453409608695980&reply_comment_id=455637778473163"
             }
         ],
@@ -16020,7 +16020,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -16840,21 +16840,21 @@
         "id": 195,
         "rulings": [
             {
-                "text": "If this bird is played on top of a horizontal one (e.g., <strong>Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
+                "text": "If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             },
             {
-                "text": "In games where the Automa has drawn the <strong>Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
+                "text": "In games where the Automa has drawn the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card, this bird qualifies for that bonus card.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
-                "text": "This bird counts toward the <strong>Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
         "additionalRulings": [
             {
-                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong>Common Buzzard<\/strong>) qualify for the <strong>Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
+                "text": "Cards whose powers include the phrase <i>\"it becomes a tucked card\"<\/i> (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) qualify for the <strong applink=\"\/card\/1008\">Citizen Scientist<\/strong> bonus card when the Automa has drawn it.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
             },
             {
@@ -17236,7 +17236,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -18450,7 +18450,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -18518,7 +18518,7 @@
         "id": 215,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -18701,7 +18701,7 @@
         "id": 339,
         "rulings": [
             {
-                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong>Photographer<\/strong> bonus card, but <i>rufous<\/i> is a keyword, and hence this bird qualifies for that bonus card.",
+                "text": "As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, but <i>rufous<\/i> is a keyword, and hence this bird qualifies for that bonus card.",
                 "source": "Oceania Expansion rulebook"
             }
         ],
@@ -19231,7 +19231,7 @@
         "id": 222,
         "rulings": [
             {
-                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong>Eastern Kingbird<\/strong> on another player's player mat, despite the <strong>Eastern Kingbird<\/strong>'s entry in the Appendix.",
+                "text": "Using this bird's power to play a bird in your [forest] triggers the power of the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>'s entry in the Appendix.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592581981445408&comment_id=592771208093152"
             }
         ],
@@ -19366,7 +19366,7 @@
         "id": 223,
         "rulings": [
             {
-                "text": "This bird counts toward the <strong>Photographer<\/strong> bonus card.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-35706"
             },
             {
@@ -19374,7 +19374,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2336787\/article\/33673995#33673995"
             },
             {
-                "text": "This bird counts toward the <strong>Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
+                "text": "This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
             }
         ],
@@ -20485,15 +20485,15 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
             },
             {
-                "text": "This bird counts towards <strong>Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
+                "text": "This bird counts towards <strong applink=\"\/card\/1016\">Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/708244956545776\/?comment_id=708275409876064"
             },
             {
-                "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>).",
+                "text": "When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             },
             {
-                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong>Coat Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong applink=\"\/card\/256\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
@@ -20999,15 +20999,15 @@
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/677258919644380\/?comment_id=677284199641852&reply_comment_id=677287326308206"
             },
             {
-                "text": "This bird counts towards <strong>Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
+                "text": "This bird counts towards <strong applink=\"\/card\/1016\">Forester<\/strong> bonus card even though it can potentially fly elsewhere.",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/708244956545776\/?comment_id=708275409876064"
             },
             {
-                "text": "When a bird (e.g., the <strong>Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong>Black Vulture<\/strong>).",
+                "text": "When a bird (e.g., the <strong applink=\"\/card\/131\">Gray Catbird<\/strong>) repeats this bird's power, it repeats the copying power printed on this bird and not any powers this bird repeated earlier in the turn. Since being a predator power is a property of a power, this bird copying a predator power and the power succeeding counts as success of a predator power (e.g., for purposes of enabling the activation of a pink power on another player's mat, like that of the <strong applink=\"\/card\/32\">Black Vulture<\/strong>).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
             },
             {
-                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong>Coat Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong>Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
+                "text": "When this bird copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if it copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, it retains the ability to spend [seed] cached on this bird until the end of the turn but no longer, and if copies the <strong applink=\"\/card\/256\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
             }
         ],
@@ -22431,7 +22431,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
@@ -22500,7 +22500,7 @@
         "rulings": [],
         "additionalRulings": [
             {
-                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong>Black Tern<\/strong>'s power).",
+                "text": "You may perform an action even if it precludes you from performing an action required at the end of your turn (e.g., discarding a [card] from your hand at the end of a turn in which you activated the <strong applink=\"\/card\/31\">Black Tern<\/strong>'s power).",
                 "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/397335327636742\/?comment_id=397350010968607"
             },
             {
