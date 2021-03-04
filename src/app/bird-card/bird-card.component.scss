@@ -166,19 +166,39 @@
 }
 
 .brown {
-    background-color: #b37238bf;
+    background-image: url('../../assets/powers/brown.webp');
+    background-size: cover;
+}
+
+.no-webpalpha .brown {
+    background-image: url('../../assets/powers/brown.png');
 }
 
 .pink {
-    background-color: #e3b5ac;
+    background-image: url('../../assets/powers/pink.webp');
+    background-size: cover;
+}
+
+.no-webpalpha .pink {
+    background-image: url('../../assets/powers/pink.png');
 }
 
 .teal {
-    background-color: #77afa6;
+    background-image: url('../../assets/powers/teal.webp');
+    background-size: cover;
+}
+
+.no-webpalpha .teal {
+    background-image: url('../../assets/powers/teal.png');
 }
 
 .yellow {
-    background-color: #debc3f;
+    background-image: url('../../assets/powers/yellow.webp');
+    background-size: cover;
+}
+
+.no-webpalpha .yellow {
+    background-image: url('../../assets/powers/yellow.png');
 }
 
 .footer {

@@ -13,8 +13,38 @@ export class IconizePipe implements PipeTransform {
   </picture>
   `
 
-  transform(value: string, ...args: unknown[]): string {
-    return value && value.replace(/\[([a-z\-]+)\]/g, this.BASE_HTML_STRING)
+  private readonly DARK_MAP = {
+    'seed': 'seed-dark'
+  }
+
+  private readonly GLOW_MAP = {
+    'forest': 'forest-glow',
+    'grassland': 'grassland-glow',
+    'wetland': 'wetland-glow',
+    'seed': 'seed-glow',
+    'seed-dark': 'seed-dark-glow',
+    'invertebrate': 'invertebrate-glow',
+    'fish': 'fish-glow',
+    'fruit': 'fruit-glow',
+    'rodent': 'rodent-glow',
+    'nectar': 'nectar-glow',
+    'wild': 'wild-glow'
+  }
+
+  transform(value: string, dark = false, glow = false): string {
+    let result = value && value.replace(/\[([a-z\-]+)\]/g, this.BASE_HTML_STRING)
+
+    if (dark)
+      Object.entries(this.DARK_MAP).forEach(([key, value]) =>
+        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(key + suffix, "g"), value + suffix))
+      )
+    
+    if (glow)
+      Object.entries(this.GLOW_MAP).forEach(([key, value]) =>
+        ['.png', '.webp'].forEach(suffix => result = result.replace(new RegExp(key + suffix, "g"), value + suffix))
+      )
+
+    return result
   }
 
 }
