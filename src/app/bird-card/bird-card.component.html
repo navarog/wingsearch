@@ -1,4 +1,4 @@
-<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [style]="getBirdSilhouette()">
+<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [style]="getBirdSilhouette()" [ngStyle]="{'height.px': cardHeight}">
     <div class="upper-row">
         <div class="grey-square">
             <div class="habitats">
