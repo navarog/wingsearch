@@ -158,5 +158,15 @@
         "name": "Copy",
         "text": "When a bird with a <i>\"copy\"<\/i> power copies another bird's power, it retains any effects specified in the copied bird's power text as long as those effects may occur but not beyond the end of the turn. (So, e.g., if the <strong applink=\"\/card\/349\">Superb Lyrebird<\/strong> copies the <strong applink=\"\/card\/76\">Coal Tit<\/strong>'s power, the former bird retains the ability to spend [seed] cached on it until the end of the turn but no longer, and if it instead copies the <strong applink=\"\/card\/256\">Wood Duck<\/strong>'s power, the copied power still obligates you to discard a card at the end of your turn.)",
         "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509"
+    },
+    "32": {
+        "name": "Beak pointing left\/right",
+        "text": "A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
+    },
+    "33": {
+        "name": "Beak pointing left\/right",
+        "text": "This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
+        "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
     }
 }
