@@ -5551,6 +5551,10 @@
             {
                 "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
             }
         ]
     },
@@ -6147,7 +6151,12 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
-        "additionalRulings": []
+        "additionalRulings": [
+            {
+                "text": "A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
+            }
+        ]
     },
     {
         "Common name": "Common Buzzard",
@@ -8416,7 +8425,7 @@
         "Color": "Brown",
         "PowerCategory": "Egg-laying",
         "Power text": "Roll all dice not in the birdfeeder. If any are [rodent], place 1 [egg] on this card.",
-        "Predator": null,
+        "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
         "Victory points": 6.0,
@@ -8465,8 +8474,8 @@
         "id": 107,
         "rulings": [
             {
-                "text": "A future printing of this card will have the [predator] symbol; for now, play the card as printed.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-36469"
+                "text": "This bird's power is a [predator] power; the [predator] icon did not appear on the card in early printings, but the omission was corrected by April 2019.",
+                "source": "European Expansion"
             }
         ],
         "additionalRulings": []
@@ -8764,6 +8773,10 @@
             {
                 "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
             }
         ]
     },
@@ -9596,7 +9609,12 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
-        "additionalRulings": []
+        "additionalRulings": [
+            {
+                "text": "A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
+            }
+        ]
     },
     {
         "Common name": "European Turtle Dove",
@@ -11213,7 +11231,12 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
             }
         ],
-        "additionalRulings": []
+        "additionalRulings": [
+            {
+                "text": "A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
+            }
+        ]
     },
     {
         "Common name": "Grey Shrikethrush",
@@ -11522,6 +11545,10 @@
             {
                 "text": "Only powers of birds played on a player mat can be used. In particular, birds with the power <i>\"This bird counts double toward the end-of-round goal, if it qualifies for the goal.\" (e.g., <strong applink=\"\/card\/69\">Cetti's Warbler<\/strong>) does not count double toward the <strong>[card] in hand<\/strong> end-of-round goal.",
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/wingspan-european-expansion\/"
+            },
+            {
+                "text": "This bird counts double for <strong>Beak pointing left\/right<\/strong> if it qualifies for the goal.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/744575159579422\/"
             }
         ]
     },
@@ -13784,7 +13811,12 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
             }
         ],
-        "additionalRulings": []
+        "additionalRulings": [
+            {
+                "text": "A bird played horizontally qualifies for one of <strong>Beak pointing left\/right<\/strong> end-of-round goals if and only if it would count were the card played in its vertical orientation.",
+                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/723516585018613\/?comment_id=723543355015936"
+            }
+        ]
     },
     {
         "Common name": "Magpie-Lark",
@@ -14783,7 +14815,7 @@
         "PowerCategory": "Flocking",
         "Power text": "Choose 1-3 birds in your [wetland]. Tuck 1 [card] from your hand behind each. If you tuck at least 1 card, draw 1 [card].",
         "Predator": null,
-        "Flocking": null,
+        "Flocking": "X",
         "Bonus card": null,
         "Victory points": 4.0,
         "Nest type": "Ground",
@@ -14831,8 +14863,8 @@
         "id": 173,
         "rulings": [
             {
-                "text": "A future printing of this card will have the [flocking] symbol; for now, play the card as printed.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-36469"
+                "text": "This bird's power is a [flocking] power; the [flocking] icon did not appear on the card in early printings, but the omission was corrected by April 2019.",
+                "source": "European Expansion"
             }
         ],
         "additionalRulings": [
