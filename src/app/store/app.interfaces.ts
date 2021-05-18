@@ -50,6 +50,7 @@ export interface BirdCard {
     'Bird Bander': string | null
     'Bird Counter': string | null
     'Bird Feeder': string | null
+    'Caprimulgiform Specialist': string | null
     'Diet Specialist': string | null
     'Enclosure Builder': string | null
     Falconer: string | null

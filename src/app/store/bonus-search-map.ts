@@ -115,4 +115,7 @@ export const bonusSearchMap = {
     1037: (birdCard: BirdCard) => {
         return !!birdCard.Wetland
     },
+    1038: (birdCard: BirdCard) => {
+        return !!birdCard['Caprimulgiform Specialist']
+    }
 }

@@ -9,6 +9,10 @@ export class ApplinkDirective {
   constructor(private router: Router) {}
 
   @HostListener('click', ['$event.target']) onClick($event) {
-    this.router.navigate([$event.getAttribute('applink')])
+    const url: string = $event.getAttribute('applink')
+    if(url.match(/http:\/\/|https:\/\//))
+      window.location.href = url
+    else
+      this.router.navigate([url])
   }
 }

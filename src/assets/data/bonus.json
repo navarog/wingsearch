@@ -105,6 +105,19 @@
         "rulings": []
     },
     {
+        "Name": "Caprimulgiform Specialist",
+        "Expansion": "originalcore",
+        "Automa": "X",
+        "Condition": "Birds of the orders Caprimulgiformes and Apodiformes",
+        "Explanatory text": "Species include chuck-will's-widow, frogmouths, hummingbirds, nighthawks, nightjars, oilbird, owlet-nightjars, pauraque, poorwills, potoos, spinetails, swifts, swiftlets, treeswifts, whip-poor-wills",
+        "VP": "3[point] per bird",
+        "%": "-",
+        "Note": "This card is part of Frogmouth Fan Pack made by <strong applink=\"https:\/\/boardgamegeek.com\/user\/TawnyFrogmouth\">TawnyFrogmouth<\/strong>.",
+        "VP Average": 3.0,
+        "id": 1038,
+        "rulings": []
+    },
+    {
         "Name": "Cartographer",
         "Expansion": "originalcore",
         "Automa": "X",
