@@ -89,6 +89,7 @@
     height: 47.7%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     .left-column {
         height: 100%;
@@ -118,6 +119,27 @@
                     max-width: 30%;
                     margin: 0 5%;
                 }
+            }
+    }
+
+    .right-column {
+        height: 100%;
+        width: 25%;
+        margin-right: 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+
+            .wingspan {
+                font-family: CardenioModernBold, Arial, Helvetica;
+                color: #666666;
+            }
+
+            img {
+                max-width: 90%;
+                max-height: 90%;
+                padding: 0 5%;
             }
     }
 }

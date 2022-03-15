@@ -26,6 +26,10 @@ export const search = createAction('[App] Search', props<{
         min: number,
         max: number
     },
+    wingspan: {
+        min: number,
+        max: number
+    }
     colors: {
         brown: boolean,
         pink: boolean,

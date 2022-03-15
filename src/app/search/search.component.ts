@@ -62,6 +62,10 @@ export class SearchComponent implements OnInit {
       min: 0,
       max: 9
     },
+    wingspan: {
+      min: 0,
+      max: 500
+    },
     colors: {
       brown: true,
       pink: true,
@@ -106,6 +110,16 @@ export class SearchComponent implements OnInit {
     stepsArray: Array.from(Array(10).keys()).map(key => ({ value: key }))
   }
 
+  wingspanOptions: Options = {
+    showTicksValues: true,
+    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key})),
+    translate: value => {
+      if (value === 0) { return 'min'; }
+      else if (value === 500) { return 'max'; }
+      else { return value.toString(); }
+    } 
+  }
+
   eggs = {
     min: 0,
     max: 6
@@ -114,6 +128,11 @@ export class SearchComponent implements OnInit {
   points = {
     min: 0,
     max: 9
+  }
+
+  wingspan = {
+    min: 0,
+    max: 500
   }
 
   language = 'en'
@@ -177,6 +196,7 @@ export class SearchComponent implements OnInit {
   clearFilter() {
     this.eggs = { min: 0, max: 6 }
     this.points = { min: 0, max: 9 }
+    this.wingspan = { min: 0, max: 500 }
     this.query = {
       ...this.query,
       main: '',
@@ -188,6 +208,7 @@ export class SearchComponent implements OnInit {
       },
       eggs: { ...this.eggs },
       points: { ...this.points },
+      wingspan: { ...this.wingspan },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
       food: { invertebrate: true, seed: true, fruit: true, fish: true, rodent: true, nectar: true, 'wild (food)': true, 'no-food': true },
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
@@ -204,6 +225,11 @@ export class SearchComponent implements OnInit {
 
   onPointsChange() {
     this.query = { ...this.query, points: { ...this.points } }
+    this.onQueryChange()
+  }
+
+  onWingspanChange() {
+    this.query = { ...this.query, wingspan: { ...this.wingspan } }
     this.onQueryChange()
   }
 
