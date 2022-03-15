@@ -1569,7 +1569,7 @@
         "Expansion": "oceania",
         "Color": "White",
         "PowerCategory": null,
-        "Power text": "Play another bird in your wetland. Pay its normal cost with a 1 [egg] discount.",
+        "Power text": "Play another bird in your [wetland]. Pay its normal cost with a 1 [egg] discount.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
