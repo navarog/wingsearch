@@ -74,14 +74,14 @@ export class SearchComponent implements OnInit {
       yellow: true
     },
     food: {
-      invertebrate: true,
-      seed: true,
-      fruit: true,
-      fish: true,
-      rodent: true,
-      nectar: true,
-      'no-food': true,
-      'wild (food)': true
+      invertebrate: false,
+      seed: false,
+      fruit: false,
+      fish: false,
+      rodent: false,
+      nectar: false,
+      'no-food': false,
+      'wild (food)': false
     },
     nest: {
       Bowl: true,
@@ -210,7 +210,7 @@ export class SearchComponent implements OnInit {
       points: { ...this.points },
       wingspan: { ...this.wingspan },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
-      food: { invertebrate: true, seed: true, fruit: true, fish: true, rodent: true, nectar: true, 'wild (food)': true, 'no-food': true },
+      food: { invertebrate: false, seed: false, fruit: false, fish: false, rodent: false, nectar: false, 'wild (food)': false, 'no-food': false },
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
     }
     this.bonusControl.setValue('')
