@@ -43,11 +43,7 @@
         <div class="right-column" *ngIf="cardHeight">
             <span [innerHTML]="wingspan" class="wingspan"
                 [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034}"></span>
-            <picture *ngIf="wingspan">
-                <source type="image/webp" srcset="assets/icons/png/wingspan.webp">
-                <source type="image/png" srcset="assets/icons/png/wingspan.png">
-                <img src="assets/icons/png/wingspan.png" alt="{{wingspan}}" aria-hidden="true">
-            </picture>
+            <img src="assets/icons/png/wingspan.png" *ngIf="wingspan" alt="{{wingspan}}" aria-hidden="true">
         </div>
     </div>
     <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
