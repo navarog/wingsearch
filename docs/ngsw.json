@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1655750584040,
+  "timestamp": 1655751140220,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -1673,7 +1673,7 @@
     "/wingsearch/assets/data/i18n/es.json": "f7ad04576391813ad1c64b069ba9bdf585b0e90b",
     "/wingsearch/assets/data/i18n/fr.json": "13062de7cc4662c9af9f0f286dca78ea80d248d7",
     "/wingsearch/assets/data/i18n/nl.json": "75e5bcbb5069c5cfcf714a28f2bfbb1e3acea19d",
-    "/wingsearch/assets/data/i18n/pl.json": "16ba51ce31bb5387fde1be12e2082693df919b88",
+    "/wingsearch/assets/data/i18n/pl.json": "5241f86d829c0ab1d3b3017a27ca275604382717",
     "/wingsearch/assets/data/i18n/tr.json": "cd364139c510ec7171d2035c43724a9c22451ff0",
     "/wingsearch/assets/data/master.json": "715f193eda36839e814fb2a6891f20b18d1b34f5",
     "/wingsearch/assets/falcon.png": "2867e74f1d8f7e384846e951a4a6d2b50bbd782c",
