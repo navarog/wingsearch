@@ -40,6 +40,11 @@
                 </picture>
             </div>
         </div>
+        <div class="right-column" *ngIf="cardHeight">
+            <span [innerHTML]="wingspan" class="wingspan"
+                [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034}"></span>
+            <img src="assets/icons/png/wingspan.png" *ngIf="wingspan" alt="{{wingspan}}" aria-hidden="true">
+        </div>
     </div>
     <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
         <div class='text' *ngIf="card.Color" [innerHTML]="(getPowerTitle() + card['Power text'] | iconize:card.Color !== 'White':card.Color !== 'White')"

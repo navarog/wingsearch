@@ -18,6 +18,7 @@ export class BirdCardComponent implements OnInit {
 
   habitats: string[]
   eggs: any[]
+  wingspan: string
   powerTitle = '<span class="intro">[power][text]: </span>'
 
   constructor(private translate: TranslatePipe) { }
@@ -25,6 +26,7 @@ export class BirdCardComponent implements OnInit {
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
     this.eggs = Array(this.card['Egg capacity'])
+    this.wingspan = this.card['Wingspan'] + (this.card['Wingspan'] !== '*' ? 'cm' : '')
   }
 
   buildFoodCostString() {
