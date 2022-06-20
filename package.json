@@ -29,8 +29,6 @@
     "@ngrx/router-store": "^10.0.0",
     "@ngrx/store": "^10.0.0",
     "@ngrx/store-devtools": "^10.0.0",
-    "@types/modernizr": "^3.5.3",
-    "Modernizr": "https://modernizr.com/download?webpalpha-setclasses",
     "flexsearch": "^0.6.32",
     "fs": "0.0.1-security",
     "ng5-slider": "^1.2.4",

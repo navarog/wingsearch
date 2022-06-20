@@ -66,6 +66,6 @@ export class BirdCardComponent implements OnInit {
   }
 
   getBirdSilhouette() {
-    return `background-image: url(assets/cards/birds/${this.card.id}.${Modernizr.webpalpha ? 'webp' : 'png'})`
+    return `background-image: url(assets/cards/birds/${this.card.id}.webp)`
   }
 }
