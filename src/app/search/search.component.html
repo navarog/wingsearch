@@ -88,7 +88,7 @@
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="teal" class="pointer shrink"
             [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')"
-            *ngIf="query.expansion.european">
+            *ngIf="query.expansion.european || query.expansion.asia">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/teal.webp">
                 <source type="image/png" srcset="assets/icons/png/teal.png">
@@ -98,7 +98,7 @@
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="yellow" class="pointer shrink"
             [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')"
-            *ngIf="query.expansion.oceania">
+            *ngIf="query.expansion.oceania || query.expansion.asia">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/yellow.webp">
                 <source type="image/png" srcset="assets/icons/png/yellow.png">
@@ -155,7 +155,7 @@
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="nectar" class="pointer shrink"
             [ngClass]="{inactive: !query.food.nectar}" (click)="toggleFood('nectar')"
-            *ngIf="query.expansion.oceania">
+            *ngIf="query.expansion.oceania || query.expansion.asia">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/nectar.webp">
                 <source type="image/png" srcset="assets/icons/png/nectar.png">

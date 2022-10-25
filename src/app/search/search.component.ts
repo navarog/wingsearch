@@ -30,6 +30,7 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly supportedExpansions = [
+    { value: 'asia', display: 'Asia expansion' },
     { value: 'oceania', display: 'Oceania expansion' },
     { value: 'european', display: 'European expansion' },
     { value: 'swiftstart', display: 'Swift-start pack' },
@@ -49,6 +50,7 @@ export class SearchComponent implements OnInit {
       bonuses: true
     },
     expansion: {
+      asia: true,
       oceania: true,
       european: true,
       swiftstart: true,
@@ -136,7 +138,7 @@ export class SearchComponent implements OnInit {
   }
 
   language = 'en'
-  selectedExpansions = ['oceania', 'european', 'originalcore', 'swiftstart']
+  selectedExpansions = ['asia', 'oceania', 'european', 'originalcore', 'swiftstart']
 
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
@@ -152,6 +154,7 @@ export class SearchComponent implements OnInit {
     this.query = {
       ...this.query,
       expansion: {
+        asia: cookies.getCookie('expansion.asia') !== '0',
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
         swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',

@@ -139,7 +139,8 @@ export enum Expansion {
     Core = 'originalcore',
     Swiftstart = 'swiftstart',
     European = 'european',
-    Oceania = 'oceania'
+    Oceania = 'oceania',
+    Asia = 'asia',
 }
 
 export interface DisplayedStats {
