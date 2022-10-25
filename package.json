@@ -12,6 +12,10 @@
     "build-prod": "ng build --prod --output-path docs --base-href /wingsearch/ --resourcesOutputPath=assets/generated --outputHashing=bundles && cp docs/index.html docs/404.html",
     "build-local": "ng build --prod --resourcesOutputPath=assets/generated --outputHashing=bundles && cp dist/wingsearch/index.html dist/wingsearch/404.html"
   },
+  "engines": {
+    "node": "v14.17.4",
+    "npm": "8.12.2"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.1.12",
