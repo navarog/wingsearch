@@ -30,6 +30,10 @@ export const search = createAction('[App] Search', props<{
         min: number,
         max: number
     }
+    foodCost: {
+        min: number,
+        max: number
+    }
     colors: {
         brown: boolean,
         pink: boolean,

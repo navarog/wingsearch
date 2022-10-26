@@ -41,6 +41,10 @@ mat-panel-title {
     justify-content: space-between;
 }
 
+.flex-column.justify-end {
+    justify-content: flex-end;
+}
+
 .flex-column:last-child {
     align-items: flex-end;
 }
@@ -176,6 +180,11 @@ mat-select-trigger {
 .flex-mgt20 {
     display: flex;
     margin-top: 20px;
+}
+
+.flex-mgt10 {
+    display: flex;
+    margin-top: 10px;
 }
 
 .description {

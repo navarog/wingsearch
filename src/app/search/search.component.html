@@ -240,7 +240,7 @@
                     </picture>
                 </span>
             </div>
-            <div class="flex-mgt20">
+            <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide eggs" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 272px">
                         <ng5-slider [(value)]="eggs.min" [(highValue)]="eggs.max" [options]="eggOptions"
@@ -255,7 +255,7 @@
                     </picture>
                 </span>
             </div>
-            <div class="flex-mgt20">
+            <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide points" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
                         <ng5-slider [(value)]="points.min" [(highValue)]="points.max" [options]="pointOptions"
@@ -270,7 +270,7 @@
                     </picture>
                 </span>
             </div>
-            <div class="flex-mgt20">
+            <div class="flex-mgt10">
                 <span appAnalyticsEvent="Slide wingspan" class="slider-wrapper">
                     <div class="custom-slider" style="max-width: 400px">
                         <ng5-slider [(value)]="wingspan.min" [(highValue)]="wingspan.max" [options]="wingspanOptions"
@@ -281,12 +281,23 @@
                         <source type="image/png" srcset="assets/icons/png/wingspan.png">
                         <img src="assets/icons/png/wingspan.png" alt="wingspan" aria-hidden="false"
                             matTooltip="Filter by wingspan" aria-label="Select wingspan"
-                            style="max-height: 10px; width: auto; margin-left: 10px">
+                            style="max-height: 10px; width: auto; margin-left: 10px; margin-top: 10px">
                     </picture>
                 </span>
             </div>
+            <div class="flex-mgt10">
+                <span appAnalyticsEvent="Slide foodCost" class="slider-wrapper">
+                    <div class="custom-slider" style="max-width: 400px">
+                        <ng5-slider [(value)]="foodCost.min" [(highValue)]="foodCost.max" [options]="foodCostOptions"
+                            (userChangeEnd)="onFoodCostChange()"></ng5-slider>
+                    </div>
+                    <img src="assets/icons/svg/food-cost.svg" alt="food cost" aria-hidden="false"
+                            matTooltip="Filter by wingspan" aria-label="Select food cost"
+                            style="max-height: 70%; width: auto; margin-left: 10px; margin-top: 2px">
+                </span>
+            </div>
         </div>
-        <div class="flex-column">
+        <div class="flex-column justify-end">
             <div class="language-wrapper">
                 <div appAnalyticsEvent="Show language support" matTooltip="More about language support"
                     (click)="openLanguageDialog()">

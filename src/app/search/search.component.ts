@@ -68,6 +68,10 @@ export class SearchComponent implements OnInit {
       min: 0,
       max: 500
     },
+    foodCost: {
+      min: 0,
+      max: 3
+    },
     colors: {
       brown: true,
       pink: true,
@@ -114,12 +118,17 @@ export class SearchComponent implements OnInit {
 
   wingspanOptions: Options = {
     showTicksValues: true,
-    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key})),
+    stepsArray: [0, 20, 30, 50, 75, 100, 150, 500].map(key => ({ value: key })),
     translate: value => {
       if (value === 0) { return 'min'; }
       else if (value === 500) { return 'max'; }
       else { return value.toString(); }
-    } 
+    }
+  }
+
+  foodCostOptions: Options = {
+    showTicksValues: true,
+    stepsArray: Array.from(Array(4).keys()).map(key => ({ value: key })),
   }
 
   eggs = {
@@ -135,6 +144,11 @@ export class SearchComponent implements OnInit {
   wingspan = {
     min: 0,
     max: 500
+  }
+
+  foodCost = {
+    min: 0,
+    max: 3
   }
 
   language = 'en'
@@ -200,6 +214,7 @@ export class SearchComponent implements OnInit {
     this.eggs = { min: 0, max: 6 }
     this.points = { min: 0, max: 9 }
     this.wingspan = { min: 0, max: 500 }
+    this.foodCost = { min: 0, max: 3 }
     this.query = {
       ...this.query,
       main: '',
@@ -212,6 +227,7 @@ export class SearchComponent implements OnInit {
       eggs: { ...this.eggs },
       points: { ...this.points },
       wingspan: { ...this.wingspan },
+      foodCost: { ...this.foodCost },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
       food: { invertebrate: false, seed: false, fruit: false, fish: false, rodent: false, nectar: false, 'wild (food)': false, 'no-food': false },
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
@@ -233,6 +249,11 @@ export class SearchComponent implements OnInit {
 
   onWingspanChange() {
     this.query = { ...this.query, wingspan: { ...this.wingspan } }
+    this.onQueryChange()
+  }
+
+  onFoodCostChange() {
+    this.query = { ...this.query, foodCost: { ...this.foodCost } }
     this.onQueryChange()
   }
 

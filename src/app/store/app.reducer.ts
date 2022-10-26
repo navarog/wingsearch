@@ -138,6 +138,10 @@ const reducer = createReducer(
             isBonusCard(card) || card['Wingspan'] === '*' || (action.wingspan.min <= card['Wingspan'] && action.wingspan.max >= card['Wingspan'])
         )
 
+        displayedCards = displayedCards.filter(card =>
+            isBonusCard(card) ||  (action.foodCost.min <= card['Total food cost'] && action.foodCost.max >= card['Total food cost'])
+        )
+
         const displayedStats = calculateDisplayedStats(displayedCards)
 
         displayedCards = displayedCards.filter(card =>
