@@ -175,6 +175,10 @@ mat-select-trigger {
             margin-top: 4px;
         }
     }
+
+    .flex-column.justify-end {
+        justify-content: space-between;
+    }
 }
 
 .flex-mgt20 {
