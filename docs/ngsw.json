@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1666854058281,
+  "timestamp": 1667046581080,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -1866,7 +1866,7 @@
     "/wingsearch/index.html": "e6a0e3afacfbca14683e0e3ee8fee17b78aab95a",
     "/wingsearch/main-es2015.0b12db1bbdb5ba51eaea.js": "f86a2f6a0daca29666d8d126fe1647fc67977116",
     "/wingsearch/main-es5.0b12db1bbdb5ba51eaea.js": "591299aaa32aa04b3e3e3d3591f8820330e0c282",
-    "/wingsearch/manifest.webmanifest": "e36ea5e0019ff95c4543f3f96144aafdf4e8ff22",
+    "/wingsearch/manifest.webmanifest": "e5a14b512f5654339d7cd892627667e3f337c051",
     "/wingsearch/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/wingsearch/polyfills-es5.177e85a9724683782539.js": "ee6f7e234ad10807a01d17ceae36a813bb93dc4e",
     "/wingsearch/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
