@@ -30,7 +30,7 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly supportedExpansions = [
-    { value: 'asia', display: 'Asia expansion' },
+    { value: 'asia', display: 'Asia' },
     { value: 'oceania', display: 'Oceania expansion' },
     { value: 'european', display: 'European expansion' },
     { value: 'swiftstart', display: 'Swift-start pack' },
