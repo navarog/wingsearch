@@ -5,6 +5,10 @@ import { Pipe, PipeTransform } from '@angular/core'
 })
 export class IconizePipe implements PipeTransform {
 
+  private static readonly NON_SEPARATION_SPECIAL_CHARACTERS = ['\\.', ',', ';', '\\-', '\\)']
+
+  static nonSeparationSpecialCharactersRegex: string = IconizePipe.NON_SEPARATION_SPECIAL_CHARACTERS.join('|');
+
   private readonly BASE_HTML_STRING = `
   <picture class="icon-picture">
     <source type="image/webp" srcset="assets/icons/png/$1.webp">
@@ -12,6 +16,7 @@ export class IconizePipe implements PipeTransform {
     <img class="icon-image" src="assets/icons/png/$1.png" alt="$1" aria-hidden="false" aria-label="$1 icon">
   </picture>
   `
+  private readonly NOBR_HTML_STRING = `<span class="nobr">` + this.BASE_HTML_STRING + `$2` + `</span>`
 
   private readonly DARK_MAP = {
     'seed': 'seed-dark'
@@ -32,7 +37,9 @@ export class IconizePipe implements PipeTransform {
   }
 
   transform(value: string, dark = false, glow = false): string {
-    let result = value && value.replace(/\[([a-z\-]+)\]/g, this.BASE_HTML_STRING)
+    let result = value && value
+      .replace(new RegExp('\\[([a-z\\-]+)\\]' + '(?!' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.BASE_HTML_STRING)
+      .replace(new RegExp('\\[([a-z\\-]+)\\]' + '(' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.NOBR_HTML_STRING)
 
     if (dark)
       Object.entries(this.DARK_MAP).forEach(([key, value]) =>

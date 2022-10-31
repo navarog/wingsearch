@@ -150,6 +150,10 @@ body {
     max-width: 1em;
 }
 
+.nobr {
+  white-space: nowrap;
+}
+
 .card-detail-panel {
         .mat-dialog-container {
         background-color: unset;
