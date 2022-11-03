@@ -313,3 +313,15 @@ mat-chip.custom-chip {
 button {
     max-height: 40px;
 }
+
+.beak-wrapper {
+    height: 40px;
+    width: 80px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+

@@ -298,6 +298,28 @@
             </div>
         </div>
         <div class="flex-column justify-end">
+            <div class="beak-wrapper">
+                <div class="flex-row" matTooltip="Toggle birds with a specific beak type">
+                    <span appAnalyticsEvent="Toggle beak" eventLabel="left" class="pointer shrink"
+                        [ngClass]="{inactive: !query.beak.left}" (click)="toggleBeak('left')">
+                        <picture>
+                            <source type="image/webp" srcset="assets/icons/png/beak-left.webp">
+                            <source type="image/png" srcset="assets/icons/png/beak-left.png">
+                            <img class="beak-image" src="assets/icons/png/beak-left.png" aria-hidden="false"
+                                aria-label="Toggle left" alt="left">
+                        </picture>
+                    </span>
+                    <span appAnalyticsEvent="Toggle beak" eventLabel="right" class="pointer shrink"
+                        [ngClass]="{inactive: !query.beak.right}" (click)="toggleBeak('right')">
+                        <picture>
+                            <source type="image/webp" srcset="assets/icons/png/beak-right.webp">
+                            <source type="image/png" srcset="assets/icons/png/beak-right.png">
+                            <img class="beak-image" src="assets/icons/png/beak-right.png" aria-hidden="false"
+                                aria-label="Toggle right" alt="right">
+                        </picture>
+                    </span>
+                </div>
+            </div>
             <div class="language-wrapper">
                 <div appAnalyticsEvent="Show language support" matTooltip="More about language support"
                     (click)="openLanguageDialog()">
