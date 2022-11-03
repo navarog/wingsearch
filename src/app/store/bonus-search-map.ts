@@ -117,5 +117,44 @@ export const bonusSearchMap = {
     },
     1038: (birdCard: BirdCard) => {
         return !!birdCard['Caprimulgiform Specialist']
-    }
+    },
+    1039: (birdCard: BirdCard) => {
+        return birdCard['Egg capacity'] > 0
+    },
+    1040: (birdCard: BirdCard) => {
+        return birdCard['Egg capacity'] <= 2
+    },
+    1041: (birdCard: BirdCard) => {
+        return birdCard['Nest type'] === 'Wild' || !!birdCard['Forest']
+    },
+    1042: (birdCard: BirdCard) => {
+        return birdCard['Nest type'] === 'Wild' || !!birdCard['Grassland']
+    },
+    1043: (birdCard: BirdCard) => {
+        return birdCard['Nest type'] === 'Wild' || !!birdCard['Wetland']
+    },
+    1044: (birdCard: BirdCard) => {
+        return true
+    },
+    1045: (birdCard: BirdCard) => {
+        return !!birdCard['Power text']?.match(/(cache [1-9] \[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*cache it)/)
+    },
+    1046: (birdCard: BirdCard) => {
+        return !!birdCard['Endangered Species Protector']
+    },
+    1047: (birdCard: BirdCard) => {
+        return !!birdCard['Forest']
+    },
+    1048: (birdCard: BirdCard) => {
+        return !!birdCard['Grassland']
+    },
+    1049: (birdCard: BirdCard) => {
+        return !!birdCard['Wetland']
+    },
+    1050: (birdCard: BirdCard) => {
+        return true
+    },
+    1051: (birdCard: BirdCard) => {
+        return true
+    },
 }

@@ -69,6 +69,10 @@ export interface BirdCard {
     Viticulturalist: string | null
     'Wetland Scientist': string | null
     'Wildlife Gardener': string | null
+    'Small Clutch Specialist': string | null
+    'Endangered Species Protector': string | null
+    'Beak Pointing Left': string | null
+    'Beak Pointing Right': string | null
     isBirdCard: () => true
     isBonusCard: () => false
 }
