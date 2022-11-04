@@ -147,7 +147,7 @@ const reducer = createReducer(
             || (action.beak.left && action.beak.right)
             || (action.beak.left && card['Beak Pointing Left'])
             || (action.beak.right && card['Beak Pointing Right'])
-            || (!action.beak.left && !action.beak.right && !card['Beak Pointing Left'] && !card['Beak Pointing Right'])
+            || ([action.beak.left, action.beak.right, card['Beak Pointing Left'], card['Beak Pointing Right']].every(x => !x))
         )
 
         const displayedStats = calculateDisplayedStats(displayedCards)
