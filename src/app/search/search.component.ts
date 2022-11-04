@@ -122,7 +122,7 @@ export class SearchComponent implements OnInit {
 
   wingspanOptions: Options = {
     showTicksValues: true,
-    stepsArray: [0, 30, 40, 50, 75, 100, 150, 500].map(key => ({ value: key })),
+    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key })),
     translate: value => {
       if (value === 0) { return 'min'; }
       else if (value === 500) { return 'max'; }
