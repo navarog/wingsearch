@@ -315,13 +315,18 @@ button {
 }
 
 .beak-wrapper {
-    height: 40px;
-    width: 80px;
+    max-width: 85px;
 }
 
 .flex-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.beak-image {
+    width: 100%;
+    max-width: 30px;
+    margin: 0 6px;
 }
 
