@@ -178,6 +178,10 @@ mat-select-trigger {
 
     .flex-column.justify-end {
         justify-content: space-between;
+        flex-wrap: wrap;
+        & > * {
+            margin: 0 4px;
+        }
     }
 }
 
