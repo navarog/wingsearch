@@ -52,8 +52,8 @@ export class BirdCardComponent implements OnInit {
   }
 
   getPowerTitle() {
-    const escapePower = (power: string) => power ? `[${power.toLowerCase()}]` : ''
-    const powerKeys = ['Predator', 'Flocking']
+    const escapePower = (power: string) => power ? `[${power.toLowerCase().replace(' ', '-')}]` : ''
+    const powerKeys = ['Predator', 'Flocking', 'Bonus card']
     const textMap = {
       Brown: 'WHEN ACTIVATED',
       White: 'WHEN PLAYED',

@@ -95,61 +95,61 @@ export const bonusSearchMap = {
         return !!birdCard['Wildlife Gardener']
     },
     1031: (birdCard: BirdCard) => {
-        return birdCard['Victory points'] === 3 || birdCard['Victory points'] === 4
+        return !!birdCard['Caprimulgiform Specialist']
     },
     1032: (birdCard: BirdCard) => {
-        return birdCard['Victory points'] >= 6 || birdCard['Victory points'] <= 7
+        return birdCard['Victory points'] === 3 || birdCard['Victory points'] === 4
     },
     1033: (birdCard: BirdCard) => {
-        return !!birdCard.Forest
+        return birdCard['Victory points'] >= 6 || birdCard['Victory points'] <= 7
     },
     1034: (birdCard: BirdCard) => {
-        return !!birdCard.Grassland
+        return !!birdCard.Forest
     },
     1035: (birdCard: BirdCard) => {
-        return true
+        return !!birdCard.Grassland
     },
     1036: (birdCard: BirdCard) => {
         return true
     },
     1037: (birdCard: BirdCard) => {
-        return !!birdCard.Wetland
+        return true
     },
     1038: (birdCard: BirdCard) => {
-        return !!birdCard['Caprimulgiform Specialist']
+        return !!birdCard.Wetland
     },
     1039: (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] > 0
     },
     1040: (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] <= 2
+        return !!birdCard['Endangered Species Protector']
     },
     1041: (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' || !!birdCard['Forest']
+        return birdCard['Nest type'] === 'Wild' && !!birdCard['Forest']
     },
     1042: (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' || !!birdCard['Grassland']
+        return !!birdCard['Forest']
     },
     1043: (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' || !!birdCard['Wetland']
+        return birdCard['Nest type'] === 'Wild' && !!birdCard['Grassland']
     },
     1044: (birdCard: BirdCard) => {
-        return true
+        return !!birdCard['Grassland']
     },
     1045: (birdCard: BirdCard) => {
         return !!birdCard['Power text']?.match(/(cache [1-9] \[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*cache it)/)
     },
     1046: (birdCard: BirdCard) => {
-        return !!birdCard['Endangered Species Protector']
+        return birdCard['Egg capacity'] <= 2
     },
     1047: (birdCard: BirdCard) => {
-        return !!birdCard['Forest']
+        return birdCard['Nest type'] === 'Wild' && !!birdCard['Wetland']
     },
     1048: (birdCard: BirdCard) => {
-        return !!birdCard['Grassland']
+        return !!birdCard['Wetland']
     },
     1049: (birdCard: BirdCard) => {
-        return !!birdCard['Wetland']
+        return true
     },
     1050: (birdCard: BirdCard) => {
         return true
