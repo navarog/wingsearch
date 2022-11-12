@@ -1,4 +1,5 @@
 import { createAction, props } from '@ngrx/store'
+import { Expansion } from './app.interfaces'
 
 export const search = createAction('[App] Search', props<{
     main: string,
@@ -12,12 +13,7 @@ export const search = createAction('[App] Search', props<{
         birds: boolean,
         bonuses: boolean
     },
-    expansion: {
-        originalcore: boolean,
-        swiftstart: boolean,
-        european: boolean,
-        oceania: boolean,
-    },
+    expansion: Expansion,
     eggs: {
         min: number,
         max: number
@@ -68,12 +64,7 @@ export const search = createAction('[App] Search', props<{
 
 export const bonusCardSearch = createAction('[App] Bonus Card Search',
     props<{
-        bonus: string[], bonusfield: string, expansion: {
-            originalcore: boolean,
-            swiftstart: boolean,
-            european: boolean,
-            oceania: boolean
-        }
+        bonus: string[], bonusfield: string, expansion: Expansion
     }>()
 )
 
@@ -86,9 +77,19 @@ export const setLanguage = createAction('[App] Set language',
             bonuses: { 'Name': string, 'Condition': string, 'Explanatory text': string, 'VP': string, 'Note': string },
             other: { [key: string]: { Translated: string } }
         },
-        language: string
+        language: string,
+        expansion: Expansion
     }>())
 
-export const changeLanguage = createAction('[App] Change language', props<{ language: string }>())
+export const changeLanguage = createAction('[App] Change language',
+    props<{
+        language: string,
+        expansion: Expansion
+  }>()
+)
 
-export const resetLanguage = createAction('[App] Reset language')
+export const resetLanguage = createAction('[App] Reset language',
+    props<{
+        expansion: Expansion
+  }>()
+)

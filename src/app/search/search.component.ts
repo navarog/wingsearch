@@ -303,10 +303,10 @@ export class SearchComponent implements OnInit {
   languageChange(language: string) {
     if (language === 'en') {
       this.cookies.deleteCookie('language')
-      this.store.dispatch(resetLanguage())
+      this.store.dispatch(resetLanguage({ expansion: this.query.expansion }))
     } else {
       this.cookies.setCookie('language', language, 180)
-      this.store.dispatch(changeLanguage({ language }))
+      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion }))
     }
 
     this.analytics.setLanguage(language)

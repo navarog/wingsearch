@@ -1,6 +1,7 @@
 import * as fromRouter from '@ngrx/router-store'
 import { createSelector, createFeatureSelector } from '@ngrx/store'
 import { AppState } from './app.interfaces'
+import { dynamicPercentage } from 'src/app/store/bonus-search-map'
 
 export interface State {
     router: fromRouter.RouterReducerState<any>
@@ -26,7 +27,7 @@ export const {
 export const selectCardId = selectRouteParam('id')
 
 export const selectCard = createSelector(
-    (state: State) => [...state.app.birdCards, ...state.app.bonusCards],
+    (state: State) => [...state.app.birdCards, ...state.app.bonusCards.map(dynamicPercentage(state.app.birdCards, state.app.expansion))],
     selectCardId,
     (cards, id) => cards.find(card => card.id.toString() === id)
 )
