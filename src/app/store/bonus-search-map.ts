@@ -107,7 +107,7 @@ export const bonusSearchMap = {
         return birdCard['Victory points'] === 3 || birdCard['Victory points'] === 4
     }),
     1033: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Victory points'] >= 6 || birdCard['Victory points'] <= 7
+        return birdCard['Victory points'] >= 5 && birdCard['Victory points'] <= 7
     }),
     1034: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Forest
