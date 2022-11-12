@@ -8,6 +8,7 @@ export interface AppState {
     displayedCards: (BirdCard | BonusCard)[]
     displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
+    expansion: Expansion
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
@@ -17,7 +18,7 @@ export interface BirdCard {
     id: number
     'Common name': string
     'Scientific name': string
-    Expansion: Expansion
+    Expansion: ExpansionType
     Color: Color | null
     PowerCategory: PowerCategory | null
     'Power text': null | string
@@ -120,7 +121,7 @@ export interface Ruling {
 export interface BonusCard {
     id: number
     Name: string
-    Expansion: Expansion
+    Expansion: ExpansionType
     Automa: string | null
     Condition: string
     'Explanatory text': null | string
@@ -139,12 +140,21 @@ export function isBonusCard(object: any): object is BonusCard {
     return 'Condition' in object
 }
 
-export enum Expansion {
+export enum ExpansionType {
     Core = 'originalcore',
     Swiftstart = 'swiftstart',
     European = 'european',
     Oceania = 'oceania',
     Asia = 'asia',
+}
+
+export interface Expansion
+{
+    asia: boolean,
+    originalcore: boolean,
+    swiftstart: boolean,
+    european: boolean,
+    oceania: boolean
 }
 
 export interface DisplayedStats {

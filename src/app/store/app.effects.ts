@@ -15,9 +15,18 @@ export class AppEffects {
         mergeMap((action) => {
             const language = action.language || (this.cookies.hasConsent() && this.cookies.getCookie('language'))
             if (language)
-                return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
-                    map((data) => ({ type: '[App] Set language', payload: data, language }))
-                )
+            {
+              const expansion = action.expansion || {
+                  asia: this.cookies.getCookie('expansion.asia') !== '0',
+                  oceania: this.cookies.getCookie('expansion.oceania') !== '0',
+                  european: this.cookies.getCookie('expansion.european') !== '0',
+                  swiftstart: this.cookies.getCookie('expansion.swiftstart') !== '0',
+                  originalcore: this.cookies.getCookie('expansion.core') !== '0',
+              }
+              return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
+                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion }))
+              )
+            }
             else
                 return of({ type: '[App] English' })
         })

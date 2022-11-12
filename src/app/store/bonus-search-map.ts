@@ -1,160 +1,187 @@
 import { BirdCard } from './app.interfaces'
+import { BonusCard } from './app.interfaces'
+import { Expansion } from './app.interfaces'
+
+export class BonusMatch {
+  constructor(public isPercentage: boolean, public callbackfn: (birdCard: BirdCard) => boolean) { }
+}
 
 export const bonusSearchMap = {
-    1000: (birdCard: BirdCard) => {
+    1000: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Anatomist
-    },
-    1001: (birdCard: BirdCard) => {
+    }),
+    1001: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Victory points'] < 4
-    },
-    1002: (birdCard: BirdCard) => {
+    }),
+    1002: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1003: (birdCard: BirdCard) => {
+    }),
+    1003: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Bird Bander']
-    },
-    1004: (birdCard: BirdCard) => {
+    }),
+    1004: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Flocking
-    },
-    1005: (birdCard: BirdCard) => {
+    }),
+    1005: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Seed
-    },
-    1006: (birdCard: BirdCard) => {
+    }),
+    1006: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] >= 4
-    },
-    1007: (birdCard: BirdCard) => {
+    }),
+    1007: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Cartographer
-    },
-    1008: (birdCard: BirdCard) => {
+    }),
+    1008: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Flocking
-    },
-    1009: (birdCard: BirdCard) => {
+    }),
+    1009: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Diet Specialist']
-    },
-    1010: (birdCard: BirdCard) => {
+    }),
+    1010: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1011: (birdCard: BirdCard) => {
+    }),
+    1011: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Enclosure Builder']
-    },
-    1012: (birdCard: BirdCard) => {
+    }),
+    1012: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1013: (birdCard: BirdCard) => {
+    }),
+    1013: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Falconer
-    },
-    1014: (birdCard: BirdCard) => {
+    }),
+    1014: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Fishery Manager']
-    },
-    1015: (birdCard: BirdCard) => {
+    }),
+    1015: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Food Web Expert']
-    },
-    1016: (birdCard: BirdCard) => {
+    }),
+    1016: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Forester
-    },
-    1017: (birdCard: BirdCard) => {
+    }),
+    1017: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Historian
-    },
-    1018: (birdCard: BirdCard) => {
+    }),
+    1018: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Large Bird Specialist']
-    },
-    1019: (birdCard: BirdCard) => {
+    }),
+    1019: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Nest Box Builder']
-    },
-    1020: (birdCard: BirdCard) => {
+    }),
+    1020: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Omnivore Expert']
-    },
-    1021: (birdCard: BirdCard) => {
+    }),
+    1021: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] > 0
-    },
-    1022: (birdCard: BirdCard) => {
+    }),
+    1022: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Passerine Specialist']
-    },
-    1023: (birdCard: BirdCard) => {
+    }),
+    1023: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Photographer
-    },
-    1024: (birdCard: BirdCard) => {
+    }),
+    1024: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Platform Builder']
-    },
-    1025: (birdCard: BirdCard) => {
+    }),
+    1025: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Prairie Manager']
-    },
-    1026: (birdCard: BirdCard) => {
+    }),
+    1026: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Rodentologist
-    },
-    1027: (birdCard: BirdCard) => {
+    }),
+    1027: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1028: (birdCard: BirdCard) => {
+    }),
+    1028: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Viticulturalist
-    },
-    1029: (birdCard: BirdCard) => {
+    }),
+    1029: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Wetland Scientist']
-    },
-    1030: (birdCard: BirdCard) => {
+    }),
+    1030: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Wildlife Gardener']
-    },
-    1031: (birdCard: BirdCard) => {
+    }),
+    1031: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Victory points'] === 3 || birdCard['Victory points'] === 4
-    },
-    1032: (birdCard: BirdCard) => {
-        return birdCard['Victory points'] >= 6 || birdCard['Victory points'] <= 7
-    },
-    1033: (birdCard: BirdCard) => {
+    }),
+    1032: new BonusMatch(true, (birdCard: BirdCard) => {
+        return birdCard['Victory points'] === 6 || birdCard['Victory points'] === 7
+    }),
+    1033: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Forest
-    },
-    1034: (birdCard: BirdCard) => {
+    }),
+    1034: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Grassland
-    },
-    1035: (birdCard: BirdCard) => {
+    }),
+    1035: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1036: (birdCard: BirdCard) => {
+    }),
+    1036: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1037: (birdCard: BirdCard) => {
+    }),
+    1037: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Wetland
-    },
-    1038: (birdCard: BirdCard) => {
+    }),
+    1038: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Caprimulgiform Specialist']
-    },
-    1039: (birdCard: BirdCard) => {
+    }),
+    1039: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] > 0
-    },
-    1040: (birdCard: BirdCard) => {
+    }),
+    1040: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] <= 2
-    },
-    1041: (birdCard: BirdCard) => {
+    }),
+    1041: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Nest type'] === 'Wild' || !!birdCard['Forest']
-    },
-    1042: (birdCard: BirdCard) => {
+    }),
+    1042: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Nest type'] === 'Wild' || !!birdCard['Grassland']
-    },
-    1043: (birdCard: BirdCard) => {
+    }),
+    1043: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Nest type'] === 'Wild' || !!birdCard['Wetland']
-    },
-    1044: (birdCard: BirdCard) => {
+    }),
+    1044: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1045: (birdCard: BirdCard) => {
+    }),
+    1045: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Power text']?.match(/(cache [1-9] \[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*cache it)/)
-    },
-    1046: (birdCard: BirdCard) => {
+    }),
+    1046: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Endangered Species Protector']
-    },
-    1047: (birdCard: BirdCard) => {
+    }),
+    1047: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Forest']
-    },
-    1048: (birdCard: BirdCard) => {
+    }),
+    1048: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Grassland']
-    },
-    1049: (birdCard: BirdCard) => {
+    }),
+    1049: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Wetland']
-    },
-    1050: (birdCard: BirdCard) => {
+    }),
+    1050: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
-    1051: (birdCard: BirdCard) => {
+    }),
+    1051: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
-    },
+    }),
+}
+
+function getPercentage(card: BonusCard, selectedBirds: BirdCard[]): number | string
+{
+  const bonusMatch: BonusMatch = bonusSearchMap[card.id];
+  if (!bonusMatch.isPercentage || selectedBirds.length === 0)
+    return '-';
+  return (selectedBirds.filter(birdCard => bonusMatch.callbackfn(birdCard)).length / selectedBirds.length * 100).toFixed(1);
+}
+
+export function dynamicPercentage(birds: BirdCard[], expansion: Expansion) {
+  const allowedExpansions = Object.entries(expansion).reduce(
+    (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+  )
+
+  const selectedBirds = birds.filter(card => allowedExpansions.includes(card.Expansion))
+
+  return (card: BonusCard) =>
+  {
+    return { ...card, '%': getPercentage(card, selectedBirds) }
+  }
 }

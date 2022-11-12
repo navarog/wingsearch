@@ -41,7 +41,7 @@ export class BirdCardDetailComponent implements OnInit, AfterViewInit {
     this.bonusCards$ = this.store.pipe(
       select(({ app }) => app.bonusCards),
       map(cards => {
-        const filteredCards = cards.filter(card => card['VP Average'] && bonusSearchMap[card.id](this.data.card))
+        const filteredCards = cards.filter(card => card['VP Average'] && bonusSearchMap[card.id].callbackfn(this.data.card))
         filteredCards.sort((a, b) => b['VP Average'] - a['VP Average'])
         return filteredCards
       })

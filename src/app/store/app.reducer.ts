@@ -1,10 +1,11 @@
 import { createReducer, on } from '@ngrx/store'
 import * as appActions from './app.actions'
-import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard } from './app.interfaces'
+import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard, Expansion } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import { birdCardsSearch, bonusCardsSearch } from './cards-search'
-import { bonusSearchMap } from './bonus-search-map'
+import { bonusSearchMap, dynamicPercentage } from './bonus-search-map'
+import { CookiesService } from '../cookies.service'
 
 
 const SLICE_WINDOW = 18
@@ -35,6 +36,8 @@ const eatsMustFood = (card: BirdCard, mustFood: string[]): boolean => {
     return !!mustFood.every(food => birdFood.includes(food)) || (!birdFood.length && mustFood.length === 1 && mustFood[0] === 'no-food')
 }
 
+const cookies: CookiesService = new CookiesService();
+
 export const initialState: AppState = {
     // @ts-ignore
     birdCards: BirdCards,
@@ -55,7 +58,14 @@ export const initialState: AppState = {
     // @ts-ignore
     displayedStats: calculateDisplayedStats(BirdCards.concat(BonusCards)),
     scrollDisabled: false,
-    translatedContent: {}
+    translatedContent: {},
+    expansion: {
+      asia: cookies.getCookie('expansion.asia') !== '0',
+      oceania: cookies.getCookie('expansion.oceania') !== '0',
+      european: cookies.getCookie('expansion.european') !== '0',
+      swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
+      originalcore: cookies.getCookie('expansion.core') !== '0',
+    }
 }
 
 const reducer = createReducer(
@@ -76,14 +86,14 @@ const reducer = createReducer(
 
         if (!displayedCards.length && !action.main) {
             // @ts-ignore
-            displayedCards = state.birdCards.concat(state.bonusCards)
+            displayedCards = state.birdCards.concat(state.bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
         }
 
         if (action.bonus.length) {
             const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.id))
 
             displayedCards = displayedCards.filter(isBirdCard).filter(card =>
-                bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id](card), true)
+                bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
             )
         } else {
             const bonusCards = Array.from(new Set([
@@ -99,7 +109,7 @@ const reducer = createReducer(
                 ]
             }, [])))
 
-            displayedCards = displayedCards.concat(bonusCards)
+            displayedCards = displayedCards.concat(bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
         }
 
         const allowedExpansions = Object.entries(action.expansion).reduce(
@@ -156,7 +166,7 @@ const reducer = createReducer(
         const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
         displayedCards = displayedCards.slice(0, SLICE_WINDOW)
 
-        return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false }
+        return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false, expansion: action.expansion }
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {
@@ -242,6 +252,7 @@ const reducer = createReducer(
             .map(translateBirds).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
             .map(translateBonuses).sort(sortCardsByKey('Name', true))
+            .map(dynamicPercentage(birdCards, action.expansion))
 
         return {
             ...state,
@@ -282,6 +293,7 @@ const reducer = createReducer(
             .map(birdToEnglish).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
             .map(bonusToEnglish).sort(sortCardsByKey('Name', true))
+            .map(dynamicPercentage(BirdCards, action.expansion))
 
         return {
             ...state,

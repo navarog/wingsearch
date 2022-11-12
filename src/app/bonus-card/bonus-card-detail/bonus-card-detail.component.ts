@@ -4,7 +4,7 @@ import { select, Store } from '@ngrx/store'
 import { BehaviorSubject, Observable } from 'rxjs'
 import { first, flatMap, map, tap } from 'rxjs/operators'
 import { AppState, BirdCard, BonusCard } from 'src/app/store/app.interfaces'
-import { bonusSearchMap } from 'src/app/store/bonus-search-map'
+import { bonusSearchMap, dynamicPercentage } from 'src/app/store/bonus-search-map'
 
 @Component({
   selector: 'app-bonus-card-detail',
@@ -41,13 +41,13 @@ export class BonusCardDetailComponent implements OnInit, AfterViewInit {
       first(),
       tap(birds => {
         this.birds = birds
-        this.compatibleBirdIds = birds.filter((bird) => bonusSearchMap[this.data.card.id](bird)).map(bird => bird.id)
+        this.compatibleBirdIds = birds.filter((bird) => bonusSearchMap[this.data.card.id].callbackfn(bird)).map(bird => bird.id)
       }),
-      flatMap(() => this.store.select(({ app }) => app.bonusCards)),
+      flatMap(() => this.store.select(({ app }) =>app.bonusCards.map(dynamicPercentage(this.birds, app.expansion)))),
       map(cards => cards.filter(card => card['VP Average'] && card.id !== this.data.card.id)
         .map(bonus => ({
           ...bonus,
-          birdIds: this.birds.filter((bird) => bonusSearchMap[bonus.id](bird))
+          birdIds: this.birds.filter((bird) => bonusSearchMap[bonus.id].callbackfn(bird))
             .map(bird => bird.id).filter(id => this.compatibleBirdIds.includes(id))
         }))
         .filter(bonus => bonus.birdIds.length).
