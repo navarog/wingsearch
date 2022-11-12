@@ -54,6 +54,10 @@ export const search = createAction('[App] Search', props<{
         None: boolean,
         Platform: boolean,
         Wild: boolean
+    },
+    beak: {
+      left: boolean,
+      right: boolean
     }
 }>()
 )

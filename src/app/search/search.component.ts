@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
 import { search, bonusCardSearch, changeLanguage, resetLanguage } from '../store/app.actions'
-import { AppState, BonusCard, Expansion } from '../store/app.interfaces'
+import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
 import { FormControl } from '@angular/forms'
@@ -27,6 +27,7 @@ export class SearchComponent implements OnInit {
     { value: 'pl', display: 'Polish' },
     { value: 'es', display: 'Spanish' },
     { value: 'tr', display: 'Turkish' },
+    { value: 'uk', display: 'Ukrainian' },
   ]
 
   readonly supportedExpansions = [
@@ -96,6 +97,10 @@ export class SearchComponent implements OnInit {
       None: true,
       Platform: true,
       Wild: true
+    },
+    beak: {
+      left: true,
+      right: true
     }
   }
 
@@ -118,7 +123,7 @@ export class SearchComponent implements OnInit {
 
   wingspanOptions: Options = {
     showTicksValues: true,
-    stepsArray: [0, 20, 30, 50, 75, 100, 150, 500].map(key => ({ value: key })),
+    stepsArray: [0, 30, 40, 50, 65, 75, 100, 500].map(key => ({ value: key })),
     translate: value => {
       if (value === 0) { return 'min'; }
       else if (value === 500) { return 'max'; }
@@ -230,7 +235,8 @@ export class SearchComponent implements OnInit {
       foodCost: { ...this.foodCost },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
       food: { invertebrate: false, seed: false, fruit: false, fish: false, rodent: false, nectar: false, 'wild (food)': false, 'no-food': false },
-      nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true }
+      nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true },
+      beak: { left: true, right: true }
     }
     this.bonusControl.setValue('')
     this.onBonusChange()
@@ -286,6 +292,11 @@ export class SearchComponent implements OnInit {
 
   toggleNest(nest: string) {
     this.query = { ...this.query, nest: { ...this.query.nest, [nest]: !this.query.nest[nest] } }
+    this.onQueryChange()
+  }
+
+  toggleBeak(beak: string) {
+    this.query = { ...this.query, beak: { ...this.query.beak, [beak]: !this.query.beak[beak] } }
     this.onQueryChange()
   }
 

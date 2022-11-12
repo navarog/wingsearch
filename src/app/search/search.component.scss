@@ -178,6 +178,10 @@ mat-select-trigger {
 
     .flex-column.justify-end {
         justify-content: space-between;
+        flex-wrap: wrap;
+        & > * {
+            margin: 0 4px;
+        }
     }
 }
 
@@ -313,3 +317,20 @@ mat-chip.custom-chip {
 button {
     max-height: 40px;
 }
+
+.beak-wrapper {
+    max-width: 85px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.beak-image {
+    width: 100%;
+    max-width: 30px;
+    margin: 0 6px;
+}
+

@@ -149,7 +149,15 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) ||  (action.foodCost.min <= card['Total food cost'] && action.foodCost.max >= card['Total food cost'])
+            isBonusCard(card) || (action.foodCost.min <= card['Total food cost'] && action.foodCost.max >= card['Total food cost'])
+        )
+
+        displayedCards = displayedCards.filter(card =>
+            isBonusCard(card)
+            || (action.beak?.left && action.beak?.right)
+            || (action.beak?.left && card['Beak Pointing Left'])
+            || (action.beak?.right && card['Beak Pointing Right'])
+            || ([action.beak?.left, action.beak?.right, card['Beak Pointing Left'], card['Beak Pointing Right']].every(x => !x))
         )
 
         const displayedStats = calculateDisplayedStats(displayedCards)
