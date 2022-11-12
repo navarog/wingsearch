@@ -293,6 +293,7 @@ const reducer = createReducer(
             .map(birdToEnglish).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
             .map(bonusToEnglish).sort(sortCardsByKey('Name', true))
+            // @ts-ignore
             .map(dynamicPercentage(BirdCards, action.expansion))
 
         return {
