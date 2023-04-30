@@ -8,7 +8,7 @@ If you have anything you think the app is missing or you have found a bug, do no
 
 ## Contributing to supporting other languages
 
-If you own the game in other language which is not translated and want to contribute, I'd really appreciate that. Please, follow the steps described in [i18n folder](i18n)
+If you own the game in other language which is not translated and want to contribute, I'd really appreciate that. Please, follow the steps described in [i18n folder](i18n). You can also add new features (read [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ## Special thanks
 The app is using [data](https://boardgamegeek.com/filepage/193164/wingspan-bird-card-spreadsheet) made by TawnyFrogmouth.
