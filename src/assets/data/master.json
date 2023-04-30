@@ -71,7 +71,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -141,7 +141,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
-        "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [ground] nest.",
+        "Power text": "When another player takes the \"lay eggs\" action, lay 1 [egg] on another bird with a [ground] nest.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -228,7 +228,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
-        "Power text": "Player(s) with the fewest [wetland] birds: draw 1 [card].",
+        "Power text": "Player(s) with the fewest birds in their [wetland] draw 1 [card].",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -294,7 +294,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -504,7 +504,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -557,12 +557,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 8,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "American Oystercatcher",
@@ -653,7 +648,7 @@
         "Expansion": "swiftstart",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Gain 1 [wild] from the birdfeeder.",
+        "Power text": "Gain 1 [die] from the birdfeeder.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -732,7 +727,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -798,7 +793,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Discard a [fish] to tuck 2 [card] from the deck behind this bird.",
+        "Power text": "Discard 1 [fish] to tuck 2 [card] from the deck behind this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -925,7 +920,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -978,12 +973,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 14,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Anna's Hummingbird",
@@ -1813,7 +1803,7 @@
         "Expansion": "oceania",
         "Color": "White",
         "PowerCategory": null,
-        "Power text": "Play another bird in your [wetland]. Pay its normal cost with a 1 [egg] discount.",
+        "Power text": "Play another bird in your wetland. Pay its normal cost with a 1 [egg] discount.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -1972,7 +1962,7 @@
         "Photographer": null,
         "Backyard Birder": "X",
         "Bird Bander": null,
-        "Bird Counter": null,
+        "Bird Counter": "X",
         "Bird Feeder": "X",
         "Diet Specialist": null,
         "Enclosure Builder": "X",
@@ -2282,7 +2272,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -2335,12 +2325,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 22,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Barn Swallow",
@@ -2348,7 +2333,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -2414,7 +2399,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -2480,7 +2465,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
-        "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [cavity] nest.",
+        "Power text": "When another player takes the \"lay eggs\" action, lay 1 [egg] on another bird with a [cavity] nest.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -2769,7 +2754,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Food from Supply",
-        "Power text": "When another player plays a [wetland] bird, gain 1 [fish] from the supply.",
+        "Power text": "When another player plays a bird in their [wetland], gain 1 [fish] from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -2930,7 +2915,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Discard any number of [card] from the tray, then refill it. If at least 1 of the discarded birds is a [grassland] bird, lay 1 [egg] on this bird.",
+        "Power text": "Discard any number of [card] from the tray then refill it. If at least one of the discarded birds is a [grassland] bird, lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -2967,7 +2952,7 @@
         "Forester": null,
         "Large Bird Specialist": null,
         "Nest Box Builder": null,
-        "Omnivore Expert": null,
+        "Omnivore Expert": "X",
         "Passerine Specialist": "X",
         "Platform Builder": null,
         "Prairie Manager": "X",
@@ -3141,7 +3126,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -3194,12 +3179,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 30,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Black Stork",
@@ -3413,7 +3393,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
+        "Power text": "When another player's [predator] succeeds, gain 1 [die] from the birdfeeder.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -3635,7 +3615,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
+        "Power text": "When another player's [predator] succeeds, gain 1 [die] from the birdfeeder.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -3721,7 +3701,7 @@
         "Expansion": "swiftstart",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "All players gain a [fruit] from the supply.",
+        "Power text": "All players gain 1 [fruit] from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -3935,7 +3915,7 @@
         "Expansion": "asia",
         "Color": "Teal",
         "PowerCategory": null,
-        "Power text": "If you used all 4 types of actions this round, gain 1 [wild] from the supply, lay 1 [egg] on any bird, and draw 1 [card] from the deck.",
+        "Power text": "If you used all 4 actions this round, gain 1 [wild] from the supply, lay 1 [egg] on any bird, and draw 1 [card] from the deck.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -4335,7 +4315,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -5068,7 +5048,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -5139,7 +5119,7 @@
         "Expansion": "swiftstart",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Roll all dice not in birdfeeder. If any are a [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -5192,12 +5172,7 @@
         "Note": null,
         "id": 51,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Brolga",
@@ -5271,7 +5246,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
-        "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
+        "Power text": "When another player takes the \"lay eggs\" action, lay 1 [egg] on a bird with a [bowl] nest.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -5550,7 +5525,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
-        "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
+        "Power text": "When another player takes the \"lay eggs\" action, lay 1 [egg] on a bird with a [bowl] nest.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -5768,7 +5743,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -5826,12 +5801,7 @@
                 "source": "https:\/\/www.boardgamegeek.com\/thread\/2207647\/article\/32048074#32048074"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Bushtit",
@@ -5839,7 +5809,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -6174,7 +6144,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
+        "Power text": "Cache 1 [seed] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -6227,16 +6197,7 @@
         "Note": "The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
         "id": 62,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-            },
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Carolina Wren",
@@ -6503,7 +6464,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [fruit] from the supply.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, gain 1 [fruit] from the supply.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -7060,7 +7021,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -7708,7 +7669,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -8051,7 +8012,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Card-drawing",
-        "Power text": "Player(s) with the fewest [wetland] birds: draw 1 [card].",
+        "Power text": "Player(s) with the fewest birds in their [wetland] draw 1 [card].",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -8117,7 +8078,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -8170,12 +8131,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 87,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Common Moorhen",
@@ -8951,7 +8907,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -9489,7 +9445,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -9625,7 +9581,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "For each bird in your [grassland] with an egg on it, roll any 1 [die]. Choose 1 type of food you rolled and gain 1 of that food from the supply.",
+        "Power text": "For each bird in your [grassland] with an [egg] on it, roll any 1 [die]. Choose 1 type of food you rolled, and gain 1 of that food from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -9695,7 +9651,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -9766,7 +9722,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Discard [fish] to tuck 2 [card] from the deck behind this bird.",
+        "Power text": "Discard 1 [fish] to tuck 2 [card] from the deck behind this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -9832,7 +9788,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [forest]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -9890,12 +9846,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Dunnock",
@@ -9969,7 +9920,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [grassland]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -10027,12 +9978,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Eastern Imperial Eagle",
@@ -10111,7 +10057,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Food from Supply",
-        "Power text": "When another player plays a [forest] bird, gain 1 [invertebrate] from the supply.",
+        "Power text": "When another player plays a bird in their [forest], gain 1 [invertebrate] from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -10351,7 +10297,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -10404,12 +10350,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 106,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Eastern Whipbird",
@@ -10591,7 +10532,7 @@
         "Large Bird Specialist": "X",
         "Nest Box Builder": null,
         "Omnivore Expert": null,
-        "Passerine Specialist": null,
+        "Passerine Specialist": "X",
         "Platform Builder": null,
         "Prairie Manager": null,
         "Rodentologist": null,
@@ -10730,7 +10671,7 @@
         "Photographer": null,
         "Backyard Birder": null,
         "Bird Bander": null,
-        "Bird Counter": null,
+        "Bird Counter": "X",
         "Bird Feeder": "X",
         "Diet Specialist": null,
         "Enclosure Builder": "X",
@@ -10764,7 +10705,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Up to 3 times, draw 1 [card] from the deck. When you stop, if the birds' total wingspan is less that 110 cm, tuck them behind this bird. If not, discard them.",
+        "Power text": "Up to 3 times, draw 1 [card] from the deck. When you stop, if the birds' total wingspan is less than 110 cm, tuck them behind this bird. If not, discard them.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -10932,8 +10873,8 @@
         "Forest": "X",
         "Grassland": "X",
         "Wetland": null,
-        "Invertebrate": null,
-        "Seed": 1.0,
+        "Invertebrate": 1.0,
+        "Seed": null,
         "Fish": null,
         "Fruit": 1.0,
         "Rodent": null,
@@ -11276,7 +11217,7 @@
         "Expansion": "european",
         "Color": "Teal",
         "PowerCategory": "Food-related",
-        "Power text": "Choose 1 other player. For each action cube in their [grassland], cache 1 [wild] from the supply on any of your birds.",
+        "Power text": "Choose 1 other player. For each action cube on their [grassland], cache 1 [wild] from the supply on any of your birds.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -11337,7 +11278,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Up to 3 times, draw 1 [card] from the deck. When you stop, if the birds' total wingspan is less that 110 cm, tuck them behind this bird. If not, discard them.",
+        "Power text": "Up to 3 times, draw 1 [card] from the deck. When you stop, if the birds' total wingspan is less than 110 cm, tuck them behind this bird. If not, discard them.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -12213,7 +12154,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -12266,12 +12207,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 124,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Fire-Fronted Serin",
@@ -12761,7 +12697,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 100cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -13226,7 +13162,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Other",
-        "Power text": "Repeat a brown power on one other bird in this habitat.",
+        "Power text": "Repeat a brown power on another bird in this habitat.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -13366,7 +13302,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [wetland]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [wetland]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -13424,12 +13360,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Great Cormorant",
@@ -13437,7 +13368,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "You may move 1 [fish] from this bird to your supply. Then, roll any 2 [die]. If any one [fish], cache 1 [fish] on this bird from the supply.",
+        "Power text": "You may move 1 [fish] from this bird to your supply. Then, roll any 2 [die]. If any are [fish], cache 1 [fish] on this bird from the supply.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -13498,7 +13429,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "Gain 1 [invertebrate] from the birdfeeder, if there is one.",
+        "Power text": "Gain 1 [invertebrate] from the birdfeeder, if available.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -13647,7 +13578,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [wetland]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [wetland]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -13705,12 +13636,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Great Hornbill",
@@ -13779,7 +13705,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 100cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -14248,7 +14174,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <50cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 50cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -14370,7 +14296,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Supply",
-        "Power text": "Trade 1 [wild] for any other [wild] from the supply.",
+        "Power text": "Trade 1 [wild] for any other type from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -15169,7 +15095,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "Player(s) with fewest [forest] birds gain 1 [die] from birdfeeder.",
+        "Power text": "Player(s) with the fewest birds in their [forest] gain 1 [die] from birdfeeder.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -15511,7 +15437,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Flocking",
-        "Power text": "When another player plays a [grassland] bird, tuck 1 [card] from your hand behind this bird.",
+        "Power text": "When another player plays a bird in their [grassland], tuck 1 [card] from your hand behind this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -15807,7 +15733,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -15948,7 +15874,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [grassland] or [forest]. Pay its normal cost.",
+        "Power text": "Play an additional bird in this bird's habitat. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -16010,12 +15936,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Ibisbill",
@@ -16023,7 +15944,7 @@
         "Expansion": "asia",
         "Color": "White",
         "PowerCategory": null,
-        "Power text": "All players draw 1 [card] from the deck and gain 1 [invertebrate] from the supply. You draw 1 additonal [card] from the deck.",
+        "Power text": "All players draw 1 [card] from the deck and gain 1 [invertebrate] from the supply. You draw 1 additional [card] from the deck.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -16286,7 +16207,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if there is one.",
+        "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if available.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -16361,7 +16282,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
+        "Power text": "Cache 1 [seed] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -16414,16 +16335,7 @@
         "Note": "The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
         "id": 156,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-            },
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Kea",
@@ -16889,7 +16801,7 @@
         "Large Bird Specialist": "X",
         "Nest Box Builder": null,
         "Omnivore Expert": null,
-        "Passerine Specialist": null,
+        "Passerine Specialist": "X",
         "Platform Builder": null,
         "Prairie Manager": null,
         "Rodentologist": null,
@@ -17255,7 +17167,7 @@
         "Expansion": "oceania",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Choose 1 other player. you both gain 1 [nectar] from the supply.",
+        "Power text": "Choose 1 other player. You both gain 1 [nectar] from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -17468,7 +17380,7 @@
         "Bonus card": null,
         "Victory points": 2.0,
         "Nest type": "Platform",
-        "Egg capacity": 2.0,
+        "Egg capacity": 3.0,
         "Wingspan": 95,
         "Forest": null,
         "Grassland": null,
@@ -17702,7 +17614,7 @@
         "Large Bird Specialist": "X",
         "Nest Box Builder": "X",
         "Omnivore Expert": null,
-        "Passerine Specialist": null,
+        "Passerine Specialist": "X",
         "Platform Builder": "X",
         "Prairie Manager": null,
         "Rodentologist": null,
@@ -17870,7 +17782,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Caching Food",
-        "Power text": "When another player takes the \"gain food\" action, if they gain any number of [rodent], also gain 1 [rodent] from the supply and cache it on this card.",
+        "Power text": "When another player takes the \"gain food\" action, if they gain any number of [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -18575,7 +18487,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], gain 1 [rodent] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [rodent], cache 1 [rodent] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -18628,12 +18540,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 167,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Mistletoebird",
@@ -18873,7 +18780,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [grassland]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -18931,12 +18838,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Mountain Chickadee",
@@ -18944,7 +18846,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
+        "Power text": "Cache 1 [seed] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -18997,16 +18899,7 @@
         "Note": null,
         "id": 171,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-            },
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Mourning Dove",
@@ -19396,7 +19289,7 @@
         "Large Bird Specialist": "X",
         "Nest Box Builder": "X",
         "Omnivore Expert": null,
-        "Passerine Specialist": null,
+        "Passerine Specialist": "X",
         "Platform Builder": "X",
         "Prairie Manager": null,
         "Rodentologist": null,
@@ -19776,7 +19669,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -19837,7 +19730,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Other",
-        "Power text": "Repeat a brown power on one other bird in this habitat.",
+        "Power text": "Repeat a brown power on another bird in this habitat.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -20109,7 +20002,7 @@
         "Expansion": "asia",
         "Color": "Teal",
         "PowerCategory": null,
-        "Power text": "Activate the \"When Activated\" (brown) powers of all your other [predator].",
+        "Power text": "Activate the \"When Activated\" (brown) powers of all of your other [predator].",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -20657,7 +20550,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <100cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 100cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -21081,7 +20974,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, gain 1 [seed] from the supply.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -21603,7 +21496,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -21669,7 +21562,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [invertebrate] or 1 [seed] from the supply.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, gain 1 [invertebrate] or [seed] from the supply.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -22015,7 +21908,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Count the [egg] on all of your birds. If the total is fewer that 6 [egg], lay 1 [egg] on this bird.",
+        "Power text": "Count the [egg] on all of your birds. If the total is fewer than 6 [egg], lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -22436,7 +22329,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -22580,7 +22473,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
+        "Power text": "Cache 1 [seed] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -22633,16 +22526,7 @@
         "Note": "The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
         "id": 200,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-            },
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Red-Capped Robin",
@@ -22852,7 +22736,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [forest]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -22910,12 +22794,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Red-Headed Woodpecker",
@@ -22923,7 +22802,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -23129,7 +23008,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it under this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -23190,7 +23069,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -23387,7 +23266,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -23533,7 +23412,7 @@
         "Expansion": "oceania",
         "Color": "Brown",
         "PowerCategory": "Hunting and Fishing",
-        "Power text": "Choose 1 other player. you both gain 1 [invertebrate] from the supply.",
+        "Power text": "Choose 1 other player. You both gain 1 [invertebrate] from the supply.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -23677,7 +23556,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -23870,7 +23749,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "Gain 1 [seed] or [fruit] from the birdfeeder, if there is one.",
+        "Power text": "Gain 1 [seed] or [fruit] from the birdfeeder, if available.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -24208,7 +24087,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [forest]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -24266,12 +24145,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Ruby-Throated Hummingbird",
@@ -24720,7 +24594,7 @@
         "Enclosure Builder": null,
         "Falconer": null,
         "Fishery Manager": null,
-        "Food Web Expert": "X",
+        "Food Web Expert": null,
         "Forester": null,
         "Large Bird Specialist": null,
         "Nest Box Builder": null,
@@ -25054,7 +24928,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [grassland]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [grassland]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -25112,12 +24986,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Savi's Warbler",
@@ -25571,7 +25440,7 @@
         "Enclosure Builder": null,
         "Falconer": null,
         "Fishery Manager": null,
-        "Food Web Expert": "X",
+        "Food Web Expert": null,
         "Forester": null,
         "Large Bird Specialist": null,
         "Nest Box Builder": null,
@@ -25830,7 +25699,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -25883,12 +25752,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 223,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Snowy Owl",
@@ -26127,7 +25991,7 @@
         "Large Bird Specialist": "X",
         "Nest Box Builder": null,
         "Omnivore Expert": "X",
-        "Passerine Specialist": null,
+        "Passerine Specialist": "X",
         "Platform Builder": null,
         "Prairie Manager": null,
         "Rodentologist": null,
@@ -26996,7 +26860,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the birdfeeder (if available). You may cache it on this card.",
+        "Power text": "Gain 1 [seed] from the birdfeeder, if available. You may cache it on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -27354,7 +27218,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Look at a [card] from the deck. If <75cm, tuck it behind this bird. If not, discard it.",
+        "Power text": "Look at a [card] from the deck. If less than 75cm, tuck it behind this bird. If not, discard it.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -27546,7 +27410,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -27734,7 +27598,7 @@
         "Expansion": "originalcore",
         "Color": "White",
         "PowerCategory": "Other",
-        "Power text": "Play a second bird in your [forest]. Pay its normal cost.",
+        "Power text": "Play an additional bird in your [forest]. Pay its normal cost.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -27792,12 +27656,7 @@
                 "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-31474"
             }
         ],
-        "additionalRulings": [
-            {
-                "text": "You may substitute 2 [wild] for any 1 food in a bird's food cost whenever you play a bird, including outside the scope of the <i>\"play a bird\"<\/i> action.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/?post_id=592455651458041&comment_id=592685648101708&reply_comment_id=592771751426431"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Turkey Vulture",
@@ -27805,7 +27664,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "When another player's predator succeeds, gain 1 [die] from the birdfeeder.",
+        "Power text": "When another player's [predator] succeeds, gain 1 [die] from the birdfeeder.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -27990,7 +27849,7 @@
         "Enclosure Builder": null,
         "Falconer": null,
         "Fishery Manager": null,
-        "Food Web Expert": "X",
+        "Food Web Expert": null,
         "Forester": "X",
         "Large Bird Specialist": null,
         "Nest Box Builder": null,
@@ -28035,7 +27894,7 @@
         "Expansion": "swiftstart",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, gain 1 [invertebrate] from the supply.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, gain 1 [invertebrate] from the supply.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -28261,7 +28120,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -28520,7 +28379,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Food from Birdfeeder",
-        "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if there is one.",
+        "Power text": "Gain 1 [invertebrate] or [fruit] from the birdfeeder, if available.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -28872,7 +28731,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Caching Food",
-        "Power text": "Gain 1 [seed] from the supply and cache it on this card.",
+        "Power text": "Cache 1 [seed] from the supply on this bird.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -28925,16 +28784,7 @@
         "Note": "The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
         "id": 245,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
-            },
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "White-Breasted Woodswallow",
@@ -29280,7 +29130,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -29333,12 +29183,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 247,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "White-Headed Duck",
@@ -29478,7 +29323,7 @@
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Choose any 1 [die]. Roll it up to 3 times. Each time, if you roll a [invertebrate], [fish], or [rodent], cahe 1 here. If not, stop and return all food cached here this turn.",
+        "Power text": "Choose any 1 [die]. Roll it up to 3 times. Each time, if you roll a [invertebrate], [fish], or [rodent], cache 1 here. If not, stop and return all food cached here this turn.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -29539,7 +29384,7 @@
         "Expansion": "swiftstart",
         "Color": "Brown",
         "PowerCategory": null,
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, lay 1 [egg] on any bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, lay 1 [egg] on any bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -29732,7 +29577,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Hunting\/Fishing",
-        "Power text": "Roll all dice not in birdfeeder. If any are [fish], gain 1 [fish] and cache it on this card.",
+        "Power text": "Roll all dice not in birdfeeder. If any are [fish], cache 1 [fish] from the supply on this bird.",
         "Predator": "X",
         "Flocking": null,
         "Bonus card": null,
@@ -29785,12 +29630,7 @@
         "Note": "Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
         "id": 252,
         "rulings": [],
-        "additionalRulings": [
-            {
-                "text": "Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-            }
-        ]
+        "additionalRulings": []
     },
     {
         "Common name": "Willie-Wagtail",
@@ -30279,12 +30119,12 @@
         "Wetland": "X",
         "Invertebrate": 1.0,
         "Seed": null,
-        "Fish": null,
-        "Fruit": 1.0,
+        "Fish": 1.0,
+        "Fruit": null,
         "Rodent": null,
         "Nectar": null,
         "Wild (food)": null,
-        "\/ (food cost)": null,
+        "\/ (food cost)": "X",
         "* (food cost)": null,
         "Total food cost": 1.0,
         "Anatomist": null,
@@ -30402,7 +30242,7 @@
         "Expansion": "originalcore",
         "Color": "Pink",
         "PowerCategory": "Egg-laying",
-        "Power text": "When another player takes the \"lay eggs\" action, this bird lays 1 [egg] on another bird with a [bowl] nest.",
+        "Power text": "When another player takes the \"lay eggs\" action, lay 1 [egg] on a bird with a [bowl] nest.",
         "Predator": null,
         "Flocking": null,
         "Bonus card": null,
@@ -30555,7 +30395,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, also lay 1 [egg] on this bird.",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, you may also lay 1 [egg] on this bird.",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,
@@ -30626,7 +30466,7 @@
         "Expansion": "originalcore",
         "Color": "Brown",
         "PowerCategory": "Flocking",
-        "Power text": "Tuck a [card] from your hand behind this bird. If you do, draw 1 [card].",
+        "Power text": "Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
         "Predator": null,
         "Flocking": "X",
         "Bonus card": null,

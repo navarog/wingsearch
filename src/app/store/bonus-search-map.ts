@@ -143,7 +143,7 @@ export const bonusSearchMap = {
         return !!birdCard['Grassland']
     }),
     1045: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Power text']?.match(/(cache [1-9] \[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*cache it)/)
+        return !!birdCard['Power text']?.match(/((([Cc]ache)|([Cc]aching)) [1-9] .*\[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*(([Cc]ache)|([Cc]aching)))/)
     }),
     1046: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] <= 2

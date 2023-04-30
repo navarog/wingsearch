@@ -718,7 +718,7 @@
         "Automa": "X",
         "Condition": "<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>2<\/b> or <b>3<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>3<\/b> or <b>4<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>4<\/b> or <b>5<\/b> points<\/td><\/tr><\/table>",
         "Explanatory text": null,
-        "VP": "The Automa keeps up to 2 of them (lower value fist)",
+        "VP": "The Automa keeps up to 2 of them (lower value first)",
         "%": "variable",
         "Note": null,
         "VP Average": 0.0,

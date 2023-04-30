@@ -21,7 +21,7 @@ export class AppEffects {
                   oceania: this.cookies.getCookie('expansion.oceania') !== '0',
                   european: this.cookies.getCookie('expansion.european') !== '0',
                   swiftstart: this.cookies.getCookie('expansion.swiftstart') !== '0',
-                  originalcore: this.cookies.getCookie('expansion.core') !== '0',
+                  originalcore: this.cookies.getCookie('expansion.originalcore') !== '0',
               }
               return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
                 map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion }))

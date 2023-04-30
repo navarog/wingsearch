@@ -177,7 +177,7 @@ export class SearchComponent implements OnInit {
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
         swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
-        originalcore: cookies.getCookie('expansion.core') !== '0',
+        originalcore: cookies.getCookie('expansion.originalcore') !== '0',
       }
     }
 
