@@ -13823,7 +13823,7 @@
     },
     {
         "Common name": "Great Spotted Woodpecker",
-        "Scientific name": "Dentrocopos major",
+        "Scientific name": "Dendrocopos major",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
@@ -14362,7 +14362,7 @@
     },
     {
         "Common name": "Green Pheasant",
-        "Scientific name": "Phasianus colchicus versicolor",
+        "Scientific name": "Phasianus versicolor",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
@@ -17436,7 +17436,7 @@
     },
     {
         "Common name": "Little Grebe",
-        "Scientific name": "Tachybaplus ruficollis",
+        "Scientific name": "Tachybaptus ruficollis",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
@@ -24293,7 +24293,7 @@
     },
     {
         "Common name": "Ruddy Shelduck",
-        "Scientific name": "Jadorna ferruginea",
+        "Scientific name": "Tadorna ferruginea",
         "Expansion": "asia",
         "Color": "Teal",
         "PowerCategory": null,
@@ -25188,7 +25188,7 @@
     },
     {
         "Common name": "Scaly-Breasted Munia",
-        "Scientific name": "Lanchura punctulata",
+        "Scientific name": "Lonchura punctulata",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
@@ -25473,7 +25473,7 @@
     },
     {
         "Common name": "Small Minivet",
-        "Scientific name": "Pericrocolus cinnamomeus",
+        "Scientific name": "Pericrocotus cinnamomeus",
         "Expansion": "asia",
         "Color": "White",
         "PowerCategory": null,
@@ -27472,7 +27472,7 @@
     },
     {
         "Common name": "Trumpeter Finch",
-        "Scientific name": "Bucanetes gitragineus",
+        "Scientific name": "Bucanetes githagineus",
         "Expansion": "asia",
         "Color": "White",
         "PowerCategory": null,
@@ -28854,7 +28854,7 @@
     },
     {
         "Common name": "White-Browed Tit-Warbler",
-        "Scientific name": "Leptopoecile saphiae",
+        "Scientific name": "Leptopoecile sophiae",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
@@ -29700,7 +29700,7 @@
     },
     {
         "Common name": "Willow Tit",
-        "Scientific name": "Poecile mantanus",
+        "Scientific name": "Poecile montanus",
         "Expansion": "asia",
         "Color": "Brown",
         "PowerCategory": null,
