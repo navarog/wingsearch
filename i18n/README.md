@@ -28,6 +28,7 @@ Below you find the table of all needed icons and their codes.
 | ![grassland](../src/assets/icons/png/grassland.png) | [grassland] |
 | ![ground](../src/assets/icons/png/ground.png) | [ground] |
 | ![invertebrate](../src/assets/icons/png/invertebrate.png) | [invertebrate] |
+| ![nectar](../src/assets/icons/png/nectar.png) | [nectar] |
 | ![platform](../src/assets/icons/png/platform.png) | [platform] |
 | ![point](../src/assets/icons/png/point.png) | [point] |
 | ![predator](../src/assets/icons/png/predator.png) | [predator] |
