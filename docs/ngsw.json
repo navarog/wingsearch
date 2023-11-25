@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1690394584402,
+  "timestamp": 1700924550710,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -1692,13 +1692,13 @@
     "/wingsearch/assets/data/bonus.json": "4c17829685bf5fc8f6979856a7a1a69636ae821e",
     "/wingsearch/assets/data/general.json": "5b634f5ee902af229306332ff7c3152989d747b2",
     "/wingsearch/assets/data/goals.json": "ae4923305205eaeb92bb9511309ed1eb4cc8a39a",
-    "/wingsearch/assets/data/i18n/de.json": "a0773eebfdffc4d383f8a7b77edff1a2a5451e43",
+    "/wingsearch/assets/data/i18n/de.json": "e044b14521b6d00a1f7f4fa72d8e0b8763cefb58",
     "/wingsearch/assets/data/i18n/es.json": "d447e6e8998f980a61c3fe448e1add18b2c03634",
     "/wingsearch/assets/data/i18n/fr.json": "c75271d4fa187110d586003023c46e7b82a4c459",
     "/wingsearch/assets/data/i18n/nl.json": "feb66db63fb09289bb174ea6fcbc5205f116b146",
-    "/wingsearch/assets/data/i18n/pl.json": "74c7decda7a187c37122ef0b9b39806adbca90bd",
+    "/wingsearch/assets/data/i18n/pl.json": "fe072c952fc7dcfb7e6aaa6a54ea24315f1e8117",
     "/wingsearch/assets/data/i18n/tr.json": "a58716129675ca099460607bb3ff095e09c8d01c",
-    "/wingsearch/assets/data/i18n/uk.json": "c076833cf94c6c5317fe15cb954b4cc6e63aa509",
+    "/wingsearch/assets/data/i18n/uk.json": "7c17799b49ecef1689741672965e2b243d3248b4",
     "/wingsearch/assets/data/master.json": "44b1a7f7a8606512e7cf2043979e8d1c66e85c5b",
     "/wingsearch/assets/falcon.png": "2867e74f1d8f7e384846e951a4a6d2b50bbd782c",
     "/wingsearch/assets/falcon.webp": "6b531ede3096bca11e86e07731c3763135c12b00",
