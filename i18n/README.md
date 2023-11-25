@@ -1,14 +1,14 @@
 # Contributing to supporting other languages
 
-If you own the game in other language which is not fully translated (or you have found a typo) and want to contribute, I'd really appreciate that. To make the whole process the easiest, please follow the next steps.
+If you own the game in another language that is not fully translated (or you have found a typo) and want to contribute, I'd really appreciate that. To make the whole process the easiest, please follow the next steps.
 
-* If the language is already partially translated, simply download the corresponding file from above. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for german it would be `de.xlsx`) and save it in this folder.
+* If the language is already partially translated, simply download the corresponding file from above. If not, copy the file [`template.xlsx`](template.xlsx) and name it according to the respective [ISO 639-1 2-letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) (e.g. for German it would be `de.xlsx`) and save it in this folder. (Note: If you don't see rows for new expansion birds and bonus cards, check [`template.xlsx`](template.xlsx) and copy the missing rows from there.)
 
 * Fill the necessary information in the file. Do not change any predefined cells. The file consists of 3 sheets. 
 
 * **Pay attention to the following format.** Specify icons in card descriptions using their name inside of square brackets.
 
-E.g. for American Bittern (*Botaurus lentiginosus*), the power text in english looks like this: `Player(s) with the fewest [wetland] birds: draw 1 [card].`
+E.g. for American Bittern (*Botaurus lentiginosus*), the power text in English looks like this: `Player(s) with the fewest [wetland] birds: draw 1 [card].`
 
 Below you find the table of all needed icons and their codes.
 
@@ -51,7 +51,7 @@ Below you find the table of all needed icons and their codes.
 | Power text| Fill there the ability of the bird. Leave empty if the bird has no ability |
 | Note| Fill there additional information about a bird from the appendix. Leave empty if the bird has no additional info |
 
-**Language dependent bonus cards - applicable birds for these bonus cards may differ in your language. There are predefined values for english, please change those columns according to the rules of your language.**
+**Language-dependent bonus cards - applicable birds for these bonus cards may differ in your language. There are predefined values for English, please change those columns according to the rules of your language.**
 
 | Field | Description |
 | ----------- | ----------- |
@@ -81,7 +81,7 @@ Below you find the table of all needed icons and their codes.
 | GAME END| Add local translation of respected yellow power text (Oceania expansion)|
 | of cards| `% of cards` is the text found at the bottom of bonus cards describing how many percent of bird cards fulfill the condition |
 
-In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/wingspan-card-list.xlsx) or open a github issue.
+In the case of any further uncertainties, take a look at the format used in [this spreadsheet](../scripts/wingspan-card-list.xlsx) or open a GitHub issue.
 
 ## Submitting your file
 If you know how to work with git, just open the pull request. If not, you can email me the file at matej.cief@gmail.com
