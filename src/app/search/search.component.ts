@@ -21,13 +21,14 @@ export class SearchComponent implements OnInit {
 
   readonly supportedLanguages = [
     { value: 'en', display: 'English' },
-    { value: 'nl', display: 'Dutch' },
-    { value: 'fr', display: 'French' },
-    { value: 'de', display: 'German' },
-    { value: 'pl', display: 'Polish' },
-    { value: 'es', display: 'Spanish' },
-    { value: 'tr', display: 'Turkish' },
-    { value: 'uk', display: 'Ukrainian' },
+    { value: 'nl', display: 'Nederlands' },
+    { value: 'fr', display: 'Français' },
+    { value: 'de', display: 'Deutsch' },
+    { value: 'pl', display: 'Polski' },
+    { value: 'es', display: 'Español' },
+    { value: 'tr', display: 'Türkçe' },
+    { value: 'uk', display: 'українська' },
+    { value: 'pt', display: 'Português' },
   ]
 
   readonly supportedExpansions = [
