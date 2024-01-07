@@ -38,14 +38,14 @@ export const search = createAction('[App] Search', props<{
         yellow: boolean
     },
     food: {
-        invertebrate: boolean,
-        seed: boolean,
-        fruit: boolean,
-        fish: boolean,
-        rodent: boolean,
-        nectar: boolean,
-        'wild (food)': boolean,
-        'no-food': boolean
+        invertebrate: number,
+        seed: number,
+        fruit: number,
+        fish: number,
+        rodent: number,
+        nectar: number,
+        'wild (food)': number,
+        'no-food': number
     },
     nest: {
         Bowl: boolean,
