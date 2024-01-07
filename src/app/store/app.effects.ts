@@ -24,7 +24,7 @@ export class AppEffects {
                   originalcore: this.cookies.getCookie('expansion.originalcore') !== '0',
               }
               return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
-                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion }))
+                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion, searchData: action.searchData }))
               )
             }
             else

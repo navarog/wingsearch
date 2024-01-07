@@ -68,113 +68,126 @@ export const initialState: AppState = {
     }
 }
 
+function searchState(state: AppState, searchData: appActions.SearchData, birdCards: BirdCard[]):AppState
+{
+  if (!searchData)
+    return state;
+
+  let displayedCards = Array.from(new Set([
+    'Common name',
+    'Scientific name',
+    'Power text',
+  ].reduce((acc, val) =>
+  {
+    return [
+      ...acc,
+      ...state.search.birdCards.search({
+        query: searchData.main, field: val
+      })
+    ]
+  }, [])))
+
+  if (!displayedCards.length && !searchData.main)
+  {
+    // @ts-ignore
+    displayedCards = birdCards.concat(state.bonusCards.map(dynamicPercentage(birdCards, searchData.expansion)))
+  }
+
+  if (searchData.bonus.length)
+  {
+    const bonusCards = state.bonusCards.filter(card => searchData.bonus.includes(card.id))
+
+    displayedCards = displayedCards.filter(isBirdCard).filter(card =>
+      bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
+    )
+  } else
+  {
+    const bonusCards = Array.from(new Set([
+      'Name',
+      'Condition',
+      'VP',
+    ].reduce((acc, val) =>
+    {
+      return [
+        ...acc,
+        ...state.search.bonusCards.search({
+          query: searchData.main, field: val
+        })
+      ]
+    }, [])))
+
+    displayedCards = displayedCards.concat(bonusCards.map(dynamicPercentage(birdCards, searchData.expansion)))
+  }
+
+  const allowedExpansions = Object.entries(searchData.expansion).reduce(
+    (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+  )
+
+  const allowedColors = Object.entries(searchData.colors).reduce(
+    (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+  )
+
+  const mustFood = Object.entries(searchData.food).reduce(
+    (acc, val) => !val[1] ? acc : [...acc, val[0]], []
+  )
+
+  const allowedNests = Object.entries(searchData.nest).reduce(
+    (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
+      allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
+      eatsMustFood(card, mustFood) &&
+      allowedNests.includes(card['Nest type'])
+    )
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    isBonusCard(card) || (searchData.eggs.min <= card['Egg capacity'] && searchData.eggs.max >= card['Egg capacity'])
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    isBonusCard(card) || (searchData.points.min <= card['Victory points'] && searchData.points.max >= card['Victory points'])
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    isBonusCard(card) || card['Wingspan'] === '*' || (searchData.wingspan.min <= card['Wingspan'] && searchData.wingspan.max >= card['Wingspan'])
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    isBonusCard(card) || (searchData.foodCost.min <= card['Total food cost'] && searchData.foodCost.max >= card['Total food cost'])
+  )
+
+  displayedCards = displayedCards.filter(card =>
+    isBonusCard(card)
+    || (searchData.beak?.left && searchData.beak?.right)
+    || (searchData.beak?.left && card['Beak Pointing Left'])
+    || (searchData.beak?.right && card['Beak Pointing Right'])
+    || ([searchData.beak?.left, searchData.beak?.right, card['Beak Pointing Left'], card['Beak Pointing Right']].every(x => !x))
+  )
+
+  const displayedStats = calculateDisplayedStats(displayedCards)
+
+  displayedCards = displayedCards.filter(card =>
+    (isBonusCard(card) && searchData.stats.bonuses)
+    || (isBirdCard(card) && (
+      (searchData.stats.habitat.forest && card.Forest)
+      || (searchData.stats.habitat.grassland && card.Grassland)
+      || (searchData.stats.habitat.wetland && card.Wetland)
+    ))
+  )
+
+  const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
+  displayedCards = displayedCards.slice(0, SLICE_WINDOW)
+
+  return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false, expansion: searchData.expansion }
+}
+
 const reducer = createReducer(
     initialState,
     on(appActions.search, (state, action) => {
-        let displayedCards = Array.from(new Set([
-            'Common name',
-            'Scientific name',
-            'Power text',
-        ].reduce((acc, val) => {
-            return [
-                ...acc,
-                ...state.search.birdCards.search({
-                    query: action.main, field: val
-                })
-            ]
-        }, [])))
-
-        if (!displayedCards.length && !action.main) {
-            // @ts-ignore
-            displayedCards = state.birdCards.concat(state.bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
-        }
-
-        if (action.bonus.length) {
-            const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.id))
-
-            displayedCards = displayedCards.filter(isBirdCard).filter(card =>
-                bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
-            )
-        } else {
-            const bonusCards = Array.from(new Set([
-                'Name',
-                'Condition',
-                'VP',
-            ].reduce((acc, val) => {
-                return [
-                    ...acc,
-                    ...state.search.bonusCards.search({
-                        query: action.main, field: val
-                    })
-                ]
-            }, [])))
-
-            displayedCards = displayedCards.concat(bonusCards.map(dynamicPercentage(state.birdCards, action.expansion)))
-        }
-
-        const allowedExpansions = Object.entries(action.expansion).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
-
-        const allowedColors = Object.entries(action.colors).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
-
-        const mustFood = Object.entries(action.food).reduce(
-            (acc, val) => !val[1] ? acc : [...acc, val[0]], []
-        )
-
-        const allowedNests = Object.entries(action.nest).reduce(
-            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
-                allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
-                eatsMustFood(card, mustFood) &&
-                allowedNests.includes(card['Nest type'])
-            )
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.eggs.min <= card['Egg capacity'] && action.eggs.max >= card['Egg capacity'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.points.min <= card['Victory points'] && action.points.max >= card['Victory points'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || card['Wingspan'] === '*' || (action.wingspan.min <= card['Wingspan'] && action.wingspan.max >= card['Wingspan'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.foodCost.min <= card['Total food cost'] && action.foodCost.max >= card['Total food cost'])
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card)
-            || (action.beak?.left && action.beak?.right)
-            || (action.beak?.left && card['Beak Pointing Left'])
-            || (action.beak?.right && card['Beak Pointing Right'])
-            || ([action.beak?.left, action.beak?.right, card['Beak Pointing Left'], card['Beak Pointing Right']].every(x => !x))
-        )
-
-        const displayedStats = calculateDisplayedStats(displayedCards)
-
-        displayedCards = displayedCards.filter(card =>
-            (isBonusCard(card) && action.stats.bonuses)
-            || (isBirdCard(card) && (
-                (action.stats.habitat.forest && card.Forest)
-                || (action.stats.habitat.grassland && card.Grassland)
-                || (action.stats.habitat.wetland && card.Wetland)
-            ))
-        )
-
-        const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
-        displayedCards = displayedCards.slice(0, SLICE_WINDOW)
-
-        return { ...state, displayedCards, displayedCardsHidden, displayedStats, scrollDisabled: false, expansion: action.expansion }
+      return searchState(state, action.searchData, state.birdCards);
     }),
 
     on(appActions.bonusCardSearch, (state, action) => {
@@ -255,7 +268,9 @@ const reducer = createReducer(
         // @ts-ignore
         const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Name', true))
 
-        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
+        const stateSearch: AppState = searchState(state, action.searchData, birdCards);
+
+        const displayedAndHiddenCards = stateSearch.displayedCards.concat(stateSearch.displayedCardsHidden)
         const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
             .map(translateBirds).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
@@ -263,7 +278,7 @@ const reducer = createReducer(
             .map(dynamicPercentage(birdCards, action.expansion))
 
         return {
-            ...state,
+            ...stateSearch,
             birdCards,
             bonusCards,
             search: { birdCards: birdCardsSearch(birdCards), bonusCards: bonusCardsSearch(bonusCards) },
@@ -296,7 +311,10 @@ const reducer = createReducer(
                 return (a, b) => a[key].localeCompare(b[key], 'en')
         }
 
-        const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
+        // @ts-ignore
+        const stateSearch: AppState = searchState(state, action.searchData, BirdCards);
+
+        const displayedAndHiddenCards = stateSearch.displayedCards.concat(stateSearch.displayedCardsHidden)
         const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
             .map(birdToEnglish).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
@@ -305,7 +323,7 @@ const reducer = createReducer(
             .map(dynamicPercentage(BirdCards, action.expansion))
 
         return {
-            ...state,
+            ...stateSearch,
             // @ts-ignore
             birdCards: BirdCards,
             // @ts-ignore

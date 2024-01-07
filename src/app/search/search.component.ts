@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { search, bonusCardSearch, changeLanguage, resetLanguage } from '../store/app.actions'
+import { search, bonusCardSearch, changeLanguage, resetLanguage, SearchData } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
@@ -39,7 +39,7 @@ export class SearchComponent implements OnInit {
     { value: 'originalcore', display: 'Base game' },
   ]
 
-  query = {
+  query: SearchData = {
     main: '',
     bonus: [],
     stats: {
@@ -183,7 +183,7 @@ export class SearchComponent implements OnInit {
     }
 
     this.selectedExpansions = Object.entries(this.query.expansion).reduce((acc, entry) => entry[1] ? [...acc, entry[0]] : acc, [])
-    store.dispatch(search(this.query))
+    store.dispatch(search({ searchData: this.query }))
   }
 
   ngOnInit(): void {
@@ -194,7 +194,7 @@ export class SearchComponent implements OnInit {
   }
 
   onQueryChange() {
-    this.store.dispatch(search(this.query))
+    this.store.dispatch(search({ searchData: this.query }))
   }
 
   onBonusChange() {
@@ -212,7 +212,7 @@ export class SearchComponent implements OnInit {
   }
 
   onStatsChange(stats) {
-    this.query.stats = stats
+    this.query = { ...this.query, stats }
     this.onQueryChange()
   }
 
@@ -304,10 +304,10 @@ export class SearchComponent implements OnInit {
   languageChange(language: string) {
     if (language === 'en') {
       this.cookies.deleteCookie('language')
-      this.store.dispatch(resetLanguage({ expansion: this.query.expansion }))
+      this.store.dispatch(resetLanguage({ expansion: this.query.expansion, searchData: this.query }))
     } else {
       this.cookies.setCookie('language', language, 180)
-      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion }))
+      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion, searchData: this.query }))
     }
 
     this.analytics.setLanguage(language)
