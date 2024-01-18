@@ -33,7 +33,17 @@ const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStat
 const eatsMustFood = (card: BirdCard, mustFood: string[]): boolean => {
     const foodKeys = ['Invertebrate', 'Seed', 'Fruit', 'Fish', 'Rodent', 'Nectar', 'Wild (food)']
     const birdFood = foodKeys.filter(key => card[key]).map(key => key.toLowerCase())
-    return !!mustFood.every(food => birdFood.includes(food)) || (!birdFood.length && mustFood.length === 1 && mustFood[0] === 'no-food')
+    return !!
+        mustFood.every(food => birdFood.includes(food)) ||
+        (!birdFood.length && mustFood.length === 1 && mustFood[0] === 'no-food')
+}
+
+const eatsMustNotFood = (card: BirdCard, mustNotFood: string[]): boolean => {
+    const foodKeys = ['Invertebrate', 'Seed', 'Fruit', 'Fish', 'Rodent', 'Nectar', 'Wild (food)']
+    const birdFood = foodKeys.filter(key => card[key]).map(key => key.toLowerCase())
+    return !!
+        mustNotFood.every(food => food === 'no-food' || !birdFood.includes(food)) &&
+        (!mustNotFood.includes('no-food') || birdFood.length > 0)
 }
 
 const cookies: CookiesService = new CookiesService();
@@ -60,11 +70,11 @@ export const initialState: AppState = {
     scrollDisabled: false,
     translatedContent: {},
     expansion: {
-      asia: cookies.getCookie('expansion.asia') !== '0',
-      oceania: cookies.getCookie('expansion.oceania') !== '0',
-      european: cookies.getCookie('expansion.european') !== '0',
-      swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
-      originalcore: cookies.getCookie('expansion.originalcore') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
+        originalcore: cookies.getCookie('expansion.originalcore') !== '0',
     }
 }
 
@@ -121,7 +131,11 @@ const reducer = createReducer(
         )
 
         const mustFood = Object.entries(action.food).reduce(
-            (acc, val) => !val[1] ? acc : [...acc, val[0]], []
+            (acc, val) => val[1] === 1 ? [...acc, val[0]] : acc, []
+        )
+
+        const mustNotFood = Object.entries(action.food).reduce(
+            (acc, val) => val[1] === 2 ? [...acc, val[0]] : acc, []
         )
 
         const allowedNests = Object.entries(action.nest).reduce(
@@ -132,6 +146,7 @@ const reducer = createReducer(
             allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
                 allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
                 eatsMustFood(card, mustFood) &&
+                eatsMustNotFood(card, mustNotFood) &&
                 allowedNests.includes(card['Nest type'])
             )
         )

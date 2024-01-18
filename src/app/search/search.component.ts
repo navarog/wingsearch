@@ -82,14 +82,14 @@ export class SearchComponent implements OnInit {
       yellow: true
     },
     food: {
-      invertebrate: false,
-      seed: false,
-      fruit: false,
-      fish: false,
-      rodent: false,
-      nectar: false,
-      'no-food': false,
-      'wild (food)': false
+      invertebrate: 0,
+      seed: 0,
+      fruit: 0,
+      fish: 0,
+      rodent: 0,
+      nectar: 0,
+      'no-food': 0,
+      'wild (food)': 0
     },
     nest: {
       Bowl: true,
@@ -235,7 +235,7 @@ export class SearchComponent implements OnInit {
       wingspan: { ...this.wingspan },
       foodCost: { ...this.foodCost },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
-      food: { invertebrate: false, seed: false, fruit: false, fish: false, rodent: false, nectar: false, 'wild (food)': false, 'no-food': false },
+      food: { invertebrate: 0, seed: 0, fruit: 0, fish: 0, rodent: 0, nectar: 0, 'wild (food)': 0, 'no-food': 0 },
       nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true },
       beak: { left: true, right: true }
     }
@@ -287,7 +287,7 @@ export class SearchComponent implements OnInit {
   }
 
   toggleFood(food: string) {
-    this.query = { ...this.query, food: { ...this.query.food, [food]: !this.query.food[food] } }
+    this.query = { ...this.query, food: { ...this.query.food, [food]: (this.query.food[food] + 1) % 3 } }
     this.onQueryChange()
   }
 

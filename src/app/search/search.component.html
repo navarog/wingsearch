@@ -109,7 +109,10 @@
     </div>
     <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific food cost">
         <span appAnalyticsEvent="Toggle food" eventLabel="invertebrate" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.invertebrate}" (click)="toggleFood('invertebrate')">
+            [ngClass]="{
+              inactive: query.food.invertebrate === 0,
+              exclude: query.food.invertebrate === 2
+            }" (click)="toggleFood('invertebrate')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/invertebrate.webp">
                 <source type="image/png" srcset="assets/icons/png/invertebrate.png">
@@ -118,7 +121,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="seed" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.seed}" (click)="toggleFood('seed')">
+            [ngClass]="{
+              inactive: query.food.seed === 0,
+              exclude: query.food.seed === 2
+            }" (click)="toggleFood('seed')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/seed.webp">
                 <source type="image/png" srcset="assets/icons/png/seed.png">
@@ -127,7 +133,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="fruit" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.fruit}" (click)="toggleFood('fruit')">
+            [ngClass]="{
+              inactive: query.food.fruit === 0,
+              exclude: query.food.fruit === 2
+            }" (click)="toggleFood('fruit')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fruit.webp">
                 <source type="image/png" srcset="assets/icons/png/fruit.png">
@@ -136,7 +145,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="fish" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.fish}" (click)="toggleFood('fish')">
+            [ngClass]="{
+              inactive: query.food.fish === 0,
+              exclude: query.food.fish === 2
+            }" (click)="toggleFood('fish')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/fish.webp">
                 <source type="image/png" srcset="assets/icons/png/fish.png">
@@ -145,7 +157,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="rodent" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.rodent}" (click)="toggleFood('rodent')">
+            [ngClass]="{
+              inactive: query.food.rodent === 0,
+              exclude: query.food.rodent === 2
+            }" (click)="toggleFood('rodent')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/rodent.webp">
                 <source type="image/png" srcset="assets/icons/png/rodent.png">
@@ -154,7 +169,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="nectar" class="pointer shrink"
-            [ngClass]="{inactive: !query.food.nectar}" (click)="toggleFood('nectar')"
+            [ngClass]="{
+              inactive: query.food.nectar === 0,
+              exclude: query.food.nectar === 2
+            }" (click)="toggleFood('nectar')"
             *ngIf="query.expansion.oceania || query.expansion.asia">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/nectar.webp">
@@ -164,7 +182,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="wild" class="pointer shrink"
-            [ngClass]="{inactive: !query.food['wild (food)']}" (click)="toggleFood('wild (food)')">
+            [ngClass]="{
+              inactive: query.food['wild (food)'] === 0,
+              exclude: query.food['wild (food)'] === 2
+            }" (click)="toggleFood('wild (food)')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/wild.webp">
                 <source type="image/png" srcset="assets/icons/png/wild.png">
@@ -173,7 +194,10 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle food" eventLabel="no-food" class="pointer shrink"
-            [ngClass]="{inactive: !query.food['no-food']}" (click)="toggleFood('no-food')">
+            [ngClass]="{
+              inactive: query.food['no-food'] === 0,
+              exclude: query.food['no-food'] === 2
+            }" (click)="toggleFood('no-food')">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/no-food.webp">
                 <source type="image/png" srcset="assets/icons/png/no-food.png">
