@@ -7,7 +7,7 @@
   <script>
     function escape(str) { return str.replace(/([.*+?\^$(){}|\[\]\/\\])/g, '\\$1'); }
     const match = document.cookie.match(RegExp('(?:^|;\\s*)' + escape('consent') + '=([^;]*)'));
-    if (match && match[1] == 1) {
+    if (!match || match[1] == 1) {
       window.dataLayer = window.dataLayer || [];
       function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
