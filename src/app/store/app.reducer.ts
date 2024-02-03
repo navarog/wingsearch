@@ -75,7 +75,8 @@ export const initialState: AppState = {
         european: cookies.getCookie('expansion.european') !== '0',
         swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
         originalcore: cookies.getCookie('expansion.originalcore') !== '0',
-    }
+    },
+    assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }
 
 const reducer = createReducer(
@@ -336,6 +337,13 @@ const reducer = createReducer(
             translatedContent: {},
             // @ts-ignore
             scrollDisabled: !displayedBirds.concat(displayedBonuses).slice(SLICE_WINDOW).length
+        }
+    }),
+
+    on(appActions.changeAssetPack, (state, action) => {
+        return {
+            ...state,
+            assetPack: action.assetPack
         }
     })
 )

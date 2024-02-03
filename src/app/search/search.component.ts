@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { search, bonusCardSearch, changeLanguage, resetLanguage } from '../store/app.actions'
+import { search, bonusCardSearch, changeLanguage, resetLanguage, changeAssetPack } from '../store/app.actions'
 import { AppState, BonusCard } from '../store/app.interfaces'
 import { Observable } from 'rxjs'
 import { Options } from 'ng5-slider'
@@ -37,6 +37,11 @@ export class SearchComponent implements OnInit {
     { value: 'european', display: 'European expansion' },
     { value: 'swiftstart', display: 'Swift-start pack' },
     { value: 'originalcore', display: 'Base game' },
+  ]
+
+  readonly assetPacks = [
+    { value: 'silhouette', display: "Silhouettes" },
+    { value: 'robbie', display: "Robbie birds" },
   ]
 
   query = {
@@ -159,6 +164,7 @@ export class SearchComponent implements OnInit {
 
   language = 'en'
   selectedExpansions = ['asia', 'oceania', 'european', 'originalcore', 'swiftstart']
+  assetPack = 'silhouette'
 
   @ViewChild(MatAutocompleteTrigger)
   autocomplete: MatAutocompleteTrigger
@@ -191,6 +197,7 @@ export class SearchComponent implements OnInit {
     this.bonusControl.valueChanges.subscribe(() => this.onBonusChange())
     if (this.cookies.hasConsent())
       this.language = this.cookies.getCookie('language') || this.language
+      this.assetPack = this.cookies.getCookie('assetPack') || this.assetPack
   }
 
   onQueryChange() {
@@ -315,6 +322,20 @@ export class SearchComponent implements OnInit {
 
   openLanguageDialog() {
     this.dialog.open(LanguageDialogComponent, { closeOnNavigation: true, maxWidth: 'min(700px, 80vw)' })
+  }
+
+  assetPackChange(assetPack: string) {
+    if (assetPack === 'silhouette') {
+      this.cookies.deleteCookie('assetPack')
+      this.store.dispatch(changeAssetPack({ assetPack }))
+    } else {
+      this.cookies.setCookie('assetPack', assetPack, 180)
+      this.store.dispatch(changeAssetPack({ assetPack }))
+    }
+  }
+
+  currentAssetPackDisplay() {
+    return this.assetPacks.find(a => a.value == this.assetPack).display;
   }
 
   expansionChange(selectedExpansions: string[]) {

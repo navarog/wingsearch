@@ -394,6 +394,20 @@
                     </mat-select>
                 </mat-form-field>
             </div>
+            <div class="assetPack-wrapper">
+                <mat-form-field class="assetPack-select">
+                    <mat-label>Bird display</mat-label>
+                    <mat-select [(ngModel)]="assetPack" (ngModelChange)="assetPackChange($event)">
+                        <mat-select-trigger>
+                            {{currentAssetPackDisplay()}}
+                        </mat-select-trigger>
+                        <mat-option class="assetPack-option" *ngFor="let pack of assetPacks"
+                            [value]="pack.value">
+                            {{pack.display}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
+            </div>
             <button appAnalyticsEvent="Reset filter" mat-raised-button color="primary" aria-label="Reset all filters"
                 (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
                 Reset <mat-icon>filter_alt</mat-icon>

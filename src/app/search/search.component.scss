@@ -353,3 +353,14 @@ button {
     margin: 0 6px;
 }
 
+.assetPack-wrapper {
+    max-width: 94px;
+
+    mat-form-field {
+        max-width: 100%;
+    }
+
+    .mat-select-value {
+      color: rgba(0, 0, 0, 0.65);
+    }
+}
