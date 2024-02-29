@@ -1,0 +1,77 @@
+{
+    "alwayson_scripts" :
+    {
+        "API payload" :
+        {
+            "args" : []
+        }
+        ,
+        "Extra options" :
+        {
+            "args" : []
+        }
+        ,
+        "Hypertile" :
+        {
+            "args" : []
+        }
+        ,
+        "Refiner" :
+        {
+            "args" : [true, "sd_xl_refiner_1.0.safetensors [7440042bbd]", 0.8 ]
+        }
+        ,
+        "Seed" :
+        {
+            "args" : [ -1, false, -1, 0, 0, 0 ]
+        }
+    }
+    ,
+    "batch_size" : 1,
+    "cfg_scale" : 7,
+    "comments" :
+    { }
+    ,
+    "disable_extra_networks" : false,
+    "do_not_save_grid" : false,
+    "do_not_save_samples" : false,
+    "enable_hr" : false,
+    "height" : 896,
+    "hr_negative_prompt" : "",
+    "hr_prompt" : "",
+    "hr_resize_x" : 0,
+    "hr_resize_y" : 0,
+    "hr_scale" : 2,
+    "hr_second_pass_steps" : 0,
+    "hr_upscaler" : "Latent",
+    "n_iter" : 1,
+    "negative_prompt" : "grey background, beige background, red eyes, leaf",
+    "override_settings" : { } ,
+    "override_settings_restore_afterwards" : true,
+    "prompt" : "Black Scrub Robin, full body shot, detailed ornithological illustration, white background",
+    "refiner_checkpoint" : "sd_xl_refiner_1.0.safetensors [7440042bbd]",
+    "refiner_switch_at" : 0.8,
+    "restore_faces" : false,
+    "s_churn" : 0,
+    "s_min_uncond" : 0,
+    "s_noise" : 1,
+    "s_tmax" : null,
+    "s_tmin" : 0,
+    "sampler_name" : "DPM++ 2M Karras",
+    "script_args" :
+    [ ]
+    ,
+    "script_name" : null,
+    "seed" : -1,
+    "seed_enable_extras" : true,
+    "seed_resize_from_h" : -1,
+    "seed_resize_from_w" : -1,
+    "steps" : 60,
+    "styles" :
+    [ ]
+    ,
+    "subseed" : -1,
+    "subseed_strength" : 0,
+    "tiling" : false,
+    "width" : 1088
+}
