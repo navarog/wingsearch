@@ -93,3 +93,9 @@ export const resetLanguage = createAction('[App] Reset language',
         expansion: Expansion
   }>()
 )
+
+export const changeAssetPack = createAction('[App] Change asset pack',
+    props<{
+        assetPack: string
+  }>()
+)

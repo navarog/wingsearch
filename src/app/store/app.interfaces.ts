@@ -12,6 +12,7 @@ export interface AppState {
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
+    assetPack: string
 }
 
 export interface BirdCard {

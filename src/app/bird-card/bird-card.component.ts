@@ -1,7 +1,10 @@
 import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
-import { BirdCard } from '../store/app.interfaces'
+import { map } from 'rxjs/operators';
+import { Store } from '@ngrx/store'
+import { BirdCard, AppState } from '../store/app.interfaces'
 import { TranslatePipe } from '../translate.pipe'
+import EasterEggAssets from '../../assets/data/extra-assets.json'
 
 @Component({
   selector: 'app-bird-card',
@@ -16,17 +19,23 @@ export class BirdCardComponent implements OnInit {
   @Input()
   cardHeight$: Observable<number>
 
+  assetPack$: Observable<string>
+
   habitats: string[]
   eggs: any[]
   wingspan: string
   powerTitle = '<span class="intro">[power][text]: </span>'
 
-  constructor(private translate: TranslatePipe) { }
+  constructor(
+    private translate: TranslatePipe,
+    private store: Store<{ app: AppState }>
+  ) { }
 
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
     this.eggs = Array(this.card['Egg capacity'])
     this.wingspan = this.card['Wingspan'] + (this.card['Wingspan'] !== '*' ? 'cm' : '')
+    this.assetPack$ = this.store.select(({ app }) => app.assetPack);
   }
 
   buildFoodCostString() {
@@ -68,6 +77,14 @@ export class BirdCardComponent implements OnInit {
   }
 
   getBirdSilhouette() {
-    return `background-image: url(assets/cards/birds/${this.card.id}.webp)`
+    return this.assetPack$.pipe(
+      map(packName => {
+        if (EasterEggAssets[packName] && EasterEggAssets[packName][this.card.id]) {
+          return `background-image: url(assets/cards/birds-${packName}/${this.card.id}.webp)`
+        } else {
+          return `background-image: url(assets/cards/birds/${this.card.id}.webp)`
+        }
+      })
+    )
   }
 }
