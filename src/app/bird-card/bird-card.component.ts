@@ -80,7 +80,7 @@ export class BirdCardComponent implements OnInit {
     return this.assetPack$.pipe(
       map(packName => {
         if (EasterEggAssets[packName] && EasterEggAssets[packName][this.card.id]) {
-          return `background-image: url(assets/cards/birds-${packName}/${this.card.id}.png)`
+          return `background-image: url(assets/cards/birds-${packName}/${this.card.id}.webp)`
         } else {
           return `background-image: url(assets/cards/birds/${this.card.id}.webp)`
         }
