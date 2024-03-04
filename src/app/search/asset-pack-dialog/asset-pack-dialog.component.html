@@ -1,0 +1,18 @@
+<h2 matDialogTitle>You just selected a hidden asset pack! 🥚</h2>
+
+<div matDialogContent>
+    <p *ngIf="data.assetPack === 'robbie'">
+       This fan art is drawn by Robbie with the help from <a href="https://github.com/nightpool" target="_blank" rel="noopener noreferrer">nightpool</a> 👏
+    </p>
+    <p *ngIf="data.assetPack === 'diffusion'">
+        This fan art is created by Bastian using Stable Diffusion model 🤖<br/>
+        <a href="https://www.linkedin.com/posts/bastiandegroot_wingspan-stablediffusion-mixtral-activity-7162862736735993856-KPRq" target="_blank" rel="noopener noreferrer">See this post for more info how to do that.</a> <br/>
+        The scripts to do this are available on <a href="https://github.com/navarog/wingsearch/tree/master/scripts/ai-bird-art" target="_blank" rel="noopener noreferrer">GitHub</a>.
+    </p>
+
+    <h3>Note that this asset pack is not an official art that comes with Wingspan.</h3>
+</div>
+
+<div matDialogActions>
+    <button mat-button matDialogClose cdkFocusInitial><b>Close</b></button>
+</div>

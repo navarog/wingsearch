@@ -43,6 +43,7 @@ import { BonusCardDetailComponent } from './bonus-card/bonus-card-detail/bonus-c
 import { AppEffects } from './store/app.effects'
 import { TranslatePipe } from './translate.pipe'
 import { LanguageDialogComponent } from './search/language-dialog/language-dialog.component'
+import { AssetPackDialogComponent } from './search/asset-pack-dialog/asset-pack-dialog.component'
 import { AnalyticsEventDirective } from './analytics-event.directive';
 import { ApplinkDirective } from './applink.directive';
 import { SafePipe } from './safe.pipe'
@@ -63,6 +64,7 @@ import { SafePipe } from './safe.pipe'
     BonusCardDetailComponent,
     TranslatePipe,
     LanguageDialogComponent,
+    AssetPackDialogComponent,
     AnalyticsEventDirective,
     ApplinkDirective,
     SafePipe,

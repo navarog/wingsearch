@@ -9,6 +9,7 @@ import { MatAutocompleteSelectedEvent, MatAutocompleteTrigger } from '@angular/m
 import { CookiesService } from '../cookies.service'
 import { MatDialog } from '@angular/material/dialog'
 import { LanguageDialogComponent } from './language-dialog/language-dialog.component'
+import { AssetPackDialogComponent } from './asset-pack-dialog/asset-pack-dialog.component'
 import { AnalyticsService } from '../analytics.service'
 import { access } from 'fs'
 
@@ -332,6 +333,7 @@ export class SearchComponent implements OnInit {
     } else {
       this.cookies.setCookie('assetPack', assetPack, 180)
       this.store.dispatch(changeAssetPack({ assetPack }))
+      this.dialog.open(AssetPackDialogComponent, { closeOnNavigation: true, maxWidth: 'min(700px, 80vw)', data: {assetPack} })
     }
   }
 
