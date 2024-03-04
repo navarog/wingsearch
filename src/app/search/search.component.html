@@ -394,7 +394,7 @@
                     </mat-select>
                 </mat-form-field>
             </div>
-            <div class="assetPack-wrapper">
+            <div class="assetPack-wrapper" *ngIf="query.main.toLowerCase() === 'images'">
                 <mat-form-field class="assetPack-select">
                     <mat-label>Bird display</mat-label>
                     <mat-select [(ngModel)]="assetPack" (ngModelChange)="assetPackChange($event)">
