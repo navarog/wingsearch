@@ -42,6 +42,7 @@ export class SearchComponent implements OnInit {
   readonly assetPacks = [
     { value: 'silhouette', display: "Silhouettes" },
     { value: 'robbie', display: "Robbie's birds" },
+    { value: 'diffusion', display: "Stable Diffusion"}
   ]
 
   query = {
