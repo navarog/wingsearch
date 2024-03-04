@@ -402,7 +402,7 @@
                             {{currentAssetPackDisplay()}}
                         </mat-select-trigger>
                         <mat-option class="assetPack-option" *ngFor="let pack of assetPacks"
-                            [value]="pack.value">
+                            [value]="pack.value" appAnalyticsEvent="Toggle Asset Pack" [eventLabel]="pack.value">
                             {{pack.display}}
                         </mat-option>
                     </mat-select>
