@@ -17,8 +17,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (!this.cookies.getCookie('consent'))
-      this.displayConsent = true
+    this.displayConsent = !Number(this.cookies.getCookie('consent'))
   }
 
   onConsentChange() {
