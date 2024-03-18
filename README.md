@@ -13,5 +13,7 @@ If you own the game in other language which is not translated and want to contri
 ## Special thanks
 The app is using [data](https://boardgamegeek.com/filepage/193164/wingspan-bird-card-spreadsheet) made by TawnyFrogmouth.
 
+Thanks, Robbie, nightpool, and Bastian for all the work on hidden asset packs 🥚
+
 ## License
 This project is licensed under the terms of the [GNU GPLv3  license](LICENSE.md).
