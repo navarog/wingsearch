@@ -38,7 +38,7 @@ Below you find the table of all needed icons and their codes.
 | ![wetland](../src/assets/icons/png/wetland.png) | [wetland] |
 | ![wild](../src/assets/icons/png/wild.png) | [wild] |
 
-Some languages (such as spanish) may use different wording for the bonus cards Anatomist, Cartographer, Historian, and Photographer, as translating the name would result in the percentages of qualifying cards for those bonus cards being affected, some new icons may be used to tag these cards instead.
+Some languages (such as Spanish) may use different wording for the bonus cards Anatomist, Cartographer, Historian, and Photographer, as translating the name would result in the percentages of qualifying cards for those bonus cards being affected, some new icons may be used to tag these cards instead.
 
 | Icon                                              | Code |
 |---------------------------------------------------| ----------- |
