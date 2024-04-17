@@ -12,6 +12,7 @@ export interface AppState {
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
+    parameters: { Name: string; Value: unknown; }[]
     assetPack: string
 }
 
@@ -81,6 +82,27 @@ export interface BirdCard {
 
 export function isBirdCard(object: any): object is BirdCard {
     return 'Common name' in object
+}
+
+export function displayName(card: BirdCard, showBonusCardsMatchSymbols: boolean): string
+{
+  var name = card['Common name'];
+  if (showBonusCardsMatchSymbols)
+  {
+    if (!!card.Anatomist) {
+      name += ' [anatomist]';
+    }
+    if (!!card.Cartographer) {
+      name += ' [cartographer]';
+    }
+    if (!!card.Historian) {
+      name += ' [historian]';
+    }
+    if (!!card.Photographer) {
+      name += ' [photographer]';
+    }
+  }
+  return name;
 }
 
 export enum Color {
