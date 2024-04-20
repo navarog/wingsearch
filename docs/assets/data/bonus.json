@@ -1,754 +1,834 @@
 [
-    {
-        "Name": "Anatomist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with body parts in their names",
-        "Explanatory text": "Body parts include beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, neck, rump, shoulder, tail, throat, wing",
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
-        "%": 22,
-        "Note": "Include these terms, if you play with: <br>European expansion: back, leg, toe <br>Oceania expansion: back, ear, foot, head, mouth, wattle <br>Asia: brow, nape, vent, wattle <br> <ul><li>The Azure Tit, Willow Tit, and White-Browed Tit-Warbler do not qualify for the Anatomist card: in this case, \"tit\" comes from an Old English word meaning \"small thing.\"<\/li><\/ul>",
-        "VP Average": 1.25,
-        "id": 1000,
-        "rulings": [
-            {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant sections of the expansion rulebooks. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the <i>wing<\/i> in <strong applink=\"\/card\/56\">Burrowing Owl<\/strong>).",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
-            },
-            {
-                "text": "On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
-            }
-        ]
-    },
-    {
-        "Name": "Avian Theriogenologist",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Birds with completely full nests",
-        "Explanatory text": "Birds with no egg capacity do not count towards this card",
-        "VP": "5 to 6 birds: 4[point]; 7+ birds: 7[point]",
-        "%": "-",
-        "Note": "Count the number of birds that have the maximum possible number of eggs on them, according to their egg limit.<br> Birds with no egg capacity do not count towards this card\u2013they do not have a full nest.",
-        "VP Average": 0.0,
-        "id": 1039,
-        "rulings": []
-    },
-    {
-        "Name": "Backyard Birder",
-        "Expansion": "originalcore",
-        "Automa": null,
-        "Condition": "Birds worth less than 4 points",
-        "Explanatory text": null,
-        "VP": "5 to 6 birds: 3[point]; 6+ birds: 6[point]",
-        "%": 42,
-        "Note": "Count the birds you played that have a face value of 0, 1, 2, or 3 points.",
-        "VP Average": 0.75,
-        "id": 1001,
-        "rulings": []
-    },
-    {
-        "Name": "Behaviorist",
-        "Expansion": "european",
-        "Automa": null,
-        "Condition": "For each column that contains birds with 3 different power colors:",
-        "Explanatory text": "Birds with no power count as white.",
-        "VP": "3[point] per column",
-        "%": "-",
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1002,
-        "rulings": []
-    },
-    {
-        "Name": "Bird Bander",
-        "Expansion": "european",
-        "Automa": "X",
-        "Condition": "Birds that can live in multiple habitats",
-        "Explanatory text": null,
-        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
-        "%": 31,
-        "Note": null,
-        "VP Average": 1.0,
-        "id": 1003,
-        "rulings": []
-    },
-    {
-        "Name": "Bird Counter",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with a [flocking] power",
-        "Explanatory text": null,
-        "VP": "2[point] per bird",
-        "%": 15,
-        "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
-        "VP Average": 2.0,
-        "id": 1004,
-        "rulings": [
-            {
-                "text": "A bird with a [flocking] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
-            }
-        ]
-    },
-    {
-        "Name": "Bird Feeder",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat [seed]",
-        "Explanatory text": null,
-        "VP": "5 to 7 birds: 3[point]; 8+ birds: 7[point]",
-        "%": 44,
-        "Note": null,
-        "VP Average": 0.75,
-        "id": 1005,
-        "rulings": []
-    },
-    {
-        "Name": "Breeding Manager",
-        "Expansion": "originalcore",
-        "Automa": null,
-        "Condition": "Birds that have at least 4 eggs laid on them",
-        "Explanatory text": null,
-        "VP": "1[point] per bird",
-        "%": 28,
-        "Note": "Count only bird cards that have 4 egg tokens sitting on them at game end.",
-        "VP Average": 1.0,
-        "id": 1006,
-        "rulings": []
-    },
-    {
-        "Name": "Cartographer",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with geography terms in their name",
-        "Explanatory text": "Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Mississippi, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
-        "%": 21,
-        "Note": "Include these terms, if you play with: <br>European expansion: Corsican, Eurasian, European, Moor <br>Oceania expansion: Australasian, Australian, mallee, New Holland, North, Pacific, plains, sea, scrub, South <br>Asia: East, forest, Himalaya, India, jungle, marsh, Orient, Philippine, Sri Lanka, West",
-        "VP Average": 1.25,
-        "id": 1007,
-        "rulings": [
-            {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including <i>prairie<\/i> (which is printed on this bonus card only in newer printings), and those in the relevant sections of the expansion rulebooks.",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-            },
-            {
-                "text": "On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
-            }
-        ]
-    },
-    {
-        "Name": "Citizen Scientist",
-        "Expansion": "european",
-        "Automa": "X",
-        "Condition": "Birds with tucked cards",
-        "Explanatory text": null,
-        "VP": "4 to 6 birds: 3[point]; 7+ birds: 6[point]",
-        "%": 21,
-        "Note": null,
-        "VP Average": 0.75,
-        "id": 1008,
-        "rulings": [
-            {
-                "text": "In games where the Automa has drawn this bonus card, the Automa selects birds that have tucking powers; these powers are precisely those which contain the word <i>\"tuck\"<\/i> or <i>\"tucked\"<\/i>.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
-            }
-        ]
-    },
-    {
-        "Name": "Diet Specialist",
-        "Expansion": "european",
-        "Automa": "X",
-        "Condition": "Birds with a food cost of 3 food",
-        "Explanatory text": null,
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 6[point]",
-        "%": 29,
-        "Note": null,
-        "VP Average": 1.25,
-        "id": 1009,
-        "rulings": []
-    },
-    {
-        "Name": "Ecologist",
-        "Expansion": "originalcore",
-        "Automa": null,
-        "Condition": "Birds in your habitat with the fewest birds.",
-        "Explanatory text": "Ties count.",
-        "VP": "2[point] per bird",
-        "%": "-",
-        "Note": "Count the number of birds you played, in the habitat where you played the fewest birds. If you have two habitats tied for fewest birds, you may still score this bonus. For example, if all of your habitats have 3 birds in them, your habitat with the fewest birds has 3 birds in it.",
-        "VP Average": 0.0,
-        "id": 1010,
-        "rulings": []
-    },
-    {
-        "Name": "Enclosure Builder",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with [ground] nests",
-        "Explanatory text": "Birds must have a [ground] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
-        "%": 31,
-        "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
-        "VP Average": 1.0,
-        "id": 1011,
-        "rulings": []
-    },
-    {
-        "Name": "Endangered Species Protector",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Birds that allow you to score or draw bonus cards",
-        "Explanatory text": null,
-        "VP": "3[point] each",
-        "%": 9,
-        "Note": "Count how many birds you have that have the symbol shown\u2013birds whose power allows you to draw a new bonus card. In this deck, these birds are:<br> Indian Vulture<br> Philippine Eagle<br> White-headed Duck<br> Spoon-billed Sandpiper<br> Greater Adjutant<br> Red-crowned Crane<br> Crested Ibis<br><br> In addition, there is one bird\u2013the Great Indian Bustard\u2013that allows you to score a bonus card and keep it. That bird also counts for this bonus card.",
-        "VP Average": 3.0,
-        "id": 1040,
-        "rulings": []
-    },
-    {
-        "Name": "Ethologist",
-        "Expansion": "european",
-        "Automa": null,
-        "Condition": "In any one habitat:",
-        "Explanatory text": "Birds with no power count as white.",
-        "VP": "2[point] per power color",
-        "%": "-",
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1012,
-        "rulings": []
-    },
-    {
-        "Name": "Falconer",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with a [predator] power",
-        "Explanatory text": null,
-        "VP": "2[point] per bird",
-        "%": 13,
-        "Note": "Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
-        "VP Average": 2.0,
-        "id": 1013,
-        "rulings": [
-            {
-                "text": "A bird with a [predator] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
-            }
-        ]
-    },
-    {
-        "Name": "Fishery Manager",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat [fish]",
-        "Explanatory text": null,
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 8[point]",
-        "%": 18,
-        "Note": null,
-        "VP Average": 1.5,
-        "id": 1014,
-        "rulings": []
-    },
-    {
-        "Name": "Food Web Expert",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat only [invertebrate]",
-        "Explanatory text": null,
-        "VP": "2[point] per bird",
-        "%": 9,
-        "Note": null,
-        "VP Average": 2.0,
-        "id": 1015,
-        "rulings": []
-    },
-    {
-        "Name": "Forest Data Analyst",
-        "Expansion": "oceania",
-        "Automa": null,
-        "Condition": "Consecutive birds in [forest] with ascending or descending wingspans",
-        "Explanatory text": null,
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
-        "VP Average": 0.0,
-        "id": 1034,
-        "rulings": [
-            {
-                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
-            }
-        ]
-    },
-    {
-        "Name": "Forest Population Monitor",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Different nest types in [forest]",
-        "Explanatory text": "You may count each star nest as any other type or as a fifth type.",
-        "VP": "2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
-        "%": "-",
-        "Note": "For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
-        "VP Average": 0.0,
-        "id": 1041,
-        "rulings": []
-    },
-    {
-        "Name": "Forest Ranger",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Consecutive birds in [forest] with ascending or descending scores",
-        "Explanatory text": "Each bird's score must be higher than the next. You can go right to left or left to right.",
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
-        "VP Average": 0.0,
-        "id": 1042,
-        "rulings": []
-    },
-    {
-        "Name": "Forester",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that can only live in [forest]",
-        "Explanatory text": null,
-        "VP": "3 to 4 birds: 4[point]; 5 birds: 5[point]",
-        "%": 24,
-        "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
-        "VP Average": 1.0,
-        "id": 1016,
-        "rulings": []
-    },
-    {
-        "Name": "Grassland Data Analyst",
-        "Expansion": "oceania",
-        "Automa": null,
-        "Condition": "Consecutive birds in [grassland] with ascending or descending wingspans",
-        "Explanatory text": null,
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
-        "VP Average": 0.0,
-        "id": 1035,
-        "rulings": [
-            {
-                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
-            }
-        ]
-    },
-    {
-        "Name": "Grassland Population Monitor",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Different nest types in [grassland]",
-        "Explanatory text": "You may count each star nest as any other type or as a fifth type.",
-        "VP": "2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
-        "%": "-",
-        "Note": "For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
-        "VP Average": 0.0,
-        "id": 1043,
-        "rulings": []
-    },
-    {
-        "Name": "Grassland Ranger",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Consecutive birds in [grassland] with ascending or descending scores",
-        "Explanatory text": "Each bird's score must be higher than the next. You can go right to left or left to right.",
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
-        "VP Average": 0.0,
-        "id": 1044,
-        "rulings": []
-    },
-    {
-        "Name": "Historian",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds named after a person",
-        "Explanatory text": "Any bird with an 's in its name.",
-        "VP": "2[point] per bird",
-        "%": 11,
-        "Note": null,
-        "VP Average": 2.0,
-        "id": 1017,
-        "rulings": []
-    },
-    {
-        "Name": "Large Bird Specialist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with wingspans over 65 cm",
-        "Explanatory text": null,
-        "VP": "4 to 5 birds: 3[point]; 6+ birds: 6[point]",
-        "%": 35,
-        "Note": "Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
-        "VP Average": 0.75,
-        "id": 1018,
-        "rulings": []
-    },
-    {
-        "Name": "Mechanical Engineer",
-        "Expansion": "oceania",
-        "Automa": "X",
-        "Condition": "Sets of the 4 nest types",
-        "Explanatory text": "Each star nest can be treated as any 1 nest type. No card can be part of more than one set.",
-        "VP": "1 set = [bowl] [cavity] [ground] [platform]; one set: 3[point]; two sets: 8[point]",
-        "%": "-",
-        "Note": "This card is looking for sets of the four nest types among all of your birds. The order and location of the nests do not matter; it only matters that each set includes all four nest types.<br> Each star nest can be substituted for one nest of any type in one set. For example:<ul><li>a cavity nest, a platform nest, and two stars would be a complete set.<\/li><li>two cavity nests, two platform nests, a bowl nest, a ground nest, and two stars would be two complete sets.<\/li><li>two bowl nests, two cavity nests, two platform nests, and one star nest count as one set, not two, because the star nest can only be a member of one set.<\/li><\/ul>",
-        "VP Average": 0.0,
-        "id": 1036,
-        "rulings": []
-    },
-    {
-        "Name": "Nest Box Builder",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with [cavity] nests",
-        "Explanatory text": "Birds must have a [cavity] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
-        "%": 31,
-        "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
-        "VP Average": 1.0,
-        "id": 1019,
-        "rulings": []
-    },
-    {
-        "Name": "Omnivore Specialist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat [wild]",
-        "Explanatory text": "Any bird that specifically has a [wild] symbol as part of its food cost.",
-        "VP": "2[point] per bird",
-        "%": 16,
-        "Note": null,
-        "VP Average": 2.0,
-        "id": 1020,
-        "rulings": [
-            {
-                "text": "The percentage on this bonus card should be 16\\%. (This misprint was corrected in print by February 2020.)",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-            }
-        ]
-    },
-    {
-        "Name": "Oologist",
-        "Expansion": "originalcore",
-        "Automa": null,
-        "Condition": "Birds that have at least 1 egg laid on them",
-        "Explanatory text": null,
-        "VP": "7 to 8 birds: 3[point]; 9+ birds: 6[point]",
-        "%": "-",
-        "Note": "Count only bird cards that have at least 1 egg token sitting on them at game end.",
-        "VP Average": 0.0,
-        "id": 1021,
-        "rulings": []
-    },
-    {
-        "Name": "Passerine Specialist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with wingspans 30 cm or less",
-        "Explanatory text": null,
-        "VP": "4 to 5 birds: 3[point]; 6+ birds: 6[point]",
-        "%": 35,
-        "Note": "Count the birds you played that have wingspans 30cm or less. Wingspans of exactly 30cm count toward this bonus.",
-        "VP Average": 0.75,
-        "id": 1022,
-        "rulings": []
-    },
-    {
-        "Name": "Pellet Dissector",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "[fish] and [rodent] tokens cached on birds",
-        "Explanatory text": null,
-        "VP": "2 to 3 cached: 3[point]; 4+ cached: 6[point]",
-        "%": 13,
-        "Note": "Count how many fish and rodent tokens you have cached on your bird cards.",
-        "VP Average": 0.0,
-        "id": 1045,
-        "rulings": []
-    },
-    {
-        "Name": "Photographer",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with colors in their names",
-        "Explanatory text": "Colors include ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
-        "VP": "4 to 5 birds: 3[point]; 6+ birds: 7[point]",
-        "%": 34,
-        "Note": "Include these terms, if you play with: <br>European expansion: coal, grey <br>Oceania expansion: crimson, orange, pink, rufous, silver, sulphur, tawny <br>Asia: azure, emerald, fire, olive, plumbeous, teal, verditer, violet <br><br>The European Expansion rulebook erroneously includes honey as a term for the Photographer bonus.\ncard. Honey does not count as a color word. <br><br> <ul><li>Coppersmith Barbet dose not qualify for the Photographer card.<\/li><\/ul>",
-        "VP Average": 0.75,
-        "id": 1023,
-        "rulings": [
-            {
-                "text": "The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
-                "source": "https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
-            },
-            {
-                "text": "The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding <i>honey<\/i> in the <i>European Expansion<\/i> rulebook---see <strong>Honey<\/strong>), and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong applink=\"\/card\/24\">Barred Owl<\/strong>), but see <strong applink=\"\/card\/174\">Northern Bobwhite<\/strong>.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
-            },
-            {
-                "text": "On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
-            }
-        ]
-    },
-    {
-        "Name": "Platform Builder",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with [platform] nests",
-        "Explanatory text": "Birds must have a [platform] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
-        "%": 31,
-        "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
-        "VP Average": 1.0,
-        "id": 1024,
-        "rulings": []
-    },
-    {
-        "Name": "Prairie Manager",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that can only live in [grassland]",
-        "Explanatory text": null,
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 8[point]",
-        "%": 19,
-        "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
-        "VP Average": 1.25,
-        "id": 1025,
-        "rulings": []
-    },
-    {
-        "Name": "Rodentologist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat [rodent]",
-        "Explanatory text": null,
-        "VP": "2[point] per bird",
-        "%": 15,
-        "Note": null,
-        "VP Average": 2.0,
-        "id": 1026,
-        "rulings": [
-            {
-                "text": "This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
-                "source": "Card update pack."
-            }
-        ]
-    },
-    {
-        "Name": "Site Selection Expert",
-        "Expansion": "oceania",
-        "Automa": null,
-        "Condition": "Columns with a matching pair or trio of nests",
-        "Explanatory text": "Different columns may (but need not) score using different nest types. Star nests are wild, but each counts only once.",
-        "VP": "2 of the same nest in a column: 1[point]; 3 of the same nest in a column: 3[point]",
-        "%": "-",
-        "Note": "This bonus card grants points for each column that contains more than one nest of some type. A column is worth 0, 1, or 3 points, according to whether it has 0, 2, or 3 matching nests in that column, respectively. Different columns may (but need not) score using different nest types. <br><br>Star nests are wild. A single star nest counts only once; it cannot be used to match 2 different kinds of nests in the same column.",
-        "VP Average": 0.0,
-        "id": 1037,
-        "rulings": [
-            {
-                "text": "When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played. ",
-                "source": "https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
-            }
-        ]
-    },
-    {
-        "Name": "Small Clutch Specialist",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Birds with an egg limit of 2 or less",
-        "Explanatory text": "You may include birds with no egg capacity.",
-        "VP": "5 to 7 birds: 3[point]; 8+ birds: 7[point]",
-        "%": 44,
-        "Note": "Look at the egg limit printed on each bird card, and count the number of birds whose egg limit is 2 or less. You may include birds that do not have an egg limit\u2013their egg limit is zero (less than 2).<br>For this card, it does not matter whether the birds have eggs on them.",
-        "VP Average": 0.0,
-        "id": 1046,
-        "rulings": []
-    },
-    {
-        "Name": "Visionary Leader",
-        "Expansion": "originalcore",
-        "Automa": null,
-        "Condition": "Bird cards in hand at end of game",
-        "Explanatory text": null,
-        "VP": "5 to 7 birds: 4[point]; 8+ birds: 7[point]",
-        "%": "-",
-        "Note": "Count the bird cards still in your hand at the end of the game.",
-        "VP Average": 0.0,
-        "id": 1027,
-        "rulings": []
-    },
-    {
-        "Name": "Viticulturalist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that eat [fruit]",
-        "Explanatory text": null,
-        "VP": "2 to 3 birds: 3[point]; 4+ birds: 7[point]",
-        "%": 22,
-        "Note": null,
-        "VP Average": 1.5,
-        "id": 1028,
-        "rulings": []
-    },
-    {
-        "Name": "Wetland Data Analyst",
-        "Expansion": "oceania",
-        "Automa": null,
-        "Condition": "Consecutive birds in [wetland] with ascending or descending wingspans",
-        "Explanatory text": null,
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
-        "VP Average": 0.0,
-        "id": 1038,
-        "rulings": [
-            {
-                "text": "This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
-                "source": "https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
-            }
-        ]
-    },
-    {
-        "Name": "Wetland Population Monitor",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Different nest types in [wetland]",
-        "Explanatory text": "You may count each star nest as any other type or as a fifth type.",
-        "VP": "2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
-        "%": "-",
-        "Note": "For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
-        "VP Average": 0.0,
-        "id": 1047,
-        "rulings": []
-    },
-    {
-        "Name": "Wetland Ranger",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Consecutive birds in [wetland] with ascending or descending scores",
-        "Explanatory text": "Each bird's score must be higher than the next. You can go right to left or left to right.",
-        "VP": "3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
-        "%": "-",
-        "Note": "Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
-        "VP Average": 0.0,
-        "id": 1048,
-        "rulings": []
-    },
-    {
-        "Name": "Wetland Scientist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds that can only live in [wetland]",
-        "Explanatory text": null,
-        "VP": "3 to 4 birds: 3[point]; 5 birds: 7[point]",
-        "%": 26,
-        "Note": "Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
-        "VP Average": 1.0,
-        "id": 1029,
-        "rulings": []
-    },
-    {
-        "Name": "Wildlife Gardener",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds with [bowl] nests",
-        "Explanatory text": "Birds must have a [bowl] or [star] nest symbol.",
-        "VP": "4 to 5 birds: 4[point]; 6+ birds: 7[point]",
-        "%": 31,
-        "Note": "Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
-        "VP Average": 1.0,
-        "id": 1030,
-        "rulings": []
-    },
-    {
-        "Name": "Winter Feeder",
-        "Expansion": "asia",
-        "Automa": null,
-        "Condition": "Food remaining in your supply at game end",
-        "Explanatory text": null,
-        "VP": "4 to 6 food: 4[point]; 7+ food: 7[point]",
-        "%": "-",
-        "Note": "Count how many unspent food tokens you have at the end of the game. Food cached on birds does not count as part of your supply.",
-        "VP Average": 0.0,
-        "id": 1049,
-        "rulings": []
-    },
-    {
-        "Name": "[Fan Made] Caprimulgiform Specialist",
-        "Expansion": "originalcore",
-        "Automa": "X",
-        "Condition": "Birds of the orders Caprimulgiformes and Apodiformes",
-        "Explanatory text": "Species include chuck-will's-widow, frogmouths, hummingbirds, nighthawks, nightjars, oilbird, owlet-nightjars, pauraque, poorwills, potoos, spinetails, swifts, swiftlets, treeswifts, whip-poor-wills",
-        "VP": "3[point] per bird",
-        "%": "-",
-        "Note": "This card is part of Frogmouth Fan Pack made by <strong applink=\"https:\/\/boardgamegeek.com\/user\/TawnyFrogmouth\">TawnyFrogmouth<\/strong>.",
-        "VP Average": 3.0,
-        "id": 1031,
-        "rulings": []
-    },
-    {
-        "Name": "[automa] Autwitcher",
-        "Expansion": "european",
-        "Automa": "X",
-        "Condition": "Birds that are worth 3 or 4 points",
-        "Explanatory text": null,
-        "VP": "The automa keeps up to 2 of them (higher value first).",
-        "%": 44,
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1032,
-        "rulings": []
-    },
-    {
-        "Name": "[automa] Avid Asian Avian Admirer",
-        "Expansion": "asia",
-        "Automa": "X",
-        "Condition": "<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>2<\/b> or <b>3<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>3<\/b> or <b>4<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>4<\/b> or <b>5<\/b> points<\/td><\/tr><\/table>",
-        "Explanatory text": null,
-        "VP": "The Automa keeps up to 2 of them (lower value first)",
-        "%": "variable",
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1050,
-        "rulings": []
-    },
-    {
-        "Name": "[automa] RASPB Life Fellow",
-        "Expansion": "european",
-        "Automa": "X",
-        "Condition": "Birds that are worth 5, 6, or 7 points",
-        "Explanatory text": null,
-        "VP": "The automa keeps the highest valued one.",
-        "%": 28,
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1033,
-        "rulings": []
-    },
-    {
-        "Name": "[automa] Rare Species Lister",
-        "Expansion": "asia",
-        "Automa": "X",
-        "Condition": "<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>4<\/b>, <b>5<\/b>, or <b>6<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>5<\/b>, <b>6<\/b>, or <b>7<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>6<\/b>, <b>7<\/b>, or <b>8<\/b> points<\/td><\/tr><\/table>",
-        "Explanatory text": null,
-        "VP": "The Automa keeps the lowest valued one.",
-        "%": "variable",
-        "Note": null,
-        "VP Average": 0.0,
-        "id": 1051,
-        "rulings": []
-    }
+  {
+    "Name":"Anatomist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with body parts in their names",
+    "Explanatory text":"Body parts include beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, neck, rump, shoulder, tail, throat, wing",
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 7[point]",
+    "%":22,
+    "Note":"Include these terms, if you play with: <br>European expansion: back, leg, toe <br>Oceania expansion: back, ear, foot, head, mouth, wattle <br>Asia: brow, nape, vent, wattle <br> <ul><li>The Azure Tit, Willow Tit, and White-Browed Tit-Warbler do not qualify for the Anatomist card: in this case, \"tit\" comes from an Old English word meaning \"small thing.\"<\/li><\/ul>",
+    "VP Average":1.25,
+    "id":1000,
+    "rulings":[
+      {
+        "text":"The only keywords that qualify a bird to count toward this bonus card are those listed thereon and those in the relevant sections of the expansion rulebooks. Substrings of bird names that coincide with names of body parts do not count toward the bonus when not referring to body parts (e.g., the <i>wing<\/i> in <strong applink=\"\/card\/56\">Burrowing Owl<\/strong>).",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
+      },
+      {
+        "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      }
+    ]
+  },
+  {
+    "Name":"Avian Theriogenologist",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Birds with completely full nests",
+    "Explanatory text":"Birds with no egg capacity do not count towards this card",
+    "VP":"5 to 6 birds: 4[point]; 7+ birds: 7[point]",
+    "%":"-",
+    "Note":"Count the number of birds that have the maximum possible number of eggs on them, according to their egg limit.<br> Birds with no egg capacity do not count towards this card\u2013they do not have a full nest.",
+    "VP Average":0.0,
+    "id":1039,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Backyard Birder",
+    "Expansion":"originalcore",
+    "Automa":null,
+    "Condition":"Birds worth less than 4 points",
+    "Explanatory text":null,
+    "VP":"5 to 6 birds: 3[point]; 6+ birds: 6[point]",
+    "%":42,
+    "Note":"Count the birds you played that have a face value of 0, 1, 2, or 3 points.",
+    "VP Average":0.75,
+    "id":1001,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Behaviorist",
+    "Expansion":"european",
+    "Automa":null,
+    "Condition":"For each column that contains birds with 3 different power colors:",
+    "Explanatory text":"Birds with no power count as white.",
+    "VP":"3[point] per column",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "id":1002,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Bird Bander",
+    "Expansion":"european",
+    "Automa":"X",
+    "Condition":"Birds that can live in multiple habitats",
+    "Explanatory text":null,
+    "VP":"4 to 5 birds: 4[point]; 6+ birds: 7[point]",
+    "%":31,
+    "Note":null,
+    "VP Average":1.0,
+    "id":1003,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Bird Counter",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with a [flocking] power",
+    "Explanatory text":null,
+    "VP":"2[point] per bird",
+    "%":15,
+    "Note":"Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
+    "VP Average":2.0,
+    "id":1004,
+    "rulings":[
+      {
+        "text":"A bird with a [flocking] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+      }
+    ]
+  },
+  {
+    "Name":"Bird Feeder",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat [seed]",
+    "Explanatory text":null,
+    "VP":"5 to 7 birds: 3[point]; 8+ birds: 7[point]",
+    "%":44,
+    "Note":null,
+    "VP Average":0.75,
+    "id":1005,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Breeding Manager",
+    "Expansion":"originalcore",
+    "Automa":null,
+    "Condition":"Birds that have at least 4 eggs laid on them",
+    "Explanatory text":null,
+    "VP":"1[point] per bird",
+    "%":28,
+    "Note":"Count only bird cards that have 4 egg tokens sitting on them at game end.",
+    "VP Average":1.0,
+    "id":1006,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Cartographer",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with geography terms in their name",
+    "Explanatory text":"Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Mississippi, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 7[point]",
+    "%":21,
+    "Note":"Include these terms, if you play with: <br>European expansion: Corsican, Eurasian, European, Moor <br>Oceania expansion: Australasian, Australian, mallee, New Holland, North, Pacific, plains, sea, scrub, South <br>Asia: East, forest, Himalaya, India, jungle, marsh, Orient, Philippine, Sri Lanka, West",
+    "VP Average":1.25,
+    "id":1007,
+    "rulings":[
+      {
+        "text":"The only keywords that qualify a bird to count toward this bonus card are those listed thereon, including <i>prairie<\/i> (which is printed on this bonus card only in newer printings), and those in the relevant sections of the expansion rulebooks.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      },
+      {
+        "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      }
+    ]
+  },
+  {
+    "Name":"Citizen Scientist",
+    "Expansion":"european",
+    "Automa":"X",
+    "Condition":"Birds with tucked cards",
+    "Explanatory text":null,
+    "VP":"4 to 6 birds: 3[point]; 7+ birds: 6[point]",
+    "%":21,
+    "Note":null,
+    "VP Average":0.75,
+    "id":1008,
+    "rulings":[
+      {
+        "text":"In games where the Automa has drawn this bonus card, the Automa selects birds that have tucking powers; these powers are precisely those which contain the word <i>\"tuck\"<\/i> or <i>\"tucked\"<\/i>.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/507078829995724\/?comment_id=507188399984767"
+      }
+    ]
+  },
+  {
+    "Name":"Diet Specialist",
+    "Expansion":"european",
+    "Automa":"X",
+    "Condition":"Birds with a food cost of 3 food",
+    "Explanatory text":null,
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 6[point]",
+    "%":29,
+    "Note":null,
+    "VP Average":1.25,
+    "id":1009,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Ecologist",
+    "Expansion":"originalcore",
+    "Automa":null,
+    "Condition":"Birds in your habitat with the fewest birds.",
+    "Explanatory text":"Ties count.",
+    "VP":"2[point] per bird",
+    "%":"-",
+    "Note":"Count the number of birds you played, in the habitat where you played the fewest birds. If you have two habitats tied for fewest birds, you may still score this bonus. For example, if all of your habitats have 3 birds in them, your habitat with the fewest birds has 3 birds in it.",
+    "VP Average":0.0,
+    "id":1010,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Enclosure Builder",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with [ground] nests",
+    "Explanatory text":"Birds must have a [ground] or [star] nest symbol.",
+    "VP":"4 to 5 birds: 4[point]; 6+ birds: 7[point]",
+    "%":31,
+    "Note":"Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+    "VP Average":1.0,
+    "id":1011,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Endangered Species Protector",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Birds that allow you to score or draw bonus cards",
+    "Explanatory text":null,
+    "VP":"3[point] each",
+    "%":9,
+    "Note":"Count how many birds you have that have the symbol shown\u2013birds whose power allows you to draw a new bonus card. In this deck, these birds are:<br> Indian Vulture<br> Philippine Eagle<br> White-headed Duck<br> Spoon-billed Sandpiper<br> Greater Adjutant<br> Red-crowned Crane<br> Crested Ibis<br><br> In addition, there is one bird\u2013the Great Indian Bustard\u2013that allows you to score a bonus card and keep it. That bird also counts for this bonus card.",
+    "VP Average":3.0,
+    "id":1040,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Ethologist",
+    "Expansion":"european",
+    "Automa":null,
+    "Condition":"In any one habitat:",
+    "Explanatory text":"Birds with no power count as white.",
+    "VP":"2[point] per power color",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "id":1012,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Falconer",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with a [predator] power",
+    "Explanatory text":null,
+    "VP":"2[point] per bird",
+    "%":13,
+    "Note":"Count the birds you played that have the specific symbol shown on this bonus card. The symbol should be on the left-hand side of the bird\u2019s brown power.",
+    "VP Average":2.0,
+    "id":1013,
+    "rulings":[
+      {
+        "text":"A bird with a [predator] power qualifies for this bonus card regardless of the color of that power despite the specification of brown powers in this bonus card's entry in the Appendix.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2153031\/article\/34459426#34459426"
+      }
+    ]
+  },
+  {
+    "Name":"Fishery Manager",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat [fish]",
+    "Explanatory text":null,
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 8[point]",
+    "%":18,
+    "Note":null,
+    "VP Average":1.5,
+    "id":1014,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Food Web Expert",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat only [invertebrate]",
+    "Explanatory text":null,
+    "VP":"2[point] per bird",
+    "%":9,
+    "Note":null,
+    "VP Average":2.0,
+    "id":1015,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Forest Data Analyst",
+    "Expansion":"oceania",
+    "Automa":null,
+    "Condition":"Consecutive birds in [forest] with ascending or descending wingspans",
+    "Explanatory text":null,
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
+    "VP Average":0.0,
+    "id":1034,
+    "rulings":[
+      {
+        "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+      }
+    ]
+  },
+  {
+    "Name":"Forest Population Monitor",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Different nest types in [forest]",
+    "Explanatory text":"You may count each star nest as any other type or as a fifth type.",
+    "VP":"2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
+    "%":"-",
+    "Note":"For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
+    "VP Average":0.0,
+    "id":1041,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Forest Ranger",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Consecutive birds in [forest] with ascending or descending scores",
+    "Explanatory text":"Each bird's score must be higher than the next. You can go right to left or left to right.",
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
+    "VP Average":0.0,
+    "id":1042,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Forester",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that can only live in [forest]",
+    "Explanatory text":null,
+    "VP":"3 to 4 birds: 4[point]; 5 birds: 5[point]",
+    "%":24,
+    "Note":"Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+    "VP Average":1.0,
+    "id":1016,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Grassland Data Analyst",
+    "Expansion":"oceania",
+    "Automa":null,
+    "Condition":"Consecutive birds in [grassland] with ascending or descending wingspans",
+    "Explanatory text":null,
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
+    "VP Average":0.0,
+    "id":1035,
+    "rulings":[
+      {
+        "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+      }
+    ]
+  },
+  {
+    "Name":"Grassland Population Monitor",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Different nest types in [grassland]",
+    "Explanatory text":"You may count each star nest as any other type or as a fifth type.",
+    "VP":"2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
+    "%":"-",
+    "Note":"For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
+    "VP Average":0.0,
+    "id":1043,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Grassland Ranger",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Consecutive birds in [grassland] with ascending or descending scores",
+    "Explanatory text":"Each bird's score must be higher than the next. You can go right to left or left to right.",
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
+    "VP Average":0.0,
+    "id":1044,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Historian",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds named after a person",
+    "Explanatory text":"Any bird with an 's in its name.",
+    "VP":"2[point] per bird",
+    "%":11,
+    "Note":null,
+    "VP Average":2.0,
+    "id":1017,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Large Bird Specialist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with wingspans over 65 cm",
+    "Explanatory text":null,
+    "VP":"4 to 5 birds: 3[point]; 6+ birds: 6[point]",
+    "%":35,
+    "Note":"Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
+    "VP Average":0.75,
+    "id":1018,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Mechanical Engineer",
+    "Expansion":"oceania",
+    "Automa":"X",
+    "Condition":"Sets of the 4 nest types",
+    "Explanatory text":"Each star nest can be treated as any 1 nest type. No card can be part of more than one set.",
+    "VP":"1 set = [bowl] [cavity] [ground] [platform]; one set: 3[point]; two sets: 8[point]",
+    "%":"-",
+    "Note":"This card is looking for sets of the four nest types among all of your birds. The order and location of the nests do not matter; it only matters that each set includes all four nest types.<br> Each star nest can be substituted for one nest of any type in one set. For example:<ul><li>a cavity nest, a platform nest, and two stars would be a complete set.<\/li><li>two cavity nests, two platform nests, a bowl nest, a ground nest, and two stars would be two complete sets.<\/li><li>two bowl nests, two cavity nests, two platform nests, and one star nest count as one set, not two, because the star nest can only be a member of one set.<\/li><\/ul>",
+    "VP Average":0.0,
+    "id":1036,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Nest Box Builder",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with [cavity] nests",
+    "Explanatory text":"Birds must have a [cavity] or [star] nest symbol.",
+    "VP":"4 to 5 birds: 4[point]; 6+ birds: 7[point]",
+    "%":31,
+    "Note":"Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+    "VP Average":1.0,
+    "id":1019,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Omnivore Specialist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat [wild]",
+    "Explanatory text":"Any bird that specifically has a [wild] symbol as part of its food cost.",
+    "VP":"2[point] per bird",
+    "%":16,
+    "Note":null,
+    "VP Average":2.0,
+    "id":1020,
+    "rulings":[
+      {
+        "text":"The percentage on this bonus card should be 16\\%. (This misprint was corrected in print by February 2020.)",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      }
+    ]
+  },
+  {
+    "Name":"Oologist",
+    "Expansion":"originalcore",
+    "Automa":null,
+    "Condition":"Birds that have at least 1 egg laid on them",
+    "Explanatory text":null,
+    "VP":"7 to 8 birds: 3[point]; 9+ birds: 6[point]",
+    "%":"-",
+    "Note":"Count only bird cards that have at least 1 egg token sitting on them at game end.",
+    "VP Average":0.0,
+    "id":1021,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Passerine Specialist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with wingspans 30 cm or less",
+    "Explanatory text":null,
+    "VP":"4 to 5 birds: 3[point]; 6+ birds: 6[point]",
+    "%":35,
+    "Note":"Count the birds you played that have wingspans 30cm or less. Wingspans of exactly 30cm count toward this bonus.",
+    "VP Average":0.75,
+    "id":1022,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Pellet Dissector",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"[fish] and [rodent] tokens cached on birds",
+    "Explanatory text":null,
+    "VP":"2 to 3 cached: 3[point]; 4+ cached: 6[point]",
+    "%":13,
+    "Note":"Count how many fish and rodent tokens you have cached on your bird cards.",
+    "VP Average":0.0,
+    "id":1045,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Photographer",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with colors in their names",
+    "Explanatory text":"Colors include ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
+    "VP":"4 to 5 birds: 3[point]; 6+ birds: 7[point]",
+    "%":34,
+    "Note":"Include these terms, if you play with: <br>European expansion: coal, grey <br>Oceania expansion: crimson, orange, pink, rufous, silver, sulphur, tawny <br>Asia: azure, emerald, fire, olive, plumbeous, teal, verditer, violet <br><br>The European Expansion rulebook erroneously includes honey as a term for the Photographer bonus.\ncard. Honey does not count as a color word. <br><br> <ul><li>Coppersmith Barbet dose not qualify for the Photographer card.<\/li><\/ul>",
+    "VP Average":0.75,
+    "id":1023,
+    "rulings":[
+      {
+        "text":"The 3-point bonus applies when there are 4--5 qualifying birds on your player mat, not 2--3. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/"
+      },
+      {
+        "text":"The only keywords that qualify a bird to count toward this bonus card are those listed thereon, those in the relevant sections of the expansion rulebooks (excluding <i>honey<\/i> in the <i>European Expansion<\/i> rulebook---see <strong>Honey<\/strong>), and <i>violet<\/i>. (<i>Violet<\/i> currently occurs only on the <strong applink=\"\/card\/239\">Violet-Green Swallow<\/strong>, which already contains another keyword for this bonus card.) Substrings of bird names that coincide with color names do not count toward this bonus when not referring to colors (e.g., the <i>red<\/i> in <strong applink=\"\/card\/24\">Barred Owl<\/strong>), but see <strong applink=\"\/card\/174\">Northern Bobwhite<\/strong>.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/373729773330631\/?comment_id=373775476659394&reply_comment_id=373779623325646"
+      },
+      {
+        "text":"On this bonus card <i>\"name\"<\/i> refers only to the common name, not the scientific name.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2379284\/article\/34170036#34170036"
+      }
+    ]
+  },
+  {
+    "Name":"Platform Builder",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with [platform] nests",
+    "Explanatory text":"Birds must have a [platform] or [star] nest symbol.",
+    "VP":"4 to 5 birds: 4[point]; 6+ birds: 7[point]",
+    "%":31,
+    "Note":"Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+    "VP Average":1.0,
+    "id":1024,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Prairie Manager",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that can only live in [grassland]",
+    "Explanatory text":null,
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 8[point]",
+    "%":19,
+    "Note":"Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+    "VP Average":1.25,
+    "id":1025,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Rodentologist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat [rodent]",
+    "Explanatory text":null,
+    "VP":"2[point] per bird",
+    "%":15,
+    "Note":null,
+    "VP Average":2.0,
+    "id":1026,
+    "rulings":[
+      {
+        "text":"This bonus card's condition is <i>\"Birds that eat [rodent]\"<\/i>, not <i>\"Birds that only eat [rodent]\"<\/i>, and its clarification text is, <i>\"Any bird with a [rodent] symbol. The bird may also eat other kinds of food.\" (These misprints were corrected in the third printing, and a corrected card is available in the update pack.)",
+        "source":"Card update pack."
+      }
+    ]
+  },
+  {
+    "Name":"Site Selection Expert",
+    "Expansion":"oceania",
+    "Automa":null,
+    "Condition":"Columns with a matching pair or trio of nests",
+    "Explanatory text":"Different columns may (but need not) score using different nest types. Star nests are wild, but each counts only once.",
+    "VP":"2 of the same nest in a column: 1[point]; 3 of the same nest in a column: 3[point]",
+    "%":"-",
+    "Note":"This bonus card grants points for each column that contains more than one nest of some type. A column is worth 0, 1, or 3 points, according to whether it has 0, 2, or 3 matching nests in that column, respectively. Different columns may (but need not) score using different nest types. <br><br>Star nests are wild. A single star nest counts only once; it cannot be used to match 2 different kinds of nests in the same column.",
+    "VP Average":0.0,
+    "id":1037,
+    "rulings":[
+      {
+        "text":"When scoring this bonus card, birds played sideways can count toward a nest type in both of the columns in which they were played. A [star] nest on a sideways bird can count as different nest types in the two columns in which it was played. ",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2519302\/article\/36010930#36010930"
+      }
+    ]
+  },
+  {
+    "Name":"Small Clutch Specialist",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Birds with an egg limit of 2 or less",
+    "Explanatory text":"You may include birds with no egg capacity.",
+    "VP":"5 to 7 birds: 3[point]; 8+ birds: 7[point]",
+    "%":44,
+    "Note":"Look at the egg limit printed on each bird card, and count the number of birds whose egg limit is 2 or less. You may include birds that do not have an egg limit\u2013their egg limit is zero (less than 2).<br>For this card, it does not matter whether the birds have eggs on them.",
+    "VP Average":0.0,
+    "id":1046,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Visionary Leader",
+    "Expansion":"originalcore",
+    "Automa":null,
+    "Condition":"Bird cards in hand at end of game",
+    "Explanatory text":null,
+    "VP":"5 to 7 birds: 4[point]; 8+ birds: 7[point]",
+    "%":"-",
+    "Note":"Count the bird cards still in your hand at the end of the game.",
+    "VP Average":0.0,
+    "id":1027,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Viticulturalist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that eat [fruit]",
+    "Explanatory text":null,
+    "VP":"2 to 3 birds: 3[point]; 4+ birds: 7[point]",
+    "%":22,
+    "Note":null,
+    "VP Average":1.5,
+    "id":1028,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Wetland Data Analyst",
+    "Expansion":"oceania",
+    "Automa":null,
+    "Condition":"Consecutive birds in [wetland] with ascending or descending wingspans",
+    "Explanatory text":null,
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"These bonus cards each grant points for a long enough sequence, in the corresponding habitat, of consecutive birds with wingspans in ascending or descending order. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat. A sequence may include two or more birds with the same wingspan.<br><br>As mentioned earlier, the wingspans of flightless birds are wild: For purposes of these bonus cards, you can assign a flightless bird any wingspan.<br><br>For example, if the wingspans of the first 3 birds in your wetland are in ascending order, but the fourth bird in your wetland has a wingspan smaller than the third bird there, the length of your sequence is 3, in which case the Wetland Data Analyst bonus card would grant 3 points.",
+    "VP Average":0.0,
+    "id":1038,
+    "rulings":[
+      {
+        "text":"This bonus card only awards points for a single sequence of bird cards of increasing or decreasing wingspan.",
+        "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/689086175128321\/?comment_id=689111498459122"
+      }
+    ]
+  },
+  {
+    "Name":"Wetland Population Monitor",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Different nest types in [wetland]",
+    "Explanatory text":"You may count each star nest as any other type or as a fifth type.",
+    "VP":"2 to 3 types: 3[point]; 4 types: 5[point]; 5 types: 8[point]",
+    "%":"-",
+    "Note":"For the birds that you played into the habitat specified on this card, count how many different nest types you have.<br> You may Count each star nest as any other type or as a fifth type. For example, a bowl nest, a platform nest, and three star nests can count as 5 different nests.<br> Birds with no nest do not count as having a nest type.",
+    "VP Average":0.0,
+    "id":1047,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Wetland Ranger",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Consecutive birds in [wetland] with ascending or descending scores",
+    "Explanatory text":"Each bird's score must be higher than the next. You can go right to left or left to right.",
+    "VP":"3 consecutive birds: 3[point]; 4 consecutive birds: 5[point]; 5 consecutive birds: 8[point]",
+    "%":"-",
+    "Note":"Within the specified habitat, these bonus cards each grant points for a sequence of birds that is in ascending or descending order by their point value.<br> <ul><li>The birds in the sequence must be in a continuous line on the board. The sequence need not consist of all birds in the habitat, and it need not start or end with the first or last bird in the habitat.<\/li><li>Numbers need not be consecutive, as long as they are ascending or descending.<\/li><\/ul>",
+    "VP Average":0.0,
+    "id":1048,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Wetland Scientist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds that can only live in [wetland]",
+    "Explanatory text":null,
+    "VP":"3 to 4 birds: 3[point]; 5 birds: 7[point]",
+    "%":26,
+    "Note":"Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
+    "VP Average":1.0,
+    "id":1029,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Wildlife Gardener",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds with [bowl] nests",
+    "Explanatory text":"Birds must have a [bowl] or [star] nest symbol.",
+    "VP":"4 to 5 birds: 4[point]; 6+ birds: 7[point]",
+    "%":31,
+    "Note":"Count the number of birds you played that have the specific nest symbol shown on the card. Star nests [star] are wild. Birds with star nests count toward all four of these bonuses.",
+    "VP Average":1.0,
+    "id":1030,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"Winter Feeder",
+    "Expansion":"asia",
+    "Automa":null,
+    "Condition":"Food remaining in your supply at game end",
+    "Explanatory text":null,
+    "VP":"4 to 6 food: 4[point]; 7+ food: 7[point]",
+    "%":"-",
+    "Note":"Count how many unspent food tokens you have at the end of the game. Food cached on birds does not count as part of your supply.",
+    "VP Average":0.0,
+    "id":1049,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"[Fan Made] Caprimulgiform Specialist",
+    "Expansion":"originalcore",
+    "Automa":"X",
+    "Condition":"Birds of the orders Caprimulgiformes and Apodiformes",
+    "Explanatory text":"Species include chuck-will's-widow, frogmouths, hummingbirds, nighthawks, nightjars, oilbird, owlet-nightjars, pauraque, poorwills, potoos, spinetails, swifts, swiftlets, treeswifts, whip-poor-wills",
+    "VP":"3[point] per bird",
+    "%":"-",
+    "Note":"This card is part of Frogmouth Fan Pack made by <strong applink=\"https:\/\/boardgamegeek.com\/user\/TawnyFrogmouth\">TawnyFrogmouth<\/strong>.",
+    "VP Average":3.0,
+    "id":1031,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"[automa] Autwitcher",
+    "Expansion":"european",
+    "Automa":"X",
+    "Condition":"Birds that are worth 3 or 4 points",
+    "Explanatory text":null,
+    "VP":"The automa keeps up to 2 of them (higher value first).",
+    "%":44,
+    "Note":null,
+    "VP Average":0.0,
+    "id":1032,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"[automa] Avid Asian Avian Admirer",
+    "Expansion":"asia",
+    "Automa":"X",
+    "Condition":"<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>2<\/b> or <b>3<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>3<\/b> or <b>4<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>4<\/b> or <b>5<\/b> points<\/td><\/tr><\/table>",
+    "Explanatory text":null,
+    "VP":"The Automa keeps up to 2 of them (lower value first)",
+    "%":"variable",
+    "Note":null,
+    "VP Average":0.0,
+    "id":1050,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"[automa] RASPB Life Fellow",
+    "Expansion":"european",
+    "Automa":"X",
+    "Condition":"Birds that are worth 5, 6, or 7 points",
+    "Explanatory text":null,
+    "VP":"The automa keeps the highest valued one.",
+    "%":28,
+    "Note":null,
+    "VP Average":0.0,
+    "id":1033,
+    "rulings":[
+
+    ]
+  },
+  {
+    "Name":"[automa] Rare Species Lister",
+    "Expansion":"asia",
+    "Automa":"X",
+    "Condition":"<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>4<\/b>, <b>5<\/b>, or <b>6<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>5<\/b>, <b>6<\/b>, or <b>7<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>6<\/b>, <b>7<\/b>, or <b>8<\/b> points<\/td><\/tr><\/table>",
+    "Explanatory text":null,
+    "VP":"The Automa keeps the lowest valued one.",
+    "%":"variable",
+    "Note":null,
+    "VP Average":0.0,
+    "id":1051,
+    "rulings":[
+
+    ]
+  }
 ]
