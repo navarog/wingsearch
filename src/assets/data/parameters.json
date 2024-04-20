@@ -1,1 +1,5 @@
-{ "Show bonus cards match symbols": { "Value": false } }
+{
+  "Show bonus cards match symbols":{
+    "Value":false
+  }
+}

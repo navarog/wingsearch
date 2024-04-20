@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators';
 import { Store } from '@ngrx/store'
-import { BirdCard, AppState, displayName } from '../store/app.interfaces'
+import { BirdCard, AppState } from '../store/app.interfaces'
 import { TranslatePipe } from '../translate.pipe'
 import EasterEggAssets from '../../assets/data/extra-assets.json'
 
@@ -21,7 +21,7 @@ export class BirdCardComponent implements OnInit {
 
   assetPack$: Observable<string>
 
-  parameters$: { Name: string; Value: unknown; }[]
+  parameters$: { [key: string]: { Value: unknown }}
 
   habitats: string[]
   eggs: any[]
@@ -98,6 +98,21 @@ export class BirdCardComponent implements OnInit {
   displayName(card: BirdCard): string
   {
     const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean;
-    return displayName(card, showBonusCardsMatchSymbols)
+    let bonusIcons = "";
+    if (showBonusCardsMatchSymbols) {
+      if (!!card.Anatomist) {
+        bonusIcons += ' [anatomist]';
+      }
+      if (!!card.Cartographer) {
+        bonusIcons += ' [cartographer]';
+      }
+      if (!!card.Historian) {
+        bonusIcons += ' [historian]';
+      }
+      if (!!card.Photographer) {
+        bonusIcons += ' [photographer]';
+      }
+    }
+    return card['Common name'] + " " + bonusIcons;
   }
 }

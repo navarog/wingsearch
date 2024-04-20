@@ -76,7 +76,7 @@ export const setLanguage = createAction('[App] Set language',
             birds: { 'Common name': string, 'Power text': string, 'Note': string }[],
             bonuses: { 'Name': string, 'Condition': string, 'Explanatory text': string, 'VP': string, 'Note': string },
             other: { [key: string]: { Translated: string } }
-            parameters: { Name: string; Value: unknown; }[]
+            parameters: { [key: string]: {Value: unknown} }
         },
         language: string,
         expansion: Expansion
