@@ -12,6 +12,7 @@ export interface AppState {
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
+    parameters: { [key: string]: {Value: unknown} }
     assetPack: string
 }
 

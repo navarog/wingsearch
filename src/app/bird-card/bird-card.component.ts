@@ -21,6 +21,8 @@ export class BirdCardComponent implements OnInit {
 
   assetPack$: Observable<string>
 
+  parameters$: { [key: string]: { Value: unknown }}
+
   habitats: string[]
   eggs: any[]
   wingspan: string
@@ -36,6 +38,11 @@ export class BirdCardComponent implements OnInit {
     this.eggs = Array(this.card['Egg capacity'])
     this.wingspan = this.card['Wingspan'] + (this.card['Wingspan'] !== '*' ? 'cm' : '')
     this.assetPack$ = this.store.select(({ app }) => app.assetPack);
+    this.store.select(({ app }) => app.parameters)
+      .subscribe(parameters =>
+      {
+        this.parameters$ = parameters
+      })
   }
 
   buildFoodCostString() {
@@ -86,5 +93,26 @@ export class BirdCardComponent implements OnInit {
         }
       })
     )
+  }
+
+  displayName(card: BirdCard): string
+  {
+    const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean;
+    let bonusIcons = "";
+    if (showBonusCardsMatchSymbols) {
+      if (!!card.Anatomist) {
+        bonusIcons += ' [anatomist]';
+      }
+      if (!!card.Cartographer) {
+        bonusIcons += ' [cartographer]';
+      }
+      if (!!card.Historian) {
+        bonusIcons += ' [historian]';
+      }
+      if (!!card.Photographer) {
+        bonusIcons += ' [photographer]';
+      }
+    }
+    return card['Common name'] + " " + bonusIcons;
   }
 }
