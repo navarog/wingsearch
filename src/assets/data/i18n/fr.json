@@ -4912,8 +4912,8 @@
       "English name": "Anatomist",
       "Name": "Anatomiste",
       "Condition": "Oiseaux avec une partie du corps dans leur nom",
-      "Explanatory text": "Les termes incluent: aigrette, aile, bec, col, croupion, \u00e9paule, face, gorge, huppe, poitrine, queue, t\u00eate, ventre, yeux.",
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
+      "Explanatory text": "Les termes incluent: aigrette, aile, barbe, barbillon, bec, col, collier, corne, cou, couronne, cr\u00eate, crini\u00e8re, croupion, dos, \u00e9paule, face, front, gorge, huppe (longup), poitrine, plastron, queue, moustache, oreille, pied (m\u00e9gapode), sourcils, t\u00eate, ventre, yeux.",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
       "Note": null
     },
     "1001": {
@@ -4921,7 +4921,7 @@
       "Name": "Ornithologue De Basse-Cour",
       "Condition": "Oiseaux valant moins de 4 points",
       "Explanatory text": null,
-      "VP": "5-6 oiseaux: 3[point]; 7+ oiseaux: 6[point]",
+      "VP": "5 \u00e0 6 oiseaux: 3[point]; 7+ oiseaux: 6[point]",
       "Note": null
     },
     "1002": {
@@ -4937,7 +4937,7 @@
       "Name": "Bagueur D'Oiseaux",
       "Condition": "Oiseaux pouvant vivre dans plusieurs habitats",
       "Explanatory text": null,
-      "VP": "4-5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
       "Note": null
     },
     "1004": {
@@ -4953,7 +4953,7 @@
       "Name": "Mangeoire",
       "Condition": "Oiseaux qui mangent [seed]",
       "Explanatory text": "Oiseaux avec 1 ic\u00f4ne [seed]. Ils peuvent aussi avoir d'autres ic\u00f4nes.",
-      "VP": "5-7 oiseaux: 3[point]; 8+ oiseaux: 7[point]",
+      "VP": "5 \u00e0 7 oiseaux: 3[point]; 8+ oiseaux: 7[point]",
       "Note": null
     },
     "1006": {
@@ -4968,8 +4968,8 @@
       "English name": "Cartographer",
       "Name": "Cartographe",
       "Condition": "Oiseaux avec des termes g\u00e9ographiques dans leur nom",
-      "Explanatory text": "Ces termes incluent: Am\u00e9rique, Baltimore, Californie, Canada, Caroline, Est, Inca, Islande, Mississippi, Ouest, Prairies, Pr\u00e9s, Rivage, Virginie.",
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
+      "Explanatory text": "Ces termes incluent: Am\u00e9rique, Arctique, Australie, Baltimore, Bengale, Bois, Californie, Canada, Caroline, Ceylan, Chine, Corse, D\u00e9sert, Dominicain, Est, Europe, Foresti\u00e8re, Inca, Inde, Islande, Japon, Lichtenstein, Mandarin, Mississippi, Nord, Nouvelle-Hollande, Nouvelle-Z\u00e9lande, Ouest, Pacifique, Philippines, Prairies, Pr\u00e9s, Rivage, Roseaux, Ruisseaux, Tib\u00e9tain, Turque, Virginie.",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
       "Note": null
     },
     "1008": {
@@ -4977,7 +4977,7 @@
       "Name": "Scientifique Citoyen",
       "Condition": "Oiseaux ayant des cartes gliss\u00e9es sous eux",
       "Explanatory text": null,
-      "VP": "4-6 oiseaux: 3[point]; 7+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 6 oiseaux: 3[point]; 7+ oiseaux: 7[point]",
       "Note": null
     },
     "1009": {
@@ -4985,7 +4985,7 @@
       "Name": "Di\u00e9t\u00e9ticien",
       "Condition": "Oiseaux co\u00fbtant 2 nourritures",
       "Explanatory text": null,
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 6[point]",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 6[point]",
       "Note": null
     },
     "1010": {
@@ -5001,7 +5001,7 @@
       "Name": "Constructeur D'Enclos",
       "Condition": "Oiseaux avec un nid [ground]",
       "Explanatory text": "Oiseaux ayant un nid de type [ground] ou [star]",
-      "VP": "4-5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
       "Note": null
     },
     "1012": {
@@ -5025,7 +5025,7 @@
       "Name": "G\u00e9rant De P\u00eacherie",
       "Condition": "Oiseaux qui mangent [fish]",
       "Explanatory text": "Oiseaux avec 1 ic\u00f4ne [fish]. Ils peuvent aussi avoir d'autres ic\u00f4nes.",
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 8[point]",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 8[point]",
       "Note": null
     },
     "1015": {
@@ -5041,7 +5041,7 @@
       "Name": "Forestier",
       "Condition": "Oiseaux vivant uniquement dans [forest]",
       "Explanatory text": null,
-      "VP": "3-4 oiseaux: 4[point]; 5 oiseaux: 8[point]",
+      "VP": "3 \u00e0 4 oiseaux: 4[point]; 5 oiseaux: 8[point]",
       "Note": null
     },
     "1017": {
@@ -5057,7 +5057,7 @@
       "Name": "Sp\u00e9cialiste Des Grands Oiseaux",
       "Condition": "Oiseaux avec une envergure de plus de 65 cm",
       "Explanatory text": null,
-      "VP": "4-5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
+      "VP": "4 \u00e0 5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
       "Note": null
     },
     "1019": {
@@ -5065,7 +5065,7 @@
       "Name": "Constructeur De Nichoir",
       "Condition": "Oiseaux avec un nid [cavity]",
       "Explanatory text": "Oiseaux ayant un nid de type [cavity] ou [star]",
-      "VP": "4-5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
       "Note": null
     },
     "1020": {
@@ -5081,7 +5081,7 @@
       "Name": "Oologiste",
       "Condition": "Oiseaux ayant au moins 1 \u0153uf sur eux",
       "Explanatory text": null,
-      "VP": "7-8 oiseaux: 3[point]; 9+ oiseaux: 6[point]",
+      "VP": "7 \u00e0 8 oiseaux: 3[point]; 9+ oiseaux: 6[point]",
       "Note": null
     },
     "1022": {
@@ -5089,15 +5089,15 @@
       "Name": "Sp\u00e9cialiste Des Passereaux",
       "Condition": "Oiseaux avec une envergure de 30 cm ou moins",
       "Explanatory text": null,
-      "VP": "4-5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
+      "VP": "4 \u00e0 5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
       "Note": null
     },
     "1023": {
       "English name": "Photographer",
       "Name": "Photographe",
       "Condition": "Oiseaux avec une couleur dans leur nom",
-      "Explanatory text": "Les couleurs incluent: ardois\u00e9, azur\u00e9, blanc, bleu, bronz\u00e9, brun, cendr\u00e9, gris, indigo, jaune, neigeuse, noir, orang\u00e9, rose, ros\u00e9e, rouge, rouilleux, roux/rousse, rubis, vert, violac\u00e9.",
-      "VP": "4-5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
+      "Explanatory text": "Les couleurs incluent: arc-en-ciel, ardois\u00e9, azur\u00e9, blanc, bleu, bronz\u00e9, brun, canelle, cendr\u00e9, dor\u00e9, gris, indigo, jaune, neigeuse, noir, or, orang\u00e9, paillet\u00e9, pourpre, tricolore, rose, ros\u00e9e, rouge, rouilleux, roux/rousse, rubis, vercicolore, vert, vert-de-Gris, violac\u00e9.",
+      "VP": "4 \u00e0 5 oiseaux: 3[point]; 6+ oiseaux: 6[point]",
       "Note": null
     },
     "1024": {
@@ -5105,7 +5105,7 @@
       "Name": "Constructeur De Plateforme",
       "Condition": "Oiseaux avec un nid [platform]",
       "Explanatory text": "Oiseaux ayant un nid de type [platform] ou [star]",
-      "VP": "4-5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
       "Note": null
     },
     "1025": {
@@ -5113,7 +5113,7 @@
       "Name": "Gardien De Prairie",
       "Condition": "Oiseaux vivant uniquement dans [grassland]",
       "Explanatory text": null,
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 8[point]",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 8[point]",
       "Note": null
     },
     "1026": {
@@ -5129,7 +5129,7 @@
       "Name": "Planificateur",
       "Condition": "Cartes Oiseau en main en fin de partie",
       "Explanatory text": null,
-      "VP": "5-7 oiseaux: 4[point]; 8+ oiseaux: 7[point]",
+      "VP": "5 \u00e0 7 oiseaux: 4[point]; 8+ oiseaux: 7[point]",
       "Note": null
     },
     "1028": {
@@ -5137,7 +5137,7 @@
       "Name": "Viticulteur",
       "Condition": "Oiseaux qui mangent [fruit]",
       "Explanatory text": "Oiseaux avec 1 ic\u00f4ne [fruit]. Ils peuvent aussi avoir d'autres ic\u00f4nes.",
-      "VP": "2-3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
+      "VP": "2 \u00e0 3 oiseaux: 3[point]; 4+ oiseaux: 7[point]",
       "Note": null
     },
     "1029": {
@@ -5145,7 +5145,7 @@
       "Name": "Scientifique En Zone Humide",
       "Condition": "Oiseaux vivant uniquement dans [wetland]",
       "Explanatory text": null,
-      "VP": "3-4 oiseaux: 3[point]; 5 oiseaux: 7[point]",
+      "VP": "3 \u00e0 4 oiseaux: 3[point]; 5 oiseaux: 7[point]",
       "Note": null
     },
     "1030": {
@@ -5153,7 +5153,7 @@
       "Name": "Jardinier Animalier",
       "Condition": "Oiseaux avec un nid [bowl]",
       "Explanatory text": "Oiseaux ayant un nid de type [bowl] ou [star]",
-      "VP": "4-5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
+      "VP": "4 \u00e0 5 oiseaux: 4[point]; 6+ oiseaux: 7[point]",
       "Note": null
     },
     "1032": {
@@ -5214,98 +5214,98 @@
     },
     "1039": {
       "English name": "Avian Theriogenologist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Th\u00e9riog\u00e9nologue aviaire",
+      "Condition": "Oiseaux dont le nid est complet.",
+      "Explanatory text": "Les oiseaux qui n'ont pas de limite d'\u0153ufs ne comptent pas pour cette carte.",
+      "VP": "5 \u00e0 6 oiseaux : 4[point]; 7+ oiseaux : 7[point]",
       "Note": null
     },
     "1040": {
       "English name": "Endangered Species Protector",
-      "Name": null,
-      "Condition": null,
+      "Name": "Protecteur des esp\u00e8ces menac\u00e9es",
+      "Condition": "Oiseaux qui vous permettent de marquer les points d'une carte Bonus ou d'en piocher.",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "3[point] chacun",
       "Note": null
     },
     "1041": {
       "English name": "Forest Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Suivi des populations",
+      "Condition": "Diff\u00e9rents types de nids dans [forest]",
+      "Explanatory text": "Vous pouvez comptez chaque nid \u00e9toile comme un autre type de nid, ou comme un cinqui\u00e8me type de nid.",
+      "VP": "2 \u00e0 3 types : 3[point]; 4 types : 5[point]; 5 types : 8[point]",
       "Note": null
     },
     "1042": {
       "English name": "Forest Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Garde forestier",
+      "Condition": "Oiseaux successif dans [forest] avec un score croissant ou d\u00e9croissant.",
+      "Explanatory text": "Le score de chaque oiseaux doit \u00eatre supp\u00e9rieur au pr\u00e9c\u00e9dent en allant de gauche \u00e0 droite ou de droite \u00e0 gauche.",
+      "VP": "3 oiseaux successifs : 3[point]; 4 oiseaux successifs : 5[point]; 5 oiseaux successifs : 8[point]",
       "Note": null
     },
     "1043": {
       "English name": "Grassland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Suivi des populations d'oiseaux de pairie",
+      "Condition": "Diff\u00e9rents types de nids dans [grassland]",
+      "Explanatory text": "Vous pouvez comptez chaque nid \u00e9toile comme un autre type de nid, ou comme un cinqui\u00e8me type de nid.",
+      "VP": "2 \u00e0 3 types : 3[point]; 4 types : 5[point]; 5 types : 8[point]",
       "Note": null
     },
     "1044": {
       "English name": "Grassland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Gardien de prairie",
+      "Condition": "Oiseaux successif dans [grassland] avec un score croissant ou d\u00e9croissant.",
+      "Explanatory text": "Le score de chaque oiseaux doit \u00eatre supp\u00e9rieur au pr\u00e9c\u00e9dent en allant de gauche \u00e0 droite ou de droite \u00e0 gauche.",
+      "VP": "3 oiseaux successifs : 3[point]; 4 oiseaux successifs : 5[point]; 5 oiseaux successifs : 8[point]",
       "Note": null
     },
     "1045": {
       "English name": "Pellet Dissector",
-      "Name": null,
-      "Condition": null,
+      "Name": "Dissection",
+      "Condition": "Jetons [fish] et [rodent] stock\u00e9s sur vos oiseaux.",
       "Explanatory text": null,
-      "VP": null,
-      "Note": null
+      "VP": "2 \u00e0 3 jetons stock\u00e9s : 3[point]; 4+ jetons stock\u00e9s : 6[point]",
+      "Note": "(13% des oiseaux peuvent stocker de la nourriture)"
     },
     "1046": {
       "English name": "Small Clutch Specialist",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
-      "Note": null
+      "Name": "Sp\u00e9cialiste des petites pontes",
+      "Condition": "Oiseaux dont la limite d'\u0153ufs est inf\u00e9rieur ou \u00e9gale \u00e0 2.",
+      "Explanatory text": "Vous pouvez comptez les oiseaux qui n'ont pas de limite d'\u0153ufs.",
+      "VP": "5 \u00e0 7 oiseaux : 3[point]; 8+ oiseaux : 7[point]",
+      "Note": "(44% des cartes)"
     },
     "1047": {
       "English name": "Wetland Population Monitor",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Suivi des populations d'oiseaux de marais",
+      "Condition": "Diff\u00e9rents types de nids dans [wetland]",
+      "Explanatory text": "Vous pouvez comptez chaque nid \u00e9toile comme un autre type de nid, ou comme un cinqui\u00e8me type de nid.",
+      "VP": "2 \u00e0 3 types : 3[point]; 4 types : 5[point]; 5 types : 8[point]",
       "Note": null
     },
     "1048": {
       "English name": "Wetland Ranger",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Gardien de marais",
+      "Condition": "Oiseaux successif dans [wetland] avec un score croissant ou d\u00e9croissant.",
+      "Explanatory text": "Le score de chaque oiseaux doit \u00eatre supp\u00e9rieur au pr\u00e9c\u00e9dent en allant de gauche \u00e0 droite ou de droite \u00e0 gauche.",
+      "VP": "3 oiseaux successifs : 3[point]; 4 oiseaux successifs : 5[point]; 5 oiseaux successifs : 8[point]",
       "Note": null
     },
     "1049": {
       "English name": "Winter Feeder",
-      "Name": null,
-      "Condition": null,
+      "Name": "R\u00e9serves hivernales",
+      "Condition": "Nourriture dans votre r\u00e9serve \u00e0 la fin de la partie",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "4 \u00e0 6 jetons nourriture : 4[point]; 7+ jetons nourriture : 7[point]",
       "Note": null
     },
     "1050": {
       "English name": "[automa] Avid Asian Avian Admirer",
-      "Name": null,
+      "Name": "Admirateur aviaire [automa] asiatique avide",
       "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Explanatory text": "(plus faible valeur d'abord).",
+      "VP": "L'Automate en garde jusqu'\u00e0 2",
       "Note": null
     },
     "1051": {
@@ -5313,7 +5313,7 @@
       "Name": null,
       "Condition": null,
       "Explanatory text": null,
-      "VP": null,
+      "VP": "L'Automate garde celui de plus faible valeur.",
       "Note": null
     }
   },
