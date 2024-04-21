@@ -196,7 +196,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests. <br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -1352,7 +1352,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -2528,7 +2528,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
       {
         "text":"This bird does not count toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -2596,7 +2596,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests. <br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -2823,7 +2823,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -3634,7 +3634,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"If there is only one die face showing at the beginning of this action, you may reset the birdfeeder and then take all the invertebrates. <br>This action is completed once you have gained all of this type of food that are showing. If the birdfeeder becomes empty and resets as a result of this action, you do not gain additional food after the reset. If there is only one die face showing after taking all the invertebrates, you may not reset the birdfeeder to look for more.",
+    "Note":"If there is only one die face showing at the beginning of this action, you may reset the birdfeeder and then take all the invertebrates.<br>This action is completed once you have gained all of this type of food that are showing. If the birdfeeder becomes empty and resets as a result of this action, you do not gain additional food after the reset. If there is only one die face showing after taking all the invertebrates, you may not reset the birdfeeder to look for more.",
     "rulings":[
 
     ],
@@ -5050,7 +5050,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>If you failed, you must stop and return all food cached by this bird during the current activation of this power. <br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
     "rulings":[
 
     ],
@@ -5115,7 +5115,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"For this bird, you may tuck 0\u20132 cards when you use its power. <br><br>You may tuck cards that you did not draw during the activation of this power.",
+    "Note":"For this bird, you may tuck 0\u20132 cards when you use its power.<br><br>You may tuck cards that you did not draw during the activation of this power.",
     "rulings":[
 
     ],
@@ -5455,7 +5455,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests. <br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -5679,7 +5679,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves. <br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
     "rulings":[
 
     ],
@@ -5744,7 +5744,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests. <br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -6107,7 +6107,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -6577,7 +6577,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -6785,7 +6785,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -6853,7 +6853,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game. <br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -6928,7 +6928,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -7507,7 +7507,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal. <br>These birds can still be played like any other bird in the 5th column, forgoing their power. <br>The next bird you play in this habitat is placed to the right of this bird.",
+    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -7578,7 +7578,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly. <br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -8017,7 +8017,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing. <br>Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point.",
+    "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.<br>Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point.",
     "rulings":[
 
     ],
@@ -9216,7 +9216,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -9497,7 +9497,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand. <br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck. <br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
+    "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand.<br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck.<br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
     "rulings":[
 
     ],
@@ -10125,7 +10125,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -10261,7 +10261,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -11062,7 +11062,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn. <br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird. <br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
+    "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn.<br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird.<br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
     "rulings":[
 
     ],
@@ -11221,7 +11221,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game. <br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -11296,7 +11296,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly. <br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -11379,7 +11379,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"You may activate this power if only one of your neighbors has a [invertebrate]. <br>In a 2-player game your opponent is both to your left and right. Because you only have 1 neighbor, only steal 1 [invertebrate] from that player.",
+    "Note":"You may activate this power if only one of your neighbors has a [invertebrate].<br>In a 2-player game your opponent is both to your left and right. Because you only have 1 neighbor, only steal 1 [invertebrate] from that player.",
     "rulings":[
 
     ],
@@ -11649,7 +11649,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn. <br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird. <br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
+    "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn.<br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird.<br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
     "rulings":[
 
     ],
@@ -12024,7 +12024,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply. <br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
+    "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply.<br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
     "rulings":[
 
     ],
@@ -12398,7 +12398,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal. <br>These birds can still be played like any other bird in the 5th column, forgoing their power. <br>The next bird you play in this habitat is placed to the right of this bird.",
+    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -12750,7 +12750,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>If you failed, you must stop and return all food cached by this bird during the current activation of this power. <br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
     "rulings":[
 
     ],
@@ -13102,7 +13102,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -13306,7 +13306,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"The bird\u2019s normal cost includes the egg cost of the column that you play it into.<br><br> As usual, you cannot activate other types of bird powers (such as \u201cround end\u201d powers) when you play a bird with this action.",
+    "Note":"The bird\u2019s normal cost includes the egg cost of the column that you play it into.<br><br>As usual, you cannot activate other types of bird powers (such as \u201cround end\u201d powers) when you play a bird with this action.",
     "rulings":[
 
     ],
@@ -13727,7 +13727,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -14011,7 +14011,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -14144,7 +14144,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -14418,7 +14418,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards. <br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
+    "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards.<br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
     "rulings":[
 
     ],
@@ -14558,7 +14558,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1007\">Cartographer<\/strong> bonus card. (In early printings that bonus card did list include the keyword <i>prairie<\/i>.)",
@@ -14629,7 +14629,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -15032,7 +15032,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal. <br>These birds can still be played like any other bird in the 5th column, forgoing their power. <br>The next bird you play in this habitat is placed to the right of this bird.",
+    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -15372,7 +15372,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game. <br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -16175,7 +16175,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves. <br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
     "rulings":[
 
     ],
@@ -16383,7 +16383,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"When using this bird's power, the additional bird must be played in the same habitat as this bird.",
@@ -16663,7 +16663,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards. <br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
+    "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards.<br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
     "rulings":[
 
     ],
@@ -17156,7 +17156,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -17368,7 +17368,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves. <br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
     "rulings":[
 
     ],
@@ -18435,7 +18435,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal. <br>These birds can still be played like any other bird in the 5th column, forgoing their power. <br>The next bird you play in this habitat is placed to the right of this bird.",
+    "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -19002,7 +19002,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"For dice showing two types of food, you may gain both types. However, this bird\u2019s power lets you gain at most 1 token of each food type. Remove each die from he birdfeeder as you gain food.<br><br> While resolving this power, roll the dice just once at the beginning. If, as a result of gaining food with this bird\u2019s power, the remaining dice in the birdfeeder are showing just one face, you may not reroll them as part of the Masked Lapwing\u2019s action.",
+    "Note":"For dice showing two types of food, you may gain both types. However, this bird\u2019s power lets you gain at most 1 token of each food type. Remove each die from he birdfeeder as you gain food.<br><br>While resolving this power, roll the dice just once at the beginning. If, as a result of gaining food with this bird\u2019s power, the remaining dice in the birdfeeder are showing just one face, you may not reroll them as part of the Masked Lapwing\u2019s action.",
     "rulings":[
 
     ],
@@ -19282,7 +19282,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly. <br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -19369,7 +19369,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -20278,7 +20278,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -20688,7 +20688,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply. <br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
+    "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply.<br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
     "rulings":[
 
     ],
@@ -20900,7 +20900,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -21187,7 +21187,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -22100,7 +22100,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>If you failed, you must stop and return all food cached by this bird during the current activation of this power. <br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
     "rulings":[
 
     ],
@@ -22657,7 +22657,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly. <br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -23305,7 +23305,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -23441,7 +23441,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -23721,7 +23721,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -23786,7 +23786,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -24209,7 +24209,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"When rolling 2 dice, you cache only 1 [fish] even if both dice show [fish]. <br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
+    "Note":"When rolling 2 dice, you cache only 1 [fish] even if both dice show [fish].<br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
     "rulings":[
 
     ],
@@ -24353,7 +24353,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"You may lay the [egg] on any bird. <br>For the rock pigeon, you may (but need not) lay the second egg on same bird as the first.",
+    "Note":"You may lay the [egg] on any bird.<br>For the rock pigeon, you may (but need not) lay the second egg on same bird as the first.",
     "rulings":[
 
     ],
@@ -24561,7 +24561,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"The copied power must be a white \u201cwhen played\u201d power. <br>This bird may copy a white \u201cwhen played\u201d power that lets you play an additional bird, even in a habitat other than the one in which this bird is played. The additional bird must be played in a habitat specified by the copied power, if there is one. <br>Since this bird cannot be played in the [wetland], it cannot copy a white power that specifies playing it in the that habitat (e.g., the Grey Heron, from the European Expansion). <br>If you use this bird to copy the white \u201cwhen played\u201d power of a bird with an alternative food cost, you may pay that alternative food cost to play this bird as applicable. (There are no birds with alternate food costs in this expansion, but there are, for example, several such birds in the European Expansion. Alternate food costs are specified with an asterisk [*] next to the food cost.)",
+    "Note":"The copied power must be a white \u201cwhen played\u201d power.<br>This bird may copy a white \u201cwhen played\u201d power that lets you play an additional bird, even in a habitat other than the one in which this bird is played. The additional bird must be played in a habitat specified by the copied power, if there is one.<br>Since this bird cannot be played in the [wetland], it cannot copy a white power that specifies playing it in the that habitat (e.g., the Grey Heron, from the European Expansion).<br>If you use this bird to copy the white \u201cwhen played\u201d power of a bird with an alternative food cost, you may pay that alternative food cost to play this bird as applicable. (There are no birds with alternate food costs in this expansion, but there are, for example, several such birds in the European Expansion. Alternate food costs are specified with an asterisk [*] next to the food cost.)",
     "rulings":[
 
     ],
@@ -24626,7 +24626,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -24834,7 +24834,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -25697,7 +25697,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -26989,7 +26989,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand. <br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck. <br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
+    "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand.<br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck.<br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
     "rulings":[
 
     ],
@@ -27197,7 +27197,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -27408,7 +27408,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -27544,7 +27544,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves. <br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
     "rulings":[
 
     ],
@@ -27609,7 +27609,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":null,
-    "Note":"Rolling the ([invertebrate]\/[seed]) face counts as rolling a [invertebrate]. <br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
+    "Note":"Rolling the ([invertebrate]\/[seed]) face counts as rolling a [invertebrate].<br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
     "rulings":[
 
     ],
@@ -28053,7 +28053,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power. <br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game. <br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
     "rulings":[
 
     ],
@@ -28453,7 +28453,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird. <br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -28609,7 +28609,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"When you use this bird\u2019s power, tucking is part of the action\u2019s cost and such is mandatory. <br>You may tuck cards that you did not draw during the activation of this power.",
+    "Note":"When you use this bird\u2019s power, tucking is part of the action\u2019s cost and such is mandatory.<br>You may tuck cards that you did not draw during the activation of this power.",
     "rulings":[
 
     ],
@@ -30230,7 +30230,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained. <br>If you failed, you must stop and return all food cached by this bird during the current activation of this power. <br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
     "rulings":[
 
     ],
@@ -30363,7 +30363,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -30914,7 +30914,7 @@
     "Endangered Species Protector":"X",
     "Beak Pointing Left":"X",
     "Beak Pointing Right":null,
-    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck. <br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
     "rulings":[
 
     ],
@@ -31187,7 +31187,7 @@
     "Endangered Species Protector":null,
     "Beak Pointing Left":null,
     "Beak Pointing Right":"X",
-    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests. <br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
