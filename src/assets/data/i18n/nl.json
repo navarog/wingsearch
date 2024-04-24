@@ -2874,7 +2874,7 @@
     "263": {
       "English name": "Abbott's Booby",
       "Scientific name": "Papasula abbotti",
-      "Common name": null,
+      "Common name": "Abbotts gent ",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -2885,7 +2885,7 @@
     "264": {
       "English name": "Australasian Pipit",
       "Scientific name": "Anthus novaeseelandiae",
-      "Common name": null,
+      "Common name": "Nieuw-Zeelandse Pieper",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -2918,8 +2918,8 @@
     "267": {
       "English name": "Australian Magpie",
       "Scientific name": "Gymnorhina tibicen",
-      "Common name": null,
-      "Power text": null,
+      "Common name": "Zwartrugfluitvogel ",
+      "Power text": "leg 1 [egg] af van elke vogel in deze rij en kolom die een [egg] heeft, met uitzondering van deze vogel. Voor elk afgelegd [egg] bewaar je 2 [seed] uit de voorraad op deze vogel.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
@@ -2940,7 +2940,7 @@
     "269": {
       "English name": "Australian Raven",
       "Scientific name": "Corvus coronoides",
-      "Common name": null,
+      "Common name": "Australische raaf",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -2951,7 +2951,7 @@
     "270": {
       "English name": "Australian Reed Warbler",
       "Scientific name": "Acrocephalus australis",
-      "Common name": null,
+      "Common name": "Australische karekiet",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -2973,7 +2973,7 @@
     "272": {
       "English name": "Australian Zebra Finch",
       "Scientific name": "Taeniopygia castanotis",
-      "Common name": null,
+      "Common name": "Australische zebravink",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -2995,7 +2995,7 @@
     "274": {
       "English name": "Black Swan",
       "Scientific name": "Cygnus atratus",
-      "Common name": null,
+      "Common name": "Zwarte Zwaan",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3006,7 +3006,7 @@
     "275": {
       "English name": "Black-Shouldered Kite",
       "Scientific name": "Elanus axillaris",
-      "Common name": null,
+      "Common name": "Australische grijze wouw",
       "Power text": null,
       "Note": null,
       "Anatomist": "X",
@@ -3105,7 +3105,7 @@
     "284": {
       "English name": "Eastern Rosella",
       "Scientific name": "Platycercus eximius",
-      "Common name": null,
+      "Common name": "Prachtrosella",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3127,7 +3127,7 @@
     "286": {
       "English name": "Emu",
       "Scientific name": "Dromaius novaehollandiae",
-      "Common name": null,
+      "Common name": "Emoe",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3138,7 +3138,7 @@
     "287": {
       "English name": "Galah",
       "Scientific name": "Eolophus roseicapilla",
-      "Common name": null,
+      "Common name": "Roze kakatoe",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3160,7 +3160,7 @@
     "289": {
       "English name": "Gould's Finch",
       "Scientific name": "Erythrura gouldiae",
-      "Common name": null,
+      "Common name": "Gouldamadine",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3193,7 +3193,7 @@
     "292": {
       "English name": "Grey Shrikethrush",
       "Scientific name": "Colluricincla harmonica",
-      "Common name": null,
+      "Common name": "Grijze lijsterdikkop",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3204,7 +3204,7 @@
     "293": {
       "English name": "Grey Teal",
       "Scientific name": "Anas gracilis",
-      "Common name": null,
+      "Common name": "Australische taling",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3270,7 +3270,7 @@
     "299": {
       "English name": "Kea",
       "Scientific name": "Nestor notabilis",
-      "Common name": null,
+      "Common name": "Kea",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3347,8 +3347,8 @@
     "306": {
       "English name": "Little Penguin",
       "Scientific name": "Eudyptula minor",
-      "Common name": null,
-      "Power text": null,
+      "Common name": "Dwergpingu\u00efn",
+      "Power text": "trek 5 [card] van de trekstapel en leg die af. Bewaar voor elke  [fish] in de voedselkosten ervan 1 [fish] uit de voorraad op deze vogel.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -3391,7 +3391,7 @@
     "310": {
       "English name": "Malleefowl",
       "Scientific name": "Leipoa ocellata",
-      "Common name": null,
+      "Common name": "Thermometervogel",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3435,7 +3435,7 @@
     "314": {
       "English name": "Mistletoebird",
       "Scientific name": "Dicaeum hirundinaceum",
-      "Common name": null,
+      "Common name": "Roodstuithoningvogel",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3490,7 +3490,7 @@
     "319": {
       "English name": "Orange-Footed Scrubfowl",
       "Scientific name": "Megapodius reinwardt",
-      "Common name": null,
+      "Common name": "Rood boshoen",
       "Power text": null,
       "Note": null,
       "Anatomist": "X",
@@ -3523,7 +3523,7 @@
     "322": {
       "English name": "Pesquet's Parrot",
       "Scientific name": "Psittrichas fulgidus",
-      "Common name": null,
+      "Common name": "Borstelkoppapegaai",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3556,7 +3556,7 @@
     "325": {
       "English name": "Plains-Wanderer",
       "Scientific name": "Pedionomus torquatus",
-      "Common name": null,
+      "Common name": "Trapvechtkwartel",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3567,7 +3567,7 @@
     "326": {
       "English name": "Princess Stephanie's Astrapia",
       "Scientific name": "Astrapia stephaniae",
-      "Common name": null,
+      "Common name": "Stephanie-astrapia",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3589,7 +3589,7 @@
     "328": {
       "English name": "Rainbow Lorikeet",
       "Scientific name": "Trichoglossus moluccanus",
-      "Common name": null,
+      "Common name": "Lori van de Blauwe Bergen",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3600,7 +3600,7 @@
     "329": {
       "English name": "Red Wattlebird",
       "Scientific name": "Anthochaera carunculata",
-      "Common name": null,
+      "Common name": "Roodlelhoningeter",
       "Power text": null,
       "Note": null,
       "Anatomist": "X",
@@ -3721,7 +3721,7 @@
     "340": {
       "English name": "Silvereye",
       "Scientific name": "Zosterops lateralis",
-      "Common name": null,
+      "Common name": "Grijsrugbrilvogel ",
       "Power text": null,
       "Note": null,
       "Anatomist": "X",
@@ -3732,7 +3732,7 @@
     "341": {
       "English name": "South Island Robin",
       "Scientific name": "Petroica australis",
-      "Common name": null,
+      "Common name": "Zuidereilandvliegenvanger",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -3886,7 +3886,7 @@
     "355": {
       "English name": "White-Faced Heron",
       "Scientific name": "Egretta novaehollandiae",
-      "Common name": null,
+      "Common name": "Witwangreiger",
       "Power text": null,
       "Note": null,
       "Anatomist": "X",
@@ -4007,7 +4007,7 @@
     "366": {
       "English name": "Blue Rock-Thrush",
       "Scientific name": "Monticola solitarius",
-      "Common name": null,
+      "Common name": "Blauwe Rotslijster",
       "Power text": null,
       "Note": null,
       "Anatomist": null,
@@ -4183,8 +4183,8 @@
     "382": {
       "English name": "Eurasian Eagle-Owl",
       "Scientific name": "Bubo bubo",
-      "Common name": null,
-      "Power text": null,
+      "Common name": "Oehoe",
+      "Power text": "trek ten hoogste 3 keer 1 [card] van de gedekte stapel. Als je stapt en de totale vleugelwijdte van de getrokken vogels is kleiner dan 110 cm, stop deze dan onder deze vogel weg. Zo niet, leg ze dan af.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4304,8 +4304,8 @@
     "393": {
       "English name": "Great Cormorant",
       "Scientific name": "Phalacrocorax carbo",
-      "Common name": null,
-      "Power text": null,
+      "Common name": "Aalscholver",
+      "Power text": "je mag 1 [fish] van deze vogel naar je voorraad verplaatsen. Werp dan 2 [die] naar keuze. Werp je ten minste 1 [fish], bewaar dan 1 [fish] uit de voorraad op deze vogel.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -5174,42 +5174,42 @@
     },
     "1034": {
       "English name": "Forest Data Analyst",
-      "Name": null,
-      "Condition": null,
+      "Name": "Bosdata-Analist",
+      "Condition": "Opeenvolgende vogels in [forest] met oplopende of aflopende vleugelwijdten",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
     },
     "1035": {
       "English name": "Grassland Data Analyst",
       "Name": null,
-      "Condition": null,
+      "Condition": "Opeenvolgende vogels in [grassland] met oplopende of aflopende vleugelwijdten",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
     },
     "1036": {
       "English name": "Mechanical Engineer",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Werktuigbouwkundige",
+      "Condition": "Sets van de 4 nestsoorten",
+      "Explanatory text": "1 set = [bowl] [cavity] [ground] [platform]; 1 set: 3[point]; 2 of meer sets: 8[point]",
+      "VP": "Elke nestjoker geldt als 1 nestsoort naar keuze. Een kaart kan geen onderdeel van meerdere sets zijn.",
       "Note": null
     },
     "1037": {
       "English name": "Site Selection Expert",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "Locatieonderzoeksexpert",
+      "Condition": "Kolommen met 2 of 3 gelijke nesten",
+      "Explanatory text": "2 gelijke nesten in een kolom: 1[point]; 3 gelijke nesten in een kolom: 3[point]",
+      "VP": "Verschillende kolommen mogen (maar dat hoeft niet) verschillende nestsoorten tellen. Een nestjoker geldt als 1 nestsoort naar keuze.",
       "Note": null
     },
     "1038": {
       "English name": "Wetland Data Analyst",
       "Name": null,
-      "Condition": null,
+      "Condition": "Opeenvolgende vogels in [wetland] met oplopende of aflopende vleugelwijdten",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
     },
     "1039": {
@@ -5477,49 +5477,49 @@
     "2031": {
       "English name": "Invertebrate in Food Cost of Your Birds",
       "Name": null,
-      "Condition": null,
+      "Condition": "[invertebrate] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2030": {
       "English name": "Fruit + Seed in Food Cost of Your Birds",
       "Name": null,
-      "Condition": null,
+      "Condition": "[fruit] + [seed] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2033": {
       "English name": "Rodent + Fish in Food Cost of Your Birds",
       "Name": null,
-      "Condition": null,
+      "Condition": "[rodent] + [fish] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2032": {
       "English name": "No Goal",
       "Name": null,
-      "Condition": null,
+      "Condition": "Geen doel",
       "Explanatory Text": null
     },
     "2026": {
       "English name": "Beak Pointing Left",
       "Name": null,
-      "Condition": null,
+      "Condition": "Snavel wijst naar links",
       "Explanatory Text": null
     },
     "2027": {
       "English name": "Beak Pointing Right",
       "Name": null,
-      "Condition": null,
+      "Condition": "Snavel wijst naar rechts",
       "Explanatory Text": null
     },
     "2029": {
       "English name": "Cubes on \"Play a Bird\"",
       "Name": null,
-      "Condition": null,
+      "Condition": "[cube] op \"Speel een vogel\"",
       "Explanatory Text": null
     },
     "2028": {
       "English name": "Birds Worth Less than or Equal to 3 Points",
       "Name": null,
-      "Condition": null,
+      "Condition": "[bird] die \u22643[point] waard zijn",
       "Explanatory Text": null
     },
     "2043": {
@@ -5609,7 +5609,7 @@
       "Translated": "EINDE RONDE"
     },
     "GAME END": {
-      "Translated": null
+      "Translated": "EINDE SPEL"
     },
     "of cards": {
       "Translated": "van de kaarten"
