@@ -3920,7 +3920,7 @@
       "English name": "Asian Emerald Dove",
       "Scientific name": "Chalcophaps indica",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Bote 2 [egg] em cada outra ave desta coluna.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
@@ -3942,7 +3942,7 @@
       "English name": "Azure Tit",
       "Scientific name": "Cyanistes cyanus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Ganhe 1 [invertebrate], [seed] ou [fruit] do estoque.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -3953,7 +3953,7 @@
       "English name": "Baya Weaver",
       "Scientific name": "Ploceus philippinus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Enfie at\u00e9 3 [card] de sua m\u00e3o embaixo desta ave. Se voc\u00ea enfiar pelo menos 1 [card], bote 1 [egg] nesta ave.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -3964,7 +3964,7 @@
       "English name": "Bearded Reedling",
       "Scientific name": "Panurus biarmicus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Para cada outra ave nesta coluna com um ovo sobre ela, bote 1 [egg] nesta ave.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4019,7 +4019,7 @@
       "English name": "Brahminy Kite",
       "Scientific name": "Haliastur indus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Escolha 3 [die] quaisquer. Role-os at\u00e9 3 vezes. Em cada rolagem, se voc\u00ea rolar pelo menos 1 [fish] ou [rodent], ganhe 1 e estoque-o aqui. Sen\u00e3o, pare e devolva toda a comida estocada aqui neste turno.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4041,7 +4041,7 @@
       "English name": "Brown Shrike",
       "Scientific name": "Lanius cristatus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Todos os jogadores podem estocar 1 [invertebrate]de seus estoques pessoais em uma ave em seus [grassland].",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4096,7 +4096,7 @@
       "English name": "Common Tailorbird",
       "Scientific name": "Orthotomus sutorius",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Encontre um grupo cont\u00ednuo de aves com o mesmo tipo de ninho em seu tabuleiro. Bote 1 [egg] em cada uma delas. Ninhos [star] contam como qualquer tipo de ninho.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4184,7 +4184,7 @@
       "English name": "Eurasian Eagle-Owl",
       "Scientific name": "Bubo bubo",
       "Common name": null,
-      "Power text": null,
+      "Power text": "At\u00e9 3 vezes, compre 1 [card] do baralho. Quando voc\u00ea parar, se a soma das envergaduras das aves for menor que 110 cm, enfie-as embaixo desta ave. Sen\u00e3o, descarte-as.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
@@ -4349,7 +4349,7 @@
       "English name": "Greater Adjutant",
       "Scientific name": "Leptoptilos dubius",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Copie uma carta b\u00f4nus do jogador \u00e0 sua esquerda, como se ela fosse sua (pontue-a com base em suas pr\u00f3prias aves).",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4448,7 +4448,7 @@
       "English name": "Little Egret",
       "Scientific name": "Egretta garzetta",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Compre 1 [card] do baralho e adicione-a \u00e0 sua m\u00e3o. Todos os outros jogadores compram 1 [card] do baralho e a mant\u00e9m se ela puder viver em [wetland].",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4492,7 +4492,7 @@
       "English name": "Olive-Backed Sunbird",
       "Scientific name": "Cinnyris jugularis",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Cada jogador pode rolar 1 [die] qualquer e ganhar essa comida do estoque. ",
       "Note": null,
       "Anatomist": "X",
       "Cartographer": null,
@@ -4569,7 +4569,7 @@
       "English name": "Red Junglefowl",
       "Scientific name": "Gallus gallus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Conte os em todas [egg] as suas aves. Se o total for menos de 6 [egg], bote 1 [egg] nesta ave.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": "X",
@@ -4613,7 +4613,7 @@
       "English name": "Rhinoceros Auklet",
       "Scientific name": "Cerorhinca monocerata",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Role 2 quaisquer [die]. Se voc\u00ea rolar pelo menos 1 [fish], ganhe 1 [fish] e estoque-o aqui. Todos os jogadores podem descartar 1 [card] de suas m\u00e3os para ganhar 1 [fish] do estoque.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4624,7 +4624,7 @@
       "English name": "Rock Pigeon",
       "Scientific name": "Columba livia",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Todos os jogadores botam 1 [egg]. Voc\u00ea bota 1 adicional.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4822,7 +4822,7 @@
       "English name": "Violet Cuckoo",
       "Scientific name": "Chrysococcyx xanthorhynchus",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Quando outro jogador realizar a a\u00e7\u00e3o de \u201cbotar ovos\u201d, bote 1 [egg] em outra ave de envergadura <30cm. Voc\u00ea pode ultrapassar o limite de ovos em at\u00e9 2 ao utilizar este poder.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4855,7 +4855,7 @@
       "English name": "White-Headed Duck",
       "Scientific name": "Oxyura leucocephala",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Compre 3 novas cartas b\u00f4nus e mantenha 1.",
       "Note": null,
       "Anatomist": "X",
       "Cartographer": null,
@@ -4888,7 +4888,7 @@
       "English name": "Yellow Bittern",
       "Scientific name": "Ixobrychus sinensis",
       "Common name": null,
-      "Power text": null,
+      "Power text": "Compre a [card] no espa\u00e7o do meio da bandeja de aves.",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -5178,7 +5178,7 @@
       "Condition": "Aves consecutivas no [forest] com envergaduras crescentes ou decrescentes",
       "Explanatory text": null,
       "VP": "3 aves: 3[point]; 4 aves: 5[point]; 5 aves: 8[point]",
-      "Note": null
+      "Note": "Estas cartas b\u00f4nus garantem, cada uma, pontos por sequ\u00eancias longas o bastante, no habitat correspondente, de aves consecutivas com envergaduras em ordem crescente ou decrescente. A sequ\u00eancia n\u00e3o precisa consistir em todas as aves do habitat, e ela n\u00e3o precisa come\u00e7ar ou terminar nas extremidades do habitat. Uma sequ\u00eancia pode incluir duas ou mais aves com a mesma envergadura.<br>Como mencionado anteriormente, as envergaduras de aves que n\u00e3o voam s\u00e3o curingas: Para fins dessas cartas b\u00f4nus, voc\u00ea pode atribuir qualquer envergadura para uma ave que n\u00e3o voa.<br>Por exemplo, se as envergaduras das primeiras 3 aves em seu p\u00e2ntano estiverem em ordem crescente, mas a quarta ave em seu p\u00e2ntano tiver uma envergadura menor do que a terceira ave de l\u00e1, o comprimento da sua sequ\u00eancia \u00e9 3, nesse caso, a carta b\u00f4nus Analista de Dados dos P\u00e2ntanos valeria 3 pontos."
     },
     "1035": {
       "English name": "Grassland Data Analyst",
@@ -5186,7 +5186,7 @@
       "Condition": "Aves consecutivas no [grassland] com envergaduras crescentes ou decrescentes",
       "Explanatory text": null,
       "VP": "3 aves: 3[point]; 4 aves: 5[point]; 5 aves: 8[point]",
-      "Note": null
+      "Note": "Estas cartas b\u00f4nus garantem, cada uma, pontos por sequ\u00eancias longas o bastante, no habitat correspondente, de aves consecutivas com envergaduras em ordem crescente ou decrescente. A sequ\u00eancia n\u00e3o precisa consistir em todas as aves do habitat, e ela n\u00e3o precisa come\u00e7ar ou terminar nas extremidades do habitat. Uma sequ\u00eancia pode incluir duas ou mais aves com a mesma envergadura.<br>Como mencionado anteriormente, as envergaduras de aves que n\u00e3o voam s\u00e3o curingas: Para fins dessas cartas b\u00f4nus, voc\u00ea pode atribuir qualquer envergadura para uma ave que n\u00e3o voa.<br>Por exemplo, se as envergaduras das primeiras 3 aves em seu p\u00e2ntano estiverem em ordem crescente, mas a quarta ave em seu p\u00e2ntano tiver uma envergadura menor do que a terceira ave de l\u00e1, o comprimento da sua sequ\u00eancia \u00e9 3, nesse caso, a carta b\u00f4nus Analista de Dados dos P\u00e2ntanos valeria 3 pontos."
     },
     "1036": {
       "English name": "Mechanical Engineer",
@@ -5194,7 +5194,7 @@
       "Condition": "Grupos de 4 tipos de ninho",
       "Explanatory text": "Cada [star] pode ser tratado como 1 tipo de ninho qualquer. Nenhuma carta pode fazer parte de mais de 1 grupo.",
       "VP": "1 grupo = [bowl] [cavity] [ground] [platform]; 1 grupo: 3[point]; 2+ grupo: 8[point]",
-      "Note": null
+      "Note": "Esta carta busca por conjuntos dos quatro tipos de ninho entre todas as suas aves. A ordem e localiza\u00e7\u00e3o dos ninhos n\u00e3o importa; importa apenas que cada grupo inclua todos os quatro tipos de ninho.<br>Cada ninho estrela pode ser o substituto de um ninho de qualquer tipo em um grupo. Por exemplo:<br><ul><li>um ninho de cavidade, um ninho de plataforma, e dois ninhos estrela formam um grupo completo.</li><li>dois ninhos de cavidade, dois ninhos de plataforma, um ninho de tigela, um ninho de solo, e dois ninhos estrela formam dois grupos completos.</li><li>dois ninhos de tigela, dois ninhos de cavidade, dois ninhos de plataforma, um ninho de solo, e um ninho estrela formam um grupo, n\u00e3o dois, pois cada ninho estrela s\u00f3 pode fazer parte de um grupo.</li></ul>"
     },
     "1037": {
       "English name": "Site Selection Expert",
@@ -5202,7 +5202,7 @@
       "Condition": "Colunas com um par ou trio de ninhos iguais",
       "Explanatory text": "Colunas diferentes podem (mas n\u00e3o precisam) pontuar usando tipos de ninho diferentes. [star] s\u00e3o curingas, mas cada um deles conta apenas uma vez.",
       "VP": "2 ninhos iguais em uma coluna: 1[point]; 3 ninhos iguais em uma coluna: 3[point]",
-      "Note": null
+      "Note": "Esta carta b\u00f4nus fornece pontos para cada coluna que contenha mais de um ninho do mesmo tipo. Uma coluna vale 0, 1, ou 3 pontos, dependendo de ter 0, 2, ou 3 ninhos iguais nela, respectivamente. Diferentes colunas podem (mas n\u00e3o precisam) pontuar usando diferentes tipos de ninho.<br>Ninhos estrela s\u00e3o curingas. Um ninho estrela individual conta apenas uma vez; ele n\u00e3o pode ser usado como 2 tipos diferentes de ninho na mesma coluna."
     },
     "1038": {
       "English name": "Wetland Data Analyst",
@@ -5210,7 +5210,7 @@
       "Condition": "Aves consecutivas no [wetland] com envergaduras crescentes ou decrescentes",
       "Explanatory text": null,
       "VP": "3 aves: 3[point]; 4 aves: 5[point]; 5 aves: 8[point]",
-      "Note": null
+      "Note": "Estas cartas b\u00f4nus garantem, cada uma, pontos por sequ\u00eancias longas o bastante, no habitat correspondente, de aves consecutivas com envergaduras em ordem crescente ou decrescente. A sequ\u00eancia n\u00e3o precisa consistir em todas as aves do habitat, e ela n\u00e3o precisa come\u00e7ar ou terminar nas extremidades do habitat. Uma sequ\u00eancia pode incluir duas ou mais aves com a mesma envergadura.<br>Como mencionado anteriormente, as envergaduras de aves que n\u00e3o voam s\u00e3o curingas: Para fins dessas cartas b\u00f4nus, voc\u00ea pode atribuir qualquer envergadura para uma ave que n\u00e3o voa.<br>Por exemplo, se as envergaduras das primeiras 3 aves em seu p\u00e2ntano estiverem em ordem crescente, mas a quarta ave em seu p\u00e2ntano tiver uma envergadura menor do que a terceira ave de l\u00e1, o comprimento da sua sequ\u00eancia \u00e9 3, nesse caso, a carta b\u00f4nus Analista de Dados dos P\u00e2ntanos valeria 3 pontos."
     },
     "1039": {
       "English name": "Avian Theriogenologist",
@@ -5262,10 +5262,10 @@
     },
     "1045": {
       "English name": "Pellet Dissector",
-      "Name": null,
-      "Condition": null,
+      "Name": "Dissecador de Pelotas",
+      "Condition": "Fichas de [fish] e [rodent] estocadas em aves",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "2 a 3 comidas estocadas: 3[point]; 4+ comidas estocadas: 6[point]",
       "Note": null
     },
     "1046": {
@@ -5416,110 +5416,110 @@
     },
     "2020": {
       "English name": "Food in Supply",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Comida no estoque pessoal",
+      "Condition": "[wild] no estoque pessoal",
+      "Explanatory Text": "O n\u00famero de fichas de comida em seu estoque pessoal"
     },
     "2003": {
       "English name": "Birds Cards in Hand",
-      "Name": null,
+      "Name": "Cartas de Ave na m\u00e3o",
       "Condition": null,
-      "Explanatory Text": null
+      "Explanatory Text": "O n\u00famero de cartas de ave na sua m\u00e3o"
     },
     "2004": {
       "English name": "Birds Worth over 4 Points",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Aves que valem mais de 4 pontos",
+      "Condition": "[bird] que valem >4[point]",
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui com um valor impresso de mais de 4 pontos"
     },
     "2006": {
       "English name": "Birds with No Eggs",
-      "Name": null,
+      "Name": "Aves sem nenhum ovo",
       "Condition": null,
-      "Explanatory Text": null
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que n\u00e3o tenham nenhum ovo sobre elas quando este objetivo for pontuado"
     },
     "2005": {
       "English name": "Birds in 1 Row",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Aves em uma linha",
+      "Condition": "[bird] em uma linha",
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui no habitat com mais aves"
     },
     "2018": {
       "English name": "Filled Columns",
-      "Name": null,
+      "Name": "Colunas preenchidas",
       "Condition": null,
-      "Explanatory Text": null
+      "Explanatory Text": "O n\u00famero de colunas onde todos os tr\u00eas espa\u00e7os estejam preenchidos"
     },
     "2009": {
       "English name": "Brown Powers",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Poderes marrons",
+      "Condition": "poderes marrons",
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham poderes marrons \"quando ativado\""
     },
     "2025": {
       "English name": "White & No Powers",
-      "Name": null,
+      "Name": "Poderes brancos & sem poderes",
       "Condition": null,
-      "Explanatory Text": null
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham um poder \"quando jogado\", ou n\u00e3o tenham poder"
     },
     "2007": {
       "English name": "Birds with Tucked Cards",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Aves com cartas embaixo",
+      "Condition": "[flocking] com cartas embaixo",
+      "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham pelo menos 1 carta enfiada embaixo delas"
     },
     "2019": {
       "English name": "Food Cost of Played Birds",
-      "Name": null,
+      "Name": "Custo em comida das aves jogadas",
       "Condition": null,
-      "Explanatory Text": null
+      "Explanatory Text": "Conte o custo em comida de suas aves, lembrando de contar apenas 1 comida para aves que tenham uma escolha em seus custos de comida"
     },
     "2031": {
       "English name": "Invertebrate in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Invertebrados no custo em comida das suas aves",
+      "Condition": "[invertebrate] no custo em comida das suas aves",
+      "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2030": {
       "English name": "Fruit + Seed in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Frutas + sementes no custo em comida das suas aves",
+      "Condition": "[fruit] + [seed] no custo em comida das suas aves",
+      "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2033": {
       "English name": "Rodent + Fish in Food Cost of Your Birds",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Roedores + peixes no custo em comida das suas aves",
+      "Condition": "[rodent] + [fish] no custo em comida das suas aves",
+      "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2032": {
       "English name": "No Goal",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Sem objetivo",
+      "Condition": "sem objetivo",
+      "Explanatory Text": "N\u00e3o pontue um objetivo no final desta rodada. Mantenha seu cubo. Todas as rodadas seguintes ter\u00e3o 1 cubo a mais do que normalmente teria."
     },
     "2026": {
       "English name": "Beak Pointing Left",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Bico para a esquerda",
+      "Condition": "[beak-left] para a esquerda",
+      "Explanatory Text": "Estes objetivos contam cartas que mostram uma ave cujo bico est\u00e1 apontando na dire\u00e7\u00e3o indicada. Aves cujos bicos est\u00e3o apontando diretamente para frente (ou para cima) n\u00e3o contam para nenhum destes objetivos.<br>Esses objetivos foram adicionados para dar aos jogadores outra raz\u00e3o para olhar atentamente para a arte. Apesar de termos avaliado todas as cartas e conclu\u00eddo que a dire\u00e7\u00e3o do bico n\u00e3o seria muito dif\u00edcil de determinar, se sua mesa tiver problemas com isso, fique \u00e0 vontade para deixar essa pe\u00e7a fora do jogo. Existem algumas aves que precisam de esclarecimentos:<br><ul><li>O Wrybill, apesar de estar olhando para frente, tem um bico que est\u00e1 apontando para o lado esquerdo da carta.</li><li>A carta Common Loon (do jogo base) e a carta Little Grebe (da Expans\u00e3o Asia) tem 1 ave apontando para cada dire\u00e7\u00e3o, portanto ela se qualifica para ambos os objetivos.</li><li>A carta Great Crested Grebe (da Expans\u00e3o Europa) tem 2 aves apontando para a mesma dire\u00e7\u00e3o: ela conta como uma \u00fanica carta que tem uma ave que est\u00e1 apontando para a esquerda.</li></ul><br>Aqui est\u00e1 uma lista com as aves que n\u00e3o est\u00e3o apontando para a direita e nem para a esquerda.<br><b>Jogo Base</b><ul><li>Barn Owl</li><li>Barred Owl</li><li>Burrowing Owl</li><li>California Condor</li><li>Eastern Screech-Owl</li><li>Great Horned Owl</li><li>Horned Lark</li><li>Spotted Owl</li></ul><b>Europa</b><ul><li>Little Owl</li><li>Snowy Owl</li><li>Short-Toed Treecreeper</li></ul><b>Oceania</b><ul><li>Australian Owlet-Nightjar</li><li>K\u0101k\u0101p\u014d</li><li>Rufous Owl</li></ul><b>Asia</b><ul><li>Bearded Reedling</li><li>Eurasian Eagle-Owl</li><li>Forest Owlet</li><li>Oriental Bay-Owl</li><li>Spoon-Billed Sandpiper</li><li>Sri Lanka Frogmouth</li></ul>"
     },
     "2027": {
       "English name": "Beak Pointing Right",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Bico para a direita",
+      "Condition": "[beak-right] bico para a direita",
+      "Explanatory Text": "Estes objetivos contam cartas que mostram uma ave cujo bico est\u00e1 apontando na dire\u00e7\u00e3o indicada. Aves cujos bicos est\u00e3o apontando diretamente para frente (ou para cima) n\u00e3o contam para nenhum destes objetivos.<br>Esses objetivos foram adicionados para dar aos jogadores outra raz\u00e3o para olhar atentamente para a arte. Apesar de termos avaliado todas as cartas e conclu\u00eddo que a dire\u00e7\u00e3o do bico n\u00e3o seria muito dif\u00edcil de determinar, se sua mesa tiver problemas com isso, fique \u00e0 vontade para deixar essa pe\u00e7a fora do jogo. Existem algumas aves que precisam de esclarecimentos:<br><ul><li>O Wrybill, apesar de estar olhando para frente, tem um bico que est\u00e1 apontando para o lado esquerdo da carta.</li><li>A carta Common Loon (do jogo base) e a carta Little Grebe (da Expans\u00e3o Asia) tem 1 ave apontando para cada dire\u00e7\u00e3o, portanto ela se qualifica para ambos os objetivos.</li><li>A carta Great Crested Grebe (da Expans\u00e3o Europa) tem 2 aves apontando para a mesma dire\u00e7\u00e3o: ela conta como uma \u00fanica carta que tem uma ave que est\u00e1 apontando para a esquerda.</li></ul><br>Aqui est\u00e1 uma lista com as aves que n\u00e3o est\u00e3o apontando para a direita e nem para a esquerda.<br><b>Jogo Base</b><ul><li>Barn Owl</li><li>Barred Owl</li><li>Burrowing Owl</li><li>California Condor</li><li>Eastern Screech-Owl</li><li>Great Horned Owl</li><li>Horned Lark</li><li>Spotted Owl</li></ul><b>Europa</b><ul><li>Little Owl</li><li>Snowy Owl</li><li>Short-Toed Treecreeper</li></ul><b>Oceania</b><ul><li>Australian Owlet-Nightjar</li><li>K\u0101k\u0101p\u014d</li><li>Rufous Owl</li></ul><b>Asia</b><ul><li>Bearded Reedling</li><li>Eurasian Eagle-Owl</li><li>Forest Owlet</li><li>Oriental Bay-Owl</li><li>Spoon-Billed Sandpiper</li><li>Sri Lanka Frogmouth</li></ul>"
     },
     "2029": {
       "English name": "Cubes on \"Play a Bird\"",
-      "Name": null,
-      "Condition": null,
-      "Explanatory Text": null
+      "Name": "Cubos em \u201cJogar Ave\u201d",
+      "Condition": "[cube] cubos em \u201cjogar ave\u201d",
+      "Explanatory Text": "Conte a quantidade de cubos que voc\u00ea colocou em \u201cJogar Ave\u201d nesta rodada. Note que este objetivo requer que voc\u00ea mantenha os cubos nas linhas onde voc\u00ea os jogou."
     },
     "2028": {
       "English name": "Birds Worth Less than or Equal to 3 Points",
       "Name": null,
-      "Condition": null,
+      "Condition": "[bird] que valem \u22643[point]",
       "Explanatory Text": null
     },
     "2043": {
@@ -5531,31 +5531,31 @@
     "2040": {
       "English name": "Nest Symbols",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM [bowl][cavity][ground][platform]",
       "Explanatory Text": null
     },
     "2035": {
       "English name": "Food Symbols",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM [fish][fruit][rodent][seed][invertebrate]",
       "Explanatory Text": null
     },
     "2041": {
       "English name": "Not on Edge of Map",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] QUE N\u00c3O ESTEJAM NA BORDA DO MAPA",
       "Explanatory Text": null
     },
     "2042": {
       "English name": "On Edge of Map",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] QUE ESTEJAM NA BORDA DO MAPA",
       "Explanatory Text": null
     },
     "2044": {
       "English name": "Tokens in Any One Horizontal Row",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM UMA LINHA HORIZONTAL QUALQUER",
       "Explanatory Text": null
     },
     "2036": {
@@ -5567,31 +5567,31 @@
     "2034": {
       "English name": "Fewest Tokens on Bonus Spaces",
       "Name": null,
-      "Condition": null,
+      "Condition": "MENOS [duet-token] EM ESPA\u00c7OS DE B\u00d4NUS",
       "Explanatory Text": null
     },
     "2037": {
       "English name": "In Forest",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM [forest]",
       "Explanatory Text": null
     },
     "2038": {
       "English name": "In Grassland",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM [grassland]",
       "Explanatory Text": null
     },
     "2039": {
       "English name": "In Wetland",
       "Name": null,
-      "Condition": null,
+      "Condition": "[duet-token] EM [wetland]",
       "Explanatory Text": null
     },
     "2045": {
       "English name": "Total Duet Tokens",
       "Name": null,
-      "Condition": null,
+      "Condition": "TOTAL DE [duet-token] NO MAPA",
       "Explanatory Text": null
     }
   },
