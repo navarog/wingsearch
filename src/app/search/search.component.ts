@@ -21,16 +21,16 @@ import { access } from 'fs'
 export class SearchComponent implements OnInit {
 
   readonly supportedLanguages = [
-    { value: 'en', display: 'English' },
-    { value: 'nl', display: 'Nederlands' },
-    { value: 'fr', display: 'Français' },
     { value: 'de', display: 'Deutsch' },
-    { value: 'pl', display: 'Polski' },
+    { value: 'en', display: 'English' },
     { value: 'es', display: 'Español' },
+    { value: 'fr', display: 'Français' },
+    { value: 'lt', display: 'lietuvių' },
+    { value: 'nl', display: 'Nederlands' },
+    { value: 'pl', display: 'Polski' },
+    { value: 'pt', display: 'Português' },
     { value: 'tr', display: 'Türkçe' },
     { value: 'uk', display: 'українська' },
-    { value: 'pt', display: 'Português' },
-    { value: 'lt', display: 'lietuvių' },
   ]
 
   readonly supportedExpansions = [
