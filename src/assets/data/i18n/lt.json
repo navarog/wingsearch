@@ -1038,7 +1038,7 @@
       "English name": "Corsican Nuthatch",
       "Scientific name": "Sitta whiteheadi",
       "Common name": "Korsikinis bukutis",
-      "Power text": "Paimkite 1 nauj\u0105 premijos kort\u0105. Tada i\u0161 lesykl\u0117l\u0117s gaukite 1 [die].",
+      "Power text": "paimkite 1 nauj\u0105 premijos kort\u0105. Tada i\u0161 lesykl\u0117l\u0117s gaukite 1 [die].",
       "Note": "Prie\u0161 atlikdami antr\u0105j\u0105 \u0161i\u0173 veiksm\u0173 dal\u012f, galite pa\u017ei\u016br\u0117ti \u012f pasiimt\u0105 premijos kort\u0105.",
       "Anatomist": null,
       "Cartographer": "X",
@@ -1192,7 +1192,7 @@
       "English name": "Eurasian Green Woodpecker",
       "Scientific name": "Picus viridis",
       "Common name": "\u017dalioji meleta",
-      "Power text": "skai\u010diuojant ta\u0161kus u\u017e raundo tiksl\u0105 \u0161is pauk\u0161tis \u012fskaitomas du kartus, jei tik atitinka tikslo reikalavimus.",
+      "Power text": "Vadovaujantis priedu ir oficialiais ",
       "Note": "Ta\u0161kai u\u017e \u0161iuos pauk\u0161\u010dius dvigubinami tik raund\u0173 tiksl\u0173, bet ne premij\u0173 kort\u0173 ar ta\u0161k\u0173 \u017eaidimo pabaigoje at\u017evilgiu.<br>Ant \u0161i\u0173 kort\u0173 esantys kiau\u0161iniai nedvigubinami, jei tikslas yra kiau\u0161ini\u0173 skai\u010dius.",
       "Anatomist": null,
       "Cartographer": null,
@@ -1829,7 +1829,7 @@
     "168": {
       "English name": "Moltoni's Warbler",
       "Scientific name": "Sylvia subalpina",
-      "Common name": "Moltono alpin\u0117 devynbals\u0117",
+      "Common name": "Moltonio alpin\u0117 devynbals\u0117",
       "Power text": "jei \u0161iame raunde atlikote visus 4 skirtingus veiksmus, pad\u0117kite kit\u0105 pauk\u0161t\u012f. U\u017e j\u012f mok\u0117kite \u012fprast\u0105 kain\u0105 maistu ir kiau\u0161iniais.",
       "Note": "Jei papildomas pauk\u0161tis turi \u201ePad\u0117jus\u201c gali\u0105, ji aktyvuojama, kai \u0161is pauk\u0161tis padedamas.<br>Jei papildomas pauk\u0161tis turi \u201eBaigus raund\u0105\u201c gali\u0105, ji aktyvuojama, kai \u0161is pauk\u0161tis padedamas.",
       "Anatomist": null,
@@ -2369,7 +2369,7 @@
       "English name": "Savi's Warbler",
       "Scientific name": "Locustella luscinioides",
       "Common name": "Nendrinis \u017eiogelis",
-      "Power text": "Paimkite 2 [card]. Visi kiti \u017eaid\u0117jai paima po 1 [card] i\u0161 kr\u016bvel\u0117s.",
+      "Power text": "paimkite 2 [card]. Visi kiti \u017eaid\u0117jai paima po 1 [card] i\u0161 kr\u016bvel\u0117s.",
       "Note": "Kortas, kaip \u012fprasta, j\u016bs galite imti i\u0161 atverst\u0173 kort\u0173 d\u0117kle arba i\u0161 kr\u016bvel\u0117s, o visi kiti \u017eaid\u0117jai savo kortas gali imti tik i\u0161 kr\u016bvel\u0117s.",
       "Anatomist": null,
       "Cartographer": null,
@@ -4910,266 +4910,266 @@
   "bonuses": {
     "1000": {
       "English name": "Anatomist",
-      "Name": "ANATOMAS",
+      "Name": "Anatomas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 pavadinimuose yra k\u016bno dalys",
       "Explanatory text": "\u0160ios k\u016bno dalys yra: akis, ausis, galva, gurklys, kaklas, kakta, koja, kr\u016btin\u0117, kuodas, nugara, pentinai, petys, pilvas, pir\u0161tas, ragas, skruostas, snapas, sparnas, uodega.",
-      "VP": "2\u20133 PAUK\u0160\u010cIAI: 3[point]; 4+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "2\u20133 pauk\u0161\u010diai: 3[point]; 4+ pauk\u0161\u010diai: 6[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 pavadinimuose yra vienas i\u0161 \u0161i\u0173 anatomijos termin\u0173. Pauk\u0161\u010dius skai\u010diuokite nepaisydami \u017eod\u017eio gimin\u0117s, formos, ar \u017eodis sudurtinis (pvz., \u201ebaltagalvis\u201c). \u0160ie terminai yra: akis, ausis, galva, gurklys, kaklas, kakta, koja, kr\u016btin\u0117, kuodas, nugara, pentinai, petys, pilvas, pir\u0161tas, ragas, skruostas, snapas, sparnas, uodega."
     },
     "1001": {
       "English name": "Backyard Birder",
-      "Name": "SMULKUS PAUK\u0160TININKAS",
+      "Name": "Smulkus pauk\u0161tininkas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 vert\u0117 ma\u017eesn\u0117 nei 4 ta\u0161kai",
       "Explanatory text": null,
-      "VP": "5\u20136 PAUK\u0160\u010cIAI: 3[point]; 7+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "5\u20136 pauk\u0161\u010diai: 3[point]; 7+ pauk\u0161\u010diai: 6[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 vert\u0117 ta\u0161kais yra 0, 1, 2 arba 3."
     },
     "1004": {
       "English name": "Bird Counter",
-      "Name": "PAUK\u0160\u010cI\u0172 SKAI\u010cIUOTOJAS",
+      "Name": "Pauk\u0161\u010di\u0173 skai\u010diuotojas",
       "Condition": "Pauk\u0161\u010diai, turintys [flocking] gali\u0105",
       "Explanatory text": null,
-      "VP": "2[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, turin\u010dius konkret\u0173 simbol\u012f, pavaizduot\u0105 \u0161ioje premijos kortoje. Simbolis tur\u0117t\u0173 b\u016bti kairiojoje pauk\u0161\u010dio rudos galios pus\u0117je."
     },
     "1005": {
       "English name": "Bird Feeder",
-      "Name": "PAUK\u0160\u010cI\u0172 MAITINTOJAS",
+      "Name": "Pauk\u0161\u010di\u0173 maitintojas",
       "Condition": "Pauk\u0161\u010diai, mintantys [seed]",
       "Explanatory text": "Bet koks pauk\u0161tis su simboliu [seed]. Pauk\u0161tis taip pat gali misti ir kitos r\u016b\u0161ies maistu.",
-      "VP": "5\u20137 PAUK\u0160\u010cIAI: 3[point]; 8+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "5\u20137 pauk\u0161\u010diai: 3[point]; 8+ pauk\u0161\u010diai: 7[point]",
       "Note": null
     },
     "1006": {
       "English name": "Breeding Manager",
-      "Name": "PAUK\u0160\u010cI\u0172 VEIS\u0116JAS",
+      "Name": "Pauk\u0161\u010di\u0173 veis\u0117jas",
       "Condition": "Pauk\u0161\u010diai, ant kuri\u0173 pad\u0117ti bent 4 kiau\u0161iniai",
       "Explanatory text": null,
-      "VP": "1[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "1[point] u\u017e pauk\u0161t\u012f",
       "Note": "Suskai\u010diuokite tik tas pauk\u0161\u010di\u0173 kortas, ant kuri\u0173 \u017eaidimo pabaigoje yra 4 kiau\u0161iniai."
     },
     "1007": {
       "English name": "Cartographer",
-      "Name": "KARTOGRAFAS",
+      "Name": "Kartografas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 pavadinimuose yra geografiniai terminai",
       "Explanatory text": "\u0160ie terminai yra: Alp\u0117s, Amerika, Europa, Islandija, Jamaika, j\u016bros, Kalifornija, kalnai, Kanada, Karolina, Korsika, Meksika, Misisip\u0117, mi\u0161kai, Peru, piet\u016bs, prerijos, rytai, \u0161iaur\u0117, vakarai, Vidur\u017eemis, Virginija.",
-      "VP": "3-4 PAUK\u0160\u010cIAI: 3[point]; 5+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "3-4 pauk\u0161\u010diai: 3[point]; 5+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 pavadinimuose yra vienas i\u0161 \u0161i\u0173 geografini\u0173 termin\u0173. Pauk\u0161\u010dius skai\u010diuokite nepaisydami \u017eod\u017eio gimin\u0117s ar formos (pvz., \u201e\u0160iaur\u0117s Amerikos\u201c, \u201eperuvin\u0117\u201c). \u0160ie terminai yra: Alp\u0117s, Amerika, Europa, Islandija, Jamaika, j\u016bros, Kalifornija, kalnai, Kanada, Karolina, Korsika, Meksika, Misisip\u0117, mi\u0161kai, Peru, piet\u016bs, prerijos, rytai, \u0161iaur\u0117, vakarai, Vidur\u017eemis, Virginija."
     },
     "1010": {
       "English name": "Ecologist",
-      "Name": "EKOLOGAS",
+      "Name": "Ekologas",
       "Condition": "Pauk\u0161\u010diai j\u016bs\u0173 buvein\u0117je, kurioje yra ma\u017eiausiai pauk\u0161\u010di\u0173",
       "Explanatory text": "Lygiosios yra \u012fskaitomos: jei kiekvienoje j\u016bs\u0173 buvein\u0117je yra po 3 pauk\u0161\u010dius, laikoma, kad buvein\u0117je su ma\u017eiausiai pauk\u0161\u010di\u0173 yra 3 pauk\u0161\u010diai.",
-      "VP": "2[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": "Suskai\u010diuokite savo pad\u0117t\u0173 pauk\u0161\u010di\u0173 skai\u010di\u0173 toje buvein\u0117je, kurioje pad\u0117jote ma\u017eiausiai pauk\u0161\u010di\u0173. Jei turite dvi buveines, kuriose yra ma\u017eiausiai pauk\u0161\u010di\u0173, vis tek galite gauti \u0161i\u0105 premij\u0105. Pavyzd\u017eiui, jei visose j\u016bs\u0173 buvein\u0117se yra po 3 pauk\u0161\u010dius, j\u016bs\u0173 buvein\u0117je, kurioje yra ma\u017eiausiai pauk\u0161\u010di\u0173, yra 3 pauk\u0161\u010diai."
     },
     "1011": {
       "English name": "Enclosure Builder",
-      "Name": "APTVAR\u0172 STATYTOJAS",
+      "Name": "Aptvar\u0173 statytojas",
       "Condition": "Pauk\u0161\u010diai su [ground] lizdais",
       "Explanatory text": "Pauk\u0161\u010diai turi tur\u0117ti [ground] arba [star] lizdo simbol\u012f.",
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite visus pad\u0117tus pauk\u0161\u010dius, kuri\u0173 kortose pavaizduotas konkretus lizdo simbolis.<br>\u017dvaig\u017edute [star] pa\u017eym\u0117ti lizdai yra universal\u016bs. Prie vis\u0173 \u0161i\u0173 keturi\u0173 premij\u0173 \u012fskaitomi ir pauk\u0161\u010diai su \u017evaig\u017edut\u0117s simboliu pa\u017eym\u0117tais lizdais."
     },
     "1013": {
       "English name": "Falconer",
-      "Name": "SAKALININKAS",
+      "Name": "Sakalininkas",
       "Condition": "Pauk\u0161\u010diai, turintys [predator] gali\u0105",
       "Explanatory text": null,
-      "VP": "2[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, turin\u010dius konkret\u0173 simbol\u012f, pavaizduot\u0105 \u0161ioje premijos kortoje. Simbolis tur\u0117t\u0173 b\u016bti kairiojoje pauk\u0161\u010dio rudos galios pus\u0117je."
     },
     "1014": {
       "English name": "Fishery Manager",
-      "Name": "\u017dUVININKYST\u0116S VADOVAS",
+      "Name": "\u017duvininkyst\u0117s vadovas",
       "Condition": "Pauk\u0161\u010diai, mintantys [fish]",
       "Explanatory text": "Bet koks pauk\u0161tis su simboliu [fish]. Pauk\u0161tis taip pat gali misti ir kitos r\u016b\u0161ies maistu.",
-      "VP": "2\u20133 PAUK\u0160\u010cIAI: 3[point]; 4+ PAUK\u0160\u010cIAI: 8[point]",
+      "VP": "2\u20133 pauk\u0161\u010diai: 3[point]; 4+ pauk\u0161\u010diai: 8[point]",
       "Note": null
     },
     "1015": {
       "English name": "Food Web Expert",
-      "Name": "MITYBOS TINKLO EKSPERTAS",
+      "Name": "Mitybos tinklo ekspertas",
       "Condition": "Pauk\u0161\u010diai, mintantys tik [invertebrate]",
       "Explanatory text": "Bet koks pauk\u0161tis, turintis tik [invertebrate] simbol\u012f ir neturintis kit\u0173 maisto simboli\u0173.",
-      "VP": "2[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": null
     },
     "1016": {
       "English name": "Forester",
-      "Name": "MI\u0160KININKAS",
+      "Name": "Mi\u0161kininkas",
       "Condition": "Pauk\u0161\u010diai, kurie gali gyventi tik [forest]",
       "Explanatory text": null,
-      "VP": "3\u20134 PAUK\u0160\u010cIAI: 4[point]; 5 PAUK\u0160\u010cIAI: 8[point]",
+      "VP": "3\u20134 pauk\u0161\u010diai: 4[point]; 5 pauk\u0161\u010diai: 8[point]",
       "Note": "Suskai\u010diuokite tik tuos pauk\u0161\u010dius, kuri\u0173 buvein\u0117s simbolis pavaizduotas \u0161ioje premijos kortoje. Jei pauk\u0161tis gali gyventi daugiau nei vienos r\u016b\u0161ies buvein\u0117je, jis negali b\u016bti skai\u010diuojamas prie \u0161ios premijos."
     },
     "1017": {
       "English name": "Historian",
-      "Name": "ISTORIKAS",
+      "Name": "Istorikas",
       "Condition": "Pauk\u0161\u010diai, pavadinti \u017eymi\u0173 \u017emoni\u0173 vardais",
-      "Explanatory text": "\u0160ie vardai yra: Ana, Belas, Berdas, \u010cetis, Eleonora, Forsteris, Kasinas, Klarkas, Kuperis, Linkolnas, Maltonis, S\u0117jus, Steleris, Sveinsonas, Vilsonas, Vo.",
-      "VP": "3[point] U\u017d PAUK\u0160T\u012e",
+      "Explanatory text": "\u0160ie vardai yra: Ana, Belas, Berdas, \u010cetis, Eleonora, Forsteris, Kasinas, Klarkas, Kuperis, Linkolnas, Moltonis, S\u0117jus, Steleris, Sveinsonas, Vilsonas, Vo.",
+      "VP": "3[point] u\u017e pauk\u0161t\u012f",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 pavadinimuose yra asmenvard\u017eiai. Pauk\u0161\u010dius skai\u010diuokite nepaisydami \u017eod\u017eio linksnio, gimin\u0117s ar formos (pvz., \u201evilsonija\u201c). \u0160ie asmenvard\u017eiai yra: Ana, Belas, Berdas, \u010cetis, Eleonora, Forsteris, Kasinas, Klarkas, Kuperis, Linkolnas, Maltonis, S\u0117jus, Steleris, Sveinsonas, Vilsonas, Vo."
     },
     "1018": {
       "English name": "Large Bird Specialist",
-      "Name": "STAMBI\u0172 PAUK\u0160\u010cI\u0172 SPECIALISTAS",
+      "Name": "Stambi\u0173 pauk\u0161\u010di\u0173 specialistas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 sparn\u0173 plotis didesnis nei 65 cm",
       "Explanatory text": null,
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 3[point]; 6+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 3[point]; 6+ pauk\u0161\u010diai: 6[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 sparn\u0173 plotis didesnis nei 65 cm. Jeigu sparn\u0173 plotis yra lygiai 65 cm, pauk\u0161tis prie \u0161ios premijos neskai\u010diuojamas."
     },
     "1019": {
       "English name": "Nest Box Builder",
-      "Name": "INKIL\u0172 KAL\u0116JAS",
+      "Name": "Inkil\u0173 kal\u0117jas",
       "Condition": "Pauk\u0161\u010diai su [cavity] lizdais",
       "Explanatory text": "Pauk\u0161\u010diai turi tur\u0117ti [cavity] arba [star] lizdo simbol\u012f.",
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite visus pad\u0117tus pauk\u0161\u010dius, kuri\u0173 kortose pavaizduotas konkretus lizdo simbolis.<br>\u017dvaig\u017edute [star] pa\u017eym\u0117ti lizdai yra universal\u016bs. Prie vis\u0173 \u0161i\u0173 keturi\u0173 premij\u0173 \u012fskaitomi ir pauk\u0161\u010diai su \u017evaig\u017edut\u0117s simboliu pa\u017eym\u0117tais lizdais."
     },
     "1020": {
       "English name": "Omnivore Specialist",
-      "Name": "VISA\u0116D\u017dI\u0172 EKSPERTAS",
+      "Name": "Visa\u0117d\u017ei\u0173 ekspertas",
       "Condition": "Pauk\u0161\u010diai, mintantys [wild]",
       "Explanatory text": "Bet koks pauk\u0161tis, kurio maisto kainos dal\u012f sudaro simbolis [wild].",
-      "VP": null,
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": null
     },
     "1021": {
       "English name": "Oologist",
-      "Name": "OOLOGAS",
+      "Name": "Oologas",
       "Condition": "Pauk\u0161\u010diai, ant kuri\u0173 pad\u0117tas bent 1 kiau\u0161inis",
       "Explanatory text": null,
-      "VP": "7\u20138 PAUK\u0160\u010cIAI: 3[point]; 9+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "7\u20138 pauk\u0161\u010diai: 3[point]; 9+ pauk\u0161\u010diai: 6[point]",
       "Note": "Suskai\u010diuokite tik tas pauk\u0161\u010di\u0173 kortas, ant kuri\u0173 \u017eaidimo pabaigoje pad\u0117tas bent 1 kiau\u0161inis."
     },
     "1022": {
       "English name": "Passerine Specialist",
-      "Name": "\u017dVIRBLINI\u0172 SPECIALISTAS",
+      "Name": "\u017dvirblini\u0173 specialistas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 sparn\u0173 plotis yra 30 cm ar ma\u017eiau",
       "Explanatory text": null,
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 3[point]; 6+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 3[point]; 6+ pauk\u0161\u010diai: 6[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 sparn\u0173 plotis yra 30 cm ar ma\u017eiau. Jeigu sparn\u0173 plotis yra lygiai 30 cm, pauk\u0161tis \u012fskai\u010diuojamas prie \u0161ios premijos."
     },
     "1023": {
       "English name": "Photographer",
-      "Name": "FOTOGRAFAS",
+      "Name": "Fotogragas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 pavadinimuose yra spalvos",
       "Explanatory text": "\u0160ios spalvos yra: balta, d\u016bmin\u0117, gelsva, geltona, juoda, ker\u0161a, marga, melsva, m\u0117lyna, pal\u0161a, pilka, purpurin\u0117, raudona, rausva, ruda, rusva, spalvinga, tamsi, \u017ealia, \u017ealsva.",
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite savo pad\u0117tus pauk\u0161\u010dius, kuri\u0173 pavadinime yra vienas i\u0161 \u0161i\u0173 \u017eod\u017ei\u0173. Kiekvienas pauk\u0161tis skai\u010diuojamas tik vien\u0105 kart\u0105, net jei jo pavadinime yra kelios spalvos. Pauk\u0161\u010dius skai\u010diuokite nepaisydami \u017eod\u017eio gimin\u0117s, formos, ar \u017eodis sudurtinis (pvz., \u201ebaltagalvis\u201c). Pauk\u0161\u010di\u0173 spalvos yra: balta, d\u016bmin\u0117, gelsva, geltona, juoda, ker\u0161a, marga, melsva, m\u0117lyna, pal\u0161a, pilka, purpurin\u0117, raudona, rausva, ruda, rusva, spalvinga, tamsi, \u017ealia, \u017ealsva."
     },
     "1024": {
       "English name": "Platform Builder",
-      "Name": "AUK\u0160TALIPYS",
+      "Name": "Auk\u0161talipys",
       "Condition": "Pauk\u0161\u010diai su [platform] lizdais",
       "Explanatory text": "Pauk\u0161\u010diai turi tur\u0117ti [platform] arba [star] lizdo simbol\u012f.",
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite visus pad\u0117tus pauk\u0161\u010dius, kuri\u0173 kortose pavaizduotas konkretus lizdo simbolis.<br>\u017dvaig\u017edute [star] pa\u017eym\u0117ti lizdai yra universal\u016bs. Prie vis\u0173 \u0161i\u0173 keturi\u0173 premij\u0173 \u012fskaitomi ir pauk\u0161\u010diai su \u017evaig\u017edut\u0117s simboliu pa\u017eym\u0117tais lizdais."
     },
     "1025": {
       "English name": "Prairie Manager",
-      "Name": "PRERIJ\u0172 VALDOVAS",
+      "Name": "Prerij\u0173 valdovas",
       "Condition": "Pauk\u0161\u010diai, kurie gali gyventi tik [grassland]",
       "Explanatory text": null,
-      "VP": "2\u20133 PAUK\u0160\u010cIAI: 3[point]; 4+ PAUK\u0160\u010cIAI: 8[point]",
+      "VP": "2\u20133 pauk\u0161\u010diai: 3[point]; 4+ pauk\u0161\u010diai: 8[point]",
       "Note": "Suskai\u010diuokite tik tuos pauk\u0161\u010dius, kuri\u0173 buvein\u0117s simbolis pavaizduotas \u0161ioje premijos kortoje. Jei pauk\u0161tis gali gyventi daugiau nei vienos r\u016b\u0161ies buvein\u0117je, jis negali b\u016bti skai\u010diuojamas prie \u0161ios premijos."
     },
     "1026": {
       "English name": "Rodentologist",
-      "Name": "GRAU\u017dIK\u0172 TYRIN\u0116TOJAS",
+      "Name": "Grau\u017eik\u0173 tyrin\u0117tojas",
       "Condition": "Pauk\u0161\u010diai, mintantys [rodent]",
       "Explanatory text": "Bet koks pauk\u0161tis su simboliu [rodent]. Pauk\u0161tis taip pat gali misti ir kitos r\u016b\u0161ies maistu.",
-      "VP": "2[point] U\u017d PAUK\u0160T\u012e",
+      "VP": "2[point] u\u017e pauk\u0161t\u012f",
       "Note": null
     },
     "1027": {
       "English name": "Visionary Leader",
-      "Name": "VIZIONIERIUS",
+      "Name": "Vizionierius",
       "Condition": "\u017daidimo pabaigoje js\u0173 turimos nepad\u0117tos pauk\u0161\u010di\u0173 kortos",
       "Explanatory text": null,
-      "VP": "5\u20137 PAUK\u0160\u010cIAI: 4[point]; 8+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "5\u20137 pauk\u0161\u010diai: 4[point]; 8+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite \u017eaidimo pabaigoje likusias nepad\u0117tas savo pauk\u0161\u010di\u0173 kortas."
     },
     "1028": {
       "English name": "Viticulturalist",
-      "Name": "VYNUOGININKAS",
+      "Name": "Vynuogininkas",
       "Condition": "Pauk\u0161\u010diai, mintantys [fruit]",
       "Explanatory text": "Bet koks pauk\u0161tis su simboliu [fruit]. Pauk\u0161tis taip pat gali misti ir kitos r\u016b\u0161ies maistu.",
-      "VP": "2\u20133 PAUK\u0160\u010cIAI: 3[point]; 4+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "2\u20133 pauk\u0161\u010diai: 3[point]; 4+ pauk\u0161\u010diai: 7[point]",
       "Note": null
     },
     "1029": {
       "English name": "Wetland Scientist",
-      "Name": "\u0160LAPYNI\u0172 TYR\u0116JAS",
+      "Name": "\u0160lapyini\u0173 tyr\u0117jas",
       "Condition": "Pauk\u0161\u010diai, kurie gali gyventi tik [wetland]",
       "Explanatory text": null,
-      "VP": "3\u20134 PAUK\u0160\u010cIAI: 3[point]; 5 PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "3\u20134 pauk\u0161\u010diai: 3[point]; 5 pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite tik tuos pauk\u0161\u010dius, kuri\u0173 buvein\u0117s simbolis pavaizduotas \u0161ioje premijos kortoje. Jei pauk\u0161tis gali gyventi daugiau nei vienos r\u016b\u0161ies buvein\u0117je, jis negali b\u016bti skai\u010diuojamas prie \u0161ios premijos."
     },
     "1030": {
       "English name": "Wildlife Gardener",
-      "Name": "GAMTOS SODININKAS",
+      "Name": "Gamtos sodininkas",
       "Condition": "Pauk\u0161\u010diai su [bowl] lizdais",
       "Explanatory text": "Pauk\u0161\u010diai turi tur\u0117ti [bowl] arba [star] lizdo simbol\u012f.",
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite visus pad\u0117tus pauk\u0161\u010dius, kuri\u0173 kortose pavaizduotas konkretus lizdo simbolis.<br>\u017dvaig\u017edute [star] pa\u017eym\u0117ti lizdai yra universal\u016bs. Prie vis\u0173 \u0161i\u0173 keturi\u0173 premij\u0173 \u012fskaitomi ir pauk\u0161\u010diai su \u017evaig\u017edut\u0117s simboliu pa\u017eym\u0117tais lizdais."
     },
     "1002": {
       "English name": "Behaviorist",
-      "Name": "BIHEVIORISTAS",
+      "Name": "Bihevioristas",
       "Condition": "U\u017e kiekvien\u0105 stulpel\u012f, kuriame yra 3 skirtingas (pvz., rud\u0105, balt\u0105, ro\u017ein\u0119, turkio) galias turintys pauk\u0161\u010diai:",
       "Explanatory text": "Gali\u0173 neturintys pauk\u0161\u010diai laikomi turin\u010diais balt\u0105 gali\u0105.",
-      "VP": "3[point] U\u017d STULPEL\u012e",
+      "VP": "3[point] u\u017e stulpel\u012f",
       "Note": null
     },
     "1003": {
       "English name": "Bird Bander",
-      "Name": "PAUK\u0160\u010cI\u0172 \u017dIEDUOTOJAS",
+      "Name": "Pauk\u0161\u010di\u0173 \u017eieduotojas",
       "Condition": "Pauk\u0161\u010diai, galintys gyventi keliose buvein\u0117se",
       "Explanatory text": null,
-      "VP": "4\u20135 PAUK\u0160\u010cIAI: 4[point]; 6+ PAUK\u0160\u010cIAI: 7[point]",
+      "VP": "4\u20135 pauk\u0161\u010diai: 4[point]; 6+ pauk\u0161\u010diai: 7[point]",
       "Note": null
     },
     "1008": {
       "English name": "Citizen Scientist",
-      "Name": "MOKSLININKAS M\u0116G\u0116JAS",
+      "Name": "Mokslininkas m\u0117g\u0117jas",
       "Condition": "Pauk\u0161\u010diai su paki\u0161tomis kortomis",
       "Explanatory text": null,
-      "VP": "4\u20136 PAUK\u0160\u010cIAI: 3[point]; 7+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "4\u20136 pauk\u0161\u010diai: 3[point]; 7+ pauk\u0161\u010diai: 6[point]",
       "Note": null
     },
     "1009": {
       "English name": "Diet Specialist",
-      "Name": "MITYBOS SPECIALISTAS",
+      "Name": "Mitybos specialistas",
       "Condition": "Pauk\u0161\u010diai, kuri\u0173 kaina maistu yra 3 \u017eetonai",
       "Explanatory text": null,
-      "VP": "2\u20133 PAUK\u0160\u010cIAI: 3[point]; 4+ PAUK\u0160\u010cIAI: 6[point]",
+      "VP": "2\u20133 pauk\u0161\u010diai: 3[point]; 4+ pauk\u0161\u010diai: 6[point]",
       "Note": null
     },
     "1012": {
       "English name": "Ethologist",
-      "Name": "ETOLOGAS",
+      "Name": "Etologas",
       "Condition": "Bet kurioje buvein\u0117je:",
       "Explanatory text": "(pvz., rud\u0105, balt\u0105, ro\u017ein\u0119, turkio). Gali\u0173 neturintys pauk\u0161\u010diai laikomi turin\u010diais balt\u0105 gali\u0105.",
-      "VP": "2[point] U\u017d KIEKVIEN\u0104 GALIOS SPALV\u0104",
+      "VP": "2[point] u\u017e kiekvien\u0105 galios spalv\u0105",
       "Note": null
     },
     "1032": {
       "English name": "[automa] Autwitcher",
-      "Name": null,
-      "Condition": null,
-      "Explanatory text": null,
-      "VP": null,
+      "Name": "[automa] Pauk\u0161\u010di\u0173 steb\u0117tojas",
+      "Condition": "Pauk\u0161\u010diai, kuri\u0173 vert\u0117 yra 3 arba 4 ta\u0161kai",
+      "Explanatory text": "(pirmiausia didesn\u0117s vert\u0117s).",
+      "VP": "Automa pasilieka ne daugiau kaip 2 i\u0161 j\u0173",
       "Note": null
     },
     "1033": {
       "English name": "[automa] RASPB Life Fellow",
-      "Name": null,
-      "Condition": null,
+      "Name": "[automa] LOD narys",
+      "Condition": "Pauk\u0161\u010diai, kuri\u0173 vert\u0117 yra 5, 6 arba 7 ta\u0161kai",
       "Explanatory text": null,
-      "VP": null,
+      "VP": "Automa pasilieka vien\u0105 did\u017eiausios vert\u0117s",
       "Note": null
     },
     "1034": {
@@ -5416,61 +5416,61 @@
     },
     "2020": {
       "English name": "Food in Supply",
-      "Name": "TURIMAS MAISTAS",
+      "Name": "Turimas maistas",
       "Condition": "J\u016aS\u0172 TURIMAS [wild]",
       "Explanatory Text": "Maisto \u017eeton\u0173 skai\u010dius j\u016bs\u0173 asmeniniuose resursuose."
     },
     "2003": {
       "English name": "Birds Cards in Hand",
-      "Name": "PAUK\u0160\u010cI\u0172 KORTOS RANKOJE",
+      "Name": "Pauk\u0161\u010di\u0173 kortos rankoje",
       "Condition": "[card] RANKOJE",
       "Explanatory Text": "J\u016bs\u0173 rankoje turim\u0173 pauk\u0161\u010di\u0173 kort\u0173 skai\u010dius."
     },
     "2004": {
       "English name": "Birds Worth over 4 Points",
-      "Name": "PAUK\u0160\u010cIAI, KURI\u0172 VERT\u0116 YRA DAUGIAU NEI 4 TA\u0160KAI",
+      "Name": "Pauk\u0161\u010diai, kuri\u0173 vert\u0117 yra daugiau nei 4 ta\u0161kai",
       "Condition": "[bird], KURI\u0172 VERT\u0116 >4[point]",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173, kuri\u0173 nurodyta vert\u0117 ta\u0161kais didesn\u0117 nei 4, skai\u010dius."
     },
     "2006": {
       "English name": "Birds with No Eggs",
-      "Name": "PAUK\u0160\u010cIAI BE KIAU\u0160INI\u0172",
+      "Name": "Pauk\u0161\u010diai be kiau\u0161ini\u0173",
       "Condition": "[bird] BE [egg]",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173, ant kuri\u0173 n\u0117ra n\u0117 vieno kiau\u0161inio, skai\u010dius, kai u\u017e \u0161\u012f tiksl\u0105 skai\u010diuojami ta\u0161kai."
     },
     "2005": {
       "English name": "Birds in 1 Row",
-      "Name": "PAUK\u0160\u010cIAI VIENOJE EIL\u0116JE",
+      "Name": "Pauk\u0161\u010diai vienoje eil\u0117je",
       "Condition": "[bird] VIENOJE EIL\u0116JE",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173 skai\u010dius buvein\u0117je, kurioje yra daugiausiai pauk\u0161\u010di\u0173."
     },
     "2018": {
       "English name": "Filled Columns",
-      "Name": "U\u017dPILDYTI STULPELIAI",
+      "Name": "U\u017epildyti stulpeliai",
       "Condition": "U\u017dPILDYTI STULPELIAI",
       "Explanatory Text": "Stulpeli\u0173, kuriuose u\u017epildyti visi trys pauk\u0161\u010diams skirti laukeliai, skai\u010dius."
     },
     "2009": {
       "English name": "Brown Powers",
-      "Name": "RUDOS GALIOS",
+      "Name": "Rudos galios",
       "Condition": "RUDOS GALIOS",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173, turin\u010di\u0173 rudas \u201eAktyvavus\u201c galias, skai\u010dius."
     },
     "2025": {
       "English name": "White & No Powers",
-      "Name": "BALTA* GALIA IR BE GALIOS",
+      "Name": "Balta* galia ir be galios",
       "Condition": "BALTA GALIA IR BE GALIOS",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173, neturin\u010di\u0173 galios arba turin\u010di\u0173 \u201ePad\u0117jus\u201c gali\u0105, skai\u010dius.<br><i>* Pagrindiniame \u017eaidime \u0161i galia vadinama \u201ebespalve\u201c."
     },
     "2007": {
       "English name": "Birds with Tucked Cards",
-      "Name": "PAUK\u0160\u010cIAI SU PAKI\u0160TOMIS KORTOMIS",
+      "Name": "Pauk\u0161\u010diai su paki\u0161tomis kortomis",
       "Condition": "[flocking] PAUK\u0160\u010cIAI SU PAKI\u0160TOMIS KORTOMIS",
       "Explanatory Text": "J\u016bs\u0173 pad\u0117t\u0173 pauk\u0161\u010di\u0173, kurie turi bent 1 paki\u0161t\u0105 kort\u0105, skai\u010dius."
     },
     "2019": {
       "English name": "Food Cost of Played Birds",
-      "Name": "PAD\u0116T\u0172 PAUK\u0160\u010cI\u0172 KAINA MAISTU",
+      "Name": "Pad\u0117t\u0173 pauk\u0161\u010di\u0173 kaina maistu",
       "Condition": "PAD\u0116T\u0172 [bird] KAINA MAISTU",
       "Explanatory Text": "Suskai\u010diuokite savo pauk\u0161\u010di\u0173 kain\u0105 maistu; tiems pauk\u0161\u010diams, kuri\u0173 kaina maistu gali b\u016bti pasirenkama, nepamir\u0161kite skai\u010diuoti tik 1 maisto simbol\u012f."
     },
