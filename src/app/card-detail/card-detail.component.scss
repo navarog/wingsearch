@@ -65,14 +65,15 @@
 }    
 
 .title {
-    font-family: CardenioModernBold, Arial, Helvetica;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
     font-size: 22px;
 }
 
 .bonus.title {
-    font-family: DarbogBold, Arial, Helvetica;
+    font-family: Pangolin, sans-serif;
     color: #666666;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .bonus.data-container {
@@ -91,7 +92,8 @@
 }
 
 .note {
-    font-family: FuturaLight, Arial, Helvetica;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -109,5 +111,9 @@ button {
 }
 
 .power {
-    font-family: FuturaCondensed, Arial, Helvetica;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 75;
 }

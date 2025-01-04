@@ -1,0 +1,7 @@
+services:
+  app:
+    build: .
+    ports:
+      - "${WEB_PORT:-8080}:8080"
+    volumes:
+      - ./src:/app/src:ro,cached

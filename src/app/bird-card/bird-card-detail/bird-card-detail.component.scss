@@ -80,7 +80,8 @@
 }
 
 .note {
-    font-family: FuturaLight, Arial, Helvetica;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     font-style: italic;
     padding: 0 5% 0%;
     margin-bottom: 3%!important;
@@ -89,19 +90,20 @@
 
     h2 {
         margin: 0px 0 6px;
-        font-family: CardenioModernBold;
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
         text-align: center;
     }
 }
 
 .rulings {
-    font-family: FuturaLight, Arial, Helvetica;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     padding: 0 5% 3%;
     font-size: 18px;
 
     h2 {
         margin: 12px 0 0px;
-        font-family: CardenioModernBold;
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
         text-align: center;
     }
 
@@ -159,7 +161,7 @@ button {
 .carousel-title {
     font-size: 2vw;
     line-height: calc(2vw + 2px);
-    font-family: CardenioModernBold, Arial, Helvetica;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
     color: #666666;
     text-align: center;
     margin-bottom: 0.4vw;
@@ -204,7 +206,8 @@ button {
     border-radius: 1vw;
 
     .bonus-card-title {
-        font-family: DarbogBold, Arial, Helvetica;
+        font-family: Pangolin, sans-serif;
+        text-transform: uppercase;
         font-size: 2.3vw;
         line-height: calc(2.3vw + 2px);
         margin-bottom: 0.4vw;
@@ -217,7 +220,7 @@ button {
     .bonus-card-vp-average {
         font-size: 1.8vw;
         line-height: calc(1.8vw + 2px);
-        font-family: CardenioModernBold, Arial, Helvetica;
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
     }
 }
 
@@ -248,7 +251,7 @@ button {
     .carousel-title {
         font-size: 2em;
         line-height: calc(1em + 2px);
-        font-family: CardenioModernBold, Arial, Helvetica;
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
         color: #666666;
         text-align: center;
         margin-bottom: 0.2em;

@@ -30,7 +30,7 @@
 }
 
 .title {
-    font-family: DarbogBold, Arial, Helvetica;
+    font-family: Pangolin, sans-serif;
     color: #666666;
     margin: 4%;
     padding: 1%;
@@ -42,6 +42,7 @@
     border-style: double;
     border-width: 3px;
     text-align: center;
+    text-transform: uppercase;
 
     ::ng-deep {
         .icon-picture {
@@ -58,7 +59,8 @@
     min-height: 14%;
     margin: 7%;
     margin-bottom: 2%;
-    font-family: FuturaLight;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     text-align: center;
 
     ::ng-deep {
@@ -86,7 +88,7 @@
         }
 
         th {
-            font-family: CardenioModernBold, Arial, Helvetica;
+            font-family: CardenioModernBold, SiliciStrong, sans-serif;
             font-size: 80%;
         }
         
@@ -108,7 +110,7 @@
     margin: 0 10%;
     display: flex;
     justify-content: space-around;
-    font-family: CardenioModernBold;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
     color: #666666;
     flex-wrap: wrap;
 
@@ -152,14 +154,16 @@
 }
 
 .explanation {
-    font-family: FuturaLight;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     font-style: italic;
     margin: 4%;
     text-align: center;
 }
 
 .percentage {
-    font-family: FuturaLight;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     margin-top: auto;
     margin-bottom: 2%;
     text-align: center;

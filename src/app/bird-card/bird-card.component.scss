@@ -21,7 +21,7 @@
 }
 
 .title {
-    font-family: CardenioModernBold, Arial, Helvetica;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
 }
 
 .scientific { 
@@ -81,7 +81,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: CardenioModernBold, Arial, Helvetica;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
 }
 
 .middle-row {
@@ -132,7 +132,7 @@
         justify-content: flex-end;
 
             .wingspan {
-                font-family: CardenioModernBold, Arial, Helvetica;
+                font-family: CardenioModernBold, SiliciStrong, sans-serif;
                 color: #666666;
             }
 
@@ -145,7 +145,7 @@
 }
 
 .points {
-    font-family: CardenioModernBold, Arial, Helvetica;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
     color: #4a4139;
     max-height: 15%;
     position: relative;
@@ -177,11 +177,16 @@
     align-items: center;
 
     ::ng-deep .intro {
-        font-family: CardenioModernBold, Arial, Helvetica;
+        font-family: CardenioModernBold, SiliciStrong, sans-serif;
+        text-transform: uppercase;
     }
 
     .text {
-        font-family: FuturaCondensed, Arial, Helvetica;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings: "wdth" 75;
         max-width: 100%;
         max-height: 100%;
     }

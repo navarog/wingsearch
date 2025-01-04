@@ -16,13 +16,15 @@
 
 .name {
     font-size: large;
-    font-family: DarbogBold, Arial, Helvetica;
+    font-family: Pangolin, sans-serif;
     color: #666666;
     line-height: 30px;
+    text-transform: uppercase;
 }
 
 .description {
-    font-family: FuturaLight, Arial, Helvetica;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     line-height: 20px;
     white-space: normal;
     margin-bottom: 10px;
@@ -31,7 +33,8 @@
 .explanation {
     font-style: italic;
     font-size: smaller;
-    font-family: FuturaLight, Arial, Helvetica;
+    font-family: Jost, sans-serif;
+    font-weight: 300;
     overflow-x: hidden;
     overflow-y: hidden;
     text-overflow: ellipsis;
@@ -44,7 +47,7 @@
 .points {
     display: flex;
     justify-content: space-around;
-    font-family: CardenioModernBold;
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
     color: #666666;
     margin-left: auto;
     padding-right: 0.2em;
