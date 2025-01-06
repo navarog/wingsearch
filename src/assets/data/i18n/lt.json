@@ -1192,7 +1192,7 @@
       "English name": "Eurasian Green Woodpecker",
       "Scientific name": "Picus viridis",
       "Common name": "\u017dalioji meleta",
-      "Power text": "Vadovaujantis priedu ir oficialiais ",
+      "Power text": "skai\u010diuojant ta\u0161kus u\u017e raundo tiksl\u0105 \u0161is pauk\u0161tis \u012fskaitomas du kartus, jei tik atitinka tikslo reikalavimus.",
       "Note": "Ta\u0161kai u\u017e \u0161iuos pauk\u0161\u010dius dvigubinami tik raund\u0173 tiksl\u0173, bet ne premij\u0173 kort\u0173 ar ta\u0161k\u0173 \u017eaidimo pabaigoje at\u017evilgiu.<br>Ant \u0161i\u0173 kort\u0173 esantys kiau\u0161iniai nedvigubinami, jei tikslas yra kiau\u0161ini\u0173 skai\u010dius.",
       "Anatomist": null,
       "Cartographer": null,
@@ -5087,7 +5087,7 @@
     "1027": {
       "English name": "Visionary Leader",
       "Name": "Vizionierius",
-      "Condition": "\u017daidimo pabaigoje js\u0173 turimos nepad\u0117tos pauk\u0161\u010di\u0173 kortos",
+      "Condition": "\u017daidimo pabaigoje j\u016bs\u0173 turimos nepad\u0117tos pauk\u0161\u010di\u0173 kortos",
       "Explanatory text": null,
       "VP": "5\u20137 pauk\u0161\u010diai: 4[point]; 8+ pauk\u0161\u010diai: 7[point]",
       "Note": "Suskai\u010diuokite \u017eaidimo pabaigoje likusias nepad\u0117tas savo pauk\u0161\u010di\u0173 kortas."
