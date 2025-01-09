@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1736158885728,
+  "timestamp": 1736415164203,
   "index": "/wingsearch/index.html",
   "assetGroups": [
     {
@@ -2998,7 +2998,7 @@
     "/wingsearch/assets/data/goals.json": "5a4ccadd0223b157e83e123f9f74641142f2e651",
     "/wingsearch/assets/data/i18n/de.json": "ba533638958ac430e3b2f05bca6f2094f7a5c32a",
     "/wingsearch/assets/data/i18n/es.json": "9d65785e3745d0c4e7458a5d5d0aa702a0b48656",
-    "/wingsearch/assets/data/i18n/fr.json": "d998eda9ea2ab5d0c2f2316202e310e518c578e7",
+    "/wingsearch/assets/data/i18n/fr.json": "d4d23db4ab53934bc8c8d469a7a38e0a73df9c7d",
     "/wingsearch/assets/data/i18n/lt.json": "4774c06ce5d2d68135d5c3b9ea1619613ec7bafb",
     "/wingsearch/assets/data/i18n/nl.json": "a6207d91a988a7318954618dd84c4fd0db6da141",
     "/wingsearch/assets/data/i18n/pl.json": "60ed59b4045f43657bc6cc8ee41c76b7012a72b6",
