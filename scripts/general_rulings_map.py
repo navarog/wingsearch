@@ -10,7 +10,7 @@ rulings = {
     '20190205': lambda row: row['Color'] == 'Pink',
     '20190313': lambda row: row['Color'] == 'Pink',
     '20190601': lambda row: not pd.isna(row['Power text']) and re.search(r"gain", row['Power text'], re.IGNORECASE) is not None and re.search(r"supply", row['Power text'], re.IGNORECASE) is not None and re.search(r"steal", row['Power text'], re.IGNORECASE) is None and re.search(r"give", row['Power text'], re.IGNORECASE) is None,
-    '20190908': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None,
+    '20190908': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None and re.search(r"keep [0-9]+ and discard the rest", row['Power text'], re.IGNORECASE) is None,
     '20191010': lambda row: not pd.isna(row['Power text']) and re.search(r"at the end of your turn", row['Power text'], re.IGNORECASE) is not None,
     '20191202': lambda row: False,
     '20191203c': lambda row: False,
