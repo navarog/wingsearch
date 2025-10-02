@@ -115,4 +115,17 @@ export class BirdCardComponent implements OnInit {
     }
     return card['Common name'] + " " + bonusIcons;
   }
+
+  getPackTitle() {
+    const packTitleMap = {
+      asian: 'Additional Asian Avians',
+      british: 'British Birds',
+      canada: 'Birds of Canada / Oiseaux du Canada',
+      continentaleurope: 'Birds of Continental Europe',
+      newzealand: 'Birds of New Zealand / Ngā Manu o Aotearoa',
+      usa: 'Birds of U.S.A.'
+    }
+
+    return this.translate.transform(packTitleMap[this.card.Pack]);
+  }
 }

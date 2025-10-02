@@ -1,6 +1,6 @@
 import { createReducer, on } from '@ngrx/store'
 import * as appActions from './app.actions'
-import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard, Expansion } from './app.interfaces'
+import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard, Expansion, PromoPack } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import Parameters from '../../assets/data/parameters.json'
@@ -72,11 +72,20 @@ export const initialState: AppState = {
     translatedContent: {},
     parameters: Parameters,
     expansion: {
+        promo: cookies.getCookie('expansion.promo') !== '0',
         asia: cookies.getCookie('expansion.asia') !== '0',
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
         swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
         originalcore: cookies.getCookie('expansion.originalcore') !== '0',
+    },
+    promoPack: {
+        asian: cookies.getCookie('expansion.promo') !== '0',
+        british: cookies.getCookie('expansion.promo') !== '0',
+        canada: cookies.getCookie('expansion.promo') !== '0',
+        continentaleurope: cookies.getCookie('expansion.promo') !== '0',
+        newzealand: cookies.getCookie('expansion.promo') !== '0',
+        usa: cookies.getCookie('expansion.promo') !== '0',
     },
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }
@@ -129,6 +138,10 @@ const reducer = createReducer(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, []
         )
 
+        const allowedPromoPacks = Object.entries(action.promoPack).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
         const allowedColors = Object.entries(action.colors).reduce(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, []
         )
@@ -152,6 +165,10 @@ const reducer = createReducer(
                 eatsMustNotFood(card, mustNotFood) &&
                 allowedNests.includes(card['Nest type'])
             )
+        )
+
+        displayedCards = displayedCards.filter(card =>
+            card.Expansion === 'promo' ? allowedPromoPacks.includes(card.Pack) : true
         )
 
         displayedCards = displayedCards.filter(card =>

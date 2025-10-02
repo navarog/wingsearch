@@ -17,6 +17,11 @@
             <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
                 <span [innerHTML]="displayName(card) | iconize"></span>
             </div>
+            <div class="native"
+                [ngStyle]="{'font-size.px': cardHeight * 0.045, 'line-height.px': cardHeight * 0.045}"
+                *ngIf="card['Native name']">
+                {{card['Native name']}}
+            </div>
             <div class="scientific"
                 [ngStyle]="{'font-size.px': cardHeight * 0.03, 'line-height.px': cardHeight * 0.035}">
                 {{card['Scientific name']}}
@@ -53,5 +58,7 @@
     <div class="footer">
         <img class="expansion-indicator" src="assets/icons/svg/expansion-indicators/{{card.Expansion}}.svg"
             [alt]="card.Expansion" aria-label="expansion indicator">
+        <img class="pack-indicator" *ngIf="card.Pack" src="assets/icons/svg/expansion-indicators/{{card.Pack}}.svg"
+            [alt]="getPackTitle()" aria-label="pack indicator">
     </div>
 </div>

@@ -305,6 +305,13 @@ mat-chip.custom-chip {
     cursor: pointer;
 }
 
+.pack-image {
+    width: 100%;
+    max-height: 30px;
+    max-width: 30px;
+    margin: 0 4px;
+}
+
 .power-image {
     width: 100%;
     max-width: 80px;

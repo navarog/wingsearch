@@ -17,6 +17,7 @@ export class AppEffects {
             if (language)
             {
               const expansion = action.expansion || {
+                  promo: this.cookies.getCookie('expansion.promo') !== '0',
                   asia: this.cookies.getCookie('expansion.asia') !== '0',
                   oceania: this.cookies.getCookie('expansion.oceania') !== '0',
                   european: this.cookies.getCookie('expansion.european') !== '0',

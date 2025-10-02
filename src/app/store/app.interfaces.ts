@@ -9,6 +9,7 @@ export interface AppState {
     displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
     expansion: Expansion
+    promoPack: PromoPack
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
@@ -19,8 +20,10 @@ export interface AppState {
 export interface BirdCard {
     id: number
     'Common name': string
+    'Native name': String
     'Scientific name': string
     Expansion: ExpansionType
+    Pack: PackType
     Color: Color | null
     PowerCategory: PowerCategory | null
     'Power text': null | string
@@ -148,6 +151,16 @@ export enum ExpansionType {
     European = 'european',
     Oceania = 'oceania',
     Asia = 'asia',
+    Promo = 'promo'
+}
+
+export enum PackType {
+    Asian = 'asian',
+    Canada = 'canada',
+    ContinentalEurope = 'continentaleurope',
+    NewZealand = 'newzealand',
+    USA = 'usa',
+    British = 'british'
 }
 
 export interface Expansion
@@ -156,7 +169,17 @@ export interface Expansion
     originalcore: boolean,
     swiftstart: boolean,
     european: boolean,
-    oceania: boolean
+    oceania: boolean,
+    promo: boolean
+}
+
+export interface PromoPack {
+    asian: boolean,
+    canada: boolean,
+    continentaleurope: boolean,
+    newzealand: boolean,
+    usa: boolean,
+    british: boolean
 }
 
 export interface DisplayedStats {

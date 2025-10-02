@@ -34,6 +34,7 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly supportedExpansions = [
+    { value: 'promo', display: 'Fan-Designed Bird Cards' },
     { value: 'asia', display: 'Asia' },
     { value: 'oceania', display: 'Oceania expansion' },
     { value: 'european', display: 'European expansion' },
@@ -60,11 +61,20 @@ export class SearchComponent implements OnInit {
       bonuses: true
     },
     expansion: {
+      promo: false,
       asia: true,
       oceania: true,
       european: true,
       swiftstart: true,
       originalcore: true,
+    },
+    promoPack: {
+      asian: true,
+      british: true,
+      canada: true,
+      continentaleurope: true,
+      newzealand: true,
+      usa: true
     },
     eggs: {
       min: 0,
@@ -166,7 +176,7 @@ export class SearchComponent implements OnInit {
   }
 
   language = 'en'
-  selectedExpansions = ['asia', 'oceania', 'european', 'originalcore', 'swiftstart']
+  selectedExpansions = ['promo', 'asia', 'oceania', 'european', 'originalcore', 'swiftstart']
   assetPack = 'silhouette'
 
   @ViewChild(MatAutocompleteTrigger)
@@ -183,11 +193,20 @@ export class SearchComponent implements OnInit {
     this.query = {
       ...this.query,
       expansion: {
+        promo: cookies.getCookie('expansion.promo') !== '0',
         asia: cookies.getCookie('expansion.asia') !== '0',
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
         swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
         originalcore: cookies.getCookie('expansion.originalcore') !== '0',
+      },
+      promoPack: {
+        asian: cookies.getCookie('expansion.promo') !== '0',
+        british: cookies.getCookie('expansion.promo') !== '0',
+        canada: cookies.getCookie('expansion.promo') !== '0',
+        continentaleurope: cookies.getCookie('expansion.promo') !== '0',
+        newzealand: cookies.getCookie('expansion.promo') !== '0',
+        usa: cookies.getCookie('expansion.promo') !== '0',
       }
     }
 
@@ -291,6 +310,17 @@ export class SearchComponent implements OnInit {
     this.autocomplete.openPanel()
   }
 
+  togglePack(promoPack: string) {
+    this.query = {
+      ...this.query,
+      promoPack: {
+        ...this.query.promoPack, [promoPack]: !this.query.promoPack[promoPack]
+      }
+    }
+
+    this.onQueryChange()
+  }
+
   togglePower(color: string) {
     this.query = { ...this.query, colors: { ...this.query.colors, [color]: !this.query.colors[color] } }
     this.onQueryChange()
@@ -349,7 +379,7 @@ export class SearchComponent implements OnInit {
       expansion: {
         ...Object.keys(this.query.expansion).reduce((acc, val) => ({ ...acc, [val]: false }), {}),
         ...selectedExpansions.reduce((acc, val) => ({ ...acc, [val]: true }), {})
-      }
+      },
     }
 
     Object.entries(this.query.expansion).forEach(entry =>

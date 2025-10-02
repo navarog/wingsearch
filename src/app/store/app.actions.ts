@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store'
-import { Expansion } from './app.interfaces'
+import { Expansion, PromoPack } from './app.interfaces'
 
 export const search = createAction('[App] Search', props<{
     main: string,
@@ -14,6 +14,7 @@ export const search = createAction('[App] Search', props<{
         bonuses: boolean
     },
     expansion: Expansion,
+    promoPack: PromoPack,
     eggs: {
         min: number,
         max: number
