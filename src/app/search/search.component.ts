@@ -379,7 +379,7 @@ export class SearchComponent implements OnInit {
       expansion: {
         ...Object.keys(this.query.expansion).reduce((acc, val) => ({ ...acc, [val]: false }), {}),
         ...selectedExpansions.reduce((acc, val) => ({ ...acc, [val]: true }), {})
-      },
+      }
     }
 
     Object.entries(this.query.expansion).forEach(entry =>
