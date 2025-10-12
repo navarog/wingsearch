@@ -22,6 +22,7 @@ export class SearchComponent implements OnInit {
 
   readonly supportedLanguages = [
     { value: 'de', display: 'Deutsch' },
+    { value: 'dk', display: 'dansk' },
     { value: 'en', display: 'English' },
     { value: 'es', display: 'Español' },
     { value: 'fr', display: 'Français' },
