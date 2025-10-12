@@ -118,12 +118,12 @@ export class BirdCardComponent implements OnInit {
 
   getPackTitle() {
     const packTitleMap = {
-      asian: 'Additional Asian Avians',
-      british: 'British Birds',
-      canada: 'Birds of Canada / Oiseaux du Canada',
-      continentaleurope: 'Birds of Continental Europe',
-      newzealand: 'Birds of New Zealand / Ngā Manu o Aotearoa',
-      usa: 'Birds of U.S.A.'
+      fanAsia: 'Additional Asian Avians',
+      fanUK: 'British Birds',
+      fanCA: 'Birds of Canada / Oiseaux du Canada',
+      fanEurope: 'Birds of Continental Europe',
+      fanNZ: 'Birds of New Zealand / Ngā Manu o Aotearoa',
+      fanUS: 'Birds of U.S.A.'
     }
 
     return this.translate.transform(packTitleMap[this.card.Pack]);

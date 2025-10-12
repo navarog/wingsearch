@@ -80,12 +80,12 @@ export const initialState: AppState = {
         originalcore: cookies.getCookie('expansion.originalcore') !== '0',
     },
     promoPack: {
-        asian: cookies.getCookie('expansion.promo') !== '0',
-        british: cookies.getCookie('expansion.promo') !== '0',
-        canada: cookies.getCookie('expansion.promo') !== '0',
-        continentaleurope: cookies.getCookie('expansion.promo') !== '0',
-        newzealand: cookies.getCookie('expansion.promo') !== '0',
-        usa: cookies.getCookie('expansion.promo') !== '0',
+        fanAsia: cookies.getCookie('expansion.promo') !== '0',
+        fanUK: cookies.getCookie('expansion.promo') !== '0',
+        fanCA: cookies.getCookie('expansion.promo') !== '0',
+        fanEurope: cookies.getCookie('expansion.promo') !== '0',
+        fanNZ: cookies.getCookie('expansion.promo') !== '0',
+        fanUS: cookies.getCookie('expansion.promo') !== '0',
     },
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }

@@ -155,12 +155,12 @@ export enum ExpansionType {
 }
 
 export enum PackType {
-    Asian = 'asian',
-    Canada = 'canada',
-    ContinentalEurope = 'continentaleurope',
-    NewZealand = 'newzealand',
-    USA = 'usa',
-    British = 'british'
+    fanAsia = 'fanAsia',
+    fanCA = 'fanCA',
+    fanEurope = 'fanEurope',
+    fanNZ = 'fanNZ',
+    fanUS = 'fanUS',
+    fanUK = 'fanUK'
 }
 
 export interface Expansion
@@ -174,12 +174,12 @@ export interface Expansion
 }
 
 export interface PromoPack {
-    asian: boolean,
-    canada: boolean,
-    continentaleurope: boolean,
-    newzealand: boolean,
-    usa: boolean,
-    british: boolean
+    fanAsia: boolean,
+    fanCA: boolean,
+    fanEurope: boolean,
+    fanNZ: boolean,
+    fanUS: boolean,
+    fanUK: boolean
 }
 
 export interface DisplayedStats {

@@ -34,12 +34,12 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly supportedExpansions = [
-    { value: 'promo', display: 'Fan-Designed Bird Cards' },
     { value: 'asia', display: 'Asia' },
     { value: 'oceania', display: 'Oceania expansion' },
     { value: 'european', display: 'European expansion' },
     { value: 'swiftstart', display: 'Swift-start pack' },
     { value: 'originalcore', display: 'Base game' },
+    { value: 'promo', display: 'Fan-Designed Bird Cards' },
   ]
 
   readonly assetPacks = [
@@ -69,12 +69,12 @@ export class SearchComponent implements OnInit {
       originalcore: true,
     },
     promoPack: {
-      asian: true,
-      british: true,
-      canada: true,
-      continentaleurope: true,
-      newzealand: true,
-      usa: true
+      fanAsia: true,
+      fanUK: true,
+      fanCA: true,
+      fanEurope: true,
+      fanNZ: true,
+      fanUS: true
     },
     eggs: {
       min: 0,
@@ -201,12 +201,12 @@ export class SearchComponent implements OnInit {
         originalcore: cookies.getCookie('expansion.originalcore') !== '0',
       },
       promoPack: {
-        asian: cookies.getCookie('expansion.promo') !== '0',
-        british: cookies.getCookie('expansion.promo') !== '0',
-        canada: cookies.getCookie('expansion.promo') !== '0',
-        continentaleurope: cookies.getCookie('expansion.promo') !== '0',
-        newzealand: cookies.getCookie('expansion.promo') !== '0',
-        usa: cookies.getCookie('expansion.promo') !== '0',
+        fanAsia: cookies.getCookie('expansion.promo') !== '0',
+        fanUK: cookies.getCookie('expansion.promo') !== '0',
+        fanCA: cookies.getCookie('expansion.promo') !== '0',
+        fanEurope: cookies.getCookie('expansion.promo') !== '0',
+        fanNZ: cookies.getCookie('expansion.promo') !== '0',
+        fanUS: cookies.getCookie('expansion.promo') !== '0',
       }
     }
 
