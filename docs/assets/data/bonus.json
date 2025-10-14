@@ -2,7 +2,7 @@
   {
     "id":1000,
     "Name":"Anatomist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with body parts in their names",
     "Explanatory text":"Body parts include beak, belly, bill, breast, cap, chin, collar, crest, crown, eye, face, head, neck, rump, shoulder, tail, throat, wing",
@@ -39,7 +39,7 @@
   {
     "id":1001,
     "Name":"Backyard Birder",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":null,
     "Condition":"Birds worth less than 4 points",
     "Explanatory text":null,
@@ -84,7 +84,7 @@
   {
     "id":1004,
     "Name":"Bird Counter",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with a [flocking] power",
     "Explanatory text":null,
@@ -102,7 +102,7 @@
   {
     "id":1005,
     "Name":"Bird Feeder",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat [seed]",
     "Explanatory text":null,
@@ -117,7 +117,7 @@
   {
     "id":1006,
     "Name":"Breeding Manager",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":null,
     "Condition":"Birds that have at least 4 eggs laid on them",
     "Explanatory text":null,
@@ -132,7 +132,7 @@
   {
     "id":1007,
     "Name":"Cartographer",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with geography terms in their name",
     "Explanatory text":"Terms include American, Atlantic, Baltimore, California, Canada, Carolina, Chihuahua, Eastern, Inca, Mississippi, Mountain, Northern, Prairie, Sandhill, Savannah, Western",
@@ -187,7 +187,7 @@
   {
     "id":1010,
     "Name":"Ecologist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":null,
     "Condition":"Birds in your habitat with the fewest birds.",
     "Explanatory text":"Ties count.",
@@ -202,7 +202,7 @@
   {
     "id":1011,
     "Name":"Enclosure Builder",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with [ground] nests",
     "Explanatory text":"Birds must have a [ground] or [star] nest symbol.",
@@ -247,7 +247,7 @@
   {
     "id":1013,
     "Name":"Falconer",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with a [predator] power",
     "Explanatory text":null,
@@ -265,7 +265,7 @@
   {
     "id":1014,
     "Name":"Fishery Manager",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat [fish]",
     "Explanatory text":null,
@@ -280,7 +280,7 @@
   {
     "id":1015,
     "Name":"Food Web Expert",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat only [invertebrate]",
     "Explanatory text":null,
@@ -343,7 +343,7 @@
   {
     "id":1016,
     "Name":"Forester",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [forest]",
     "Explanatory text":null,
@@ -406,7 +406,7 @@
   {
     "id":1017,
     "Name":"Historian",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds named after a person",
     "Explanatory text":"Any bird with an 's in its name.",
@@ -421,7 +421,7 @@
   {
     "id":1018,
     "Name":"Large Bird Specialist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with wingspans over 65 cm",
     "Explanatory text":null,
@@ -451,7 +451,7 @@
   {
     "id":1019,
     "Name":"Nest Box Builder",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with [cavity] nests",
     "Explanatory text":"Birds must have a [cavity] or [star] nest symbol.",
@@ -466,7 +466,7 @@
   {
     "id":1020,
     "Name":"Omnivore Specialist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat [wild]",
     "Explanatory text":"Any bird that specifically has a [wild] symbol as part of its food cost.",
@@ -484,7 +484,7 @@
   {
     "id":1021,
     "Name":"Oologist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":null,
     "Condition":"Birds that have at least 1 egg laid on them",
     "Explanatory text":null,
@@ -499,7 +499,7 @@
   {
     "id":1022,
     "Name":"Passerine Specialist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with wingspans 30 cm or less",
     "Explanatory text":null,
@@ -529,7 +529,7 @@
   {
     "id":1023,
     "Name":"Photographer",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with colors in their names",
     "Explanatory text":"Colors include ash, black, blue, bronze, brown, cerulean, chestnut, ferruginous, gold, gray, green, indigo, lazuli, purple, red, rose, roseate, ruby, ruddy, rufous, snowy, violet, white, yellow",
@@ -555,7 +555,7 @@
   {
     "id":1024,
     "Name":"Platform Builder",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with [platform] nests",
     "Explanatory text":"Birds must have a [platform] or [star] nest symbol.",
@@ -570,7 +570,7 @@
   {
     "id":1025,
     "Name":"Prairie Manager",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [grassland]",
     "Explanatory text":null,
@@ -585,7 +585,7 @@
   {
     "id":1026,
     "Name":"Rodentologist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat [rodent]",
     "Explanatory text":null,
@@ -636,7 +636,7 @@
   {
     "id":1027,
     "Name":"Visionary Leader",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":null,
     "Condition":"Bird cards in hand at end of game",
     "Explanatory text":null,
@@ -651,7 +651,7 @@
   {
     "id":1028,
     "Name":"Viticulturalist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that eat [fruit]",
     "Explanatory text":null,
@@ -714,7 +714,7 @@
   {
     "id":1029,
     "Name":"Wetland Scientist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [wetland]",
     "Explanatory text":null,
@@ -729,7 +729,7 @@
   {
     "id":1030,
     "Name":"Wildlife Gardener",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds with [bowl] nests",
     "Explanatory text":"Birds must have a [bowl] or [star] nest symbol.",
@@ -759,7 +759,7 @@
   {
     "id":1031,
     "Name":"[Fan Made] Caprimulgiform Specialist",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Automa":"X",
     "Condition":"Birds of the orders Caprimulgiformes and Apodiformes",
     "Explanatory text":"Species include chuck-will's-widow, frogmouths, hummingbirds, nighthawks, nightjars, oilbird, owlet-nightjars, pauraque, poorwills, potoos, spinetails, swifts, swiftlets, treeswifts, whip-poor-wills",
