@@ -17,6 +17,11 @@
             <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
                 <span [innerHTML]="displayName(card) | iconize"></span>
             </div>
+            <div class="native"
+                [ngStyle]="{'font-size.px': cardHeight * 0.045, 'line-height.px': cardHeight * 0.045}"
+                *ngIf="card['Native name']">
+                {{card['Native name']}}
+            </div>
             <div class="scientific"
                 [ngStyle]="{'font-size.px': cardHeight * 0.03, 'line-height.px': cardHeight * 0.035}">
                 {{card['Scientific name']}}
@@ -47,11 +52,21 @@
         </div>
     </div>
     <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
-        <div class='text' *ngIf="card.Color" [innerHTML]="(getPowerTitle() + card['Power text'] | iconize:card.Color !== 'White':card.Color !== 'White')"
+        <div class='text' *ngIf="card.Color" [innerHTML]="(getPowerTitle() + card['Power text'] | iconize:card.Color !== 'white':card.Color !== 'white')"
             [ngStyle]="{'font-size.px': cardHeight * 0.039, 'line-height.px': cardHeight * 0.039 + 1}"></div>
     </div>
     <div class="footer">
-        <img class="expansion-indicator" src="assets/icons/svg/expansion-indicators/{{card.Expansion}}.svg"
-            [alt]="card.Expansion" aria-label="expansion indicator">
+        <div class="footer-left">
+            <img class="swift-start-indicator" *ngIf="card['Swift Start']" src="assets/icons/svg/expansion-indicators/{{getSwiftStartIcon()}}.svg"
+                alt="Swift Start" aria-label="swift start indicator">
+        </div>
+        <div class="footer-right">
+            <img class="expansion-indicator" *ngIf="isExpansion()" src="assets/icons/svg/expansion-indicators/{{card.Expansion}}.svg"
+                [alt]="card.Expansion" aria-label="expansion indicator">
+            <img class="expansion-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/promo.svg"
+                alt="Fan-Designed Bird Packs" aria-label="expansion indicator">
+            <img class="pack-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/{{card.Expansion}}.svg"
+                [alt]="getPackTitle()" aria-label="pack indicator">
+        </div>
     </div>
 </div>

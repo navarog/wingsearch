@@ -24,6 +24,11 @@
     font-family: CardenioModernBold, SiliciStrong, sans-serif;
 }
 
+.native {
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
+    color: #a9a9a9;
+}
+
 .scientific { 
     font-family: ThirstyRoughLt, Arial, Helvetica;
     color: #666666;
@@ -231,10 +236,31 @@
 .footer {
     height: 9%;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-right {
+    display: flex;
     flex-direction: row-reverse;
+}
+
+.swift-start-indicator {
+    height: 75%;
+    border-bottom-left-radius: 8px;
 }
 
 .expansion-indicator {
     height: 100%;
     border-bottom-right-radius: 8px;
+}
+
+.pack-indicator {
+    border-radius: 50%;
+    height: 43%;
+    margin: auto -3% auto 0;
 }

@@ -2,7 +2,7 @@
   {
     "id":2000,
     "Name":"Bird in Forest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[bird] in [forest]",
     "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -10,7 +10,7 @@
   {
     "id":2001,
     "Name":"Bird in Grassland",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[bird] in [grassland]",
     "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -18,7 +18,7 @@
   {
     "id":2002,
     "Name":"Bird in Wetland",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[bird] in [wetland]",
     "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -66,7 +66,7 @@
   {
     "id":2008,
     "Name":"Bowl Nest Bird with Egg",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[bowl] [bird] with [egg]",
     "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -82,7 +82,7 @@
   {
     "id":2010,
     "Name":"Cavity Nest Bird with Egg",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[cavity] [bird] with [egg]",
     "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -90,7 +90,7 @@
   {
     "id":2011,
     "Name":"Egg in Bowl Nest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [bowl]",
     "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -98,7 +98,7 @@
   {
     "id":2012,
     "Name":"Egg in Cavity Nest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [cavity]",
     "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -106,7 +106,7 @@
   {
     "id":2013,
     "Name":"Egg in Forest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [forest]",
     "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -114,7 +114,7 @@
   {
     "id":2014,
     "Name":"Egg in Grassland",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [grassland]",
     "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -122,7 +122,7 @@
   {
     "id":2015,
     "Name":"Egg in Ground Nest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [ground]",
     "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -130,7 +130,7 @@
   {
     "id":2016,
     "Name":"Egg in Platform Nest",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [platform]",
     "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -138,7 +138,7 @@
   {
     "id":2017,
     "Name":"Egg in Wetland",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[egg] in [wetland]",
     "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
@@ -170,7 +170,7 @@
   {
     "id":2021,
     "Name":"Ground Nest Bird with Egg",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[ground] [bird] with [egg]",
     "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -178,7 +178,7 @@
   {
     "id":2022,
     "Name":"Platform Nest Bird with Egg",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"[platform] [bird] with [egg]",
     "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
@@ -186,7 +186,7 @@
   {
     "id":2023,
     "Name":"Sets of Eggs in 3 Habitats",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"sets of [egg][egg][egg] in [wetland][grassland][forest]",
     "Explanatory Text":"One set of eggs consists of 1 egg in the wetland row, 1 egg in the grassland row, and 1 egg in the forest row. Count the number of sets. For this goal you\u2019re only counting the eggs in each habitat. It does not matter on which birds or columns the eggs are placed.<br><i>For example, Natalia has 3 eggs in her forest, 2 eggs in her grassland, and 4 eggs in her wetland habitats. For this end-of-round goal, Natalia has 2 sets of eggs.<\/i>"
@@ -194,7 +194,7 @@
   {
     "id":2024,
     "Name":"Total Bird",
-    "Expansion":"originalcore",
+    "Expansion":"core",
     "Duet":null,
     "Condition":"total [bird]",
     "Explanatory Text":"Count the total number of birds you have played."

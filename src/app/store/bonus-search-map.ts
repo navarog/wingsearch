@@ -11,7 +11,7 @@ export const bonusSearchMap = {
         return !!birdCard.Anatomist
     }),
     1001: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Victory points'] < 4
+        return birdCard['Victory points'] < 4 || !!birdCard['Backyard Birder']
     }),
     1002: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
@@ -23,7 +23,7 @@ export const bonusSearchMap = {
         return !!birdCard.Flocking
     }),
     1005: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard.Seed
+        return !!birdCard.Seed || !!birdCard['Bird Feeder']
     }),
     1006: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] >= 4
@@ -50,7 +50,7 @@ export const bonusSearchMap = {
         return !!birdCard.Falconer
     }),
     1014: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Fishery Manager']
+        return !!birdCard.Fish || !!birdCard['Fishery Manager']
     }),
     1015: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Food Web Expert']
@@ -68,7 +68,7 @@ export const bonusSearchMap = {
         return !!birdCard['Nest Box Builder']
     }),
     1020: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Omnivore Expert']
+        return birdCard['Wild (food)'] > 0 || !!birdCard['Omnivore Expert']
     }),
     1021: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Egg capacity'] > 0
@@ -86,13 +86,13 @@ export const bonusSearchMap = {
         return !!birdCard['Prairie Manager']
     }),
     1026: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard.Rodentologist
+        return !!birdCard.Rodent || !!birdCard.Rodentologist
     }),
     1027: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
     }),
     1028: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard.Viticulturalist
+        return !!birdCard.Fruit || !!birdCard.Viticulturalist
     }),
     1029: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Wetland Scientist']
@@ -128,19 +128,19 @@ export const bonusSearchMap = {
         return birdCard['Egg capacity'] > 0
     }),
     1040: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Endangered Species Protector']
+        return !!birdCard['Bonus card'] || !!birdCard['Endangered Species Protector']
     }),
     1041: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard['Forest']
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Forest
     }),
     1042: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Forest']
+        return !!birdCard.Forest
     }),
     1043: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard['Grassland']
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Grassland
     }),
     1044: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Grassland']
+        return !!birdCard.Grassland
     }),
     1045: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Power text']?.match(/((([Cc]ache)|([Cc]aching)) [1-9] .*\[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*(([Cc]ache)|([Cc]aching)))/)
@@ -149,10 +149,10 @@ export const bonusSearchMap = {
         return birdCard['Egg capacity'] <= 2
     }),
     1047: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard['Wetland']
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Wetland
     }),
     1048: new BonusMatch(true, (birdCard: BirdCard) => {
-        return !!birdCard['Wetland']
+        return !!birdCard.Wetland
     }),
     1049: new BonusMatch(false, (birdCard: BirdCard) => {
         return true

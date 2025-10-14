@@ -88,7 +88,7 @@
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="teal" class="pointer shrink"
             [ngClass]="{inactive: !query.colors.teal}" (click)="togglePower('teal')"
-            *ngIf="query.expansion.european || query.expansion.asia">
+            *ngIf="tealColorEnabled()">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/teal.webp">
                 <source type="image/png" srcset="assets/icons/png/teal.png">
@@ -98,7 +98,7 @@
         </span>
         <span appAnalyticsEvent="Toggle power" eventLabel="yellow" class="pointer shrink"
             [ngClass]="{inactive: !query.colors.yellow}" (click)="togglePower('yellow')"
-            *ngIf="query.expansion.oceania || query.expansion.asia">
+            *ngIf="yellowColorEnabled()">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/yellow.webp">
                 <source type="image/png" srcset="assets/icons/png/yellow.png">
@@ -173,7 +173,7 @@
               inactive: query.food.nectar === 0,
               exclude: query.food.nectar === 2
             }" (click)="toggleFood('nectar')"
-            *ngIf="query.expansion.oceania || query.expansion.asia">
+            *ngIf="nectarEnabled()">
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/nectar.webp">
                 <source type="image/png" srcset="assets/icons/png/nectar.png">
@@ -210,7 +210,7 @@
         <div class="flex-column">
             <div class="flex-mgt20 justify-content-unset" matTooltip="Toggle birds with a specific nest type">
                 <span appAnalyticsEvent="Toggle nest" eventLabel="bowl" class="pointer shrink"
-                    [ngClass]="{inactive: !query.nest.Bowl}" (click)="toggleNest('Bowl')">
+                    [ngClass]="{inactive: !query.nest.bowl}" (click)="toggleNest('bowl')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/bowl.webp">
                         <source type="image/png" srcset="assets/icons/png/bowl.png">
@@ -219,7 +219,7 @@
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle nest" eventLabel="cavity" class="pointer shrink"
-                    [ngClass]="{inactive: !query.nest.Cavity}" (click)="toggleNest('Cavity')">
+                    [ngClass]="{inactive: !query.nest.cavity}" (click)="toggleNest('cavity')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/cavity.webp">
                         <source type="image/png" srcset="assets/icons/png/cavity.png">
@@ -228,7 +228,7 @@
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle nest" eventLabel="ground" class="pointer shrink"
-                    [ngClass]="{inactive: !query.nest.Ground}" (click)="toggleNest('Ground')">
+                    [ngClass]="{inactive: !query.nest.ground}" (click)="toggleNest('ground')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/ground.webp">
                         <source type="image/png" srcset="assets/icons/png/ground.png">
@@ -237,7 +237,7 @@
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle nest" eventLabel="platform" class="pointer shrink"
-                    [ngClass]="{inactive: !query.nest.Platform}" (click)="toggleNest('Platform')">
+                    [ngClass]="{inactive: !query.nest.platform}" (click)="toggleNest('platform')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/platform.webp">
                         <source type="image/png" srcset="assets/icons/png/platform.png">
@@ -246,7 +246,7 @@
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle nest" eventLabel="wild" class="pointer shrink"
-                    [ngClass]="{inactive: !query.nest.Wild}" (click)="toggleNest('Wild')">
+                    [ngClass]="{inactive: !query.nest.wild}" (click)="toggleNest('wild')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/star.webp">
                         <source type="image/png" srcset="assets/icons/png/star.png">
@@ -255,7 +255,7 @@
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle nest" eventLabel="none" class="pointer shrink flex-center"
-                    [ngClass]="{inactive: !query.nest.None}" (click)="toggleNest('None')">
+                    [ngClass]="{inactive: !query.nest.none}" (click)="toggleNest('none')">
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/none.webp">
                         <source type="image/png" srcset="assets/icons/png/none.png">
@@ -393,6 +393,56 @@
                         </mat-option>
                     </mat-select>
                 </mat-form-field>
+            </div>
+            <div class="flex-mgt10 justify-content-unset">
+                <span appAnalyticsEvent="Toggle pack" eventLabel="fanAsia" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanAsia}" (click)="togglePack('fanAsia')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanAsia.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanAsia.svg" aria-hidden="false"
+                            aria-label="Toggle Additional Asian Avians" alt="Additional Asian Avians promo pack" matTooltip="Additional Asian Avians promo pack">
+                    </picture>
+                </span>
+                <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanUK}" (click)="togglePack('fanUK')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanUK.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanUK.svg" aria-hidden="false"
+                            aria-label="Toggle British Birds" alt="British Birds promo pack" matTooltip="British Birds promo pack">
+                    </picture>
+                </span>
+                <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanCA}" (click)="togglePack('fanCA')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanCA.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanCA.svg" aria-hidden="false"
+                            aria-label="Toggle Birds of Canada" alt="Birds of Canada promo pack" matTooltip="Birds of Canada promo pack">
+                    </picture>
+                </span>
+                <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanEurope}" (click)="togglePack('fanEurope')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanEurope.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanEurope.svg" aria-hidden="false"
+                            aria-label="Toggle Birds of Continental Europe" alt="Birds of Continental Europe promo pack" matTooltip="Birds of Continental Europe promo pack">
+                    </picture>
+                </span>
+                <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanNZ}" (click)="togglePack('fanNZ')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanNZ.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanNZ.svg" aria-hidden="false"
+                            aria-label="Toggle Birds of New Zealand" alt="Birds of New Zealand promo pack" matTooltip="Birds of New Zealand promo pack">
+                    </picture>
+                </span>
+                <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.fanUS}" (click)="togglePack('fanUS')">
+                    <picture>
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanUS.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanUS.svg" aria-hidden="false"
+                            aria-label="Toggle Birds of U.S.A." alt="Birds of U.S.A. promo pack" matTooltip="Birds of U.S.A. promo pack">
+                    </picture>
+                </span>
             </div>
             <div class="assetPack-wrapper" *ngIf="query.main.toLowerCase() === 'images'">
                 <mat-form-field class="assetPack-select">

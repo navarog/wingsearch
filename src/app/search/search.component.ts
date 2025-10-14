@@ -38,8 +38,7 @@ export class SearchComponent implements OnInit {
     { value: 'asia', display: 'Asia' },
     { value: 'oceania', display: 'Oceania expansion' },
     { value: 'european', display: 'European expansion' },
-    { value: 'swiftstart', display: 'Swift-start pack' },
-    { value: 'originalcore', display: 'Base game' },
+    { value: 'core', display: 'Base game' },
   ]
 
   readonly assetPacks = [
@@ -64,8 +63,15 @@ export class SearchComponent implements OnInit {
       asia: true,
       oceania: true,
       european: true,
-      swiftstart: true,
-      originalcore: true,
+      core: true,
+    },
+    promoPack: {
+      fanAsia: true,
+      fanCA: true,
+      fanEurope: true,
+      fanNZ: true,
+      fanUK: true,
+      fanUS: true
     },
     eggs: {
       min: 0,
@@ -101,17 +107,50 @@ export class SearchComponent implements OnInit {
       'wild (food)': 0
     },
     nest: {
-      Bowl: true,
-      Cavity: true,
-      Ground: true,
-      None: true,
-      Platform: true,
-      Wild: true
+      bowl: true,
+      cavity: true,
+      ground: true,
+      none: true,
+      platform: true,
+      wild: true
     },
     beak: {
       left: true,
       right: true
     }
+  }
+
+  swiftStartEnabled(): boolean {
+    return this.query.expansion.core
+      || this.query.expansion.asia
+  }
+
+  tealColorEnabled(): boolean {
+    return this.query.expansion.european
+      || this.query.expansion.asia
+      || this.query.promoPack.fanAsia
+      || this.query.promoPack.fanCA
+      || this.query.promoPack.fanEurope
+      || this.query.promoPack.fanNZ
+      || this.query.promoPack.fanUK
+      || this.query.promoPack.fanUS
+  }
+
+  yellowColorEnabled(): boolean {
+    return this.query.expansion.oceania
+      || this.query.expansion.asia
+      || this.query.promoPack.fanAsia
+      || this.query.promoPack.fanCA
+      || this.query.promoPack.fanEurope
+      || this.query.promoPack.fanNZ
+      || this.query.promoPack.fanUK
+      || this.query.promoPack.fanUS
+  }
+
+  nectarEnabled(): boolean {
+    return this.query.expansion.oceania
+      || this.query.promoPack.fanAsia
+      || this.query.promoPack.fanNZ
   }
 
   bonusControl = new FormControl()
@@ -167,7 +206,7 @@ export class SearchComponent implements OnInit {
   }
 
   language = 'en'
-  selectedExpansions = ['asia', 'oceania', 'european', 'originalcore', 'swiftstart']
+  selectedExpansions = ['asia', 'oceania', 'european', 'core']
   assetPack = 'silhouette'
 
   @ViewChild(MatAutocompleteTrigger)
@@ -187,8 +226,15 @@ export class SearchComponent implements OnInit {
         asia: cookies.getCookie('expansion.asia') !== '0',
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
-        swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
-        originalcore: cookies.getCookie('expansion.originalcore') !== '0',
+        core: cookies.getCookie('expansion.core') !== '0',
+      },
+      promoPack: {
+        fanAsia: cookies.getCookie('expansion.fanAsia') !== '0',
+        fanCA: cookies.getCookie('expansion.fanCA') !== '0',
+        fanEurope: cookies.getCookie('expansion.fanEurope') !== '0',
+        fanNZ: cookies.getCookie('expansion.fanNZ') !== '0',
+        fanUK: cookies.getCookie('expansion.fanUK') !== '0',
+        fanUS: cookies.getCookie('expansion.fanUS') !== '0',
       }
     }
 
@@ -247,7 +293,7 @@ export class SearchComponent implements OnInit {
       foodCost: { ...this.foodCost },
       colors: { brown: true, pink: true, white: true, teal: true, yellow: true },
       food: { invertebrate: 0, seed: 0, fruit: 0, fish: 0, rodent: 0, nectar: 0, 'wild (food)': 0, 'no-food': 0 },
-      nest: { Bowl: true, Cavity: true, Ground: true, None: true, Platform: true, Wild: true },
+      nest: { bowl: true, cavity: true, ground: true, none: true, platform: true, wild: true },
       beak: { left: true, right: true }
     }
     this.bonusControl.setValue('')
@@ -274,7 +320,7 @@ export class SearchComponent implements OnInit {
     this.query = { ...this.query, foodCost: { ...this.foodCost } }
     this.onQueryChange()
   }
-
+  
   addBonus(event: MatAutocompleteSelectedEvent) {
     this.query = { ...this.query, bonus: [...this.query.bonus, event.option.value] }
     this.bonusControl.setValue('')
@@ -290,6 +336,21 @@ export class SearchComponent implements OnInit {
 
   openPanel() {
     this.autocomplete.openPanel()
+  }
+
+  togglePack(promoPack: string) {
+    this.query = {
+      ...this.query,
+      promoPack: {
+        ...this.query.promoPack, [promoPack]: !this.query.promoPack[promoPack]
+      }
+    }
+
+    Object.entries(this.query.promoPack).forEach(entry =>
+      this.cookies.setCookie(`expansion.${entry[0]}`, entry[1] ? '1' : '0', 365)
+    )
+
+    this.onQueryChange()
   }
 
   togglePower(color: string) {
@@ -318,7 +379,7 @@ export class SearchComponent implements OnInit {
       this.store.dispatch(resetLanguage({ expansion: this.query.expansion }))
     } else {
       this.cookies.setCookie('language', language, 180)
-      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion }))
+      this.store.dispatch(changeLanguage({ language: language, expansion: this.query.expansion, promoPack: this.query.promoPack }))
     }
 
     this.analytics.setLanguage(language)

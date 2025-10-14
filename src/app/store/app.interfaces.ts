@@ -9,6 +9,8 @@ export interface AppState {
     displayedCardsHidden: (BirdCard | BonusCard)[]
     activeBonusCards: BonusCard[]
     expansion: Expansion
+    swiftstart: boolean
+    promoPack: PromoPack
     displayedStats: DisplayedStats
     scrollDisabled: boolean
     translatedContent: { [key: string]: { Translated: string } }
@@ -19,8 +21,10 @@ export interface AppState {
 export interface BirdCard {
     id: number
     'Common name': string
+    'Native name': String
     'Scientific name': string
     Expansion: ExpansionType
+    Pack: PackType
     Color: Color | null
     PowerCategory: PowerCategory | null
     'Power text': null | string
@@ -45,6 +49,8 @@ export interface BirdCard {
     '/ (food cost)': string | null
     '* (food cost)': string | null
     'Total food cost': number
+    'Beak direction': BeakDirection | null
+    'Swift Start': string | null
     Anatomist: string | null
     Cartographer: string | null
     Historian: string | null
@@ -74,8 +80,6 @@ export interface BirdCard {
     'Wildlife Gardener': string | null
     'Small Clutch Specialist': string | null
     'Endangered Species Protector': string | null
-    'Beak Pointing Left': string | null
-    'Beak Pointing Right': string | null
     isBirdCard: () => true
     isBonusCard: () => false
 }
@@ -85,20 +89,40 @@ export function isBirdCard(object: any): object is BirdCard {
 }
 
 export enum Color {
-    Brown = 'Brown',
-    Pink = 'Pink',
-    Teal = 'Teal',
-    White = 'White',
+    Brown = 'brown',
+    Pink = 'pink',
+    Teal = 'teal',
+    White = 'white',
+    Yellow = 'yellow',
 }
 
 export enum NestType {
-    Bowl = 'Bowl',
-    Cavity = 'Cavity',
-    Ground = 'Ground',
-    None = 'None',
-    Platform = 'Platform',
-    Wild = 'Wild',
+    Bowl = 'bowl',
+    Cavity = 'cavity',
+    Ground = 'ground',
+    None = 'none',
+    Platform = 'platform',
+    Wild = 'wild',
 }
+
+export enum BeakDirection {
+    Left = 'L',
+    LeftLeft = 'LL',
+    LeftRight = 'LR',
+    Neither = 'N',
+    Right = 'R',
+}
+
+export const LeftBeakDirections = [
+    BeakDirection.Left,
+    BeakDirection.LeftLeft,
+    BeakDirection.LeftRight
+];
+
+export const RightBeakDirections = [
+    BeakDirection.LeftRight,
+    BeakDirection.Right
+]
 
 export enum PowerCategory {
     CachingFood = 'Caching Food',
@@ -143,20 +167,35 @@ export function isBonusCard(object: any): object is BonusCard {
 }
 
 export enum ExpansionType {
-    Core = 'originalcore',
-    Swiftstart = 'swiftstart',
+    Core = 'core',
     European = 'european',
     Oceania = 'oceania',
     Asia = 'asia',
 }
 
-export interface Expansion
-{
+export enum PackType {
+    fanAsia = 'fanAsia',
+    fanCA = 'fanCA',
+    fanEurope = 'fanEurope',
+    fanNZ = 'fanNZ',
+    fanUS = 'fanUS',
+    fanUK = 'fanUK'
+}
+
+export interface Expansion {
     asia: boolean,
-    originalcore: boolean,
-    swiftstart: boolean,
+    core: boolean,
     european: boolean,
-    oceania: boolean
+    oceania: boolean,
+}
+
+export interface PromoPack {
+    fanAsia: boolean,
+    fanCA: boolean,
+    fanEurope: boolean,
+    fanNZ: boolean,
+    fanUS: boolean,
+    fanUK: boolean
 }
 
 export interface DisplayedStats {

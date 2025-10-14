@@ -1,5 +1,5 @@
 import { createAction, props } from '@ngrx/store'
-import { Expansion } from './app.interfaces'
+import { Expansion, PromoPack } from './app.interfaces'
 
 export const search = createAction('[App] Search', props<{
     main: string,
@@ -14,6 +14,7 @@ export const search = createAction('[App] Search', props<{
         bonuses: boolean
     },
     expansion: Expansion,
+    promoPack: PromoPack,
     eggs: {
         min: number,
         max: number
@@ -48,12 +49,12 @@ export const search = createAction('[App] Search', props<{
         'no-food': number
     },
     nest: {
-        Bowl: boolean,
-        Cavity: boolean,
-        Ground: boolean,
-        None: boolean,
-        Platform: boolean,
-        Wild: boolean
+        bowl: boolean,
+        cavity: boolean,
+        ground: boolean,
+        none: boolean,
+        platform: boolean,
+        wild: boolean
     },
     beak: {
       left: boolean,
@@ -85,7 +86,8 @@ export const setLanguage = createAction('[App] Set language',
 export const changeLanguage = createAction('[App] Change language',
     props<{
         language: string,
-        expansion: Expansion
+        expansion: Expansion,
+        promoPack: PromoPack
   }>()
 )
 

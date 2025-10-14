@@ -20,11 +20,18 @@ export class AppEffects {
                   asia: this.cookies.getCookie('expansion.asia') !== '0',
                   oceania: this.cookies.getCookie('expansion.oceania') !== '0',
                   european: this.cookies.getCookie('expansion.european') !== '0',
-                  swiftstart: this.cookies.getCookie('expansion.swiftstart') !== '0',
-                  originalcore: this.cookies.getCookie('expansion.originalcore') !== '0',
+                  core: this.cookies.getCookie('expansion.core') !== '0'
+              }
+              const promoPack = action.promoPack || {
+                  fanAsia: this.cookies.getCookie('expansion.fanAsia') !== '0',
+                  fanCA: this.cookies.getCookie('expansion.fanCA') !== '0',
+                  fanEurope: this.cookies.getCookie('expansion.fanEurope') !== '0',
+                  fanNZ: this.cookies.getCookie('expansion.fanNZ') !== '0',
+                  fanUK: this.cookies.getCookie('expansion.fanUK') !== '0',
+                  fanUS: this.cookies.getCookie('expansion.fanUS') !== '0'
               }
               return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
-                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion }))
+                map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion, promoPack: promoPack }))
               )
             }
             else

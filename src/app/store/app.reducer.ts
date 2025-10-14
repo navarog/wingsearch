@@ -1,6 +1,16 @@
 import { createReducer, on } from '@ngrx/store'
 import * as appActions from './app.actions'
-import { AppState, isBirdCard, BirdCard, BonusCard, DisplayedStats, isBonusCard, Expansion } from './app.interfaces'
+import {
+    AppState,
+    isBirdCard,
+    BirdCard,
+    BonusCard,
+    DisplayedStats,
+    isBonusCard,
+    BeakDirection,
+    LeftBeakDirections,
+    RightBeakDirections
+} from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
 import Parameters from '../../assets/data/parameters.json'
@@ -75,8 +85,15 @@ export const initialState: AppState = {
         asia: cookies.getCookie('expansion.asia') !== '0',
         oceania: cookies.getCookie('expansion.oceania') !== '0',
         european: cookies.getCookie('expansion.european') !== '0',
-        swiftstart: cookies.getCookie('expansion.swiftstart') !== '0',
-        originalcore: cookies.getCookie('expansion.originalcore') !== '0',
+        core: cookies.getCookie('expansion.core') !== '0',
+    },
+    promoPack: {
+        fanAsia: cookies.getCookie('expansion.fanAsia') !== '0',
+        fanCA: cookies.getCookie('expansion.fanCA') !== '0',
+        fanEurope: cookies.getCookie('expansion.fanEurope') !== '0',
+        fanNZ: cookies.getCookie('expansion.fanNZ') !== '0',
+        fanUK: cookies.getCookie('expansion.fanUK') !== '0',
+        fanUS: cookies.getCookie('expansion.fanUS') !== '0',
     },
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }
@@ -129,6 +146,10 @@ const reducer = createReducer(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, []
         )
 
+        const allowedPromoPacks = Object.entries(action.promoPack).reduce(
+            (acc, val) => val[1] ? [...acc, val[0]] : acc, []
+        )
+
         const allowedColors = Object.entries(action.colors).reduce(
             (acc, val) => val[1] ? [...acc, val[0]] : acc, []
         )
@@ -146,7 +167,9 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            allowedExpansions.includes(card.Expansion) && (isBonusCard(card) || (
+            (allowedExpansions.includes(card.Expansion) 
+                || allowedPromoPacks.includes(card.Expansion))
+            && (isBonusCard(card) || (
                 allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
                 eatsMustFood(card, mustFood) &&
                 eatsMustNotFood(card, mustNotFood) &&
@@ -173,9 +196,9 @@ const reducer = createReducer(
         displayedCards = displayedCards.filter(card =>
             isBonusCard(card)
             || (action.beak?.left && action.beak?.right)
-            || (action.beak?.left && card['Beak Pointing Left'])
-            || (action.beak?.right && card['Beak Pointing Right'])
-            || ([action.beak?.left, action.beak?.right, card['Beak Pointing Left'], card['Beak Pointing Right']].every(x => !x))
+            || (action.beak?.left && LeftBeakDirections.includes(card['Beak direction']))
+            || (action.beak?.right && RightBeakDirections.includes(card['Beak direction']))
+            || (!action.beak?.left && !action.beak?.right && card['Beak direction'] == BeakDirection.Neither)
         )
 
         const displayedStats = calculateDisplayedStats(displayedCards)
