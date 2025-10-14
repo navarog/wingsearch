@@ -15,5 +15,7 @@ The app is using [data](https://boardgamegeek.com/filepage/193164/wingspan-bird-
 
 Thanks, Robbie, nightpool, and Bastian for all the work on hidden asset packs 🥚
 
+Special thanks to gspindles for bringing additional fan promo packs to life. 
+
 ## License
 This project is licensed under the terms of the [GNU GPLv3  license](LICENSE.md).

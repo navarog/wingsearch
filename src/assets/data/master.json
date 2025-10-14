@@ -79,7 +79,7 @@
     ]
   },
   {
-    "id":448,
+    "id":573,
     "Common name":"Acadian Flycatcher",
     "Scientific name":"Empidonax virescens",
     "Native name":null,
@@ -249,7 +249,7 @@
     ]
   },
   {
-    "id":449,
+    "id":498,
     "Common name":"Alpine Swift",
     "Scientific name":"Tachymarptis melba",
     "Native name":null,
@@ -486,7 +486,7 @@
     ]
   },
   {
-    "id":450,
+    "id":574,
     "Common name":"American Cliff Swallow",
     "Scientific name":"Petrochelidon pyrrhonota",
     "Native name":null,
@@ -1232,7 +1232,7 @@
     ]
   },
   {
-    "id":451,
+    "id":575,
     "Common name":"American Wigeon",
     "Scientific name":"Mareca americana",
     "Native name":null,
@@ -2889,7 +2889,7 @@
     ]
   },
   {
-    "id":452,
+    "id":448,
     "Common name":"Bali Starling",
     "Scientific name":"Leucopsar rothschildi",
     "Native name":null,
@@ -3698,7 +3698,7 @@
     ]
   },
   {
-    "id":453,
+    "id":449,
     "Common name":"Bengal Florican",
     "Scientific name":"Houbaropsis bengalensis",
     "Native name":null,
@@ -4108,7 +4108,7 @@
     ]
   },
   {
-    "id":454,
+    "id":523,
     "Common name":"Black Robin",
     "Scientific name":"Petroica traversi",
     "Native name":"Karure",
@@ -4187,7 +4187,7 @@
     ]
   },
   {
-    "id":455,
+    "id":576,
     "Common name":"Black Rosy Finch",
     "Scientific name":"Leucosticte atrata",
     "Native name":null,
@@ -4915,7 +4915,7 @@
     ]
   },
   {
-    "id":456,
+    "id":473,
     "Common name":"Black-Capped Chickadee",
     "Scientific name":"Poecile atricapillus",
     "Native name":null,
@@ -5330,7 +5330,7 @@
     ]
   },
   {
-    "id":457,
+    "id":499,
     "Common name":"Black-Necked Grebe",
     "Scientific name":"Podiceps nigricollis",
     "Native name":null,
@@ -5725,7 +5725,7 @@
     ]
   },
   {
-    "id":458,
+    "id":577,
     "Common name":"Black-and-White Warbler",
     "Scientific name":"Mniotilta varia",
     "Native name":null,
@@ -5808,7 +5808,7 @@
     ]
   },
   {
-    "id":459,
+    "id":450,
     "Common name":"Black-and-Yellow Broadbill",
     "Scientific name":"Eurylaimus ochromalus",
     "Native name":null,
@@ -5884,7 +5884,7 @@
     ]
   },
   {
-    "id":460,
+    "id":474,
     "Common name":"Blackpoll Warbler",
     "Scientific name":"Setophaga striata",
     "Native name":null,
@@ -5967,7 +5967,7 @@
     ]
   },
   {
-    "id":461,
+    "id":451,
     "Common name":"Blood Pheasant",
     "Scientific name":"Ithaginis cruentus",
     "Native name":null,
@@ -6054,7 +6054,7 @@
     ]
   },
   {
-    "id":462,
+    "id":524,
     "Common name":"Blue Duck",
     "Scientific name":"Hymenolaimus malacorhynchos",
     "Native name":"Whio",
@@ -6457,7 +6457,7 @@
     ]
   },
   {
-    "id":463,
+    "id":578,
     "Common name":"Blue-Winged Teal",
     "Scientific name":"Spatula discors",
     "Native name":null,
@@ -6774,7 +6774,7 @@
     ]
   },
   {
-    "id":464,
+    "id":579,
     "Common name":"Boat-Tailed Grackle",
     "Scientific name":"Quiscalus major",
     "Native name":null,
@@ -7098,7 +7098,7 @@
     ]
   },
   {
-    "id":465,
+    "id":452,
     "Common name":"Brahminy Starling",
     "Scientific name":"Sturnia pagodarum",
     "Native name":null,
@@ -7662,7 +7662,7 @@
     ]
   },
   {
-    "id":466,
+    "id":580,
     "Common name":"Brown Creeper",
     "Scientific name":"Certhia americana",
     "Native name":null,
@@ -7973,7 +7973,7 @@
     ]
   },
   {
-    "id":467,
+    "id":581,
     "Common name":"Brown Thrasher",
     "Scientific name":"Toxostoma rufum",
     "Native name":null,
@@ -8451,7 +8451,7 @@
     ]
   },
   {
-    "id":468,
+    "id":582,
     "Common name":"Cactus Wren",
     "Scientific name":"Campylorhynchus brunneicapillus",
     "Native name":null,
@@ -8692,7 +8692,7 @@
     ]
   },
   {
-    "id":469,
+    "id":583,
     "Common name":"California Scrub-Jay",
     "Scientific name":"Aphelocoma californica",
     "Native name":null,
@@ -8854,7 +8854,7 @@
     ]
   },
   {
-    "id":470,
+    "id":475,
     "Common name":"Canada Jay",
     "Scientific name":"Perisoreus canadensis",
     "Native name":null,
@@ -8937,7 +8937,7 @@
     ]
   },
   {
-    "id":471,
+    "id":476,
     "Common name":"Canada Warbler",
     "Scientific name":"Cardellina canadensis",
     "Native name":null,
@@ -9977,7 +9977,7 @@
     ]
   },
   {
-    "id":472,
+    "id":453,
     "Common name":"Chinese Copper Pheasant",
     "Scientific name":"Chrysolophus amherstiae",
     "Native name":null,
@@ -10806,7 +10806,7 @@
     ]
   },
   {
-    "id":473,
+    "id":500,
     "Common name":"Common Crane",
     "Scientific name":"Grus grus",
     "Native name":null,
@@ -10972,7 +10972,7 @@
     ]
   },
   {
-    "id":474,
+    "id":501,
     "Common name":"Common Eider",
     "Scientific name":"Somateria mollissima",
     "Native name":null,
@@ -11780,7 +11780,7 @@
     ]
   },
   {
-    "id":475,
+    "id":502,
     "Common name":"Common Murre",
     "Scientific name":"Uria aalge",
     "Native name":null,
@@ -12094,7 +12094,7 @@
     ]
   },
   {
-    "id":476,
+    "id":503,
     "Common name":"Common Pheasant",
     "Scientific name":"Phasianus colchicus",
     "Native name":null,
@@ -12339,7 +12339,7 @@
     ]
   },
   {
-    "id":477,
+    "id":504,
     "Common name":"Common Snipe",
     "Scientific name":"Gallinago gallinago",
     "Native name":null,
@@ -12748,7 +12748,7 @@
     ]
   },
   {
-    "id":478,
+    "id":505,
     "Common name":"Common Tern",
     "Scientific name":"Sterna hirundo",
     "Native name":null,
@@ -12831,7 +12831,7 @@
     ]
   },
   {
-    "id":479,
+    "id":506,
     "Common name":"Common Wood Pigeon",
     "Scientific name":"Columba palumbus",
     "Native name":null,
@@ -13564,7 +13564,7 @@
     ]
   },
   {
-    "id":480,
+    "id":507,
     "Common name":"Crested Tit",
     "Scientific name":"Lophophanes cristatus",
     "Native name":null,
@@ -13719,7 +13719,7 @@
     ]
   },
   {
-    "id":481,
+    "id":454,
     "Common name":"Crimson-Bellied Tragopan",
     "Scientific name":"Tragopan temminckii",
     "Native name":null,
@@ -13881,7 +13881,7 @@
     ]
   },
   {
-    "id":482,
+    "id":548,
     "Common name":"Dartford Warbler",
     "Scientific name":"Curruca undata",
     "Native name":null,
@@ -13960,7 +13960,7 @@
     ]
   },
   {
-    "id":483,
+    "id":455,
     "Common name":"Daurian Jackdaw",
     "Scientific name":"Coloeus dauuricus",
     "Native name":null,
@@ -14036,7 +14036,7 @@
     ]
   },
   {
-    "id":484,
+    "id":456,
     "Common name":"Demoiselle Crane",
     "Scientific name":"Grus virgo",
     "Native name":null,
@@ -14438,7 +14438,7 @@
     ]
   },
   {
-    "id":485,
+    "id":477,
     "Common name":"Dovekie",
     "Scientific name":"Alle alle",
     "Native name":null,
@@ -14926,7 +14926,7 @@
     ]
   },
   {
-    "id":486,
+    "id":584,
     "Common name":"Eastern Meadowlark",
     "Scientific name":"Sturnella magna",
     "Native name":null,
@@ -15250,7 +15250,7 @@
     ]
   },
   {
-    "id":487,
+    "id":585,
     "Common name":"Eastern Whip-Poor-Will",
     "Scientific name":"Antrostomus vociferus",
     "Native name":null,
@@ -15581,7 +15581,7 @@
     ]
   },
   {
-    "id":488,
+    "id":549,
     "Common name":"Eurasian Blackcap",
     "Scientific name":"Sylvia atricapilla",
     "Native name":null,
@@ -15660,7 +15660,7 @@
     ]
   },
   {
-    "id":489,
+    "id":550,
     "Common name":"Eurasian Blue Tit",
     "Scientific name":"Cyanistes caeruleus",
     "Native name":null,
@@ -15905,7 +15905,7 @@
     ]
   },
   {
-    "id":490,
+    "id":508,
     "Common name":"Eurasian Curlew",
     "Scientific name":"Numenius arquata",
     "Native name":null,
@@ -16885,7 +16885,7 @@
     ]
   },
   {
-    "id":491,
+    "id":509,
     "Common name":"Eurasian Siskin",
     "Scientific name":"Spinus spinus",
     "Native name":null,
@@ -16964,7 +16964,7 @@
     ]
   },
   {
-    "id":492,
+    "id":551,
     "Common name":"Eurasian Skylark",
     "Scientific name":"Alauda arvensis",
     "Native name":null,
@@ -17291,7 +17291,7 @@
     ]
   },
   {
-    "id":493,
+    "id":552,
     "Common name":"Eurasian Wigeon",
     "Scientific name":"Mareca penelope",
     "Native name":null,
@@ -17370,7 +17370,7 @@
     ]
   },
   {
-    "id":494,
+    "id":510,
     "Common name":"Eurasian Wren",
     "Scientific name":"Troglodytes troglodytes",
     "Native name":null,
@@ -17453,7 +17453,7 @@
     ]
   },
   {
-    "id":495,
+    "id":511,
     "Common name":"Eurasian Wryneck",
     "Scientific name":"Jynx torquilla",
     "Native name":null,
@@ -17623,7 +17623,7 @@
     ]
   },
   {
-    "id":496,
+    "id":553,
     "Common name":"European Golden Plover",
     "Scientific name":"Pluvialis apricaria",
     "Native name":null,
@@ -17785,7 +17785,7 @@
     ]
   },
   {
-    "id":497,
+    "id":554,
     "Common name":"European Greenfinch",
     "Scientific name":"Chloris chloris",
     "Native name":null,
@@ -17868,7 +17868,7 @@
     ]
   },
   {
-    "id":498,
+    "id":512,
     "Common name":"European Herring Gull",
     "Scientific name":"Larus argentatus",
     "Native name":null,
@@ -18198,7 +18198,7 @@
     ]
   },
   {
-    "id":499,
+    "id":513,
     "Common name":"European Serin",
     "Scientific name":"Serinus serinus",
     "Native name":null,
@@ -18277,7 +18277,7 @@
     ]
   },
   {
-    "id":500,
+    "id":555,
     "Common name":"European Shag",
     "Scientific name":"Gulosus aristotelis",
     "Native name":null,
@@ -18360,7 +18360,7 @@
     ]
   },
   {
-    "id":501,
+    "id":556,
     "Common name":"European Stonechat",
     "Scientific name":"Saxicola rubicola",
     "Native name":null,
@@ -18526,7 +18526,7 @@
     ]
   },
   {
-    "id":502,
+    "id":478,
     "Common name":"Evening Grosbeak",
     "Scientific name":"Hesperiphona vespertina",
     "Native name":null,
@@ -18605,7 +18605,7 @@
     ]
   },
   {
-    "id":503,
+    "id":525,
     "Common name":"Fernbird",
     "Scientific name":"Poodytes punctatus",
     "Native name":"M\u0101t\u0101t\u0101",
@@ -19255,7 +19255,7 @@
     ]
   },
   {
-    "id":504,
+    "id":557,
     "Common name":"Garden Warbler",
     "Scientific name":"Sylvia borin",
     "Native name":null,
@@ -19334,7 +19334,7 @@
     ]
   },
   {
-    "id":505,
+    "id":457,
     "Common name":"Giant Fish Owl",
     "Scientific name":"Ketupa blakistoni",
     "Native name":null,
@@ -20223,7 +20223,7 @@
     ]
   },
   {
-    "id":506,
+    "id":458,
     "Common name":"Great Argus",
     "Scientific name":"Argusianus argus",
     "Native name":null,
@@ -20626,7 +20626,7 @@
     ]
   },
   {
-    "id":507,
+    "id":459,
     "Common name":"Great Eared Nightjar",
     "Scientific name":"Lyncornis macrotis",
     "Native name":null,
@@ -20784,7 +20784,7 @@
     ]
   },
   {
-    "id":508,
+    "id":479,
     "Common name":"Great Grey Owl",
     "Scientific name":"Strix nebulosa",
     "Native name":null,
@@ -21095,7 +21095,7 @@
     ]
   },
   {
-    "id":509,
+    "id":526,
     "Common name":"Great Spotted Kiwi",
     "Scientific name":"Apteryx maxima",
     "Native name":"Roroa",
@@ -21578,7 +21578,7 @@
     ]
   },
   {
-    "id":510,
+    "id":460,
     "Common name":"Greater Racket-Tailed Drongo",
     "Scientific name":"Dicrurus paradiseus",
     "Native name":null,
@@ -21730,7 +21730,7 @@
     ]
   },
   {
-    "id":511,
+    "id":480,
     "Common name":"Greater Scaup",
     "Scientific name":"Aythya marila",
     "Native name":null,
@@ -21809,7 +21809,7 @@
     ]
   },
   {
-    "id":512,
+    "id":481,
     "Common name":"Greater Snow Goose",
     "Scientific name":"Answer caerulescens atlanticus",
     "Native name":null,
@@ -21885,7 +21885,7 @@
     ]
   },
   {
-    "id":513,
+    "id":461,
     "Common name":"Greater Spotted Eagle",
     "Scientific name":"Clanga clanga",
     "Native name":null,
@@ -22914,7 +22914,7 @@
     ]
   },
   {
-    "id":514,
+    "id":482,
     "Common name":"Gyrfalcon",
     "Scientific name":"Falco rusticolus",
     "Native name":null,
@@ -22993,7 +22993,7 @@
     ]
   },
   {
-    "id":515,
+    "id":483,
     "Common name":"Harlequin Duck",
     "Scientific name":"Histrionicus histrionicus",
     "Native name":null,
@@ -24127,7 +24127,7 @@
     ]
   },
   {
-    "id":516,
+    "id":514,
     "Common name":"Iberian Magpie",
     "Scientific name":"Cyanopica cooki",
     "Native name":null,
@@ -24368,7 +24368,7 @@
     ]
   },
   {
-    "id":517,
+    "id":462,
     "Common name":"Indian Courser",
     "Scientific name":"Cursorius coromandelicus",
     "Native name":null,
@@ -24447,7 +24447,7 @@
     ]
   },
   {
-    "id":518,
+    "id":463,
     "Common name":"Indian Paradise Flycatcher",
     "Scientific name":"Terpsiphone paradisi",
     "Native name":null,
@@ -24771,7 +24771,7 @@
     ]
   },
   {
-    "id":519,
+    "id":515,
     "Common name":"Italian Sparrow",
     "Scientific name":"Passer italiae",
     "Native name":null,
@@ -24850,7 +24850,7 @@
     ]
   },
   {
-    "id":520,
+    "id":484,
     "Common name":"Ivory Gull",
     "Scientific name":"Pagophila eburnea",
     "Native name":null,
@@ -25334,7 +25334,7 @@
     ]
   },
   {
-    "id":521,
+    "id":485,
     "Common name":"King Eider",
     "Scientific name":"Somateria spectabilis",
     "Native name":null,
@@ -25742,7 +25742,7 @@
     ]
   },
   {
-    "id":522,
+    "id":586,
     "Common name":"Laughing Gull",
     "Scientific name":"Leucophaeus atricilla",
     "Native name":null,
@@ -26073,7 +26073,7 @@
     ]
   },
   {
-    "id":523,
+    "id":587,
     "Common name":"Lesser Prairie-Chicken",
     "Scientific name":"Tympanuchus pallidicinctus",
     "Native name":null,
@@ -26152,7 +26152,7 @@
     ]
   },
   {
-    "id":524,
+    "id":558,
     "Common name":"Lesser Spotted Woodpecker",
     "Scientific name":"Dryobates minor",
     "Native name":null,
@@ -27127,7 +27127,7 @@
     ]
   },
   {
-    "id":525,
+    "id":527,
     "Common name":"Long-Tailed Cuckoo",
     "Scientific name":"Urodynamis taitensis",
     "Native name":"Koekoe\u0101",
@@ -27292,7 +27292,7 @@
     ]
   },
   {
-    "id":526,
+    "id":464,
     "Common name":"Luzon Bleeding-Heart",
     "Scientific name":"Gallicolumba luzonica",
     "Native name":null,
@@ -27371,7 +27371,7 @@
     ]
   },
   {
-    "id":527,
+    "id":528,
     "Common name":"Magenta Petrel",
     "Scientific name":"Pterodroma magentae",
     "Native name":"Taiko",
@@ -27936,7 +27936,7 @@
     ]
   },
   {
-    "id":528,
+    "id":559,
     "Common name":"Manx Shearwater",
     "Scientific name":"Puffinus puffinus",
     "Native name":null,
@@ -28095,7 +28095,7 @@
     ]
   },
   {
-    "id":529,
+    "id":516,
     "Common name":"Marsh Tit",
     "Scientific name":"Poecile palustris",
     "Native name":null,
@@ -28178,7 +28178,7 @@
     ]
   },
   {
-    "id":530,
+    "id":560,
     "Common name":"Marsh Warbler",
     "Scientific name":"Acrocephalus palustris",
     "Native name":null,
@@ -28333,7 +28333,7 @@
     ]
   },
   {
-    "id":531,
+    "id":561,
     "Common name":"Meadow Pipit",
     "Scientific name":"Anthus pratensis",
     "Native name":null,
@@ -28412,7 +28412,7 @@
     ]
   },
   {
-    "id":532,
+    "id":517,
     "Common name":"Mediterranean Shearwater",
     "Scientific name":"Puffinus yelkouan",
     "Native name":null,
@@ -28491,7 +28491,7 @@
     ]
   },
   {
-    "id":533,
+    "id":518,
     "Common name":"Merlin",
     "Scientific name":"Falco columbarius",
     "Native name":null,
@@ -29065,7 +29065,7 @@
     ]
   },
   {
-    "id":534,
+    "id":588,
     "Common name":"Mountain Quail",
     "Scientific name":"Oreortyx pictus",
     "Native name":null,
@@ -29470,7 +29470,7 @@
     ]
   },
   {
-    "id":535,
+    "id":529,
     "Common name":"New Zealand Dabchick",
     "Scientific name":"Poliocephalus rufopectus",
     "Native name":"Weweia",
@@ -29549,7 +29549,7 @@
     ]
   },
   {
-    "id":536,
+    "id":530,
     "Common name":"New Zealand Fairy Tern",
     "Scientific name":"Sternula nereis davisae",
     "Native name":"Tara Iti",
@@ -29632,7 +29632,7 @@
     ]
   },
   {
-    "id":537,
+    "id":531,
     "Common name":"New Zealand Falcon",
     "Scientific name":"Falco novaeseelandiae",
     "Native name":"K\u0101rearea",
@@ -29708,7 +29708,7 @@
     ]
   },
   {
-    "id":538,
+    "id":532,
     "Common name":"New Zealand Rock Wren",
     "Scientific name":"Xenicus gilviventris",
     "Native name":"P\u012bwauwau",
@@ -29787,7 +29787,7 @@
     ]
   },
   {
-    "id":539,
+    "id":533,
     "Common name":"New Zealand Scaup",
     "Scientific name":"Aythya novaeseelandiae",
     "Native name":"P\u0101pango",
@@ -29874,7 +29874,7 @@
     ]
   },
   {
-    "id":540,
+    "id":465,
     "Common name":"Nicobar Pigeon",
     "Scientific name":"Caloenas nicobarica",
     "Native name":null,
@@ -30108,7 +30108,7 @@
     ]
   },
   {
-    "id":541,
+    "id":534,
     "Common name":"North Island K\u014dkako",
     "Scientific name":"Callaeas wilsoni",
     "Native name":"K\u014dkako",
@@ -30763,7 +30763,7 @@
     ]
   },
   {
-    "id":542,
+    "id":486,
     "Common name":"Northern Pintail",
     "Scientific name":"Anas acuta",
     "Native name":null,
@@ -30842,7 +30842,7 @@
     ]
   },
   {
-    "id":543,
+    "id":487,
     "Common name":"Northern Saw-Whet Owl",
     "Scientific name":"Aegolius acadicus",
     "Native name":null,
@@ -31408,7 +31408,7 @@
     ]
   },
   {
-    "id":544,
+    "id":488,
     "Common name":"Ovenbird",
     "Scientific name":"Seiurus aurocapilla",
     "Native name":null,
@@ -31566,7 +31566,7 @@
     ]
   },
   {
-    "id":545,
+    "id":466,
     "Common name":"Pacific Sea-Eagle",
     "Scientific name":"Haliaeetus pelagicus",
     "Native name":null,
@@ -31807,7 +31807,7 @@
     ]
   },
   {
-    "id":546,
+    "id":535,
     "Common name":"Paradise Shelduck",
     "Scientific name":"Tadorna variegata",
     "Native name":"P\u016btangitangi",
@@ -32211,7 +32211,7 @@
     ]
   },
   {
-    "id":547,
+    "id":589,
     "Common name":"Phainopepla",
     "Scientific name":"Phainopepla nitens",
     "Native name":null,
@@ -32614,7 +32614,7 @@
     ]
   },
   {
-    "id":548,
+    "id":489,
     "Common name":"Pine Grosbeak",
     "Scientific name":"Pinicola enucleator",
     "Native name":null,
@@ -32852,7 +32852,7 @@
     ]
   },
   {
-    "id":549,
+    "id":467,
     "Common name":"Pinktail",
     "Scientific name":"Urocynchramus pylzowi",
     "Native name":null,
@@ -32928,7 +32928,7 @@
     ]
   },
   {
-    "id":550,
+    "id":490,
     "Common name":"Piping Plover",
     "Scientific name":"Charadrius melodus",
     "Native name":null,
@@ -33162,7 +33162,7 @@
     ]
   },
   {
-    "id":551,
+    "id":590,
     "Common name":"Prairie Falcon",
     "Scientific name":"Falco mexicanus",
     "Native name":null,
@@ -33393,7 +33393,7 @@
     ]
   },
   {
-    "id":552,
+    "id":591,
     "Common name":"Purple Finch",
     "Scientific name":"Haemorhous purpureus",
     "Native name":null,
@@ -33706,7 +33706,7 @@
     ]
   },
   {
-    "id":553,
+    "id":468,
     "Common name":"Purple Sunbird",
     "Scientific name":"Cinnyris asiaticus",
     "Native name":null,
@@ -33872,7 +33872,7 @@
     ]
   },
   {
-    "id":554,
+    "id":592,
     "Common name":"Pyrrhuloxia",
     "Scientific name":"Cardinalis sinuatus",
     "Native name":null,
@@ -34034,7 +34034,7 @@
     ]
   },
   {
-    "id":555,
+    "id":491,
     "Common name":"Qupanuaq",
     "Scientific name":"Zonotrichia querula",
     "Native name":null,
@@ -35346,7 +35346,7 @@
     ]
   },
   {
-    "id":556,
+    "id":536,
     "Common name":"Red-Crowned Parakeet",
     "Scientific name":"Cyanoramphus novaezelandiae",
     "Native name":"K\u0101k\u0101riki",
@@ -35508,7 +35508,7 @@
     ]
   },
   {
-    "id":557,
+    "id":519,
     "Common name":"Red-Footed Falcon",
     "Scientific name":"Falco vespertinus",
     "Native name":null,
@@ -36488,7 +36488,7 @@
     ]
   },
   {
-    "id":558,
+    "id":537,
     "Common name":"Rifleman",
     "Scientific name":"Acanthisitta chloris",
     "Native name":"Titipounamu",
@@ -36729,7 +36729,7 @@
     ]
   },
   {
-    "id":559,
+    "id":492,
     "Common name":"Rock Ptarmigan",
     "Scientific name":"Lagopus muta",
     "Native name":null,
@@ -37612,7 +37612,7 @@
     ]
   },
   {
-    "id":560,
+    "id":562,
     "Common name":"Ruddy Turnstone",
     "Scientific name":"Arenaria interpres",
     "Native name":null,
@@ -37781,7 +37781,7 @@
     ]
   },
   {
-    "id":561,
+    "id":493,
     "Common name":"Rufous Hummingbird",
     "Scientific name":"Selasphorus rufus",
     "Native name":null,
@@ -38105,7 +38105,7 @@
     ]
   },
   {
-    "id":562,
+    "id":494,
     "Common name":"Rusty Blackbird",
     "Scientific name":"Euphagus carolinus",
     "Native name":null,
@@ -39062,7 +39062,7 @@
     ]
   },
   {
-    "id":565,
+    "id":593,
     "Common name":"Scarlet Tanager",
     "Scientific name":"Piranga olivacea",
     "Native name":null,
@@ -39232,7 +39232,7 @@
     ]
   },
   {
-    "id":566,
+    "id":495,
     "Common name":"Sharp-Tailed Grouse",
     "Scientific name":"Tympanuchus phasianellus",
     "Native name":null,
@@ -39311,7 +39311,7 @@
     ]
   },
   {
-    "id":567,
+    "id":538,
     "Common name":"Shore Plover",
     "Scientific name":"Thinornis novaeseelandiae",
     "Native name":"T\u016bturuatu",
@@ -40042,7 +40042,7 @@
     ]
   },
   {
-    "id":568,
+    "id":565,
     "Common name":"Song Thrush",
     "Scientific name":"Turdus philomelos",
     "Native name":null,
@@ -40201,7 +40201,7 @@
     ]
   },
   {
-    "id":569,
+    "id":539,
     "Common name":"South Island Saddleback",
     "Scientific name":"Philesturnus carunculatus",
     "Native name":"T\u012beke",
@@ -40277,7 +40277,7 @@
     ]
   },
   {
-    "id":570,
+    "id":540,
     "Common name":"South Island Takah\u0113",
     "Scientific name":"Porphyrio hochstetteri",
     "Native name":"Takah\u0113",
@@ -40766,7 +40766,7 @@
     ]
   },
   {
-    "id":571,
+    "id":520,
     "Common name":"Spotless Starling",
     "Scientific name":"Sturnus unicolor",
     "Native name":null,
@@ -41085,7 +41085,7 @@
     ]
   },
   {
-    "id":572,
+    "id":541,
     "Common name":"Spotted Shag",
     "Scientific name":"Phalacrocorax punctatus",
     "Native name":"P\u0101rekareka",
@@ -41648,7 +41648,7 @@
     ]
   },
   {
-    "id":573,
+    "id":469,
     "Common name":"Steppe Eagle",
     "Scientific name":"Aquila nipalensis",
     "Native name":null,
@@ -41727,7 +41727,7 @@
     ]
   },
   {
-    "id":574,
+    "id":542,
     "Common name":"Stitchbird",
     "Scientific name":"Notiomystis cincta",
     "Native name":"Hihi",
@@ -42059,7 +42059,7 @@
     ]
   },
   {
-    "id":575,
+    "id":470,
     "Common name":"Sulu Hornbill",
     "Scientific name":"Anthracoceros montani",
     "Native name":null,
@@ -42229,7 +42229,7 @@
     ]
   },
   {
-    "id":576,
+    "id":594,
     "Common name":"Surfbird",
     "Scientific name":"Calidris virgata",
     "Native name":null,
@@ -42384,7 +42384,7 @@
     ]
   },
   {
-    "id":577,
+    "id":471,
     "Common name":"Taiwan Blue-Magpie",
     "Scientific name":"Urocissa caerulea",
     "Native name":null,
@@ -42547,7 +42547,7 @@
     ]
   },
   {
-    "id":578,
+    "id":566,
     "Common name":"Tawny Owl",
     "Scientific name":"Strix aluco",
     "Native name":null,
@@ -42706,7 +42706,7 @@
     ]
   },
   {
-    "id":579,
+    "id":543,
     "Common name":"Tomtit",
     "Scientific name":"Petroica macrocephala",
     "Native name":"Miromiro",
@@ -42785,7 +42785,7 @@
     ]
   },
   {
-    "id":580,
+    "id":521,
     "Common name":"Tree Pipit",
     "Scientific name":"Anthus trivialis",
     "Native name":null,
@@ -43103,7 +43103,7 @@
     ]
   },
   {
-    "id":581,
+    "id":496,
     "Common name":"Tufted Puffin",
     "Scientific name":"Fratercula cirrhata",
     "Native name":null,
@@ -43258,7 +43258,7 @@
     ]
   },
   {
-    "id":582,
+    "id":567,
     "Common name":"Tundra Swan",
     "Scientific name":"Cygnus columbianus",
     "Native name":null,
@@ -43590,7 +43590,7 @@
     ]
   },
   {
-    "id":583,
+    "id":544,
     "Common name":"Variable Oystercatcher",
     "Scientific name":"Haematopus unicolor",
     "Native name":"Torea-Pango",
@@ -43669,7 +43669,7 @@
     ]
   },
   {
-    "id":584,
+    "id":497,
     "Common name":"Varied Thrush",
     "Scientific name":"Ixoreus naevius",
     "Native name":null,
@@ -44073,7 +44073,7 @@
     ]
   },
   {
-    "id":585,
+    "id":595,
     "Common name":"Virginia Rail",
     "Scientific name":"Rallus limicola",
     "Native name":null,
@@ -44228,7 +44228,7 @@
     ]
   },
   {
-    "id":586,
+    "id":545,
     "Common name":"Weka",
     "Scientific name":"Gallirallus australis",
     "Native name":"Weka",
@@ -44380,7 +44380,7 @@
     ]
   },
   {
-    "id":587,
+    "id":568,
     "Common name":"Western Capercaillie",
     "Scientific name":"Tetrao urogallus",
     "Native name":null,
@@ -44459,7 +44459,7 @@
     ]
   },
   {
-    "id":588,
+    "id":522,
     "Common name":"Western House Martin",
     "Scientific name":"Delichon urbicum",
     "Native name":null,
@@ -44542,7 +44542,7 @@
     ]
   },
   {
-    "id":589,
+    "id":569,
     "Common name":"Western Jackdaw",
     "Scientific name":"Coloeus monedula",
     "Native name":null,
@@ -44711,7 +44711,7 @@
     ]
   },
   {
-    "id":590,
+    "id":596,
     "Common name":"Western Screech-Owl",
     "Scientific name":"Megascops kennicottii",
     "Native name":null,
@@ -44873,7 +44873,7 @@
     ]
   },
   {
-    "id":591,
+    "id":570,
     "Common name":"Western Yellow Wagtail",
     "Scientific name":"Motacilla flava",
     "Native name":null,
@@ -44952,7 +44952,7 @@
     ]
   },
   {
-    "id":592,
+    "id":472,
     "Common name":"Whiskered Treeswift",
     "Scientific name":"Hemiprocne comata",
     "Native name":null,
@@ -46229,7 +46229,7 @@
     ]
   },
   {
-    "id":593,
+    "id":571,
     "Common name":"Whooper Swan",
     "Scientific name":"Cygnus cygnus",
     "Native name":null,
@@ -46694,7 +46694,7 @@
     ]
   },
   {
-    "id":594,
+    "id":572,
     "Common name":"Willow Warbler",
     "Scientific name":"Phylloscopus trochilus",
     "Native name":null,
@@ -47418,7 +47418,7 @@
     ]
   },
   {
-    "id":595,
+    "id":597,
     "Common name":"Yellow-Billed Magpie",
     "Scientific name":"Pica nuttallii",
     "Native name":null,
@@ -47573,7 +47573,7 @@
     ]
   },
   {
-    "id":596,
+    "id":546,
     "Common name":"Yellow-Eyed Penguin",
     "Scientific name":"Megadyptes antipodes",
     "Native name":"Hoiho",
@@ -47899,7 +47899,7 @@
     ]
   },
   {
-    "id":597,
+    "id":547,
     "Common name":"Yellowhead",
     "Scientific name":"Mohoua ochrocephala",
     "Native name":"Mohua",
