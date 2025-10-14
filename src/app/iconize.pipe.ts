@@ -5,7 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core'
 })
 export class IconizePipe implements PipeTransform {
 
-  private static readonly NON_SEPARATION_SPECIAL_CHARACTERS = ['\\.', ',', ';', '\\-', '\\)']
+  private static readonly NON_SEPARATION_SPECIAL_CHARACTERS = ['\\.', ',', ';', '\\-', '\\_', '\\)']
 
   static nonSeparationSpecialCharactersRegex: string = IconizePipe.NON_SEPARATION_SPECIAL_CHARACTERS.join('|');
 
@@ -38,8 +38,8 @@ export class IconizePipe implements PipeTransform {
 
   transform(value: string, dark = false, glow = false): string {
     let result = value && value
-      .replace(new RegExp('\\[([a-z\\-]+)\\]' + '(?!' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.BASE_HTML_STRING)
-      .replace(new RegExp('\\[([a-z\\-]+)\\]' + '(' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.NOBR_HTML_STRING)
+      .replace(new RegExp('\\[([a-z\\-\\_]+)\\]' + '(?!' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.BASE_HTML_STRING)
+      .replace(new RegExp('\\[([a-z\\-\\_]+)\\]' + '(' + IconizePipe.nonSeparationSpecialCharactersRegex + ')', 'g'), this.NOBR_HTML_STRING)
 
     if (dark)
       Object.entries(this.DARK_MAP).forEach(([key, value]) =>

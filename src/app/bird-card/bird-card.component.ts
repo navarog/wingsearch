@@ -26,7 +26,6 @@ export class BirdCardComponent implements OnInit {
   habitats: string[]
   eggs: any[]
   wingspan: string
-  powerTitle = '<span class="intro">[power][text]: </span>'
 
   constructor(
     private translate: TranslatePipe,
@@ -68,8 +67,11 @@ export class BirdCardComponent implements OnInit {
   }
 
   getPowerTitle() {
-    const escapePower = (power: string) => power ? `[${power.toLowerCase().replace(' ', '-')}]` : ''
-    const powerKeys = ['Predator', 'Flocking', 'Bonus card']
+    const powerMap = {
+      Predator: '[predator]',
+      Flocking: '[flocking]',
+      'Bonus card': '[bonus_cards]'
+    }
     const textMap = {
       brown: 'WHEN ACTIVATED',
       white: 'WHEN PLAYED',
@@ -78,9 +80,9 @@ export class BirdCardComponent implements OnInit {
       yellow: 'GAME END'
     }
 
-    return this.powerTitle
-      .replace(/\[power\]/g, powerKeys.filter(key => this.card[key]).map(escapePower).join(''))
-      .replace(/\[text\]/g, this.translate.transform(textMap[this.card.Color]))
+    const power = Object.entries(powerMap).map(([key, value]) => this.card[key] ? value : '').join('');
+    const text = this.translate.transform(textMap[this.card.Color]);
+    return `<span class="intro">${power}${text}: </span>`;
   }
 
   getBirdSilhouette() {

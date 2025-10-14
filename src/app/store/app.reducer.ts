@@ -87,7 +87,6 @@ export const initialState: AppState = {
         european: cookies.getCookie('expansion.european') !== '0',
         core: cookies.getCookie('expansion.core') !== '0',
     },
-    swiftstart: false,
     promoPack: {
         fanAsia: cookies.getCookie('expansion.fanAsia') !== '0',
         fanCA: cookies.getCookie('expansion.fanCA') !== '0',
@@ -176,10 +175,6 @@ const reducer = createReducer(
                 eatsMustNotFood(card, mustNotFood) &&
                 allowedNests.includes(card['Nest type'])
             )
-        )
-
-        displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.swiftstart ? card['Swift Start'] : true)
         )
 
         displayedCards = displayedCards.filter(card =>

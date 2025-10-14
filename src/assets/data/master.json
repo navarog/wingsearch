@@ -42065,7 +42065,7 @@
     "Native name":null,
     "Expansion":"fanAsia",
     "Color":"yellow",
-    "Power text":"Choose 1 other player. For each bird with a [bonus-card] power on their player mat, draw 1 new bonus card. If you drew at least 1, keep 1.",
+    "Power text":"Choose 1 other player. For each bird with a [bonus_cards] power on their player mat, draw 1 new bonus card. If you drew at least 1, keep 1.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":"X",

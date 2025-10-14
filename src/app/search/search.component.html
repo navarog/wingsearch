@@ -369,44 +369,30 @@
                     </mat-select>
                 </mat-form-field>
             </div>
-            <div class="flex-row">
-                <div class="flex-column swiftstart-wrapper">
-                    <span appAnalyticsEvent="Toggle Swift Start" eventLabel="swiftstart" class="pointer shrink"
-                        [ngClass]="{inactive: !query.swiftstart}" (click)="toggleSwiftStart()"
-                        *ngIf="swiftStartEnabled()">
-                        <picture>
-                            <source type="image/webp" srcset="assets/icons/png/swiftstart.webp">
-                            <source type="image/png" srcset="assets/icons/png/swiftstart.png">
-                            <img class="swiftstart-image" src="assets/icons/png/swiftstart.png" aria-hidden="false"
-                                aria-label="Toggle Swift Start birds" alt="Swift Start birds" matTooltip="Toggle Swift Start birds">
-                        </picture>
-                    </span>
-                </div>
-                <div class="expansion-wrapper">
-                    <mat-form-field>
-                        <mat-label>Expansions</mat-label>
-                        <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple>
-                            <mat-select-trigger>
-                                <picture *ngFor="let expansion of selectedExpansions">
-                                    <source type="image/webp" srcset="assets/icons/png/{{expansion}}.webp">
-                                    <source type="image/jpg" srcset="assets/icons/png/{{expansion}}.png">
-                                    <img src="assets/icons/png/{{expansion}}.png">
+            <div class="expansion-wrapper">
+                <mat-form-field>
+                    <mat-label>Expansions</mat-label>
+                    <mat-select [(ngModel)]="selectedExpansions" (ngModelChange)="expansionChange($event)" multiple>
+                        <mat-select-trigger>
+                            <picture *ngFor="let expansion of selectedExpansions">
+                                <source type="image/webp" srcset="assets/icons/png/{{expansion}}.webp">
+                                <source type="image/jpg" srcset="assets/icons/png/{{expansion}}.png">
+                                <img src="assets/icons/png/{{expansion}}.png">
+                            </picture>
+                        </mat-select-trigger>
+                        <mat-option class="expansion-option" *ngFor="let expansion of supportedExpansions"
+                            [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
+                            <span>
+                                <picture>
+                                    <source type="image/webp" srcset="assets/icons/png/{{expansion.value}}.webp">
+                                    <source type="image/jpg" srcset="assets/icons/png/{{expansion.value}}.png">
+                                    <img src="assets/icons/png/{{expansion.value}}.png">
                                 </picture>
-                            </mat-select-trigger>
-                            <mat-option class="expansion-option" *ngFor="let expansion of supportedExpansions"
-                                [value]="expansion.value" appAnalyticsEvent="Toggle expansion" [eventLabel]="expansion.value">
-                                <span>
-                                    <picture>
-                                        <source type="image/webp" srcset="assets/icons/png/{{expansion.value}}.webp">
-                                        <source type="image/jpg" srcset="assets/icons/png/{{expansion.value}}.png">
-                                        <img src="assets/icons/png/{{expansion.value}}.png">
-                                    </picture>
-                                </span>
-                                {{expansion.display}}
-                            </mat-option>
-                        </mat-select>
-                    </mat-form-field>
-                </div>
+                            </span>
+                            {{expansion.display}}
+                        </mat-option>
+                    </mat-select>
+                </mat-form-field>
             </div>
             <div class="flex-mgt10 justify-content-unset" matTooltip="Toggle birds from specific promo pack">
                 <span appAnalyticsEvent="Toggle pack" eventLabel="fanAsia" class="pointer shrink"

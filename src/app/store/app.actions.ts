@@ -14,7 +14,6 @@ export const search = createAction('[App] Search', props<{
         bonuses: boolean
     },
     expansion: Expansion,
-    swiftstart: boolean,
     promoPack: PromoPack,
     eggs: {
         min: number,

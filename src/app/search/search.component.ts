@@ -64,7 +64,6 @@ export class SearchComponent implements OnInit {
       european: true,
       core: true,
     },
-    swiftstart: false,
     promoPack: {
       fanAsia: true,
       fanCA: true,
@@ -336,15 +335,6 @@ export class SearchComponent implements OnInit {
 
   openPanel() {
     this.autocomplete.openPanel()
-  }
-
-  toggleSwiftStart() {
-    this.query = {
-      ...this.query,
-      swiftstart: !this.query.swiftstart
-    }
-
-    this.onQueryChange()
   }
 
   togglePack(promoPack: string) {
