@@ -14,6 +14,7 @@ export const search = createAction('[App] Search', props<{
         bonuses: boolean
     },
     expansion: Expansion,
+    swiftstart: boolean,
     promoPack: PromoPack,
     eggs: {
         min: number,
@@ -49,12 +50,12 @@ export const search = createAction('[App] Search', props<{
         'no-food': number
     },
     nest: {
-        Bowl: boolean,
-        Cavity: boolean,
-        Ground: boolean,
-        None: boolean,
-        Platform: boolean,
-        Wild: boolean
+        bowl: boolean,
+        cavity: boolean,
+        ground: boolean,
+        none: boolean,
+        platform: boolean,
+        wild: boolean
     },
     beak: {
       left: boolean,
@@ -86,7 +87,8 @@ export const setLanguage = createAction('[App] Set language',
 export const changeLanguage = createAction('[App] Change language',
     props<{
         language: string,
-        expansion: Expansion
+        expansion: Expansion,
+        promoPack: PromoPack
   }>()
 )
 

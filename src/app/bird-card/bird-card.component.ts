@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core'
 import { Observable } from 'rxjs'
 import { map } from 'rxjs/operators';
 import { Store } from '@ngrx/store'
-import { BirdCard, AppState } from '../store/app.interfaces'
+import { BirdCard, AppState, ExpansionType, PackType } from '../store/app.interfaces'
 import { TranslatePipe } from '../translate.pipe'
 import EasterEggAssets from '../../assets/data/extra-assets.json'
 
@@ -62,7 +62,7 @@ export class BirdCardComponent implements OnInit {
   }
 
   resolveNestType() {
-    const nestMap = { Wild: 'star', None: null }
+    const nestMap = { wild: 'star', none: null }
 
     return Object.keys(nestMap).includes(this.card['Nest type']) ? nestMap[this.card['Nest type']] : this.card['Nest type'].toLowerCase()
   }
@@ -71,15 +71,15 @@ export class BirdCardComponent implements OnInit {
     const escapePower = (power: string) => power ? `[${power.toLowerCase().replace(' ', '-')}]` : ''
     const powerKeys = ['Predator', 'Flocking', 'Bonus card']
     const textMap = {
-      Brown: 'WHEN ACTIVATED',
-      White: 'WHEN PLAYED',
-      Pink: 'ONCE BETWEEN TURNS',
-      Teal: 'ROUND END',
-      Yellow: 'GAME END'
+      brown: 'WHEN ACTIVATED',
+      white: 'WHEN PLAYED',
+      pink: 'ONCE BETWEEN TURNS',
+      teal: 'ROUND END',
+      yellow: 'GAME END'
     }
 
     return this.powerTitle
-      .replace(/\[power\]/g, escapePower(powerKeys.find(key => this.card[key])))
+      .replace(/\[power\]/g, powerKeys.filter(key => this.card[key]).map(escapePower).join(''))
       .replace(/\[text\]/g, this.translate.transform(textMap[this.card.Color]))
   }
 
@@ -95,8 +95,7 @@ export class BirdCardComponent implements OnInit {
     )
   }
 
-  displayName(card: BirdCard): string
-  {
+  displayName(card: BirdCard): string {
     const showBonusCardsMatchSymbols: boolean = this.parameters$['Show bonus cards match symbols'].Value as unknown as boolean;
     let bonusIcons = "";
     if (showBonusCardsMatchSymbols) {
@@ -116,6 +115,24 @@ export class BirdCardComponent implements OnInit {
     return card['Common name'] + " " + bonusIcons;
   }
 
+  isExpansion(): boolean {
+    const packNames: string[] = Object.values(ExpansionType);
+    return packNames.includes(this.card.Expansion)
+  }
+
+  getSwiftStartIcon(): string {
+    const iconMap = {
+      [ExpansionType.Core]: 'swiftstart',
+      [ExpansionType.Asia]: 'swiftstart-asia',
+    }
+    return this.card['Swift Start'] ? iconMap[this.card.Expansion] || '' : ''
+  }
+
+  isPromo(): boolean {
+    const packNames: string[] = Object.values(PackType);
+    return packNames.includes(this.card.Expansion)
+  }
+
   getPackTitle() {
     const packTitleMap = {
       fanAsia: 'Additional Asian Avians',
@@ -126,6 +143,6 @@ export class BirdCardComponent implements OnInit {
       fanUS: 'Birds of U.S.A.'
     }
 
-    return this.translate.transform(packTitleMap[this.card.Pack]);
+    return this.translate.transform(packTitleMap[this.card.Expansion]);
   }
 }

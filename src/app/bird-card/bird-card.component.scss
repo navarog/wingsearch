@@ -236,7 +236,22 @@
 .footer {
     height: 9%;
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.footer-right {
+    display: flex;
     flex-direction: row-reverse;
+}
+
+.swift-start-indicator {
+    height: 75%;
+    border-bottom-left-radius: 8px;
 }
 
 .expansion-indicator {

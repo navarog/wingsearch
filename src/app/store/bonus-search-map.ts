@@ -131,13 +131,13 @@ export const bonusSearchMap = {
         return !!birdCard['Bonus card'] || !!birdCard['Endangered Species Protector']
     }),
     1041: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard.Forest
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Forest
     }),
     1042: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Forest
     }),
     1043: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard.Grassland
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Grassland
     }),
     1044: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Grassland
@@ -149,7 +149,7 @@ export const bonusSearchMap = {
         return birdCard['Egg capacity'] <= 2
     }),
     1047: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Nest type'] === 'Wild' && !!birdCard.Wetland
+        return birdCard['Nest type'] === 'wild' && !!birdCard.Wetland
     }),
     1048: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Wetland
