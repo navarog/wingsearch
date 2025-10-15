@@ -167,8 +167,8 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            (allowedExpansions.includes(card.Expansion) 
-                || allowedPromoPacks.includes(card.Expansion))
+            (allowedExpansions.includes(card.Set) 
+                || allowedPromoPacks.includes(card.Set))
             && (isBonusCard(card) || (
                 allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
                 eatsMustFood(card, mustFood) &&
@@ -178,7 +178,7 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            isBonusCard(card) || (action.eggs.min <= card['Egg capacity'] && action.eggs.max >= card['Egg capacity'])
+            isBonusCard(card) || (action.eggs.min <= card['Egg limit'] && action.eggs.max >= card['Egg limit'])
         )
 
         displayedCards = displayedCards.filter(card =>
@@ -239,7 +239,7 @@ const reducer = createReducer(
 
         activeBonusCards = activeBonusCards
             .filter(card => !action.bonus.includes(card.id))
-            .filter(card => action.expansion[card.Expansion])
+            .filter(card => action.expansion[card.Set])
 
         return { ...state, activeBonusCards }
     }),

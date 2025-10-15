@@ -34,7 +34,7 @@ export class BirdCardComponent implements OnInit {
 
   ngOnInit(): void {
     this.habitats = ['Wetland', 'Grassland', 'Forest'].filter(h => this.card[h])
-    this.eggs = Array(this.card['Egg capacity'])
+    this.eggs = Array(this.card['Egg limit'])
     this.wingspan = this.card['Wingspan'] + (this.card['Wingspan'] !== '*' ? 'cm' : '')
     this.assetPack$ = this.store.select(({ app }) => app.assetPack);
     this.store.select(({ app }) => app.parameters)
@@ -119,7 +119,7 @@ export class BirdCardComponent implements OnInit {
 
   isExpansion(): boolean {
     const packNames: string[] = Object.values(ExpansionType);
-    return packNames.includes(this.card.Expansion)
+    return packNames.includes(this.card.Set)
   }
 
   getSwiftStartIcon(): string {
@@ -127,12 +127,12 @@ export class BirdCardComponent implements OnInit {
       [ExpansionType.Core]: 'swiftstart',
       [ExpansionType.Asia]: 'swiftstart-asia',
     }
-    return this.card['Swift Start'] ? iconMap[this.card.Expansion] || '' : ''
+    return this.card['Swift Start'] ? iconMap[this.card.Set] || '' : ''
   }
 
   isPromo(): boolean {
     const packNames: string[] = Object.values(PackType);
-    return packNames.includes(this.card.Expansion)
+    return packNames.includes(this.card.Set)
   }
 
   getPackTitle() {
@@ -145,6 +145,6 @@ export class BirdCardComponent implements OnInit {
       fanUS: 'Birds of U.S.A.'
     }
 
-    return this.translate.transform(packTitleMap[this.card.Expansion]);
+    return this.translate.transform(packTitleMap[this.card.Set]);
   }
 }

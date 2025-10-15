@@ -26,7 +26,7 @@ export const bonusSearchMap = {
         return !!birdCard.Seed || !!birdCard['Bird Feeder']
     }),
     1006: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] >= 4
+        return birdCard['Egg limit'] >= 4
     }),
     1007: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard.Cartographer
@@ -71,7 +71,7 @@ export const bonusSearchMap = {
         return birdCard['Wild (food)'] > 0 || !!birdCard['Omnivore Expert']
     }),
     1021: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] > 0
+        return birdCard['Egg limit'] > 0
     }),
     1022: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Passerine Specialist']
@@ -125,7 +125,7 @@ export const bonusSearchMap = {
         return !!birdCard.Wetland
     }),
     1039: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] > 0
+        return birdCard['Egg limit'] > 0
     }),
     1040: new BonusMatch(true, (birdCard: BirdCard) => {
         return !!birdCard['Bonus card'] || !!birdCard['Endangered Species Protector']
@@ -146,7 +146,7 @@ export const bonusSearchMap = {
         return !!birdCard['Power text']?.match(/((([Cc]ache)|([Cc]aching)) [1-9] .*\[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*(([Cc]ache)|([Cc]aching)))/)
     }),
     1046: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Egg capacity'] <= 2
+        return birdCard['Egg limit'] <= 2
     }),
     1047: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Nest type'] === 'wild' && !!birdCard.Wetland
@@ -178,7 +178,7 @@ export function dynamicPercentage(birds: BirdCard[], expansion: Expansion) {
     (acc, val) => val[1] ? [...acc, val[0]] : acc, []
   )
 
-  const selectedBirds = birds.filter(card => allowedExpansions.includes(card.Expansion))
+  const selectedBirds = birds.filter(card => allowedExpansions.includes(card.Set))
 
   return (card: BonusCard) =>
   {

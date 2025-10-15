@@ -1,4 +1,4 @@
-<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [ngClass]="card.Expansion" [ngStyle]="{'height.px': cardHeight}">
+<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [ngClass]="card.Set" [ngStyle]="{'height.px': cardHeight}">
     <div class="title" [innerHTML]="card['Name'] | iconize"
         [ngStyle]="{'font-size.px': cardHeight * 0.056, 'line-height.px': cardHeight * 0.056 + 1}"></div>
 
