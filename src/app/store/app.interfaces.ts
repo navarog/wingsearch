@@ -23,7 +23,7 @@ export interface BirdCard {
     'Common name': string
     'Native name': String
     'Scientific name': string
-    Expansion: ExpansionType
+    Set: ExpansionType
     Pack: PackType
     Color: Color | null
     PowerCategory: PowerCategory | null
@@ -34,7 +34,7 @@ export interface BirdCard {
     'Bonus card': string | null
     'Victory points': number
     'Nest type': NestType
-    'Egg capacity': number
+    'Egg limit': number
     Wingspan: string
     Forest: string | null
     Grassland: string | null
@@ -147,7 +147,7 @@ export interface Ruling {
 export interface BonusCard {
     id: number
     Name: string
-    Expansion: ExpansionType
+    Set: ExpansionType
     Automa: string | null
     Condition: string
     'Explanatory text': null | string
