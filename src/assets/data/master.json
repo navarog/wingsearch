@@ -43273,7 +43273,7 @@
     "Scientific name":"Cygnus columbianus",
     "Set":"promoUK",
     "Color":"pink",
-    "Power text":"When another player takes the \u201cdraw cards\u201d action, draw 1 from the deck at the end of their turn.",
+    "Power text":"When another player takes the \u201cdraw cards\u201d action, draw 1 [card] from the deck at the end of their turn.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
