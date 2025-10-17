@@ -7,7 +7,7 @@
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
         </mat-card>
 
-        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card['Name']" *ngIf="isBonusCard(card)"
+        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card['Bonus card']" *ngIf="isBonusCard(card)"
             class="fill-parent" routerLink="/card/{{card.id}}">
             <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
         </mat-card>

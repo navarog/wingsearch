@@ -88,12 +88,12 @@ export const initialState: AppState = {
         core: cookies.getCookie('expansion.core') !== '0',
     },
     promoPack: {
-        fanAsia: cookies.getCookie('expansion.fanAsia') !== '0',
-        fanCA: cookies.getCookie('expansion.fanCA') !== '0',
-        fanEurope: cookies.getCookie('expansion.fanEurope') !== '0',
-        fanNZ: cookies.getCookie('expansion.fanNZ') !== '0',
-        fanUK: cookies.getCookie('expansion.fanUK') !== '0',
-        fanUS: cookies.getCookie('expansion.fanUS') !== '0',
+        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
+        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
+        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
+        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
+        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
+        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
     },
     assetPack: cookies.getCookie('assetPack') || 'silhouette'
 }
@@ -127,7 +127,7 @@ const reducer = createReducer(
             )
         } else {
             const bonusCards = Array.from(new Set([
-                'Name',
+                'Bonus card',
                 'Condition',
                 'VP',
             ].reduce((acc, val) => {
@@ -220,7 +220,7 @@ const reducer = createReducer(
 
     on(appActions.bonusCardSearch, (state, action) => {
         let activeBonusCards = Array.from(new Set([
-            'Name',
+            'Bonus card',
             'Condition',
             'VP',
         ].reduce((acc, val) => {
@@ -269,7 +269,7 @@ const reducer = createReducer(
         }
 
         const translateBonuses = (card: BonusCard) => {
-            const translatedKeys = ['Name', 'Condition', 'Explanatory text', 'VP', 'Note']
+            const translatedKeys = ['Bonus card', 'Condition', 'Explanatory text', 'VP', 'Note']
             const translated = action.payload.bonuses[card.id]
             const englishBonus = englishBonusCardsMap[card.id]
 
@@ -284,7 +284,7 @@ const reducer = createReducer(
 
         const sortCardsByKey = (key: string, automaLast = false) => {
             if (automaLast)
-                return (a, b) => ((Number(!!a.Name.match(/\[automa\]/)) - Number(!!b.Name.match(/\[automa\]/))) ||
+                return (a, b) => ((Number(!!a['Bonus card'].match(/\[automa\]/)) - Number(!!b['Bonus card'].match(/\[automa\]/))) ||
                     a[key].localeCompare(b[key], action.language))
             else
                 return (a, b) => a[key].localeCompare(b[key], action.language)
@@ -294,13 +294,13 @@ const reducer = createReducer(
         const birdCards: BirdCard[] = BirdCards.map(translateBirds).sort(sortCardsByKey('Common name'))
 
         // @ts-ignore
-        const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Name', true))
+        const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
 
         const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
         const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
             .map(translateBirds).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
-            .map(translateBonuses).sort(sortCardsByKey('Name', true))
+            .map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
             .map(dynamicPercentage(birdCards, action.expansion))
 
         return {
@@ -332,7 +332,7 @@ const reducer = createReducer(
 
         const sortCardsByKey = (key: string, automaLast = false) => {
             if (automaLast)
-                return (a, b) => ((Number(!!a.Name.match(/\[automa\]/)) - Number(!!b.Name.match(/\[automa\]/))) ||
+                return (a, b) => ((Number(!!a['Bonus card'].match(/\[automa\]/)) - Number(!!b['Bonus card'].match(/\[automa\]/))) ||
                     a[key].localeCompare(b[key], 'en'))
             else
                 return (a, b) => a[key].localeCompare(b[key], 'en')
@@ -342,7 +342,7 @@ const reducer = createReducer(
         const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
             .map(birdToEnglish).sort(sortCardsByKey('Common name'))
         const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
-            .map(bonusToEnglish).sort(sortCardsByKey('Name', true))
+            .map(bonusToEnglish).sort(sortCardsByKey('Bonus card', true))
             // @ts-ignore
             .map(dynamicPercentage(BirdCards, action.expansion))
 

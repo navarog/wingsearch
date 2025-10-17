@@ -1,7 +1,7 @@
 [
   {
     "id":2000,
-    "Name":"Bird in Forest",
+    "Goal":"Bird in Forest",
     "Set":"core",
     "Duet":null,
     "Condition":"[bird] in [forest]",
@@ -9,7 +9,7 @@
   },
   {
     "id":2001,
-    "Name":"Bird in Grassland",
+    "Goal":"Bird in Grassland",
     "Set":"core",
     "Duet":null,
     "Condition":"[bird] in [grassland]",
@@ -17,7 +17,7 @@
   },
   {
     "id":2002,
-    "Name":"Bird in Wetland",
+    "Goal":"Bird in Wetland",
     "Set":"core",
     "Duet":null,
     "Condition":"[bird] in [wetland]",
@@ -25,7 +25,7 @@
   },
   {
     "id":2003,
-    "Name":"Birds Cards in Hand",
+    "Goal":"Birds Cards in Hand",
     "Set":"european",
     "Duet":null,
     "Condition":"[card] in hand",
@@ -33,7 +33,7 @@
   },
   {
     "id":2004,
-    "Name":"Birds Worth over 4 Points",
+    "Goal":"Birds Worth over 4 Points",
     "Set":"european",
     "Duet":null,
     "Condition":"[bird] worth >4[point]",
@@ -41,7 +41,7 @@
   },
   {
     "id":2005,
-    "Name":"Birds in 1 Row",
+    "Goal":"Birds in 1 Row",
     "Set":"european",
     "Duet":null,
     "Condition":"[bird] in one row",
@@ -49,7 +49,7 @@
   },
   {
     "id":2006,
-    "Name":"Birds with No Eggs",
+    "Goal":"Birds with No Eggs",
     "Set":"european",
     "Duet":null,
     "Condition":"[bird] with no [egg]",
@@ -57,7 +57,7 @@
   },
   {
     "id":2007,
-    "Name":"Birds with Tucked Cards",
+    "Goal":"Birds with Tucked Cards",
     "Set":"european",
     "Duet":null,
     "Condition":"[flocking] birds with tucked cards",
@@ -65,7 +65,7 @@
   },
   {
     "id":2008,
-    "Name":"Bowl Nest Bird with Egg",
+    "Goal":"Bowl Nest Bird with Egg",
     "Set":"core",
     "Duet":null,
     "Condition":"[bowl] [bird] with [egg]",
@@ -73,7 +73,7 @@
   },
   {
     "id":2009,
-    "Name":"Brown Powers",
+    "Goal":"Brown Powers",
     "Set":"european",
     "Duet":null,
     "Condition":"brown powers",
@@ -81,7 +81,7 @@
   },
   {
     "id":2010,
-    "Name":"Cavity Nest Bird with Egg",
+    "Goal":"Cavity Nest Bird with Egg",
     "Set":"core",
     "Duet":null,
     "Condition":"[cavity] [bird] with [egg]",
@@ -89,7 +89,7 @@
   },
   {
     "id":2011,
-    "Name":"Egg in Bowl Nest",
+    "Goal":"Egg in Bowl Nest",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [bowl]",
@@ -97,7 +97,7 @@
   },
   {
     "id":2012,
-    "Name":"Egg in Cavity Nest",
+    "Goal":"Egg in Cavity Nest",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [cavity]",
@@ -105,7 +105,7 @@
   },
   {
     "id":2013,
-    "Name":"Egg in Forest",
+    "Goal":"Egg in Forest",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [forest]",
@@ -113,7 +113,7 @@
   },
   {
     "id":2014,
-    "Name":"Egg in Grassland",
+    "Goal":"Egg in Grassland",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [grassland]",
@@ -121,7 +121,7 @@
   },
   {
     "id":2015,
-    "Name":"Egg in Ground Nest",
+    "Goal":"Egg in Ground Nest",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [ground]",
@@ -129,7 +129,7 @@
   },
   {
     "id":2016,
-    "Name":"Egg in Platform Nest",
+    "Goal":"Egg in Platform Nest",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [platform]",
@@ -137,7 +137,7 @@
   },
   {
     "id":2017,
-    "Name":"Egg in Wetland",
+    "Goal":"Egg in Wetland",
     "Set":"core",
     "Duet":null,
     "Condition":"[egg] in [wetland]",
@@ -145,7 +145,7 @@
   },
   {
     "id":2018,
-    "Name":"Filled Columns",
+    "Goal":"Filled Columns",
     "Set":"european",
     "Duet":null,
     "Condition":"filled columns",
@@ -153,7 +153,7 @@
   },
   {
     "id":2019,
-    "Name":"Food Cost of Played Birds",
+    "Goal":"Food Cost of Played Birds",
     "Set":"european",
     "Duet":null,
     "Condition":"food cost of played [bird]",
@@ -161,7 +161,7 @@
   },
   {
     "id":2020,
-    "Name":"Food in Supply",
+    "Goal":"Food in Supply",
     "Set":"european",
     "Duet":null,
     "Condition":"[wild] in personal supply",
@@ -169,7 +169,7 @@
   },
   {
     "id":2021,
-    "Name":"Ground Nest Bird with Egg",
+    "Goal":"Ground Nest Bird with Egg",
     "Set":"core",
     "Duet":null,
     "Condition":"[ground] [bird] with [egg]",
@@ -177,7 +177,7 @@
   },
   {
     "id":2022,
-    "Name":"Platform Nest Bird with Egg",
+    "Goal":"Platform Nest Bird with Egg",
     "Set":"core",
     "Duet":null,
     "Condition":"[platform] [bird] with [egg]",
@@ -185,7 +185,7 @@
   },
   {
     "id":2023,
-    "Name":"Sets of Eggs in 3 Habitats",
+    "Goal":"Sets of Eggs in 3 Habitats",
     "Set":"core",
     "Duet":null,
     "Condition":"sets of [egg][egg][egg] in [wetland][grassland][forest]",
@@ -193,7 +193,7 @@
   },
   {
     "id":2024,
-    "Name":"Total Bird",
+    "Goal":"Total Bird",
     "Set":"core",
     "Duet":null,
     "Condition":"total [bird]",
@@ -201,7 +201,7 @@
   },
   {
     "id":2025,
-    "Name":"White & No Powers",
+    "Goal":"White & No Powers",
     "Set":"european",
     "Duet":null,
     "Condition":"white & no powers",
@@ -209,7 +209,7 @@
   },
   {
     "id":2026,
-    "Name":"Beak Pointing Left",
+    "Goal":"Beak Pointing Left",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[beak-left] beak poiting left",
@@ -217,7 +217,7 @@
   },
   {
     "id":2027,
-    "Name":"Beak Pointing Right",
+    "Goal":"Beak Pointing Right",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[beak-right] beak pointing right",
@@ -225,7 +225,7 @@
   },
   {
     "id":2028,
-    "Name":"Birds Worth Less than or Equal to 3 Points",
+    "Goal":"Birds Worth Less than or Equal to 3 Points",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[bird] worth \u22643[point]",
@@ -233,7 +233,7 @@
   },
   {
     "id":2029,
-    "Name":"Cubes on \"Play a Bird\"",
+    "Goal":"Cubes on \"Play a Bird\"",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[cube] cubes on \"play a bird\"",
@@ -241,7 +241,7 @@
   },
   {
     "id":2030,
-    "Name":"Fruit + Seed in Food Cost of Your Birds",
+    "Goal":"Fruit + Seed in Food Cost of Your Birds",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[fruit] + [seed] in food cost of your birds",
@@ -249,7 +249,7 @@
   },
   {
     "id":2031,
-    "Name":"Invertebrate in Food Cost of Your Birds",
+    "Goal":"Invertebrate in Food Cost of Your Birds",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[invertebrate] in food cost of your birds",
@@ -257,7 +257,7 @@
   },
   {
     "id":2032,
-    "Name":"No Goal",
+    "Goal":"No Goal",
     "Set":"oceania",
     "Duet":null,
     "Condition":"no goal",
@@ -265,7 +265,7 @@
   },
   {
     "id":2033,
-    "Name":"Rodent + Fish in Food Cost of Your Birds",
+    "Goal":"Rodent + Fish in Food Cost of Your Birds",
     "Set":"oceania",
     "Duet":null,
     "Condition":"[rodent] + [fish] in food cost of your birds",
@@ -273,7 +273,7 @@
   },
   {
     "id":2034,
-    "Name":"Fewest Tokens on Bonus Spaces",
+    "Goal":"Fewest Tokens on Bonus Spaces",
     "Set":"asia",
     "Duet":"X",
     "Condition":"fewest [duet-token] on bonus spaces",
@@ -281,7 +281,7 @@
   },
   {
     "id":2035,
-    "Name":"Food Symbols",
+    "Goal":"Food Symbols",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] on [fish][fruit][rodent][seed][invertebrate]",
@@ -289,7 +289,7 @@
   },
   {
     "id":2036,
-    "Name":"Horizontal Rows with at Least One of Your Tokens",
+    "Goal":"Horizontal Rows with at Least One of Your Tokens",
     "Set":"asia",
     "Duet":"X",
     "Condition":"horizontal rows with at least one of your [duet-token]",
@@ -297,7 +297,7 @@
   },
   {
     "id":2037,
-    "Name":"In Forest",
+    "Goal":"In Forest",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] in [forest]",
@@ -305,7 +305,7 @@
   },
   {
     "id":2038,
-    "Name":"In Grassland",
+    "Goal":"In Grassland",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] in [grassland]",
@@ -313,7 +313,7 @@
   },
   {
     "id":2039,
-    "Name":"In Wetland",
+    "Goal":"In Wetland",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] in [wetland]",
@@ -321,7 +321,7 @@
   },
   {
     "id":2040,
-    "Name":"Nest Symbols",
+    "Goal":"Nest Symbols",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] on [bowl][cavity][ground][platform]",
@@ -329,7 +329,7 @@
   },
   {
     "id":2041,
-    "Name":"Not on Edge of Map",
+    "Goal":"Not on Edge of Map",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] not on edge of map",
@@ -337,7 +337,7 @@
   },
   {
     "id":2042,
-    "Name":"On Edge of Map",
+    "Goal":"On Edge of Map",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] on edge of map",
@@ -345,7 +345,7 @@
   },
   {
     "id":2043,
-    "Name":"Pairs of Matching Symbols",
+    "Goal":"Pairs of Matching Symbols",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] on pairs of matching symbols",
@@ -353,7 +353,7 @@
   },
   {
     "id":2044,
-    "Name":"Tokens in Any One Horizontal Row",
+    "Goal":"Tokens in Any One Horizontal Row",
     "Set":"asia",
     "Duet":"X",
     "Condition":"[duet-token] in any one horizontal row",
@@ -361,7 +361,7 @@
   },
   {
     "id":2045,
-    "Name":"Total Duet Tokens",
+    "Goal":"Total Duet Tokens",
     "Set":"asia",
     "Duet":"X",
     "Condition":"total [duet-token] on map",

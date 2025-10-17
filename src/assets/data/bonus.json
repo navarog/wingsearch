@@ -1,7 +1,7 @@
 [
   {
     "id":1000,
-    "Name":"Anatomist",
+    "Bonus card":"Anatomist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with body parts in their names",
@@ -23,7 +23,7 @@
   },
   {
     "id":1039,
-    "Name":"Avian Theriogenologist",
+    "Bonus card":"Avian Theriogenologist",
     "Set":"asia",
     "Automa":null,
     "Condition":"Birds with completely full nests",
@@ -38,7 +38,7 @@
   },
   {
     "id":1001,
-    "Name":"Backyard Birder",
+    "Bonus card":"Backyard Birder",
     "Set":"core",
     "Automa":null,
     "Condition":"Birds worth less than 4 points",
@@ -53,7 +53,7 @@
   },
   {
     "id":1002,
-    "Name":"Behaviorist",
+    "Bonus card":"Behaviorist",
     "Set":"european",
     "Automa":null,
     "Condition":"For each column that contains birds with 3 different power colors:",
@@ -68,7 +68,7 @@
   },
   {
     "id":1003,
-    "Name":"Bird Bander",
+    "Bonus card":"Bird Bander",
     "Set":"european",
     "Automa":"X",
     "Condition":"Birds that can live in multiple habitats",
@@ -83,7 +83,7 @@
   },
   {
     "id":1004,
-    "Name":"Bird Counter",
+    "Bonus card":"Bird Counter",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with a [flocking] power",
@@ -101,7 +101,7 @@
   },
   {
     "id":1005,
-    "Name":"Bird Feeder",
+    "Bonus card":"Bird Feeder",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat [seed]",
@@ -116,7 +116,7 @@
   },
   {
     "id":1006,
-    "Name":"Breeding Manager",
+    "Bonus card":"Breeding Manager",
     "Set":"core",
     "Automa":null,
     "Condition":"Birds that have at least 4 eggs laid on them",
@@ -131,7 +131,7 @@
   },
   {
     "id":1007,
-    "Name":"Cartographer",
+    "Bonus card":"Cartographer",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with geography terms in their name",
@@ -153,7 +153,7 @@
   },
   {
     "id":1008,
-    "Name":"Citizen Scientist",
+    "Bonus card":"Citizen Scientist",
     "Set":"european",
     "Automa":"X",
     "Condition":"Birds with tucked cards",
@@ -171,7 +171,7 @@
   },
   {
     "id":1009,
-    "Name":"Diet Specialist",
+    "Bonus card":"Diet Specialist",
     "Set":"european",
     "Automa":"X",
     "Condition":"Birds with a food cost of 3 food",
@@ -186,7 +186,7 @@
   },
   {
     "id":1010,
-    "Name":"Ecologist",
+    "Bonus card":"Ecologist",
     "Set":"core",
     "Automa":null,
     "Condition":"Birds in your habitat with the fewest birds.",
@@ -201,7 +201,7 @@
   },
   {
     "id":1011,
-    "Name":"Enclosure Builder",
+    "Bonus card":"Enclosure Builder",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with [ground] nests",
@@ -216,7 +216,7 @@
   },
   {
     "id":1040,
-    "Name":"Endangered Species Protector",
+    "Bonus card":"Endangered Species Protector",
     "Set":"asia",
     "Automa":null,
     "Condition":"Birds that allow you to score or draw bonus cards",
@@ -231,7 +231,7 @@
   },
   {
     "id":1012,
-    "Name":"Ethologist",
+    "Bonus card":"Ethologist",
     "Set":"european",
     "Automa":null,
     "Condition":"In any one habitat:",
@@ -246,7 +246,7 @@
   },
   {
     "id":1013,
-    "Name":"Falconer",
+    "Bonus card":"Falconer",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with a [predator] power",
@@ -264,7 +264,7 @@
   },
   {
     "id":1014,
-    "Name":"Fishery Manager",
+    "Bonus card":"Fishery Manager",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat [fish]",
@@ -279,7 +279,7 @@
   },
   {
     "id":1015,
-    "Name":"Food Web Expert",
+    "Bonus card":"Food Web Expert",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat only [invertebrate]",
@@ -294,7 +294,7 @@
   },
   {
     "id":1034,
-    "Name":"Forest Data Analyst",
+    "Bonus card":"Forest Data Analyst",
     "Set":"oceania",
     "Automa":null,
     "Condition":"Consecutive birds in [forest] with ascending or descending wingspans",
@@ -312,7 +312,7 @@
   },
   {
     "id":1041,
-    "Name":"Forest Population Monitor",
+    "Bonus card":"Forest Population Monitor",
     "Set":"asia",
     "Automa":null,
     "Condition":"Different nest types in [forest]",
@@ -327,7 +327,7 @@
   },
   {
     "id":1042,
-    "Name":"Forest Ranger",
+    "Bonus card":"Forest Ranger",
     "Set":"asia",
     "Automa":null,
     "Condition":"Consecutive birds in [forest] with ascending or descending scores",
@@ -342,7 +342,7 @@
   },
   {
     "id":1016,
-    "Name":"Forester",
+    "Bonus card":"Forester",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [forest]",
@@ -357,7 +357,7 @@
   },
   {
     "id":1035,
-    "Name":"Grassland Data Analyst",
+    "Bonus card":"Grassland Data Analyst",
     "Set":"oceania",
     "Automa":null,
     "Condition":"Consecutive birds in [grassland] with ascending or descending wingspans",
@@ -375,7 +375,7 @@
   },
   {
     "id":1043,
-    "Name":"Grassland Population Monitor",
+    "Bonus card":"Grassland Population Monitor",
     "Set":"asia",
     "Automa":null,
     "Condition":"Different nest types in [grassland]",
@@ -390,7 +390,7 @@
   },
   {
     "id":1044,
-    "Name":"Grassland Ranger",
+    "Bonus card":"Grassland Ranger",
     "Set":"asia",
     "Automa":null,
     "Condition":"Consecutive birds in [grassland] with ascending or descending scores",
@@ -405,7 +405,7 @@
   },
   {
     "id":1017,
-    "Name":"Historian",
+    "Bonus card":"Historian",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds named after a person",
@@ -420,7 +420,7 @@
   },
   {
     "id":1018,
-    "Name":"Large Bird Specialist",
+    "Bonus card":"Large Bird Specialist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with wingspans over 65 cm",
@@ -435,7 +435,7 @@
   },
   {
     "id":1036,
-    "Name":"Mechanical Engineer",
+    "Bonus card":"Mechanical Engineer",
     "Set":"oceania",
     "Automa":"X",
     "Condition":"Sets of the 4 nest types",
@@ -450,7 +450,7 @@
   },
   {
     "id":1019,
-    "Name":"Nest Box Builder",
+    "Bonus card":"Nest Box Builder",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with [cavity] nests",
@@ -465,7 +465,7 @@
   },
   {
     "id":1020,
-    "Name":"Omnivore Specialist",
+    "Bonus card":"Omnivore Specialist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat [wild]",
@@ -483,7 +483,7 @@
   },
   {
     "id":1021,
-    "Name":"Oologist",
+    "Bonus card":"Oologist",
     "Set":"core",
     "Automa":null,
     "Condition":"Birds that have at least 1 egg laid on them",
@@ -498,7 +498,7 @@
   },
   {
     "id":1022,
-    "Name":"Passerine Specialist",
+    "Bonus card":"Passerine Specialist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with wingspans 30 cm or less",
@@ -513,7 +513,7 @@
   },
   {
     "id":1045,
-    "Name":"Pellet Dissector",
+    "Bonus card":"Pellet Dissector",
     "Set":"asia",
     "Automa":null,
     "Condition":"[fish] and [rodent] tokens cached on birds",
@@ -528,7 +528,7 @@
   },
   {
     "id":1023,
-    "Name":"Photographer",
+    "Bonus card":"Photographer",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with colors in their names",
@@ -554,7 +554,7 @@
   },
   {
     "id":1024,
-    "Name":"Platform Builder",
+    "Bonus card":"Platform Builder",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with [platform] nests",
@@ -569,7 +569,7 @@
   },
   {
     "id":1025,
-    "Name":"Prairie Manager",
+    "Bonus card":"Prairie Manager",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [grassland]",
@@ -584,7 +584,7 @@
   },
   {
     "id":1026,
-    "Name":"Rodentologist",
+    "Bonus card":"Rodentologist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat [rodent]",
@@ -602,7 +602,7 @@
   },
   {
     "id":1037,
-    "Name":"Site Selection Expert",
+    "Bonus card":"Site Selection Expert",
     "Set":"oceania",
     "Automa":null,
     "Condition":"Columns with a matching pair or trio of nests",
@@ -620,7 +620,7 @@
   },
   {
     "id":1046,
-    "Name":"Small Clutch Specialist",
+    "Bonus card":"Small Clutch Specialist",
     "Set":"asia",
     "Automa":null,
     "Condition":"Birds with an egg limit of 2 or less",
@@ -635,7 +635,7 @@
   },
   {
     "id":1027,
-    "Name":"Visionary Leader",
+    "Bonus card":"Visionary Leader",
     "Set":"core",
     "Automa":null,
     "Condition":"Bird cards in hand at end of game",
@@ -650,7 +650,7 @@
   },
   {
     "id":1028,
-    "Name":"Viticulturalist",
+    "Bonus card":"Viticulturalist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that eat [fruit]",
@@ -665,7 +665,7 @@
   },
   {
     "id":1038,
-    "Name":"Wetland Data Analyst",
+    "Bonus card":"Wetland Data Analyst",
     "Set":"oceania",
     "Automa":null,
     "Condition":"Consecutive birds in [wetland] with ascending or descending wingspans",
@@ -683,7 +683,7 @@
   },
   {
     "id":1047,
-    "Name":"Wetland Population Monitor",
+    "Bonus card":"Wetland Population Monitor",
     "Set":"asia",
     "Automa":null,
     "Condition":"Different nest types in [wetland]",
@@ -698,7 +698,7 @@
   },
   {
     "id":1048,
-    "Name":"Wetland Ranger",
+    "Bonus card":"Wetland Ranger",
     "Set":"asia",
     "Automa":null,
     "Condition":"Consecutive birds in [wetland] with ascending or descending scores",
@@ -713,7 +713,7 @@
   },
   {
     "id":1029,
-    "Name":"Wetland Scientist",
+    "Bonus card":"Wetland Scientist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds that can only live in [wetland]",
@@ -728,7 +728,7 @@
   },
   {
     "id":1030,
-    "Name":"Wildlife Gardener",
+    "Bonus card":"Wildlife Gardener",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds with [bowl] nests",
@@ -743,7 +743,7 @@
   },
   {
     "id":1049,
-    "Name":"Winter Feeder",
+    "Bonus card":"Winter Feeder",
     "Set":"asia",
     "Automa":null,
     "Condition":"Food remaining in your supply at game end",
@@ -758,7 +758,7 @@
   },
   {
     "id":1031,
-    "Name":"[Fan Made] Caprimulgiform Specialist",
+    "Bonus card":"[Fan Made] Caprimulgiform Specialist",
     "Set":"core",
     "Automa":"X",
     "Condition":"Birds of the orders Caprimulgiformes and Apodiformes",
@@ -773,7 +773,7 @@
   },
   {
     "id":1032,
-    "Name":"[automa] Autwitcher",
+    "Bonus card":"[automa] Autwitcher",
     "Set":"european",
     "Automa":"X",
     "Condition":"Birds that are worth 3 or 4 points",
@@ -788,7 +788,7 @@
   },
   {
     "id":1050,
-    "Name":"[automa] Avid Asian Avian Admirer",
+    "Bonus card":"[automa] Avid Asian Avian Admirer",
     "Set":"asia",
     "Automa":"X",
     "Condition":"<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>2<\/b> or <b>3<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>3<\/b> or <b>4<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>4<\/b> or <b>5<\/b> points<\/td><\/tr><\/table>",
@@ -803,7 +803,7 @@
   },
   {
     "id":1033,
-    "Name":"[automa] RASPB Life Fellow",
+    "Bonus card":"[automa] RASPB Life Fellow",
     "Set":"european",
     "Automa":"X",
     "Condition":"Birds that are worth 5, 6, or 7 points",
@@ -818,7 +818,7 @@
   },
   {
     "id":1051,
-    "Name":"[automa] Rare Species Lister",
+    "Bonus card":"[automa] Rare Species Lister",
     "Set":"asia",
     "Automa":"X",
     "Condition":"<table><th>Difficulty<\/th><th>Birds that are worth<\/th><tr><td>Eaglet<\/td><td><b>4<\/b>, <b>5<\/b>, or <b>6<\/b> points<\/td><\/tr><tr><td>Eagle<\/td><td><b>5<\/b>, <b>6<\/b>, or <b>7<\/b> points<\/td><\/tr><tr><td>Eagle-eyed Eagle<\/td><td><b>6<\/b>, <b>7<\/b>, or <b>8<\/b> points<\/td><\/tr><\/table>",

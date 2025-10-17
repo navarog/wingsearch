@@ -81,7 +81,7 @@
   {
     "Common name":"Acadian Flycatcher",
     "Scientific name":"Empidonax virescens",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Draw and discard 1 [card] from the deck. If it has [invertebrate] in its food cost, gain 1 [invertebrate] from the supply and cache 1 [invertebrate] from the supply on this bird.",
     "Predator":null,
@@ -251,7 +251,7 @@
   {
     "Common name":"Alpine Swift",
     "Scientific name":"Tachymarptis melba",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"white",
     "Power text":"Place the action cube used to play this bird in the corresponding habitat, then take that habitat's action, including activation of \"When Activated\" (brown) powers.",
     "Predator":null,
@@ -488,7 +488,7 @@
   {
     "Common name":"American Cliff Swallow",
     "Scientific name":"Petrochelidon pyrrhonota",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"yellow",
     "Power text":"Lay 1 [egg] on each bird in this bird\u2019s row and column.",
     "Predator":null,
@@ -569,7 +569,7 @@
     "Scientific name":"Fulica americana",
     "Set":"core",
     "Color":"brown",
-    "Power text":"Player(s) with the fewest birds in their [wetland] draw 1 [card].",
+    "Power text":"Tuck 1 [card] from your hand behind this bird. If you do, draw 1 [card].",
     "Predator":null,
     "Flocking":"X",
     "Bonus card":null,
@@ -1234,7 +1234,7 @@
   {
     "Common name":"American Wigeon",
     "Scientific name":"Mareca americana",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"All players may tuck 1 [card] from their hand behind a bird in their [wetland]. If you do, also tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -2414,7 +2414,7 @@
     "Scientific name":"Acrocephalus australis",
     "Set":"oceania",
     "Color":"white",
-    "Power text":"Play another bird in your wetland. Pay its normal cost with a 1 [egg] discount.",
+    "Power text":"Play another bird in your [wetland]. Pay its normal cost with a 1 [egg] discount.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
@@ -2891,7 +2891,7 @@
   {
     "Common name":"Bali Starling",
     "Scientific name":"Leucopsar rothschildi",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"Draw 1 new bonus card. Then, up to 3 times, discard the most recently drawn bonus card to draw 1 new bonus card.",
     "Predator":null,
@@ -3645,7 +3645,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Sterre Spekman illustrated this bird using color pencils.",
+    "Fan Art flavor text":"Sterre Spekman illustrated this bird using color pencils. ",
     "Fan art beak direction":"L",
     "Anatomist":null,
     "Cartographer":null,
@@ -3700,7 +3700,7 @@
   {
     "Common name":"Bengal Florican",
     "Scientific name":"Houbaropsis bengalensis",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"Draw and discard 3 new bonus cards and score 1 of them now: For each point, cache 1 [seed] from the supply on this bird.",
     "Predator":null,
@@ -4110,7 +4110,7 @@
   {
     "Common name":"Black Robin",
     "Scientific name":"Petroica traversi",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. Starting with you, each player gives 1 bonus card to the player to their left. Discard 1 bonus card.",
     "Predator":null,
@@ -4189,7 +4189,7 @@
   {
     "Common name":"Black Rosy Finch",
     "Scientific name":"Leucosticte atrata",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. Keep 1, and score the other now: For each point, lay 1 [egg] on this bird. Then, discard the scored bonus card.",
     "Predator":null,
@@ -4869,7 +4869,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Drawn by Stephen Poniatowicz",
+    "Fan Art flavor text":"Drawn by Stephen Poniatowicz ",
     "Fan art beak direction":"R",
     "Anatomist":"X",
     "Cartographer":null,
@@ -4917,7 +4917,7 @@
   {
     "Common name":"Black-Capped Chickadee",
     "Scientific name":"Poecile atricapillus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"Play a bird from the tray. Pay its normal food and egg cost.",
     "Predator":null,
@@ -5332,7 +5332,7 @@
   {
     "Common name":"Black-Necked Grebe",
     "Scientific name":"Podiceps nigricollis",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"pink",
     "Power text":"When another player plays a bird with a food cost of 3 food, draw 1 [card].",
     "Predator":null,
@@ -5727,7 +5727,7 @@
   {
     "Common name":"Black-and-White Warbler",
     "Scientific name":"Mniotilta varia",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Roll any 1 [die]. From the supply, gain either 1 of that food or 1 food showing on the opposite side.",
     "Predator":null,
@@ -5810,7 +5810,7 @@
   {
     "Common name":"Black-and-Yellow Broadbill",
     "Scientific name":"Eurylaimus ochromalus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"pink",
     "Power text":"When another player caches a [wild] for any reason, cache 1 from the supply on this bird.",
     "Predator":null,
@@ -5886,7 +5886,7 @@
   {
     "Common name":"Blackpoll Warbler",
     "Scientific name":"Setophaga striata",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"Play another bird in this bird's habitat, paying its normal food and egg cost. If you do, draw 1 new bonus card.",
     "Predator":null,
@@ -5969,7 +5969,7 @@
   {
     "Common name":"Blood Pheasant",
     "Scientific name":"Ithaginis cruentus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"From the supply, gain 1 food of a type not in the birdfeeder.",
     "Predator":null,
@@ -6056,7 +6056,7 @@
   {
     "Common name":"Blue Duck",
     "Scientific name":"Hymenolaimus malacorhynchos",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Reset the birdfeeder. If there are no [rodent] in the birdfeeder, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -6459,7 +6459,7 @@
   {
     "Common name":"Blue-Winged Teal",
     "Scientific name":"Spatula discors",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"teal",
     "Power text":"Reset the birdfeeder, then for each [seed] in the birdfeeder, draw 1 [card]. You may tuck any or all of them behind this bird.",
     "Predator":null,
@@ -6776,7 +6776,7 @@
   {
     "Common name":"Boat-Tailed Grackle",
     "Scientific name":"Quiscalus major",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"pink",
     "Power text":"When another player caches a [wild] for any reason, cache 1 [wild] from your supply on this bird, then gain 1 [die] from the birdfeeder at the end of their turn.",
     "Predator":null,
@@ -7100,7 +7100,7 @@
   {
     "Common name":"Brahminy Starling",
     "Scientific name":"Sturnia pagodarum",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Discard up to 3 [wild]. For each, tuck 1 [card] from the deck behind this bird. If you discard at least 1 [wild], gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -7664,7 +7664,7 @@
   {
     "Common name":"Brown Creeper",
     "Scientific name":"Certhia americana",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Play an additional bird in your [forest]. Pay its normal food and egg cost. If it has a \u201cWhen Activated\u201d (brown) power, you may activate it.",
     "Predator":null,
@@ -7975,7 +7975,7 @@
   {
     "Common name":"Brown Thrasher",
     "Scientific name":"Toxostoma rufum",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Discard 1 [card] in the tray with a \u201cWhen Activated\u201d (brown) power; you may copy its power. You may reset or refill the tray before discarding.",
     "Predator":null,
@@ -8244,7 +8244,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Illustratged by Hebe Kent with watercolour",
+    "Fan Art flavor text":"Illustratged by Hebe Kent with watercolour ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -8453,7 +8453,7 @@
   {
     "Common name":"Cactus Wren",
     "Scientific name":"Campylorhynchus brunneicapillus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Discard 1 [card] from your hand. If you do, lay 2 [egg] on a bird with the same nest type as the discarded bird.",
     "Predator":null,
@@ -8694,7 +8694,7 @@
   {
     "Common name":"California Scrub-Jay",
     "Scientific name":"Aphelocoma californica",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"pink",
     "Power text":"When another player discards [wild]\/[egg]\/[card] to upgrade an action, cache 1 matching [wild] from the supply on, lay that [egg] on, or tuck that [card] behind this bird, respectively.",
     "Predator":null,
@@ -8812,7 +8812,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Sharon Stahl digitally illustrated this bird using mosaic techniques.",
+    "Fan Art flavor text":"Sharon Stahl digitally illustrated this bird using mosaic techniques.  ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":"X",
@@ -8856,7 +8856,7 @@
   {
     "Common name":"Canada Jay",
     "Scientific name":"Perisoreus canadensis",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Cache 1 [wild] from your personal supply on this bird and\/or gain 1 food of a type cached on this bird from the general supply.",
     "Predator":null,
@@ -8939,7 +8939,7 @@
   {
     "Common name":"Canada Warbler",
     "Scientific name":"Cardellina canadensis",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Choose 1: All players lay 1 [egg] on any bird, or all players draw 1 [card] from the deck.",
     "Predator":null,
@@ -9132,7 +9132,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Digital watercolor by Jeremiah Clark. Dedicated to my love, Kara Clark.",
+    "Fan Art flavor text":"Digital watercolor by Jeremiah Clark. Dedicated to my love, Kara Clark. ",
     "Fan art beak direction":"L",
     "Anatomist":null,
     "Cartographer":"X",
@@ -9363,7 +9363,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Tehreem Sabir illustrated this bird on Procreate.",
+    "Fan Art flavor text":"Tehreem Sabir illustrated this bird on Procreate. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -9979,7 +9979,7 @@
   {
     "Common name":"Chinese Copper Pheasant",
     "Scientific name":"Chrysolophus amherstiae",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"teal",
     "Power text":"In each filled column, lay 1 [egg] on any bird.",
     "Predator":null,
@@ -10436,7 +10436,7 @@
     "Africa":null,
     "Oceania":"X",
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Lilly Butler illustrated this bird",
+    "Fan Art flavor text":"Lilly Butler illustrated this bird ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -10808,7 +10808,7 @@
   {
     "Common name":"Common Crane",
     "Scientific name":"Grus grus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If the [card] on the top of the discard pile has [seed] in its food cost, gain 1 [seed] from the supply.",
     "Predator":null,
@@ -10974,7 +10974,7 @@
   {
     "Common name":"Common Eider",
     "Scientific name":"Somateria mollissima",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"Move 1 [egg] from this bird to an adjacent bird to draw 1 [card].",
     "Predator":null,
@@ -11782,7 +11782,7 @@
   {
     "Common name":"Common Murre",
     "Scientific name":"Uria aalge",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"yellow",
     "Power text":"For each other bird in this row and column, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -12096,7 +12096,7 @@
   {
     "Common name":"Common Pheasant",
     "Scientific name":"Phasianus colchicus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"teal",
     "Power text":"If there is a bird with at least 2 [egg] on it in each habitat, lay 3 [egg] on this bird.",
     "Predator":null,
@@ -12341,7 +12341,7 @@
   {
     "Common name":"Common Snipe",
     "Scientific name":"Gallinago gallinago",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"teal",
     "Power text":"For each type of action you used this round, draw 1 [card] from the deck. Keep 1 or tuck 1 behind this bird, and discard the rest.",
     "Predator":null,
@@ -12422,7 +12422,7 @@
     "Scientific name":"Sturnus vulgaris",
     "Set":"european",
     "Color":"teal",
-    "Power text":"Draw 1 [card] for each bird in your [wetland] with an [egg] on it. Keep 1 and discard the rest.",
+    "Power text":"Discard up to 5 [wild] from your supply. For each, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
     "Flocking":"X",
     "Bonus card":null,
@@ -12498,8 +12498,8 @@
     ],
     "additionalRulings":[
       {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
       }
     ]
   },
@@ -12750,7 +12750,7 @@
   {
     "Common name":"Common Tern",
     "Scientific name":"Sterna hirundo",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If another player has a [fish] in their personal supply, gain 1 [fish] from the general supply.",
     "Predator":"X",
@@ -12833,7 +12833,7 @@
   {
     "Common name":"Common Wood Pigeon",
     "Scientific name":"Columba palumbus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If any 2 [die] in the birdfeeder show the same face, gain 1 of them.",
     "Predator":null,
@@ -13566,7 +13566,7 @@
   {
     "Common name":"Crested Tit",
     "Scientific name":"Lophophanes cristatus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"yellow",
     "Power text":"If you have exactly 5 different food types in your personal supply, cache 4 [wild] from the general supply on this bird.",
     "Predator":null,
@@ -13721,7 +13721,7 @@
   {
     "Common name":"Crimson-Bellied Tragopan",
     "Scientific name":"Tragopan temminckii",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Give 1 [wild] from your supply to another player to lay 2 [egg] on this bird.",
     "Predator":null,
@@ -13883,7 +13883,7 @@
   {
     "Common name":"Dartford Warbler",
     "Scientific name":"Curruca undata",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"white",
     "Power text":"All players lay 1 [egg] on each of their birds with a [bowl] nest.",
     "Predator":null,
@@ -13962,7 +13962,7 @@
   {
     "Common name":"Daurian Jackdaw",
     "Scientific name":"Coloeus dauuricus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"Cache this round\u2019s goal tile on this bird (score it as 1 cached food). Players score no goal at the end of this round; following rounds have 1 more turn than otherwise.",
     "Predator":null,
@@ -14038,7 +14038,7 @@
   {
     "Common name":"Demoiselle Crane",
     "Scientific name":"Grus virgo",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Draw 2 [card] from the deck. Keep 1 and return 1 to the top of the deck.",
     "Predator":null,
@@ -14440,7 +14440,7 @@
   {
     "Common name":"Dovekie",
     "Scientific name":"Alle alle",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"yellow",
     "Power text":"Choose any 1 player (including yourself). For each bird on their player mat with a \"Game End\" (yellow) power, draw 1 [card] from the deck. Play 1 of them for free and discard the rest.",
     "Predator":null,
@@ -14633,7 +14633,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Sinead Watson (from Scotland) painted this Dunnock in acrylic paint.",
+    "Fan Art flavor text":"Sinead Watson (from Scotland) painted this Dunnock in acrylic paint. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -14928,7 +14928,7 @@
   {
     "Common name":"Eastern Meadowlark",
     "Scientific name":"Sturnella magna",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Lay 2 [egg] on this bird. All other players lay 1 [egg] on a bird with a [ground] nest.",
     "Predator":null,
@@ -15252,7 +15252,7 @@
   {
     "Common name":"Eastern Whip-Poor-Will",
     "Scientific name":"Antrostomus vociferus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. Keep 1, or discard 2 [wild] to keep both.",
     "Predator":null,
@@ -15583,7 +15583,7 @@
   {
     "Common name":"Eurasian Blackcap",
     "Scientific name":"Sylvia atricapilla",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"yellow",
     "Power text":"Lay 1 [egg] on each bird that has [fruit] in its food cost, including this one.",
     "Predator":null,
@@ -15662,7 +15662,7 @@
   {
     "Common name":"Eurasian Blue Tit",
     "Scientific name":"Cyanistes caeruleus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"pink",
     "Power text":"When another player gains [seed], gain 1 [seed] from the supply.",
     "Predator":null,
@@ -15907,7 +15907,7 @@
   {
     "Common name":"Eurasian Curlew",
     "Scientific name":"Numenius arquata",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"teal",
     "Power text":"If this bird is in the same habitat as a bird with a [predator] power, lay 2 [egg] on this bird.",
     "Predator":null,
@@ -16802,7 +16802,7 @@
     "Scientific name":"Sitta europaea",
     "Set":"european",
     "Color":"brown",
-    "Power text":"For each [rodent] in this bird's cost, you may pay 1 [card] from your hand instead. If you do, tuck the paid [card] behind this card.",
+    "Power text":"Gain 1 [seed] from the supply and cache it on this card. At any time, you may spend [seed] cached on this card.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
@@ -16881,13 +16881,20 @@
       }
     ],
     "additionalRulings":[
-
+      {
+        "text":"You may only reroll dice when gaining food from the birdfeeder and not when gaining food from the supply.",
+        "source":"https:\/\/www.boardgamegeek.com\/thread\/2208584\/article\/32288825#32288825"
+      },
+      {
+        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
+        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
+      }
     ]
   },
   {
     "Common name":"Eurasian Siskin",
     "Scientific name":"Spinus spinus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"white",
     "Power text":"Each other player may give you 1 [wild] to lay 2 [egg] on any of their birds. If you receive fewer than 3 [wild], also tuck 2 [card] from the deck behind this bird.",
     "Predator":null,
@@ -16966,7 +16973,7 @@
   {
     "Common name":"Eurasian Skylark",
     "Scientific name":"Alauda arvensis",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"pink",
     "Power text":"When another player draws a bonus card, draw 1 new bonus card, then discard 1 at the end of their turn.",
     "Predator":null,
@@ -17047,7 +17054,7 @@
     "Scientific name":"Accipiter nisus",
     "Set":"european",
     "Color":"white",
-    "Power text":null,
+    "Power text":"For each [rodent] in this bird's cost, you may pay 1 [card] from your hand instead. If you do, tuck the paid [card] behind this card.",
     "Predator":"X",
     "Flocking":null,
     "Bonus card":null,
@@ -17162,7 +17169,7 @@
     "Africa":null,
     "Oceania":"X",
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Natalie Meyer painted this bird with watercolor.",
+    "Fan Art flavor text":"Natalie Meyer painted this bird with watercolor. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":"X",
@@ -17293,7 +17300,7 @@
   {
     "Common name":"Eurasian Wigeon",
     "Scientific name":"Mareca penelope",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Draw 1 face-up [card] from the tray with [seed] in its food cost. You may reset or refill the tray before doing so.",
     "Predator":null,
@@ -17372,7 +17379,7 @@
   {
     "Common name":"Eurasian Wren",
     "Scientific name":"Troglodytes troglodytes",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"pink",
     "Power text":"When another player plays a bird that has a \"When Played\" (white) ability, gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -17455,7 +17462,7 @@
   {
     "Common name":"Eurasian Wryneck",
     "Scientific name":"Jynx torquilla",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If you have more [wild] in your supply than each of your neighbors has in theirs, gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -17625,7 +17632,7 @@
   {
     "Common name":"European Golden Plover",
     "Scientific name":"Pluvialis apricaria",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Tuck 1 [card] from your hand behind this bird. If you do, each player gains 1 [die] from the birdfeeder, starting with the player of your choice.",
     "Predator":null,
@@ -17787,7 +17794,7 @@
   {
     "Common name":"European Greenfinch",
     "Scientific name":"Chloris chloris",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Gain all [seed] that are in the birdfeeder.",
     "Predator":null,
@@ -17870,7 +17877,7 @@
   {
     "Common name":"European Herring Gull",
     "Scientific name":"Larus argentatus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"Tuck 1 [card] from your hand behind this bird to draw 1 [card] from the top of the discard pile.",
     "Predator":null,
@@ -18200,7 +18207,7 @@
   {
     "Common name":"European Serin",
     "Scientific name":"Serinus serinus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"Discard all [wild] (minimum 1) from your supply to tuck 3 [card] from the deck behind this bird.",
     "Predator":null,
@@ -18279,7 +18286,7 @@
   {
     "Common name":"European Shag",
     "Scientific name":"Gulosus aristotelis",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Tuck [card] 1 from your hand behind this bird to gain 1 [fish] from the supply.",
     "Predator":null,
@@ -18362,7 +18369,7 @@
   {
     "Common name":"European Stonechat",
     "Scientific name":"Saxicola rubicola",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"teal",
     "Power text":"Discard up to 3 [invertebrate], [seed], or [fruit] in any combination. For each, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -18528,7 +18535,7 @@
   {
     "Common name":"Evening Grosbeak",
     "Scientific name":"Hesperiphona vespertina",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"All players draw 1 new bonus card. You draw 1 additional new bonus card.",
     "Predator":null,
@@ -18607,7 +18614,7 @@
   {
     "Common name":"Fernbird",
     "Scientific name":"Poodytes punctatus",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Draw 1 [card] from the deck. If it has [invertebrate] in its food cost, you may discard it to lay 1 [egg] on this bird or keep it. If not, discard it.",
     "Predator":null,
@@ -19257,7 +19264,7 @@
   {
     "Common name":"Garden Warbler",
     "Scientific name":"Sylvia borin",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"white",
     "Power text":"Play an additional bird in this bird\u2019s habitat. Pay its normal food and egg cost. Then lay 1 [egg] on both birds.",
     "Predator":null,
@@ -19336,7 +19343,7 @@
   {
     "Common name":"Giant Fish Owl",
     "Scientific name":"Ketupa blakistoni",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"Draw 1 new bonus card. You may discard 1 bonus card to cache 3 [fish] from the supply on this bird.",
     "Predator":null,
@@ -19773,7 +19780,7 @@
     "Africa":null,
     "Oceania":"X",
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Cora Stalcup (age 8), illustrated with markers and colored pencils.",
+    "Fan Art flavor text":"Cora Stalcup (age 8), illustrated with markers and colored pencils. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -20094,7 +20101,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Megan Ozimek created this catbird using pencils.",
+    "Fan Art flavor text":"Megan Ozimek created this catbird using pencils. ",
     "Fan art beak direction":"L",
     "Anatomist":null,
     "Cartographer":null,
@@ -20225,7 +20232,7 @@
   {
     "Common name":"Great Argus",
     "Scientific name":"Argusianus argus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Cache 1 [invertebrate], [seed], or [fruit] from your supply on this bird to lay 1 [egg] on a bird in your [forest].",
     "Predator":null,
@@ -20628,7 +20635,7 @@
   {
     "Common name":"Great Eared Nightjar",
     "Scientific name":"Lyncornis macrotis",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Draw cards from the deck until you draw a non-[forest] bird. For each [forest] bird drawn, cache 1 [invertebrate] from the supply on this bird; discard the drawn cards.",
     "Predator":"X",
@@ -20786,7 +20793,7 @@
   {
     "Common name":"Great Grey Owl",
     "Scientific name":"Strix nebulosa",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Draw and discard 5 [card] from the deck. For each [rodent] in their food costs, cache 1 [rodent] from the supply on this bird.",
     "Predator":"X",
@@ -21097,7 +21104,7 @@
   {
     "Common name":"Great Spotted Kiwi",
     "Scientific name":"Apteryx maxima",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"teal",
     "Power text":"Cache 2 [invertebrate] from the supply on this bird. You may spend [invertebrate] cached on this bird whenever there is an egg on it.",
     "Predator":null,
@@ -21580,7 +21587,7 @@
   {
     "Common name":"Greater Racket-Tailed Drongo",
     "Scientific name":"Dicrurus paradiseus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Tuck a bird with a \u201cWhen Activated\u201d (brown) power from your hand behind this bird. You may copy its power.",
     "Predator":null,
@@ -21732,7 +21739,7 @@
   {
     "Common name":"Greater Scaup",
     "Scientific name":"Aythya marila",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Draw 3 [card] from the deck. Keep 1 or tuck 1 behind this bird. Then return the other 2 to the top of the deck, in either order.",
     "Predator":null,
@@ -21811,7 +21818,7 @@
   {
     "Common name":"Greater Snow Goose",
     "Scientific name":"Answer caerulescens atlanticus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"teal",
     "Power text":"Move up to 4 [egg] total from any bird(s) to any other bird(s)",
     "Predator":null,
@@ -21887,7 +21894,7 @@
   {
     "Common name":"Greater Spotted Eagle",
     "Scientific name":"Clanga clanga",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Draw any number of [card] from the tray with total wingspan less than 45cm and tuck them behind this bird. You may refill the tray before doing so.",
     "Predator":"X",
@@ -22916,7 +22923,7 @@
   {
     "Common name":"Gyrfalcon",
     "Scientific name":"Falco rusticolus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Draw 3 [card] from the deck. Tuck 1 with wingspan less than 100cm (if available) behind this bird; return the other cards, in any order, to the top of the deck.",
     "Predator":"X",
@@ -22995,7 +23002,7 @@
   {
     "Common name":"Harlequin Duck",
     "Scientific name":"Histrionicus histrionicus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Discard 1 [invertebrate] or [fish] to tuck up to 2 [card] from the tray behind this bird.",
     "Predator":null,
@@ -24129,7 +24136,7 @@
   {
     "Common name":"Iberian Magpie",
     "Scientific name":"Cyanopica cooki",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"yellow",
     "Power text":"Lay 2 [egg] on each adjacent bird with a [platform] nest.",
     "Predator":null,
@@ -24370,7 +24377,7 @@
   {
     "Common name":"Indian Courser",
     "Scientific name":"Cursorius coromandelicus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"pink",
     "Power text":"When another player takes the \u201cdraw cards\u201d action, draw 1 [card] from the tray at the end of their turn. If there are no cards in the tray then, refill the tray first.",
     "Predator":null,
@@ -24449,7 +24456,7 @@
   {
     "Common name":"Indian Paradise Flycatcher",
     "Scientific name":"Terpsiphone paradisi",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"All players gain 1 [wild] from the supply, lay 1 [egg] on any bird, and draw 1 [card] from the deck. You may do all 3 a second time.",
     "Predator":null,
@@ -24773,7 +24780,7 @@
   {
     "Common name":"Italian Sparrow",
     "Scientific name":"Passer italiae",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If this bird has 2\u20133 [egg] on it, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -24852,7 +24859,7 @@
   {
     "Common name":"Ivory Gull",
     "Scientific name":"Pagophila eburnea",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Choose a food in the cost of the [card] on top of the discard pile. Cache 1 of that food from the supply on this bird. You may spend food on this bird when activating a bird power.",
     "Predator":null,
@@ -25336,7 +25343,7 @@
   {
     "Common name":"King Eider",
     "Scientific name":"Somateria spectabilis",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"If you have fewer than 4 [wild] in your supply, gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -25587,7 +25594,7 @@
     ]
   },
   {
-    "Common name":"K\u0101k\u0101p\u043e\u0304",
+    "Common name":"K\u0101k\u0101p\u014d",
     "Scientific name":"Strigops habroptila",
     "Set":"oceania",
     "Color":"yellow",
@@ -25624,7 +25631,7 @@
     "Africa":null,
     "Oceania":"X",
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Silas Coogle illustrated this kooky bird with crayons in 2023.",
+    "Fan Art flavor text":"Silas Coogle illustrated this kooky bird with crayons in 2023. ",
     "Fan art beak direction":"L",
     "Anatomist":null,
     "Cartographer":null,
@@ -25744,7 +25751,7 @@
   {
     "Common name":"Laughing Gull",
     "Scientific name":"Leucophaeus atricilla",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"pink",
     "Power text":"When another player resets the birdfeeder, gain 1 [die] from the birdfeeder at the end of their turn.",
     "Predator":null,
@@ -26075,7 +26082,7 @@
   {
     "Common name":"Lesser Prairie-Chicken",
     "Scientific name":"Tympanuchus pallidicinctus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. Keep 1 and reveal the other. All players score the revealed bonus card at game end.",
     "Predator":null,
@@ -26154,7 +26161,7 @@
   {
     "Common name":"Lesser Spotted Woodpecker",
     "Scientific name":"Dryobates minor",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Discard 1 [invertebrate] to lay 2 [egg] on this bird.",
     "Predator":null,
@@ -27129,7 +27136,7 @@
   {
     "Common name":"Long-Tailed Cuckoo",
     "Scientific name":"Urodynamis taitensis",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"pink",
     "Power text":"When another player takes the \u201clay eggs\u201d action, lay 1 [egg] on another bird in this row.",
     "Predator":null,
@@ -27294,7 +27301,7 @@
   {
     "Common name":"Luzon Bleeding-Heart",
     "Scientific name":"Gallicolumba luzonica",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Up to 3 times, draw 1 [card] from the deck. When you stop, if the total point value is less than 6, tuck all drawn cards behind this bird. Otherwise discard them.",
     "Predator":null,
@@ -27373,7 +27380,7 @@
   {
     "Common name":"Magenta Petrel",
     "Scientific name":"Pterodroma magentae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Give 1 bonus card to another player. If you do, draw 2 new bonus cards and lay 1 [egg] on this bird.",
     "Predator":null,
@@ -27811,7 +27818,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Colored pencil illustration by Lilly Mulligan",
+    "Fan Art flavor text":"Colored pencil illustration by Lilly Mulligan ",
     "Fan art beak direction":"L",
     "Anatomist":null,
     "Cartographer":null,
@@ -27938,7 +27945,7 @@
   {
     "Common name":"Manx Shearwater",
     "Scientific name":"Puffinus puffinus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"white",
     "Power text":"For each bird with a [star] nest, including this one, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -28097,7 +28104,7 @@
   {
     "Common name":"Marsh Tit",
     "Scientific name":"Poecile palustris",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"white",
     "Power text":"For each type of food in the personal supply of the player to your right, gain 1 food of that type from the general supply.",
     "Predator":null,
@@ -28180,7 +28187,7 @@
   {
     "Common name":"Marsh Warbler",
     "Scientific name":"Acrocephalus palustris",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"yellow",
     "Power text":"Copy a \u201cGame End\u201d (yellow) power of another one of your birds or a neighbor\u2019s bird.",
     "Predator":null,
@@ -28335,7 +28342,7 @@
   {
     "Common name":"Meadow Pipit",
     "Scientific name":"Anthus pratensis",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"white",
     "Power text":"All players lay 1 [egg] on each of their birds with a [ground] nest.",
     "Predator":null,
@@ -28414,7 +28421,7 @@
   {
     "Common name":"Mediterranean Shearwater",
     "Scientific name":"Puffinus yelkouan",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"white",
     "Power text":"Discard 1 bonus card to draw 4 new bonus cards and keep 1. Then draw 1 [card].",
     "Predator":null,
@@ -28493,7 +28500,7 @@
   {
     "Common name":"Merlin",
     "Scientific name":"Falco columbarius",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"pink",
     "Power text":"When another player tucks a [card] behind a bird with a [flocking] power, tuck 1 [card] from the deck behind this bird.",
     "Predator":"X",
@@ -29067,7 +29074,7 @@
   {
     "Common name":"Mountain Quail",
     "Scientific name":"Oreortyx pictus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"teal",
     "Power text":"Reset the birdfeeder, then choose a [die]. Remove all [die] showing the chosen face. For each, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -29472,7 +29479,7 @@
   {
     "Common name":"New Zealand Dabchick",
     "Scientific name":"Poliocephalus rufopectus",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Draw 3 [card] from the deck. Keep 1 of them, place 1 of them on the top of the deck, and discard the third.",
     "Predator":null,
@@ -29551,7 +29558,7 @@
   {
     "Common name":"New Zealand Fairy Tern",
     "Scientific name":"Sternula nereis davisae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Discard up to 3 bonus cards. For each, cache 3 [fish] from the supply on this bird. Then draw 1 new bonus card.",
     "Predator":null,
@@ -29634,7 +29641,7 @@
   {
     "Common name":"New Zealand Falcon",
     "Scientific name":"Falco novaeseelandiae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Tuck 1 bird with wingspan less than 65 cm from your hand behind this bird. If you do, cache 1 [rodent] from the supply on this bird.",
     "Predator":"X",
@@ -29710,7 +29717,7 @@
   {
     "Common name":"New Zealand Rock Wren",
     "Scientific name":"Xenicus gilviventris",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Draw 1 new bonus card. Up to 2 times, you may discard 1 bonus card to draw 1 new bonus card.",
     "Predator":null,
@@ -29789,7 +29796,7 @@
   {
     "Common name":"New Zealand Scaup",
     "Scientific name":"Aythya novaeseelandiae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Draw 1 [card] from the deck. If it has [invertebrate] in its food cost, discard it and gain 1 [invertebrate] from the supply. Otherwise, tuck it behind this bird.",
     "Predator":null,
@@ -29876,7 +29883,7 @@
   {
     "Common name":"Nicobar Pigeon",
     "Scientific name":"Caloenas nicobarica",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"yellow",
     "Power text":"Tuck up to 5 [card] from your hand behind this bird.",
     "Predator":null,
@@ -30110,7 +30117,7 @@
   {
     "Common name":"North Island K\u014dkako",
     "Scientific name":"Callaeas wilsoni",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"You may reset the birdfeeder. Then gain 1 [fruit] or [nectar] from the birdfeeder, if available.",
     "Predator":null,
@@ -30765,7 +30772,7 @@
   {
     "Common name":"Northern Pintail",
     "Scientific name":"Anas acuta",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Tuck 1 [card] from your hand behind this bird to draw 1 [card] from the deck; up to 2 times you may discard the last drawn card to draw 1 [card] from the deck.",
     "Predator":null,
@@ -30844,7 +30851,7 @@
   {
     "Common name":"Northern Saw-Whet Owl",
     "Scientific name":"Aegolius acadicus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Roll all dice not in birdfeeder. If you roll at least 1 [rodent], gain 1 [rodent] from the supply and cache 1 [rodent] on this bird from the supply.",
     "Predator":"X",
@@ -31410,7 +31417,7 @@
   {
     "Common name":"Ovenbird",
     "Scientific name":"Seiurus aurocapilla",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"pink",
     "Power text":"When another player plays a bird with a [star] nest, lay 1 [egg] on a bird with a [star] nest.",
     "Predator":null,
@@ -31568,7 +31575,7 @@
   {
     "Common name":"Pacific Sea-Eagle",
     "Scientific name":"Haliaeetus pelagicus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"teal",
     "Power text":"Tuck 1 [card] from your hand behind this bird. For each [fish] in the tucked bird\u2019s food cost, cache 1 [fish] from the supply on this bird.",
     "Predator":"X",
@@ -31758,7 +31765,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Hand embroidered by Jaz Thornton",
+    "Fan Art flavor text":"Hand embroidered by Jaz Thornton ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -31809,7 +31816,7 @@
   {
     "Common name":"Paradise Shelduck",
     "Scientific name":"Tadorna variegata",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"If there is an egg on an adjacent bird, draw 1 [card]. If not, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -32213,7 +32220,7 @@
   {
     "Common name":"Phainopepla",
     "Scientific name":"Phainopepla nitens",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Activate a \u201cWhen Activated\u201d (brown) power on an adjacent bird.",
     "Predator":null,
@@ -32616,7 +32623,7 @@
   {
     "Common name":"Pine Grosbeak",
     "Scientific name":"Pinicola enucleator",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"teal",
     "Power text":"If fewer than 2 [seed] are cached on this bird, cache 2 [seed] from the supply on this bird. At any time, you may spend [seed] cached on this bird.",
     "Predator":null,
@@ -32854,7 +32861,7 @@
   {
     "Common name":"Pinktail",
     "Scientific name":"Urocynchramus pylzowi",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"yellow",
     "Power text":"For each bird with a [flocking] power, including this one, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -32930,7 +32937,7 @@
   {
     "Common name":"Piping Plover",
     "Scientific name":"Charadrius melodus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Roll any 1 [die] up to 3 times. If you roll at least 1 [invertebrate], cache 1 [invertebrate] from the supply on this bird.",
     "Predator":"X",
@@ -33164,7 +33171,7 @@
   {
     "Common name":"Prairie Falcon",
     "Scientific name":"Falco mexicanus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Tuck 1 [card] from the tray with wingspan less than 65cm behind this bird, or cache 1 [rodent] from the birdfeeder on this bird, if available.",
     "Predator":"X",
@@ -33395,7 +33402,7 @@
   {
     "Common name":"Purple Finch",
     "Scientific name":"Haemorhous purpureus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Draw 1 [card] from the deck, then tuck 1 [card] from your hand behind this bird.",
     "Predator":null,
@@ -33708,7 +33715,7 @@
   {
     "Common name":"Purple Sunbird",
     "Scientific name":"Cinnyris asiaticus",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Reset the birdfeeder. Starting with you, each player gains 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -33826,7 +33833,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Illustrated by Julia Bootsma with watercolor paint",
+    "Fan Art flavor text":"Illustrated by Julia Bootsma with watercolor paint ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -33874,7 +33881,7 @@
   {
     "Common name":"Pyrrhuloxia",
     "Scientific name":"Cardinalis sinuatus",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Reset the birdfeeder and gain all [seed], if available. For each [die] remaining in the birdfeeder, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -34036,7 +34043,7 @@
   {
     "Common name":"Qupanuaq",
     "Scientific name":"Zonotrichia querula",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"Tuck up to 5 [card] from your hand behind this bird. For each, draw 1 new bonus card; keep 1.",
     "Predator":null,
@@ -34896,7 +34903,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Minda Kohner-Coogle loves seeing red-bellied woodpeckers at her feeders.",
+    "Fan Art flavor text":"Minda Kohner-Coogle loves seeing red-bellied woodpeckers at her feeders. ",
     "Fan art beak direction":"R",
     "Anatomist":"X",
     "Cartographer":null,
@@ -35225,7 +35232,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Katelyn Davis illustrated this bird with pen.",
+    "Fan Art flavor text":"Katelyn Davis illustrated this bird with pen. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -35348,7 +35355,7 @@
   {
     "Common name":"Red-Crowned Parakeet",
     "Scientific name":"Cyanoramphus novaezelandiae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Tuck 1 [card] from your hand behind this bird to gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -35510,7 +35517,7 @@
   {
     "Common name":"Red-Footed Falcon",
     "Scientific name":"Falco vespertinus",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"If another player has any [rodent] in their personal supply, gain 1 [rodent] from the general supply.",
     "Predator":"X",
@@ -35949,7 +35956,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Abigail Andrews Hixson drew with bird with graphic art.",
+    "Fan Art flavor text":"Abigail Andrews Hixson drew with bird with graphic art. ",
     "Fan art beak direction":"R",
     "Anatomist":"X",
     "Cartographer":null,
@@ -36490,7 +36497,7 @@
   {
     "Common name":"Rifleman",
     "Scientific name":"Acanthisitta chloris",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"If there are no [rodent] in the birdfeeder, gain 1 [invertebrate] from the supply.",
     "Predator":null,
@@ -36554,7 +36561,7 @@
     "Wetland Scientist":null,
     "Wildlife Gardener":null,
     "id":537,
-    "Native name":"Titipounamu",
+    "Native name":"T\u012btipounamu",
     "Note":null,
     "rulings":[
 
@@ -36731,7 +36738,7 @@
   {
     "Common name":"Rock Ptarmigan",
     "Scientific name":"Lagopus muta",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"brown",
     "Power text":"Cache 1 [seed] or [fruit] from the birdfeeder on this bird, if available. When playing a bird, you may spend [wild] cached on this bird as any food type (except [nectar]).",
     "Predator":null,
@@ -37483,7 +37490,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Jared Hart needle felted this bird.",
+    "Fan Art flavor text":"Jared Hart needle felted this bird. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -37614,7 +37621,7 @@
   {
     "Common name":"Ruddy Turnstone",
     "Scientific name":"Arenaria interpres",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Draw and discard 1 [card] from the deck. If it has [invertebrate] in its food cost, gain 1 [invertebrate] from the supply.",
     "Predator":null,
@@ -37783,7 +37790,7 @@
   {
     "Common name":"Rufous Hummingbird",
     "Scientific name":"Selasphorus rufus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"Draw new bonus cards equal to the number of players. Starting with you, each player keeps 1.",
     "Predator":null,
@@ -38107,7 +38114,7 @@
   {
     "Common name":"Rusty Blackbird",
     "Scientific name":"Euphagus carolinus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"white",
     "Power text":"Discard any number of bonus cards, then draw that many new bonus cards. Then draw 1 additional new bonus card.",
     "Predator":null,
@@ -38269,7 +38276,7 @@
   {
     "Common name":"Sand Martin",
     "Scientific name":"Riparia riparia",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"teal",
     "Power text":"For each other bird in this habitat, tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -38424,7 +38431,7 @@
   {
     "Common name":"Sandwich Tern",
     "Scientific name":"Thalasseus sandvicensis",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Give 1 [fish] from your supply to another player. If you do, tuck 1 [card] from the deck behind this bird and lay 1 [egg] on this bird.",
     "Predator":null,
@@ -38937,7 +38944,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Molly Lambourn illustrated this bird using pen.",
+    "Fan Art flavor text":"Molly Lambourn illustrated this bird using pen. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -39064,7 +39071,7 @@
   {
     "Common name":"Scarlet Tanager",
     "Scientific name":"Piranga olivacea",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"You may reset the birdfeeder. Gain 1 [invertebrate] and\/or 1 [fruit] from the birdfeeder. If you do, all other players may gain 1 [invertebrate] or 1 [fruit] from the supply.",
     "Predator":null,
@@ -39234,7 +39241,7 @@
   {
     "Common name":"Sharp-Tailed Grouse",
     "Scientific name":"Tympanuchus phasianellus",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"pink",
     "Power text":"When another player plays a bird in their [grassland], lay 1 [egg] on this bird.",
     "Predator":null,
@@ -39247,10 +39254,10 @@
     "Forest":"X",
     "Grassland":"X",
     "Wetland":null,
-    "Invertebrate":1.0,
+    "Invertebrate":null,
     "Seed":1.0,
     "Fish":null,
-    "Fruit":null,
+    "Fruit":1.0,
     "Rodent":null,
     "Nectar":null,
     "Wild (food)":null,
@@ -39294,7 +39301,7 @@
     "Prairie Manager":null,
     "Rodentologist":null,
     "Small Clutch Specialist":null,
-    "Viticulturalist":null,
+    "Viticulturalist":"X",
     "Wetland Scientist":null,
     "Wildlife Gardener":null,
     "id":495,
@@ -39313,7 +39320,7 @@
   {
     "Common name":"Shore Plover",
     "Scientific name":"Thinornis novaeseelandiae",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. You may discard any number of [rodent] to draw twice that many additional new bonus cards. Keep 1 of the bonus cards you drew.",
     "Predator":null,
@@ -39377,7 +39384,7 @@
     "Wetland Scientist":"X",
     "Wildlife Gardener":null,
     "id":538,
-    "Native name":"T\u016bturuatu",
+    "Native name":"Tuturuatu",
     "Note":null,
     "rulings":[
 
@@ -40044,7 +40051,7 @@
   {
     "Common name":"Song Thrush",
     "Scientific name":"Turdus philomelos",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"pink",
     "Power text":"When another player gains [invertebrate], gain 1 [invertebrate] from the supply.",
     "Predator":null,
@@ -40203,7 +40210,7 @@
   {
     "Common name":"South Island Saddleback",
     "Scientific name":"Philesturnus carunculatus",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Play an additional bird in your [forest]. Pay its normal food and egg cost. You may cache any food spent to play that bird on this bird.",
     "Predator":null,
@@ -40279,7 +40286,7 @@
   {
     "Common name":"South Island Takah\u0113",
     "Scientific name":"Porphyrio hochstetteri",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. If there is more than 1 bird in this bird\u2019s habitat, discard 1 bonus card; you may discard a bonus card you did not draw this turn.",
     "Predator":null,
@@ -40612,7 +40619,7 @@
     "Scientific name":"Calidris pygmea",
     "Set":"asia",
     "Color":"white",
-    "Power text":"Lay 1 [egg] on each of your birds with a wingspan less than 30cm, including this one.",
+    "Power text":"Draw 2 new bonus cards and keep 1. Other players may discard any 2 resources ([wild], [egg], or [card]) to do the same.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":"X",
@@ -40645,7 +40652,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Yifan Pei illustrated this bird.",
+    "Fan Art flavor text":"Yifan Pei illustrated this bird. ",
     "Fan art beak direction":"LR",
     "Anatomist":"X",
     "Cartographer":null,
@@ -40680,6 +40687,10 @@
 
     ],
     "additionalRulings":[
+      {
+        "text":"<i>\"Discarding\"<\/i> food while resolving a bird power counts as <i>\"spending\"<\/i>.",
+        "source":"https:\/\/www.discord.com\/channels\/608588053052653580\/693358238439047229\/778341560205967380"
+      },
       {
         "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
         "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
@@ -40768,7 +40779,7 @@
   {
     "Common name":"Spotless Starling",
     "Scientific name":"Sturnus unicolor",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"Draw and discard 1 [card] from the deck. If it has a \"When Activated\" (brown) power, you may copy that power.",
     "Predator":null,
@@ -41087,7 +41098,7 @@
   {
     "Common name":"Spotted Shag",
     "Scientific name":"Phalacrocorax punctatus",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Tuck up to 5 [card] from your hand behind this bird.",
     "Predator":null,
@@ -41650,7 +41661,7 @@
   {
     "Common name":"Steppe Eagle",
     "Scientific name":"Aquila nipalensis",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"white",
     "Power text":"Shuffle the discarded bonus cards, then draw 3 of them and keep 1.",
     "Predator":null,
@@ -41729,7 +41740,7 @@
   {
     "Common name":"Stitchbird",
     "Scientific name":"Notiomystis cincta",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Discard 1 [wild] to draw and discard 1 [card] from the deck. If it has a beak that points left, lay 2 [egg] on this bird; otherwise, lay 1 [egg] on this bird.",
     "Predator":null,
@@ -41847,7 +41858,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Iqbal Ridzuan illustrated this bird using Adobe Photoshop.",
+    "Fan Art flavor text":"Iqbal Ridzuan illustrated this bird using Adobe Photoshop. ",
     "Fan art beak direction":"R",
     "Anatomist":"X",
     "Cartographer":null,
@@ -42061,7 +42072,7 @@
   {
     "Common name":"Sulu Hornbill",
     "Scientific name":"Anthracoceros montani",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"yellow",
     "Power text":"Choose 1 other player. For each bird with a [bonus_cards] power on their player mat, draw 1 new bonus card. If you drew at least 1, keep 1.",
     "Predator":null,
@@ -42231,7 +42242,7 @@
   {
     "Common name":"Surfbird",
     "Scientific name":"Calidris virgata",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"All players draw 1 [card] from the deck. You may also trade a [card] from your hand with a [card] in the tray.",
     "Predator":null,
@@ -42386,7 +42397,7 @@
   {
     "Common name":"Taiwan Blue-Magpie",
     "Scientific name":"Urocissa caerulea",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Discard 1 [wild], [egg], or [card] to gain 2 [die] from the birdfeeder. Cache 1 of them on this bird.",
     "Predator":null,
@@ -42549,7 +42560,7 @@
   {
     "Common name":"Tawny Owl",
     "Scientific name":"Strix aluco",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"yellow",
     "Power text":"Tuck 1 [card] from your hand behind this bird. For each [rodent] in its food cost, cache 1 [rodent] from the supply on this bird.",
     "Predator":"X",
@@ -42708,7 +42719,7 @@
   {
     "Common name":"Tomtit",
     "Scientific name":"Petroica macrocephala",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"brown",
     "Power text":"Cache 1 [invertebrate] from your supply on this bird to lay 1 [egg] on this bird.",
     "Predator":null,
@@ -42787,7 +42798,7 @@
   {
     "Common name":"Tree Pipit",
     "Scientific name":"Anthus trivialis",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"brown",
     "Power text":"Gain 1 [invertebrate] from the supply. Other players may discard 1 [egg] to do the same.",
     "Predator":null,
@@ -43105,7 +43116,7 @@
   {
     "Common name":"Tufted Puffin",
     "Scientific name":"Fratercula cirrhata",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"teal",
     "Power text":"Roll all dice not in the birdfeeder 3 consecutive times. Each time, cache all [fish] rolled on this bird.",
     "Predator":"X",
@@ -43260,7 +43271,7 @@
   {
     "Common name":"Tundra Swan",
     "Scientific name":"Cygnus columbianus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"pink",
     "Power text":"When another player takes the \u201cdraw cards\u201d action, draw 1 from the deck at the end of their turn.",
     "Predator":null,
@@ -43592,7 +43603,7 @@
   {
     "Common name":"Variable Oystercatcher",
     "Scientific name":"Haematopus unicolor",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"white",
     "Power text":"Shuffle the discard pile, then draw [card] from it equal to the number of players + 1. Starting with you, each player keeps 1 of those cards, and you also keep the last card.",
     "Predator":null,
@@ -43656,7 +43667,7 @@
     "Wetland Scientist":null,
     "Wildlife Gardener":null,
     "id":544,
-    "Native name":"Torea-Pango",
+    "Native name":"Torea Pango",
     "Note":null,
     "rulings":[
 
@@ -43671,7 +43682,7 @@
   {
     "Common name":"Varied Thrush",
     "Scientific name":"Ixoreus naevius",
-    "Set":"fanCA",
+    "Set":"promoCA",
     "Color":"yellow",
     "Power text":"For each bird in your [forest] with [invertebrate] or [fruit] in its food cost, including this one, cache 1 [invertebrate] or [fruit] on this bird from the supply.",
     "Predator":null,
@@ -44031,7 +44042,7 @@
     "Africa":null,
     "Oceania":null,
     "Fan Art Pack?":"X",
-    "Fan Art flavor text":"Tallula Kocian illustrated the violet green swallow using colored pencils.",
+    "Fan Art flavor text":"Tallula Kocian illustrated the violet green swallow using colored pencils. ",
     "Fan art beak direction":"R",
     "Anatomist":null,
     "Cartographer":null,
@@ -44075,7 +44086,7 @@
   {
     "Common name":"Virginia Rail",
     "Scientific name":"Rallus limicola",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"white",
     "Power text":"Discard any number of [card] from your hand, then draw that many [card]. Draw 1 additional [card].",
     "Predator":null,
@@ -44230,29 +44241,29 @@
   {
     "Common name":"Weka",
     "Scientific name":"Gallirallus australis",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"pink",
     "Power text":"When another player resets the birdfeeder, cache 1 [die] from the birdfeeder on this bird at the end of their turn.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
-    "Victory points":5.0,
+    "Victory points":2.0,
     "Nest type":"ground",
-    "Egg limit":1.0,
+    "Egg limit":4.0,
     "Wingspan":"*",
-    "Forest":null,
+    "Forest":"X",
     "Grassland":"X",
     "Wetland":"X",
     "Invertebrate":null,
-    "Seed":2.0,
+    "Seed":null,
     "Fish":null,
     "Fruit":null,
     "Rodent":null,
     "Nectar":null,
-    "Wild (food)":1.0,
+    "Wild (food)":2.0,
     "\/ (food cost)":null,
     "* (food cost)":null,
-    "Total food cost":3.0,
+    "Total food cost":2.0,
     "Beak direction":"L",
     "Swift Start":null,
     "Automa ban":null,
@@ -44271,11 +44282,11 @@
     "Cartographer":null,
     "Historian":null,
     "Photographer":null,
-    "Backyard Birder":null,
+    "Backyard Birder":"X",
     "Bird Bander":"X",
     "Bird Counter":null,
-    "Bird Feeder":"X",
-    "Diet Specialist":"X",
+    "Bird Feeder":null,
+    "Diet Specialist":null,
     "Enclosure Builder":"X",
     "Endangered Species Protector":null,
     "Falconer":null,
@@ -44289,7 +44300,7 @@
     "Platform Builder":null,
     "Prairie Manager":null,
     "Rodentologist":null,
-    "Small Clutch Specialist":"X",
+    "Small Clutch Specialist":null,
     "Viticulturalist":null,
     "Wetland Scientist":null,
     "Wildlife Gardener":null,
@@ -44382,7 +44393,7 @@
   {
     "Common name":"Western Capercaillie",
     "Scientific name":"Tetrao urogallus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"white",
     "Power text":"Draw 2 new bonus cards. Keep 1 and give 1 to another player.",
     "Predator":null,
@@ -44461,7 +44472,7 @@
   {
     "Common name":"Western House Martin",
     "Scientific name":"Delichon urbicum",
-    "Set":"fanEurope",
+    "Set":"promoEurope",
     "Color":"white",
     "Power text":"For each type of food in the personal supply of the player to your left, gain 1 food of that type from the general supply.",
     "Predator":null,
@@ -44544,7 +44555,7 @@
   {
     "Common name":"Western Jackdaw",
     "Scientific name":"Coloeus monedula",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"teal",
     "Power text":"Cache up to 3 [wild] from your supply on this bird. For each, gain 1 [die] from the birdfeeder.",
     "Predator":null,
@@ -44713,7 +44724,7 @@
   {
     "Common name":"Western Screech-Owl",
     "Scientific name":"Megascops kennicottii",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"brown",
     "Power text":"Roll all [die] that are in the birdfeeder. Cache 1 [invertebrate] and\/or 1 [rodent] on this bird, if available, then reset the birdfeeder.",
     "Predator":"X",
@@ -44875,7 +44886,7 @@
   {
     "Common name":"Western Yellow Wagtail",
     "Scientific name":"Motacilla flava",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"yellow",
     "Power text":"For each bonus card you score for which this bird qualifies, it counts double.",
     "Predator":null,
@@ -44954,7 +44965,7 @@
   {
     "Common name":"Whiskered Treeswift",
     "Scientific name":"Hemiprocne comata",
-    "Set":"fanAsia",
+    "Set":"promoAsia",
     "Color":"brown",
     "Power text":"Cache 1 [invertebrate] from your supply on this bird to draw 1 [card] from the deck.",
     "Predator":null,
@@ -46075,7 +46086,7 @@
     "Scientific name":"Halcyon smyrnensis",
     "Set":"asia",
     "Color":"brown",
-    "Power text":"Discard all remaining face-up [card] and refill the tray. If you do, draw 1 of the new face-up [card].",
+    "Power text":"Choose any 1 [die]. Roll it up to 3 times. Each time, if you roll a [invertebrate], [fish], or [rodent], cache 1 here. If not, stop and return all food cached here this turn.",
     "Predator":"X",
     "Flocking":null,
     "Bonus card":null,
@@ -46143,10 +46154,7 @@
 
     ],
     "additionalRulings":[
-      {
-        "text":"Whenever you are entitled to gain resources, you may choose to take some but not all of the quantity specified.",
-        "source":"https:\/\/www.stonemaiergames.com\/games\/wingspan\/rules\/#comment-37710"
-      }
+
     ]
   },
   {
@@ -46231,7 +46239,7 @@
   {
     "Common name":"Whooper Swan",
     "Scientific name":"Cygnus cygnus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"brown",
     "Power text":"Choose 1\u20133 birds in this column. Tuck 1 [card] from your hand behind each. If you tuck at least 1 card, draw 1 [card].",
     "Predator":null,
@@ -46696,7 +46704,7 @@
   {
     "Common name":"Willow Warbler",
     "Scientific name":"Phylloscopus trochilus",
-    "Set":"fanUK",
+    "Set":"promoUK",
     "Color":"teal",
     "Power text":"Choose 1 other player. For each action cube on their [forest], tuck 1 [card] from the deck behind this bird.",
     "Predator":null,
@@ -47420,7 +47428,7 @@
   {
     "Common name":"Yellow-Billed Magpie",
     "Scientific name":"Pica nuttallii",
-    "Set":"fanUS",
+    "Set":"promoUS",
     "Color":"yellow",
     "Power text":"Activate each \u201cWhen Activated\u201d (brown) [predator] power. For each that succeeds, also cache 1 [wild] from the supply on this bird.",
     "Predator":null,
@@ -47471,7 +47479,7 @@
     "Falconer":null,
     "Fishery Manager":null,
     "Food Web Expert":null,
-    "Forester":null,
+    "Forester":"X",
     "Large Bird Specialist":null,
     "Nest Box Builder":"X",
     "Omnivore Expert":"X",
@@ -47575,7 +47583,7 @@
   {
     "Common name":"Yellow-Eyed Penguin",
     "Scientific name":"Megadyptes antipodes",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"yellow",
     "Power text":"Draw 5 [card] from the deck. You may play one of those birds for free; discard the rest. If it has [fish] in its food cost, cache 2 [fish] from the supply on this bird.",
     "Predator":"X",
@@ -47901,7 +47909,7 @@
   {
     "Common name":"Yellowhead",
     "Scientific name":"Mohoua ochrocephala",
-    "Set":"fanNZ",
+    "Set":"promoNZ",
     "Color":"yellow",
     "Power text":"Reset the birdfeeder twice. Each time, cache all [invertebrate] rolled on this bird.",
     "Predator":null,

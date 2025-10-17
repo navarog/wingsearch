@@ -23,12 +23,12 @@ export class AppEffects {
                   core: this.cookies.getCookie('expansion.core') !== '0'
               }
               const promoPack = action.promoPack || {
-                  fanAsia: this.cookies.getCookie('expansion.fanAsia') !== '0',
-                  fanCA: this.cookies.getCookie('expansion.fanCA') !== '0',
-                  fanEurope: this.cookies.getCookie('expansion.fanEurope') !== '0',
-                  fanNZ: this.cookies.getCookie('expansion.fanNZ') !== '0',
-                  fanUK: this.cookies.getCookie('expansion.fanUK') !== '0',
-                  fanUS: this.cookies.getCookie('expansion.fanUS') !== '0'
+                  promoAsia: this.cookies.getCookie('expansion.promoAsia') !== '0',
+                  promoCA: this.cookies.getCookie('expansion.promoCA') !== '0',
+                  promoEurope: this.cookies.getCookie('expansion.promoEurope') !== '0',
+                  promoNZ: this.cookies.getCookie('expansion.promoNZ') !== '0',
+                  promoUK: this.cookies.getCookie('expansion.promoUK') !== '0',
+                  promoUS: this.cookies.getCookie('expansion.promoUS') !== '0'
               }
               return from(this.http.get(this.I18N_FOLDER + language + '.json')).pipe(
                 map((data) => ({ type: '[App] Set language', payload: data, language: language, expansion: expansion, promoPack: promoPack }))

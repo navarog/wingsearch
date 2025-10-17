@@ -51,7 +51,7 @@
                     [ngStyle]="bonusCardStyle(i) | async">
                     <app-bonus-card [card]="bonus" [cardHeight$]="bonusCardHeight$"></app-bonus-card>
                     <div class="bonus-card-stats" [ngStyle]="cardStatsStyle() | async">
-                        <div class="bonus-card-title" *ngIf="layout !== 'mobile'">{{bonus.Name}}</div>
+                        <div class="bonus-card-title" *ngIf="layout !== 'mobile'">{{bonus['Bonus card']}}</div>
                         <div class="bonus-card-vp-average">
                             {{(bonus.birdIds.length / compatibleBirdIds.length) | percent}} of the same birds with
                             {{bonus['VP Average']}}

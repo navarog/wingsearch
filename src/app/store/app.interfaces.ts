@@ -146,7 +146,7 @@ export interface Ruling {
 
 export interface BonusCard {
     id: number
-    Name: string
+    'Bonus card': string
     Set: ExpansionType
     Automa: string | null
     Condition: string
@@ -174,12 +174,12 @@ export enum ExpansionType {
 }
 
 export enum PackType {
-    fanAsia = 'fanAsia',
-    fanCA = 'fanCA',
-    fanEurope = 'fanEurope',
-    fanNZ = 'fanNZ',
-    fanUS = 'fanUS',
-    fanUK = 'fanUK'
+    promoAsia = 'promoAsia',
+    promoCA = 'promoCA',
+    promoEurope = 'promoEurope',
+    promoNZ = 'promoNZ',
+    promoUS = 'promoUS',
+    promoUK = 'promoUK'
 }
 
 export interface Expansion {
@@ -190,12 +190,12 @@ export interface Expansion {
 }
 
 export interface PromoPack {
-    fanAsia: boolean,
-    fanCA: boolean,
-    fanEurope: boolean,
-    fanNZ: boolean,
-    fanUS: boolean,
-    fanUK: boolean
+    promoAsia: boolean,
+    promoCA: boolean,
+    promoEurope: boolean,
+    promoNZ: boolean,
+    promoUS: boolean,
+    promoUK: boolean
 }
 
 export interface DisplayedStats {

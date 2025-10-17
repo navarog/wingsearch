@@ -38,7 +38,7 @@
             <ng-container *ngFor="let bonus of bonusCards | async">
                 <mat-chip class="custom-chip" [removable]="true" *ngIf="query.bonus.includes(bonus.id)"
                     (removed)="removeBonus(bonus.id)">
-                    {{ bonus.Name }}
+                    {{ bonus['Bonus card'] }}
                     <mat-icon matChipRemove>cancel</mat-icon>
                 </mat-chip>
             </ng-container>
@@ -395,51 +395,51 @@
                 </mat-form-field>
             </div>
             <div class="flex-mgt10 justify-content-unset">
-                <span appAnalyticsEvent="Toggle pack" eventLabel="fanAsia" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanAsia}" (click)="togglePack('fanAsia')">
+                <span appAnalyticsEvent="Toggle pack" eventLabel="promoAsia" class="pointer shrink"
+                    [ngClass]="{inactive: !query.promoPack.promoAsia}" (click)="togglePack('promoAsia')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanAsia.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanAsia.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoAsia.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoAsia.svg" aria-hidden="false"
                             aria-label="Toggle Additional Asian Avians" alt="Additional Asian Avians promo pack" matTooltip="Additional Asian Avians promo pack">
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanUK}" (click)="togglePack('fanUK')">
+                    [ngClass]="{inactive: !query.promoPack.promoUK}" (click)="togglePack('promoUK')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanUK.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanUK.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoUK.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoUK.svg" aria-hidden="false"
                             aria-label="Toggle British Birds" alt="British Birds promo pack" matTooltip="British Birds promo pack">
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanCA}" (click)="togglePack('fanCA')">
+                    [ngClass]="{inactive: !query.promoPack.promoCA}" (click)="togglePack('promoCA')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanCA.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanCA.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoCA.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoCA.svg" aria-hidden="false"
                             aria-label="Toggle Birds of Canada" alt="Birds of Canada promo pack" matTooltip="Birds of Canada promo pack">
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanEurope}" (click)="togglePack('fanEurope')">
+                    [ngClass]="{inactive: !query.promoPack.promoEurope}" (click)="togglePack('promoEurope')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanEurope.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanEurope.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoEurope.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoEurope.svg" aria-hidden="false"
                             aria-label="Toggle Birds of Continental Europe" alt="Birds of Continental Europe promo pack" matTooltip="Birds of Continental Europe promo pack">
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanNZ}" (click)="togglePack('fanNZ')">
+                    [ngClass]="{inactive: !query.promoPack.promoNZ}" (click)="togglePack('promoNZ')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanNZ.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanNZ.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoNZ.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoNZ.svg" aria-hidden="false"
                             aria-label="Toggle Birds of New Zealand" alt="Birds of New Zealand promo pack" matTooltip="Birds of New Zealand promo pack">
                     </picture>
                 </span>
                 <span appAnalyticsEvent="Toggle pack" eventLabel="" class="pointer shrink"
-                    [ngClass]="{inactive: !query.promoPack.fanUS}" (click)="togglePack('fanUS')">
+                    [ngClass]="{inactive: !query.promoPack.promoUS}" (click)="togglePack('promoUS')">
                     <picture>
-                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/fanUS.svg">
-                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/fanUS.svg" aria-hidden="false"
+                        <source type="image/svg" srcset="assets/icons/svg/expansion-indicators/promoUS.svg">
+                        <img class="pack-image" src="assets/icons/svg/expansion-indicators/promoUS.svg" aria-hidden="false"
                             aria-label="Toggle Birds of U.S.A." alt="Birds of U.S.A. promo pack" matTooltip="Birds of U.S.A. promo pack">
                     </picture>
                 </span>
