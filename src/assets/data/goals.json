@@ -1,370 +1,462 @@
 [
   {
-    "id":2000,
-    "Goal":"Bird in Forest",
+    "Goal":"[bird] in [forest]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[bird] in [forest]",
-    "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in forest",
+    "id":2000
   },
   {
-    "id":2001,
-    "Goal":"Bird in Grassland",
+    "Goal":"[bird] in [grassland]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[bird] in [grassland]",
-    "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in grassland",
+    "id":2001
   },
   {
-    "id":2002,
-    "Goal":"Bird in Wetland",
+    "Goal":"[bird] in [wetland]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[bird] in [wetland]",
-    "Explanatory Text":"Count the total number of birds you currently have <b>in this specific habitat row.<\/b><br><i>There is one copy of this goal for each habitat.<\/i>"
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in wetland",
+    "id":2002
   },
   {
-    "id":2003,
-    "Goal":"Birds Cards in Hand",
+    "Goal":"[bird] in one row",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[card] in hand",
-    "Explanatory Text":"The number of bird cards in your hand."
+    "1":1,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"filled columns",
+    "id":2003
   },
   {
-    "id":2004,
-    "Goal":"Birds Worth over 4 Points",
+    "Goal":"[bird] with no [egg]",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[bird] worth >4[point]",
-    "Explanatory Text":"The number of your played birds with a printed value over 4 points."
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":6,
+    "Reverse":"[bird] worth >4 [feather]",
+    "id":2004
   },
   {
-    "id":2005,
-    "Goal":"Birds in 1 Row",
+    "Goal":"[bird] worth >4 [feather]",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[bird] in one row",
-    "Explanatory Text":"The number of your played birds in the habitat that has the most birds in it."
+    "1":-1,
+    "2":0,
+    "3":1,
+    "4":2,
+    "Reverse":"[bird] with no [egg]",
+    "id":2005
   },
   {
-    "id":2006,
-    "Goal":"Birds with No Eggs",
+    "Goal":"[bird_with_tucked_card] birds with tucked cards",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[bird] with no [egg]",
-    "Explanatory Text":"The number of your played birds that have no eggs on them when this goal is scored."
+    "1":-1,
+    "2":-1,
+    "3":1,
+    "4":2,
+    "Reverse":"food cost of played [bird]",
+    "id":2006
   },
   {
-    "id":2007,
-    "Goal":"Birds with Tucked Cards",
+    "Goal":"[bowl] [bird] with [egg]",
+    "Set":"core",
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in [bowl]",
+    "id":2007
+  },
+  {
+    "Goal":"[card] in hand",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[flocking] birds with tucked cards",
-    "Explanatory Text":"The number of your played birds that have at least 1 card tucked behind them."
+    "1":2,
+    "2":2,
+    "3":3,
+    "4":3,
+    "Reverse":"[wild] in personal supply",
+    "id":2008
   },
   {
-    "id":2008,
-    "Goal":"Bowl Nest Bird with Egg",
+    "Goal":"[cavity] [bird] with [egg]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[bowl] [bird] with [egg]",
-    "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in [cavity]",
+    "id":2009
   },
   {
-    "id":2009,
-    "Goal":"Brown Powers",
+    "Goal":"[egg] in [bowl]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[bowl] [bird] with [egg]",
+    "id":2010
+  },
+  {
+    "Goal":"[egg] in [cavity]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[cavity] [bird] with [egg]",
+    "id":2011
+  },
+  {
+    "Goal":"[egg] in [forest]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[bird] in forest",
+    "id":2012
+  },
+  {
+    "Goal":"[egg] in [grassland]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[bird] in grassland",
+    "id":2013
+  },
+  {
+    "Goal":"[egg] in [ground]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[ground] [bird] with [egg]",
+    "id":2014
+  },
+  {
+    "Goal":"[egg] in [platform]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[goal] [bird] with [platform]",
+    "id":2015
+  },
+  {
+    "Goal":"[egg] in [wetland]",
+    "Set":"core",
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":7,
+    "Reverse":"[bird] in wetland",
+    "id":2016
+  },
+  {
+    "Goal":"[ground] [bird] with [egg]",
+    "Set":"core",
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in [ground]",
+    "id":2017
+  },
+  {
+    "Goal":"[platform] [bird] with [egg]",
+    "Set":"core",
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"[egg] in [platform]",
+    "id":2018
+  },
+  {
+    "Goal":"[wild] in personal supply",
     "Set":"european",
-    "Duet":null,
-    "Condition":"brown powers",
-    "Explanatory Text":"The number of your played birds that have brown \"when activated\" powers on them."
+    "1":2,
+    "2":1,
+    "3":3,
+    "4":3,
+    "Reverse":"[card] in hand",
+    "id":2019
   },
   {
-    "id":2010,
-    "Goal":"Cavity Nest Bird with Egg",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[cavity] [bird] with [egg]",
-    "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
-  },
-  {
-    "id":2011,
-    "Goal":"Egg in Bowl Nest",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [bowl]",
-    "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
-  },
-  {
-    "id":2012,
-    "Goal":"Egg in Cavity Nest",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [cavity]",
-    "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
-  },
-  {
-    "id":2013,
-    "Goal":"Egg in Forest",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [forest]",
-    "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
-  },
-  {
-    "id":2014,
-    "Goal":"Egg in Grassland",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [grassland]",
-    "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
-  },
-  {
-    "id":2015,
-    "Goal":"Egg in Ground Nest",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [ground]",
-    "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
-  },
-  {
-    "id":2016,
-    "Goal":"Egg in Platform Nest",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [platform]",
-    "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
-  },
-  {
-    "id":2017,
-    "Goal":"Egg in Wetland",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"[egg] in [wetland]",
-    "Explanatory Text":"Count the total number of eggs your birds have laid <b>in this specific habitat row.<\/b> Multiple eggs on one bird each count.<br><i>There is one copy of this goal for each habitat.<\/i>"
-  },
-  {
-    "id":2018,
-    "Goal":"Filled Columns",
+    "Goal":"brown powers",
     "Set":"european",
-    "Duet":null,
-    "Condition":"filled columns",
-    "Explanatory Text":"The number of columns in which all three bird spaces are filled."
+    "1":0,
+    "2":2,
+    "3":4,
+    "4":5,
+    "Reverse":"white & no powers",
+    "id":2020
   },
   {
-    "id":2019,
-    "Goal":"Food Cost of Played Birds",
+    "Goal":"filled columns",
     "Set":"european",
-    "Duet":null,
-    "Condition":"food cost of played [bird]",
-    "Explanatory Text":"Count the food cost on your birds, remembering to count only 1 food for birds that have a choice in their food cost."
+    "1":-1,
+    "2":-1,
+    "3":0,
+    "4":1,
+    "Reverse":"[bird] in one row",
+    "id":2021
   },
   {
-    "id":2020,
-    "Goal":"Food in Supply",
+    "Goal":"food cost of played [bird]",
     "Set":"european",
-    "Duet":null,
-    "Condition":"[wild] in personal supply",
-    "Explanatory Text":"The number of food tokens in your personal supply."
+    "1":3,
+    "2":8,
+    "3":14,
+    "4":20,
+    "Reverse":"[bird_with_tucked_card] birds with tucked cards",
+    "id":2022
   },
   {
-    "id":2021,
-    "Goal":"Ground Nest Bird with Egg",
+    "Goal":"sets of [egg][egg][egg] in [wetland][grassland][forest]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[ground] [bird] with [egg]",
-    "Explanatory Text":"Count the total number of <b>birds with this specific nest type<\/b> that have at least 1 egg. Each bird counts just once, regardless of how many eggs it has. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
+    "1":-1,
+    "2":0,
+    "3":1,
+    "4":2,
+    "Reverse":"total [bird]",
+    "id":2023
   },
   {
-    "id":2022,
-    "Goal":"Platform Nest Bird with Egg",
+    "Goal":"total [bird]",
     "Set":"core",
-    "Duet":null,
-    "Condition":"[platform] [bird] with [egg]",
-    "Explanatory Text":"Count the total number of eggs on birds <b>with this specific nest type.<\/b> Multiple eggs on one bird each count. Star nests count toward this goal.<br><i>There is one copy of this goal for each nest type.<\/i>"
+    "1":2,
+    "2":5,
+    "3":8,
+    "4":11,
+    "Reverse":"sets of [egg][egg][egg] in [wetland][grassland][forest]",
+    "id":2024
   },
   {
-    "id":2023,
-    "Goal":"Sets of Eggs in 3 Habitats",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"sets of [egg][egg][egg] in [wetland][grassland][forest]",
-    "Explanatory Text":"One set of eggs consists of 1 egg in the wetland row, 1 egg in the grassland row, and 1 egg in the forest row. Count the number of sets. For this goal you\u2019re only counting the eggs in each habitat. It does not matter on which birds or columns the eggs are placed.<br><i>For example, Natalia has 3 eggs in her forest, 2 eggs in her grassland, and 4 eggs in her wetland habitats. For this end-of-round goal, Natalia has 2 sets of eggs.<\/i>"
-  },
-  {
-    "id":2024,
-    "Goal":"Total Bird",
-    "Set":"core",
-    "Duet":null,
-    "Condition":"total [bird]",
-    "Explanatory Text":"Count the total number of birds you have played."
-  },
-  {
-    "id":2025,
-    "Goal":"White & No Powers",
+    "Goal":"white & no powers",
     "Set":"european",
-    "Duet":null,
-    "Condition":"white & no powers",
-    "Explanatory Text":"The number of your played birds that have either no power, or a \u201cwhen played\u201d power."
+    "1":-1,
+    "2":0,
+    "3":1,
+    "4":1,
+    "Reverse":"brown powers",
+    "id":2025
   },
   {
-    "id":2026,
-    "Goal":"Beak Pointing Left",
+    "Goal":"[action_cube_gray] cubes on \"play a bird\"",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[beak-left] beak poiting left",
-    "Explanatory Text":"These goals count cards that show a bird whose beak is facing in the direction stated. Birds whose beaks are pointing straight ahead (or straight up) don\u2019t count toward either the left- or right-facing goal.<br>These goals were added to give players another reason to look closer at the art. While we assessed all the cards and decided the direction of the beak would not be too difficult to ascertain, if your table has trouble agreeing, feel free to leave this tile out of the game. There are a few that do need clarifications:<br><ul><li>The Wrybill, although it is facing straight ahead, has a bill that is pointing toward the left side of the card.<\/li><li>The Common Loon card (from the base game) and the Little Grebe (from Wingspan Asia) have a bird facing in each direction, so they qualify for both goals.<\/li><li>The Great Crested Grebe card (from the European Expansion) has 2 birds facing the same direction: it counts as a single card that has a bird facing left.<\/li><\/ul><br>The following is a list of the birds that are not pointing left or right.<br><b>Base game<\/b><ul><li>Barn Owl<\/li><li>Barred Owl<\/li><li>Burrowing Owl<\/li><li>California Condor<\/li><li>Eastern Screech-Owl<\/li><li>Great Horned Owl<\/li><li>Horned Lark<\/li><li>Spotted Owl<\/li><\/ul><b>Europe<\/b><ul><li>Little Owl<\/li><li>Snowy Owl<\/li><li>Short-Toed Treecreeper<\/li><\/ul><b>Oceania<\/b><ul><li>Australian Owlet-Nightjar<\/li><li>K\u0101k\u0101p\u014d<\/li><li>Rufous Owl<\/li><\/ul><b>Asia<\/b><ul><li>Bearded Reedling<\/li><li>Eurasian Eagle-Owl<\/li><li>Forest Owlet<\/li><li>Oriental Bay-Owl<\/li><li>Spoon-Billed Sandpiper<\/li><li>Sri Lanka Frogmouth<\/li><\/ul>"
+    "1":1,
+    "2":1,
+    "3":1,
+    "4":0,
+    "Reverse":"[bird] worth \u22643 [feather]",
+    "id":2026
   },
   {
-    "id":2027,
-    "Goal":"Beak Pointing Right",
+    "Goal":"[beak_pointing_left] beak pointing left",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[beak-right] beak pointing right",
-    "Explanatory Text":"These goals count cards that show a bird whose beak is facing in the direction stated. Birds whose beaks are pointing straight ahead (or straight up) don\u2019t count toward either the left- or right-facing goal.<br>These goals were added to give players another reason to look closer at the art. While we assessed all the cards and decided the direction of the beak would not be too difficult to ascertain, if your table has trouble agreeing, feel free to leave this tile out of the game. There are a few that do need clarifications:<br><ul><li>The Wrybill, although it is facing straight ahead, has a bill that is pointing toward the left side of the card.<\/li><li>The Common Loon card (from the base game) and the Little Grebe (from Wingspan Asia) have a bird facing in each direction, so they qualify for both goals.<\/li><li>The Great Crested Grebe card (from the European Expansion) has 2 birds facing the same direction: it counts as a single card that has a bird facing left.<\/li><\/ul><br>The following is a list of the birds that are not pointing left or right.<br><b>Base game<\/b><ul><li>Barn Owl<\/li><li>Barred Owl<\/li><li>Burrowing Owl<\/li><li>California Condor<\/li><li>Eastern Screech-Owl<\/li><li>Great Horned Owl<\/li><li>Horned Lark<\/li><li>Spotted Owl<\/li><\/ul><b>Europe<\/b><ul><li>Little Owl<\/li><li>Snowy Owl<\/li><li>Short-Toed Treecreeper<\/li><\/ul><b>Oceania<\/b><ul><li>Australian Owlet-Nightjar<\/li><li>K\u0101k\u0101p\u014d<\/li><li>Rufous Owl<\/li><\/ul><b>Asia<\/b><ul><li>Bearded Reedling<\/li><li>Eurasian Eagle-Owl<\/li><li>Forest Owlet<\/li><li>Oriental Bay-Owl<\/li><li>Spoon-Billed Sandpiper<\/li><li>Sri Lanka Frogmouth<\/li><\/ul>"
+    "1":0,
+    "2":2,
+    "3":2,
+    "4":3,
+    "Reverse":"[beak_pointing_right] beak pointing right",
+    "id":2027
   },
   {
-    "id":2028,
-    "Goal":"Birds Worth Less than or Equal to 3 Points",
+    "Goal":"[beak_pointing_right] beak pointing right",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[bird] worth \u22643[point]",
-    "Explanatory Text":"The number of your played birds with a printed value less than or equal to 3 points."
+    "1":0,
+    "2":2,
+    "3":2,
+    "4":3,
+    "Reverse":"[beak_pointing_left] beak pointing left",
+    "id":2028
   },
   {
-    "id":2029,
-    "Goal":"Cubes on \"Play a Bird\"",
+    "Goal":"[bird] worth \u22643 [feather]",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[cube] cubes on \"play a bird\"",
-    "Explanatory Text":"Count the number of cubes you placed on \u201cPlay a Bird\u201d this round. Note that this goal requires you to keep your action cubes in the rows where you played them."
+    "1":0,
+    "2":2,
+    "3":2,
+    "4":3,
+    "Reverse":"[action_cube_gray] cubes on \"play a bird\"",
+    "id":2029
   },
   {
-    "id":2030,
-    "Goal":"Fruit + Seed in Food Cost of Your Birds",
+    "Goal":"[fruit] + [seed] in food cost of your birds",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[fruit] + [seed] in food cost of your birds",
-    "Explanatory Text":"Count the number of the food symbol(s) on this goal tile that are in the food costs of your bird cards. For example, for the goal \u201c[fruit]+[seed] in food cost of your birds,\u201d look at the food cost in the upper left of the birds you have played onto your mat, and count all [fruit] plus all [seed]. If a bird has a \u201c[fruit]\/[seed]\u201d cost (you paid a [fruit] OR a [seed] to play the bird), it only counts as one food for this end round goal. Do not count [wild] or [nectar]."
+    "1":1,
+    "2":2,
+    "3":4,
+    "4":6,
+    "Reverse":"[invertebrate] in food cost of your birds",
+    "id":2030
   },
   {
-    "id":2031,
-    "Goal":"Invertebrate in Food Cost of Your Birds",
+    "Goal":"[invertebrate] in food cost of your birds",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[invertebrate] in food cost of your birds",
-    "Explanatory Text":"Count the number of the food symbol(s) on this goal tile that are in the food costs of your bird cards. For example, for the goal \u201c[fruit]+[seed] in food cost of your birds,\u201d look at the food cost in the upper left of the birds you have played onto your mat, and count all [fruit] plus all [seed]. If a bird has a \u201c[fruit]\/[seed]\u201d cost (you paid a [fruit] OR a [seed] to play the bird), it only counts as one food for this end round goal. Do not count [wild] or [nectar]."
+    "1":1,
+    "2":3,
+    "3":5,
+    "4":5,
+    "Reverse":"[fruit] + [seed] in food cost of your birds",
+    "id":2031
   },
   {
-    "id":2032,
-    "Goal":"No Goal",
+    "Goal":"[rodent] + [fish] in food cost of your birds",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"no goal",
-    "Explanatory Text":"Don\u2019t score a goal at the end of this round. Keep your cube. All of the following rounds will have 1 more turn than they normally would."
+    "1":0,
+    "2":1,
+    "3":2,
+    "4":3,
+    "Reverse":"no goal",
+    "id":2032
   },
   {
-    "id":2033,
-    "Goal":"Rodent + Fish in Food Cost of Your Birds",
+    "Goal":"no goal",
     "Set":"oceania",
-    "Duet":null,
-    "Condition":"[rodent] + [fish] in food cost of your birds",
-    "Explanatory Text":"Count the number of the food symbol(s) on this goal tile that are in the food costs of your bird cards. For example, for the goal \u201c[fruit]+[seed] in food cost of your birds,\u201d look at the food cost in the upper left of the birds you have played onto your mat, and count all [fruit] plus all [seed]. If a bird has a \u201c[fruit]\/[seed]\u201d cost (you paid a [fruit] OR a [seed] to play the bird), it only counts as one food for this end round goal. Do not count [wild] or [nectar]."
+    "1":"[nectar]",
+    "2":"[nectar]",
+    "3":"[nectar]",
+    "4":"[nectar]",
+    "Reverse":"[rodent] + [fish] in food cost of your birds",
+    "id":2033
   },
   {
-    "id":2034,
-    "Goal":"Fewest Tokens on Bonus Spaces",
+    "Goal":"[duet_token] in [forest]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"fewest [duet-token] on bonus spaces",
-    "Explanatory Text":"Bonus spaces are the spaces that award [dice]\/[egg]\/[card] when you put a token on them. Count how many tokens you have on these 9 spaces, and award this goal to the player with the fewest tokens."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] on pairs of matching symbols",
+    "id":2034
   },
   {
-    "id":2035,
-    "Goal":"Food Symbols",
+    "Goal":"[duet_token] in [grassland]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] on [fish][fruit][rodent][seed][invertebrate]",
-    "Explanatory Text":"Count all Duet tokens on spaces that have any food symbol ([fruit] [seed] [invertebrate] [rodent] [fish]). Symbols may repeat (i.e., tokens on two different [fish] spaces both count)."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"total [duet_token] on map",
+    "id":2035
   },
   {
-    "id":2036,
-    "Goal":"Horizontal Rows with at Least One of Your Tokens",
+    "Goal":"[duet_token] in [wetland]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"horizontal rows with at least one of your [duet-token]",
-    "Explanatory Text":"For the six horizontal rows of the map, count how many of them have at least one of your Duet tokens."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"fewest [duet_token] on bonus spaces",
+    "id":2036
   },
   {
-    "id":2037,
-    "Goal":"In Forest",
+    "Goal":"[duet_token] in any one horizontal row",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] in [forest]",
-    "Explanatory Text":"Count the number of tokens on the map in the habitat shown. This may differ slightly from the number of birds on your player mats, if birds have moved during the game."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"horizontal rows with at least 1 of your [duet_token]",
+    "id":2037
   },
   {
-    "id":2038,
-    "Goal":"In Grassland",
+    "Goal":"[duet_token] not on edge of map",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] in [grassland]",
-    "Explanatory Text":"Count the number of tokens on the map in the habitat shown. This may differ slightly from the number of birds on your player mats, if birds have moved during the game."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] on edge of map",
+    "id":2038
   },
   {
-    "id":2039,
-    "Goal":"In Wetland",
+    "Goal":"[duet_token] on [bowl] [cavity] [ground] [platform]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] in [wetland]",
-    "Explanatory Text":"Count the number of tokens on the map in the habitat shown. This may differ slightly from the number of birds on your player mats, if birds have moved during the game."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] on [fish] [fruit] [rodent] [seed] [invertebrate]",
+    "id":2039
   },
   {
-    "id":2040,
-    "Goal":"Nest Symbols",
+    "Goal":"[duet_token] on [fish] [fruit] [rodent] [seed] [invertebrate]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] on [bowl][cavity][ground][platform]",
-    "Explanatory Text":"Count all Duet tokens on spaces that have any nest symbol ([bowl] [cavity] [ground] [platform]). Symbols may repeat (i.e., tokens on two different [platform] spaces both count)."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] on [bowl] [cavity] [ground] [platform]",
+    "id":2040
   },
   {
-    "id":2041,
-    "Goal":"Not on Edge of Map",
+    "Goal":"[duet_token] on edge of map",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] not on edge of map",
-    "Explanatory Text":"Each edge of the map has 6 spaces on it: the sides each have 3 indented spaces that are still on the edge. This makes a total of 20 edge spaces and 16 interior spaces. For these goals, count how many tokens are on the edge or in the interior."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] not on edge of map",
+    "id":2041
   },
   {
-    "id":2042,
-    "Goal":"On Edge of Map",
+    "Goal":"[duet_token] on pairs of matching symbols",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] on edge of map",
-    "Explanatory Text":"Each edge of the map has 6 spaces on it: the sides each have 3 indented spaces that are still on the edge. This makes a total of 20 edge spaces and 16 interior spaces. For these goals, count how many tokens are on the edge or in the interior."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] in [forest]",
+    "id":2042
   },
   {
-    "id":2043,
-    "Goal":"Pairs of Matching Symbols",
+    "Goal":"fewest [duet_token] on bonus spaces",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] on pairs of matching symbols",
-    "Explanatory Text":"Each player counts how many of their tokens are on a pair of matching spaces. Symbols must match exactly, such as two rodents or two 50+ cm wingspan spaces, but bonuses do not need to match. Each token only counts once."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] in [wetland]",
+    "id":2043
   },
   {
-    "id":2044,
-    "Goal":"Tokens in Any One Horizontal Row",
+    "Goal":"horizontal rows with at least 1 of your [duet_token]",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"[duet-token] in any one horizontal row",
-    "Explanatory Text":"Each player chooses the horizontal row on the map that is best for them and counts the number of their Duet tokens in that row. Tokens do not need to be in a contiguous group."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] in any one horizontal row",
+    "id":2044
   },
   {
-    "id":2045,
-    "Goal":"Total Duet Tokens",
+    "Goal":"total [duet_token] on map",
     "Set":"asia",
-    "Duet":"X",
-    "Condition":"total [duet-token] on map",
-    "Explanatory Text":"Count the total number of Duet tokens on the map. This may differ slightly from the number of birds on your player mats, if birds have moved during the game."
+    "1":null,
+    "2":null,
+    "3":null,
+    "4":null,
+    "Reverse":"[duet_token] in [grassland]",
+    "id":2045
   }
 ]
