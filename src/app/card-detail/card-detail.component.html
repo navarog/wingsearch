@@ -3,7 +3,7 @@
         <picture>
             <source type="image/webp" srcset="assets/cards/bonuses/{{data.card.id}}.webp">
             <source type="image/jpeg" srcset="assets/cards/bonuses/{{data.card.id}}.jpg">
-            <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Name']}} bird card"
+            <img class="image" src="assets/cards/bonuses/{{data.card.id}}.jpg" alt="{{data.card['Bonus card']}} bird card"
                 loading="lazy">
         </picture>
     </div>
@@ -27,7 +27,7 @@
     </mat-card>
 
     <mat-card class="bonus data-container" *ngIf="isBonusCard(data.card)">
-        <div class="bonus title" [innerHTML]="data.card['Name'] | iconize"></div>
+        <div class="bonus title" [innerHTML]="data.card['Bonus card'] | iconize"></div>
         <p class="power large-font" [innerHTML]="data.card['Condition'] | iconize"></p>
         <p class="power" [innerHTML]="data.card['Explanatory text'] | iconize"></p>
         <p class="note" [innerHTML]="data.card.Note | iconize"></p>

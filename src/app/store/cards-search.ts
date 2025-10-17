@@ -35,7 +35,7 @@ export const bonusCardsSearch = (cards: BonusCard[]) => {
         doc: {
             id: 'id',
             field: {
-                Name: {
+                'Bonus card': {
                     encode: (value: string): string => removeDiacritics(value.toLowerCase()),
                     tokenize: 'full',
                     threshold: false,

@@ -75,7 +75,7 @@ export const setLanguage = createAction('[App] Set language',
     props<{
         payload: {
             birds: { 'Common name': string, 'Power text': string, 'Note': string }[],
-            bonuses: { 'Name': string, 'Condition': string, 'Explanatory text': string, 'VP': string, 'Note': string },
+            bonuses: { 'Bonus card': string, 'Condition': string, 'Explanatory text': string, 'VP': string, 'Note': string },
             other: { [key: string]: { Translated: string } }
             parameters: { [key: string]: {Value: unknown} }
         },

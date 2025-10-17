@@ -66,12 +66,12 @@ export class SearchComponent implements OnInit {
       core: true,
     },
     promoPack: {
-      fanAsia: true,
-      fanCA: true,
-      fanEurope: true,
-      fanNZ: true,
-      fanUK: true,
-      fanUS: true
+      promoAsia: true,
+      promoCA: true,
+      promoEurope: true,
+      promoNZ: true,
+      promoUK: true,
+      promoUS: true
     },
     eggs: {
       min: 0,
@@ -128,29 +128,29 @@ export class SearchComponent implements OnInit {
   tealColorEnabled(): boolean {
     return this.query.expansion.european
       || this.query.expansion.asia
-      || this.query.promoPack.fanAsia
-      || this.query.promoPack.fanCA
-      || this.query.promoPack.fanEurope
-      || this.query.promoPack.fanNZ
-      || this.query.promoPack.fanUK
-      || this.query.promoPack.fanUS
+      || this.query.promoPack.promoAsia
+      || this.query.promoPack.promoCA
+      || this.query.promoPack.promoEurope
+      || this.query.promoPack.promoNZ
+      || this.query.promoPack.promoUK
+      || this.query.promoPack.promoUS
   }
 
   yellowColorEnabled(): boolean {
     return this.query.expansion.oceania
       || this.query.expansion.asia
-      || this.query.promoPack.fanAsia
-      || this.query.promoPack.fanCA
-      || this.query.promoPack.fanEurope
-      || this.query.promoPack.fanNZ
-      || this.query.promoPack.fanUK
-      || this.query.promoPack.fanUS
+      || this.query.promoPack.promoAsia
+      || this.query.promoPack.promoCA
+      || this.query.promoPack.promoEurope
+      || this.query.promoPack.promoNZ
+      || this.query.promoPack.promoUK
+      || this.query.promoPack.promoUS
   }
 
   nectarEnabled(): boolean {
     return this.query.expansion.oceania
-      || this.query.promoPack.fanAsia
-      || this.query.promoPack.fanNZ
+      || this.query.promoPack.promoAsia
+      || this.query.promoPack.promoNZ
   }
 
   bonusControl = new FormControl()
@@ -229,12 +229,12 @@ export class SearchComponent implements OnInit {
         core: cookies.getCookie('expansion.core') !== '0',
       },
       promoPack: {
-        fanAsia: cookies.getCookie('expansion.fanAsia') !== '0',
-        fanCA: cookies.getCookie('expansion.fanCA') !== '0',
-        fanEurope: cookies.getCookie('expansion.fanEurope') !== '0',
-        fanNZ: cookies.getCookie('expansion.fanNZ') !== '0',
-        fanUK: cookies.getCookie('expansion.fanUK') !== '0',
-        fanUS: cookies.getCookie('expansion.fanUS') !== '0',
+        promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
+        promoCA: cookies.getCookie('expansion.promoCA') !== '0',
+        promoEurope: cookies.getCookie('expansion.promoEurope') !== '0',
+        promoNZ: cookies.getCookie('expansion.promoNZ') !== '0',
+        promoUK: cookies.getCookie('expansion.promoUK') !== '0',
+        promoUS: cookies.getCookie('expansion.promoUS') !== '0',
       }
     }
 
