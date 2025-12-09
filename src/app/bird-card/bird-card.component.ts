@@ -66,12 +66,16 @@ export class BirdCardComponent implements OnInit {
     return Object.keys(nestMap).includes(this.card['Nest type']) ? nestMap[this.card['Nest type']] : this.card['Nest type'].toLowerCase()
   }
 
-  getPowerTitle() {
+  getPowerIcon() {
     const powerMap = {
       Predator: '[predator]',
       Flocking: '[flocking]',
       'Bonus card': '[bonus_cards]'
     }
+    return Object.entries(powerMap).map(([key, value]) => this.card[key] ? `<span>${value}</span>` : '').join('');
+  }
+
+  getPowerTitle() {
     const textMap = {
       brown: 'WHEN ACTIVATED',
       white: 'WHEN PLAYED',
@@ -80,9 +84,22 @@ export class BirdCardComponent implements OnInit {
       yellow: 'GAME END'
     }
 
-    const power = Object.entries(powerMap).map(([key, value]) => this.card[key] ? value : '').join('');
     const text = this.translate.transform(textMap[this.card.Color]);
-    return `<span class="intro">${power}${text}: </span>`;
+    return `<span class="intro">${text}: </span>`;
+  }
+
+  get powerFontSize(): number {
+    const charCount = this.card['Power text'].replace(/\[.*?\]/g, '1').length;
+    if (charCount < 100) {
+      return 0.039;
+    }
+    if (charCount > 100 && charCount < 150) {
+      return 0.036;
+    }
+    if (charCount >= 150) {
+      return 0.033;
+    }
+    return 0.039;
   }
 
   getBirdSilhouette() {
@@ -122,6 +139,17 @@ export class BirdCardComponent implements OnInit {
     return packNames.includes(this.card.Set)
   }
 
+  get flavorFontSize(): number {
+    const charCount = this.card['Flavor text'].length;
+    if (charCount < 85) {
+      return 0.025;
+    }
+    if (charCount >= 85) {
+      return 0.023;
+    }
+    return 0.025;
+  }
+
   getSwiftStartIcon(): string {
     const iconMap = {
       [ExpansionType.Core]: 'swiftstart',
@@ -132,7 +160,7 @@ export class BirdCardComponent implements OnInit {
 
   isPromo(): boolean {
     const packNames: string[] = Object.values(PackType);
-    return packNames.includes(this.card.Set)
+    return packNames.includes(this.card.Set);
   }
 
   getPackTitle() {
