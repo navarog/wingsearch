@@ -90,16 +90,16 @@ export class BirdCardComponent implements OnInit {
 
   get powerFontSize(): number {
     const charCount = this.card['Power text'].replace(/\[.*?\]/g, '1').length;
-    if (charCount < 100) {
+    if (charCount <= 100) {
       return 0.039;
     }
-    if (charCount > 100 && charCount < 150) {
+    if (charCount > 100 && charCount <= 150) {
       return 0.036;
     }
-    if (charCount >= 150) {
+    if (charCount > 150 && charCount <= 200) {
       return 0.033;
     }
-    return 0.039;
+    return 0.031;
   }
 
   getBirdSilhouette() {
@@ -144,10 +144,7 @@ export class BirdCardComponent implements OnInit {
     if (charCount < 85) {
       return 0.025;
     }
-    if (charCount >= 85) {
-      return 0.023;
-    }
-    return 0.025;
+    return 0.023;
   }
 
   getSwiftStartIcon(): string {
