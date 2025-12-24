@@ -186,14 +186,29 @@
         text-transform: uppercase;
     }
 
-    .text {
-        font-family: "Open Sans", sans-serif;
-        font-optical-sizing: auto;
-        font-weight: 400;
-        font-style: normal;
-        font-variation-settings: "wdth" 75;
+    .power {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 3px;
         max-width: 100%;
         max-height: 100%;
+
+        .icons {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 3px;
+        }
+
+        .text {
+            font-family: "Open Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings: "wdth" 75;
+        }
     }
 }
 
@@ -242,16 +257,48 @@
 .footer-left {
     display: flex;
     flex-direction: column-reverse;
+    width: 7%;
+}
+
+.swift-start-indicator {
+    border-bottom-left-radius: 8px;
+    bottom: 0;
+    height: 5%;
+    left: 0;
+    position: absolute;
+}
+
+.continent {
+    height: 100%;
+    min-width: 30%;
+    position: relative;
+
+    .continent-base {
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .continent-top {
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+.footer-flavor {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
+
+    .text {
+        text-align: start;
+    }
 }
 
 .footer-right {
     display: flex;
     flex-direction: row-reverse;
-}
-
-.swift-start-indicator {
-    height: 75%;
-    border-bottom-left-radius: 8px;
 }
 
 .expansion-indicator {

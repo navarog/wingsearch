@@ -52,13 +52,39 @@
         </div>
     </div>
     <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
-        <div class='text' *ngIf="card.Color" [innerHTML]="(getPowerTitle() + card['Power text'] | iconize:card.Color !== 'white':card.Color !== 'white')"
-            [ngStyle]="{'font-size.px': cardHeight * 0.039, 'line-height.px': cardHeight * 0.039 + 1}"></div>
+        <div class="power">
+            <div class='icons' *ngIf="getPowerIcon().length" [innerHtml]="(getPowerIcon() | iconize)"></div>
+            <div class='text' *ngIf="card.Color" [ngStyle]="{'font-size.px': cardHeight * powerFontSize, 'line-height.px': cardHeight * powerFontSize + 1}">
+                <span [innerHtml]="getPowerTitle()"></span>
+                <span [innerHtml]="(card['Power text'] | iconize:card.Color !== 'white':card.Color !== 'white')"></span>
+            </div>
+        </div>
     </div>
     <div class="footer">
         <div class="footer-left">
             <img class="swift-start-indicator" *ngIf="card['Swift Start']" src="assets/icons/svg/expansion-indicators/{{getSwiftStartIcon()}}.svg"
                 alt="Swift Start" aria-label="swift start indicator">
+        </div>
+        <div class="continent">
+            <img class="continent-base" src="assets/icons/png/map.png"
+                alt="Continent indicator" aria-label="continent indicator">
+            <img class="continent-top" *ngIf="card['North America']" src="assets/icons/png/map_na.png"
+                alt="North America Continent indicator" aria-label="North America continent indicator">
+            <img class="continent-top" *ngIf="card['Central America']" src="assets/icons/png/map_amn.png"
+                alt="Central America Continent indicator" aria-label="Central America continent indicator">
+            <img class="continent-top" *ngIf="card['South America']" src="assets/icons/png/map_ams.png"
+                alt="South America Continent indicator" aria-label="South America continent indicator">
+            <img class="continent-top" *ngIf="card['Europe']" src="assets/icons/png/map_e.png"
+                alt="Europe Continent indicator" aria-label="Europe continent indicator">
+            <img class="continent-top" *ngIf="card['Asia']" src="assets/icons/png/map_a.png"
+                alt="Asia Continent indicator" aria-label="Asia continent indicator">
+            <img class="continent-top" *ngIf="card['Africa']" src="assets/icons/png/map_af.png"
+                alt="Africa Continent indicator" aria-label="Africa continent indicator">
+            <img class="continent-top" *ngIf="card['Oceania']" src="assets/icons/png/map_o.png"
+                alt="Oceania Continent indicator" aria-label="Oceania continent indicator">
+        </div>
+        <div class="footer-flavor" [ngStyle]="{'font-size.px': cardHeight * flavorFontSize, 'line-height.px': cardHeight * flavorFontSize + 1}">
+            <span class="text">{{card['Flavor text']}}</span>
         </div>
         <div class="footer-right">
             <img class="expansion-indicator" *ngIf="isExpansion()" src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg"
