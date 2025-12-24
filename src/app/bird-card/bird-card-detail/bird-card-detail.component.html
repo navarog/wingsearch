@@ -8,7 +8,7 @@
                 <h2>Appendix entry</h2>
                 <div [innerHTML]="data.card.Note | iconize | safe" applinkWatchero></div>
             </div>
-            <div class="rulings" [ngClass]="{'negative-margin': !data.card.Note}" *ngIf="data.card.rulings.length || data.card.additionalRulings.length">
+            <div class="rulings" *ngIf="data.card.rulings.length || data.card.additionalRulings.length">
                 <h2 *ngIf="data.card.rulings.length">Official rulings</h2>
                 <div>
                     <div class="ruling" *ngFor="let ruling of data.card.rulings">
