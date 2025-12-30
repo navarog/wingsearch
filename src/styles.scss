@@ -158,7 +158,9 @@ body {
 }
 
 .card-detail-panel {
-        .mat-dialog-container {
+    pointer-events: none !important;
+
+    .mat-dialog-container {
         background-color: unset;
         padding: 0;
         border-radius: 0;

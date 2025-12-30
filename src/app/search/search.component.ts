@@ -52,9 +52,9 @@ export class SearchComponent implements OnInit {
     bonus: [],
     stats: {
       habitat: {
-        forest: true,
-        grassland: true,
-        wetland: true
+        forest: 0,
+        grassland: 0,
+        wetland: 0
       },
       birds: true,
       bonuses: true
@@ -260,7 +260,7 @@ export class SearchComponent implements OnInit {
 
   onKeyDown(event: KeyboardEvent) {
     if (event.key === ' ') {
-      event.cancelBubble = true
+      event.stopPropagation()
     }
   }
 
@@ -283,7 +283,7 @@ export class SearchComponent implements OnInit {
       main: '',
       bonus: [],
       stats: {
-        habitat: { forest: true, grassland: true, wetland: true },
+        habitat: { forest: 0, grassland: 0, wetland: 0 },
         birds: true,
         bonuses: true
       },

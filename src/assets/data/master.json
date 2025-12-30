@@ -23477,7 +23477,7 @@
     "Wildlife Gardener":null,
     "id":148,
     "Native name":null,
-    "Note":null,
+    "Note":"A few birds have the power to repeat another bird\u2019s brown power. The repeated bird must be in the same habitat.",
     "rulings":[
       {
         "text":"This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
