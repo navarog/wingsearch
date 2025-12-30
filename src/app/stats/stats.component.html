@@ -22,7 +22,11 @@
     <div class="habitat-container" [ngClass]="{mobile: mobile}"
         matTooltip="Filter birds that can live in a specific habitat">
         <span appAnalyticsEvent="Toggle habitat" eventLabel="forest" class="stats-entry"
-            [ngClass]="{inactive: !statsControls.habitat.forest}" (click)="toggleHabitat('forest', $event)">
+            [ngClass]="{
+              inactive: statsControls.habitat.forest === 0,
+              exclude: statsControls.habitat.forest === 2,
+              ignore: !statsControls.birds
+            }" (click)="toggleHabitat('forest', $event)">
             {{stats.habitat.forest}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/forest.webp">
@@ -31,7 +35,11 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle habitat" eventLabel="grassland" class="stats-entry"
-            [ngClass]="{inactive: !statsControls.habitat.grassland}" (click)="toggleHabitat('grassland', $event)">
+            [ngClass]="{
+              inactive: statsControls.habitat.grassland === 0,
+              exclude: statsControls.habitat.grassland === 2,
+              ignore: !statsControls.birds
+            }" (click)="toggleHabitat('grassland', $event)">
             {{stats.habitat.grassland}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/grassland.webp">
@@ -40,7 +48,11 @@
             </picture>
         </span>
         <span appAnalyticsEvent="Toggle habitat" eventLabel="wetland" class="stats-entry"
-            [ngClass]="{inactive: !statsControls.habitat.wetland}" (click)="toggleHabitat('wetland', $event)">
+            [ngClass]="{
+              inactive: statsControls.habitat.wetland === 0,
+              exclude: statsControls.habitat.wetland === 2,
+              ignore: !statsControls.birds
+            }" (click)="toggleHabitat('wetland', $event)">
             {{stats.habitat.wetland}}
             <picture>
                 <source type="image/webp" srcset="assets/icons/png/wetland.webp">

@@ -52,6 +52,25 @@
     flex-direction: row;
 }
 
-.inactive {
+.inactive,
+.ignore {
     opacity: 0.5;
+}
+
+.exclude {
+    position: relative;
+}
+
+.exclude::before {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 24px;
+    height: 4px;
+    background-color: red;
+    transform: translate(50%, -50%) rotate(-45deg);
+    transform-origin: 50% 50%;
+    pointer-events: none;
 }

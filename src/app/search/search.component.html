@@ -1,7 +1,7 @@
 <mat-expansion-panel (window:resize)="onResize()">
     <mat-expansion-panel-header collapsedHeight="84px" expandedHeight="84px">
         <mat-panel-title>
-            <mat-form-field appAnalyticsEvent="Main search" appearance="standard" (click)="$event.cancelBubble = true">
+            <mat-form-field appAnalyticsEvent="Main search" appearance="standard" (click)="$event.stopPropagation()">
                 <mat-label>
                     <picture>
                         <source type="image/webp" srcset="assets/icons/png/flocking.webp">

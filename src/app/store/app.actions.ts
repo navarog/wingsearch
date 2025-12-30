@@ -6,9 +6,9 @@ export const search = createAction('[App] Search', props<{
     bonus: number[],
     stats: {
         habitat: {
-            forest: boolean,
-            grassland: boolean,
-            wetland: boolean
+            forest: number,
+            grassland: number,
+            wetland: number
         },
         birds: boolean,
         bonuses: boolean
