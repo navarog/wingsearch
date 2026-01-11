@@ -23477,7 +23477,7 @@
     "Wildlife Gardener":null,
     "id":148,
     "Native name":null,
-    "Note":"A few birds have the power to repeat another bird\u2019s brown power. The repeated bird must be in the same habitat.",
+    "Note":null,
     "rulings":[
       {
         "text":"This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
@@ -23486,6 +23486,10 @@
       {
         "text":"This bird cannot copy the power of a bird with a <i>\"copy\"<\/i> power that is not a predator power, even if that bird copied a predator power earlier in the turn.",
         "source":"https:\/\/www.facebook.com\/groups\/wingspanboardgame\/permalink\/714240602612878\/?comment_id=714367625933509&reply_comment_id=715341599169445"
+      },
+      {
+        "text":"A few birds have the power to repeat another bird's brown power. The repeated bird must be in the same habitat.",
+        "source":"https:\/\/europe.stonemaiergames.com\/collections\/wingspan-fan-designed-promo-packs"
       }
     ],
     "additionalRulings":[
