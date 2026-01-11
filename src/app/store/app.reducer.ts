@@ -285,8 +285,9 @@ const reducer = createReducer(
         }
 
         const translateBonuses = (card: BonusCard) => {
+            const renameKeys = {'Name': 'Bonus card'}
+            const translated = Object.keys(action.payload.bonuses[card.id] || {}).reduce((acc, key) => ({...acc, [renameKeys[key] || key]: action.payload.bonuses[card.id][key]}), {})
             const translatedKeys = ['Bonus card', 'Condition', 'Explanatory text', 'VP', 'Note']
-            const translated = action.payload.bonuses[card.id]
             const englishBonus = englishBonusCardsMap[card.id]
 
             if (!translated)

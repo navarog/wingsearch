@@ -89,7 +89,7 @@ export class BirdCardComponent implements OnInit {
   }
 
   get powerFontSize(): number {
-    const charCount = this.card['Power text'].replace(/\[.*?\]/g, '1').length;
+    const charCount = this.card['Power text']?.replace(/\[.*?\]/g, '1').length || 0;
     if (charCount <= 100) {
       return 0.039;
     }

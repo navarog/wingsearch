@@ -46,6 +46,7 @@ import { LanguageDialogComponent } from './search/language-dialog/language-dialo
 import { AssetPackDialogComponent } from './search/asset-pack-dialog/asset-pack-dialog.component'
 import { AnalyticsEventDirective } from './analytics-event.directive';
 import { ApplinkDirective } from './applink.directive';
+import { FitTextDirective} from './fittext.directive'
 import { SafePipe } from './safe.pipe'
 
 @NgModule({
@@ -67,6 +68,7 @@ import { SafePipe } from './safe.pipe'
     AssetPackDialogComponent,
     AnalyticsEventDirective,
     ApplinkDirective,
+    FitTextDirective,
     SafePipe,
   ],
   imports: [

@@ -1,4 +1,5 @@
-<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [style]="getBirdSilhouette() | async" [ngStyle]="{'height.px': cardHeight}">
+<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [style]="getBirdSilhouette() | async"
+    [ngStyle]="{'height.px': cardHeight}">
     <div class="upper-row">
         <div class="grey-square">
             <div class="habitats">
@@ -17,8 +18,7 @@
             <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
                 <span [innerHTML]="displayName(card) | iconize"></span>
             </div>
-            <div class="native"
-                [ngStyle]="{'font-size.px': cardHeight * 0.045, 'line-height.px': cardHeight * 0.045}"
+            <div class="native" [ngStyle]="{'font-size.px': cardHeight * 0.045, 'line-height.px': cardHeight * 0.045}"
                 *ngIf="card['Native name']">
                 {{card['Native name']}}
             </div>
@@ -51,10 +51,11 @@
             <img src="assets/icons/png/wingspan.png" *ngIf="wingspan" alt="{{wingspan}}" aria-hidden="true">
         </div>
     </div>
-    <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
+    <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()" fitText [fitText]="card['Power text']"
+        [minFontSize]="7" [maxFontSize]="cardHeight * powerFontSize">
         <div class="power">
             <div class='icons' *ngIf="getPowerIcon().length" [innerHtml]="(getPowerIcon() | iconize)"></div>
-            <div class='text' *ngIf="card.Color" [ngStyle]="{'font-size.px': cardHeight * powerFontSize, 'line-height.px': cardHeight * powerFontSize + 1}">
+            <div class='text' *ngIf="card.Color">
                 <span [innerHtml]="getPowerTitle()"></span>
                 <span [innerHtml]="(card['Power text'] | iconize:card.Color !== 'white':card.Color !== 'white')"></span>
             </div>
@@ -62,12 +63,13 @@
     </div>
     <div class="footer">
         <div class="footer-left">
-            <img class="swift-start-indicator" *ngIf="card['Swift Start']" src="assets/icons/svg/expansion-indicators/{{getSwiftStartIcon()}}.svg"
-                alt="Swift Start" aria-label="swift start indicator">
+            <img class="swift-start-indicator" *ngIf="card['Swift Start']"
+                src="assets/icons/svg/expansion-indicators/{{getSwiftStartIcon()}}.svg" alt="Swift Start"
+                aria-label="swift start indicator">
         </div>
         <div class="continent">
-            <img class="continent-base" src="assets/icons/png/map.png"
-                alt="Continent indicator" aria-label="continent indicator">
+            <img class="continent-base" src="assets/icons/png/map.png" alt="Continent indicator"
+                aria-label="continent indicator">
             <img class="continent-top" *ngIf="card['North America']" src="assets/icons/png/map_na.png"
                 alt="North America Continent indicator" aria-label="North America continent indicator">
             <img class="continent-top" *ngIf="card['Central America']" src="assets/icons/png/map_amn.png"
@@ -83,12 +85,14 @@
             <img class="continent-top" *ngIf="card['Oceania']" src="assets/icons/png/map_o.png"
                 alt="Oceania Continent indicator" aria-label="Oceania continent indicator">
         </div>
-        <div class="footer-flavor" [ngStyle]="{'font-size.px': cardHeight * flavorFontSize, 'line-height.px': cardHeight * flavorFontSize + 1}">
+        <div class="footer-flavor"
+            [ngStyle]="{'font-size.px': cardHeight * flavorFontSize, 'line-height.px': cardHeight * flavorFontSize + 1}">
             <span class="text">{{card['Flavor text']}}</span>
         </div>
         <div class="footer-right">
-            <img class="expansion-indicator" *ngIf="isExpansion()" src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg"
-                [alt]="card.Set" aria-label="expansion indicator">
+            <img class="expansion-indicator" *ngIf="isExpansion()"
+                src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg" [alt]="card.Set"
+                aria-label="expansion indicator">
             <img class="expansion-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/promo.svg"
                 alt="Fan-Designed Bird Packs" aria-label="expansion indicator">
             <img class="pack-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg"

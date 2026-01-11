@@ -26,6 +26,7 @@ export class SearchComponent implements OnInit {
     { value: 'en', display: 'English' },
     { value: 'es', display: 'Español' },
     { value: 'fr', display: 'Français' },
+    { value: 'jp', display: '日本語' },
     { value: 'lt', display: 'lietuvių' },
     { value: 'nl', display: 'Nederlands' },
     { value: 'pl', display: 'Polski' },
