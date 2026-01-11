@@ -10,6 +10,8 @@ export class ApplinkDirective {
 
   @HostListener('click', ['$event.target']) onClick($event) {
     const url: string = $event.getAttribute('applink')
+    if (!url)
+      return
     if(url.match(/http:\/\/|https:\/\//))
       window.location.href = url
     else

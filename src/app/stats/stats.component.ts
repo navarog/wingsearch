@@ -15,7 +15,7 @@ export class StatsComponent implements OnInit {
 
   @Input()
   statsControls: {
-    habitat: { forest: boolean, grassland: boolean, wetland: boolean }
+    habitat: { forest: number, grassland: number, wetland: number }
     birds: boolean,
     bonuses: boolean
   }
@@ -33,22 +33,21 @@ export class StatsComponent implements OnInit {
   }
 
   toggleHabitat(habitat: 'forest' | 'grassland' | 'wetland', event: MouseEvent) {
-    event.cancelBubble = true
+    event.stopPropagation()
 
     const newStats = {
       ...this.statsControls,
       habitat: {
         ...this.statsControls.habitat,
-        [habitat]: !this.statsControls.habitat[habitat]
+        [habitat]: (this.statsControls.habitat[habitat] + 1) % 3
       }
     }
-    newStats.birds = Object.values(newStats.habitat).reduce((a, b) => a || b, false)
 
     this.statsChange.emit(newStats)
   }
 
   toggleCards(cards: 'birds' | 'bonuses', event: MouseEvent) {
-    event.cancelBubble = true
+    event.stopPropagation()
 
     const newStats = {
       ...this.statsControls,
@@ -57,12 +56,6 @@ export class StatsComponent implements OnInit {
       },
       [cards]: !this.statsControls[cards]
     }
-    if (cards === 'birds')
-      newStats.habitat = {
-        forest: newStats.birds,
-        grassland: newStats.birds,
-        wetland: newStats.birds
-      }
 
     this.statsChange.emit(newStats)
   }

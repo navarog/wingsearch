@@ -201,16 +201,32 @@ const reducer = createReducer(
             || (!action.beak?.left && !action.beak?.right && card['Beak direction'] == BeakDirection.Neither)
         )
 
-        const displayedStats = calculateDisplayedStats(displayedCards)
-
         displayedCards = displayedCards.filter(card =>
             (isBonusCard(card) && action.stats.bonuses)
-            || (isBirdCard(card) && (
-                (action.stats.habitat.forest && card.Forest)
-                || (action.stats.habitat.grassland && card.Grassland)
-                || (action.stats.habitat.wetland && card.Wetland)
-            ))
+            || (
+                isBirdCard(card)
+                && action.stats.birds
+                && (
+                    (
+                        action.stats.habitat.forest === 0
+                        || (action.stats.habitat.forest === 1 && card.Forest)
+                        || (action.stats.habitat.forest === 2 && !card.Forest)
+                    )
+                    && (
+                        action.stats.habitat.grassland === 0
+                        || (action.stats.habitat.grassland === 1 && card.Grassland)
+                        || (action.stats.habitat.grassland === 2 && !card.Grassland)
+                    )
+                    && (
+                        action.stats.habitat.wetland === 0
+                        || (action.stats.habitat.wetland === 1 && card.Wetland)
+                        || (action.stats.habitat.wetland === 2 && !card.Wetland)
+                    )
+                )
+            )
         )
+
+        const displayedStats = calculateDisplayedStats(displayedCards)
 
         const displayedCardsHidden = displayedCards.slice(SLICE_WINDOW)
         displayedCards = displayedCards.slice(0, SLICE_WINDOW)
