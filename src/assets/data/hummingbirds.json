@@ -1,0 +1,402 @@
+[
+  {
+    "Common name":"Amethyst Woodstar",
+    "Scientific name":"Calliphlox amethystina",
+    "Group":"bees & mountaingems",
+    "Benefit":"nectar",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2000
+  },
+  {
+    "Common name":"Bee Hummingbird",
+    "Scientific name":"Mellisuga helenae",
+    "Group":"bees & mountaingems",
+    "Benefit":"egg",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2001
+  },
+  {
+    "Common name":"Black-Eared Fairy",
+    "Scientific name":"Heliothryx auritus",
+    "Group":"mangoes",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2024
+  },
+  {
+    "Common name":"Black-Throated Mango",
+    "Scientific name":"Anthracothorax nigricollis",
+    "Group":"mangoes",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2025
+  },
+  {
+    "Common name":"Blue-Tufted Starthroat",
+    "Scientific name":"Heliomaster furcifer",
+    "Group":"bees & mountaingems",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2002
+  },
+  {
+    "Common name":"Cinnamon Hummingbird",
+    "Scientific name":"Amazilia rutila",
+    "Group":"emeralds",
+    "Benefit":"row",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2016
+  },
+  {
+    "Common name":"Crimson Topaz",
+    "Scientific name":"Topaza pella",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"egg",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2032
+  },
+  {
+    "Common name":"Crowned Woodnymph",
+    "Scientific name":"Thalurania colombica",
+    "Group":"emeralds",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2017
+  },
+  {
+    "Common name":"Fiery-Throated Hummingbird",
+    "Scientific name":"Panterpe insignis",
+    "Group":"bees & mountaingems",
+    "Benefit":"row",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2003
+  },
+  {
+    "Common name":"Gilded Hummingbird",
+    "Scientific name":"Hylocharis chrysura",
+    "Group":"emeralds",
+    "Benefit":"egg",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2018
+  },
+  {
+    "Common name":"Horned Sungem",
+    "Scientific name":"Heliactin bilophus",
+    "Group":"mangoes",
+    "Benefit":"advance",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2026
+  },
+  {
+    "Common name":"Hyacinth Visorbearer",
+    "Scientific name":"Augastes scutatus",
+    "Group":"mangoes",
+    "Benefit":"nectar",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2027
+  },
+  {
+    "Common name":"Jamaican Mango",
+    "Scientific name":"Anthracothorax mango",
+    "Group":"mangoes",
+    "Benefit":"row",
+    "Anatomist":null,
+    "Cartographer":"X",
+    "Photographer":null,
+    "id":2028
+  },
+  {
+    "Common name":"Long-Billed Hermit",
+    "Scientific name":"Phaethornis longirostris",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2033
+  },
+  {
+    "Common name":"Long-Tailed Sylph",
+    "Scientific name":"Aglaiocercus kingii",
+    "Group":"brilliants & coquettes",
+    "Benefit":"row",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2008
+  },
+  {
+    "Common name":"Marvelous Spatuletail",
+    "Scientific name":"Loddigesia mirabilis",
+    "Group":"brilliants & coquettes",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2009
+  },
+  {
+    "Common name":"Minute Hermit",
+    "Scientific name":"Phaethornis idaliae",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"egg",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2034
+  },
+  {
+    "Common name":"Oasis Hummingbird",
+    "Scientific name":"Rhodopis vesper",
+    "Group":"bees & mountaingems",
+    "Benefit":"nectar",
+    "Anatomist":null,
+    "Cartographer":"X",
+    "Photographer":null,
+    "id":2004
+  },
+  {
+    "Common name":"Purple-Crowned Plovercrest",
+    "Scientific name":"Stephanoxis loddigesii",
+    "Group":"emeralds",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2019
+  },
+  {
+    "Common name":"Purple-Throated Carib",
+    "Scientific name":"Eulampis jugularis",
+    "Group":"mangoes",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2029
+  },
+  {
+    "Common name":"Red-Tailed Comet",
+    "Scientific name":"Sappho sparganurus",
+    "Group":"brilliants & coquettes",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2010
+  },
+  {
+    "Common name":"Ruby-Topaz Hummingbird",
+    "Scientific name":"Chrysolampis mosquitus",
+    "Group":"mangoes",
+    "Benefit":"card",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2030
+  },
+  {
+    "Common name":"Rufous-Breasted Hermit",
+    "Scientific name":"Glaucis hirsutus",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2035
+  },
+  {
+    "Common name":"Rufous-Crested Coquette",
+    "Scientific name":"Lophornis delattrei",
+    "Group":"brilliants & coquettes",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2011
+  },
+  {
+    "Common name":"Rufous-Tailed Hummingbird",
+    "Scientific name":"Amazilia tzacatl",
+    "Group":"emeralds",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2020
+  },
+  {
+    "Common name":"Saw-Billed Hermit",
+    "Scientific name":"Ramphodon naevius",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2036
+  },
+  {
+    "Common name":"Shining Sunbeam",
+    "Scientific name":"Aglaeactis cupripennis",
+    "Group":"brilliants & coquettes",
+    "Benefit":"egg",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2012
+  },
+  {
+    "Common name":"Short-Tailed Woodstar",
+    "Scientific name":"Myrmia micrura",
+    "Group":"bees & mountaingems",
+    "Benefit":"egg",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2005
+  },
+  {
+    "Common name":"Snowcap",
+    "Scientific name":"Microchera albocoronata",
+    "Group":"emeralds",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2021
+  },
+  {
+    "Common name":"Sparkling Violetear",
+    "Scientific name":"Colibri coruscans",
+    "Group":"mangoes",
+    "Benefit":"egg",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2031
+  },
+  {
+    "Common name":"Speckled Hummingbird",
+    "Scientific name":"Adelomyia melanogenys",
+    "Group":"brilliants & coquettes",
+    "Benefit":"advance",
+    "Anatomist":null,
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2013
+  },
+  {
+    "Common name":"Stripe-Breasted Starthroat",
+    "Scientific name":"Heliomaster squamosus",
+    "Group":"bees & mountaingems",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2006
+  },
+  {
+    "Common name":"Stripe-Throated Hermit",
+    "Scientific name":"Phaethornis striigularis",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2037
+  },
+  {
+    "Common name":"Swallow-Tailed Hummingbird",
+    "Scientific name":"Eupetomena macroura",
+    "Group":"emeralds",
+    "Benefit":"egg",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2022
+  },
+  {
+    "Common name":"Sword-Billed Hummingbird",
+    "Scientific name":"Ensifera ensifera",
+    "Group":"brilliants & coquettes",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":null,
+    "id":2014
+  },
+  {
+    "Common name":"Violet Sabrewing",
+    "Scientific name":"Campylopterus hemileucurus",
+    "Group":"emeralds",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2023
+  },
+  {
+    "Common name":"White-Bellied Woodstar",
+    "Scientific name":"Chaetocercus mulsant",
+    "Group":"bees & mountaingems",
+    "Benefit":"card",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2007
+  },
+  {
+    "Common name":"White-Booted Racket-Tail",
+    "Scientific name":"Ocreatus underwoodii",
+    "Group":"brilliants & coquettes",
+    "Benefit":"nectar",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2015
+  },
+  {
+    "Common name":"White-Necked Jacobin",
+    "Scientific name":"Florisuga mellivora",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"row",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2038
+  },
+  {
+    "Common name":"White-Tipped Sicklebill",
+    "Scientific name":"Eutoxeres aquila",
+    "Group":"topazes, jacobins, & hermits",
+    "Benefit":"advance",
+    "Anatomist":"X",
+    "Cartographer":null,
+    "Photographer":"X",
+    "id":2039
+  }
+]

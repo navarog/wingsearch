@@ -33,4 +33,9 @@ export class BonusCardComponent implements OnInit {
         return [...acc, [{ value: condition.slice(0, match.index), point: false }, { value: match[0], point: true }]]
     }, []) : []
   }
+
+  get descriptionFontSize(): number {
+    const charCount = this.card['Condition'].replace(/\[.*?\]/g, '1').length;
+    return charCount <= 100 ? 0.052 : 0.045;
+  }
 }

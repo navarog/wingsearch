@@ -136,15 +136,13 @@
         align-items: center;
         justify-content: flex-end;
 
-            .wingspan {
+            .wingspan-value {
                 font-family: CardenioModernBold, SiliciStrong, sans-serif;
                 color: #666666;
             }
 
-            img {
-                max-width: 90%;
-                max-height: 90%;
-                padding: 0 5%;
+            .wingspan-icon {
+                width: 100%;
             }
     }
 }
@@ -269,8 +267,8 @@
 }
 
 .continent {
-    height: 100%;
-    min-width: 30%;
+    height: 75%;
+    min-width: 23%;
     position: relative;
 
     .continent-base {
@@ -299,15 +297,10 @@
 .footer-right {
     display: flex;
     flex-direction: row-reverse;
-}
 
-.expansion-indicator {
-    height: 100%;
-    border-bottom-right-radius: 8px;
-}
-
-.pack-indicator {
-    border-radius: 50%;
-    height: 43%;
-    margin: auto -3% auto 0;
+    .expansion-indicator {
+        height: 40%;
+        margin-right: 3px;
+        vertical-align: bottom;
+    }
 }
