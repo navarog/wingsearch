@@ -17,10 +17,11 @@ export class AppEffects {
             if (language)
             {
               const expansion = action.expansion || {
-                  asia: this.cookies.getCookie('expansion.asia') !== '0',
-                  oceania: this.cookies.getCookie('expansion.oceania') !== '0',
+                  core: this.cookies.getCookie('expansion.core') !== '0',
                   european: this.cookies.getCookie('expansion.european') !== '0',
-                  core: this.cookies.getCookie('expansion.core') !== '0'
+                  oceania: this.cookies.getCookie('expansion.oceania') !== '0',
+                  asia: this.cookies.getCookie('expansion.asia') !== '0',
+                  americas: this.cookies.getCookie('expansion.americas') !== '0',
               }
               const promoPack = action.promoPack || {
                   promoAsia: this.cookies.getCookie('expansion.promoAsia') !== '0',

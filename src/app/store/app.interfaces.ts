@@ -171,6 +171,7 @@ export enum ExpansionType {
     European = 'european',
     Oceania = 'oceania',
     Asia = 'asia',
+    Americas = 'americas'
 }
 
 export enum PackType {
@@ -183,10 +184,11 @@ export enum PackType {
 }
 
 export interface Expansion {
-    asia: boolean,
     core: boolean,
     european: boolean,
     oceania: boolean,
+    asia: boolean,
+    americas: boolean
 }
 
 export interface PromoPack {

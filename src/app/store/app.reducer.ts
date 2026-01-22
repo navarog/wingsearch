@@ -82,10 +82,11 @@ export const initialState: AppState = {
     translatedContent: {},
     parameters: Parameters,
     expansion: {
-        asia: cookies.getCookie('expansion.asia') !== '0',
-        oceania: cookies.getCookie('expansion.oceania') !== '0',
-        european: cookies.getCookie('expansion.european') !== '0',
         core: cookies.getCookie('expansion.core') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        americas: cookies.getCookie('expansion.americas') !== '0',
     },
     promoPack: {
         promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',

@@ -149,8 +149,8 @@ export class BirdCardComponent implements OnInit {
 
   getSwiftStartIcon(): string {
     const iconMap = {
-      [ExpansionType.Core]: 'swiftstart',
-      [ExpansionType.Asia]: 'swiftstart-asia',
+      [ExpansionType.Core]: 'swift_start_core',
+      [ExpansionType.Asia]: 'swift_start_asia',
     }
     return this.card['Swift Start'] ? iconMap[this.card.Set] || '' : ''
   }
@@ -171,5 +171,18 @@ export class BirdCardComponent implements OnInit {
     }
 
     return this.translate.transform(packTitleMap[this.card.Set]);
+  }
+
+  getPackIcon() {
+    const iconMap = {
+      [PackType.promoAsia]: 'promo_asia',
+      [PackType.promoCA]: 'promo_ca',
+      [PackType.promoEurope]: 'promo_europe',
+      [PackType.promoNZ]: 'promo_nz',
+      [PackType.promoUS]: 'promo_us',
+      [PackType.promoUK]: 'promo~uk'
+    }
+
+    return iconMap[this.card.Set] || ''
   }
 }

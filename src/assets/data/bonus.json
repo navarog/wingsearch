@@ -22,6 +22,21 @@
     ]
   },
   {
+    "id":1052,
+    "Bonus card":"Apiarist",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Point value of your [bee] token",
+    "Explanatory text":null,
+    "VP":"3 to 4 points: 3[point]; 6 to 8 points: 4[point]; 10 points: 6[point]",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
     "id":1039,
     "Bonus card":"Avian Theriogenologist",
     "Set":"asia",
@@ -130,6 +145,21 @@
     ]
   },
   {
+    "id":1053,
+    "Bonus card":"Brilliant Specialist",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Point value of your [brilliant] token",
+    "Explanatory text":null,
+    "VP":"3 to 4 points: 3[point]; 6 to 8 points: 4[point]; 10 points: 6[point]",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
     "id":1007,
     "Bonus card":"Cartographer",
     "Set":"core",
@@ -185,6 +215,21 @@
     ]
   },
   {
+    "id":1054,
+    "Bonus card":"Ecolodge Owner",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Score more if your hummingbirds are close in value. Compare the points values of your highest and lowest tokens. If the difference is:",
+    "Explanatory text":null,
+    "VP":"0 to 2 points: 6[point]; 3 points: 3[point]; 4+ points: 0[point]",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
     "id":1010,
     "Bonus card":"Ecologist",
     "Set":"core",
@@ -194,6 +239,21 @@
     "VP":"2[point] per bird",
     "%":"-",
     "Note":"Count the number of birds you played, in the habitat where you played the fewest birds. If you have two habitats tied for fewest birds, you may still score this bonus. For example, if all of your habitats have 3 birds in them, your habitat with the fewest birds has 3 birds in it.",
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
+    "id":1055,
+    "Bonus card":"Emerald Specialist",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Point value of your [emerald] token",
+    "Explanatory text":null,
+    "VP":"3 to 4 points: 3[point]; 6 to 8 points: 4[point]; 10 points: 6[point]",
+    "%":"-",
+    "Note":null,
     "VP Average":0.0,
     "rulings":[
 
@@ -419,6 +479,36 @@
     ]
   },
   {
+    "id":1056,
+    "Bonus card":"Hummingbird Counter",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"[hummingbird] spaces that you reached on your hummingbird track",
+    "Explanatory text":null,
+    "VP":"1[point] each",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
+    "id":1057,
+    "Bonus card":"Hummingbird Gardener",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Hummingbird tokens worth at least 4 points",
+    "Explanatory text":null,
+    "VP":"2[point] each",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
     "id":1018,
     "Bonus card":"Large Bird Specialist",
     "Set":"core",
@@ -429,6 +519,21 @@
     "%":35,
     "Note":"Count the birds you played that have wingspans over 65cm. Wingspans of exactly 65cm do not count toward this bonus.",
     "VP Average":0.75,
+    "rulings":[
+
+    ]
+  },
+  {
+    "id":1058,
+    "Bonus card":"Mango Specialist",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Point value of your [mango] token",
+    "Explanatory text":null,
+    "VP":"3 to 4 points: 3[point]; 6 to 8 points: 4[point]; 10 points: 6[point]",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
     "rulings":[
 
     ]
@@ -634,6 +739,21 @@
     ]
   },
   {
+    "id":1059,
+    "Bonus card":"Topaz Specialist",
+    "Set":"americas",
+    "Automa":null,
+    "Condition":"Point value of your [topaz] token",
+    "Explanatory text":null,
+    "VP":"3 to 4 points: 3[point]; 6 to 8 points: 4[point]; 10 points: 6[point]",
+    "%":"-",
+    "Note":null,
+    "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
     "id":1027,
     "Bonus card":"Visionary Leader",
     "Set":"core",
@@ -797,6 +917,21 @@
     "%":"variable",
     "Note":null,
     "VP Average":0.0,
+    "rulings":[
+
+    ]
+  },
+  {
+    "id":1060,
+    "Bonus card":"[automa] Charm Champion",
+    "Set":"americas",
+    "Automa":"X",
+    "Condition":"Birds with \u201cHummingbird\u201d in their power or name",
+    "Explanatory text":null,
+    "VP":null,
+    "%":"-",
+    "Note":null,
+    "VP Average":null,
     "rulings":[
 
     ]

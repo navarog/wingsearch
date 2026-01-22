@@ -163,6 +163,33 @@ export const bonusSearchMap = {
     1051: new BonusMatch(false, (birdCard: BirdCard) => {
         return true
     }),
+    1052: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1053: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1054: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1055: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1056: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1057: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1058: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1059: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
+    1060: new BonusMatch(false, (birdCard: BirdCard) => {
+        return true
+    }),
 }
 
 function getPercentage(card: BonusCard, selectedBirds: BirdCard[]): number | string

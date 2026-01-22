@@ -46,9 +46,13 @@
             </div>
         </div>
         <div class="right-column" *ngIf="cardHeight">
-            <span [innerHTML]="wingspan" class="wingspan"
-                [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034}"></span>
-            <img src="assets/icons/png/wingspan.png" *ngIf="wingspan" alt="{{wingspan}}" aria-hidden="true">
+            <span [innerHTML]="wingspan" class="wingspan-value"
+                [ngStyle]="{'font-size.px': cardHeight * 0.034, 'line-height.px': cardHeight * 0.034 }"></span>
+            <picture *ngIf="wingspan">
+                <source type="image/webp" srcset="assets/icons/png/wingspan.webp">
+                <source type="image/png" srcset="assets/icons/png/wingspan.png">
+                <img class="wingspan-icon" src="assets/icons/png/wingspan.png" alt="{{wingspan}}" aria-hidden="true">
+            </picture>
         </div>
     </div>
     <div class="power-row" [ngClass]="card.Color && card.Color.toLowerCase()">
@@ -62,37 +66,91 @@
     </div>
     <div class="footer">
         <div class="footer-left">
-            <img class="swift-start-indicator" *ngIf="card['Swift Start']" src="assets/icons/svg/expansion-indicators/{{getSwiftStartIcon()}}.svg"
-                alt="Swift Start" aria-label="swift start indicator">
+            <picture *ngIf="card['Swift Start']">
+                <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.webp">
+                <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.png">
+                <img class="swift-start-indicator" src="assets/icons/png/expansion-indicators/{{getSwiftStartIcon()}}.png"
+                    alt="Swift Start" aria-label="swift start indicator" aria-hidden="true">
+            </picture>
         </div>
         <div class="continent">
-            <img class="continent-base" src="assets/icons/png/map.png"
-                alt="Continent indicator" aria-label="continent indicator">
-            <img class="continent-top" *ngIf="card['North America']" src="assets/icons/png/map_na.png"
-                alt="North America Continent indicator" aria-label="North America continent indicator">
-            <img class="continent-top" *ngIf="card['Central America']" src="assets/icons/png/map_amn.png"
-                alt="Central America Continent indicator" aria-label="Central America continent indicator">
-            <img class="continent-top" *ngIf="card['South America']" src="assets/icons/png/map_ams.png"
-                alt="South America Continent indicator" aria-label="South America continent indicator">
-            <img class="continent-top" *ngIf="card['Europe']" src="assets/icons/png/map_e.png"
-                alt="Europe Continent indicator" aria-label="Europe continent indicator">
-            <img class="continent-top" *ngIf="card['Asia']" src="assets/icons/png/map_a.png"
-                alt="Asia Continent indicator" aria-label="Asia continent indicator">
-            <img class="continent-top" *ngIf="card['Africa']" src="assets/icons/png/map_af.png"
-                alt="Africa Continent indicator" aria-label="Africa continent indicator">
-            <img class="continent-top" *ngIf="card['Oceania']" src="assets/icons/png/map_o.png"
-                alt="Oceania Continent indicator" aria-label="Oceania continent indicator">
+            <picture>
+                <source type="image/webp" srcset="assets/icons/png/map.webp">
+                <source type="image/png" srcset="assets/icons/png/map.png">
+                <img class="continent-base" src="assets/icons/png/map.png"
+                    alt="Continent indicator" aria-label="continent indicator">
+            </picture>
+            <picture *ngIf="card['North America']">
+                <source type="image/webp" srcset="assets/icons/png/map_na.webp">
+                <source type="image/png" srcset="assets/icons/png/map_na.png">
+                <img class="continent-top" src="assets/icons/png/map_na.png" alt="North America Continent indicator"
+                    aria-label="North America continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Central America']">
+                <source type="image/webp" srcset="assets/icons/png/map_amn.webp">
+                <source type="image/png" srcset="assets/icons/png/map_amn.png">
+                <img class="continent-top" src="assets/icons/png/map_amn.png" alt="Central America Continent indicator"
+                    aria-label="Central America continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['South America']">
+                <source type="image/webp" srcset="assets/icons/png/map_ams.webp">
+                <source type="image/png" srcset="assets/icons/png/map_ams.png">
+                <img class="continent-top" src="assets/icons/png/map_ams.png" alt="South America Continent indicator"
+                    aria-label="South America continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Europe']">
+                <source type="image/webp" srcset="assets/icons/png/map_e.webp">
+                <source type="image/png" srcset="assets/icons/png/map_e.png">
+                <img class="continent-top" src="assets/icons/png/map_e.png" alt="Europe Continent indicator"
+                    aria-label="Europe continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Asia']">
+                <source type="image/webp" srcset="assets/icons/png/map_a.webp">
+                <source type="image/png" srcset="assets/icons/png/map_a.png">
+                <img class="continent-top" src="assets/icons/png/map_a.png" alt="Asia Continent indicator"
+                    aria-label="Asia continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Africa']">
+                <source type="image/webp" srcset="assets/icons/png/map_af.webp">
+                <source type="image/png" srcset="assets/icons/png/map_af.png">
+                <img class="continent-top" src="assets/icons/png/map_af.png" alt="Africa Continent indicator"
+                    aria-label="Africa continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Oceania']">
+                <source type="image/webp" srcset="assets/icons/png/map_o.webp">
+                <source type="image/png" srcset="assets/icons/png/map_o.png">
+                <img class="continent-top" src="assets/icons/png/map_o.png" alt="Oceania Continent indicator"
+                    aria-label="Oceania continent indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="card['Antarctica']">
+                <source type="image/webp" srcset="assets/icons/png/map_an.webp">
+                <source type="image/png" srcset="assets/icons/png/map_an.png">
+                <img class="continent-top" src="assets/icons/png/map_an.png" alt="Antarctica Continent indicator"
+                    aria-label="Antarctica continent indicator" aria-hidden="true">
+            </picture>
         </div>
         <div class="footer-flavor" [ngStyle]="{'font-size.px': cardHeight * flavorFontSize, 'line-height.px': cardHeight * flavorFontSize + 1}">
             <span class="text">{{card['Flavor text']}}</span>
         </div>
         <div class="footer-right">
-            <img class="expansion-indicator" *ngIf="isExpansion()" src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg"
-                [alt]="card.Set" aria-label="expansion indicator">
-            <img class="expansion-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/promo.svg"
-                alt="Fan-Designed Bird Packs" aria-label="expansion indicator">
-            <img class="pack-indicator" *ngIf="isPromo()" src="assets/icons/svg/expansion-indicators/{{card.Set}}.svg"
-                [alt]="getPackTitle()" aria-label="pack indicator">
+            <picture *ngIf="isExpansion()">
+                <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{card.Set}}.webp">
+                <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{card.Set}}.png">
+                <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{card.Set}}.png"
+                    [alt]="card.Set" aria-label="expansion indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="isPromo()">
+                <source type="image/webp" srcset="assets/icons/png/expansion-indicators/promopack.webp">
+                <source type="image/png" srcset="assets/icons/png/expansion-indicators/promopack.png">
+                <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/promopack.png"
+                    alt="Fan-Designed Bird Packs" aria-label="expansion indicator" aria-hidden="true">
+            </picture>
+            <picture *ngIf="isPromo()">
+                <source type="image/webp" srcset="assets/icons/png/expansion-indicators/{{getPackIcon()}}.webp">
+                <source type="image/png" srcset="assets/icons/png/expansion-indicators/{{getPackIcon()}}.png">
+                <img class="expansion-indicator" src="assets/icons/png/expansion-indicators/{{getPackIcon()}}.png"
+                    [alt]="getPackTitle()" aria-label="pack indicator" aria-hidden="true">
+            </picture>
         </div>
     </div>
 </div>
