@@ -209,3 +209,19 @@ export interface DisplayedStats {
         wetland: number
     }
 }
+
+export enum GroupType {
+    Card = 'card',
+    Nectar = 'nectar',
+    Egg = 'egg',
+    Row = 'row',
+    Advance = 'advance'
+}
+
+export enum BenefitType {
+    Bees = 'bees & mountaingems',
+    Brilliants = 'brilliants & coquettes',
+    Emeralds = 'emeralds',
+    Mangoes = 'mangoes',
+    Topazes = 'topazes, jacobins, & hermits'
+}
