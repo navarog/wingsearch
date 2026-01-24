@@ -458,5 +458,105 @@
     "4":null,
     "Reverse":"[duet_token] in [grassland]",
     "id":2045
+  },
+  {
+    "Goal":"Birds worth EVEN points (0, 2, 4, 6, 8)",
+    "Set":"americas",
+    "1":1,
+    "2":2,
+    "3":4,
+    "4":5,
+    "Reverse":"Birds worth ODD points (1, 3, 5, 7, 9)",
+    "id":2046
+  },
+  {
+    "Goal":"Birds worth ODD points (1, 3, 5, 7, 9)",
+    "Set":"americas",
+    "1":1,
+    "2":2,
+    "3":4,
+    "4":5,
+    "Reverse":"Birds worth EVEN points (0, 2, 4, 6, 8)",
+    "id":2047
+  },
+  {
+    "Goal":"Different point values on birds",
+    "Set":"americas",
+    "1":1,
+    "2":2,
+    "3":3,
+    "4":4,
+    "Reverse":"Total of egg limits (blue side: \u00f7 5)",
+    "id":2048
+  },
+  {
+    "Goal":"Hummingbird Points",
+    "Set":"americas",
+    "1":-1,
+    "2":4,
+    "3":11,
+    "4":18,
+    "Reverse":"[mango]",
+    "id":2049
+  },
+  {
+    "Goal":"Total of egg limits (blue side: \u00f7 5)",
+    "Set":"americas",
+    "1":8,
+    "2":12,
+    "3":20,
+    "4":28,
+    "Reverse":"Different point values on birds",
+    "id":2050
+  },
+  {
+    "Goal":"[bee]",
+    "Set":"americas",
+    "1":1,
+    "2":3,
+    "3":4,
+    "4":5,
+    "Reverse":"[emerald]",
+    "id":2051
+  },
+  {
+    "Goal":"[brilliant]",
+    "Set":"americas",
+    "1":1,
+    "2":3,
+    "3":4,
+    "4":5,
+    "Reverse":"[topaz]",
+    "id":2052
+  },
+  {
+    "Goal":"[emerald]",
+    "Set":"americas",
+    "1":1,
+    "2":3,
+    "3":4,
+    "4":5,
+    "Reverse":"[bee]",
+    "id":2053
+  },
+  {
+    "Goal":"[mango]",
+    "Set":"americas",
+    "1":1,
+    "2":3,
+    "3":4,
+    "4":5,
+    "Reverse":"Hummingbird Points",
+    "id":2054
+  },
+  {
+    "Goal":"[topaz]",
+    "Set":"americas",
+    "1":1,
+    "2":3,
+    "3":4,
+    "4":5,
+    "Reverse":"[brilliant]",
+    "id":2055
   }
 ]
