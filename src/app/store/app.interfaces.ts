@@ -29,6 +29,8 @@ export interface BirdCard {
     PowerCategory: PowerCategory | null
     'Power text': null | string
     Note: null | string
+    Group: GroupType
+    Benefit: BenefitType
     Predator: string | null
     Flocking: string | null
     'Bonus card': string | null
@@ -80,12 +82,25 @@ export interface BirdCard {
     'Wildlife Gardener': string | null
     'Small Clutch Specialist': string | null
     'Endangered Species Protector': string | null
-    isBirdCard: () => true
-    isBonusCard: () => false
+    CardType: CardType
+}
+
+export enum CardType {
+    Bird = 'Bird',
+    Hummingbird = 'Hummingbird',
+    Bonus = 'Bonus',
 }
 
 export function isBirdCard(object: any): object is BirdCard {
-    return 'Common name' in object
+    return object?.CardType === CardType.Bird
+}
+
+export function isHummingbirdCard(object: any): object is BirdCard {
+    return object?.CardType === CardType.Hummingbird
+}
+
+export function isBirdOrHummingbirdCard(object: any): object is BirdCard {
+    return isBirdCard(object) || isHummingbirdCard(object)
 }
 
 export enum Color {
@@ -158,12 +173,11 @@ export interface BonusCard {
     birdIds?: number[]
     rulings: Ruling[]
     additionalRulings: Ruling[]
-    isBirdCard: () => false
-    isBonusCard: () => true
+    CardType: CardType
 }
 
 export function isBonusCard(object: any): object is BonusCard {
-    return 'Condition' in object
+    return object?.CardType === CardType.Bonus
 }
 
 export enum ExpansionType {
@@ -202,6 +216,7 @@ export interface PromoPack {
 
 export interface DisplayedStats {
     birdCards: number
+    hummingbirdCards: number
     bonusCards: number
     habitat: {
         forest: number
@@ -211,17 +226,16 @@ export interface DisplayedStats {
 }
 
 export enum GroupType {
+    Bee = 'bees & mountaingems',
+    Brilliant = 'brilliants & coquettes',
+    Emerald = 'emeralds',
+    Mango = 'mangoes',
+    Topaz = 'topazes, jacobins, & hermits'
+}
+export enum BenefitType {
     Card = 'card',
     Nectar = 'nectar',
     Egg = 'egg',
     Row = 'row',
     Advance = 'advance'
-}
-
-export enum BenefitType {
-    Bees = 'bees & mountaingems',
-    Brilliants = 'brilliants & coquettes',
-    Emeralds = 'emeralds',
-    Mangoes = 'mangoes',
-    Topazes = 'topazes, jacobins, & hermits'
 }

@@ -1,6 +1,6 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
+import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
 import { selectCard, State, selectCardId } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
@@ -9,7 +9,6 @@ import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { AnalyticsService } from '../analytics.service'
 import { ActivatedRoute, Router } from '@angular/router'
-import { first, mergeMap } from 'rxjs/operators'
 
 @Component({
   selector: 'app-display',
@@ -52,14 +51,15 @@ export class DisplayComponent implements OnInit, AfterViewInit {
         return
       }
 
-      if ((isBirdCard(card) && this.isSelectedCardBird) || (isBonusCard(card) && this.isSelectedCardBird === false)) {
+      if (((isBirdCard(card) || isHummingbirdCard(card)) && this.isSelectedCardBird)
+        || (isBonusCard(card) && this.isSelectedCardBird === false)) {
         const dialogRef = this.dialog.getDialogById(this.isSelectedCardBird ? this.BIRD_DIALOG_ID : this.BONUS_DIALOG_ID).componentInstance
         dialogRef.data = { card: card }
         dialogRef.initBonuses()
       } else {
         this.dialog.closeAll()
-        this.isSelectedCardBird = isBirdCard(card)
-        isBirdCard(card) ? this.openBirdDialog(card) : this.openBonusDialog(card)
+        this.isSelectedCardBird = isBirdCard(card) || isHummingbirdCard(card)
+        isBirdCard(card) || isHummingbirdCard(card) ? this.openBirdDialog(card) : this.openBonusDialog(card)
       }
     })
   }
@@ -74,6 +74,10 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   isBirdCard(card: BirdCard | BonusCard): card is BirdCard {
     return isBirdCard(card)
+  }
+
+  isHummingbirdCard(card: BirdCard | BonusCard): card is BirdCard {
+    return isHummingbirdCard(card)
   }
 
   isBonusCard(card: BirdCard | BonusCard): card is BonusCard {

@@ -59,7 +59,8 @@ export class SearchComponent implements OnInit {
         wetland: 0
       },
       birds: true,
-      bonuses: true
+      hummingbirds: true,
+      bonuses: true,
     },
     expansion: {
       core: true,
@@ -292,6 +293,7 @@ export class SearchComponent implements OnInit {
       stats: {
         habitat: { forest: 0, grassland: 0, wetland: 0 },
         birds: true,
+        hummingbirds: true,
         bonuses: true
       },
       eggs: { ...this.eggs },

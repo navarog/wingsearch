@@ -1,0 +1,42 @@
+<div class="content-wrapper" *ngIf="cardHeight$ | async as cardHeight" [style]="getBirdSilhouette() | async"
+    [ngStyle]="{'height.px': cardHeight}">
+    <div class="content">
+        <div class="upper-row">
+            <div class="green-square">
+                <picture>
+                    <source type="image/webp" srcset="assets/icons/png/{{getGroupIcon()}}.webp">
+                    <source type="image/png" srcset="assets/icons/png/{{getGroupIcon()}}.png">
+                    <img src="assets/icons/png/{{getGroupIcon()}}.png" alt="{{getGroupIcon()}} hummingbirds"
+                        class="group" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="title-border" [ngStyle]="{'border-width.px': cardHeight / 460}">
+                <div class="title" [ngStyle]="{'font-size.px': cardHeight * 0.042, 'line-height.px': cardHeight * 0.042}">
+                    <span [innerHTML]="displayName(card) | iconize"></span>
+                </div>
+                <div class="scientific"
+                    [ngStyle]="{'font-size.px': cardHeight * 0.03, 'line-height.px': cardHeight * 0.035}">
+                    {{card['Scientific name']}}
+                </div>
+            </div>
+        </div>
+        <div class="lower-column">
+            <div class="attract-icon">
+                <picture>
+                    <source type="image/webp" srcset="assets/icons/png/attract.webp">
+                    <source type="image/png" srcset="assets/icons/png/attract.png">
+                    <img src="assets/icons/png/attract.png" alt="attract hummingbirds"
+                        class="attract" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="benefit-square">
+                <picture>
+                    <source type="image/webp" srcset="assets/icons/png/{{getBenefitIcon()}}.webp">
+                    <source type="image/png" srcset="assets/icons/png/{{getBenefitIcon()}}.png">
+                    <img src="assets/icons/png/{{getBenefitIcon()}}.png" alt="{{this.card.Benefit}} benefit"
+                        class="benefit" aria-hidden="true">
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>

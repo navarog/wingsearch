@@ -68,6 +68,7 @@
     "id":263,
     "Native name":null,
     "Note":"This temporarily adds 3 bonus cards to your hand of bonus cards, then from that hand you discard any 2 bonus cards.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -147,6 +148,7 @@
     "id":573,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -234,6 +236,7 @@
     "id":2,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -317,6 +320,7 @@
     "id":498,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -393,6 +397,7 @@
     "id":598,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -469,6 +474,7 @@
     "id":599,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -545,6 +551,7 @@
     "id":600,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -624,6 +631,7 @@
     "id":3,
     "Native name":null,
     "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -706,6 +714,7 @@
     "id":4,
     "Native name":null,
     "Note":"If players are tied for the fewest birds currently in the wetland habitat, all draw a card, starting with you and proceeding clockwise. All may draw from the deck or the face-up cards.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -785,6 +794,7 @@
     "id":574,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -864,6 +874,7 @@
     "id":5,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -943,6 +954,7 @@
     "id":6,
     "Native name":null,
     "Note":"These birds are all known for eating eggs from other birds\u2019 nests. You must have laid an egg on another bird before you can use these powers. Discard the egg to the supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1030,6 +1042,7 @@
     "id":601,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1113,6 +1126,7 @@
     "id":602,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1192,6 +1206,7 @@
     "id":7,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1275,6 +1290,7 @@
     "id":8,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1351,6 +1367,7 @@
     "id":9,
     "Native name":null,
     "Note":"Draw the cards from the deck so that you have a set with one more card than there are players. Each player chooses one card from this set, starting with you and passing to the left. When everyone has chosen a card, you keep the extra card.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power in a game against the Automa, draw 3 [card], keep 2 of them, and discard the other.",
@@ -1445,6 +1462,7 @@
     "id":10,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power lets you take 1 food from the birdfeeder, as if [wild] were replaced by [die] in the power text.",
@@ -1535,6 +1553,7 @@
     "id":11,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1614,6 +1633,7 @@
     "id":12,
     "Native name":null,
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1693,6 +1713,7 @@
     "id":575,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1769,6 +1790,7 @@
     "id":13,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1845,6 +1867,7 @@
     "id":603,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -1921,6 +1944,7 @@
     "id":604,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2000,6 +2024,7 @@
     "id":14,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2076,6 +2101,7 @@
     "id":15,
     "Native name":null,
     "Note":"The hummingbird\u2019s owner decides which person gains the first food, and then players gain food in turn order. Players may reset the birdfeeder if it is empty or if all dice are showing the same face.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2159,6 +2185,7 @@
     "id":605,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2238,6 +2265,7 @@
     "id":16,
     "Native name":null,
     "Note":"This power allows you to lay eggs on all of your birds that have a specific nest symbol (and all birds with a star nest symbol), including the newly played bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2317,6 +2345,7 @@
     "id":358,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2396,6 +2425,7 @@
     "id":359,
     "Native name":null,
     "Note":"Going over the egg limit: When you activate this bird, you may use it to lay an egg on a bird that already is at or over its egg limit, as described. This power does not affect any other actions in the game\u2014the egg limit still applies to them. A bird holding eggs in excess of its egg limit still qualifies for the Avian Theriogenologist bonus card. Birds that have no nest symbol and no egg limit still do not qualify to receive eggs from this bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2475,6 +2505,7 @@
     "id":17,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2554,6 +2585,7 @@
     "id":18,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2633,6 +2665,7 @@
     "id":264,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2709,6 +2742,7 @@
     "id":265,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2788,6 +2822,7 @@
     "id":266,
     "Native name":null,
     "Note":"The discard pile remains separate from the bird deck, even after you shuffle and draw from it.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2867,6 +2902,7 @@
     "id":267,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -2946,6 +2982,7 @@
     "id":268,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3029,6 +3066,7 @@
     "id":269,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3105,6 +3143,7 @@
     "id":270,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3184,6 +3223,7 @@
     "id":271,
     "Native name":null,
     "Note":"Before drawing a face-up card with the nest type shown, you may:<ul><li>reset the tray (discard all face-up cards and put out 3 new face-up cards), or<\/li><li>refill the tray (place new cards from the deck in any empty slots), or<\/li><li>leave the tray as-is.<\/li><\/ul>",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3263,6 +3303,7 @@
     "id":272,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3339,6 +3380,7 @@
     "id":360,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3422,6 +3464,7 @@
     "id":19,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3501,6 +3544,7 @@
     "id":20,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3584,6 +3628,7 @@
     "id":448,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3663,6 +3708,7 @@
     "id":21,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3746,6 +3792,7 @@
     "id":606,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3822,6 +3869,7 @@
     "id":22,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3898,6 +3946,7 @@
     "id":23,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -3977,6 +4026,7 @@
     "id":607,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4060,6 +4110,7 @@
     "id":24,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird does not count toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -4139,6 +4190,7 @@
     "id":25,
     "Native name":null,
     "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -4225,6 +4277,7 @@
     "id":608,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4301,6 +4354,7 @@
     "id":361,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4380,6 +4434,7 @@
     "id":362,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4459,6 +4514,7 @@
     "id":26,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4538,6 +4594,7 @@
     "id":27,
     "Native name":null,
     "Note":"Activate these powers when a player uses the \u201cPlay a bird\u201d action to play a bird into the specific habitat. A bird that uses its power to move into the habitat does not trigger this power.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power is triggered by another player playing a bird in their [wetland] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong applink=\"\/card\/88\">Common Moorhen<\/strong>'s power), despite this bird's entry in the Appendix.",
@@ -4628,6 +4685,7 @@
     "id":449,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4711,6 +4769,7 @@
     "id":28,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -4790,6 +4849,7 @@
     "id":363,
     "Native name":null,
     "Note":"The discarded bird can have other habitat icons, but it must also have a grassland habitat to qualify for this power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4873,6 +4933,7 @@
     "id":273,
     "Native name":null,
     "Note":"Remove the dice from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -4956,6 +5017,7 @@
     "id":609,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5035,6 +5097,7 @@
     "id":29,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
@@ -5117,6 +5180,7 @@
     "id":523,
     "Native name":"Karure",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5196,6 +5260,7 @@
     "id":576,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5275,6 +5340,7 @@
     "id":30,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5351,6 +5417,7 @@
     "id":364,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5430,6 +5497,7 @@
     "id":274,
     "Native name":null,
     "Note":"Flightless birds count as wild for wingspan requirements, so eggs may be laid on them for each of these bird abilities, even though they are contradictory.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5509,6 +5577,7 @@
     "id":31,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5596,6 +5665,7 @@
     "id":32,
     "Native name":null,
     "Note":"If multiple players trigger this power at the same time, they gain food in turn order, starting to the left of the active player (the one whose predator succeeded).",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5679,6 +5749,7 @@
     "id":33,
     "Native name":null,
     "Note":"If there is only one die face showing at the beginning of this action, you may reset the birdfeeder and then take all the invertebrates.<br>This action is completed once you have gained all of this type of food that are showing. If the birdfeeder becomes empty and resets as a result of this action, you do not gain additional food after the reset. If there is only one die face showing after taking all the invertebrates, you may not reset the birdfeeder to look for more.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5762,6 +5833,7 @@
     "id":34,
     "Native name":null,
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5841,6 +5913,7 @@
     "id":35,
     "Native name":null,
     "Note":"If multiple players trigger this power at the same time, they gain food in turn order, starting to the left of the active player (the one whose predator succeeded).",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -5924,6 +5997,7 @@
     "id":473,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6003,6 +6077,7 @@
     "id":36,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6086,6 +6161,7 @@
     "id":37,
     "Native name":null,
     "Note":"These birds are all known for eating eggs from other birds\u2019 nests. You must have laid an egg on another bird before you can use these powers. Discard the egg to the supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6173,6 +6249,7 @@
     "id":38,
     "Native name":null,
     "Note":"The food that the other player gains does not have to be the same type stolen.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6256,6 +6333,7 @@
     "id":365,
     "Native name":null,
     "Note":"At the end of the round, if you have action cubes in all 4 areas on the left side of your player mat, you may take all three actions available on this card. Take the actions in the order listed here.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6339,6 +6417,7 @@
     "id":499,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6418,6 +6497,7 @@
     "id":39,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action. You may draw from the deck or the face-up cards. Face-up cards are refilled only at the end of your turn.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6497,6 +6577,7 @@
     "id":275,
     "Native name":null,
     "Note":"Remove the die from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6576,6 +6657,7 @@
     "id":40,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6655,6 +6737,7 @@
     "id":41,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6734,6 +6817,7 @@
     "id":577,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6817,6 +6901,7 @@
     "id":450,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6893,6 +6978,7 @@
     "id":474,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -6976,6 +7062,7 @@
     "id":451,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7063,6 +7150,7 @@
     "id":524,
     "Native name":"Whio",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7142,6 +7230,7 @@
     "id":42,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -7221,6 +7310,7 @@
     "id":43,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7304,6 +7394,7 @@
     "id":366,
     "Native name":null,
     "Note":"When moving this bird to another player\u2019s mat, place it in the leftmost open slot in any habitat. If there are no open slots in a habitat, this bird cannot be moved to that habitat. Any cached food, eggs, or tucked cards are discarded when you move it. This bird cannot be declined by the receiving player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7383,6 +7474,7 @@
     "id":610,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7459,6 +7551,7 @@
     "id":611,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7535,6 +7628,7 @@
     "id":44,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7618,6 +7712,7 @@
     "id":612,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7694,6 +7789,7 @@
     "id":613,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7777,6 +7873,7 @@
     "id":578,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7856,6 +7953,7 @@
     "id":45,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -7932,6 +8030,7 @@
     "id":614,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8008,6 +8107,7 @@
     "id":46,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8091,6 +8191,7 @@
     "id":276,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8170,6 +8271,7 @@
     "id":615,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8246,6 +8348,7 @@
     "id":579,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8333,6 +8436,7 @@
     "id":47,
     "Native name":null,
     "Note":"This power allows you to lay eggs on all of your birds that have a specific nest symbol (and all birds with a star nest symbol), including the newly played bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8412,6 +8516,7 @@
     "id":48,
     "Native name":null,
     "Note":"If these birds use their power to tuck cards instead of paying some or all of the bird\u2019s food cost, this counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -8494,6 +8599,7 @@
     "id":367,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8570,6 +8676,7 @@
     "id":452,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8657,6 +8764,7 @@
     "id":368,
     "Native name":null,
     "Note":"For this bird, you may tuck 0\u20132 cards when you use its power.<br><br>You may tuck cards that you did not draw during the activation of this power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8736,6 +8844,7 @@
     "id":49,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8815,6 +8924,7 @@
     "id":616,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8894,6 +9004,7 @@
     "id":617,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -8973,6 +9084,7 @@
     "id":50,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -9055,6 +9167,7 @@
     "id":51,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9131,6 +9244,7 @@
     "id":277,
     "Native name":null,
     "Note":"You may draw cards even if the other player is unable to lay an [egg].",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9210,6 +9324,7 @@
     "id":52,
     "Native name":null,
     "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -9292,6 +9407,7 @@
     "id":580,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9368,6 +9484,7 @@
     "id":278,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9444,6 +9561,7 @@
     "id":53,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9527,6 +9645,7 @@
     "id":369,
     "Native name":null,
     "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9603,6 +9722,7 @@
     "id":581,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9679,6 +9799,7 @@
     "id":54,
     "Native name":null,
     "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -9761,6 +9882,7 @@
     "id":279,
     "Native name":null,
     "Note":"The size of the bird refers to its wingspan. If there is a tie for the smallest bird, you choose.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9837,6 +9959,7 @@
     "id":55,
     "Native name":null,
     "Note":"If the specified food type is not in the birdfeeder after the reset, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -9920,6 +10043,7 @@
     "id":56,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
@@ -9999,6 +10123,7 @@
     "id":57,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -10081,6 +10206,7 @@
     "id":582,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10164,6 +10290,7 @@
     "id":58,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10243,6 +10370,7 @@
     "id":59,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10322,6 +10450,7 @@
     "id":583,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10405,6 +10534,7 @@
     "id":60,
     "Native name":null,
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10484,6 +10614,7 @@
     "id":475,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10567,6 +10698,7 @@
     "id":476,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10646,6 +10778,7 @@
     "id":61,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10725,6 +10858,7 @@
     "id":62,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10801,6 +10935,7 @@
     "id":63,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action. You may draw from the deck or the face-up cards. Face-up cards are refilled only at the end of your turn.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10880,6 +11015,7 @@
     "id":64,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -10956,6 +11092,7 @@
     "id":65,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11035,6 +11172,7 @@
     "id":66,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11114,6 +11252,7 @@
     "id":67,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11197,6 +11336,7 @@
     "id":68,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11276,6 +11416,7 @@
     "id":69,
     "Native name":null,
     "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -11362,6 +11503,7 @@
     "id":70,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11441,6 +11583,7 @@
     "id":71,
     "Native name":null,
     "Note":"These birds are all known for eating eggs from other birds\u2019 nests. You must have laid an egg on another bird before you can use these powers. Discard the egg to the supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11528,6 +11671,7 @@
     "id":618,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11607,6 +11751,7 @@
     "id":72,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -11686,6 +11831,7 @@
     "id":453,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11765,6 +11911,7 @@
     "id":73,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11844,6 +11991,7 @@
     "id":74,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -11931,6 +12079,7 @@
     "id":75,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12014,6 +12163,7 @@
     "id":619,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12090,6 +12240,7 @@
     "id":76,
     "Native name":null,
     "Note":"[seed] cached on these birds do not count as being in your supply for the purposes of end-ofround goals, even though they can be used to play more birds.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.",
@@ -12184,6 +12335,7 @@
     "id":280,
     "Native name":null,
     "Note":"Choosing and tucking using this bird\u2019s power comprise a single action. You may not use this ability to draw a card into your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12263,6 +12415,7 @@
     "id":620,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12339,6 +12492,7 @@
     "id":77,
     "Native name":null,
     "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -12421,6 +12575,7 @@
     "id":78,
     "Native name":null,
     "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -12515,6 +12670,7 @@
     "id":79,
     "Native name":null,
     "Note":"This power can be used to tuck cards behind birds that do not usually tuck cards.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12591,6 +12747,7 @@
     "id":80,
     "Native name":null,
     "Note":"This power can be used to tuck cards behind birds that do not usually tuck cards.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12667,6 +12824,7 @@
     "id":500,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12754,6 +12912,7 @@
     "id":81,
     "Native name":null,
     "Note":"[star] nests count as [bowl] and [ground] for this bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12833,6 +12992,7 @@
     "id":501,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -12912,6 +13072,7 @@
     "id":82,
     "Native name":null,
     "Note":"[star] nests count as [cavity] for this bird.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -12994,6 +13155,7 @@
     "id":83,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -13076,6 +13238,7 @@
     "id":370,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.<br>Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13159,6 +13322,7 @@
     "id":371,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13238,6 +13402,7 @@
     "id":84,
     "Native name":null,
     "Note":"The food that the other player gains does not have to be the same type stolen.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13321,6 +13486,7 @@
     "id":85,
     "Native name":null,
     "Note":"If no with [card] that habitat is available, do not gain anything.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13400,6 +13566,7 @@
     "id":86,
     "Native name":null,
     "Note":"If players are tied for the fewest birds currently in the wetland habitat, all draw a card, starting with you and proceeding clockwise. All may draw from the deck or the face-up cards.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13479,6 +13646,7 @@
     "id":87,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13555,6 +13723,7 @@
     "id":88,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"Using this bird's power to play a bird in your [wetland] triggers the power of the <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/27\">Belted Kingfisher<\/strong>'s entry in the Appendix.",
@@ -13641,6 +13810,7 @@
     "id":502,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13717,6 +13887,7 @@
     "id":372,
     "Native name":null,
     "Note":"The copied power must be a brown \u201cwhen activated\u201d power. Perform the action as if the Common Myna had the power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13793,6 +13964,7 @@
     "id":89,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -13872,6 +14044,7 @@
     "id":90,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -13955,6 +14128,7 @@
     "id":621,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14031,6 +14205,7 @@
     "id":503,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14110,6 +14285,7 @@
     "id":91,
     "Native name":null,
     "Note":"These birds are all known for eating eggs from other birds\u2019 nests. You must have laid an egg on another bird before you can use these powers. Discard the egg to the supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14197,6 +14373,7 @@
     "id":373,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14276,6 +14453,7 @@
     "id":504,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14355,6 +14533,7 @@
     "id":92,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -14441,6 +14620,7 @@
     "id":93,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -14527,6 +14707,7 @@
     "id":374,
     "Native name":null,
     "Note":"\u201cContiguous\u201d is defined by being orthogonally adjacent. In other words: directly to the left, right, top, or bottom (not diagonal). The group may zig-zag across rows and columns, as long as each bird in the group is orthogonally adjacent to at least one other bird in the group.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14606,6 +14787,7 @@
     "id":375,
     "Native name":null,
     "Note":"You may tuck cards that you did not draw during the activation of this power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14685,6 +14867,7 @@
     "id":505,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14768,6 +14951,7 @@
     "id":506,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14847,6 +15031,7 @@
     "id":94,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -14934,6 +15119,7 @@
     "id":95,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15010,6 +15196,7 @@
     "id":376,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15093,6 +15280,7 @@
     "id":622,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15172,6 +15360,7 @@
     "id":96,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15255,6 +15444,7 @@
     "id":281,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15338,6 +15528,7 @@
     "id":377,
     "Native name":null,
     "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand.<br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck.<br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15421,6 +15612,7 @@
     "id":378,
     "Native name":null,
     "Note":"The seed must come from your supply not from a bird\u2019s cache.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15504,6 +15696,7 @@
     "id":623,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15580,6 +15773,7 @@
     "id":282,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15656,6 +15850,7 @@
     "id":507,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15732,6 +15927,7 @@
     "id":283,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15811,6 +16007,7 @@
     "id":454,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15890,6 +16087,7 @@
     "id":97,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -15973,6 +16171,7 @@
     "id":548,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16052,6 +16251,7 @@
     "id":455,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16128,6 +16328,7 @@
     "id":456,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16207,6 +16408,7 @@
     "id":379,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16286,6 +16488,7 @@
     "id":380,
     "Native name":null,
     "Note":"Regardless of the number of dice rolled, gain only 1 food.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16369,6 +16572,7 @@
     "id":98,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -16451,6 +16655,7 @@
     "id":99,
     "Native name":null,
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16530,6 +16735,7 @@
     "id":477,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16609,6 +16815,7 @@
     "id":100,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -16688,6 +16895,7 @@
     "id":101,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -16767,6 +16975,7 @@
     "id":102,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -16846,6 +17055,7 @@
     "id":103,
     "Native name":null,
     "Note":"If these birds use their power to tuck cards instead of paying some or all of the bird\u2019s food cost, this counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -16928,6 +17138,7 @@
     "id":104,
     "Native name":null,
     "Note":"Activate these powers when a player uses the \u201cPlay a bird\u201d action to play a bird into the specific habitat. A bird that uses its power to move into the habitat does not trigger this power.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power is triggered by another player playing a bird in their [forest] during their turn, even when not using the <i>\"play a bird\"<\/i> card action to do so (instead using, e.g., the <strong applink=\"\/card\/128\">Goldcrest<\/strong>'s power), despite this bird's entry in the Appendix.",
@@ -17018,6 +17229,7 @@
     "id":584,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17097,6 +17309,7 @@
     "id":105,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17180,6 +17393,7 @@
     "id":284,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -17266,6 +17480,7 @@
     "id":106,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17342,6 +17557,7 @@
     "id":585,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17425,6 +17641,7 @@
     "id":285,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17508,6 +17725,7 @@
     "id":624,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17591,6 +17809,7 @@
     "id":107,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power is a [predator] power; the [predator] icon did not appear on the card in early printings, but the omission was corrected by April 2019.",
@@ -17670,6 +17889,7 @@
     "id":286,
     "Native name":null,
     "Note":"Do not discard any seed tokens; they must be distributed to other players.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, you must gain all [seed] available in the birdfeeder, since some of it may be allocated to other players.",
@@ -17756,6 +17976,7 @@
     "id":549,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17835,6 +18056,7 @@
     "id":550,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -17918,6 +18140,7 @@
     "id":108,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -18004,6 +18227,7 @@
     "id":381,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18080,6 +18304,7 @@
     "id":508,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18159,6 +18384,7 @@
     "id":382,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn.<br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird.<br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18238,6 +18464,7 @@
     "id":109,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the specific food type. If the birdfeeder contains none of the specific food type, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -18324,6 +18551,7 @@
     "id":110,
     "Native name":null,
     "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -18410,6 +18638,7 @@
     "id":111,
     "Native name":null,
     "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -18504,6 +18733,7 @@
     "id":383,
     "Native name":null,
     "Note":"You may activate this power if only one of your neighbors has a [invertebrate].<br>In a 2-player game your opponent is both to your left and right. Because you only have 1 neighbor, only steal 1 [invertebrate] from that player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18583,6 +18813,7 @@
     "id":112,
     "Native name":null,
     "Note":"The food that the other player gains does not have to be the same type stolen.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18666,6 +18897,7 @@
     "id":384,
     "Native name":null,
     "Note":"If you roll more than 1 [rodent], cache only 1.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18742,6 +18974,7 @@
     "id":113,
     "Native name":null,
     "Note":"These powers can be used to cache food on birds that otherwise do not have caching powers.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18818,6 +19051,7 @@
     "id":385,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each [card] draw, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>After each [card] draw, sum the wingspans of all [card] drawn so far. If the total is 110 cm or more, you failed. Discard all of the [card] you drew for this bird\u2019s activation this turn.<br>If the total wingspan is still less than 110 cm, and you have drawn fewer than 3 during the current activation of this power, you may choose to draw another [card] or stop drawing and tuck all of the drawn [card] behind this bird.<br>If you draw a [card] with a wild wingspan (e.g., some in the Oceania Expansion)\u2014marked with an asterisk (*) in place of a wingspan measurement\u2014you can select any positive length for that bird\u2019s wingspan.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18897,6 +19131,7 @@
     "id":114,
     "Native name":null,
     "Note":"These powers can be used to cache food on birds that otherwise do not have caching powers.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -18973,6 +19208,7 @@
     "id":115,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may spend a [seed] cached on this bird anytime you can spend a [seed] from your supply.",
@@ -19067,6 +19303,7 @@
     "id":509,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19146,6 +19383,7 @@
     "id":551,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19225,6 +19463,7 @@
     "id":116,
     "Native name":null,
     "Note":"If these birds use their power to tuck cards instead of paying some or all of the bird\u2019s food cost, this counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -19307,6 +19546,7 @@
     "id":117,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the specific food type. If the birdfeeder contains none of the specific food type, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19390,6 +19630,7 @@
     "id":386,
     "Native name":null,
     "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply.<br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19473,6 +19714,7 @@
     "id":552,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19552,6 +19794,7 @@
     "id":510,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19635,6 +19878,7 @@
     "id":511,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19722,6 +19966,7 @@
     "id":118,
     "Native name":null,
     "Note":"If the specified food type is not in the birdfeeder after the reset, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19805,6 +20050,7 @@
     "id":553,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -19888,6 +20134,7 @@
     "id":119,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -19967,6 +20214,7 @@
     "id":554,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20050,6 +20298,7 @@
     "id":512,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20129,6 +20378,7 @@
     "id":120,
     "Native name":null,
     "Note":"If the specified food type is not in the birdfeeder after the reset, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird no longer qualifies for it.",
@@ -20215,6 +20465,7 @@
     "id":121,
     "Native name":null,
     "Note":"This may be a food that was gained from the birdfeeder as a result of the base \u201cgain food\u201d action, or a food that was gained by activating another bird in this row.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20298,6 +20549,7 @@
     "id":122,
     "Native name":null,
     "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -20380,6 +20632,7 @@
     "id":513,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20459,6 +20712,7 @@
     "id":555,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20542,6 +20796,7 @@
     "id":556,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20625,6 +20880,7 @@
     "id":123,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20708,6 +20964,7 @@
     "id":478,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20787,6 +21044,7 @@
     "id":525,
     "Native name":"M\u0101t\u0101t\u0101",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20870,6 +21128,7 @@
     "id":124,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -20946,6 +21205,7 @@
     "id":625,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21022,6 +21282,7 @@
     "id":387,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21101,6 +21362,7 @@
     "id":626,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21177,6 +21439,7 @@
     "id":125,
     "Native name":null,
     "Note":"These birds are all known for eating eggs from other birds\u2019 nests. You must have laid an egg on another bird before you can use these powers. Discard the egg to the supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21264,6 +21527,7 @@
     "id":388,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21340,6 +21604,7 @@
     "id":126,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21427,6 +21692,7 @@
     "id":127,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. Discard an egg to the supply. You cannot use this power if you have not laid any eggs yet.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21510,6 +21776,7 @@
     "id":287,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21589,6 +21856,7 @@
     "id":557,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21668,6 +21936,7 @@
     "id":457,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21751,6 +22020,7 @@
     "id":128,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"Using this bird's power to play a bird in your [forest] triggers the power of the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>'s entry in the Appendix.",
@@ -21833,6 +22103,7 @@
     "id":129,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -21912,6 +22183,7 @@
     "id":389,
     "Native name":null,
     "Note":"Each player may lay their eggs on as many or as few birds as they like.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -21991,6 +22263,7 @@
     "id":288,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22070,6 +22343,7 @@
     "id":627,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22146,6 +22420,7 @@
     "id":289,
     "Native name":null,
     "Note":"The bird\u2019s normal cost includes the egg cost of the column that you play it into.<br><br>As usual, you cannot activate other types of bird powers (such as \u201cround end\u201d powers) when you play a bird with this action.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22225,6 +22500,7 @@
     "id":390,
     "Native name":null,
     "Note":"The egg can come from any of your birds.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22312,6 +22588,7 @@
     "id":391,
     "Native name":null,
     "Note":"The egg must have been laid before activating this card. If you use another card to copy the effect of the Grandala, test whether you laid an egg on that card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22388,6 +22665,7 @@
     "id":130,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22467,6 +22745,7 @@
     "id":628,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22550,6 +22829,7 @@
     "id":131,
     "Native name":null,
     "Note":"A few birds have the power to repeat another bird\u2019s brown power. The repeated bird must be in the same habitat.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
@@ -22633,6 +22913,7 @@
     "id":392,
     "Native name":null,
     "Note":"It is important to keep action cubes in the left column of the action taken throughout each round.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22716,6 +22997,7 @@
     "id":458,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22795,6 +23077,7 @@
     "id":132,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -22874,6 +23157,7 @@
     "id":393,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -22950,6 +23234,7 @@
     "id":133,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
@@ -23036,6 +23321,7 @@
     "id":134,
     "Native name":null,
     "Note":"These cards should be kept separate from the other cards you draw and your bird cards in hand. They cannot be spent during this turn. But to keep the game moving, you can sort through them at the end of your turn and let the next player start their turn.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23119,6 +23405,7 @@
     "id":629,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23202,6 +23489,7 @@
     "id":459,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23281,6 +23569,7 @@
     "id":135,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -23360,6 +23649,7 @@
     "id":479,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23443,6 +23733,7 @@
     "id":394,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23519,6 +23810,7 @@
     "id":136,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23595,6 +23887,7 @@
     "id":395,
     "Native name":null,
     "Note":"These powers use cached food to record how many points a bonus card is worth at the time of activation. It is normal cached food for other purposes, such as the Pellet Dissector bonus card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23671,6 +23964,7 @@
     "id":630,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23747,6 +24041,7 @@
     "id":631,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23830,6 +24125,7 @@
     "id":526,
     "Native name":"Roroa",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23906,6 +24202,7 @@
     "id":396,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -23989,6 +24286,7 @@
     "id":137,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24072,6 +24370,7 @@
     "id":632,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24148,6 +24447,7 @@
     "id":397,
     "Native name":null,
     "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards.<br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24224,6 +24524,7 @@
     "id":138,
     "Native name":null,
     "Note":"You may tuck cards up to the number of action cubes.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power is brown despite its entry in the <i>European Expansion<\/i> rulebook appendix.",
@@ -24310,6 +24611,7 @@
     "id":139,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24389,6 +24691,7 @@
     "id":460,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24465,6 +24768,7 @@
     "id":633,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24544,6 +24848,7 @@
     "id":140,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24620,6 +24925,7 @@
     "id":480,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24699,6 +25005,7 @@
     "id":481,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24775,6 +25082,7 @@
     "id":461,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24854,6 +25162,7 @@
     "id":398,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -24930,6 +25239,7 @@
     "id":141,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"<i>\"Trading\"<\/i> counts as <i>\"spending\"<\/i>.",
@@ -25013,6 +25323,7 @@
     "id":399,
     "Native name":null,
     "Note":"You may lay the [egg] on any bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25092,6 +25403,7 @@
     "id":290,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25171,6 +25483,7 @@
     "id":291,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25247,6 +25560,7 @@
     "id":142,
     "Native name":null,
     "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -25329,6 +25643,7 @@
     "id":292,
     "Native name":null,
     "Note":"Remove the dice from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25408,6 +25723,7 @@
     "id":293,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25484,6 +25800,7 @@
     "id":294,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25563,6 +25880,7 @@
     "id":295,
     "Native name":null,
     "Note":"As usual, you cannot activate other types of bird powers (such as \u201cround end\u201d powers) when you play a bird with this action.<br><br>You will have already discarded nectar when the Grey-Headed Mannikin is activated, so if you want to use it to play a bird with a nectar cost, you will need to use the 2:1 food conversion to obtain the nectar.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25642,6 +25960,7 @@
     "id":143,
     "Native name":null,
     "Note":"These birds are doubled only for end-of-round goals, not bonus cards or points at the end of the game.<br>Eggs on these cards are not doubled, if the goal is counting the number of eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts double toward precisely the end-of-round bonuses that count birds, not those that count other quantities. When in your hand this card does not count toward end-of-round bonuses.",
@@ -25728,6 +26047,7 @@
     "id":144,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25804,6 +26124,7 @@
     "id":482,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25883,6 +26204,7 @@
     "id":483,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -25962,6 +26284,7 @@
     "id":634,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26038,6 +26361,7 @@
     "id":145,
     "Native name":null,
     "Note":"If the specified food type is not in the birdfeeder after the reset, you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26121,6 +26445,7 @@
     "id":146,
     "Native name":null,
     "Note":"If multiple players are tied for fewest birds in the forest, they all use this power. You choose who goes first, and players proceed in turn order.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26204,6 +26529,7 @@
     "id":400,
     "Native name":null,
     "Note":"The egg may be laid on any bird under its egg limit.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26287,6 +26613,7 @@
     "id":635,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26366,6 +26693,7 @@
     "id":147,
     "Native name":null,
     "Note":"You may tuck cards up to the number of action cubes.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -26448,6 +26776,7 @@
     "id":148,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
@@ -26535,6 +26864,7 @@
     "id":636,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26622,6 +26952,7 @@
     "id":149,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26698,6 +27029,7 @@
     "id":637,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26777,6 +27109,7 @@
     "id":150,
     "Native name":null,
     "Note":"This is specifically referring to birds played into the grassland habitat.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -26856,6 +27189,7 @@
     "id":296,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -26935,6 +27269,7 @@
     "id":297,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27018,6 +27353,7 @@
     "id":401,
     "Native name":null,
     "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27094,6 +27430,7 @@
     "id":151,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27173,6 +27510,7 @@
     "id":152,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -27259,6 +27597,7 @@
     "id":153,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, the additional bird must be played in the same habitat as this bird.",
@@ -27342,6 +27681,7 @@
     "id":514,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27421,6 +27761,7 @@
     "id":402,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27504,6 +27845,7 @@
     "id":154,
     "Native name":null,
     "Note":"This power allows you to lay eggs on all of your birds that have a specific nest symbol (and all birds with a star nest symbol), including the newly played bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27583,6 +27925,7 @@
     "id":638,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27662,6 +28005,7 @@
     "id":462,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27741,6 +28085,7 @@
     "id":463,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27824,6 +28169,7 @@
     "id":403,
     "Native name":null,
     "Note":"You may draw the additional card from the deck or from the bird tray.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27903,6 +28249,7 @@
     "id":404,
     "Native name":null,
     "Note":"If you are playing with bonus cards hidden from other players, when this power is activated, the player reveals to you their bonus cards.<br>In a 2-player game, the Greater Adjutant and the Indian Vulture may both copy the same bonus card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -27979,6 +28326,7 @@
     "id":155,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
@@ -28065,6 +28413,7 @@
     "id":515,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28144,6 +28493,7 @@
     "id":484,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28220,6 +28570,7 @@
     "id":639,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28296,6 +28647,7 @@
     "id":156,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28372,6 +28724,7 @@
     "id":298,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28455,6 +28808,7 @@
     "id":640,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28531,6 +28885,7 @@
     "id":299,
     "Native name":null,
     "Note":"You first draw 1 bonus card, then decide how many additional cards you want to draw and discard the corresponding amount of food. This is a one-time decision.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28614,6 +28969,7 @@
     "id":300,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28697,6 +29053,7 @@
     "id":157,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. Discard an egg to the supply. You cannot use this power if you have not laid any eggs yet.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28780,6 +29137,7 @@
     "id":485,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28867,6 +29225,7 @@
     "id":158,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -28882,7 +29241,7 @@
     "Scientific name":"Sarcoramphus papa",
     "Set":"americas",
     "Color":"yellow",
-    "Power text":"Lay 1 on each bird with [rodent] in its food cost.",
+    "Power text":"Lay 1 [egg] on each bird with [rodent] in its food cost.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
@@ -28946,6 +29305,7 @@
     "id":641,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29025,6 +29385,7 @@
     "id":301,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29112,6 +29473,7 @@
     "id":302,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29191,6 +29553,7 @@
     "id":405,
     "Native name":null,
     "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29267,6 +29630,7 @@
     "id":586,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29350,6 +29714,7 @@
     "id":303,
     "Native name":null,
     "Note":"You gain a total of 1 food. Remove the die from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29429,6 +29794,7 @@
     "id":159,
     "Native name":null,
     "Note":"This power allows you to lay an egg on 1 or 2 birds with a specific nest symbol (or a star). All other players can lay an egg on 1 bird with that nest symbol (or a star), if they have one.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to lay 2 [egg], they must be laid on different [bowl]\/[star] birds.",
@@ -29511,6 +29877,7 @@
     "id":642,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29590,6 +29957,7 @@
     "id":304,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29677,6 +30045,7 @@
     "id":587,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29756,6 +30125,7 @@
     "id":558,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29839,6 +30209,7 @@
     "id":160,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -29918,6 +30289,7 @@
     "id":305,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
@@ -30004,6 +30376,7 @@
     "id":643,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30083,6 +30456,7 @@
     "id":161,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -30162,6 +30536,7 @@
     "id":644,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30238,6 +30613,7 @@
     "id":645,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30314,6 +30690,7 @@
     "id":162,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30393,6 +30770,7 @@
     "id":406,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30472,6 +30850,7 @@
     "id":407,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30551,6 +30930,7 @@
     "id":163,
     "Native name":null,
     "Note":"The food that the other player gains does not have to be the same type stolen.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30634,6 +31014,7 @@
     "id":306,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30717,6 +31098,7 @@
     "id":307,
     "Native name":null,
     "Note":"You may count [star] nests as wild and include them when you lay eggs.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30796,6 +31178,7 @@
     "id":408,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30879,6 +31262,7 @@
     "id":646,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -30966,6 +31350,7 @@
     "id":164,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31049,6 +31434,7 @@
     "id":527,
     "Native name":"Koekoe\u0101",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31128,6 +31514,7 @@
     "id":165,
     "Native name":null,
     "Note":"These birds still count as just 1 bird for round-end goals that count birds. But both spaces are filled, so they can count twice toward the \u201ccompleted columns\u201d round-end goal.<br>These birds can still be played like any other bird in the 5th column, forgoing their power.<br>The next bird you play in this habitat is placed to the right of this bird.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If a bird (e.g., <strong applink=\"\/card\/78\">Common Buzzard<\/strong>) is played on top of this one, the top bird is also placed horizontally and occupies both columns.",
@@ -31214,6 +31601,7 @@
     "id":647,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31293,6 +31681,7 @@
     "id":464,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31372,6 +31761,7 @@
     "id":528,
     "Native name":"Taiko",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31451,6 +31841,7 @@
     "id":648,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31530,6 +31921,7 @@
     "id":308,
     "Native name":null,
     "Note":"As usual, you cannot activate other types of bird powers (such as \u201cround end\u201d powers) when you play a bird with this action.<br><br>You will have already discarded nectar when the Grey-Headed Mannikin is activated, so if you want to use it to play a bird with a nectar cost, you will need to use the 2:1 food conversion to obtain the nectar.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31613,6 +32005,7 @@
     "id":309,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31696,6 +32089,7 @@
     "id":166,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action. You may draw from the deck or the face-up cards. Face-up cards are refilled only at the end of your turn.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31775,6 +32169,7 @@
     "id":310,
     "Native name":null,
     "Note":"You may count [star] nests as wild and include them when you lay eggs.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31854,6 +32249,7 @@
     "id":409,
     "Native name":null,
     "Note":"If you choose to activate these birds at the end of the round, all parts of their activations are mandatory.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -31933,6 +32329,7 @@
     "id":311,
     "Native name":null,
     "Note":"This bird never gains more than 1 seed in a turn, no matter how many cards you tuck.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32016,6 +32413,7 @@
     "id":559,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32092,6 +32490,7 @@
     "id":312,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32175,6 +32574,7 @@
     "id":649,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32254,6 +32654,7 @@
     "id":516,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32337,6 +32738,7 @@
     "id":560,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32413,6 +32815,7 @@
     "id":313,
     "Native name":null,
     "Note":"For dice showing two types of food, you may gain both types. However, this bird\u2019s power lets you gain at most 1 token of each food type. Remove each die from he birdfeeder as you gain food.<br><br>While resolving this power, roll the dice just once at the beginning. If, as a result of gaining food with this bird\u2019s power, the remaining dice in the birdfeeder are showing just one face, you may not reroll them as part of the Masked Lapwing\u2019s action.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32492,6 +32895,7 @@
     "id":561,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32571,6 +32975,7 @@
     "id":517,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32650,6 +33055,7 @@
     "id":518,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32726,6 +33132,7 @@
     "id":167,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32802,6 +33209,7 @@
     "id":314,
     "Native name":null,
     "Note":"The \u201ctoe\u201d in this bird\u2019s name is etymologically unrelated to the anatomical part and so does not qualify this bird for the Anatomist bonus card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -32889,6 +33297,7 @@
     "id":168,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played. If the extra bird has a \u201cround end\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
@@ -32907,7 +33316,7 @@
     "Scientific name":"Myiopsitta monachus",
     "Set":"americas",
     "Color":"white",
-    "Power text":"Lay 1 on each bird with a [star] nest.",
+    "Power text":"Lay 1 [egg] on each bird with a [star] nest.",
     "Predator":null,
     "Flocking":null,
     "Bonus card":null,
@@ -32971,6 +33380,7 @@
     "id":650,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33050,6 +33460,7 @@
     "id":169,
     "Native name":null,
     "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -33148,6 +33559,7 @@
     "id":170,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -33227,6 +33639,7 @@
     "id":171,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33303,6 +33716,7 @@
     "id":588,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33382,6 +33796,7 @@
     "id":172,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33461,6 +33876,7 @@
     "id":651,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33537,6 +33953,7 @@
     "id":315,
     "Native name":null,
     "Note":"Before drawing a face-up card with the nest type shown, you may:<ul><li>reset the tray (discard all face-up cards and put out 3 new face-up cards), or<\/li><li>refill the tray (place new cards from the deck in any empty slots), or<\/li><li>leave the tray as-is.<\/li><\/ul>",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33616,6 +34033,7 @@
     "id":173,
     "Native name":null,
     "Note":"This power can be used to tuck cards behind birds that do not usually tuck cards. You only draw 1 [card] regardless of how many cards you tuck.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power is a [flocking] power; the [flocking] icon did not appear on the card in early printings, but the omission was corrected by April 2019.",
@@ -33698,6 +34116,7 @@
     "id":652,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33774,6 +34193,7 @@
     "id":653,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -33857,6 +34277,7 @@
     "id":316,
     "Native name":null,
     "Note":"Before gaining this food, you may reroll the dice in the birdfeeder if they are all showing one face.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, and hence this bird do not qualify for it.",
@@ -33943,6 +34364,7 @@
     "id":529,
     "Native name":"Weweia",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34022,6 +34444,7 @@
     "id":530,
     "Native name":"Tara Iti",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34105,6 +34528,7 @@
     "id":531,
     "Native name":"K\u0101rearea",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34181,6 +34605,7 @@
     "id":532,
     "Native name":"P\u012bwauwau",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34260,6 +34685,7 @@
     "id":533,
     "Native name":"P\u0101pango",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34347,6 +34773,7 @@
     "id":465,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34423,6 +34850,7 @@
     "id":317,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34502,6 +34930,7 @@
     "id":318,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34581,6 +35010,7 @@
     "id":534,
     "Native name":"K\u014dkako",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34664,6 +35094,7 @@
     "id":174,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -34746,6 +35177,7 @@
     "id":175,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34829,6 +35261,7 @@
     "id":176,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34912,6 +35345,7 @@
     "id":177,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -34995,6 +35429,7 @@
     "id":178,
     "Native name":null,
     "Note":"If these birds use their power to tuck cards instead of paying some or all of the bird\u2019s food cost, this counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1013\">Falconer<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -35077,6 +35512,7 @@
     "id":179,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35153,6 +35589,7 @@
     "id":180,
     "Native name":null,
     "Note":"A few birds have the power to repeat another bird\u2019s brown power. The repeated bird must be in the same habitat.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird's power activates another bird's brown power, and it may activate a bird's power regardless of whether that bird is to the left or right of this bird.",
@@ -35236,6 +35673,7 @@
     "id":486,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35315,6 +35753,7 @@
     "id":487,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35398,6 +35837,7 @@
     "id":181,
     "Native name":null,
     "Note":"Draw clockwise, starting with the current player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35477,6 +35917,7 @@
     "id":654,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35556,6 +35997,7 @@
     "id":655,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35639,6 +36081,7 @@
     "id":410,
     "Native name":null,
     "Note":"Each player may choose a different or the same die, including the die a player just rolled. Take only the food from the die you rolled. If there is a choice on your die face ([invertebrate]\/[seed]), choose only 1.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35722,6 +36165,7 @@
     "id":656,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35798,6 +36242,7 @@
     "id":319,
     "Native name":null,
     "Note":"You may count [star] nests as wild and include them when you lay eggs.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35877,6 +36322,7 @@
     "id":411,
     "Native name":null,
     "Note":"When you use this power, you may activate the brown \u201cwhen activated\u201d powers of your [predator] birds in any order. These powers are indicated by the [predator] icon to the left of the power (not within the power text).",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -35953,6 +36399,7 @@
     "id":412,
     "Native name":null,
     "Note":"Count the eggs in the habitat specified, then divide by 3 and round down. Gain that many food from the supply.<br>These powers give a choice of food types. If you gain more than one food, you may mix the types.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36036,6 +36483,7 @@
     "id":657,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36115,6 +36563,7 @@
     "id":182,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36198,6 +36647,7 @@
     "id":488,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36277,6 +36727,7 @@
     "id":320,
     "Native name":null,
     "Note":"The egg limit of this bird still applies. For example, if you have 6 eggs in your wetland but only space for 1 more egg on this bird, you lay 1 egg.<br><br>Round down (i.e., if you have 5 eggs in your wetland, lay 2 eggs).<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36356,6 +36807,7 @@
     "id":466,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36432,6 +36884,7 @@
     "id":183,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36511,6 +36964,7 @@
     "id":184,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird does not count toward the <strong applink=\"\/card\/1000\">Anatomist<\/strong> bonus card.",
@@ -36597,6 +37051,7 @@
     "id":535,
     "Native name":"P\u016btangitangi",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36676,6 +37131,7 @@
     "id":658,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36759,6 +37215,7 @@
     "id":185,
     "Native name":null,
     "Note":"You gain a [seed] no matter what food die you removed from the birdfeeder.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36842,6 +37299,7 @@
     "id":321,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -36925,6 +37383,7 @@
     "id":186,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37001,6 +37460,7 @@
     "id":659,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37080,6 +37540,7 @@
     "id":322,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37163,6 +37624,7 @@
     "id":589,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37239,6 +37701,7 @@
     "id":323,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37318,6 +37781,7 @@
     "id":413,
     "Native name":null,
     "Note":"After rolling all 5 dice, you may reroll any of those 5 dice again. Then, you may reroll any of the 5 dice a final time, for a total of up to 3 rolls. After you finish rolling, if there are at least 3 [rodent] among the 5 dice, draw 2 bonus cards and keep 1. Reset the birdfeeder, regardless of how many [rodent] there are among the dice.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37397,6 +37861,7 @@
     "id":187,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37484,6 +37949,7 @@
     "id":188,
     "Native name":null,
     "Note":"This power allows you to lay an egg on 1 or 2 birds with a specific nest symbol (or a star). All other players can lay an egg on 1 bird with that nest symbol (or a star), if they have one.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to lay 2 [egg], they must be laid on different [cavity]\/[star] birds.",
@@ -37566,6 +38032,7 @@
     "id":489,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37642,6 +38109,7 @@
     "id":189,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37725,6 +38193,7 @@
     "id":324,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37804,6 +38273,7 @@
     "id":467,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37880,6 +38350,7 @@
     "id":490,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -37956,6 +38427,7 @@
     "id":660,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38039,6 +38511,7 @@
     "id":325,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38118,6 +38591,7 @@
     "id":414,
     "Native name":null,
     "Note":"The bird must specifically have a [invertebrate] or [seed] symbol. [wild] does not count.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38197,6 +38671,7 @@
     "id":590,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38273,6 +38748,7 @@
     "id":326,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38352,6 +38828,7 @@
     "id":190,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38428,6 +38905,7 @@
     "id":591,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38507,6 +38985,7 @@
     "id":191,
     "Native name":null,
     "Note":"Draw clockwise, starting with the current player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38586,6 +39065,7 @@
     "id":415,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38662,6 +39142,7 @@
     "id":192,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38741,6 +39222,7 @@
     "id":468,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38824,6 +39306,7 @@
     "id":193,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38907,6 +39390,7 @@
     "id":592,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -38990,6 +39474,7 @@
     "id":327,
     "Native name":null,
     "Note":"Adjacent birds are those immediately to the left or right and those immediately above or below.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39069,6 +39554,7 @@
     "id":491,
     "Native name":"\u1581\u1438\u14c4\u140a\u1585",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39148,6 +39634,7 @@
     "id":328,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39235,6 +39722,7 @@
     "id":416,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39314,6 +39802,7 @@
     "id":194,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39397,6 +39886,7 @@
     "id":417,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39476,6 +39966,7 @@
     "id":195,
     "Native name":null,
     "Note":"If you use this power, you pay neither the food cost nor the egg cost for these birds. This counts as both a) tucking a card and b) a predator succeeding, and triggers birds with pink powers accordingly.<br>Any cards that were tucked behind the original bird remain tucked, but you must discard any eggs.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird is played on top of a horizontal one (e.g., <strong applink=\"\/card\/77\">Common Blackbird<\/strong>), it is also placed horizontally and occupies both columns.",
@@ -39570,6 +40061,7 @@
     "id":196,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39649,6 +40141,7 @@
     "id":329,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39732,6 +40225,7 @@
     "id":330,
     "Native name":null,
     "Note":"This bird lays eggs only on birds with the [star] nest icon.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39811,6 +40305,7 @@
     "id":197,
     "Native name":null,
     "Note":"The food that the other player gains does not have to be the same type stolen.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39894,6 +40389,7 @@
     "id":198,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -39977,6 +40473,7 @@
     "id":661,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40064,6 +40561,7 @@
     "id":662,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40147,6 +40645,7 @@
     "id":199,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40234,6 +40733,7 @@
     "id":200,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40310,6 +40810,7 @@
     "id":331,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40393,6 +40894,7 @@
     "id":201,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40472,6 +40974,7 @@
     "id":663,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40551,6 +41054,7 @@
     "id":418,
     "Native name":null,
     "Note":"These powers use cached food to record how many points a bonus card is worth at the time of activation. It is normal cached food for other purposes, such as the Pellet Dissector bonus card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40630,6 +41134,7 @@
     "id":536,
     "Native name":"K\u0101k\u0101riki",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40713,6 +41218,7 @@
     "id":202,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -40792,6 +41298,7 @@
     "id":519,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40875,6 +41382,7 @@
     "id":664,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -40958,6 +41466,7 @@
     "id":203,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41041,6 +41550,7 @@
     "id":204,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41120,6 +41630,7 @@
     "id":665,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41207,6 +41718,7 @@
     "id":332,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41290,6 +41802,7 @@
     "id":205,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41366,6 +41879,7 @@
     "id":206,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41442,6 +41956,7 @@
     "id":419,
     "Native name":null,
     "Note":"The [fruit] is not spent or discarded.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41521,6 +42036,7 @@
     "id":420,
     "Native name":null,
     "Note":"The discarded bird can have other habitat icons, but it must also have a grassland habitat to qualify for this power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41604,6 +42120,7 @@
     "id":207,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -41686,6 +42203,7 @@
     "id":333,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"Using this bird's power to give a [nectar] to another player does not count as <i>\"spending\"<\/i>, so when you do you do not add nectar to the <i>\"spent nectar\"<\/i> space for its habitat.",
@@ -41772,6 +42290,7 @@
     "id":334,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41855,6 +42374,7 @@
     "id":666,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -41931,6 +42451,7 @@
     "id":421,
     "Native name":null,
     "Note":"When rolling 2 dice, you cache only 1 [fish] even if both dice show [fish].<br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42018,6 +42539,7 @@
     "id":537,
     "Native name":"T\u012btipounamu",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42101,6 +42623,7 @@
     "id":208,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42180,6 +42703,7 @@
     "id":667,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42256,6 +42780,7 @@
     "id":422,
     "Native name":null,
     "Note":"You may lay the [egg] on any bird.<br>For the rock pigeon, you may (but need not) lay the second egg on same bird as the first.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42335,6 +42860,7 @@
     "id":492,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42411,6 +42937,7 @@
     "id":423,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42487,6 +43014,7 @@
     "id":209,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
@@ -42573,6 +43101,7 @@
     "id":424,
     "Native name":null,
     "Note":"The copied power must be a white \u201cwhen played\u201d power.<br>This bird may copy a white \u201cwhen played\u201d power that lets you play an additional bird, even in a habitat other than the one in which this bird is played. The additional bird must be played in a habitat specified by the copied power, if there is one.<br>Since this bird cannot be played in the [wetland], it cannot copy a white power that specifies playing it in the that habitat (e.g., the Grey Heron, from the European Expansion).<br>If you use this bird to copy the white \u201cwhen played\u201d power of a bird with an alternative food cost, you may pay that alternative food cost to play this bird as applicable. (There are no birds with alternate food costs in this expansion, but there are, for example, several such birds in the European Expansion. Alternate food costs are specified with an asterisk [*] next to the food cost.)",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42649,6 +43178,7 @@
     "id":210,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42728,6 +43258,7 @@
     "id":425,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42811,6 +43342,7 @@
     "id":335,
     "Native name":null,
     "Note":"Before drawing a face-up card with the nest type shown, you may:<ul><li>reset the tray (discard all face-up cards and put out 3 new face-up cards), or<\/li><li>refill the tray (place new cards from the deck in any empty slots), or<\/li><li>leave the tray as-is.<\/li><\/ul>",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -42890,6 +43422,7 @@
     "id":211,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -42969,6 +43502,7 @@
     "id":212,
     "Native name":null,
     "Note":"The hummingbird\u2019s owner decides which person gains the first food, and then players gain food in turn order. Players may reset the birdfeeder if it is empty or if all dice are showing the same face.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43052,6 +43586,7 @@
     "id":213,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43139,6 +43674,7 @@
     "id":668,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43218,6 +43754,7 @@
     "id":426,
     "Native name":null,
     "Note":"If you choose to activate these birds at the end of the round, all parts of their activations are mandatory.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43297,6 +43834,7 @@
     "id":562,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43384,6 +43922,7 @@
     "id":669,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43460,6 +43999,7 @@
     "id":214,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1004\">Bird Counter<\/strong> bonus card despite the specification of brown powers in that bonus card's entry in the Appendix.",
@@ -43542,6 +44082,7 @@
     "id":670,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43621,6 +44162,7 @@
     "id":493,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43700,6 +44242,7 @@
     "id":336,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43776,6 +44319,7 @@
     "id":337,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -43855,6 +44399,7 @@
     "id":338,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"As of the release of the Oceania Expansion, <i>honey<\/i> is no longer a keyword for the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card, but <i>rufous<\/i> is a keyword, and hence this bird qualifies for that bonus card.",
@@ -43945,6 +44490,7 @@
     "id":671,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44028,6 +44574,7 @@
     "id":672,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44111,6 +44658,7 @@
     "id":494,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44190,6 +44738,7 @@
     "id":339,
     "Native name":null,
     "Note":"Before gaining this food, you may reroll the dice in the birdfeeder if they are all showing one face.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44273,6 +44822,7 @@
     "id":563,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44349,6 +44899,7 @@
     "id":215,
     "Native name":null,
     "Note":"These powers allow you to discard a specific type of food to take 2 cards from the deck and tuck them behind the bird. You must have the food in your personal supply; you cannot take it from a bird card.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44428,6 +44979,7 @@
     "id":564,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44507,6 +45059,7 @@
     "id":427,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44590,6 +45143,7 @@
     "id":428,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44669,6 +45223,7 @@
     "id":673,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44752,6 +45307,7 @@
     "id":216,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -44831,6 +45387,7 @@
     "id":217,
     "Native name":null,
     "Note":"You may choose to draw face-up cards or from the deck as normal, but each other player may only draw their card from the deck.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44910,6 +45467,7 @@
     "id":218,
     "Native name":null,
     "Note":"This power allows you to lay eggs on all of your birds that have a specific nest symbol (and all birds with a star nest symbol), including the newly played bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -44989,6 +45547,7 @@
     "id":219,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45068,6 +45627,7 @@
     "id":429,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45151,6 +45711,7 @@
     "id":674,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45230,6 +45791,7 @@
     "id":675,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45306,6 +45868,7 @@
     "id":593,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45393,6 +45956,7 @@
     "id":220,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45476,6 +46040,7 @@
     "id":676,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45552,6 +46117,7 @@
     "id":495,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45631,6 +46197,7 @@
     "id":677,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45710,6 +46277,7 @@
     "id":538,
     "Native name":"Tuturuatu",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45793,6 +46361,7 @@
     "id":221,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"Using this bird's power to play a bird in your [forest] triggers the power of the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong> on another player's player mat, despite the <strong applink=\"\/card\/104\">Eastern Kingbird<\/strong>'s entry in the Appendix.",
@@ -45879,6 +46448,7 @@
     "id":340,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -45962,6 +46532,7 @@
     "id":430,
     "Native name":null,
     "Note":"You may ignore 1 [wild] requirement in the additional bird\u2019s food cost in place of ignoring 1 [invertebrate] in it.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46038,6 +46609,7 @@
     "id":431,
     "Native name":null,
     "Note":"When you use this bird\u2019s power, tucking is part of the action\u2019s cost and is mandatory.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46117,6 +46689,7 @@
     "id":678,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46196,6 +46769,7 @@
     "id":222,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird counts toward the <strong applink=\"\/card\/1023\">Photographer<\/strong> bonus card.",
@@ -46286,6 +46860,7 @@
     "id":679,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46365,6 +46940,7 @@
     "id":223,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46441,6 +47017,7 @@
     "id":224,
     "Native name":null,
     "Note":"You may look at the bonus card you drew before doing the second part of these actions.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46520,6 +47097,7 @@
     "id":225,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -46599,6 +47177,7 @@
     "id":565,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46682,6 +47261,7 @@
     "id":341,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46758,6 +47338,7 @@
     "id":539,
     "Native name":"T\u012beke",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46834,6 +47415,7 @@
     "id":540,
     "Native name":"Takah\u0113",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -46913,6 +47495,7 @@
     "id":342,
     "Native name":null,
     "Note":"You must pay the food cost of the cassowary, but not the egg cost. You may play the cassowary in an empty space, but then you must pay its egg cost and you do not lay eggs or gain fruit.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to discard another bird from your mat, all food cached on that bird, [egg] laid on that bird, and [card] tucked under that bird are discarded.",
@@ -47003,6 +47586,7 @@
     "id":680,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47082,6 +47666,7 @@
     "id":681,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47165,6 +47750,7 @@
     "id":682,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47244,6 +47830,7 @@
     "id":343,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47327,6 +47914,7 @@
     "id":683,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47403,6 +47991,7 @@
     "id":344,
     "Native name":null,
     "Note":"Flightless birds count as wild for wingspan requirements, so eggs may be laid on them for each of these bird abilities, even though they are contradictory.<br><br>Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47482,6 +48071,7 @@
     "id":432,
     "Native name":null,
     "Note":"Any player may discard 2 resources of the same type (e.g., 2 [wild]) or of 2 different types (e.g., 1 [wild] and 1 [egg]) to draw bonus cards. Discarded [wild] are discarded from your personal supply, and discarded [card] are discarded from your hand.<br>Draw 2 bonus cards, pick the one you want to keep and discard the other. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck.<br><b>Oceania Expansion:<\/b> If a player discards [nectar] to pay to draw bonus cards, that nectar is placed on the \u201cspent nectar\u201d spot in their [wetland].",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47565,6 +48155,7 @@
     "id":345,
     "Native name":null,
     "Note":"Eggs are laid after scoring the round-end goal for Round 4.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47644,6 +48235,7 @@
     "id":520,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47723,6 +48315,7 @@
     "id":433,
     "Native name":null,
     "Note":"When moving this bird to another player\u2019s mat, place it in the leftmost open slot in any habitat. If there are no open slots in a habitat, this bird cannot be moved to that habitat. Any cached food, eggs, or tucked cards are discarded when you move it. This bird cannot be declined by the receiving player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47802,6 +48395,7 @@
     "id":684,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47881,6 +48475,7 @@
     "id":226,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -47960,6 +48555,7 @@
     "id":685,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48043,6 +48639,7 @@
     "id":227,
     "Native name":null,
     "Note":"Draw clockwise, starting with the current player.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"This bird is worth 5 points, not 4. (This misprint was corrected in the third printing, and a corrected card is available in the update pack.)",
@@ -48125,6 +48722,7 @@
     "id":541,
     "Native name":"P\u0101rekareka",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48201,6 +48799,7 @@
     "id":228,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48284,6 +48883,7 @@
     "id":229,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48363,6 +48963,7 @@
     "id":230,
     "Native name":null,
     "Note":"If no with [card] that habitat is available, do not gain anything.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48442,6 +49043,7 @@
     "id":686,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48518,6 +49120,7 @@
     "id":434,
     "Native name":null,
     "Note":"For these powers, the birds that you cache food on do not need to have a caching power themselves.<br><br>The number of caches allowed by the card (such as \u201ceach bird in this row\u201d) is a maximum: you may cache less than this amount.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48594,6 +49197,7 @@
     "id":435,
     "Native name":null,
     "Note":"Rolling the ([invertebrate]\/[seed]) face counts as rolling a [invertebrate].<br>The second half of these powers is independent of the first: All players may discard a to gain a food whether or not the die roll was successful. You are always included in \u201call players.\u201d",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48681,6 +49285,7 @@
     "id":231,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48764,6 +49369,7 @@
     "id":469,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48843,6 +49449,7 @@
     "id":542,
     "Native name":"Hihi",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -48926,6 +49533,7 @@
     "id":436,
     "Native name":null,
     "Note":"If you roll more than 1 [fish], gain only 1.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49009,6 +49617,7 @@
     "id":687,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49085,6 +49694,7 @@
     "id":346,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49168,6 +49778,7 @@
     "id":347,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49251,6 +49862,7 @@
     "id":470,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49330,6 +49942,7 @@
     "id":688,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49409,6 +50022,7 @@
     "id":689,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49488,6 +50102,7 @@
     "id":690,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49571,6 +50186,7 @@
     "id":348,
     "Native name":null,
     "Note":"The copied power must be a brown \u201cwhen activated\u201d power.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---this bird may move to that habitat, even one in which it cannot be played.",
@@ -49662,6 +50278,7 @@
     "id":594,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49741,6 +50358,7 @@
     "id":232,
     "Native name":null,
     "Note":"These birds eat other birds. Look at the wingspan of the top card of the deck and compare it to their hunting power.<br>If the wingspan of the top card in the deck is less than the bird\u2019s hunting power, tuck that card to signify that your predator hunted successfully. Each tucked card is worth 1 point at the end of the game.<br>If the wingspan of the top card is equal to or larger than your predator\u2019s power, discard the card instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49817,6 +50435,7 @@
     "id":471,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49904,6 +50523,7 @@
     "id":349,
     "Native name":null,
     "Note":"You gain a total of 1 food. Remove the die from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -49980,6 +50600,7 @@
     "id":566,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50056,6 +50677,7 @@
     "id":233,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50139,6 +50761,7 @@
     "id":691,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50218,6 +50841,7 @@
     "id":692,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50294,6 +50918,7 @@
     "id":543,
     "Native name":"Miromiro",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50373,6 +50998,7 @@
     "id":521,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50460,6 +51086,7 @@
     "id":234,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50539,6 +51166,7 @@
     "id":693,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50615,6 +51243,7 @@
     "id":694,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50691,6 +51320,7 @@
     "id":695,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50770,6 +51400,7 @@
     "id":437,
     "Native name":null,
     "Note":"You may ignore 1 [wild] requirement in the additional bird\u2019s food cost in place of ignoring 1 [seed] in it.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50846,6 +51477,7 @@
     "id":235,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50922,6 +51554,7 @@
     "id":496,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -50998,6 +51631,7 @@
     "id":236,
     "Native name":null,
     "Note":"Play another bird into the same habitat. You must follow all other rules about how to play birds: it must be a bird that can live in that habitat, and you must discard the food and egg cost for that bird.<br>The birds with this power all are known for spending time in mixed flocks with multiple bird species. Research has shown this can have benefits such as help finding food and being alerted about predators.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a <i>\"play a second bird\"<\/i> power, you may then use the latter bird's power to play yet another bird.",
@@ -51077,6 +51711,7 @@
     "id":567,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51156,6 +51791,7 @@
     "id":237,
     "Native name":null,
     "Note":"If multiple players trigger this power at the same time, they gain food in turn order, starting to the left of the active player (the one whose predator succeeded).",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51239,6 +51875,7 @@
     "id":696,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51315,6 +51952,7 @@
     "id":438,
     "Native name":null,
     "Note":"When you use this bird\u2019s power, tucking is part of the action\u2019s cost and such is mandatory.<br>You may tuck cards that you did not draw during the activation of this power.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51394,6 +52032,7 @@
     "id":350,
     "Native name":null,
     "Note":"The copied power must be a brown \u201cwhen activated\u201d power.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to copy the power of a bird that lets it move to another habitat---and this bird satisfies applicable conditions (e.g., being the rightmost bird in its habitat)---this bird may move to that habitat, even one in which it cannot be played.",
@@ -51485,6 +52124,7 @@
     "id":697,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51564,6 +52204,7 @@
     "id":698,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51643,6 +52284,7 @@
     "id":544,
     "Native name":"Torea Pango",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51722,6 +52364,7 @@
     "id":699,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51805,6 +52448,7 @@
     "id":497,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51881,6 +52525,7 @@
     "id":238,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -51964,6 +52609,7 @@
     "id":700,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52043,6 +52689,7 @@
     "id":439,
     "Native name":null,
     "Note":"You may apply this power to [invertebrate] gained before or after activating the Verditer flycatcher. However, you may use the power only once per turn\u2014you gain just 1 [fruit] no matter how many you gained.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52130,6 +52777,7 @@
     "id":701,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52206,6 +52854,7 @@
     "id":440,
     "Native name":null,
     "Note":"Going over the egg limit: When you activate this bird, you may use it to lay an egg on a bird that already is at or over its egg limit, as described. This power does not affect any other actions in the game\u2014the egg limit still applies to them. A bird holding eggs in excess of its egg limit still qualifies for the Avian Theriogenologist bonus card. Birds that have no nest symbol and no egg limit still do not qualify to receive eggs from this bird.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52285,6 +52934,7 @@
     "id":239,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52364,6 +53014,7 @@
     "id":595,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52443,6 +53094,7 @@
     "id":702,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52519,6 +53171,7 @@
     "id":351,
     "Native name":null,
     "Note":"Note that the wedge-tailed eagle is looking for birds OVER 65 cm, unlike most predators.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52595,6 +53248,7 @@
     "id":545,
     "Native name":"Weka",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52671,6 +53325,7 @@
     "id":352,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52747,6 +53402,7 @@
     "id":568,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52826,6 +53482,7 @@
     "id":522,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52909,6 +53566,7 @@
     "id":569,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -52996,6 +53654,7 @@
     "id":240,
     "Native name":null,
     "Note":"This power allows you to lay an egg on 1 or 2 birds with a specific nest symbol (or a star). All other players can lay an egg on 1 bird with that nest symbol (or a star), if they have one.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to lay 2 [egg], they must be laid on different [ground]\/[star] birds.",
@@ -53078,6 +53737,7 @@
     "id":703,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53161,6 +53821,7 @@
     "id":596,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53237,6 +53898,7 @@
     "id":241,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power, if all [die] in the birdfeeder show the same face you may reroll before taking food.",
@@ -53323,6 +53985,7 @@
     "id":570,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53402,6 +54065,7 @@
     "id":472,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53481,6 +54145,7 @@
     "id":242,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53560,6 +54225,7 @@
     "id":243,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played. If the extra bird has a \u201cround end\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
@@ -53642,6 +54308,7 @@
     "id":244,
     "Native name":null,
     "Note":"If there is only one face showing in the birdfeeder, you may reset it before gaining the [die].",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53725,6 +54392,7 @@
     "id":353,
     "Native name":null,
     "Note":"You gain a total of 1 food. Remove the die from the birdfeeder when you gain the food, as you would normally.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53808,6 +54476,7 @@
     "id":245,
     "Native name":null,
     "Note":"The birds with these powers are known for caching extra food and saving it for later. As noted on these cards, you can cache exactly 1 food token when their power is activated by placing it on a bird card. Once a food token is cached on a bird card, you cannot spend it. Each token on the card at the end of the game is worth 1 point. If the same dice are showing in the birdfeeder, you may reroll to see if you meet the condition of the bird. If you run out of food tokens, you can cache cards instead.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53884,6 +54553,7 @@
     "id":354,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -53963,6 +54633,7 @@
     "id":704,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54042,6 +54713,7 @@
     "id":441,
     "Native name":null,
     "Note":"Regardless of the number of dice rolled, gain only 1 food.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54125,6 +54797,7 @@
     "id":442,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54208,6 +54881,7 @@
     "id":246,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -54287,6 +54961,7 @@
     "id":355,
     "Native name":null,
     "Note":"Remove the dice from the birdfeeder when you gain the food, as you would normally. You may cache the fish on your bird or add them to your food supply.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54366,6 +55041,7 @@
     "id":247,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54442,6 +55118,7 @@
     "id":443,
     "Native name":null,
     "Note":"Draw 3 bonus cards, pick the one you want to keep, and discard the others. If the deck of bonus cards is ever exhausted, shuffle the discard to form a new face-down deck.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54521,6 +55198,7 @@
     "id":248,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54600,6 +55278,7 @@
     "id":444,
     "Native name":null,
     "Note":"These are push-your-luck powers: After each roll, you check to see whether you succeeded or failed. Once you fail, this bird\u2019s activation is over. You also may choose to end the bird\u2019s activation at any time to avoid the risk of failing and losing what you have gained.<br>If you failed, you must stop and return all food cached by this bird during the current activation of this power.<br>If you succeeded, cache 1 food on this bird from the supply (do not cache more than one food after each roll). Then, if you have rolled fewer than 3 times during the current activation of this power, decide whether to roll again.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54676,6 +55355,7 @@
     "id":705,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54755,6 +55435,7 @@
     "id":249,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54834,6 +55515,7 @@
     "id":706,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54910,6 +55592,7 @@
     "id":571,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -54989,6 +55672,7 @@
     "id":250,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55068,6 +55752,7 @@
     "id":251,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55144,6 +55829,7 @@
     "id":252,
     "Native name":null,
     "Note":"Birds that eat rodents or fish roll all dice that are not in the birdfeeder. (Note that you will never roll more than 4 dice, because when all 5 dice are out of the birdfeeder it must reset immediately.) Roll dice on the table; they do not go back into the birdfeeder. If one or more dice show the specified type, take at most 1 token of that type from the supply and cache it on your card (see \u201cCaching food\u201d). Each token on a bird card is worth 1 point at the end of the game.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55220,6 +55906,7 @@
     "id":356,
     "Native name":null,
     "Note":"Before drawing a face-up card with the nest type shown, you may:<ul><li>reset the tray (discard all face-up cards and put out 3 new face-up cards), or<\/li><li>refill the tray (place new cards from the deck in any empty slots), or<\/li><li>leave the tray as-is.<\/li><\/ul>",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55299,6 +55986,7 @@
     "id":445,
     "Native name":null,
     "Note":"If all dice in the birdfeeder show the same face, you may reset it before gaining the [specified food type]. If the birdfeeder contains none of the [specified food type], you gain nothing.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55375,6 +56063,7 @@
     "id":572,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55451,6 +56140,7 @@
     "id":253,
     "Native name":null,
     "Note":"Draw clockwise, starting with the current player.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55530,6 +56220,7 @@
     "id":254,
     "Native name":null,
     "Note":"These cards should be kept separate from the other cards you draw and your bird cards in hand. They cannot be spent during this turn. But to keep the game moving, you can sort through them at the end of your turn and let the next player start their turn.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55613,6 +56304,7 @@
     "id":255,
     "Native name":null,
     "Note":"This power adds cards to the wetland\u2019s draw card(s) action, but it has a cost. The next player may start their turn while you are deciding which card(s) to discard.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55700,6 +56392,7 @@
     "id":256,
     "Native name":null,
     "Note":"Draw two goal cards, pick the one you want to keep, and discard the other. If the deck of goal cards is ever exhausted, shuffle the discards to form a new face-down deck.<br>The birds with this power are all threatened or endangered, or conservationists are concerned that they soon will be because of a declining trend in their population.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55779,6 +56472,7 @@
     "id":357,
     "Native name":null,
     "Note":"The discard pile remains separate from the bonus deck.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55855,6 +56549,7 @@
     "id":446,
     "Native name":null,
     "Note":"Keep in mind: The cards in the card tray never slide to the left or right when a card is drawn from there. If the middle slot is empty, this bird has no effect.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -55934,6 +56629,7 @@
     "id":707,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56013,6 +56709,7 @@
     "id":257,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56096,6 +56793,7 @@
     "id":258,
     "Native name":null,
     "Note":"These birds are all nest parasites in the wild: they lay eggs in other birds\u2019 nests. Cowbirds don\u2019t even build their own nests.<br>When another player uses the [grassland] action to lay eggs, you may lay 1 egg. You may do this only once between your turns, no matter how many other players lay eggs. The cowbird can lay eggs on star nests.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"You may not use this bird's power to lay an [egg] on another player's bird.",
@@ -56178,6 +56876,7 @@
     "id":597,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56254,6 +56953,7 @@
     "id":259,
     "Native name":null,
     "Note":"These birds are all able to live in a variety of habitats, and their power is to move from habitat to habitat\u2014but only if they\u2019re the last bird in that row. (They can be in any column.) This can be powerful for increasing your abilities in multiple habitats, and for scoring on end-of-round goals. Be careful not to play another bird to the right of one of these cards, or you won\u2019t be able to use its power!",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"When using this bird's power to move this bird to another habitat, the action cube does not change habitats with it.",
@@ -56333,6 +57033,7 @@
     "id":546,
     "Native name":"Hoiho",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56416,6 +57117,7 @@
     "id":260,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If this bird already has the maximum number of [egg] on it, you may still use its power to tuck a [card].",
@@ -56498,6 +57200,7 @@
     "id":708,
     "Native name":null,
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56574,6 +57277,7 @@
     "id":261,
     "Native name":null,
     "Note":"These birds all allow you to tuck a card from your hand for a point, then gain some additional benefit (lay an egg, draw a card, or gain a food). You can only gain the benefit if you first tuck a card from your hand.",
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56653,6 +57357,7 @@
     "id":262,
     "Native name":null,
     "Note":"If the additional bird has a \u201cwhen played\u201d power, it is triggered when the bird is played. If the extra bird has a \u201cround end\u201d power, it is triggered when the bird is played.",
+    "CardType":"Bird",
     "rulings":[
       {
         "text":"If you use this bird's power to play another bird with a teal power, you may resolve that power at any point among your other remaining teal powers.",
@@ -56735,6 +57440,7 @@
     "id":547,
     "Native name":"Mohua",
     "Note":null,
+    "CardType":"Bird",
     "rulings":[
 
     ],
@@ -56811,6 +57517,7 @@
     "id":447,
     "Native name":null,
     "Note":"If you discard a [seed] you may lay the [egg] on any bird not necessarily on the Zebra Dove itself.",
+    "CardType":"Bird",
     "rulings":[
 
     ],

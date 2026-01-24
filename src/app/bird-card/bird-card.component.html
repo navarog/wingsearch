@@ -6,7 +6,7 @@
                 <picture *ngFor="let habitat of habitats; index as i"
                     class="habitat-wrapper habitat-{{i + 1}}-{{habitats.length}}">
                     <source type="image/webp" srcset="assets/icons/png/{{habitat.toLowerCase()}}.webp">
-                    <source type="image/png" srcset="assets/icons/png/{{habitat.toLowerCase()}}.jpg">
+                    <source type="image/png" srcset="assets/icons/png/{{habitat.toLowerCase()}}.png">
                     <img src="assets/icons/png/{{habitat.toLowerCase()}}.png" alt="{{habitat.toLowerCase()}} birds"
                         class="habitat">
                 </picture>

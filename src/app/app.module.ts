@@ -31,6 +31,7 @@ import { appReducer } from './store/app.reducer'
 import { DisplayComponent } from './display/display.component'
 import { BonusCardOptionComponent } from './bonus-card-option/bonus-card-option.component'
 import { BirdCardComponent } from './bird-card/bird-card.component'
+import { HummingbirdCardComponent } from './hummingbird-card/hummingbird-card.component'
 import { BonusCardComponent } from './bonus-card/bonus-card.component'
 import { IconizePipe } from './iconize.pipe'
 import { StatsComponent } from './stats/stats.component'
@@ -56,6 +57,7 @@ import { SafePipe } from './safe.pipe'
     DisplayComponent,
     BonusCardOptionComponent,
     BirdCardComponent,
+    HummingbirdCardComponent,
     BonusCardComponent,
     IconizePipe,
     StatsComponent,

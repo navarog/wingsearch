@@ -22,7 +22,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2000
+    "id":2000,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Bee Hummingbird",
@@ -47,7 +48,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2001
+    "id":2001,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Black-Eared Fairy",
@@ -72,7 +74,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2024
+    "id":2024,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Black-Throated Mango",
@@ -97,7 +100,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2025
+    "id":2025,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Blue-Tufted Starthroat",
@@ -122,7 +126,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2002
+    "id":2002,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Cinnamon Hummingbird",
@@ -147,7 +152,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2016
+    "id":2016,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Crimson Topaz",
@@ -172,7 +178,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2032
+    "id":2032,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Crowned Woodnymph",
@@ -197,7 +204,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2017
+    "id":2017,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Fiery-Throated Hummingbird",
@@ -222,7 +230,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2003
+    "id":2003,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Gilded Hummingbird",
@@ -247,7 +256,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2018
+    "id":2018,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Horned Sungem",
@@ -272,7 +282,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2026
+    "id":2026,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Hyacinth Visorbearer",
@@ -297,7 +308,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2027
+    "id":2027,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Jamaican Mango",
@@ -322,7 +334,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2028
+    "id":2028,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Long-Billed Hermit",
@@ -347,7 +360,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2033
+    "id":2033,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Long-Tailed Sylph",
@@ -372,7 +386,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2008
+    "id":2008,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Marvelous Spatuletail",
@@ -397,7 +412,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2009
+    "id":2009,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Minute Hermit",
@@ -422,7 +438,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2034
+    "id":2034,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Oasis Hummingbird",
@@ -447,7 +464,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2004
+    "id":2004,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Purple-Crowned Plovercrest",
@@ -472,7 +490,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2019
+    "id":2019,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Purple-Throated Carib",
@@ -497,7 +516,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2029
+    "id":2029,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Red-Tailed Comet",
@@ -522,7 +542,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2010
+    "id":2010,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Ruby-Topaz Hummingbird",
@@ -547,7 +568,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2030
+    "id":2030,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Rufous-Breasted Hermit",
@@ -572,7 +594,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2035
+    "id":2035,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Rufous-Crested Coquette",
@@ -597,7 +620,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2011
+    "id":2011,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Rufous-Tailed Hummingbird",
@@ -622,7 +646,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2020
+    "id":2020,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Saw-Billed Hermit",
@@ -647,7 +672,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2036
+    "id":2036,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Shining Sunbeam",
@@ -672,7 +698,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2012
+    "id":2012,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Short-Tailed Woodstar",
@@ -697,7 +724,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2005
+    "id":2005,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Snowcap",
@@ -722,7 +750,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2021
+    "id":2021,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Sparkling Violetear",
@@ -747,7 +776,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2031
+    "id":2031,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Speckled Hummingbird",
@@ -772,7 +802,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2013
+    "id":2013,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Stripe-Breasted Starthroat",
@@ -797,7 +828,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2006
+    "id":2006,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Stripe-Throated Hermit",
@@ -822,7 +854,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2037
+    "id":2037,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Swallow-Tailed Hummingbird",
@@ -847,7 +880,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2022
+    "id":2022,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Sword-Billed Hummingbird",
@@ -872,7 +906,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2014
+    "id":2014,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"Violet Sabrewing",
@@ -897,7 +932,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2023
+    "id":2023,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"White-Bellied Woodstar",
@@ -922,7 +958,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2007
+    "id":2007,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"White-Booted Racket-Tail",
@@ -947,7 +984,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2015
+    "id":2015,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"White-Necked Jacobin",
@@ -972,7 +1010,8 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2038
+    "id":2038,
+    "CardType":"Hummingbird"
   },
   {
     "Common name":"White-Tipped Sicklebill",
@@ -997,6 +1036,7 @@
     "Bird Bander":"X",
     "Passerine Specialist":"X",
     "Small Clutch Specialist":"X",
-    "id":2039
+    "id":2039,
+    "CardType":"Hummingbird"
   }
 ]

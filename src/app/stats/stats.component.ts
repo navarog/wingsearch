@@ -17,7 +17,8 @@ export class StatsComponent implements OnInit {
   statsControls: {
     habitat: { forest: number, grassland: number, wetland: number }
     birds: boolean,
-    bonuses: boolean
+    bonuses: boolean,
+    hummingbirds: boolean
   }
 
   @Output()
@@ -46,7 +47,7 @@ export class StatsComponent implements OnInit {
     this.statsChange.emit(newStats)
   }
 
-  toggleCards(cards: 'birds' | 'bonuses', event: MouseEvent) {
+  toggleCards(cards: 'birds' | 'bonuses' | 'hummingbirds', event: MouseEvent) {
     event.stopPropagation()
 
     const newStats = {
