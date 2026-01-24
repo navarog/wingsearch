@@ -5,6 +5,7 @@
     background-position-y: center;
     background-position-x: right;
     background-repeat: no-repeat;
+    container-type: inline-size;
 }
 
 .grey-square {
@@ -128,7 +129,7 @@
     }
 
     .right-column {
-        height: 100%;
+        height: 90%;
         width: 18%;
         margin-right: 7%;
         display: flex;
@@ -142,7 +143,9 @@
             }
 
             .wingspan-icon {
-                width: 100%;
+                position: absolute;
+                width: 15cqw;
+                right: 7.5cqw;
             }
     }
 }

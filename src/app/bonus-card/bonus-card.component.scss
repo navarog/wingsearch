@@ -3,10 +3,10 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background-size: 7%;
+    background-size: 6.3%;
     background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-position-x: right;
+    background-position-y: 98.5%;
+    background-position-x: 98.2%;
 }
 
 .content-wrapper.core {
@@ -181,7 +181,3 @@
     flex-direction: row-reverse;
 }
 
-.expansion-indicator {
-    height: 100%;
-    border-bottom-right-radius: 8px;
-}

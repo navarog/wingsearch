@@ -46,6 +46,7 @@ Thumbs.db
 
 # Utils
 scripts/libwebp/
+new_assets/
 
 # Python files
 __pycache__/

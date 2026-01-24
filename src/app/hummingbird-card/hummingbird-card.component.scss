@@ -1,10 +1,11 @@
 .content-wrapper {
     width: 100%;
     height: 100%;
-    background-size: 85%;
-    background-position-y: center;
-    background-position-x: right;
+    background-size: 110%;
+    background-position-y: -100%;
+    background-position-x: 85%;
     background-repeat: no-repeat;
+    container-type: inline-size;
 }
 
 .content {
@@ -21,22 +22,19 @@
 }
 
 .green-square {
+    background-image: url(../../assets/powers/green.webp);
+    background-size: 367%;
+    background-position-y: center;
+    background-position-x: right;
     width: 27.27%;
     height: 100%;
-    background-color: #a7cb65;
-    border-style: solid;
-    border-left-style: none;
-    border-width: 0.5px;
-    border-color: #74685e;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
     display: flex;
     align-items: center;
 
     .group {
-        max-height: 70%;
-        max-width: 70%;
-        margin-left: 15%;
+        max-width: 13cqw;
+        margin-left: 8.5cqw;
+        max-height: 13cqw;
     }
 }
 
@@ -74,7 +72,11 @@
 }
 
 .attract-icon {
-    height: 27%;
+    height: 12.5cqw;
+    margin-bottom: -2.5cqw;
+    z-index: 1;
+    border: 2px solid #f5f6f1;
+    margin-left: 3cqw;
 
     .attract {
         height: 100%;
@@ -82,20 +84,21 @@
 }
 
 .benefit-square {
-    height: 73%;
+    height: 25cqw;
     width: 100%;
     border-style: solid;
     border-left-style: none;
     border-width: 0.5px;
     border-color: #74685e;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 3.5cqw;
+    border-bottom-right-radius: 3.5cqw;
     display: flex;
     align-items: center;
 
     .benefit {
-        max-height: 70%;
-        max-width: 70%;
-        margin-left: 15%
+        margin-top: 2.5cqw;
+        max-width: 13cqw;
+        margin-left: 8.5cqw;
+        max-height: 18.5cqw;
     }
 }
