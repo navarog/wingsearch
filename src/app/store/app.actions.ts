@@ -11,7 +11,8 @@ export const search = createAction('[App] Search', props<{
             wetland: number
         },
         birds: boolean,
-        bonuses: boolean
+        bonuses: boolean,
+        hummingbirds: boolean
     },
     expansion: Expansion,
     promoPack: PromoPack,

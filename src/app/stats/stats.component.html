@@ -9,6 +9,16 @@
             <img src="assets/cards/backgrounds/bonus-background.jpg" alt="bonus cards">
         </picture>
     </span>
+    <span appAnalyticsEvent="Toggle hummingbirds" class="stats-entry" [ngClass]="{inactive: !statsControls.hummingbirds}"
+        (click)="toggleCards('hummingbirds', $event)"
+        matTooltip="{{statsControls.hummingbirds ? 'Filter out' : 'Count in'}} all hummingbirds">
+        {{stats.hummingbirdCards}}
+        <picture>
+            <source type="image/webp" srcset="assets/cards/backgrounds/hummingbird-background.webp">
+            <source type="image/png" srcset="assets/cards/backgrounds/hummingbird-background.png">
+            <img src="assets/icons/png/hummingbird.png" alt="hummingbirds">
+        </picture>
+    </span>
     <span appAnalyticsEvent="Toggle birds" class="stats-entry" [ngClass]="{inactive: !statsControls.birds}"
         (click)="toggleCards('birds', $event)"
         matTooltip="{{statsControls.birds ? 'Filter out' : 'Count in'}} all birds">

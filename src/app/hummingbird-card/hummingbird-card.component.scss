@@ -1,0 +1,104 @@
+.content-wrapper {
+    width: 100%;
+    height: 100%;
+    background-size: 110%;
+    background-position-y: -100%;
+    background-position-x: 85%;
+    background-repeat: no-repeat;
+    container-type: inline-size;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.upper-row {
+    display: flex;
+    height: 22%;
+    margin-top: 6.8%;
+}
+
+.green-square {
+    background-image: url(../../assets/powers/green.webp);
+    background-size: 367%;
+    background-position-y: center;
+    background-position-x: right;
+    width: 27.27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    .group {
+        max-width: 13cqw;
+        margin-left: 8.5cqw;
+        max-height: 13cqw;
+    }
+}
+
+.title-border {
+    border-style: solid;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+    margin-left: 3%;
+    border-right-style: none;
+    flex-grow: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f5f6f1;
+}
+
+.title {
+    font-family: CardenioModernBold, SiliciStrong, sans-serif;
+}
+
+.scientific { 
+    font-family: ThirstyRoughLt, Arial, Helvetica;
+    color: #666666;
+}
+
+.lower-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 27.27%;
+    margin-bottom: 6.8%;
+}
+
+.attract-icon {
+    height: 12.5cqw;
+    margin-bottom: -2.5cqw;
+    z-index: 1;
+    border: 2px solid #f5f6f1;
+    margin-left: 3cqw;
+
+    .attract {
+        height: 100%;
+    }
+}
+
+.benefit-square {
+    height: 25cqw;
+    width: 100%;
+    border-style: solid;
+    border-left-style: none;
+    border-width: 0.5px;
+    border-color: #74685e;
+    border-top-right-radius: 3.5cqw;
+    border-bottom-right-radius: 3.5cqw;
+    display: flex;
+    align-items: center;
+
+    .benefit {
+        margin-top: 2.5cqw;
+        max-width: 13cqw;
+        margin-left: 8.5cqw;
+        max-height: 18.5cqw;
+    }
+}

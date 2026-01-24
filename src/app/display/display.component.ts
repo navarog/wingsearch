@@ -1,15 +1,15 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { BirdCard, BonusCard, isBirdCard, isBonusCard } from '../store/app.interfaces'
+import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
 import { selectCard, State, selectCardId } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
 import { scroll } from '../store/app.actions'
 import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
+import { HummingbirdCardDetailComponent } from '../hummingbird-card/hummingbird-card-detail/hummingbird-card-detail.component'
 import { AnalyticsService } from '../analytics.service'
 import { ActivatedRoute, Router } from '@angular/router'
-import { first, mergeMap } from 'rxjs/operators'
 
 @Component({
   selector: 'app-display',
@@ -28,12 +28,13 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   private readonly BIRD_DIALOG_ID = '0'
   private readonly BONUS_DIALOG_ID = '1'
+  private readonly HUMMINGBIRD_DIALOG_ID = '2'
 
   @ViewChild('cardElement', { read: ElementRef })
   cardElement: ElementRef
 
   cardHeight$ = new BehaviorSubject<number>(0)
-  isSelectedCardBird: boolean
+  selectedCardType: 'bird' | 'hummingbird' | 'bonus' | null = null
 
   constructor(private store: Store<State>, public dialog: MatDialog, private analytics: AnalyticsService, private router: Router, private route: ActivatedRoute) {
     this.cards$ = this.store.select(({ app }) => app.displayedCards)
@@ -48,18 +49,33 @@ export class DisplayComponent implements OnInit, AfterViewInit {
     this.selectedCard$.subscribe(card => {
       if (!card) {
         this.dialog.closeAll()
-        this.isSelectedCardBird = null
+        this.selectedCardType = null
         return
       }
 
-      if ((isBirdCard(card) && this.isSelectedCardBird) || (isBonusCard(card) && this.isSelectedCardBird === false)) {
-        const dialogRef = this.dialog.getDialogById(this.isSelectedCardBird ? this.BIRD_DIALOG_ID : this.BONUS_DIALOG_ID).componentInstance
+      const newCardType = isBirdCard(card) ? 'bird'
+        : isHummingbirdCard(card) ? 'hummingbird'
+        : 'bonus'
+
+      if (newCardType === this.selectedCardType) {
+        // Update existing dialog
+        const dialogId = newCardType === 'bird' ? this.BIRD_DIALOG_ID
+          : newCardType === 'hummingbird' ? this.HUMMINGBIRD_DIALOG_ID
+          : this.BONUS_DIALOG_ID
+        const dialogRef = this.dialog.getDialogById(dialogId).componentInstance
         dialogRef.data = { card: card }
         dialogRef.initBonuses()
       } else {
+        // Open new dialog
         this.dialog.closeAll()
-        this.isSelectedCardBird = isBirdCard(card)
-        isBirdCard(card) ? this.openBirdDialog(card) : this.openBonusDialog(card)
+        this.selectedCardType = newCardType
+        if (newCardType === 'bird') {
+          this.openBirdDialog(card as BirdCard)
+        } else if (newCardType === 'hummingbird') {
+          this.openHummingbirdDialog(card as BirdCard)
+        } else {
+          this.openBonusDialog(card as BonusCard)
+        }
       }
     })
   }
@@ -74,6 +90,10 @@ export class DisplayComponent implements OnInit, AfterViewInit {
 
   isBirdCard(card: BirdCard | BonusCard): card is BirdCard {
     return isBirdCard(card)
+  }
+
+  isHummingbirdCard(card: BirdCard | BonusCard): card is BirdCard {
+    return isHummingbirdCard(card)
   }
 
   isBonusCard(card: BirdCard | BonusCard): card is BonusCard {
@@ -96,7 +116,8 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       id: this.BIRD_DIALOG_ID,
       autoFocus: false,
     }).afterClosed().subscribe(() => {
-      if (!this.dialog.getDialogById(this.BONUS_DIALOG_ID))
+      if (!this.dialog.getDialogById(this.HUMMINGBIRD_DIALOG_ID)
+          && !this.dialog.getDialogById(this.BONUS_DIALOG_ID))
         this.router.navigate(['/'])
     })
   }
@@ -112,7 +133,25 @@ export class DisplayComponent implements OnInit, AfterViewInit {
       id: this.BONUS_DIALOG_ID,
       autoFocus: false,
     }).afterClosed().subscribe(() => {
-      if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID))
+      if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID)
+          && !this.dialog.getDialogById(this.HUMMINGBIRD_DIALOG_ID))
+        this.router.navigate(['/'])
+    })
+  }
+
+  openHummingbirdDialog(card: BirdCard) {
+    this.dialog.open(HummingbirdCardDetailComponent, {
+      data: { card },
+      panelClass: 'card-detail-panel',
+      closeOnNavigation: false,
+      height: '100vh',
+      width: '80vw',
+      maxWidth: '80vw',
+      id: this.HUMMINGBIRD_DIALOG_ID,
+      autoFocus: false,
+    }).afterClosed().subscribe(() => {
+      if (!this.dialog.getDialogById(this.BIRD_DIALOG_ID)
+          && !this.dialog.getDialogById(this.BONUS_DIALOG_ID))
         this.router.navigate(['/'])
     })
   }

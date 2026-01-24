@@ -36,10 +36,11 @@ export class SearchComponent implements OnInit {
   ]
 
   readonly supportedExpansions = [
-    { value: 'asia', display: 'Asia' },
-    { value: 'oceania', display: 'Oceania expansion' },
-    { value: 'european', display: 'European expansion' },
     { value: 'core', display: 'Base game' },
+    { value: 'european', display: 'European expansion' },
+    { value: 'oceania', display: 'Oceania expansion' },
+    { value: 'asia', display: 'Asia' },
+    { value: 'americas', display: 'Americas expansion' },
   ]
 
   readonly assetPacks = [
@@ -58,13 +59,15 @@ export class SearchComponent implements OnInit {
         wetland: 0
       },
       birds: true,
-      bonuses: true
+      hummingbirds: true,
+      bonuses: true,
     },
     expansion: {
-      asia: true,
-      oceania: true,
-      european: true,
       core: true,
+      european: true,
+      oceania: true,
+      asia: true,
+      americas: true,
     },
     promoPack: {
       promoAsia: true,
@@ -129,6 +132,7 @@ export class SearchComponent implements OnInit {
   tealColorEnabled(): boolean {
     return this.query.expansion.european
       || this.query.expansion.asia
+      || this.query.expansion.americas
       || this.query.promoPack.promoAsia
       || this.query.promoPack.promoCA
       || this.query.promoPack.promoEurope
@@ -140,6 +144,7 @@ export class SearchComponent implements OnInit {
   yellowColorEnabled(): boolean {
     return this.query.expansion.oceania
       || this.query.expansion.asia
+      || this.query.expansion.americas
       || this.query.promoPack.promoAsia
       || this.query.promoPack.promoCA
       || this.query.promoPack.promoEurope
@@ -150,6 +155,7 @@ export class SearchComponent implements OnInit {
 
   nectarEnabled(): boolean {
     return this.query.expansion.oceania
+      || this.query.expansion.americas
       || this.query.promoPack.promoAsia
       || this.query.promoPack.promoNZ
   }
@@ -207,7 +213,7 @@ export class SearchComponent implements OnInit {
   }
 
   language = 'en'
-  selectedExpansions = ['asia', 'oceania', 'european', 'core']
+  selectedExpansions = ['core', 'european', 'oceania', 'asia', 'americas']
   assetPack = 'silhouette'
 
   @ViewChild(MatAutocompleteTrigger)
@@ -224,10 +230,11 @@ export class SearchComponent implements OnInit {
     this.query = {
       ...this.query,
       expansion: {
-        asia: cookies.getCookie('expansion.asia') !== '0',
-        oceania: cookies.getCookie('expansion.oceania') !== '0',
-        european: cookies.getCookie('expansion.european') !== '0',
         core: cookies.getCookie('expansion.core') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        americas: cookies.getCookie('expansion.americas') !== '0',
       },
       promoPack: {
         promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
@@ -286,6 +293,7 @@ export class SearchComponent implements OnInit {
       stats: {
         habitat: { forest: 0, grassland: 0, wetland: 0 },
         birds: true,
+        hummingbirds: true,
         bonuses: true
       },
       eggs: { ...this.eggs },

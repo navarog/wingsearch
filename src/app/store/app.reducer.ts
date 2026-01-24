@@ -3,6 +3,8 @@ import * as appActions from './app.actions'
 import {
     AppState,
     isBirdCard,
+    isHummingbirdCard,
+    isBirdOrHummingbirdCard,
     BirdCard,
     BonusCard,
     DisplayedStats,
@@ -13,16 +15,18 @@ import {
 } from './app.interfaces'
 import BirdCards from '../../assets/data/master.json'
 import BonusCards from '../../assets/data/bonus.json'
+import HummingbirdCards from '../../assets/data/hummingbirds.json'
 import Parameters from '../../assets/data/parameters.json'
 import { birdCardsSearch, bonusCardsSearch } from './cards-search'
 import { bonusSearchMap, dynamicPercentage } from './bonus-search-map'
 import { CookiesService } from '../cookies.service'
 
-
 const SLICE_WINDOW = 18
 
+const BirdCardsWithHummingbirds = [...BirdCards, ...HummingbirdCards]
+
 // @ts-ignore
-const englishBirdCardsMap: BirdCard[] = BirdCards.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
+const englishBirdCardsMap: BirdCard[] = BirdCardsWithHummingbirds.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
 // @ts-ignore
 const englishBonusCardsMap: BonusCard[] = BonusCards.reduce((acc, card) => ({ ...acc, [card.id]: card }), {})
 
@@ -30,15 +34,16 @@ const calculateDisplayedStats = (cards: (BirdCard | BonusCard)[]): DisplayedStat
 
     const birdCards = cards.filter(isBirdCard).length
     const bonusCards = cards.filter(isBonusCard).length
+    const hummingbirdCards = cards.filter(isHummingbirdCard).length
 
-    const habitat = cards.filter(isBirdCard).reduce((acc, val: BirdCard) => {
+    const habitat = cards.filter(isBirdOrHummingbirdCard).reduce((acc, val: BirdCard) => {
         acc.forest += val.Forest ? 1 : 0
         acc.grassland += val.Grassland ? 1 : 0
         acc.wetland += val.Wetland ? 1 : 0
         return acc
     }, { forest: 0, grassland: 0, wetland: 0 })
 
-    return { birdCards, bonusCards, habitat }
+    return { birdCards, hummingbirdCards, bonusCards, habitat }
 }
 
 const eatsMustFood = (card: BirdCard, mustFood: string[]): boolean => {
@@ -61,31 +66,32 @@ const cookies: CookiesService = new CookiesService();
 
 export const initialState: AppState = {
     // @ts-ignore
-    birdCards: BirdCards,
+    birdCards: BirdCardsWithHummingbirds,
     // @ts-ignore
     bonusCards: BonusCards,
     search: {
         // @ts-ignore
-        birdCards: birdCardsSearch(BirdCards),
+        birdCards: birdCardsSearch(BirdCardsWithHummingbirds),
         // @ts-ignore
         bonusCards: bonusCardsSearch(BonusCards),
     },
     // @ts-ignore
-    displayedCards: BirdCards.concat(BonusCards).slice(0, SLICE_WINDOW),
+    displayedCards: BirdCardsWithHummingbirds.concat(BonusCards).slice(0, SLICE_WINDOW),
     // @ts-ignore
-    displayedCardsHidden: BirdCards.concat(BonusCards).slice(SLICE_WINDOW),
+    displayedCardsHidden: BirdCardsWithHummingbirds.concat(BonusCards).slice(SLICE_WINDOW),
     // @ts-ignore
     activeBonusCards: BonusCards,
     // @ts-ignore
-    displayedStats: calculateDisplayedStats(BirdCards.concat(BonusCards)),
+    displayedStats: calculateDisplayedStats(BirdCardsWithHummingbirds.concat(BonusCards)),
     scrollDisabled: false,
     translatedContent: {},
     parameters: Parameters,
     expansion: {
-        asia: cookies.getCookie('expansion.asia') !== '0',
-        oceania: cookies.getCookie('expansion.oceania') !== '0',
-        european: cookies.getCookie('expansion.european') !== '0',
         core: cookies.getCookie('expansion.core') !== '0',
+        european: cookies.getCookie('expansion.european') !== '0',
+        oceania: cookies.getCookie('expansion.oceania') !== '0',
+        asia: cookies.getCookie('expansion.asia') !== '0',
+        americas: cookies.getCookie('expansion.americas') !== '0',
     },
     promoPack: {
         promoAsia: cookies.getCookie('expansion.promoAsia') !== '0',
@@ -122,8 +128,8 @@ const reducer = createReducer(
         if (action.bonus.length) {
             const bonusCards = state.bonusCards.filter(card => action.bonus.includes(card.id))
 
-            displayedCards = displayedCards.filter(isBirdCard).filter(card =>
-                bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
+            displayedCards = displayedCards.filter(isBirdOrHummingbirdCard)
+                .filter(card => bonusCards.reduce((acc, val) => acc && bonusSearchMap[val.id].callbackfn(card), true)
             )
         } else {
             const bonusCards = Array.from(new Set([
@@ -203,6 +209,7 @@ const reducer = createReducer(
 
         displayedCards = displayedCards.filter(card =>
             (isBonusCard(card) && action.stats.bonuses)
+            || (isHummingbirdCard(card) && action.stats.hummingbirds)
             || (
                 isBirdCard(card)
                 && action.stats.birds
@@ -308,15 +315,15 @@ const reducer = createReducer(
         }
 
         // @ts-ignore
-        const birdCards: BirdCard[] = BirdCards.map(translateBirds).sort(sortCardsByKey('Common name'))
+        const birdCards: BirdCard[] = BirdCardsWithHummingbirds.map(translateBirds).sort(sortCardsByKey('Common name'))
 
         // @ts-ignore
         const bonusCards: BonusCard[] = BonusCards.map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
 
         const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
-        const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
+        const displayedBirds = displayedAndHiddenCards.filter(isBirdOrHummingbirdCard)
             .map(translateBirds).sort(sortCardsByKey('Common name'))
-        const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
+        const displayedBonuses = displayedAndHiddenCards.filter(isBonusCard)
             .map(translateBonuses).sort(sortCardsByKey('Bonus card', true))
             .map(dynamicPercentage(birdCards, action.expansion))
 
@@ -356,21 +363,21 @@ const reducer = createReducer(
         }
 
         const displayedAndHiddenCards = state.displayedCards.concat(state.displayedCardsHidden)
-        const displayedBirds = displayedAndHiddenCards.filter((card) => isBirdCard(card))
+        const displayedBirds = displayedAndHiddenCards.filter(isBirdOrHummingbirdCard)
             .map(birdToEnglish).sort(sortCardsByKey('Common name'))
-        const displayedBonuses = displayedAndHiddenCards.filter((card) => isBonusCard(card))
+        const displayedBonuses = displayedAndHiddenCards.filter(isBonusCard)
             .map(bonusToEnglish).sort(sortCardsByKey('Bonus card', true))
             // @ts-ignore
-            .map(dynamicPercentage(BirdCards, action.expansion))
+            .map(dynamicPercentage(BirdCardsWithHummingbirds, action.expansion))
 
         return {
             ...state,
             // @ts-ignore
-            birdCards: BirdCards,
+            birdCards: BirdCardsWithHummingbirds,
             // @ts-ignore
             bonusCards: BonusCards,
             // @ts-ignore
-            search: { birdCards: birdCardsSearch(BirdCards), bonusCards: bonusCardsSearch(BonusCards) },
+            search: { birdCards: birdCardsSearch(BirdCardsWithHummingbirds), bonusCards: bonusCardsSearch(BonusCards) },
             // @ts-ignore
             displayedCards: displayedBirds.concat(displayedBonuses).slice(0, SLICE_WINDOW),
             // @ts-ignore

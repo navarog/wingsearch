@@ -7,8 +7,13 @@
             <app-bird-card [card]="card" [cardHeight$]="cardHeight$"></app-bird-card>
         </mat-card>
 
-        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card['Bonus card']" *ngIf="isBonusCard(card)"
-            class="fill-parent" routerLink="/card/{{card.id}}">
+        <mat-card #cardElement appAnalyticsEvent="Hummingbird detail" [eventLabel]="card['Common name']"
+            *ngIf="isHummingbirdCard(card)" class="fill-parent" routerLink="/card/{{card.id}}">
+            <app-hummingbird-card [card]="card" [cardHeight$]="cardHeight$"></app-hummingbird-card>
+        </mat-card>
+
+        <mat-card #cardElement appAnalyticsEvent="Bonus detail" [eventLabel]="card.CardType"
+            *ngIf="isBonusCard(card)" class="fill-parent" routerLink="/card/{{card.id}}">
             <app-bonus-card [card]="card" [cardHeight$]="cardHeight$"></app-bonus-card>
         </mat-card>
     </mat-grid-tile>

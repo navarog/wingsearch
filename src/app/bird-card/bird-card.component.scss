@@ -5,6 +5,7 @@
     background-position-y: center;
     background-position-x: right;
     background-repeat: no-repeat;
+    container-type: inline-size;
 }
 
 .grey-square {
@@ -128,7 +129,7 @@
     }
 
     .right-column {
-        height: 100%;
+        height: 90%;
         width: 18%;
         margin-right: 7%;
         display: flex;
@@ -136,15 +137,15 @@
         align-items: center;
         justify-content: flex-end;
 
-            .wingspan {
+            .wingspan-value {
                 font-family: CardenioModernBold, SiliciStrong, sans-serif;
                 color: #666666;
             }
 
-            img {
-                max-width: 90%;
-                max-height: 90%;
-                padding: 0 5%;
+            .wingspan-icon {
+                position: absolute;
+                width: 15cqw;
+                right: 7.5cqw;
             }
     }
 }
@@ -269,8 +270,8 @@
 }
 
 .continent {
-    height: 100%;
-    min-width: 30%;
+    height: 75%;
+    min-width: 23%;
     position: relative;
 
     .continent-base {
@@ -299,15 +300,10 @@
 .footer-right {
     display: flex;
     flex-direction: row-reverse;
-}
 
-.expansion-indicator {
-    height: 100%;
-    border-bottom-right-radius: 8px;
-}
-
-.pack-indicator {
-    border-radius: 50%;
-    height: 43%;
-    margin: auto -3% auto 0;
+    .expansion-indicator {
+        height: 40%;
+        margin-right: 3px;
+        vertical-align: bottom;
+    }
 }

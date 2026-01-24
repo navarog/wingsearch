@@ -3,7 +3,7 @@
     fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.056"></div>
 
     <div class="description" [innerHTML]="card['Condition'] | iconize"
-        fitText [fitText]="card['Power text']" [minFontSize]="7" [maxFontSize]="cardHeight * 0.052"></div>
+        [ngStyle]="{'font-size.px': cardHeight * descriptionFontSize, 'line-height.px': cardHeight * descriptionFontSize + 1}"></div>
 
     <div class="points">
         <div class="condition c{{c}}-{{i}}" *ngFor="let condition of getPointConditions(); index as i; count as c"
