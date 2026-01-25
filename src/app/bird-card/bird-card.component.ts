@@ -180,7 +180,7 @@ export class BirdCardComponent implements OnInit {
       [PackType.promoEurope]: 'promo_europe',
       [PackType.promoNZ]: 'promo_nz',
       [PackType.promoUS]: 'promo_us',
-      [PackType.promoUK]: 'promo~uk'
+      [PackType.promoUK]: 'promo_uk'
     }
 
     return iconMap[this.card.Set] || ''

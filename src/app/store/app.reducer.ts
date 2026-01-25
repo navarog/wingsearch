@@ -209,10 +209,8 @@ const reducer = createReducer(
 
         displayedCards = displayedCards.filter(card =>
             (isBonusCard(card) && action.stats.bonuses)
-            || (isHummingbirdCard(card) && action.stats.hummingbirds)
-            || (
-                isBirdCard(card)
-                && action.stats.birds
+            || (((isBirdCard(card) && action.stats.birds)
+                || (isHummingbirdCard(card) && action.stats.hummingbirds))
                 && (
                     (
                         action.stats.habitat.forest === 0
