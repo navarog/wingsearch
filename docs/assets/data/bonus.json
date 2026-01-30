@@ -432,7 +432,7 @@
     "Automa":"X",
     "Condition":"Birds that can only live in [forest]",
     "Explanatory text":null,
-    "VP":"3 to 4 birds: 4[point]; 5 birds: 5[point]",
+    "VP":"3 to 4 birds: 4[point]; 5 birds: 8[point]",
     "%":24,
     "Note":"Count the number of birds you played that only have the habitat symbol shown on this bonus card. If a bird has the option to live in more than one type of habitat, it cannot count toward this bonus.",
     "VP Average":1.0,
