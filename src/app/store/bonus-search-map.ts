@@ -146,7 +146,7 @@ export const bonusSearchMap = {
         return !!birdCard['Power text']?.match(/((([Cc]ache)|([Cc]aching)) [1-9] .*\[(rodent|fish|wild)\])|(\[(rodent|fish|wild)\].*(([Cc]ache)|([Cc]aching)))/)
     }),
     1046: new BonusMatch(true, (birdCard: BirdCard) => {
-        return birdCard['Egg limit'] <= 2
+        return !!birdCard['Small Clutch Specialist'] || birdCard['Egg limit'] <= 2
     }),
     1047: new BonusMatch(true, (birdCard: BirdCard) => {
         return birdCard['Nest type'] === 'wild' && !!birdCard.Wetland
