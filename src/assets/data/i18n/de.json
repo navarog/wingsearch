@@ -9,7 +9,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel klopfen bis zu 50.000 L\u00f6cher in einen einzigen toten Baum, um darin Eicheln zu lagern."
     },
     "3": {
       "English name": "American Avocet",
@@ -20,7 +21,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Braunhals-S\u00e4belschn\u00e4bler bauen eigene Nester, besetzen aber auch die Nester anderer V\u00f6gel."
     },
     "4": {
       "English name": "American Bittern",
@@ -31,7 +33,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Rohrdommeln verstecken sich zwischen Schilf und Rohrkolben - dort sind sie gut getarnt."
     },
     "5": {
       "English name": "American Coot",
@@ -42,7 +45,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Allesfresser fressen eine Menge Algen, aber auch Samen, Fische, Insekten und Weichtiere."
     },
     "6": {
       "English name": "American Crow",
@@ -53,7 +57,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese intelligenten V\u00f6gel stehlen Eier und Futter von anderen V\u00f6geln und lagern Futter f\u00fcr sp\u00e4ter."
     },
     "7": {
       "English name": "American Goldfinch",
@@ -64,7 +69,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Goldzeisige br\u00fcten sp\u00e4t, nach dem Verbl\u00fchen der Seidenpflanzen und Disteln."
     },
     "8": {
       "English name": "American Kestrel",
@@ -75,7 +81,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Falken sp\u00fcren Nagetiere anhand ihres Urins auf. \u00dcbersch\u00fcssige Beute bewahren sie f\u00fcr sp\u00e4ter auf."
     },
     "9": {
       "English name": "American Oystercatcher",
@@ -86,7 +93,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel fressen nicht nur Austern und Krebstiere, sondern auch andere Wirbellose."
     },
     "10": {
       "English name": "American Redstart",
@@ -97,7 +105,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": null
     },
     "11": {
       "English name": "American Robin",
@@ -108,7 +117,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wanderdrosseln sind bekannt daf\u00fcr in Schw\u00e4rmen von \u00fcber 100.000 V\u00f6geln zusammenzukommen."
     },
     "12": {
       "English name": "American White Pelican",
@@ -119,7 +129,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Pelikane arbeiten zusammen, um Fisch zusammenzutreiben und dann aufzusch\u00f6pfen."
     },
     "13": {
       "English name": "American Woodcock",
@@ -130,7 +141,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Zur Balz f\u00fchrt die Kanaschnepfe unter anderen wiederholt Sturzfl\u00fcge aus 100 m H\u00f6he durch."
     },
     "14": {
       "English name": "Anhinga",
@@ -141,7 +153,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel wird auch Schlangenvogel genannt. Er schwimmt nur mit Kopf und Hals \u00fcber Wasser."
     },
     "15": {
       "English name": "Anna's Hummingbird",
@@ -152,7 +165,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die beeindruckende Balz dieser V\u00f6gel beinhaltet Sturzfl\u00fcge aus \u00fcber 30 m H\u00f6he."
     },
     "16": {
       "English name": "Ash-Throated Flycatcher",
@@ -163,7 +177,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel sind an trockene Gegenden angepasst. Sie erhalten alles ben\u00f6tigte Wasser aus dem Futter."
     },
     "17": {
       "English name": "Atlantic Puffin",
@@ -174,7 +189,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Brutst\u00e4tten dieser V\u00f6gel werden durch den Klimawandel bedroht."
     },
     "18": {
       "English name": "Audouin's Gull",
@@ -185,7 +201,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Nachdem es 1960 nur noch ca. 1000 Paare gab erholt sich der Bestand der Korallenm\u00f6we wieder."
     },
     "19": {
       "English name": "Baird's Sparrow",
@@ -196,7 +213,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Spencer Baird war der erste Kurator der Smithsonian Institution."
     },
     "20": {
       "English name": "Bald Eagle",
@@ -207,7 +225,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wei\u00dfkopf-Seeadler stehlen Fisch. Ben Franklin fand in eine schlechte Wahl als Nationalvogel der USA."
     },
     "21": {
       "English name": "Baltimore Oriole",
@@ -218,7 +237,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Trupiale weben Beutelnester, die sie an einen Baumast h\u00e4ngen."
     },
     "22": {
       "English name": "Barn Owl",
@@ -229,7 +249,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Schleiereulen fangen Beute im Dunkeln dank ihres ausgezeichneten Geh\u00f6rs und heben \u00dcberschuss auf."
     },
     "23": {
       "English name": "Barn Swallow",
@@ -240,7 +261,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Rauchschwalben nisteten einst in H\u00f6hlen, bevorzugen nun aber von Menschen gemachte Strukturen."
     },
     "24": {
       "English name": "Barred Owl",
@@ -251,7 +273,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ruf des Streifenkauz klint wie \u201eWho cooks for you?\u201c (dt.: \u201eWer kocht f\u00fcr dich?\u201c)."
     },
     "25": {
       "English name": "Barrow's Goldeneye",
@@ -262,7 +285,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Enten legen ihre Eier in das Nest jeder beliebigen Ente, die in H\u00f6hlen nistet."
     },
     "26": {
       "English name": "Bell's Vireo",
@@ -273,7 +297,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "John Graham Bell brachte dem sp\u00e4teren US Pr\u00e4sidenten Theodore Roosevelt die Tierpr\u00e4paration bei."
     },
     "27": {
       "English name": "Belted Kingfisher",
@@ -284,7 +309,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Bau des Vogels f\u00fchrt bis zu 2 m tief in das Flussufer und f\u00e4llt zur Wasserableitung schr\u00e4g ab."
     },
     "28": {
       "English name": "Bewick's Wren",
@@ -295,7 +321,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind aufgrund von Nestr\u00e4ubern aus ihrem \u00f6stlichen Verbreitungsgebiet fast verschwunden."
     },
     "29": {
       "English name": "Black Redstart",
@@ -306,7 +333,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "In den Bergen heimisch, breitete sich dieser Vogel in im 2. Weltkrieg zerbombten Regionen aus."
     },
     "30": {
       "English name": "Black Skimmer",
@@ -317,7 +345,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Mit dem Schnabel durchpfl\u00fcgen sie das Wasser und schnappen zu, wenn sie auf einen Fisch treffen."
     },
     "31": {
       "English name": "Black Tern",
@@ -328,7 +357,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Seeschwalben bauen schwimmende Nester aus Sumpfpflanzen."
     },
     "32": {
       "English name": "Black Vulture",
@@ -339,7 +369,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Truthahngeier haben einen besseren Geruchssinn, daher folgen die Rabengeier ihnen zum Futter."
     },
     "33": {
       "English name": "Black Woodpecker",
@@ -350,7 +381,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Baumh\u00f6hlen dieses Vogels dienen vielen anderen V\u00f6geln als Heim."
     },
     "34": {
       "English name": "Black-Bellied Whistling Duck",
@@ -361,7 +393,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese G\u00e4nse pfeifen wirklich."
     },
     "35": {
       "English name": "Black-Billed Magpie",
@@ -372,7 +405,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Allesfresser fressen, neben zahlreichem anderen Futter, Aas und stehlen Eier."
     },
     "36": {
       "English name": "Black-Chinned Hummingbird",
@@ -383,7 +417,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": null
     },
     "37": {
       "English name": "Black-Crowned Night-Heron",
@@ -394,7 +429,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Nachtreiher fressen neben Fischen, Nagern und Wirbellosen auch Aas und Eier."
     },
     "38": {
       "English name": "Black-Headed Gull",
@@ -405,7 +441,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Lachm\u00f6we hat keine Prinzipien, was ihre Nahrung angeht. Sie frisst eigentlich alles."
     },
     "39": {
       "English name": "Black-Necked Stilt",
@@ -416,7 +453,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wenn sie nicht br\u00fcten, bilden diese V\u00f6gel enge Gruppen und greifen Feinde an."
     },
     "40": {
       "English name": "Black-Tailed Godwit",
@@ -427,7 +465,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wegen r\u00fcckl\u00e4ufiger Population ist die Uferschnepfe im Gro\u00dfteil Europas von der Jagd ausgeschlossen."
     },
     "41": {
       "English name": "Black-Throated Diver",
@@ -438,7 +477,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese n\u00f6rdlich verbreitete Art br\u00fctet an tiefen S\u00fc\u00dfwasserseen, weniger als 1m vom Ufer entfernt."
     },
     "42": {
       "English name": "Blue Grosbeak",
@@ -449,7 +489,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Azurfinken m\u00f6gen verworrene Ranken und strauchreiche Gebiete an Waldr\u00e4ndern besonders gern."
     },
     "43": {
       "English name": "Blue Jay",
@@ -460,7 +501,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Blauh\u00e4her k\u00f6nnen bis zu 5 Eicheln tragen und lagern hunderte f\u00fcr den Winter ein."
     },
     "44": {
       "English name": "Blue-Gray Gnatcatcher",
@@ -471,7 +513,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Das Verbreitungsgebiet dieser V\u00f6gel verschiebt sich durch den Klimawandel zunehmend nach Norden."
     },
     "45": {
       "English name": "Blue-Winged Warbler",
@@ -482,7 +525,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Walds\u00e4nger nistet besonders gern an \u00dcberg\u00e4ngen zwischen Wald und Feld."
     },
     "46": {
       "English name": "Bluethroat",
@@ -493,7 +537,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Da die Farbgebung des M\u00e4nnchens der schwedischen Flagge \u00e4hnelt, ist der Artname \u201esvecica\u201c."
     },
     "47": {
       "English name": "Bobolink",
@@ -504,7 +549,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Emily Dickinson beschrieb diese V\u00f6gel in Gedichten als vorlaute Chors\u00e4nger in ihrer Kirche der Natur."
     },
     "48": {
       "English name": "Bonelli's Eagle",
@@ -515,7 +561,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Senu, der sp\u00e4hende Adler in Assassin\u2019s Creed Origins, ist ein Habichtsadler."
     },
     "49": {
       "English name": "Brant",
@@ -526,7 +573,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": null
     },
     "50": {
       "English name": "Brewer's Blackbird",
@@ -537,7 +585,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Als Brewer\u2019s Blackbird ist er nach einem bekannten Ornithologen und Vogeleierkundler des 19. Jh. benannt."
     },
     "51": {
       "English name": "Broad-Winged Hawk",
@@ -548,7 +597,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": null
     },
     "52": {
       "English name": "Bronzed Cowbird",
@@ -559,7 +609,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kuhst\u00e4rlinge legen ihre Eier in fremde Nester und zerbrechen die fremden Eier oder werfen sie hinaus."
     },
     "53": {
       "English name": "Brown Pelican",
@@ -570,7 +621,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "In den 70ern noch stark gef\u00e4hrdet, erholt sich die Population, seit die USA und Kanada DDT verboten."
     },
     "54": {
       "English name": "Brown-Headed Cowbird",
@@ -581,7 +633,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kuhst\u00e4rlinge bauen keine eigenen Nester. Sie legen ihre Eier in die Nester anderer V\u00f6gel."
     },
     "55": {
       "English name": "Bullfinch",
@@ -592,7 +645,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Gimpel frisst gern die Knospen von Obstb\u00e4umen undgilt daher als Sch\u00e4dling in Obstplantagen."
     },
     "56": {
       "English name": "Burrowing Owl",
@@ -603,7 +657,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Kaninchenk\u00e4uze nutzen verlassene Pr\u00e4riehundbauten als unterirdische Nester."
     },
     "57": {
       "English name": "Bushtit",
@@ -614,7 +669,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Buschmeisen leben in Schw\u00e4rmen und einzelne erwachsene V\u00f6gel helfen Paaren bei der Aufzucht."
     },
     "58": {
       "English name": "California Condor",
@@ -625,7 +681,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "In den 1980ern gab es nur noch 22 dieser Aasfresser.  Nun gibt es wieder \u00fcber 200 V\u00f6gel."
     },
     "59": {
       "English name": "California Quail",
@@ -636,7 +693,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Es wurden Nester von Schopfwachteln mit bis zu 28 Eiern entdeckt."
     },
     "60": {
       "English name": "Canada Goose",
@@ -647,7 +705,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die \u00e4lteste bekannte wilde Kanadagans war mindestens 33 Jahre alt."
     },
     "61": {
       "English name": "Canvasback",
@@ -658,7 +717,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": null
     },
     "62": {
       "English name": "Carolina Chickadee",
@@ -669,7 +729,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Meisen verstecken Samen und k\u00f6nnen sich tausende von Verstecken merken."
     },
     "63": {
       "English name": "Carolina Wren",
@@ -680,7 +741,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ein einzelner m\u00e4nnlicher Carolinazaunk\u00f6nig kann am Tag fast 3000 mal singen."
     },
     "64": {
       "English name": "Carrion Crow",
@@ -691,7 +753,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Verbreitungsgebiet der Rabenkr\u00e4hen fressen haupts\u00e4chlich diese V\u00f6gel kleinere Tierleichen."
     },
     "65": {
       "English name": "Cassin's Finch",
@@ -702,7 +765,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "15 V\u00f6gel wurden nach dem Ornithologen Cassin benannt, 2 davon kommen im Spiel vor."
     },
     "66": {
       "English name": "Cassin's Sparrow",
@@ -713,7 +777,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ornithologe John Cassin starb durch den jahrelangen Umgang mit Arsen-konservierten V\u00f6geln."
     },
     "67": {
       "English name": "Cedar Waxwing",
@@ -724,7 +789,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind die einzigen nordamerikanischen V\u00f6gel, die sich ausschlie\u00dflich von Fr\u00fcchten ern\u00e4hren."
     },
     "68": {
       "English name": "Cerulean Warbler",
@@ -735,7 +801,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Zwischen 1966 und 2015 schwand die Population dieses Vogels um 74%."
     },
     "69": {
       "English name": "Cetti's Warbler",
@@ -746,7 +813,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel verstecken sich zwar im dichten Geb\u00fcsch, verraten sich aber durch lauten Gesang."
     },
     "70": {
       "English name": "Chestnut-Collared Longspur",
@@ -757,7 +825,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Population dieses Vogels verringerte sich zwischen 1966 und 2015 um 82%."
     },
     "71": {
       "English name": "Chihuahuan Raven",
@@ -768,7 +837,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel ist in der Chihuahua-W\u00fcste im S\u00fcdwesten der USA und Nordmexiko heimisch."
     },
     "72": {
       "English name": "Chimney Swift",
@@ -779,7 +849,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel haben sich so weit angepasst, dass sie in Schornsteinen statt in hohlen B\u00e4umen nisten."
     },
     "73": {
       "English name": "Chipping Sparrow",
@@ -790,7 +861,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Ammern fressen \u00fcblicherweise am freien Boden in Baumn\u00e4he."
     },
     "74": {
       "English name": "Clark's Grebe",
@@ -801,7 +873,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Clark war ein Naturforscher aus dem 19. Jh., der Proben f\u00fcr die Smithsonian Institution sammelte."
     },
     "75": {
       "English name": "Clark's Nutcracker",
@@ -812,7 +885,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind Allesfresser, lagern aber tausende Kiefernasamen f\u00fcr den Winter ein."
     },
     "76": {
       "English name": "Coal Tit",
@@ -823,7 +897,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Tannenmeisen lagern Fichtensamen (und manchmal Wirbellose) f\u00fcr den Winter ein."
     },
     "77": {
       "English name": "Common Blackbird",
@@ -834,7 +909,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Beatles verhalfen der Amsel zu Weltruhm."
     },
     "78": {
       "English name": "Common Buzzard",
@@ -845,7 +921,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "In der Balz fliegen die M\u00e4nnchen sehr hoch und st\u00fcrzen sich dann in Spiralen abw\u00e4rts."
     },
     "79": {
       "English name": "Common Chaffinch",
@@ -856,7 +933,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Winter gibt es oft rein m\u00e4nnliche Schw\u00e4rme. Daher der Name \u201ecoelebs\u201c - \u201eder Ehelose\u201c."
     },
     "80": {
       "English name": "Common Chiffchaff",
@@ -867,7 +945,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Zilpzalp ruft in seinem Gesang den eigenen Namen. Es hei\u00dft, er k\u00fcndigt den Fr\u00fchling an."
     },
     "81": {
       "English name": "Common Cuckoo",
@@ -878,7 +957,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Eier dieser Brutparasiten k\u00f6nnen sich in Farbe und Muster den Eiern des Wirts angleichen."
     },
     "82": {
       "English name": "Common Goldeneye",
@@ -889,7 +969,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Schellenten graben keine Nistl\u00f6cher. Sie nutzen nat\u00fcrliche H\u00f6hlen oder alte Spechtnester."
     },
     "83": {
       "English name": "Common Grackle",
@@ -900,7 +981,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Winter versammeln sich Grackeln in gro\u00dfen Schw\u00e4rmen, die aus Millionen von V\u00f6geln bestehen."
     },
     "84": {
       "English name": "Common Kingfisher",
@@ -911,7 +993,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Eisv\u00f6gel haben ein drittes Augenlid, dass ihre Augen w\u00e4hrend der Unterwasserjagd sch\u00fctzt."
     },
     "85": {
       "English name": "Common Little Bittern",
@@ -922,7 +1005,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mit einer Gr\u00f6\u00dfe von nur 38 cm ist die Zergdommel der kleinste Reiher."
     },
     "86": {
       "English name": "Common Loon",
@@ -933,7 +1017,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Eistaucherk\u00fcken verbringen den gr\u00f6\u00dften Teil der 1. Woche ihres Lebens auf dem R\u00fccken ihrer Eltern."
     },
     "87": {
       "English name": "Common Merganser",
@@ -944,7 +1029,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Erwachsene M\u00e4nnchen k\u00f6nnen Fische mit einer Gr\u00f6\u00dfe von \u00fcber 30 cm fressen."
     },
     "88": {
       "English name": "Common Moorhen",
@@ -955,7 +1041,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Teichh\u00fchner bauen Nester an verschiedenen Orten - im Wasser, am Boden oder im Geb\u00fcsch."
     },
     "89": {
       "English name": "Common Nighthawk",
@@ -966,7 +1053,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind d\u00e4mmerungsaktiv und jagen Fluginsekten in der Morgen- und Abendd\u00e4mmerung."
     },
     "90": {
       "English name": "Common Nightingale",
@@ -977,7 +1065,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Gesang der Nachtigall gilt als eines der sch\u00f6nsten Ger\u00e4usche der Natur."
     },
     "91": {
       "English name": "Common Raven",
@@ -988,7 +1077,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Raben sind Allesfresser. Sie ern\u00e4hren sich u.a. von Insekten, Nagetieren, Eiern, V\u00f6geln und Aas."
     },
     "92": {
       "English name": "Common Starling",
@@ -999,7 +1089,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Gro\u00dfe Scharen von Staren bewegen sich in Formationen. Sie fallen gern in Obstanbaugebieten ein."
     },
     "93": {
       "English name": "Common Swift",
@@ -1010,7 +1101,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mauersegler bleiben monatelang in der Luft. Daher der (irref\u00fchrende) Name \u201eApus\u201c - \u201eohne F\u00fc\u00dfe\u201c."
     },
     "94": {
       "English name": "Common Yellowthroat",
@@ -1021,7 +1113,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "1766 wurde dieser Vogel als einer der ersten amerikanischen V\u00f6gel von Carl von Linn\u00e9 katalogisiert."
     },
     "95": {
       "English name": "Cooper's Hawk",
@@ -1032,7 +1125,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "besonders geschickt und gut getarnt jagen Rundschwanzsperber Waldv\u00f6gel und S\u00e4ugetiere."
     },
     "96": {
       "English name": "Corsican Nuthatch",
@@ -1043,7 +1137,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese gef\u00e4hrdete Vogelart kommt nur auf der Insel Korsika vor. Die ern\u00e4hrt sich von Kiefernsamen."
     },
     "97": {
       "English name": "Dark-Eyed Junco",
@@ -1054,7 +1149,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Winterammern leben im Sommer in k\u00fchlen W\u00e4ldern, \u00fcberwintern aber in offenen Landschaften."
     },
     "98": {
       "English name": "Dickcissel",
@@ -1065,7 +1161,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel lebte in den Ost-USA, aber seine Verbreitung schrumpfte durch Lebensraumverlust."
     },
     "99": {
       "English name": "Double-Crested Cormorant",
@@ -1076,7 +1173,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Kolonien der Ohrenscharbe k\u00f6nnen so dicht beieinander liegen, dass ihr Kot B\u00e4ume absterben l\u00e4sst."
     },
     "100": {
       "English name": "Downy Woodpecker",
@@ -1087,7 +1185,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser kleine Specht schlie\u00dft sich regelm\u00e4\u00dfig gemischten Schw\u00e4rmen an."
     },
     "101": {
       "English name": "Dunnock",
@@ -1098,7 +1197,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die K\u00fcken in einem Heckenbraunellennest stammen oft von verschiedenen V\u00e4tern."
     },
     "102": {
       "English name": "Eastern Bluebird",
@@ -1109,7 +1209,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel haben Schwierigkeiten in Gegenden ohne Baumh\u00f6hlen zu nisten. Nistk\u00e4sten helfen."
     },
     "103": {
       "English name": "Eastern Imperial Eagle",
@@ -1120,7 +1221,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dies war der Wappenvogel einiger Monarchien, aber jetzt gibt es nur noch wenige V\u00f6gel dieser Art."
     },
     "104": {
       "English name": "Eastern Kingbird",
@@ -1131,7 +1233,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der K\u00f6nigstyrann zeigt seine orangefarbene Krone nur bei der Verteidigung seines Reviers."
     },
     "105": {
       "English name": "Eastern Phoebe",
@@ -1142,7 +1245,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Tyranne nutzen Schlamm, um ihr Nest an Flussufern, Felsen oder Bauwerken zu befestigen."
     },
     "106": {
       "English name": "Eastern Screech Owl",
@@ -1153,7 +1257,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese menschennah lebenden Eulen werden durch Nachtaktivit\u00e4t und geringe Gr\u00f6\u00dfe selten entdeckt."
     },
     "107": {
       "English name": "Eleonora's Falcon",
@@ -1164,7 +1269,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "1392 verbot Eleonora von Arborea als erste Regentin in Europa das Pl\u00fcndern von Vogelnestern."
     },
     "108": {
       "English name": "Eurasian Collared-Dove",
@@ -1175,7 +1281,8 @@
       "Anatomist": "X",
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "In der griechischen Mythologie war dieser Vogel einst ein \u00fcber sein Gehalt jammernder Diener."
     },
     "109": {
       "English name": "Eurasian Golden Oriole",
@@ -1186,7 +1293,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel baut hoch oben im Baum ein napfartiges Nest, das zwischen zwei \u00c4sten h\u00e4ngt."
     },
     "110": {
       "English name": "Eurasian Green Woodpecker",
@@ -1197,7 +1305,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Im Gegensatz zu anderen Spechten frisst der Gr\u00fcnspecht meist am Boden."
     },
     "111": {
       "English name": "Eurasian Hobby",
@@ -1208,7 +1317,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Falke f\u00e4ngt Insekten und V\u00f6gel im Flug."
     },
     "112": {
       "English name": "Eurasian Jay",
@@ -1219,7 +1329,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel planen zuk\u00fcnftige Bed\u00fcrfnisse mit ein und horten Eicheln f\u00fcr den Winter."
     },
     "113": {
       "English name": "Eurasian Magpie",
@@ -1230,7 +1341,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Intelligenz dieser V\u00f6gel wird als sehr hoch eingesch\u00e4tzt, \u00e4hnlich wie die von Menschenaffen."
     },
     "114": {
       "English name": "Eurasian Nutcracker",
@@ -1241,7 +1353,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Tannenh\u00e4her fliegen bis zu 32 km weit, um Samen einzulagern."
     },
     "115": {
       "English name": "Eurasian Nuthatch",
@@ -1252,7 +1365,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel nutzen h\u00e4ufig verlassene Spechth\u00f6hlen als Nistpl\u00e4tze."
     },
     "116": {
       "English name": "Eurasian Sparrowhawk",
@@ -1263,7 +1377,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Sperberpopulation nahm mit der Einf\u00fchrung von Insektiziden in der Landwirtschaft sp\u00fcrbar ab."
     },
     "117": {
       "English name": "Eurasian Tree Sparrow",
@@ -1274,7 +1389,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ein traditioneller japanischer Tanz wurde vom Flattern des Feldsperlings inspiriert."
     },
     "118": {
       "English name": "European Bee-Eater",
@@ -1285,7 +1401,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Honigbienen machen ungef\u00e4hr drei Viertel der Ern\u00e4hrung des Bienenfressers aus."
     },
     "119": {
       "English name": "European Goldfinch",
@@ -1296,7 +1413,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Stieglitz, auch Distelfink genannt, kommt in etlichen italienischen Renaissancegem\u00e4lden vor."
     },
     "120": {
       "English name": "European Honey Buzzard",
@@ -1307,7 +1425,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Wespenbussard hat lange Zehen und Krallen um Wespennester auszugraben und auszuheben."
     },
     "121": {
       "English name": "European Robin",
@@ -1318,7 +1437,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Es hei\u00dft, alles Gute oder Schlechte, das man einem Rotkehlchen tut, wird einem selbst widerfahren."
     },
     "122": {
       "English name": "European Roller",
@@ -1329,7 +1449,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die K\u00fcken der Blauracken erbrechen auf sich selbst, um nahe Fressfeinde abzuschrecken."
     },
     "123": {
       "English name": "European Turtle Dove",
@@ -1340,7 +1461,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Turteltauben gelten im Hohelied Salomos als Zeichen der Liebe."
     },
     "124": {
       "English name": "Ferruginous Hawk",
@@ -1351,7 +1473,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese rostfarben V\u00f6gel jagen in Pr\u00e4riehundkolonien manchmal in Gruppen."
     },
     "125": {
       "English name": "Fish Crow",
@@ -1362,7 +1485,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel fressen zwar mehr Fisch als andere Kr\u00e4hen, sind aber eigentlich Allesfresser."
     },
     "126": {
       "English name": "Forster's Tern",
@@ -1373,7 +1497,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel nisten auf dem Boden, auf schwimmender Vegetation oder auf Bisamrattenbauten."
     },
     "127": {
       "English name": "Franklin's Gull",
@@ -1384,7 +1509,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese M\u00f6wen bauen in Pr\u00e4riemooren schwimmende Nester aus Pflanzenmaterial."
     },
     "128": {
       "English name": "Goldcrest",
@@ -1395,7 +1521,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Legenden besagen, dass diese kleinen V\u00f6gel in den Schwanzfedern von Adlern oder Eulen mitreisen."
     },
     "129": {
       "English name": "Golden Eagle",
@@ -1406,7 +1533,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Steinadler fressen meist Beute in der Gr\u00f6\u00dfe eines Kaninchens, greifen aber auch Vieh oder V\u00f6gel an."
     },
     "130": {
       "English name": "Grasshopper Sparrow",
@@ -1417,7 +1545,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der unauff\u00e4llige Gesang dieser Ammer klingt wie das Zirpen einer Heuschrecke."
     },
     "131": {
       "English name": "Gray Catbird",
@@ -1428,7 +1557,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Katzenv\u00f6gel imitieren andere V\u00f6gel, haben aber auch einen Ruf, der dem Miauen einer Katze \u00e4hnelt."
     },
     "132": {
       "English name": "Great Blue Heron",
@@ -1439,7 +1569,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kanadareiher bilden Kolonien mit anderen Reihern und Kormoranen."
     },
     "133": {
       "English name": "Great Crested Flycatcher",
@@ -1450,7 +1581,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel vermeiden Nahrungskonkurrenz durch die Spezialisierung auf Insekten in Baumwipfeln."
     },
     "134": {
       "English name": "Great Crested Grebe",
@@ -1461,7 +1593,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Haubentauchereltern suchen sich ihre Lieblingsk\u00fcken aus und ziehen sie einzeln auf."
     },
     "135": {
       "English name": "Great Egret",
@@ -1472,7 +1605,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Manchmal folgen kleinere Vogel diesen Reihern, da sie Beute aufscheuchen."
     },
     "136": {
       "English name": "Great Horned Owl",
@@ -1483,7 +1617,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese starken Uhus k\u00f6nnen gro\u00dfe Beute wie Stinktiere, Katzen oder Hunde erledigen."
     },
     "137": {
       "English name": "Great Tit",
@@ -1494,7 +1629,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Kohlmeisen nutzen Kiefernadeln als Werkzeug, um Insektenlarven aus Rissen in B\u00e4umen zu ziehen."
     },
     "138": {
       "English name": "Greater Flamingo",
@@ -1505,7 +1641,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Adelaide Zoo in Australien lebte ein Rosaflamingo, der mindestens 83 Jahre alt wurde."
     },
     "139": {
       "English name": "Greater Prairie Chicken",
@@ -1516,7 +1653,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Eine Unterart dieses Vogels starb 1932 aus und eine Unterart in Texas gilt als gef\u00e4hrdet."
     },
     "140": {
       "English name": "Greater Roadrunner",
@@ -1527,7 +1665,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel fliegen selten und springen stattdessen hoch, um Beute in der Luft zu fangen."
     },
     "141": {
       "English name": "Green Heron",
@@ -1538,7 +1677,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Gr\u00fcnreiher locken Fische an, indem sie Insekten und anderes auf die Wasseroberfl\u00e4che fallen lassen."
     },
     "142": {
       "English name": "Grey Heron",
@@ -1549,7 +1689,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Hals dieser gro\u00dfen Reiher besteht aus 19 Wirbelknochen."
     },
     "143": {
       "English name": "Greylag Goose",
@@ -1560,7 +1701,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Graugans wurde mit g\u00f6ttlichen Figuren wie Ra, Aphrodite und Ishtar in Verbindung gebracht."
     },
     "144": {
       "English name": "Griffon Vulture",
@@ -1571,7 +1713,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die kahlen K\u00f6pfe dieser V\u00f6gel helfen ihnen bei der Thermoregulation."
     },
     "145": {
       "English name": "Hawfinch",
@@ -1582,7 +1725,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind nur schwer zu entdecken - sie sitzen am liebsten auf \u00c4sten hoch im Baum."
     },
     "146": {
       "English name": "Hermit Thrush",
@@ -1593,7 +1737,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Einsiedlerdrosseln nisten im Westen der USA auf dem Boden, aber im Osten der USA in B\u00e4umen."
     },
     "147": {
       "English name": "Hooded Crow",
@@ -1604,7 +1749,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im keltischen Volkstum wird die Nebelkr\u00e4he mit Feen in Verbindung gebracht."
     },
     "148": {
       "English name": "Hooded Merganser",
@@ -1615,7 +1761,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Kappens\u00e4gerk\u00fcken springen bereits 1 Tag nach ihrer Geburt aus dem Baumh\u00f6hlennest auf den Boden."
     },
     "149": {
       "English name": "Hooded Warbler",
@@ -1626,7 +1773,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel h\u00e4lt sich meist im Unterwuchs auf und nistet in Bodenn\u00e4he."
     },
     "150": {
       "English name": "Horned Lark",
@@ -1637,7 +1785,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ohrenlerchen bilden mit anderen V\u00f6geln gro\u00dfe wandernde Schw\u00e4rme."
     },
     "151": {
       "English name": "House Finch",
@@ -1648,7 +1797,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Gimpel sind selten allein und k\u00f6nnen Schw\u00e4rme aus hunderten von V\u00f6geln bilden."
     },
     "152": {
       "English name": "House Sparrow",
@@ -1659,7 +1809,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ihre genetische Abspaltung passierte ungef\u00e4hr zeitgleich mit dem Ausbau der Landwirtschaft."
     },
     "153": {
       "English name": "House Wren",
@@ -1670,7 +1821,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel entfernen die Eier anderer V\u00f6gel und \u00fcbernehmen ihre Nester."
     },
     "154": {
       "English name": "Inca Dove",
@@ -1681,7 +1833,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel mag menschliche Ansiedlungen und breitet sich nach Norden aus."
     },
     "155": {
       "English name": "Indigo Bunting",
@@ -1692,7 +1845,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Indigofinken kann man fast immer an Waldr\u00e4ndern entdecken."
     },
     "156": {
       "English name": "Juniper Titmouse",
@@ -1703,7 +1857,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese kleinen V\u00f6gel \u00fcberleben den Winter durch das Einlagern von Samen."
     },
     "157": {
       "English name": "Killdeer",
@@ -1714,7 +1869,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Regenpfeifer t\u00e4uschen einen gebrochenen Fl\u00fcgel vor, um R\u00e4uber von ihrem Nest wegzulocken."
     },
     "158": {
       "English name": "King Rail",
@@ -1725,7 +1881,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Durch Lebensraumverlust und Pestizidbelastung sank ihre Population von 1966 bis 2014 um 91%."
     },
     "159": {
       "English name": "Lazuli Bunting",
@@ -1736,7 +1893,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der wissenschaftliche Name \u201eamoena\u201c bedeutet so viel wie \u201ewundersch\u00f6n\u201c oder \u201ereizend\u201c."
     },
     "160": {
       "English name": "Lesser Whitethroat",
@@ -1747,7 +1905,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Gattungsname Sylvia bedeutet \u201eWaldgeist\u201c."
     },
     "161": {
       "English name": "Lincoln's Sparrow",
@@ -1758,7 +1917,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Thomas Lincoln erfasste diese Ammer zusammen mit John James Audubon in Kanada."
     },
     "162": {
       "English name": "Little Bustard",
@@ -1769,7 +1929,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Das ausgedehnte Balzverhalten der M\u00e4nnchen beinhaltet u.a. Fu\u00dfstampfen und Luftspr\u00fcnge."
     },
     "163": {
       "English name": "Little Owl",
@@ -1780,7 +1941,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Steinkauz gilt als Sinnbild der G\u00f6ttin Athene (G\u00f6ttin der Weisheit) und als Vogel der Weisheit."
     },
     "164": {
       "English name": "Loggerhead Shrike",
@@ -1791,7 +1953,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "W\u00fcrger spie\u00dfen ihre Beute auf Dornen oder Stacheldraht auf und sparen sie f\u00fcr sp\u00e4ter auf."
     },
     "165": {
       "English name": "Long-Tailed Tit",
@@ -1802,7 +1965,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Das Nest der Schwanzmeise ist ein geflochtener ovaler Ball aus Flechten, Moos und Spinnweben."
     },
     "166": {
       "English name": "Mallard",
@@ -1813,7 +1977,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Stockenten sind die am weitesten verbreiteten Enten der Welt."
     },
     "167": {
       "English name": "Mississippi Kite",
@@ -1824,7 +1989,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel fressen meist gro\u00dfe Insekten, manchmal aber auch Nagetiere, Flederm\u00e4use und V\u00f6gel."
     },
     "168": {
       "English name": "Moltoni's Warbler",
@@ -1835,7 +2001,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Englischen ist dieser Vogel nach Moltoni, einem italienischen Ornithologen des 20. Jh., benannt."
     },
     "169": {
       "English name": "Montagu's Harrier",
@@ -1846,7 +2013,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "W\u00e4hrend der Balz zeigt jedes M\u00e4nnchen einzigartige, spektakul\u00e4re Flugman\u00f6ver."
     },
     "170": {
       "English name": "Mountain Bluebird",
@@ -1857,7 +2025,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel kommen von Pr\u00e4rien bis in den alpinen Bereich \u00fcber der Baumgrenze vor."
     },
     "171": {
       "English name": "Mountain Chickadee",
@@ -1868,7 +2037,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Gambelmeisen kommen nat\u00fcrlicherweise in den Nadelw\u00e4ldern im Westen Amerikas vor."
     },
     "172": {
       "English name": "Mourning Dove",
@@ -1879,7 +2049,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ein Taubenpaar br\u00fctet und zieht 5 bis 6 kleine Gelege pro Jahr auf."
     },
     "173": {
       "English name": "Mute Swan",
@@ -1890,7 +2061,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der H\u00f6ckerschwan ist stiller als andere Schw\u00e4ne und hei\u00dft im Englischen daher \u201eStummer Schwan\u201c."
     },
     "174": {
       "English name": "Northern Bobwhite",
@@ -1901,7 +2073,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wachteln sind produktive Br\u00fcter, trotzdem schwindet ihre Anzahl."
     },
     "175": {
       "English name": "Northern Cardinal",
@@ -1912,7 +2085,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bei den meisten nordamerik. V\u00f6geln singt nur das M\u00e4nnchen, weibliche Kardinale sind eine Ausnahme."
     },
     "176": {
       "English name": "Northern Flicker",
@@ -1923,7 +2097,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Spechte suchen lieber am Boden wohnende Insekten als Holz zu klopfen."
     },
     "177": {
       "English name": "Northern Gannet",
@@ -1934,7 +2109,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Basst\u00f6lpel sind hervorragende Taucher. Sie durchdringen das Wasser mit bis zu 100 km/h."
     },
     "178": {
       "English name": "Northern Goshawk",
@@ -1945,7 +2121,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Mittelalter durften nur Adelige Habichte in der Falkenjagd einsetzen."
     },
     "179": {
       "English name": "Northern Harrier",
@@ -1956,7 +2133,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Kornweihen fliegen bei der Suche nach Beute tief \u00fcber Moore und Graslandschaften."
     },
     "180": {
       "English name": "Northern Mockingbird",
@@ -1967,7 +2145,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Eine m\u00e4nnliche Spottdrossel lernt in ihrem Leben bis zu 200 Lieder."
     },
     "181": {
       "English name": "Northern Shoveler",
@@ -1978,7 +2157,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der gro\u00dfe Schnabel der L\u00f6ffelente filtert Wirbellose aus dem Wasser."
     },
     "182": {
       "English name": "Osprey",
@@ -1989,7 +2169,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Fischadler sind hervorragende J\u00e4ger, die in wenigsten 1 von 4 Versuchen einen Fisch fangen."
     },
     "183": {
       "English name": "Painted Bunting",
@@ -2000,7 +2181,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wilderer verkaufen diese V\u00f6gel als Haustiere und erschweren so das Wachstum von Wildpopulationen."
     },
     "184": {
       "English name": "Painted Whitestart",
@@ -2011,7 +2193,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": null
     },
     "185": {
       "English name": "Parrot Crossbill",
@@ -2022,7 +2205,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Kiefernkreuzschnabel ist eine von weltweit nur 5 Vogelarten mit gekreuztem Schnabel."
     },
     "186": {
       "English name": "Peregrine Falcon",
@@ -2033,7 +2217,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Sturzflug auf die Beute erreicht ein Wanderfalke Geschwindigkeiten von bis zu 320 km/h."
     },
     "187": {
       "English name": "Pied-Billed Grebe",
@@ -2044,7 +2229,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bindentaucher bauen aus pflanzlichem Material ein schwimmendes Nest."
     },
     "188": {
       "English name": "Pileated Woodpecker",
@@ -2055,7 +2241,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Andere V\u00f6gel nutzen verlassene Nester des Helmspechts und sammeln an ihren Futterpl\u00e4tzen K\u00e4fer."
     },
     "189": {
       "English name": "Pine Siskin",
@@ -2066,7 +2253,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Fichtenzeisige sind gesellige V\u00f6gel, die oft im Schwarm auf Futtersuche gehen."
     },
     "190": {
       "English name": "Prothonotary Warbler",
@@ -2077,7 +2265,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Name Protonotaria ist abgeleitet von den gelben Kapuzen katholischer Schreiber."
     },
     "191": {
       "English name": "Purple Gallinule",
@@ -2088,7 +2277,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Mit seinen langen Zehen kann dieser Vogel \u00fcber Seerosenbl\u00e4tter laufen, ohne zu sinken."
     },
     "192": {
       "English name": "Purple Martin",
@@ -2099,7 +2289,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Ureinwohner h\u00e4ngten Flaschenk\u00fcrbisse als H\u00e4user auf, da die Schwalben viele Insekten fressen."
     },
     "193": {
       "English name": "Pygmy Nuthatch",
@@ -2110,7 +2301,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Scharmv\u00f6gel haben in der Brutsaison h\u00e4ufig \u201eHelferv\u00f6gel\u201c, die Futter ans Nest bringen."
     },
     "194": {
       "English name": "Red Crossbill",
@@ -2121,7 +2313,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel nutzen ihre spezialisierten Schn\u00e4bel, um die Zapfen von Nadelb\u00e4umen zu zerlegen."
     },
     "195": {
       "English name": "Red Kite",
@@ -2132,7 +2325,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Bei Gefahr signalisieren Rotmilanm\u00fctter ihren Jungen sich tot zu stellen."
     },
     "196": {
       "English name": "Red Knot",
@@ -2143,7 +2337,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Knutt unternimmt eine der l\u00e4ngsten Wanderungen: von der Arktis bis nach Chile oder S\u00fcdafrika."
     },
     "197": {
       "English name": "Red-Backed Shrike",
@@ -2154,7 +2349,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese \u201eMetzgerv\u00f6gel\u201c nutzen Dornen und Stacheldraht als Futterlager."
     },
     "198": {
       "English name": "Red-Bellied Woodpecker",
@@ -2165,7 +2361,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Ihre Zunge kann 5 cm nach Insekten ausgestreckt werden, aber die H\u00e4lfte der Ern\u00e4hrung sind Samen."
     },
     "199": {
       "English name": "Red-Breasted Merganser",
@@ -2176,7 +2373,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": null
     },
     "200": {
       "English name": "Red-Breasted Nuthatch",
@@ -2187,7 +2385,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel verschmieren ihren Nesteingang mit Harz, um Angreifer am Eindringen zu hindern."
     },
     "201": {
       "English name": "Red-Cockaded Woodpecker",
@@ -2198,7 +2397,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel ist durch den Verlust von Lebensraum bedroht. Es gibt nur noch weniger als 10.000 V\u00f6gel."
     },
     "202": {
       "English name": "Red-Eyed Vireo",
@@ -2209,7 +2409,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die kurzsichtigen Vieros bilden Schw\u00e4rme mit V\u00f6geln, die Raubtiere lautstark ank\u00fcndigen."
     },
     "203": {
       "English name": "Red-Headed Woodpecker",
@@ -2220,7 +2421,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Spechte lagern N\u00fcsse, Samen und Insekten im Holz oder unter der Rinde."
     },
     "204": {
       "English name": "Red-Legged Partridge",
@@ -2231,7 +2433,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Roth\u00fchner br\u00fcten auf dem Boden statt in Birnb\u00e4umen (wie ein engl. Weihnachtslied andeutet)."
     },
     "205": {
       "English name": "Red-Shouldered Hawk",
@@ -2242,7 +2445,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Bussarde jagen von einem Sitzplatz aus und sto\u00dfen herab, wenn die Beute nah ist."
     },
     "206": {
       "English name": "Red-Tailed Hawk",
@@ -2253,7 +2457,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "In Filmen wird meist der Schrei des Rotschwanzbussards f\u00fcr jeden beliebigen Raubvogel genutzt."
     },
     "207": {
       "English name": "Red-Winged Blackbird",
@@ -2264,7 +2469,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Schw\u00e4rme dieser V\u00f6gel k\u00f6nnen hunderttausende V\u00f6gel enthalten."
     },
     "208": {
       "English name": "Ring-Billed Gull",
@@ -2275,7 +2481,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese M\u00f6wen stehlen Futter und Eier von anderen V\u00f6geln und pl\u00fcndern M\u00fclleimer."
     },
     "209": {
       "English name": "Rose-Breasted Grosbeak",
@@ -2286,7 +2493,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser h\u00fcbsche, wohlklingende Vogel hat auch den grauenvollen Spitznamen \u201eHalsabschneider\u201c."
     },
     "210": {
       "English name": "Roseate Spoonbill",
@@ -2297,7 +2505,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der ungew\u00f6hnlich geformte Schnabel hilft diesem Vogel Beute in Wasser aufzusp\u00fcren."
     },
     "211": {
       "English name": "Ruby-Crowned Kinglet",
@@ -2308,7 +2517,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die rubinroten Kronfedern des Goldh\u00e4hnchen stellen sich bei Aufregung auf."
     },
     "212": {
       "English name": "Ruby-Throated Hummingbird",
@@ -2319,7 +2529,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kolibris ern\u00e4hren sich von Nektar, fressen aber auch viele kleine Insekten."
     },
     "213": {
       "English name": "Ruddy Duck",
@@ -2330,7 +2541,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Zur Balz schlagen sich die M\u00e4nnchen mit den Schn\u00e4beln auf die Brust und laufen \u00fcber das Wasser."
     },
     "214": {
       "English name": "Ruff",
@@ -2341,7 +2553,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "W\u00e4hrend der Balz wachsen den M\u00e4nnchen pr\u00e4chtige Federkragen in Schwarz, Wei\u00df oder Braun."
     },
     "215": {
       "English name": "Sandhill Crane",
@@ -2352,7 +2565,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Kanadakraniche leben jahrzehntelang und in lebenslanger Partnerschaft."
     },
     "216": {
       "English name": "Savannah Sparrow",
@@ -2363,7 +2577,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Engl. \u201eSavannah Sparrow\u201c, ist er nach Savannah Georgia, und Sandwich Sound, Alaska, benannt."
     },
     "217": {
       "English name": "Savi's Warbler",
@@ -2374,7 +2589,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Rohrschwirl tarnt sich bei Gefahr als Pfahl (Schwanz gen Boden gedr\u00fcckt, Kopf gestreckt)"
     },
     "218": {
       "English name": "Say's Phoebe",
@@ -2385,7 +2601,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Nach Thomas Say sind auch Schnecken, Krebse und eine Schlange benannt."
     },
     "219": {
       "English name": "Scaled Quail",
@@ -2396,7 +2613,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": null
     },
     "220": {
       "English name": "Scissor-Tailed Flycatcher",
@@ -2407,7 +2625,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Balz dieser V\u00f6gel beinhaltet Luftakrobatik, die ihren langen Schwanz zur Schau stellt."
     },
     "221": {
       "English name": "Short-Toed Treecreeper",
@@ -2418,7 +2637,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel nutzt seinen langen Schnabel, um Insekten aus Vertiefungen der Rinde zu fressen."
     },
     "222": {
       "English name": "Snow Bunting",
@@ -2429,7 +2649,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die M\u00e4nnchen fliegen fr\u00fch nach Norden, um im rauen Klima einen passenden Nistplatz zu finden."
     },
     "223": {
       "English name": "Snowy Egret",
@@ -2440,7 +2661,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "In den 1880ern wurden die feinen Federn des Schmuckreihers buchst\u00e4blich mit Gold aufgewogen."
     },
     "224": {
       "English name": "Snowy Owl",
@@ -2451,7 +2673,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Harry Potters Eule, Hedwig, ist eine Schneeeule."
     },
     "225": {
       "English name": "Song Sparrow",
@@ -2462,7 +2685,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bei reichlichem Futterangebot k\u00f6nnen Singammern 4 Gelege ausbr\u00fcten und gro\u00dfziehen."
     },
     "226": {
       "English name": "Spotted Owl",
@@ -2473,7 +2697,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ihr Lebensraum war Gegenstand eines Kampfes gegen Holzeinschlag in der pazifischen Nordwest-USA."
     },
     "227": {
       "English name": "Spotted Sandpiper",
@@ -2484,7 +2709,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Uferl\u00e4ufer bewegt ununterbrochen seinen Schwanz. Er wird auch Wackelschwanz genannt."
     },
     "228": {
       "English name": "Spotted Towhee",
@@ -2495,7 +2721,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel h\u00fcpfen bei der Futtersuche r\u00fcckw\u00e4rts, um Insekten und Samen im Laubstreu zu finden."
     },
     "229": {
       "English name": "Sprague's Pipit",
@@ -2506,7 +2733,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Balz dieser seltenen V\u00f6gel kann \u00fcber eine Stunde andauern."
     },
     "230": {
       "English name": "Squacco Heron",
@@ -2517,7 +2745,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "W\u00e4hrend der Balz richten m\u00e4nnliche Rallenreiher ihr langes und pr\u00e4chtiges Kopfgefieder auf."
     },
     "231": {
       "English name": "Steller's Jay",
@@ -2528,7 +2757,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "1741 sah der Naturforscher Georg Steller diesen Vogel w\u00e4hrend einer russischen Alaskaexpedition."
     },
     "232": {
       "English name": "Swainson's Hawk",
@@ -2539,7 +2769,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Bussarde f\u00fcttern ihren K\u00fcken kleine S\u00e4ugetiere und V\u00f6gel, fressen selbst aber meist Insekten."
     },
     "233": {
       "English name": "Thekla's Lark",
@@ -2550,7 +2781,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der deutsche Zoologe Alfred Brehm benannte die Theklalerche nach seiner Schwester."
     },
     "234": {
       "English name": "Tree Swallow",
@@ -2561,7 +2793,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Sumpfschwalben k\u00f6nnen Schw\u00e4rme aus hunderttausenden von V\u00f6geln bilden."
     },
     "235": {
       "English name": "Trumpeter Swan",
@@ -2572,7 +2805,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mit einem Gewicht von \u00fcber 9 kg sind Trompeterschw\u00e4ne die schwersten V\u00f6gel Nordamerikas."
     },
     "236": {
       "English name": "Tufted Titmouse",
@@ -2583,7 +2817,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Meisen spielen eine gro\u00dfe Rolle im Bilden von gemischten Schw\u00e4rmen."
     },
     "237": {
       "English name": "Turkey Vulture",
@@ -2594,7 +2829,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Truthahngeier kann zur Selbstverteidigung schwallartig erbrechen."
     },
     "238": {
       "English name": "Vaux's Swift",
@@ -2605,7 +2841,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": null
     },
     "239": {
       "English name": "Violet-Green Swallow",
@@ -2616,7 +2853,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wie andere Schwalben suchen diese V\u00f6gel im offenen Gel\u00e4nde in gro\u00dfen Gruppen nach Futter."
     },
     "240": {
       "English name": "Western Meadowlark",
@@ -2627,7 +2865,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der melodische Gesang dieses h\u00fcbschen Vogels klingt wie das Spiel einer Fl\u00f6te."
     },
     "241": {
       "English name": "Western Tanager",
@@ -2638,7 +2877,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die flammend gefiederten V\u00f6gel sind in den hohen Wipfeln immergr\u00fcner W\u00e4lder schwer zu entdecken."
     },
     "242": {
       "English name": "White Stork",
@@ -2649,7 +2889,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "St\u00f6rche galten in vielen alten Kulturen als Symbol des Lebens und der Familie."
     },
     "243": {
       "English name": "White Wagtail",
@@ -2660,7 +2901,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Bachstelze ist der Nationalvogel Lettlands."
     },
     "244": {
       "English name": "White-Backed Woodpecker",
@@ -2671,7 +2913,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel mag W\u00e4lder mit vielen toten B\u00e4umen und folgt Waldbr\u00e4nden und Insektenbefall."
     },
     "245": {
       "English name": "White-Breasted Nuthatch",
@@ -2682,7 +2925,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kleiber lagern f\u00fcr den Winter Samen in der Rinde von B\u00e4umen ein."
     },
     "246": {
       "English name": "White-Crowned Sparrow",
@@ -2693,7 +2937,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Ammern m\u00f6gen Str\u00e4ucher in vielen Lebensr\u00e4umen, von der Tundra bis zur W\u00fcste."
     },
     "247": {
       "English name": "White-Faced Ibis",
@@ -2704,7 +2949,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Brillensichler nisten gemeinsam mit Reihern in Kolonien."
     },
     "248": {
       "English name": "White-Throated Dipper",
@@ -2715,7 +2961,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wasseramseln tauchen h\u00e4ufig ihren Kopf auf der Suche nach Nahrung unter Wasser."
     },
     "249": {
       "English name": "White-Throated Swift",
@@ -2726,7 +2973,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": null
     },
     "250": {
       "English name": "Whooping Crane",
@@ -2737,7 +2985,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Population des Schreikranichs hat sich leicht erholt. Statt 20 gibt es nun wieder ca. 600 V\u00f6gel."
     },
     "251": {
       "English name": "Wild Turkey",
@@ -2748,7 +2997,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Truth\u00fchner wurden in Amerika bereits vor dem ersten Kontakt mit Europ\u00e4ern gez\u00e4hmt."
     },
     "252": {
       "English name": "Willet",
@@ -2759,7 +3009,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Schlammtreter fressen sowohl tags\u00fcber als auch nachts."
     },
     "253": {
       "English name": "Wilson's Snipe",
@@ -2770,7 +3021,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bekassinen k\u00f6nnen bis zu 100 km/h schnell fliegen."
     },
     "254": {
       "English name": "Wilson's Storm Petrel",
@@ -2781,7 +3033,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Art ist zahlreich, aber von den Menschen meist ungesehen, da sie auf hoher See lebt."
     },
     "255": {
       "English name": "Wood Duck",
@@ -2792,7 +3045,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Brautenten nisten in Baumh\u00f6hlen in waldigen Gegenden."
     },
     "256": {
       "English name": "Wood Stork",
@@ -2803,7 +3057,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Waldstorch wurde 2014 von der amerikanischen Gef\u00e4hrdungsliste entfernt."
     },
     "257": {
       "English name": "Yellow-Bellied Sapsucker",
@@ -2814,7 +3069,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Schlecker h\u00e4mmern L\u00f6cher in B\u00e4ume und lecken dann den Saft und die angelockten Insekten auf."
     },
     "258": {
       "English name": "Yellow-Billed Cuckoo",
@@ -2825,7 +3081,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Gelbschnabelkuckucke legen bei einem reichlichen Futterangebot ihre Eier in die Nester anderer V\u00f6gel."
     },
     "259": {
       "English name": "Yellow-Breasted Chat",
@@ -2836,7 +3093,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Da diese V\u00f6gel dichtes Geb\u00fcsch sehr gern m\u00f6gen, kann man sie h\u00e4ufiger h\u00f6ren als sehen."
     },
     "260": {
       "English name": "Yellow-Headed Blackbird",
@@ -2847,7 +3105,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser St\u00e4rling bildet, besonders im Winter, riesige Schw\u00e4rme."
     },
     "261": {
       "English name": "Yellow-Rumped Warbler",
@@ -2858,7 +3117,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Vogelbeobachter nennen diese V\u00f6gel manchmal \u201eButterhintern\u201c."
     },
     "262": {
       "English name": "Yellowhammer",
@@ -2869,7 +3129,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Gesang der Goldammer inspirierte Sch\u00f6pfungen von Beethoven und Robert Burns."
     },
     "263": {
       "English name": "Abbott's Booby",
@@ -2880,7 +3141,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser gro\u00dfe, bedrohte Seevogel kommt ausschlie\u00dflich auf der Weinachtsinsel vor."
     },
     "264": {
       "English name": "Australasian Pipit",
@@ -2891,7 +3153,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser an Grasland angepasste Vogel f\u00fchlt sich auch in G\u00e4rten oder auf Sportpl\u00e4tzen wohl."
     },
     "265": {
       "English name": "Australasian Shoveler",
@@ -2902,7 +3165,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Maori nennen diesen Vogel Kuruwhengi, Maori f\u00fcr \u201eschn\u00fcffeln\u201c."
     },
     "266": {
       "English name": "Australian Ibis",
@@ -2913,7 +3177,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "In den St\u00e4dten sieht man diesen Vogel h\u00e4ufig M\u00fclleimer ausr\u00e4ubern."
     },
     "267": {
       "English name": "Australian Magpie",
@@ -2924,7 +3189,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese territorialen V\u00f6gel st\u00fcrzen sich auf Menschen, die sich zu nahe an ihre Nester wagen."
     },
     "268": {
       "English name": "Australian Owlet-Nightjar",
@@ -2935,7 +3201,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Seine Bruth\u00f6hlen kleidet der Baumschwalm vorwiegend mit Eukalyptusbl\u00e4ttern aus."
     },
     "269": {
       "English name": "Australian Raven",
@@ -2946,7 +3213,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Raben horten Nahrung unter Schutt, in Grasb\u00fcscheln oder in der Erde."
     },
     "270": {
       "English name": "Australian Reed Warbler",
@@ -2957,7 +3225,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sitzen gern auf dichter, aufrechter Wasservegetation, wie z. B. Binsen und Schilf."
     },
     "271": {
       "English name": "Australian Shelduck",
@@ -2968,7 +3237,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel nisten in Baumh\u00f6hlen, L\u00f6chern an B\u00f6schungen oder an \u00e4hnlichen Stellen."
     },
     "272": {
       "English name": "Australian Zebra Finch",
@@ -2979,7 +3249,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel nisten in Kolonien von bis zu 50 V\u00f6geln, in runden Nestern mit Seiteneingang."
     },
     "273": {
       "English name": "Black Noddy",
@@ -2990,7 +3261,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Ein gro\u00dfer Fischschwarm lockt manchmal 5000 oder mehr Noddis an."
     },
     "274": {
       "English name": "Black Swan",
@@ -3001,7 +3273,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Aus Australien stammende Schwarzschw\u00e4ne wurden Mitte des 19. Jhd. In Neuseeland eingeb\u00fcrgert."
     },
     "275": {
       "English name": "Black-Shouldered Kite",
@@ -3012,7 +3285,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Im Balzflug dreht sich das Weibchen um und greift sich Futter aus den F\u00e4ngen des M\u00e4nnchen."
     },
     "276": {
       "English name": "Blyth's Hornbill",
@@ -3023,7 +3297,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Hornv\u00f6gel \u00fcbernehmen die Nester von Kakadus und werfen ihre Besitzer kurzerhand raus."
     },
     "277": {
       "English name": "Brolga",
@@ -3034,7 +3309,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sind f\u00fcr ihre kunstvollen Balzt\u00e4nze bekannt."
     },
     "278": {
       "English name": "Brown Falcon",
@@ -3045,7 +3321,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Habichtfalken t\u00f6ten ihre Beute durch einen Biss ins Genick. Ihr Schnabel ist speziell darauf angepasst."
     },
     "279": {
       "English name": "Budgerigar",
@@ -3056,7 +3333,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wellensittiche lernen in ihrer Gruppe spezifische Rufe, um sich in gro\u00dfen Schw\u00e4rmen wiederzufinden."
     },
     "280": {
       "English name": "Cockatiel",
@@ -3067,7 +3345,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Australien hat den Export von Nyphensittichen und anderen V\u00f6geln 1984 verboten."
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
@@ -3078,7 +3357,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Flagge Papua-Neuguineas zeigt einen Paradiesvogel."
     },
     "282": {
       "English name": "Crested Pigeon",
@@ -3089,7 +3369,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mit dem Getreideanbau hat sich diese gesellige Taube in Australien stark ausgebreitet."
     },
     "283": {
       "English name": "Crimson Chat",
@@ -3100,7 +3381,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel finden nahrungsreiche Gebiete, indem sie in kleinen Schw\u00e4rmen Regen aufsp\u00fcren."
     },
     "284": {
       "English name": "Eastern Rosella",
@@ -3111,7 +3393,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser bunte Siitich ist in Australien und Tasmanien heimisch. In Neuseeland wurde er eingef\u00fchrt."
     },
     "285": {
       "English name": "Eastern Whipbird",
@@ -3122,7 +3405,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ruf des Vogels endet mit einem Laut wie mit einem Peitschenhieb (engl. \u201ewhip\u201c)."
     },
     "286": {
       "English name": "Emu",
@@ -3133,7 +3417,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Einige indigene Kulturen erkennen in den Nebeln der Milchstra\u00dfe einen Emu."
     },
     "287": {
       "English name": "Galah",
@@ -3144,7 +3429,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Bestandsdichte dieser Art hat durch die Ausbreitung von Agarfl\u00e4chen zugenommen."
     },
     "288": {
       "English name": "Golden-Headed Cisticola",
@@ -3155,7 +3441,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Vogelart baut gut getarnte Nester aus Bl\u00e4ttern und Spinnweben."
     },
     "289": {
       "English name": "Gould's Finch",
@@ -3166,7 +3453,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel werden als Haustiere gez\u00fcchtet, sind in freier Natur aber selten."
     },
     "290": {
       "English name": "Green Pygmy-Goose",
@@ -3177,7 +3465,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der wissenschaftliche Name des Vogels, \u201epulchellus\u201c, bedeutet \u201eh\u00fcbsch\u201c."
     },
     "291": {
       "English name": "Grey Butcherbird",
@@ -3188,7 +3477,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wenn die Beute zu gro\u00df ist, um sie auf einmal zu fressen, wird sie gelagert und zerlegt."
     },
     "292": {
       "English name": "Grey Shrikethrush",
@@ -3199,7 +3489,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diesen Raubvogel erkennt man an seinem wundersch\u00f6nen Gesang."
     },
     "293": {
       "English name": "Grey Teal",
@@ -3210,7 +3501,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Um Wasser zu finden, legen diese V\u00f6gel in D\u00fcrreperioden enorme Strecken zur\u00fcck."
     },
     "294": {
       "English name": "Grey Warbler",
@@ -3221,7 +3513,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel bauen binnenf\u00f6rmige Nester mit einem Seiteneingang am oberen Ende."
     },
     "295": {
       "English name": "Grey-Headed Mannikin",
@@ -3232,7 +3525,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Hoch in B\u00e4umen bauen diese V\u00f6gel kugelf\u00f6rmige Nester aus Gras."
     },
     "296": {
       "English name": "Horsfield's Bronze-Cuckoo",
@@ -3243,7 +3537,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Kuckuck legt seine Eier vorwiegend in Nester von Staffelschw\u00e4nzen."
     },
     "297": {
       "English name": "Horsfield's Bushlark",
@@ -3254,7 +3549,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Von weltweit 90 Lerchenarten ist nur diese in Australien heimisch."
     },
     "298": {
       "English name": "K\u0101k\u0101p\u043e\u0304",
@@ -3265,7 +3561,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser flugunf\u00e4hige, nachtaktive Papagei ist gef\u00e4hrdet. Er pflanzt sich nur etwa alle drei Jahre fort."
     },
     "299": {
       "English name": "Kea",
@@ -3276,7 +3573,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese bedrohten Papageien k\u00f6nnen Werkzeuge herstellen und benutzen."
     },
     "300": {
       "English name": "Kelp Gull",
@@ -3287,7 +3585,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Name dieser M\u00f6we spielt auf die schwarz-wei\u00dfen Kutten der Dominikanerm\u00f6nche an."
     },
     "301": {
       "English name": "Kerer\u016b",
@@ -3298,7 +3597,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese gro\u00dfe Taube ern\u00e4hrt sich von Fr\u00fcchten aber auch von Bl\u00fcten und Bl\u00e4ttern."
     },
     "302": {
       "English name": "Korimako",
@@ -3309,7 +3609,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wie viele andere Arten auch, profitieren diese V\u00f6gel von der Bek\u00e4mpfung der eingef\u00fchrten Ratten."
     },
     "303": {
       "English name": "Laughing Kookaburra",
@@ -3320,7 +3621,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Seine Stimme erinnert an lautes Gel\u00e4chter, daher ist er auch bekannt als \u201eLachender Hans\u201c."
     },
     "304": {
       "English name": "Lesser Frigatebird",
@@ -3331,7 +3633,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Fregattv\u00f6gel vertilgen am liebsten Fische und Tintenfische, ferner auch Eier von Seev\u00f6geln."
     },
     "305": {
       "English name": "Lewin's Honeyeater",
@@ -3342,7 +3645,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der wissenschaftliche Name gedenkt des australischen K\u00fcnstlers John Lewis."
     },
     "306": {
       "English name": "Little Penguin",
@@ -3353,7 +3657,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Pinguine tauchen bis zu 50 Meter tief, um Fische zu fangen."
     },
     "307": {
       "English name": "Little Pied Cormorant",
@@ -3364,7 +3669,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser weit verbreitete Tauchvogel wird von den Maori Kawaupaka genannt."
     },
     "308": {
       "English name": "Magpie-Lark",
@@ -3375,7 +3681,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die expandierende Landwirtschaft ist f\u00fcr diesen Vogel vorteilhaft, wenngleich bedrohlich f\u00fcr andere Arten."
     },
     "309": {
       "English name": "Major Mitchell's Cockatoo",
@@ -3386,7 +3693,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Kakadus bilden gro\u00dfe nomadische Schw\u00e4rme; Nahrung suchen sie jedoch in kleinen Gruppen."
     },
     "310": {
       "English name": "Malleefowl",
@@ -3397,7 +3705,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Das H\u00fcgelnest dieses Vogels h\u00e4lt den Rekord f\u00fcr das gr\u00f6\u00dfte Bodennest. Es wiegt 299 Tonnen."
     },
     "311": {
       "English name": "Maned Duck",
@@ -3408,7 +3717,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Im Herbst verbingen M\u00e4hnenenten mehr als den halben Tag mit Fressen."
     },
     "312": {
       "English name": "Many-Colored Fruit Dove",
@@ -3419,7 +3729,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Taube ern\u00e4hrt sich haupts\u00e4chlich von den Fr\u00fcchten zweier Feigenbaumarten."
     },
     "313": {
       "English name": "Masked Lapwing",
@@ -3430,7 +3741,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel setzen den Sporn an ihren Fl\u00fcgeln in Luftangriffen zur Verteidigung ihrer Nester ein."
     },
     "314": {
       "English name": "Mistletoebird",
@@ -3441,7 +3753,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mistelbeeren machen etwa 85 Prozent der Kost des Mistelfressers aus."
     },
     "315": {
       "English name": "Musk Duck",
@@ -3452,7 +3765,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der moschusartige Geruch dieser Ente stammt aus einer Dr\u00fcse am B\u00fcrzel."
     },
     "316": {
       "English name": "New Holland Honeyeater",
@@ -3463,7 +3777,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Honigfresser sind wichtige Best\u00e4uber einiger Pflanzenarten."
     },
     "317": {
       "English name": "Noisy Miner",
@@ -3474,7 +3789,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel br\u00fcten gemeinsam. Ein Nest wird von bis zu 22 M\u00e4nnchen beaufsichtigt."
     },
     "318": {
       "English name": "North Island Brown Kiwi",
@@ -3485,7 +3801,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Das Ei dieses Kiwis macht vor der Eiablage bis zu 20% des K\u00f6rpergewichts der Mutter aus."
     },
     "319": {
       "English name": "Orange-Footed Scrubfowl",
@@ -3496,7 +3813,8 @@
       "Anatomist": "X",
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die H\u00fcgelnester dieser V\u00f6gel k\u00f6nnen bis zu 4,5 Meter hoch sein."
     },
     "320": {
       "English name": "Pacific Black Duck",
@@ -3507,7 +3825,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Konkurrenz mit nicht-heimischen Enten hat diese Art in Neuseeland stark reduziert."
     },
     "321": {
       "English name": "Peaceful Dove",
@@ -3518,7 +3837,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Vogel wird wegen seines charakteristischen Gesangs auch Doodle-Doo genannt."
     },
     "322": {
       "English name": "Pesquet's Parrot",
@@ -3529,7 +3849,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel wurde im Internet als der \u201eDracula parrot\u201c ber\u00fchmt."
     },
     "323": {
       "English name": "Pheasant Coucal",
@@ -3540,7 +3861,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Anders als andere Kuckucksarten legt der Fasanenkuckuck seine Eier nicht in die Nester anderer V\u00f6gel."
     },
     "324": {
       "English name": "Pink-Eared Duck",
@@ -3551,7 +3873,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Enten drehen sich manchmal paarweise im Kreis, um Nahrung in einem Strudel zu sammeln."
     },
     "325": {
       "English name": "Plains-Wanderer",
@@ -3562,7 +3885,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser vom Aussterben bedrohte Vogel ist die einzige Art in der Familie der Pedionomidoe."
     },
     "326": {
       "English name": "Princess Stephanie's Astrapia",
@@ -3573,7 +3897,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel wurde 1884 nach Prinzessin Stephanie von Belgien benannt."
     },
     "327": {
       "English name": "P\u016bkeko",
@@ -3584,7 +3909,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel teilen sich manchmal ihre Nester und ziehen die K\u00fcken gemeinsam auf."
     },
     "328": {
       "English name": "Rainbow Lorikeet",
@@ -3595,7 +3921,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Manche dieser V\u00f6gel sind so zutraulich, dass sie sich mitunter aus der Hand f\u00fcttern lassen."
     },
     "329": {
       "English name": "Red Wattlebird",
@@ -3606,7 +3933,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese lautstarken, aggressiven V\u00f6gel vertreiben kleinere V\u00f6gel von einer guten Nektarquelle."
     },
     "330": {
       "English name": "Red-Backed Fairywren",
@@ -3617,7 +3945,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "An diesen V\u00f6geln wurde erforscht, welche Rolle Testosteron bei der F\u00e4rbung des Brutgefieders spielt."
     },
     "331": {
       "English name": "Red-Capped Robin",
@@ -3628,7 +3957,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die Nahrung des Rotstirnschn\u00e4ppers liefert das rote Pigment f\u00fcr das Gefieder."
     },
     "332": {
       "English name": "Red-Necked Avocet",
@@ -3639,7 +3969,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel streifen mit ihren Schn\u00e4beln durchs Wasser, um kleine wirbellose Tiere zu fangen."
     },
     "333": {
       "English name": "Red-Winged Parrot",
@@ -3650,7 +3981,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Das M\u00e4nnchen hat einen blauen R\u00fccken, den er w\u00e4hrend des Balzrituals zur Schau tr\u00e4gt."
     },
     "334": {
       "English name": "Regent Bowerbird",
@@ -3661,7 +3993,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Um einen Partner anzulocken, schm\u00fccken die M\u00e4nnchen ihre Lauben mit Zierrat wie Muscheln oder Kn\u00f6pfen."
     },
     "335": {
       "English name": "Royal Spoonbill",
@@ -3672,7 +4005,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "K\u00f6nigsl\u00f6ffler nisten in Kolonien, oft neben vielen anderen Wasserv\u00f6geln."
     },
     "336": {
       "English name": "Rufous Night-Heron",
@@ -3683,7 +4017,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Reiher frisst neben Fisch und kleinen Wirbellosen auch die Eier und K\u00fcken anderer V\u00f6gel."
     },
     "337": {
       "English name": "Rufous Owl",
@@ -3694,7 +4029,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Eule erlegt Beute bis zur Gr\u00f6\u00dfe von Possums, Gro\u00dffu\u00dfh\u00fchnern und Papageien."
     },
     "338": {
       "English name": "Rufous-Banded Honeyeater",
@@ -3705,7 +4041,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Mit seiner b\u00fcrsten\u00e4hnlichen Zungenspitze kann der Honigfresser Nektar aus Bl\u00fcten aufsaugen."
     },
     "339": {
       "English name": "Sacred Kingfisher",
@@ -3716,7 +4053,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Lieste geh\u00f6ren zur Familie der Eisv\u00f6gel. Anders als andere Lieste jagt der G\u00f6tzenliest nur selten im Wasser."
     },
     "340": {
       "English name": "Silvereye",
@@ -3727,7 +4065,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Ring wei\u00dfer Federn um die Augen hat diesem Vogel seinen Namen gegeben."
     },
     "341": {
       "English name": "South Island Robin",
@@ -3738,7 +4077,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel suchen auf dem Boden nach Insekten und horten sie auf \u00c4sten und in Spalten."
     },
     "342": {
       "English name": "Southern Cassowary",
@@ -3749,7 +4089,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese aggressiven V\u00f6gel sind wichtig f\u00fcr die Verbreitung der Samen gro\u00dfer Fr\u00fcchte im Regenwald."
     },
     "343": {
       "English name": "Spangled Drongo",
@@ -3760,7 +4101,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel besitzt einen charakteristischen Ruf, ahmt jedoch auch den Ruf anderer Vogelarten nach."
     },
     "344": {
       "English name": "Splendid Fairywren",
@@ -3771,7 +4113,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel bauen kuppelf\u00f6rmige Nester mit einem Seiteneingang, h\u00e4ufig in niedrigem Gestr\u00fcpp."
     },
     "345": {
       "English name": "Spotless Crake",
@@ -3782,7 +4125,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Augen des erwachsenen Vogels sind leuchtend rot."
     },
     "346": {
       "English name": "Stubble Quail",
@@ -3793,7 +4137,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Nieren dieser Wachteln sind an sehr geringe Wasserzufuhr angepasst."
     },
     "347": {
       "English name": "Sulphur-Crested Cockatoo",
@@ -3804,7 +4149,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wenn ein Kakaduschwarm am Boden frisst, h\u00e4lt oft ein Vogel Wache aus der Luft."
     },
     "348": {
       "English name": "Superb Lyrebird",
@@ -3815,7 +4161,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die M\u00e4nnchen imponieren mit auff\u00e4llig langen Schwanzfedern und ihrem Talent f\u00fcr Mimikri."
     },
     "349": {
       "English name": "Tawny Frogmouth",
@@ -3826,7 +4173,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Nachtv\u00f6gel sind Meister der Tarnung und werden oft f\u00fcr abgebrochene \u00c4ste gehalten."
     },
     "350": {
       "English name": "T\u016b\u012b",
@@ -3837,7 +4185,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diesen V\u00f6geln kann das Nachahmen menschlicher Sprache beigebracht werden."
     },
     "351": {
       "English name": "Wedge-Tailed Eagle",
@@ -3848,7 +4197,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Adler k\u00f6nnen gro\u00dfe Tiere wie Possums und K\u00e4ngurus erbeuten."
     },
     "352": {
       "English name": "Welcome Swallow",
@@ -3859,7 +4209,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Gl\u00fccksschwalbe ist die Fr\u00fchlingsbotin in S\u00fcdaustralien."
     },
     "353": {
       "English name": "White-Bellied Sea-Eagle",
@@ -3870,7 +4221,8 @@
       "Anatomist": "X",
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Adler sind geschickte Fischer und J\u00e4ger, stehlen aber auch die Beute von kleineren Raubtieren."
     },
     "354": {
       "English name": "White-Breasted Woodswallow",
@@ -3881,7 +4233,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Wenn sie sich ausruhen, dr\u00e4ngen sich diese V\u00f6gel oft in einer Reihe dicht aneinander."
     },
     "355": {
       "English name": "White-Faced Heron",
@@ -3892,7 +4245,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese weit verbreiteten Reiher fallen manchmal \u00fcber Fischteichen in Vortorten her."
     },
     "356": {
       "English name": "Willie-Wagtail",
@@ -3903,7 +4257,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": "X",
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel schlie\u00dft sich gemischten Vogelschw\u00e4rmen an und stiehlt Futter von kleineren V\u00f6geln."
     },
     "357": {
       "English name": "Wrybill",
@@ -3914,7 +4269,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Schnabel ist nach rechts gebogen, um Nahrung unter Steinbrocken besser erreichen zu k\u00f6nnen."
     },
     "358": {
       "English name": "Asian Emerald Dove",
@@ -3925,7 +4281,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Das ist der Nationalvogel des indischen Bundesstaates Tamil Nadu."
     },
     "359": {
       "English name": "Asian Koel",
@@ -3936,7 +4293,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der m\u00e4nnliche Koel kann V\u00f6gel von ihrem Nest ablenken, damit die Partnerin dort Eier hineinlegen kann."
     },
     "360": {
       "English name": "Azure Tit",
@@ -3947,7 +4305,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Art hybridisiert mit der Blaumeise, wo sich ihre Verbreitungsgebiete \u00fcberschneiden."
     },
     "361": {
       "English name": "Baya Weaver",
@@ -3958,7 +4317,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese sozialen V\u00f6gel br\u00fcten in Kolonien, die mehrere Dutzend Nester umfassen k\u00f6nnen."
     },
     "362": {
       "English name": "Bearded Reedling",
@@ -3969,7 +4329,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese adretten V\u00f6gel br\u00fcten in Schilfg\u00fcrteln gro\u00dfer Seen."
     },
     "363": {
       "English name": "Black Drongo",
@@ -3980,7 +4341,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel sind aggressiv gegen\u00fcber anderen, auch vielen gr\u00f6\u00dferen, V\u00f6geln in ihrem Revier."
     },
     "364": {
       "English name": "Black Stork",
@@ -3991,7 +4353,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese scheue Art baut ihre gro\u00dfen Nester vor allem in alten W\u00e4ldern mit sehr gro\u00dfen B\u00e4umen."
     },
     "365": {
       "English name": "Black-Naped Oriole",
@@ -4002,7 +4365,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel findet sich in vielen Regionen Asiens. Es werden mehr als ein Dutzend Unterarten unterschieden."
     },
     "366": {
       "English name": "Blue Rock-Thrush",
@@ -4013,7 +4377,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel wurde urspr\u00fcnglich f\u00fcr eine Drossel gehalten, ist aber mit den Fliegenschn\u00e4ppern verwandt."
     },
     "367": {
       "English name": "Brahminy Kite",
@@ -4024,7 +4389,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel wird als Verk\u00f6rperung von Garuda, dem Tr\u00e4ger des Gottes Vishnu, verehrt."
     },
     "368": {
       "English name": "Brambling",
@@ -4035,7 +4401,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bergfinken bilden im Winter gro\u00dfe Schw\u00e4rme, wenn sie besonders gerne die Bucheckern fressen."
     },
     "369": {
       "English name": "Brown Shrike",
@@ -4046,7 +4413,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der Name Lanius bedeutet \u201eFleischer\u201c und wurde vergeben, weil W\u00fcrger ihre Beute zur Lagerung aufh\u00e4ngen."
     },
     "370": {
       "English name": "Common Green Magpie",
@@ -4057,7 +4425,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Trotz seines wissenschaftl. Namens ist dieser Vogel im Himalaya und S\u00fcdostasien zu finden - nicht in China."
     },
     "371": {
       "English name": "Common Iora",
@@ -4068,7 +4437,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "M\u00e4nnliche Ioras balzen, indem sie ihr Gefieder aufplustern und wie ein Ball durch die Luft fliegen."
     },
     "372": {
       "English name": "Common Myna",
@@ -4079,7 +4449,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Mainas sind geschickte Imitatoren und k\u00f6nnen die menschliche Sprache nachahmen."
     },
     "373": {
       "English name": "Common Sandpiper",
@@ -4090,7 +4461,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Flussuferl\u00e4ufer sind oft allein auf Nahrungssuche, rasten aber auch in gro\u00dfen Gruppen."
     },
     "374": {
       "English name": "Common Tailorbird",
@@ -4101,7 +4473,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Um ihre Nester zu st\u00fctzen und zu tarnen, n\u00e4hen diese V\u00f6gel Bl\u00e4tter mit Pflanzenfasern zusammen."
     },
     "375": {
       "English name": "Common Teal",
@@ -4112,7 +4485,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Zugvogel ist weit verbreitet. In Europa und in Nordamerika ist die Krickente die kleinste Entenart."
     },
     "376": {
       "English name": "Coppersmith Barbet",
@@ -4123,7 +4497,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ruf dieses Vogels ist ein sich wiederholendes, metallisches \u201etuk\u201c und klingt wie das Schlagen auf ein Kupferblech."
     },
     "377": {
       "English name": "Crested Ibis",
@@ -4134,7 +4509,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "In den 1980ern gab es nur noch 10 wildlebende Nipponibisse, aber dank Zuchtprogrammen wurden sie wieder angesiedelt."
     },
     "378": {
       "English name": "Crested Lark",
@@ -4145,7 +4521,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Lerche stellt ihren Kamm auf, wenn sie bei Revierk\u00e4mpfen und bei der Balz singt."
     },
     "379": {
       "English name": "Desert Finch",
@@ -4156,7 +4533,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Finken leben in W\u00fcsten, aber auch in landwirtschaftlichen Gebieten und sogar St\u00e4dten."
     },
     "380": {
       "English name": "Desert Wheatear",
@@ -4167,7 +4545,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die W\u00fcstensteinschm\u00e4tzer, die in trockenen Gebieten Zentralasiens br\u00fcten, \u00fcberwintern in Nordostafrika."
     },
     "381": {
       "English name": "Eurasian Coot",
@@ -4178,7 +4557,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bl\u00e4ssh\u00fchner haben gelappte Zehen (keine Schwimmh\u00e4ute), mit denen sie schwimmen und auf Schlamm laufen k\u00f6nnen."
     },
     "382": {
       "English name": "Eurasian Eagle-Owl",
@@ -4189,7 +4569,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Art z\u00e4hlt zu den gr\u00f6\u00dften Eulen und erbeutet neben Nagetieren, Kaninchen und Tauben auch gr\u00f6\u00dfere Tiere."
     },
     "383": {
       "English name": "Eurasian Hoopoe",
@@ -4200,7 +4581,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wiedehopfe benutzen ihre langen Schn\u00e4bel um Insektenlarven aus dem Boden oder der Streuschicht zu ziehen."
     },
     "384": {
       "English name": "Eurasian Kestrel",
@@ -4211,7 +4593,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Auf der Suche nach Beutetieren nutzt der Turmfalke den R\u00fcttelflug und scheint in der Luft zu stehen."
     },
     "385": {
       "English name": "Eurasian Marsh-Harrier",
@@ -4222,7 +4605,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Rohrweihen f\u00fchren w\u00e4hrend der Balz \u201eHimmelst\u00e4nze\u201c mit Sturzfl\u00fcgen, Purzelb\u00e4umen und Spr\u00fcngen auf."
     },
     "386": {
       "English name": "Eurasian Treecreeper",
@@ -4233,7 +4617,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel klettert zur Nahrungssuche an Baumst\u00e4mmen empor. Er ist einer der kleinsten V\u00f6gel Deutschlands."
     },
     "387": {
       "English name": "Fire-Fronted Serin",
@@ -4244,7 +4629,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Bei der Balz stellen die M\u00e4nnchen dieser Art die roten Federn auf dem Kopf auf, um sie zur Schau zu stellen."
     },
     "388": {
       "English name": "Forest Owlet",
@@ -4255,7 +4641,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "1977 wurde diese Art in Indien wiederentdeckt - 113 Jahre nach der letzten gemeldeten Sichtung."
     },
     "389": {
       "English name": "Golden Pheasant",
@@ -4266,7 +4653,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Der mythologische Ph\u00f6nix wird manchmal als Goldfasan dargestellt."
     },
     "390": {
       "English name": "Graceful Prinia",
@@ -4277,7 +4665,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Das Nest der Prinie ist ein ovaler, aus Gras gewobener Beutel mit einem Seiteneingang in der N\u00e4he der Oberseite."
     },
     "391": {
       "English name": "Grandala",
@@ -4288,7 +4677,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel br\u00fcten im Himalaya oberhalb der Baumgrenze."
     },
     "392": {
       "English name": "Gray Wagtail",
@@ -4299,7 +4689,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Gebirgsstelzen bewegen w\u00e4hrend der Mahrungssuche in felsigen Flussbereichen ihren Schwanz st\u00e4ndig auf und ab."
     },
     "393": {
       "English name": "Great Cormorant",
@@ -4310,7 +4701,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Menschen in China und Japan nutzen seit mehr als 2.000 Jahren speziell abgerichtete Kormorane zum Fischen."
     },
     "394": {
       "English name": "Great Hornbill",
@@ -4321,7 +4713,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel sammeln sich an fruchtenden B\u00e4umen und bilden au\u00dferhalb der Brutzeit Schw\u00e4rme von bis zu 200 Tieren."
     },
     "395": {
       "English name": "Great Indian Bustard",
@@ -4332,7 +4725,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser vom Aussterben bedrohte Vogel kann bis zu 18 kg wiegen und ist damit einer der schwersten fliegenden V\u00f6gel."
     },
     "396": {
       "English name": "Great Spotted Woodpecker",
@@ -4343,7 +4737,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Spechte k\u00f6nnen bis zu 12.000 Mal am Tag klopfen, und zwar mit 20 Klopfern pro Sekunde."
     },
     "397": {
       "English name": "Greater Adjutant",
@@ -4354,7 +4749,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Aufgrund des starken Verlusts von Feuchtgebieten ist dieser Vogel einer der seltensten St\u00f6rche geworden."
     },
     "398": {
       "English name": "Green Bee-Eater",
@@ -4365,7 +4761,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Insektenfresser schlafen oft in gro\u00dfen Gruppen."
     },
     "399": {
       "English name": "Green Pheasant",
@@ -4376,7 +4773,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel wurde 1947 zum Nationalvogel Japans ernannt."
     },
     "400": {
       "English name": "Himalayan Monal",
@@ -4387,7 +4785,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dies ist der Nationalvogel von Nepal und des Bundesstaats Uttarakhand, Indien."
     },
     "401": {
       "English name": "House Crow",
@@ -4398,7 +4797,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Futter lagernden V\u00f6gel sind sehr intelligent und k\u00f6nnen sich selbst in einem Spiegel erkennen."
     },
     "402": {
       "English name": "Ibisbill",
@@ -4409,7 +4809,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ibisschnabel ist am engsten mit Austernfischern, S\u00e4belsch\u00e4blern und Stelzenl\u00e4ufern verwandt \u2013 nicht den Ibissen."
     },
     "403": {
       "English name": "Indian Peafowl",
@@ -4420,7 +4821,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel wurde 1963 zum Nationalvogel Indiens ernannt."
     },
     "404": {
       "English name": "Indian Vulture",
@@ -4431,7 +4833,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Indien verbot 2008 die Verwendung von Diclofenac bei Rindern, nachdem dadurch Millionen von Geiern starben."
     },
     "405": {
       "English name": "Large-Billed Crow",
@@ -4442,7 +4845,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese geselligen Kr\u00e4hen nutzen fast jede Nahrungsquelle, ob lebend oder tot."
     },
     "406": {
       "English name": "Little Egret",
@@ -4453,7 +4857,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Reiher hat sein Verbreitungsgebiet im 20. Jh. ausgedehnt und auf Barbados eine Population gegr\u00fcndet."
     },
     "407": {
       "English name": "Little Grebe",
@@ -4464,7 +4869,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Zwergtaucher sind schnelle Taucher - ihr wissenschaftlicher Name kommt von tachys, \u201eschnell\u201c, und bapto, \u201esinken\u201c."
     },
     "408": {
       "English name": "Little Ringed Plover",
@@ -4475,7 +4881,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wenn sie in hei\u00dfen Gebieten nisten, tauchen diese V\u00f6gel ihr Gefieder in Wasser, um ihre K\u00fcken zu k\u00fchlen."
     },
     "409": {
       "English name": "Mandarin Duck",
@@ -4486,7 +4893,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Ein chinesisches Sprichwort beschreibt Liebespaare als \u201ezwei Mandarinenten, die im Wasser spielen\u201c."
     },
     "410": {
       "English name": "Olive-Backed Sunbird",
@@ -4497,7 +4905,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel ern\u00e4hren sich haupts\u00e4chlich von Nektar, aber auch von Insekten, vor allem bei der F\u00fctterung der Jungen."
     },
     "411": {
       "English name": "Oriental Bay-Owl",
@@ -4508,7 +4917,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Die Federn auf dem Gesicht einer Eule sammeln Schallwellen und leiten sie zu den Ohren der Eule."
     },
     "412": {
       "English name": "Oriental Magpie-Robin",
@@ -4519,7 +4929,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Singvogel ist der Nationalvogel von Bangladesch, wo er weit verbreitet war."
     },
     "413": {
       "English name": "Philippine Eagle",
@@ -4530,7 +4941,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser vom Aussterben bedrohte Adler frisst nicht nur Affen, sondern auch andere S\u00e4uger und gr\u00f6\u00dfere V\u00f6gel."
     },
     "414": {
       "English name": "Plumbeous Redstart",
@@ -4541,7 +4953,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die pflaumengraue Farbe dieses Vogels ist eine gute Tarnung f\u00fcr die Nahrungssuche in felsigen Bachbetten."
     },
     "415": {
       "English name": "Purple Heron",
@@ -4552,7 +4965,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser geduldige Vogel ist vor allem in der Morgen- und Abendd\u00e4mmerung aktiv und wartet regungslos auf Beute."
     },
     "416": {
       "English name": "Red Avadavat",
@@ -4563,7 +4977,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Bei der Balz halten die M\u00e4nnchen eine Feder oder einen St\u00e4ngel im Schnabel und verbeugen sich langsam."
     },
     "417": {
       "English name": "Red Junglefowl",
@@ -4574,7 +4989,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Das Haushuhn wurde vor etwa 8.000 Jahren aus dieser Art von Urwaldv\u00f6geln domestiziert."
     },
     "418": {
       "English name": "Red-Crowned Crane",
@@ -4585,7 +5001,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser vom Aussterben bedrohte Kranich steht in verschiedenen Kulturen f\u00fcr Langlebigkeit, Reinheit und Frieden."
     },
     "419": {
       "English name": "Red-Vented Bulbul",
@@ -4596,7 +5013,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Vogel legt rosafarbene Eier mit braunen Flecken."
     },
     "420": {
       "English name": "Red-Wattled Lapwing",
@@ -4607,7 +5025,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Kiebitze verteidigen ihre Nester aggressiv, indem sie sich mit lauten Rufen auf potentielle Fressfeinde st\u00fcrzen."
     },
     "421": {
       "English name": "Rhinoceros Auklet",
@@ -4618,7 +5037,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Zur Brutzeit w\u00e4chst diesen schwarmjagenden V\u00f6geln eine hornartige Struktur \u00fcber dem Schnabel."
     },
     "422": {
       "English name": "Rock Pigeon",
@@ -4629,7 +5049,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Tauben sind die Stammform der heutigen Haustauben, die schon 3.000 v. Chr. domestiziert wurden."
     },
     "423": {
       "English name": "Rook",
@@ -4640,7 +5061,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Saatkr\u00e4hen br\u00fcten in gro\u00dfen Kolonien."
     },
     "424": {
       "English name": "Rose-Ringed Parakeet",
@@ -4651,7 +5073,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel haben die F\u00e4higkeit, die menschliche Sprache nachzuahmen und sind beliebte Haustiere."
     },
     "425": {
       "English name": "Rosy Starling",
@@ -4662,7 +5085,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Rosenstare treten oft in Massen auf und sind als effektive Insektenfresser von Bauern gern gesehen."
     },
     "426": {
       "English name": "Ruddy Shelduck",
@@ -4673,7 +5097,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "In der altinidschen Literatur ist diese Rostgans ein Symbol f\u00fcr Treue und Liebe."
     },
     "427": {
       "English name": "Sarus Crane",
@@ -4684,7 +5109,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel haben sich an menschliche Umgebungen wie Bew\u00e4sserungsgr\u00e4ben und Reisfelder angepasst."
     },
     "428": {
       "English name": "Satyr Tragopan",
@@ -4695,7 +5121,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Bei der Balz bl\u00e4hen die M\u00e4nnchen dieser Art ihre farbenfrohen Lappen auf und zeigen blaue \u201eH\u00f6rner\u201c."
     },
     "429": {
       "English name": "Scaly-Breasted Munia",
@@ -4706,7 +5133,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese geselligen Finken teilen sich die Ausschau nach Feinden und haben so mehr Zeit f\u00fcr die Nahrungssuche."
     },
     "430": {
       "English name": "Small Minivet",
@@ -4717,7 +5145,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel schlie\u00dfen sich oft Schw\u00e4rmen gemischter Arten in den Baumkronen an, wo sie nach Insekten suchen."
     },
     "431": {
       "English name": "Smew",
@@ -4728,7 +5157,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese kleine Ente br\u00fctet an bewaldeten S\u00fc\u00dfwasserseen in der subarktischen Taiga."
     },
     "432": {
       "English name": "Spoon-Billed Sandpiper",
@@ -4739,7 +5169,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese Art ist eine der seltensten und gef\u00e4hrdetsten V\u00f6gel der Welt, mit weniger als 500 Tieren in freier Wildbahn."
     },
     "433": {
       "English name": "Spotted Dove",
@@ -4750,7 +5181,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel ist in S\u00fcdasien heimisch, wurde aber auch in Nordamerika und Ozeanien eingef\u00fchrt."
     },
     "434": {
       "English name": "Sri Lanka Blue-Magpie",
@@ -4761,7 +5193,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Art ist durch Abholzung der Regenw\u00e4lder in ihrem kleinen Verbreitungsgebiet (Sri Lanka) stark bedroht."
     },
     "435": {
       "English name": "Sri Lanka Frogmouth",
@@ -4772,7 +5205,8 @@
       "Anatomist": null,
       "Cartographer": "X",
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Wie Eulen jagen auch diese Schwalme nachts, aber sie fangen ihre Beute mit dem Schnabel und nicht mit den F\u00fc\u00dfen."
     },
     "436": {
       "English name": "Stork-Billed Kingfisher",
@@ -4783,7 +5217,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Diese V\u00f6gel graben mit ihren kr\u00e4ftigen Schn\u00e4beln Bruth\u00f6hlen in Flussufern, toten B\u00e4umen oder Termitennestern."
     },
     "437": {
       "English name": "Trumpeter Finch",
@@ -4794,7 +5229,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Der Ruf dieses Vogels erinnert manchen an eine Spielzeugtrompete."
     },
     "438": {
       "English name": "Twite",
@@ -4805,7 +5241,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Au\u00dferhalb der Brutzeit versammeln sich diese V\u00f6gel in gro\u00dfer Zahl, oft zusammen mit anderen Finken."
     },
     "439": {
       "English name": "Verditer Flycatcher",
@@ -4816,7 +5253,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel suchen oberhalb des Bl\u00e4tterdachs nach Nahrung und setzen sich auch gern auf Stromleitungen."
     },
     "440": {
       "English name": "Violet Cuckoo",
@@ -4827,7 +5265,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Dieser Kuckuck legt seine Eier oft in das Nest von kleinen Nektarv\u00f6geln."
     },
     "441": {
       "English name": "White-Browed Tit-Warbler",
@@ -4838,7 +5277,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese V\u00f6gel verbringen viel Zeit im Wacholderdickicht, so dass ihr farbenfrohes Gefieder schwer zu erkennen ist."
     },
     "442": {
       "English name": "White-Crested Laughingthrush",
@@ -4849,7 +5289,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese geselligen V\u00f6gel k\u00f6nnen laute Ger\u00e4usche von sich geben, die wie Lachen klingen."
     },
     "443": {
       "English name": "White-Headed Duck",
@@ -4860,7 +5301,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die flachen Brutgew\u00e4sser dieser Ente sind durch Landwirtschaft und D\u00fcrren bedroht."
     },
     "444": {
       "English name": "White-Throated Kingfisher",
@@ -4871,7 +5313,8 @@
       "Anatomist": "X",
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Diese Art jagt nicht nur Fische, sondern auch wirbellose Tiere, Schlangen und andere Kleintiere."
     },
     "445": {
       "English name": "Willow Tit",
@@ -4882,7 +5325,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Es wurde beobachtet, dass diese V\u00f6gel an einem Tag bis zu 200 Nahrungsvorr\u00e4te einlagern."
     },
     "446": {
       "English name": "Yellow Bittern",
@@ -4893,7 +5337,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": "X"
+      "Photographer": "X",
+      "Flavor text": "Die langen, d\u00fcnnen Streifen dieses Vogels dienen der Tarnung f\u00fcr das Leben im Schilf."
     },
     "447": {
       "English name": "Zebra Dove",
@@ -4904,7 +5349,8 @@
       "Anatomist": null,
       "Cartographer": null,
       "Historian": null,
-      "Photographer": null
+      "Photographer": null,
+      "Flavor text": "Dieser Vogel ist gut getarnt, um auf offenem Gel\u00e4nde zu fressen."
     }
   },
   "bonuses": {
