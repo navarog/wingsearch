@@ -142,7 +142,7 @@
       "Cartographer": "X",
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Zur Balz f\u00fchrt die Kanaschnepfe unter anderen wiederholt Sturzfl\u00fcge aus 100 m H\u00f6he durch."
+      "Flavor text": "Zur Balz f\u00fchrt die Kanadaschnepfe unter anderen wiederholt Sturzfl\u00fcge aus 100 m H\u00f6he durch."
     },
     "14": {
       "English name": "Anhinga",
@@ -274,7 +274,7 @@
       "Cartographer": null,
       "Historian": "X",
       "Photographer": null,
-      "Flavor text": "Der Ruf des Streifenkauz klint wie \u201eWho cooks for you?\u201c (dt.: \u201eWer kocht f\u00fcr dich?\u201c)."
+      "Flavor text": "Der Ruf des Streifenkauz klingt wie \u201eWho cooks for you?\" (dt.: \u201eWer kocht f\u00fcr dich?\")."
     },
     "25": {
       "English name": "Barrow's Goldeneye",
@@ -646,7 +646,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Der Gimpel frisst gern die Knospen von Obstb\u00e4umen undgilt daher als Sch\u00e4dling in Obstplantagen."
+      "Flavor text": "Der Gimpel frisst gern die Knospen von Obstb\u00e4umen und gilt daher als Sch\u00e4dling in Obstplantagen."
     },
     "56": {
       "English name": "Burrowing Owl",
@@ -1006,7 +1006,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Mit einer Gr\u00f6\u00dfe von nur 38 cm ist die Zergdommel der kleinste Reiher."
+      "Flavor text": "Mit einer Gr\u00f6\u00dfe von nur 38 cm ist die Zwergdommel der kleinste Reiher."
     },
     "86": {
       "English name": "Common Loon",
@@ -1138,7 +1138,7 @@
       "Cartographer": "X",
       "Historian": "X",
       "Photographer": null,
-      "Flavor text": "Diese gef\u00e4hrdete Vogelart kommt nur auf der Insel Korsika vor. Die ern\u00e4hrt sich von Kiefernsamen."
+      "Flavor text": "Diese gef\u00e4hrdete Vogelart kommt nur auf der Insel Korsika vor. Sie ern\u00e4hrt sich von Kiefernsamen."
     },
     "97": {
       "English name": "Dark-Eyed Junco",
@@ -1606,7 +1606,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Manchmal folgen kleinere Vogel diesen Reihern, da sie Beute aufscheuchen."
+      "Flavor text": "Manchmal folgen kleinere V\u00f6gel diesen Reihern, da sie Beute aufscheuchen."
     },
     "136": {
       "English name": "Great Horned Owl",
@@ -2302,7 +2302,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Diese Scharmv\u00f6gel haben in der Brutsaison h\u00e4ufig \u201eHelferv\u00f6gel\u201c, die Futter ans Nest bringen."
+      "Flavor text": "Diese Schwarmv\u00f6gel haben in der Brutsaison h\u00e4ufig \u201eHelferv\u00f6gel"
     },
     "194": {
       "English name": "Red Crossbill",
@@ -2410,7 +2410,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "Die kurzsichtigen Vieros bilden Schw\u00e4rme mit V\u00f6geln, die Raubtiere lautstark ank\u00fcndigen."
+      "Flavor text": "Die kurzsichtigen Vireos bilden Schw\u00e4rme mit V\u00f6geln, die Raubtiere lautstark ank\u00fcndigen."
     },
     "203": {
       "English name": "Red-Headed Woodpecker",
@@ -3142,7 +3142,7 @@
       "Cartographer": null,
       "Historian": "X",
       "Photographer": null,
-      "Flavor text": "Dieser gro\u00dfe, bedrohte Seevogel kommt ausschlie\u00dflich auf der Weinachtsinsel vor."
+      "Flavor text": "Dieser gro\u00dfe, bedrohte Seevogel kommt ausschlie\u00dflich auf der Weihnachtsinsel vor."
     },
     "264": {
       "English name": "Australasian Pipit",
@@ -3346,7 +3346,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Australien hat den Export von Nyphensittichen und anderen V\u00f6geln 1984 verboten."
+      "Flavor text": "Australien hat den Export von Nymphensittichen und anderen V\u00f6geln 1984 verboten."
     },
     "281": {
       "English name": "Count Raggi's Bird-of-Paradise",
@@ -3394,7 +3394,7 @@
       "Cartographer": "X",
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "Dieser bunte Siitich ist in Australien und Tasmanien heimisch. In Neuseeland wurde er eingef\u00fchrt."
+      "Flavor text": "Dieser bunte Sittich ist in Australien und Tasmanien heimisch. In Neuseeland wurde er eingef\u00fchrt."
     },
     "285": {
       "English name": "Eastern Whipbird",
@@ -3430,7 +3430,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Die Bestandsdichte dieser Art hat durch die Ausbreitung von Agarfl\u00e4chen zugenommen."
+      "Flavor text": "Die Bestandsdichte dieser Art hat durch die Ausbreitung von Agrarfl\u00e4chen zugenommen."
     },
     "288": {
       "English name": "Golden-Headed Cisticola",
@@ -3514,7 +3514,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "Diese V\u00f6gel bauen binnenf\u00f6rmige Nester mit einem Seiteneingang am oberen Ende."
+      "Flavor text": "Diese V\u00f6gel bauen birnenf\u00f6rmige Nester mit einem Seiteneingang am oberen Ende."
     },
     "295": {
       "English name": "Grey-Headed Mannikin",
@@ -3718,7 +3718,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "Im Herbst verbingen M\u00e4hnenenten mehr als den halben Tag mit Fressen."
+      "Flavor text": "Im Herbst verbringen M\u00e4hnenenten mehr als den halben Tag mit Fressen."
     },
     "312": {
       "English name": "Many-Colored Fruit Dove",
@@ -3886,7 +3886,7 @@
       "Cartographer": "X",
       "Historian": "X",
       "Photographer": null,
-      "Flavor text": "Dieser vom Aussterben bedrohte Vogel ist die einzige Art in der Familie der Pedionomidoe."
+      "Flavor text": "Dieser vom Aussterben bedrohte Vogel ist die einzige Art in der Familie der Pedionomidae."
     },
     "326": {
       "English name": "Princess Stephanie's Astrapia",
@@ -4246,7 +4246,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "Diese weit verbreiteten Reiher fallen manchmal \u00fcber Fischteichen in Vortorten her."
+      "Flavor text": "Diese weit verbreiteten Reiher fallen manchmal \u00fcber Fischteichen in Vororten her."
     },
     "356": {
       "English name": "Willie-Wagtail",
@@ -4690,7 +4690,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "Gebirgsstelzen bewegen w\u00e4hrend der Mahrungssuche in felsigen Flussbereichen ihren Schwanz st\u00e4ndig auf und ab."
+      "Flavor text": "Gebirgsstelzen bewegen w\u00e4hrend der Nahrungssuche in felsigen Flussbereichen ihren Schwanz st\u00e4ndig auf und ab."
     },
     "393": {
       "English name": "Great Cormorant",
@@ -5098,7 +5098,7 @@
       "Cartographer": null,
       "Historian": null,
       "Photographer": "X",
-      "Flavor text": "In der altinidschen Literatur ist diese Rostgans ein Symbol f\u00fcr Treue und Liebe."
+      "Flavor text": "In der altindischen Literatur ist diese Rostgans ein Symbol f\u00fcr Treue und Liebe."
     },
     "427": {
       "English name": "Sarus Crane",
