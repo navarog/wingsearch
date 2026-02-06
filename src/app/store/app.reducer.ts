@@ -173,7 +173,7 @@ const reducer = createReducer(
         )
 
         displayedCards = displayedCards.filter(card =>
-            (allowedExpansions.includes(card.Set) 
+            (allowedExpansions.includes(card.Set)
                 || allowedPromoPacks.includes(card.Set))
             && (isBonusCard(card) || (
                 allowedColors.includes(card.Color ? card.Color.toLowerCase() : 'white')) &&
@@ -274,7 +274,7 @@ const reducer = createReducer(
 
     on(appActions.setLanguage, (state, action) => {
         const translateBirds = (card: BirdCard) => {
-            const translatedKeys = ['Common name', 'Power text', 'Note']
+            const translatedKeys = ['Common name', 'Power text', 'Flavor text', 'Note']
             const bonusKeys = ['Anatomist', 'Cartographer', 'Historian', 'Photographer']
             const translated = action.payload.birds[card.id]
             const englishBird = englishBirdCardsMap[card.id]
