@@ -3,21 +3,24 @@ name: Build and Deploy to GitHub Pages
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '14'
         cache: 'npm'
 
     - name: Install dependencies
@@ -29,9 +32,8 @@ jobs:
         npm run build-prod
 
     - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/master' && github.event_name == 'push'
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add docs/
-        git diff --staged --quiet || (git commit -m "🚀 Auto-deploy: Update GitHub Pages build" && git push)
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./docs
+        force_orphan: true
