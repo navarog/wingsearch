@@ -83,6 +83,7 @@ export interface BirdCard {
     'Small Clutch Specialist': string | null
     'Endangered Species Protector': string | null
     CardType: CardType
+    recordings?: string[]
 }
 
 export enum CardType {
