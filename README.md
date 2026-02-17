@@ -23,7 +23,7 @@ If you own the game in another language that is not translated and want to contr
 ## Special thanks
 The app is using [data](https://boardgamegeek.com/filepage/193164/wingspan-bird-card-spreadsheet) made by TawnyFrogmouth.
 
-Bird sound recordings are sourced from [Xeno-canto.org](https://xeno-canto.org), a collaborative project dedicated to sharing bird sounds from around the world. Huge thanks to all the recordists who contributed these authentic field recordings.
+Bird sound recordings are strictly Creative Commons, sourced from [Xeno-canto.org](https://xeno-canto.org), a collaborative project dedicated to sharing bird sounds from around the world. Huge thanks to all the recordists who contributed these authentic field recordings.
 
 Thanks, Robbie, nightpool, and Bastian for all the work on hidden asset packs 🥚
 
