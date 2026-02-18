@@ -11,14 +11,16 @@
         *ngIf="isCurrentlyPlaying(bird.id, currentBirdId$ | async)">
         volume_up
       </mat-icon>
-      <mat-icon
-        class="bird-icon"
-        *ngIf="!isCurrentlyPlaying(bird.id, currentBirdId$ | async)">
-        {{ bird.CardType === 'Hummingbird' ? 'pest_control' : 'flutter_dash' }}
-      </mat-icon>
+      <picture class="beak-icon" *ngIf="!isCurrentlyPlaying(bird.id, currentBirdId$ | async)">
+        <source type="image/webp" [srcset]="'assets/icons/png/beak_pointing_' + getBeakDirection(bird) + '.webp'">
+        <source type="image/png" [srcset]="'assets/icons/png/beak_pointing_' + getBeakDirection(bird) + '.png'">
+        <img
+          [src]="'assets/icons/png/beak_pointing_' + getBeakDirection(bird) + '.png'"
+          [alt]="bird['Common name'] + ' beak icon'">
+      </picture>
 
-      <!-- Bird Info -->
-      <div class="bird-info">
+      <!-- Bird Info (clickable to play) -->
+      <div class="bird-info clickable" (click)="playBird(bird.id)">
         <div class="bird-name">{{ bird['Common name'] }}</div>
         <div class="scientific-name">{{ bird['Scientific name'] }}</div>
       </div>
