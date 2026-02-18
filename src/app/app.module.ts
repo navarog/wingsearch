@@ -3,6 +3,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 import { HttpClientModule } from '@angular/common/http'
 import { NgModule } from '@angular/core'
 import { MatAutocompleteModule } from '@angular/material/autocomplete'
+import { MatBadgeModule } from '@angular/material/badge'
 import { MatButtonModule } from '@angular/material/button'
 import { MatCardModule } from '@angular/material/card'
 import { MatChipsModule } from '@angular/material/chips'
@@ -13,6 +14,7 @@ import { MatGridListModule } from '@angular/material/grid-list'
 import { MatInputModule } from '@angular/material/input'
 import { MatIconModule } from '@angular/material/icon'
 import { MatSelectModule } from '@angular/material/select'
+import { MatSliderModule } from '@angular/material/slider'
 import { MatTooltipModule } from '@angular/material/tooltip'
 import { ServiceWorkerModule } from '@angular/service-worker'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
@@ -50,6 +52,10 @@ import { AnalyticsEventDirective } from './analytics-event.directive';
 import { ApplinkDirective } from './applink.directive';
 import { FitTextDirective} from './fittext.directive'
 import { SafePipe } from './safe.pipe'
+import { PlaylistControlsComponent } from './playlist/playlist-controls.component'
+import { PlaylistComponent } from './playlist/playlist.component'
+import { PlaylistDialogComponent } from './playlist/playlist-dialog.component'
+import { PlaylistAudioService } from './playlist-audio.service'
 
 @NgModule({
   declarations: [
@@ -74,6 +80,9 @@ import { SafePipe } from './safe.pipe'
     ApplinkDirective,
     FitTextDirective,
     SafePipe,
+    PlaylistControlsComponent,
+    PlaylistComponent,
+    PlaylistDialogComponent,
   ],
   imports: [
     BrowserModule,
@@ -83,6 +92,7 @@ import { SafePipe } from './safe.pipe'
     HttpClientModule,
     InfiniteScrollModule,
     MatAutocompleteModule,
+    MatBadgeModule,
     MatButtonModule,
     MatCardModule,
     MatChipsModule,
@@ -93,6 +103,7 @@ import { SafePipe } from './safe.pipe'
     MatIconModule,
     MatInputModule,
     MatSelectModule,
+    MatSliderModule,
     MatTooltipModule,
     Ng5SliderModule,
     ReactiveFormsModule,
@@ -106,6 +117,7 @@ import { SafePipe } from './safe.pipe'
     AnalyticsService,
     CookiesService,
     TranslatePipe,
+    PlaylistAudioService,
   ],
   bootstrap: [AppComponent],
   entryComponents: [
@@ -113,6 +125,7 @@ import { SafePipe } from './safe.pipe'
     BonusCardDetailComponent,
     HummingbirdCardDetailComponent,
     LanguageDialogComponent,
+    PlaylistDialogComponent,
   ]
 })
 export class AppModule { }

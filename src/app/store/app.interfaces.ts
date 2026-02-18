@@ -1,3 +1,12 @@
+export interface PlaylistState {
+    birdIds: number[]           // Array of bird IDs in playlist order
+    isPlaying: boolean          // Background playlist playback state
+    currentIndex: number        // Currently playing bird index
+    currentBirdId: number | null // Current bird ID being played
+    isShuffled: boolean         // Whether to randomize playback order
+    volume: number              // Playlist volume (0-1, default 0.7)
+}
+
 export interface AppState {
     birdCards: BirdCard[]
     bonusCards: BonusCard[]
@@ -16,6 +25,7 @@ export interface AppState {
     translatedContent: { [key: string]: { Translated: string } }
     parameters: { [key: string]: {Value: unknown} }
     assetPack: string
+    playlist: PlaylistState
 }
 
 export interface BirdCard {

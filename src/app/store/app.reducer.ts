@@ -101,7 +101,15 @@ export const initialState: AppState = {
         promoUK: cookies.getCookie('expansion.promoUK') !== '0',
         promoUS: cookies.getCookie('expansion.promoUS') !== '0',
     },
-    assetPack: cookies.getCookie('assetPack') || 'silhouette'
+    assetPack: cookies.getCookie('assetPack') || 'silhouette',
+    playlist: {
+        birdIds: JSON.parse(cookies.getCookie('playlist.birdIds') || '[]'),
+        isPlaying: false,
+        currentIndex: 0,
+        currentBirdId: null,
+        isShuffled: cookies.getCookie('playlist.isShuffled') === '1',
+        volume: parseFloat(cookies.getCookie('playlist.volume') || '0.7'),
+    }
 }
 
 const reducer = createReducer(
@@ -393,6 +401,216 @@ const reducer = createReducer(
         return {
             ...state,
             assetPack: action.assetPack
+        }
+    }),
+
+    // Playlist reducers
+    on(appActions.addToPlaylist, (state, action) => {
+        const isAlreadyInPlaylist = state.playlist.birdIds.includes(action.birdId)
+        if (isAlreadyInPlaylist) {
+            return state
+        }
+
+        const newBirdIds = [...state.playlist.birdIds, action.birdId]
+        cookies.setCookie('playlist.birdIds', JSON.stringify(newBirdIds), 365)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                birdIds: newBirdIds
+            }
+        }
+    }),
+
+    on(appActions.addToPlaylistAndPlay, (state, action) => {
+        // Add to playlist if not already there
+        const isAlreadyInPlaylist = state.playlist.birdIds.includes(action.birdId)
+        let newBirdIds = state.playlist.birdIds
+
+        if (!isAlreadyInPlaylist) {
+            newBirdIds = [...state.playlist.birdIds, action.birdId]
+            cookies.setCookie('playlist.birdIds', JSON.stringify(newBirdIds), 365)
+        }
+
+        // Set this bird as current and start playing
+        const currentIndex = newBirdIds.indexOf(action.birdId)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                birdIds: newBirdIds,
+                isPlaying: true,
+                        currentIndex,
+                currentBirdId: action.birdId
+            }
+        }
+    }),
+
+    on(appActions.removeFromPlaylist, (state, action) => {
+        const newBirdIds = state.playlist.birdIds.filter(id => id !== action.birdId)
+        const wasCurrentSong = state.playlist.currentBirdId === action.birdId
+        const newCurrentIndex = wasCurrentSong ? 0 : state.playlist.currentIndex
+        const newCurrentBirdId = wasCurrentSong ? null : state.playlist.currentBirdId
+
+        cookies.setCookie('playlist.birdIds', JSON.stringify(newBirdIds), 365)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                birdIds: newBirdIds,
+                currentIndex: newCurrentIndex,
+                currentBirdId: newCurrentBirdId,
+                isPlaying: newBirdIds.length === 0 ? false : state.playlist.isPlaying
+            }
+        }
+    }),
+
+    on(appActions.clearPlaylist, (state) => {
+        cookies.setCookie('playlist.birdIds', '[]', 365)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                birdIds: [],
+                isPlaying: false,
+                currentIndex: 0,
+                currentBirdId: null
+            }
+        }
+    }),
+
+    on(appActions.startPlaylist, (state) => {
+        if (state.playlist.birdIds.length === 0) {
+            return state
+        }
+
+        // Set currentBirdId if it's not set yet, or if current bird is no longer in playlist
+        let currentBirdId = state.playlist.currentBirdId
+        let currentIndex = state.playlist.currentIndex
+
+        if (currentBirdId === null || !state.playlist.birdIds.includes(currentBirdId)) {
+            // Start with first bird or random bird if shuffle is enabled
+            currentIndex = state.playlist.isShuffled
+                ? Math.floor(Math.random() * state.playlist.birdIds.length)
+                : 0
+            currentBirdId = state.playlist.birdIds[currentIndex]
+        }
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                isPlaying: true,
+                        currentIndex,
+                currentBirdId
+            }
+        }
+    }),
+
+    on(appActions.pausePlaylist, (state) => {
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                isPlaying: false
+            }
+        }
+    }),
+
+    on(appActions.resumePlaylist, (state) => {
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                isPlaying: true,
+                    }
+        }
+    }),
+
+    on(appActions.stopPlaylist, (state) => {
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                isPlaying: false,
+                currentIndex: 0,
+                currentBirdId: null,
+                    }
+        }
+    }),
+
+    on(appActions.nextSong, (state) => {
+        if (state.playlist.birdIds.length === 0) {
+            return state
+        }
+
+        const nextIndex = state.playlist.isShuffled
+            ? Math.floor(Math.random() * state.playlist.birdIds.length)
+            : (state.playlist.currentIndex + 1) % state.playlist.birdIds.length
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                currentIndex: nextIndex,
+                currentBirdId: state.playlist.birdIds[nextIndex]
+            }
+        }
+    }),
+
+    on(appActions.toggleShuffle, (state) => {
+        const newShuffleState = !state.playlist.isShuffled
+        cookies.setCookie('playlist.isShuffled', newShuffleState ? '1' : '0', 365)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                isShuffled: newShuffleState
+            }
+        }
+    }),
+
+
+    on(appActions.playlistSongEnded, (state) => {
+        if (state.playlist.birdIds.length === 0) {
+            return {
+                ...state,
+                playlist: {
+                    ...state.playlist,
+                    isPlaying: false,
+                    currentBirdId: null
+                }
+            }
+        }
+
+        const nextIndex = state.playlist.isShuffled
+            ? Math.floor(Math.random() * state.playlist.birdIds.length)
+            : (state.playlist.currentIndex + 1) % state.playlist.birdIds.length
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                currentIndex: nextIndex,
+                currentBirdId: state.playlist.birdIds[nextIndex]
+            }
+        }
+    }),
+
+    on(appActions.setPlaylistVolume, (state, action) => {
+        cookies.setCookie('playlist.volume', action.volume.toString(), 365)
+
+        return {
+            ...state,
+            playlist: {
+                ...state.playlist,
+                volume: action.volume
+            }
         }
     })
 )

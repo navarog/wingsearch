@@ -1,10 +1,10 @@
 import { AfterViewInit, Component, ElementRef, OnInit, ViewChild } from '@angular/core'
 import { Store } from '@ngrx/store'
-import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard } from '../store/app.interfaces'
+import { BirdCard, BonusCard, isBirdCard, isHummingbirdCard, isBonusCard, isBirdOrHummingbirdCard } from '../store/app.interfaces'
 import { selectCard, State, selectCardId } from '../store/router'
 import { Observable, BehaviorSubject } from 'rxjs'
 import { MatDialog } from '@angular/material/dialog'
-import { scroll } from '../store/app.actions'
+import * as appActions from '../store/app.actions'
 import { BirdCardDetailComponent } from '../bird-card/bird-card-detail/bird-card-detail.component'
 import { BonusCardDetailComponent } from '../bonus-card/bonus-card-detail/bonus-card-detail.component'
 import { HummingbirdCardDetailComponent } from '../hummingbird-card/hummingbird-card-detail/hummingbird-card-detail.component'
@@ -157,7 +157,14 @@ export class DisplayComponent implements OnInit, AfterViewInit {
   }
 
   onScroll() {
-    this.store.dispatch(scroll())
+    this.store.dispatch(appActions.scroll())
     this.analytics.sendEvent('Scroll cards', { event_category: 'engagement' })
+  }
+
+  onCardClick(card: BirdCard | BonusCard) {
+    // Add bird cards to playlist and immediately start playing them
+    if (isBirdOrHummingbirdCard(card)) {
+      this.store.dispatch(appActions.addToPlaylistAndPlay({ birdId: card.id }))
+    }
   }
 }

@@ -103,3 +103,37 @@ export const changeAssetPack = createAction('[App] Change asset pack',
         assetPack: string
   }>()
 )
+
+// Playlist actions
+export const addToPlaylist = createAction('[Playlist] Add to playlist',
+    props<{ birdId: number }>()
+)
+
+export const addToPlaylistAndPlay = createAction('[Playlist] Add to playlist and play',
+    props<{ birdId: number }>()
+)
+
+export const removeFromPlaylist = createAction('[Playlist] Remove from playlist',
+    props<{ birdId: number }>()
+)
+
+export const clearPlaylist = createAction('[Playlist] Clear playlist')
+
+export const startPlaylist = createAction('[Playlist] Start playlist')
+
+export const pausePlaylist = createAction('[Playlist] Pause playlist')
+
+export const resumePlaylist = createAction('[Playlist] Resume playlist')
+
+export const stopPlaylist = createAction('[Playlist] Stop playlist')
+
+export const nextSong = createAction('[Playlist] Next song')
+
+export const toggleShuffle = createAction('[Playlist] Toggle shuffle')
+
+
+export const playlistSongEnded = createAction('[Playlist] Song ended')
+
+export const setPlaylistVolume = createAction('[Playlist] Set volume',
+    props<{ volume: number }>()
+)

@@ -1,0 +1,76 @@
+<div matDialogTitle>
+  <div class="dialog-header">
+    <h2>Bird Sound Playlist</h2>
+    <button mat-icon-button (click)="close()" matTooltip="Close">
+      <mat-icon>close</mat-icon>
+    </button>
+  </div>
+</div>
+
+<div matDialogContent class="dialog-content">
+  <!-- Playlist Controls -->
+  <div class="playlist-controls">
+    <!-- Play/Pause Button -->
+    <button
+      mat-fab
+      color="primary"
+      (click)="togglePlayback()"
+      [disabled]="(playlistCount$ | async) === 0"
+      [matTooltip]="(isPlaying$ | async) ? 'Pause playlist' : 'Play playlist'">
+      <mat-icon>{{ (isPlaying$ | async) ? 'pause' : 'play_arrow' }}</mat-icon>
+    </button>
+
+    <!-- Control Buttons -->
+    <div class="control-buttons">
+      <button
+        mat-icon-button
+        (click)="nextSong()"
+        [disabled]="(playlistCount$ | async) === 0"
+        matTooltip="Next song">
+        <mat-icon>skip_next</mat-icon>
+      </button>
+
+      <button
+        mat-icon-button
+        [color]="(isShuffled$ | async) ? 'primary' : ''"
+        (click)="toggleShuffle()"
+        [matTooltip]="(isShuffled$ | async) ? 'Turn off shuffle' : 'Turn on shuffle'">
+        <mat-icon>shuffle</mat-icon>
+      </button>
+
+      <button
+        mat-icon-button
+        (click)="clearPlaylist()"
+        [disabled]="(playlistCount$ | async) === 0"
+        matTooltip="Clear playlist"
+        color="warn">
+        <mat-icon>clear_all</mat-icon>
+      </button>
+    </div>
+
+    <!-- Volume Control -->
+    <div class="volume-control">
+      <mat-icon>volume_up</mat-icon>
+      <mat-slider
+        min="0"
+        max="1"
+        step="0.1"
+        [value]="volume$ | async"
+        (change)="onVolumeChange($event.value)"
+        class="volume-slider"
+        thumbLabel
+        tickInterval="0.2">
+      </mat-slider>
+    </div>
+  </div>
+
+  <!-- Playlist Info -->
+  <div class="playlist-info">
+    <span class="song-count">{{ playlistCount$ | async }} bird{{ (playlistCount$ | async) !== 1 ? 's' : '' }} in playlist</span>
+  </div>
+
+  <!-- Playlist Grid -->
+  <div class="playlist-content">
+    <app-playlist></app-playlist>
+  </div>
+</div>

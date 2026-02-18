@@ -468,6 +468,7 @@
                 (click)="clearFilter(); bonusInput.value = ''" matTooltip="Reset all filters (except expansions)">
                 Reset <mat-icon>filter_alt</mat-icon>
             </button>
+            <app-playlist-controls></app-playlist-controls>
         </div>
     </div>
     <app-stats *ngIf="!canFitStats" [mobile]="true" [statsControls]="query.stats" (statsChange)="onStatsChange($event)">

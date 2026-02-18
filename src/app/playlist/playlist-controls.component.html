@@ -1,0 +1,21 @@
+<div class="playlist-section">
+  <h3 class="section-title">🎵 Bird Sound Playlist</h3>
+  <div class="playlist-controls">
+    <button
+      mat-raised-button
+      color="accent"
+      (click)="openPlaylistDialog()"
+      matTooltip="Open playlist to manage and play bird sounds">
+      <mat-icon>queue_music</mat-icon>
+      Playlist ({{ playlistCount$ | async }})
+    </button>
+    <button
+      mat-icon-button
+      *ngIf="(playlistCount$ | async) > 0"
+      (click)="togglePlayback()"
+      [color]="(isPlaying$ | async) ? 'warn' : 'primary'"
+      [matTooltip]="(isPlaying$ | async) ? 'Pause playlist' : 'Play playlist'">
+      <mat-icon>{{ (isPlaying$ | async) ? 'pause' : 'play_arrow' }}</mat-icon>
+    </button>
+  </div>
+</div>
