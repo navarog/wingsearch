@@ -5,7 +5,10 @@
       "Bash(export NODE_OPTIONS=\"--openssl-legacy-provider\")",
       "Bash(npm run build-prod:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(python:*)",
+      "Bash(python3:*)"
     ]
   }
 }
