@@ -353,7 +353,7 @@
       "Photographer": "X"
     },
     "34": {
-      "English name": "Black-Bellied Whistling Duck",
+      "English name": "Black-Bellied Whistling-Duck",
       "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Raudonsnap\u0117 med\u017e\u0105s\u0117",
       "Power text": "i\u0161met\u0119 1 [seed], i\u0161 kr\u016bvel\u0117s galite paimti 2 [card] ir paki\u0161ti po \u0161iuo pauk\u0161\u010diu.",
@@ -1145,7 +1145,7 @@
       "Photographer": null
     },
     "106": {
-      "English name": "Eastern Screech Owl",
+      "English name": "Eastern Screech-Owl",
       "Scientific name": "Megascops asio",
       "Common name": "\u0160iaur\u0117s Amerikos apuok\u0117lis",
       "Power text": "paridenkite visus lesykl\u0117l\u0117je nesan\u010dius kauliukus. Jei i\u0161krito bent vienas [rodent], gaukite 1 [rodent] ir kaupkite juos ant \u0161ios kortos.",
@@ -1508,7 +1508,7 @@
       "Photographer": null
     },
     "139": {
-      "English name": "Greater Prairie Chicken",
+      "English name": "Greater Prairie-Chicken",
       "Scientific name": "Tympanuchus cupido",
       "Common name": "Didysis prerinis tetervinas",
       "Power text": "paimkite 2 naujas premij\u0173 kortas ir 1 i\u0161 j\u0173 pasilikite.",
@@ -3257,7 +3257,7 @@
       "Photographer": null
     },
     "298": {
-      "English name": "K\u0101k\u0101p\u043e\u0304",
+      "English name": "K\u0101k\u0101p\u014d",
       "Scientific name": "Strigops habroptila",
       "Common name": null,
       "Power text": null,
@@ -3411,7 +3411,7 @@
       "Photographer": null
     },
     "312": {
-      "English name": "Many-Colored Fruit Dove",
+      "English name": "Many-Colored Fruit-Dove",
       "Scientific name": "Ptilinopus perousii",
       "Common name": null,
       "Power text": null,
@@ -4369,7 +4369,7 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus versicolor",
+      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": null,
       "Power text": null,
       "Note": null,
@@ -5617,7 +5617,7 @@
   },
   "parameters": {
     "Show bonus cards match symbols": {
-      "Value": 0
+      "Value": false
     }
   }
 }

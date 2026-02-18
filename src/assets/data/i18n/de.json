@@ -385,7 +385,7 @@
       "Flavor text": "Baumh\u00f6hlen dieses Vogels dienen vielen anderen V\u00f6geln als Heim."
     },
     "34": {
-      "English name": "Black-Bellied Whistling Duck",
+      "English name": "Black-Bellied Whistling-Duck",
       "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Rotschnabel-Pfeifgans",
       "Power text": "Wirf 1 [seed] ab, um 2 [card] vom Nachziehstapel unter diese Karte zu schieben.",
@@ -682,7 +682,7 @@
       "Cartographer": "X",
       "Historian": null,
       "Photographer": null,
-      "Flavor text": "In den 1980ern gab es nur noch 22 dieser Aasfresser.  Nun gibt es wieder \u00fcber 200 V\u00f6gel."
+      "Flavor text": "In den 1980ern gab es nur noch 22 dieser Aasfresser. Nun gibt es wieder \u00fcber 200 V\u00f6gel."
     },
     "59": {
       "English name": "California Quail",
@@ -1249,7 +1249,7 @@
       "Flavor text": "Tyranne nutzen Schlamm, um ihr Nest an Flussufern, Felsen oder Bauwerken zu befestigen."
     },
     "106": {
-      "English name": "Eastern Screech Owl",
+      "English name": "Eastern Screech-Owl",
       "Scientific name": "Megascops asio",
       "Common name": "Ostkreischeule",
       "Power text": "Wirf alle W\u00fcrfel, die nicht im Vogelh\u00e4uschen sind. Zeigt min. 1 [rodent], erhalte 1 [rodent] und lagere ihn auf dieser Karte.",
@@ -1645,7 +1645,7 @@
       "Flavor text": "Im Adelaide Zoo in Australien lebte ein Rosaflamingo, der mindestens 83 Jahre alt wurde."
     },
     "139": {
-      "English name": "Greater Prairie Chicken",
+      "English name": "Greater Prairie-Chicken",
       "Scientific name": "Tympanuchus cupido",
       "Common name": "Pr\u00e4riehuhn",
       "Power text": "Ziehe 2 neue Bonuskarten und behalte 1 davon.",
@@ -2126,7 +2126,7 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus cyaneus",
+      "Scientific name": "Circus hudsonius",
       "Common name": "Kornweihe",
       "Power text": "Ziehe 1 [card] vom Nachziehstapel. Ist sie < 75 cm, schiebe sie unter diese Karte. Andernfalls wirf sie ab.",
       "Note": null,
@@ -3553,7 +3553,7 @@
       "Flavor text": "Von weltweit 90 Lerchenarten ist nur diese in Australien heimisch."
     },
     "298": {
-      "English name": "K\u0101k\u0101p\u043e\u0304",
+      "English name": "K\u0101k\u0101p\u014d",
       "Scientific name": "Strigops habroptila",
       "Common name": "Kakapo",
       "Power text": "Ziehe 4 neue Bonuskarten und behalte 1 davon. Wirf den Rest ab.",
@@ -3616,7 +3616,7 @@
       "English name": "Laughing Kookaburra",
       "Scientific name": "Dacelo novaeguineae",
       "Common name": "J\u00e4gerliest",
-      "Power text": "Wirf alle Futterw\u00fcrfel erneut ins Vogelh\u00e4uschen. Erhalte dann daraus 1 [invertebrate],  [fish] oder [rodent].",
+      "Power text": "Wirf alle Futterw\u00fcrfel erneut ins Vogelh\u00e4uschen. Erhalte dann daraus 1 [invertebrate], [fish] oder [rodent].",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -3721,7 +3721,7 @@
       "Flavor text": "Im Herbst verbringen M\u00e4hnenenten mehr als den halben Tag mit Fressen."
     },
     "312": {
-      "English name": "Many-Colored Fruit Dove",
+      "English name": "Many-Colored Fruit-Dove",
       "Scientific name": "Ptilinopus perousii",
       "Common name": "Perousefruchttaube",
       "Power text": "Alle Spieler erhalten 1 [fruit] aus dem Vorrat. Du erh\u00e4ltst zus\u00e4tzlich 1 [fruit] aus dem Vorrat.",
@@ -4766,7 +4766,7 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus versicolor",
+      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": "Buntfasan",
       "Power text": "Alle Spieler legen 1 [egg].",
       "Note": null,

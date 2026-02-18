@@ -353,7 +353,7 @@
       "Photographer": null
     },
     "34": {
-      "English name": "Black-Bellied Whistling Duck",
+      "English name": "Black-Bellied Whistling-Duck",
       "Scientific name": "Dendrocygna autumnalis",
       "Common name": null,
       "Power text": null,
@@ -1145,7 +1145,7 @@
       "Photographer": null
     },
     "106": {
-      "English name": "Eastern Screech Owl",
+      "English name": "Eastern Screech-Owl",
       "Scientific name": "Megascops asio",
       "Common name": null,
       "Power text": null,
@@ -1508,7 +1508,7 @@
       "Photographer": null
     },
     "139": {
-      "English name": "Greater Prairie Chicken",
+      "English name": "Greater Prairie-Chicken",
       "Scientific name": "Tympanuchus cupido",
       "Common name": null,
       "Power text": null,
@@ -1949,7 +1949,7 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus cyaneus",
+      "Scientific name": "Circus hudsonius",
       "Common name": null,
       "Power text": null,
       "Note": null,
@@ -3257,7 +3257,7 @@
       "Photographer": null
     },
     "298": {
-      "English name": "K\u0101k\u0101p\u043e\u0304",
+      "English name": "K\u0101k\u0101p\u014d",
       "Scientific name": "Strigops habroptila",
       "Common name": null,
       "Power text": null,
@@ -3411,7 +3411,7 @@
       "Photographer": null
     },
     "312": {
-      "English name": "Many-Colored Fruit Dove",
+      "English name": "Many-Colored Fruit-Dove",
       "Scientific name": "Ptilinopus perousii",
       "Common name": null,
       "Power text": null,
@@ -4052,7 +4052,7 @@
       "English name": "Common Green Magpie",
       "Scientific name": "Cissa chinensis",
       "Common name": "\u30d8\u30ad\u30b5\u30f3",
-      "Power text": "\u3042\u306a\u305f\u306f\u990c\u7bb1\u304b\u3089[invertebrate]\u307e\u305f\u306f[rodent]\u3092\uff11\u500b\u7372\u5f97\u3059\u308b   (\u3042\u308b\u306a\u3089)\u3002\u305d\u308c\u3092\u3053\u306e\u9ce5\u306e\u4e0a\u306b\u84c4\u3048\u3066\u3082\u3088\u3044\u3002",
+      "Power text": "\u3042\u306a\u305f\u306f\u990c\u7bb1\u304b\u3089[invertebrate]\u307e\u305f\u306f[rodent]\u3092\uff11\u500b\u7372\u5f97\u3059\u308b (\u3042\u308b\u306a\u3089)\u3002\u305d\u308c\u3092\u3053\u306e\u9ce5\u306e\u4e0a\u306b\u84c4\u3048\u3066\u3082\u3088\u3044\u3002",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4085,7 +4085,7 @@
       "English name": "Common Sandpiper",
       "Scientific name": "Actitis hypoleucos",
       "Common name": "\u30a4\u30bd\u30b7\u30ae",
-      "Power text": "[egg]\u304c\uff11\u500b\u4ee5\u4e0a\u7f6e\u304b\u308c\u3066\u3044\u308b[wetland]\u306b\u3044\u308b\u9ce5\uff11\u7fbd\u306b\u3064\u304d   (\u3053\u306e\u9ce5\u3092\u542b\u3080) \u3001[card]\u3092\uff11\u679a\u5f15\u304f\u3002\u305d\u306e\u3046\u3061\uff11\u679a\u3092\u9078\u3093\u3067\u7372\u5f97\u3057\u3001\u6b8b\u308a\u3092\u6368\u3066\u308b\u3002",
+      "Power text": "[egg]\u304c\uff11\u500b\u4ee5\u4e0a\u7f6e\u304b\u308c\u3066\u3044\u308b[wetland]\u306b\u3044\u308b\u9ce5\uff11\u7fbd\u306b\u3064\u304d (\u3053\u306e\u9ce5\u3092\u542b\u3080) \u3001[card]\u3092\uff11\u679a\u5f15\u304f\u3002\u305d\u306e\u3046\u3061\uff11\u679a\u3092\u9078\u3093\u3067\u7372\u5f97\u3057\u3001\u6b8b\u308a\u3092\u6368\u3066\u308b\u3002",
       "Note": null,
       "Anatomist": null,
       "Cartographer": null,
@@ -4369,7 +4369,7 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus versicolor",
+      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": "\u30ad\u30b8",
       "Power text": "\u5404\u30d7\u30ec\u30a4\u30e4\u30fc\u306f\u4fdd\u6709\u3059\u308b\u9ce5\uff11\u7fbd\u3092\u9078\u3076\u3002\u305d\u306e\u9ce5\u306f[egg]\u3092\uff11\u500b\u7523\u5375\u3057\u3001\u305d\u306e\u9ce5\u306e\u4e0a\u306b\u7f6e\u304f\u3002",
       "Note": null,

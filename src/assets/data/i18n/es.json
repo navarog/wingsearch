@@ -353,7 +353,7 @@
       "Photographer": "X"
     },
     "34": {
-      "English name": "Black-Bellied Whistling Duck",
+      "English name": "Black-Bellied Whistling-Duck",
       "Scientific name": "Dendrocygna autumnalis",
       "Common name": "Suirir\u00ed piquirrojo",
       "Power text": "Descarta 1 [seed] para solapar 2 [card] del mazo bajo esta ave.",
@@ -1145,7 +1145,7 @@
       "Photographer": null
     },
     "106": {
-      "English name": "Eastern Screech Owl",
+      "English name": "Eastern Screech-Owl",
       "Scientific name": "Megascops asio",
       "Common name": "Autillo yanqui",
       "Power text": "Tira todos los datos que no est\u00e9n en el comedero. Si en alguno sale [rodent], obt\u00e9n 1 [rodent] y almac\u00e9nalo en esta carta.",
@@ -1508,7 +1508,7 @@
       "Photographer": null
     },
     "139": {
-      "English name": "Greater Prairie Chicken",
+      "English name": "Greater Prairie-Chicken",
       "Scientific name": "Tympanuchus cupido",
       "Common name": "Gallo de las praderas grande",
       "Power text": "Roba 2 nuevas cartas de bonificaci\u00f3n y qu\u00e9date 1.",
@@ -1949,7 +1949,7 @@
     },
     "179": {
       "English name": "Northern Harrier",
-      "Scientific name": "Circus cyaneus",
+      "Scientific name": "Circus hudsonius",
       "Common name": "Aguilucho p\u00e1lido",
       "Power text": "Mira una [card] del mazo. Si su envergadura es inferior a 75 cm, sol\u00e1pala bajo esta carta. De lo contrario, desc\u00e1rtala.",
       "Note": null,
@@ -3257,7 +3257,7 @@
       "Photographer": null
     },
     "298": {
-      "English name": "K\u0101k\u0101p\u043e\u0304",
+      "English name": "K\u0101k\u0101p\u014d",
       "Scientific name": "Strigops habroptila",
       "Common name": null,
       "Power text": null,
@@ -3411,7 +3411,7 @@
       "Photographer": null
     },
     "312": {
-      "English name": "Many-Colored Fruit Dove",
+      "English name": "Many-Colored Fruit-Dove",
       "Scientific name": "Ptilinopus perousii",
       "Common name": null,
       "Power text": null,
@@ -4369,7 +4369,7 @@
     },
     "399": {
       "English name": "Green Pheasant",
-      "Scientific name": "Phasianus versicolor",
+      "Scientific name": "Phasianus colchicus versicolor",
       "Common name": null,
       "Power text": null,
       "Note": null,
