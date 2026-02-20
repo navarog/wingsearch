@@ -19,6 +19,9 @@ export class BirdCardComponent implements OnInit {
   @Input()
   cardHeight$: Observable<number>
 
+  @Input()
+  showBeakDirection = false
+
   assetPack$: Observable<string>
 
   parameters$: { [key: string]: { Value: unknown }}
@@ -153,6 +156,16 @@ export class BirdCardComponent implements OnInit {
       [ExpansionType.Asia]: 'swift_start_asia',
     }
     return this.card['Swift Start'] ? iconMap[this.card.Set] || '' : ''
+  }
+
+  getBeakDirectionIcon(): string {
+    const beakMap = {
+      'L': '[beak_pointing_left]',
+      'R': '[beak_pointing_right]',
+      'LR': '[beak_pointing_left][beak_pointing_right]',
+      'N': ''
+    }
+    return beakMap[this.card['Beak direction']] || ''
   }
 
   isPromo(): boolean {
