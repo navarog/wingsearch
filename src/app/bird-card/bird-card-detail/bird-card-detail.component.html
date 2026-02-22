@@ -2,7 +2,7 @@
     <div class="flex-content">
         <mat-card #cardWrapper class="card-wrapper" [ngStyle]="{'border-radius.px': (cardHeight$ | async) * 0.025}">
             <div #cardElement class="card-content">
-                <app-bird-card [card]="data.card" [cardHeight$]="cardHeight$"></app-bird-card>
+                <app-bird-card [card]="data.card" [cardHeight$]="cardHeight$" [showBeakDirection]="true"></app-bird-card>
             </div>
             <div class="note" *ngIf="data.card.Note">
                 <h2>Appendix entry</h2>
