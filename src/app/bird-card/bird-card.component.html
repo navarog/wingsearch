@@ -44,6 +44,7 @@
                     <img src="assets/icons/png/smallegg.png" alt="smallegg" aria-hidden="true">
                 </picture>
             </div>
+            <span *ngIf="showBeakDirection" [innerHTML]="getBeakDirectionIcon() | iconize" class="beak"></span>
         </div>
         <div class="right-column" *ngIf="cardHeight">
             <span [innerHTML]="wingspan" class="wingspan-value"
