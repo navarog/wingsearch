@@ -5685,7 +5685,7 @@
     "1042": {
       "English name": "Forest Ranger",
       "Name": "Bosbeheerder",
-      "Condition": "Opeenvolgende vogels in [forest] met op- of aflopende puntenwaarden. ",
+      "Condition": "Opeenvolgende vogels in [forest] met op- of aflopende puntenwaarden.",
       "Explanatory text": "De puntenwaarde van elke vogel moet hoger zijn dan die van de volgende. Je mag van rechts naar links of van links naar rechts.",
       "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
@@ -5701,7 +5701,7 @@
     "1044": {
       "English name": "Grassland Ranger",
       "Name": "Weidewachter",
-      "Condition": "Opeenvolgende vogels in [grassland] met op- of aflopende puntenwaarden. ",
+      "Condition": "Opeenvolgende vogels in [grassland] met op- of aflopende puntenwaarden.",
       "Explanatory text": "De puntenwaarde van elke vogel moet hoger zijn dan die van de volgende. Je mag van rechts naar links of van links naar rechts.",
       "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
@@ -5733,14 +5733,14 @@
     "1048": {
       "English name": "Wetland Ranger",
       "Name": "Moeraswachter",
-      "Condition": "Opeenvolgende vogels in [wetland] met op- of aflopende puntenwaarden. ",
+      "Condition": "Opeenvolgende vogels in [wetland] met op- of aflopende puntenwaarden.",
       "Explanatory text": "De puntenwaarde van elke vogel moet hoger zijn dan die van de volgende. Je mag van rechts naar links of van links naar rechts.",
       "VP": "3 opeenvolgende vogels: 3[point]; 4 opeenvolgende vogels: 5[point]; 5 opeenvolgende vogels: 8[point]",
       "Note": null
     },
     "1049": {
       "English name": "Winter Feeder",
-      "Name": "Wintervoeder ",
+      "Name": "Wintervoeder",
       "Condition": "Voedsel in je voorraad aan het einde van het spel",
       "Explanatory text": null,
       "VP": null,
@@ -5765,103 +5765,103 @@
   },
   "goals": {
     "2000": {
-      "English name": "Bird in Forest",
+      "English name": "Birds in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2001": {
-      "English name": "Bird in Grassland",
+      "English name": "Birds in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2002": {
-      "English name": "Bird in Wetland",
+      "English name": "Birds in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2013": {
-      "English name": "Egg in Forest",
+      "English name": "Eggs in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2014": {
-      "English name": "Egg in Grassland",
+      "English name": "Eggs in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2017": {
-      "English name": "Egg in Wetland",
+      "English name": "Eggs in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2010": {
-      "English name": "Cavity Nest Bird with Egg",
+      "English name": "Cavity nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2008": {
-      "English name": "Bowl Nest Bird with Egg",
+      "English name": "Bowl nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2021": {
-      "English name": "Ground Nest Bird with Egg",
+      "English name": "Ground nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2022": {
-      "English name": "Platform Nest Bird with Egg",
+      "English name": "Platform nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2012": {
-      "English name": "Egg in Cavity Nest",
+      "English name": "Eggs in Cavity Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2011": {
-      "English name": "Egg in Bowl Nest",
+      "English name": "Eggs in Bowl Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2015": {
-      "English name": "Egg in Ground Nest",
+      "English name": "Eggs in Ground Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2016": {
-      "English name": "Egg in Platform Nest",
+      "English name": "Eggs in Platform Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
+      "English name": "Sets of eggs in 3 habitats",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2024": {
-      "English name": "Total Bird",
+      "English name": "Total birds",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2020": {
-      "English name": "Food in Supply",
+      "English name": "Food in personal supply",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
@@ -5873,169 +5873,169 @@
       "Explanatory Text": null
     },
     "2004": {
-      "English name": "Birds Worth over 4 Points",
+      "English name": "Birds worth over 4 points",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2006": {
-      "English name": "Birds with No Eggs",
+      "English name": "Birds with no eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2005": {
-      "English name": "Birds in 1 Row",
+      "English name": "Birds in one row",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2018": {
-      "English name": "Filled Columns",
+      "English name": "Filled columns",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2009": {
-      "English name": "Brown Powers",
+      "English name": "Brown powers",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2025": {
-      "English name": "White & No Powers",
+      "English name": "White & no powers",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2007": {
-      "English name": "Birds with Tucked Cards",
+      "English name": "Birds with tucked cards",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2019": {
-      "English name": "Food Cost of Played Birds",
+      "English name": "Food cost of played birds",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
+      "English name": "Invertebrate in food cost of your birds",
       "Name": null,
       "Condition": "[invertebrate] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
+      "English name": "Fruit + Seed in food cost of your birds",
       "Name": null,
       "Condition": "[fruit] + [seed] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
+      "English name": "Rodent + Fish in food cost of your birds",
       "Name": null,
       "Condition": "[rodent] + [fish] in voedselkosten van je vogels",
       "Explanatory Text": null
     },
     "2032": {
-      "English name": "No Goal",
+      "English name": "No goal",
       "Name": null,
       "Condition": "Geen doel",
       "Explanatory Text": null
     },
     "2026": {
-      "English name": "Beak Pointing Left",
+      "English name": "Beak pointing left",
       "Name": null,
       "Condition": "Snavel wijst naar links",
       "Explanatory Text": null
     },
     "2027": {
-      "English name": "Beak Pointing Right",
+      "English name": "Beak pointing right",
       "Name": null,
       "Condition": "Snavel wijst naar rechts",
       "Explanatory Text": null
     },
     "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
+      "English name": "Cubes on \"play a bird\"",
       "Name": null,
       "Condition": "[cube] op \"Speel een vogel\"",
       "Explanatory Text": null
     },
     "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
+      "English name": "Birds worth less than or equal to 3 points",
       "Name": null,
       "Condition": "[bird] die \u22643[point] waard zijn",
       "Explanatory Text": null
     },
     "2043": {
-      "English name": "Pairs of Matching Symbols",
+      "English name": "Duet tokens on pairs of matching symbols",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2040": {
-      "English name": "Nest Symbols",
+      "English name": "Duet tokens on nest symbols",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2035": {
-      "English name": "Food Symbols",
+      "English name": "Duet tokens on food symbols",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2041": {
-      "English name": "Not on Edge of Map",
+      "English name": "Duet tokens not on edge of map",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2042": {
-      "English name": "On Edge of Map",
+      "English name": "Duet tokens on edge of map",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
+      "English name": "Duet tokens in any one horizontal row",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
+      "English name": "Horizontal rows with at least 1 of your duet tokens",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
+      "English name": "Fewest duet tokens on bonus spaces",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2037": {
-      "English name": "In Forest",
+      "English name": "Duet tokens in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2038": {
-      "English name": "In Grassland",
+      "English name": "Duet tokens in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2039": {
-      "English name": "In Wetland",
+      "English name": "Duet tokens in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2045": {
-      "English name": "Total Duet Tokens",
+      "English name": "Total duet tokens",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null

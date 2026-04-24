@@ -5360,7 +5360,7 @@
       "Condition": "V\u00f6gel mit K\u00f6rperteilen im Namen",
       "Explanatory text": "K\u00f6rperteile beinhalten Augen, Bauch, Bein, Brust, Fl\u00fcgel, Fu\u00df, Hals, H\u00f6cker, Horn, Kehle, Kopf, Nacken, Ohren, R\u00fccken, Schnabel, Schulter, Schwanz, Stei\u00df, Stirn, Wange",
       "VP": "2 - 3 V\u00f6gel: 3[point]; 4+ V\u00f6gel: 7[point]",
-      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten  ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
+      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
     },
     "1001": {
       "English name": "Backyard Birder",
@@ -5388,7 +5388,7 @@
     },
     "1004": {
       "English name": "Bird Counter",
-      "Name": "Vogelz\u00e4hler ",
+      "Name": "Vogelz\u00e4hler",
       "Condition": "V\u00f6gel mit [flocking] F\u00e4higkeit",
       "Explanatory text": null,
       "VP": "2[point] pro Vogel",
@@ -5416,7 +5416,7 @@
       "Condition": "V\u00f6gel mit Geografiebegriffen im Namen",
       "Explanatory text": "Begriffe beinhalten Amerika, Australien, Baltimore, Berg, Carolina, Ceylon, China, Fluss, Himalaya, Holland, Indien, Inka, Kalifornien, Kanada, Korsika, Ligurien, Louisiana, Mandschurei, Mississippi, Neuholland, Nippon, Nordamerika, Norden, Osten, Papua, Pr\u00e4rie, Steppe, Strand, S\u00fcdsee, Sumpf, T\u00fcrkei, Virginia, Wald, W\u00fcste",
       "VP": "2 - 3 V\u00f6gel: 3[point]; 4+ V\u00f6gel: 7[point]",
-      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten  ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
+      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
     },
     "1008": {
       "English name": "Citizen Scientist",
@@ -5460,7 +5460,7 @@
     },
     "1013": {
       "English name": "Falconer",
-      "Name": "Falkner ",
+      "Name": "Falkner",
       "Condition": "V\u00f6gel mit [predator] F\u00e4higkeit",
       "Explanatory text": null,
       "VP": "2[point] pro Vogel",
@@ -5468,7 +5468,7 @@
     },
     "1014": {
       "English name": "Fishery Manager",
-      "Name": "Fischer ",
+      "Name": "Fischer",
       "Condition": "[fish] fressende V\u00f6gel",
       "Explanatory text": "Jeder Vogel mit [fish] Symbol. Der Vogel darf auch andere Futterarten fressen.",
       "VP": "2 - 3 V\u00f6gel: 3[point]; 4+ V\u00f6gel: 8[point]",
@@ -5476,7 +5476,7 @@
     },
     "1015": {
       "English name": "Food Web Expert",
-      "Name": "Schneckenfreund ",
+      "Name": "Schneckenfreund",
       "Condition": "Nur [invertebrate] fressende V\u00f6gel",
       "Explanatory text": "Jeder Vogel, der nur [invertebrate] und keine anderen Futtersymbole hat.",
       "VP": "2[point] pro Vogel",
@@ -5484,7 +5484,7 @@
     },
     "1016": {
       "English name": "Forester",
-      "Name": "F\u00f6rster ",
+      "Name": "F\u00f6rster",
       "Condition": "V\u00f6gel, die nur im [forest] leben k\u00f6nnen",
       "Explanatory text": null,
       "VP": "3 - 4 V\u00f6gel: 4[point]; 5 V\u00f6gel: 8[point]",
@@ -5496,11 +5496,11 @@
       "Condition": "V\u00f6gel mit Pflanzen- oder Tiernamen",
       "Explanatory text": "Pflanzen: Buche, Eiche, Fichte, Gras, Kiefer, Kohl, Koralle, Mistel, Pappel, Reis, Rose, Tanne, Veilchen, Wacholder, Weide, Zeder<br>Tiere (keine V\u00f6gel): Affe, Biene, Dachs, Fisch, Heuschrecke, Kaninchen, Katze, Kuh, Maus, M\u00fccke, Nashorn, Schlange, Tiger, Wespe, Zebra",
       "VP": "2[point] pro Vogel",
-      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten  ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
+      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
     },
     "1018": {
       "English name": "Large Bird Specialist",
-      "Name": "Grossvogelkundler ",
+      "Name": "Grossvogelkundler",
       "Condition": "V\u00f6gel mit einer Spannweite > 65 cm",
       "Explanatory text": null,
       "VP": "4 - 5 V\u00f6gel: 3[point]; 6+ V\u00f6gel: 6[point]",
@@ -5516,7 +5516,7 @@
     },
     "1020": {
       "English name": "Omnivore Specialist",
-      "Name": "Gourmand ",
+      "Name": "Gourmand",
       "Condition": "[wild] fressende V\u00f6gel",
       "Explanatory text": "Jeder Vogel mit [wild] Symbol als Teil seiner Futterkosten.",
       "VP": "2[point] pro Vogel",
@@ -5524,7 +5524,7 @@
     },
     "1021": {
       "English name": "Oologist",
-      "Name": "Oologe ",
+      "Name": "Oologe",
       "Condition": "V\u00f6gel mit min. 1 Ei auf ihrer Karte",
       "Explanatory text": null,
       "VP": "7 - 8 V\u00f6gel: 3[point]; 9+ V\u00f6gel: 6[point]",
@@ -5532,7 +5532,7 @@
     },
     "1022": {
       "English name": "Passerine Specialist",
-      "Name": "Sperlingskundler ",
+      "Name": "Sperlingskundler",
       "Condition": "V\u00f6gel mit einer Spannweite \u2264 30 cm",
       "Explanatory text": null,
       "VP": "4 - 5 V\u00f6gel: 3[point]; 6+ V\u00f6gel: 6[point]",
@@ -5540,15 +5540,15 @@
     },
     "1023": {
       "English name": "Photographer",
-      "Name": "Fotograf ",
+      "Name": "Fotograf",
       "Condition": "V\u00f6gel mit Farben / Mustern im Namen",
       "Explanatory text": "Farben: Amethyst, Azur, Blau, Braun, Gelb, Gold, Grau, Gr\u00fcn, Indigo, Koralle, Kupfer, Lazuli, Mandarin, Purpur, Rosa, Rose, Rost, Rot, Rubin, Scharlach, Schiefer, Schwarz, Silber, Smaragd, T\u00fcrkis, Veilchen, Wei\u00df, Zimt, Zitrone<br>Muster: Brille, Bunt, Flecken, Maske, Regenbogen, Streifen",
       "VP": "4 - 5 V\u00f6gel: 4[point]; 6+ V\u00f6gel: 7[point]",
-      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten  ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
+      "Note": "Durch sprachliche Unterschiede bei den Trivialnamen \u00e4ndert sich die Prozentzahl und damit auch die Punktewertung einzelner Bonuskarten deutlich, sodass wir empfehlen, bei bestimmten ogelkartenKombinationen aus Grundspiel und/oder Erweiterungen, einzelne Bonuskarten zu entfernen. Ansonsten bleibt die unktewertung der Bonuskarten gleich. Eine \u00dcbersicht findet ihr in der Tabelle.<br><table><th>Vogelkarten-Kombination</th><th>Zu entfernende Bonuskarten</th><tr><td>Grundspiel, Ozeanien</td><td>Biologe, Morphologe</td></tr><tr><td>Grundspiel, Europa, Ozeanien</td><td>Geograf</td></tr><tr><td>Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa</td><td>Geograf, Morphologe</td></tr><tr><td>Grundspiel, Asien, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Grundspiel, Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr><tr><td>Asien, Europa</td><td>Biologe, Geograf, Morphologe</td></tr><tr><td>Asien, Ozeanien</td><td>Biologe, Fotograf, Geograf, Morphologe</td></tr><tr><td>Asien, Europa, Ozeanien</td><td>Biologe, Geograf</td></tr></table>"
     },
     "1024": {
       "English name": "Platform Builder",
-      "Name": "Plattformbauer ",
+      "Name": "Plattformbauer",
       "Condition": "V\u00f6gel mit [platform] Nest",
       "Explanatory text": "Die V\u00f6gel m\u00fcssen ein [platform] oder [star] Nestsymbol haben.",
       "VP": "4 - 5 V\u00f6gel: 4[point]; 6+ V\u00f6gel: 7[point]",
@@ -5572,7 +5572,7 @@
     },
     "1027": {
       "English name": "Visionary Leader",
-      "Name": "Vogelbeobachter ",
+      "Name": "Vogelbeobachter",
       "Condition": "Vogelkarten auf der Hand am Spielende",
       "Explanatory text": null,
       "VP": "5 - 7 V\u00f6gel: 4[point]; 8+ V\u00f6gel: 7[point]",
@@ -5773,103 +5773,103 @@
   },
   "goals": {
     "2000": {
-      "English name": "Bird in Forest",
+      "English name": "Birds in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2001": {
-      "English name": "Bird in Grassland",
+      "English name": "Birds in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2002": {
-      "English name": "Bird in Wetland",
+      "English name": "Birds in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2013": {
-      "English name": "Egg in Forest",
+      "English name": "Eggs in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2014": {
-      "English name": "Egg in Grassland",
+      "English name": "Eggs in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2017": {
-      "English name": "Egg in Wetland",
+      "English name": "Eggs in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2010": {
-      "English name": "Cavity Nest Bird with Egg",
+      "English name": "Cavity nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2008": {
-      "English name": "Bowl Nest Bird with Egg",
+      "English name": "Bowl nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2021": {
-      "English name": "Ground Nest Bird with Egg",
+      "English name": "Ground nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2022": {
-      "English name": "Platform Nest Bird with Egg",
+      "English name": "Platform nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2012": {
-      "English name": "Egg in Cavity Nest",
+      "English name": "Eggs in Cavity Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2011": {
-      "English name": "Egg in Bowl Nest",
+      "English name": "Eggs in Bowl Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2015": {
-      "English name": "Egg in Ground Nest",
+      "English name": "Eggs in Ground Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2016": {
-      "English name": "Egg in Platform Nest",
+      "English name": "Eggs in Platform Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
+      "English name": "Sets of eggs in 3 habitats",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2024": {
-      "English name": "Total Bird",
+      "English name": "Total birds",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2020": {
-      "English name": "Food in Supply",
+      "English name": "Food in personal supply",
       "Name": "Futter im eigenen Vorrat",
       "Condition": "[wild] im eigenen Vorrat",
       "Explanatory Text": "Die Anzahl der Futtermarker in deinem Vorrat."
@@ -5881,169 +5881,169 @@
       "Explanatory Text": "Die Anzahl der Vogelkarten auf deiner Hand."
     },
     "2004": {
-      "English name": "Birds Worth over 4 Points",
+      "English name": "Birds worth over 4 points",
       "Name": "V\u00f6gel mit Wert gr\u00f6\u00dfer 4SP",
       "Condition": "[bird] mit Wert >4[point]",
       "Explanatory Text": "Die Anzahl deiner gespielten V\u00f6gel mit einem Wert gr\u00f6\u00dfer 4 Siegpunkten."
     },
     "2006": {
-      "English name": "Birds with No Eggs",
+      "English name": "Birds with no eggs",
       "Name": "V\u00f6gel ohne Eier",
       "Condition": null,
       "Explanatory Text": "Die Anzahl deiner gespielten V\u00f6gel, auf denen keine Eier liegen."
     },
     "2005": {
-      "English name": "Birds in 1 Row",
+      "English name": "Birds in one row",
       "Name": "V\u00f6gel in einer Reihe",
       "Condition": "[bird] in einer Reihe",
       "Explanatory Text": "Die Anzahl der gespielten V\u00f6gel in deinem Lebensraum mit den meisten V\u00f6geln."
     },
     "2018": {
-      "English name": "Filled Columns",
+      "English name": "Filled columns",
       "Name": "komplett gef\u00fcllte Spalten",
       "Condition": null,
       "Explanatory Text": "Die Anzahl der Spalten auf deinem Tableau, in denen alle 3 Kartenpl\u00e4tze mit V\u00f6geln belegt sind."
     },
     "2009": {
-      "English name": "Brown Powers",
+      "English name": "Brown powers",
       "Name": "Braune F\u00e4higkeiten",
       "Condition": "braune F\u00e4higkeiten",
       "Explanatory Text": "Die Anzahl deiner gespielten V\u00f6gel mit einer braunen F\u00e4higkeit (\u201eBei Aktivierung\u201c)."
     },
     "2025": {
-      "English name": "White & No Powers",
+      "English name": "White & no powers",
       "Name": "wei\u00dfe & keine F\u00e4higkeiten",
       "Condition": null,
       "Explanatory Text": "Die Anzahl deiner gespielten V\u00f6gel mit einer wei\u00dfen (\u201eBeim Ausspielen\u201c) oder ohne F\u00e4higkeit."
     },
     "2007": {
-      "English name": "Birds with Tucked Cards",
+      "English name": "Birds with tucked cards",
       "Name": "V\u00f6gel mit Karten darunter",
       "Condition": "[flocking] V\u00f6gel mit Karten darunter",
       "Explanatory Text": "Die Anzahl deiner V\u00f6gel unter denen mindestens 1 Karte liegt."
     },
     "2019": {
-      "English name": "Food Cost of Played Birds",
+      "English name": "Food cost of played birds",
       "Name": "Futterkosten gespielter V\u00f6gel",
       "Condition": null,
       "Explanatory Text": "Z\u00e4hle die Futterkosten deiner V\u00f6gel. Kannst du zwischen Futterarten w\u00e4hlen, z\u00e4hle die Kosten nur einmal."
     },
     "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
+      "English name": "Invertebrate in food cost of your birds",
       "Name": "Wirbellose in den Futterkosten eurer V\u00f6gel",
       "Condition": "[invertebrate] in den Futterkosten deiner V\u00f6gel",
       "Explanatory Text": "Z\u00e4hlt die Anzahl der Futtersymbole auf euren gespielten V\u00f6geln, die dem Futtersymbol auf dem Rundenziel entsprechen. Z\u00e4hle zum Beispiel f\u00fcr das Rundenziel \u201e[fruit]+[seed] in den Futterkosten deiner V\u00f6gel\u201c die Anzahl aller [fruit] plus der Anzahl aller [seed] in den Futterkosten der V\u00f6gel auf eurem Spielertableau. Hat ein Vogel \u201e[fruit]/[seed]\u201c Futterkosten (du hast also 1 [fruit] ODER 1 [seed] bezahlt, um den Vogel zu spielen), z\u00e4hlt dies nur als 1 f\u00fcr das Rundenziel (nicht als 2). [wild] und [nectar] z\u00e4hlen nicht."
     },
     "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
+      "English name": "Fruit + Seed in food cost of your birds",
       "Name": "Fr\u00fcchte + Samen in den Futterkosten eurer V\u00f6gel",
       "Condition": "[fruit] + [seed] in den Futterkosten deiner V\u00f6gel",
       "Explanatory Text": "Z\u00e4hlt die Anzahl der Futtersymbole auf euren gespielten V\u00f6geln, die dem Futtersymbol auf dem Rundenziel entsprechen. Z\u00e4hle zum Beispiel f\u00fcr das Rundenziel \u201e[fruit]+[seed] in den Futterkosten deiner V\u00f6gel\u201c die Anzahl aller [fruit] plus der Anzahl aller [seed] in den Futterkosten der V\u00f6gel auf eurem Spielertableau. Hat ein Vogel \u201e[fruit]/[seed]\u201c Futterkosten (du hast also 1 [fruit] ODER 1 [seed] bezahlt, um den Vogel zu spielen), z\u00e4hlt dies nur als 1 f\u00fcr das Rundenziel (nicht als 2). [wild] und [nectar] z\u00e4hlen nicht."
     },
     "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
+      "English name": "Rodent + Fish in food cost of your birds",
       "Name": "Nager + Fische in den Futterkosten eurer V\u00f6gel",
       "Condition": "[rodent] + [fish] in den Futterkosten deiner V\u00f6gel",
       "Explanatory Text": "Z\u00e4hlt die Anzahl der Futtersymbole auf euren gespielten V\u00f6geln, die dem Futtersymbol auf dem Rundenziel entsprechen. Z\u00e4hle zum Beispiel f\u00fcr das Rundenziel \u201e[fruit]+[seed] in den Futterkosten deiner V\u00f6gel\u201c die Anzahl aller [fruit] plus der Anzahl aller [seed] in den Futterkosten der V\u00f6gel auf eurem Spielertableau. Hat ein Vogel \u201e[fruit]/[seed]\u201c Futterkosten (du hast also 1 [fruit] ODER 1 [seed] bezahlt, um den Vogel zu spielen), z\u00e4hlt dies nur als 1 f\u00fcr das Rundenziel (nicht als 2). [wild] und [nectar] z\u00e4hlen nicht."
     },
     "2032": {
-      "English name": "No Goal",
+      "English name": "No goal",
       "Name": "Kein Ziel",
       "Condition": "Kein Ziel",
       "Explanatory Text": "Am Ende dieser Runde wird kein Rundenziel gewertet. Ihr behaltet euren Aktionsw\u00fcrfel. In den folgenden Runden k\u00f6nnt ihr also eine Aktion mehr machen als \u00fcblich."
     },
     "2026": {
-      "English name": "Beak Pointing Left",
+      "English name": "Beak pointing left",
       "Name": "Schnabel zeigt nach links",
       "Condition": "[beak-left] Schnabel zeigt nach links",
       "Explanatory Text": "F\u00fcr diese Rundenziele z\u00e4hlen eure gespielten V\u00f6gel, deren Schnabel in die angegebene Richtung zeigt. V\u00f6gel, deren Schnabel nach vorn oder senkrecht nach oben zeigt, z\u00e4hlen f\u00fcr keines der beiden Rundenziele.<br>Diese Rundenziele sollen euch ermutigen, euch die Illustrationen noch genauer anzusehen. Falls ihr euch h\u00e4ufig nicht einigen k\u00f6nnt, in welche Richtung der Schnabel zeigt, entfernt dieses Zielpl\u00e4ttchen aus dem Spiel. Auch wenn wir finden, dass man die Schnabelrichtung meist gut zuordnen kann, m\u00f6chten wir folgendes klarstellen:<br><ul><li>Obwohl der Schiefschnabel (Ozeanienerweiterung) nach vorn blickt, zeigt sein Schnabel auf die linke Seite der Karte.</li><li>Der Eistaucher (Grundspiel) und der Zwergtaucher (Asienerweiterung) zeigen je 1 Vogel, der nach links und 1 Vogel, der nach rechts blickt. Sie z\u00e4hlt daher f\u00fcr beide Ziele.</li><li>Der Haubentaucher (Europaerweiterung) zeigt 2 V\u00f6gel, die in die gleiche Richtung blicken. Er z\u00e4hlt nur f\u00fcr das Ziel \u201enach links zeigend\u201c und auch nur 1x.</li></ul><br>Die Schn\u00e4bel der folgenden V\u00f6gel zeigen weder nach rechts noch nach links.<br><b>Grundspiel</b><ul><li>Fleckenkauz</li><li>Kalifornischer Kondor</li><li>Kaninchenkauz</li><li>Ohrenlerche</li><li>Ostkreischeule</li><li>Schleiereule</li><li>Streifenkauz</li><li>Virginiauhu</li></ul><b>Europa-Erweiterung</b><ul><li>Gartenbauml\u00e4ufer</li><li>Schneeeule</li><li>Steinkauz</li></ul><b>Ozeanien-Erweiterung</b><ul><li>Baumschwalm</li><li>Kakapo</li><li>Rostkauz</li></ul><b>Asien-Erweiterung</b><ul><li>Bartmeise</li><li>Blewittkauz</li><li>Ceylonschwalm</li><li>L\u00f6ffelstrandl\u00e4ufer</li><li>Maskeneule</li><li>Uhu</li></ul>"
     },
     "2027": {
-      "English name": "Beak Pointing Right",
+      "English name": "Beak pointing right",
       "Name": "Schnabel zeigt nach rechts",
       "Condition": "[beak-left] Schnabel zeigt nach rechts",
       "Explanatory Text": "F\u00fcr diese Rundenziele z\u00e4hlen eure gespielten V\u00f6gel, deren Schnabel in die angegebene Richtung zeigt. V\u00f6gel, deren Schnabel nach vorn oder senkrecht nach oben zeigt, z\u00e4hlen f\u00fcr keines der beiden Rundenziele.<br>Diese Rundenziele sollen euch ermutigen, euch die Illustrationen noch genauer anzusehen. Falls ihr euch h\u00e4ufig nicht einigen k\u00f6nnt, in welche Richtung der Schnabel zeigt, entfernt dieses Zielpl\u00e4ttchen aus dem Spiel. Auch wenn wir finden, dass man die Schnabelrichtung meist gut zuordnen kann, m\u00f6chten wir folgendes klarstellen:<br><ul><li>Obwohl der Schiefschnabel (Ozeanienerweiterung) nach vorn blickt, zeigt sein Schnabel auf die linke Seite der Karte.</li><li>Der Eistaucher (Grundspiel) und der Zwergtaucher (Asienerweiterung) zeigen je 1 Vogel, der nach links und 1 Vogel, der nach rechts blickt. Sie z\u00e4hlt daher f\u00fcr beide Ziele.</li><li>Der Haubentaucher (Europaerweiterung) zeigt 2 V\u00f6gel, die in die gleiche Richtung blicken. Er z\u00e4hlt nur f\u00fcr das Ziel \u201enach links zeigend\u201c und auch nur 1x.</li></ul><br>Die Schn\u00e4bel der folgenden V\u00f6gel zeigen weder nach rechts noch nach links.<br><b>Grundspiel</b><ul><li>Fleckenkauz</li><li>Kalifornischer Kondor</li><li>Kaninchenkauz</li><li>Ohrenlerche</li><li>Ostkreischeule</li><li>Schleiereule</li><li>Streifenkauz</li><li>Virginiauhu</li></ul><b>Europa-Erweiterung</b><ul><li>Gartenbauml\u00e4ufer</li><li>Schneeeule</li><li>Steinkauz</li></ul><b>Ozeanien-Erweiterung</b><ul><li>Baumschwalm</li><li>Kakapo</li><li>Rostkauz</li></ul><b>Asien-Erweiterung</b><ul><li>Bartmeise</li><li>Blewittkauz</li><li>Ceylonschwalm</li><li>L\u00f6ffelstrandl\u00e4ufer</li><li>Maskeneule</li><li>Uhu</li></ul>"
     },
     "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
+      "English name": "Cubes on \"play a bird\"",
       "Name": "Aktionsw\u00fcrfel auf \u201eVogel spielen\u201c",
       "Condition": "[cube] Aktionsw\u00fcrfel auf \u201eVogel spielen\u201c",
       "Explanatory Text": "Z\u00e4hlt die Anzahl der Aktionsw\u00fcrfel, die ihr in dieser Runde auf \u201eVogel spielen\u201c gelegt habt. Beachtet: F\u00fcr die Wertung dieses Rundenziels ist es wichtig, dass ihr die Aktionsw\u00fcrfel bis nach der Wertung in der gespielten Reihe liegen lasst!"
     },
     "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
+      "English name": "Birds worth less than or equal to 3 points",
       "Name": null,
       "Condition": "[bird] mit Wert \u22643[point]",
       "Explanatory Text": null
     },
     "2043": {
-      "English name": "Pairs of Matching Symbols",
+      "English name": "Duet tokens on pairs of matching symbols",
       "Name": "auf Paaren mit gleichen Symbolen",
       "Condition": null,
       "Explanatory Text": "Z\u00e4hle, wie viele deiner Duellmarker Teil eines Paares (= 2 Marker deiner Farbe) mit dem gleichen Symbol auf einem Feld sind. Jeder Duellmarker z\u00e4hlt nur einmal. Die Symbole m\u00fcssen genau \u00fcbereinstimmen wie z. B. 2 Nager oder 2x 50+ cm Spannweite. Boni auf den Feldern m\u00fcssen nicht \u00fcbereinstimmen."
     },
     "2040": {
-      "English name": "Nest Symbols",
+      "English name": "Duet tokens on nest symbols",
       "Name": "auf Nestsymbolen",
       "Condition": "[duet-token] auf [bowl][cavity][ground][platform]",
       "Explanatory Text": "Z\u00e4hle alle deine Duellmarker auf Feldern mit einem beliebigen Nestsymbol ([bowl] [cavity] [ground] [platform]). Auch mehrere Symbole der gleichen Art z\u00e4hlen (z. B. z\u00e4hlen bei 2 Markern auf unterschiedlichen [platform]-Feldern beide)."
     },
     "2035": {
-      "English name": "Food Symbols",
+      "English name": "Duet tokens on food symbols",
       "Name": "auf Futtersymbolen",
       "Condition": "[duet-token] auf [fish][fruit][rodent][seed][invertebrate]",
       "Explanatory Text": "Z\u00e4hle alle deine Duellmarker auf Feldern mit einem beliebigen Futtersymbol ([fruit] [seed] [invertebrate] [rodent] [fish]). Auch mehrere Symbole der gleichen Art z\u00e4hlen (z. B. z\u00e4hlen bei 2 Markern auf unterschiedlichen [fish]-Feldern beide)."
     },
     "2041": {
-      "English name": "Not on Edge of Map",
+      "English name": "Duet tokens not on edge of map",
       "Name": "nicht am Rand der Karte",
       "Condition": "[duet-token] nicht am Rand der Karte",
       "Explanatory Text": "Jeder Rand der Karte hat 6 Felder: Die Seiten haben je 3 einger\u00fcckte Felder, die auch als am Rand der Karte z\u00e4hlen. Es gibt also 20 Randfelder und 16 innere Felder. F\u00fcr diese Ziele z\u00e4hlst du, wie viele deiner Duellmarker am Rand der Karte auf inneren Feldern bzw. Randfeldern liegen.<i> (Beachte: Die Symbole der Lebensr\u00e4ume z\u00e4hlen nicht als Felder.)</i>"
     },
     "2042": {
-      "English name": "On Edge of Map",
+      "English name": "Duet tokens on edge of map",
       "Name": "am Rand der Karte",
       "Condition": "[duet-token] am Rand der Karte",
       "Explanatory Text": "Jeder Rand der Karte hat 6 Felder: Die Seiten haben je 3 einger\u00fcckte Felder, die auch als am Rand der Karte z\u00e4hlen. Es gibt also 20 Randfelder und 16 innere Felder. F\u00fcr diese Ziele z\u00e4hlst du, wie viele deiner Duellmarker am Rand der Karte auf inneren Feldern bzw. Randfeldern liegen.<i> (Beachte: Die Symbole der Lebensr\u00e4ume z\u00e4hlen nicht als Felder.)</i>"
     },
     "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
+      "English name": "Duet tokens in any one horizontal row",
       "Name": "in 1 beliebigen horizontalen Reihe",
       "Condition": "[duet-token] in 1 beliebigen horizontalen Reihe",
       "Explanatory Text": "Bestimme die horizontale Reihe der Karte, die f\u00fcr dich am besten ist und z\u00e4hle die Anzahl deiner Duellmarker in dieser Reihe. Die Duellmarker m\u00fcssen keine zusammenh\u00e4ngende Gruppe bilden."
     },
     "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
+      "English name": "Horizontal rows with at least 1 of your duet tokens",
       "Name": "Horizontale Reihen mit mind. 1 deiner Duellmarker",
       "Condition": null,
       "Explanatory Text": "Z\u00e4hle, in wie vielen der 6 horizontalen Reihen mindestens 1 deiner Duellmarker liegt."
     },
     "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
+      "English name": "Fewest duet tokens on bonus spaces",
       "Name": "Wenigste Duellmarker auf Bonusfeldern",
       "Condition": "wenigste [duet-token] auf Bonusfeldern",
       "Explanatory Text": "Bonusfelder sind Felder, durch die ihr [dice]/[egg]/[card] erhaltet, wenn ihr einen Duellmarker darauf legt. Z\u00e4hle wie viele deiner Duellmarker auf diesen 9 Feldern liegen. Die Punkte f\u00fcr dieses Rundenziel erh\u00e4lt, wer weniger Duellmarker auf Bonusfeldern hat."
     },
     "2037": {
-      "English name": "In Forest",
+      "English name": "Duet tokens in Forest",
       "Name": "im Wald",
       "Condition": "[duet-token] im [forest]",
       "Explanatory Text": "Z\u00e4hle die Anzahl deiner Duellmarker im Bereich des entsprechenden Lebensraums auf der Duellkarte. Diese Zahl kann von der Zahl der V\u00f6gel auf deinem Tableau abweichen, falls sich V\u00f6gel w\u00e4hrend des Spiels bewegt haben (durch eine F\u00e4higkeit)."
     },
     "2038": {
-      "English name": "In Grassland",
+      "English name": "Duet tokens in Grassland",
       "Name": "im Grasland",
       "Condition": "[duet-token] im [grassland]",
       "Explanatory Text": "Z\u00e4hle die Anzahl deiner Duellmarker im Bereich des entsprechenden Lebensraums auf der Duellkarte. Diese Zahl kann von der Zahl der V\u00f6gel auf deinem Tableau abweichen, falls sich V\u00f6gel w\u00e4hrend des Spiels bewegt haben (durch eine F\u00e4higkeit)."
     },
     "2039": {
-      "English name": "In Wetland",
+      "English name": "Duet tokens in Wetland",
       "Name": "im Wasser",
       "Condition": "[duet-token] im [wetland]",
       "Explanatory Text": "Z\u00e4hle die Anzahl deiner Duellmarker im Bereich des entsprechenden Lebensraums auf der Duellkarte. Diese Zahl kann von der Zahl der V\u00f6gel auf deinem Tableau abweichen, falls sich V\u00f6gel w\u00e4hrend des Spiels bewegt haben (durch eine F\u00e4higkeit)."
     },
     "2045": {
-      "English name": "Total Duet Tokens",
+      "English name": "Total duet tokens",
       "Name": "auf der Karte",
       "Condition": "[duet-token] auf der Karte",
       "Explanatory Text": "Z\u00e4hle die Anzahl deiner Duellmarker auf der Karte. Diese Zahl kann von der Zahl der V\u00f6gel auf deinem Tableau abweichen, falls sich V\u00f6gel w\u00e4hrend des Spiels bewegt haben (durch eine F\u00e4higkeit)."

@@ -5765,103 +5765,103 @@
   },
   "goals": {
     "2000": {
-      "English name": "Bird in Forest",
+      "English name": "Birds in Forest",
       "Name": null,
       "Condition": "[bird] w [forest]",
       "Explanatory Text": "Policz liczb\u0119 ptak\u00f3w, jakie aktualnie masz <b>w tym konkretnym rz\u0119dzie.</b><br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2001": {
-      "English name": "Bird in Grassland",
+      "English name": "Birds in Grassland",
       "Name": null,
       "Condition": "[bird] w [grassland]",
       "Explanatory Text": "Policz liczb\u0119 ptak\u00f3w, jakie aktualnie masz <b>w tym konkretnym rz\u0119dzie.</b><br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2002": {
-      "English name": "Bird in Wetland",
+      "English name": "Birds in Wetland",
       "Name": null,
       "Condition": "[bird] w [wetland]",
       "Explanatory Text": "Policz liczb\u0119 ptak\u00f3w, jakie aktualnie masz <b>w tym konkretnym rz\u0119dzie.</b><br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2013": {
-      "English name": "Egg in Forest",
+      "English name": "Eggs in Forest",
       "Name": null,
       "Condition": "[egg] w [forest]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach <b>w tym konkretnym rz\u0119dzie.</b> Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2014": {
-      "English name": "Egg in Grassland",
+      "English name": "Eggs in Grassland",
       "Name": null,
       "Condition": "[egg] w [grassland]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach <b>w tym konkretnym rz\u0119dzie.</b> Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2017": {
-      "English name": "Egg in Wetland",
+      "English name": "Eggs in Wetland",
       "Name": null,
       "Condition": "[egg] w [wetland]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach <b>w tym konkretnym rz\u0119dzie.</b> Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego siedliska.</i>"
     },
     "2010": {
-      "English name": "Cavity Nest Bird with Egg",
+      "English name": "Cavity nest birds with eggs",
       "Name": null,
       "Condition": "[cavity] [bird] z [egg]",
       "Explanatory Text": "Policz liczb\u0119 <b>ptak\u00f3w wij\u0105cych dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy), na kt\u00f3rych le\u017cy co najmniej 1 jajo. Licz ptaki, a nie jaja.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2008": {
-      "English name": "Bowl Nest Bird with Egg",
+      "English name": "Bowl nest birds with eggs",
       "Name": null,
       "Condition": "[bowl] [bird] z [egg]",
       "Explanatory Text": "Policz liczb\u0119 <b>ptak\u00f3w wij\u0105cych dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy), na kt\u00f3rych le\u017cy co najmniej 1 jajo. Licz ptaki, a nie jaja.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2021": {
-      "English name": "Ground Nest Bird with Egg",
+      "English name": "Ground nest birds with eggs",
       "Name": null,
       "Condition": "[ground] [bird] z [egg]",
       "Explanatory Text": "Policz liczb\u0119 <b>ptak\u00f3w wij\u0105cych dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy), na kt\u00f3rych le\u017cy co najmniej 1 jajo. Licz ptaki, a nie jaja.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2022": {
-      "English name": "Platform Nest Bird with Egg",
+      "English name": "Platform nest birds with eggs",
       "Name": null,
       "Condition": "[platform] [bird] z [egg]",
       "Explanatory Text": "Policz liczb\u0119 <b>ptak\u00f3w wij\u0105cych dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy), na kt\u00f3rych le\u017cy co najmniej 1 jajo. Licz ptaki, a nie jaja.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2012": {
-      "English name": "Egg in Cavity Nest",
+      "English name": "Eggs in Cavity Nest",
       "Name": null,
       "Condition": "[egg] w [cavity]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach wij\u0105cych <b>dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy). Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2011": {
-      "English name": "Egg in Bowl Nest",
+      "English name": "Eggs in Bowl Nest",
       "Name": null,
       "Condition": "[egg] w [bowl]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach wij\u0105cych <b>dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy). Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2015": {
-      "English name": "Egg in Ground Nest",
+      "English name": "Eggs in Ground Nest",
       "Name": null,
       "Condition": "[egg] w [ground]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach wij\u0105cych <b>dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy). Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2016": {
-      "English name": "Egg in Platform Nest",
+      "English name": "Eggs in Platform Nest",
       "Name": null,
       "Condition": "[egg] w [platform]",
       "Explanatory Text": "Policz liczb\u0119 jaj le\u017c\u0105cych na ptakach wij\u0105cych <b>dany typ gniazda</b> (licz\u0105 si\u0119 te\u017c gniazda z symbolem gwiazdy). Licz wszystkie sztuki, nawet le\u017c\u0105ce na 1 karcie.<br><i>Istnieje 1 kopia tego celu dla ka\u017cdego typu gniazda.</i>"
     },
     "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
+      "English name": "Sets of eggs in 3 habitats",
       "Name": null,
       "Condition": "zestawy [egg][egg][egg] w [wetland][grassland][forest]",
       "Explanatory Text": "1 zestaw jaj sk\u0142ada si\u0119 z 1 jaja w lesie, 1 jaja na \u0142\u0105ce i 1 na mokrad\u0142ach. Policz liczb\u0119 takich zestaw\u00f3w."
     },
     "2024": {
-      "English name": "Total Bird",
+      "English name": "Total birds",
       "Name": null,
       "Condition": "wszystkie [bird]",
       "Explanatory Text": "Policz liczb\u0119 wszystkich zagranych kart ptak\u00f3w."
     },
     "2020": {
-      "English name": "Food in Supply",
+      "English name": "Food in personal supply",
       "Name": "\u017bywno\u015b\u0107 w zasobach w\u0142asnych",
       "Condition": "[wild] w zasobach w\u0142asnych",
       "Explanatory Text": "Policz liczb\u0119 \u017ceton\u00f3w po\u017cywienia w swoich zasobach."
@@ -5873,169 +5873,169 @@
       "Explanatory Text": "Policz liczb\u0119 wszystkich kart ptak\u00f3w na r\u0119ce."
     },
     "2004": {
-      "English name": "Birds Worth over 4 Points",
+      "English name": "Birds worth over 4 points",
       "Name": "Ptaki warte >4 punkty",
       "Condition": "[bird] warte >4[point]",
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w, kt\u00f3rych nadrukowana warto\u015b\u0107 wynosi wi\u0119cej ni\u017c 4 punkty."
     },
     "2006": {
-      "English name": "Birds with No Eggs",
+      "English name": "Birds with no eggs",
       "Name": "Ptaki bez jaj",
       "Condition": "[bird] bez [egg]",
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w, na kt\u00f3rych nie le\u017c\u0105 \u017cadne jaja w momencie punktowania tego celu."
     },
     "2005": {
-      "English name": "Birds in 1 Row",
+      "English name": "Birds in one row",
       "Name": "Ptaki w 1 rz\u0119dzie",
       "Condition": "[bird] w 1 rz\u0119dzie",
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w w rz\u0119dzie, w kt\u00f3rym masz ich najwi\u0119cej."
     },
     "2018": {
-      "English name": "Filled Columns",
+      "English name": "Filled columns",
       "Name": "Zape\u0142nione kolumny",
       "Condition": "zape\u0142nione kolumny",
       "Explanatory Text": "Policz liczb\u0119 kolumn, w kt\u00f3rych s\u0105 zape\u0142nione wszystkie 3 pola ptak\u00f3w."
     },
     "2009": {
-      "English name": "Brown Powers",
+      "English name": "Brown powers",
       "Name": "Br\u0105zowe zdolno\u015bci",
       "Condition": "br\u0105zowe zdolno\u015bci",
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w z br\u0105zow\u0105 zdolno\u015bci\u0105 \u201eGDY AKTYWUJESZ\u201d."
     },
     "2025": {
-      "English name": "White & No Powers",
+      "English name": "White & no powers",
       "Name": "Zdolno\u015bci bez koloru i brak zdolno\u015bci",
       "Condition": null,
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w, kt\u00f3re maj\u0105 zdolno\u015b\u0107 \u201eGDY ZAGRYWASZ\u201d albo nie maj\u0105 \u017cadnej zdolno\u015bci."
     },
     "2007": {
-      "English name": "Birds with Tucked Cards",
+      "English name": "Birds with tucked cards",
       "Name": "Ptaki z wsuni\u0119tymi kartami",
       "Condition": "[flocking] ptaki z wsuni\u0119tymi kartami",
       "Explanatory Text": "Policz liczb\u0119 zagranych przez siebie kart ptak\u00f3w, pod kt\u00f3rymi znajduje si\u0119 co najmniej 1 wsuni\u0119ta karta."
     },
     "2019": {
-      "English name": "Food Cost of Played Birds",
+      "English name": "Food cost of played birds",
       "Name": "Koszt w po\u017cywieniu zagranych ptak\u00f3w",
       "Condition": "Koszt w po\u017cywieniu zagranych [bird]",
       "Explanatory Text": "Policz koszt w po\u017cywieniu na zagranych przez siebie kartach ptak\u00f3w, pami\u0119taj\u0105c, aby policzy\u0107 tylko 1 rodzaj po\u017cywienia z kart ptak\u00f3w, kt\u00f3re maj\u0105 mo\u017cliwo\u015b\u0107 wyboru rodzaju po\u017cywienia (z uko\u015bnikiem)."
     },
     "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
+      "English name": "Invertebrate in food cost of your birds",
       "Name": "Bezkr\u0119gowiec w koszcie Twoich ptak\u00f3w",
       "Condition": "[invertebrate] w koszcie twoich ptak\u00f3w",
       "Explanatory Text": "Policz liczb\u0119 symboli wskazanego rodzaju po\u017cywienia na zagranych przez siebie kartach ptak\u00f3w. Na przyk\u0142ad, je\u015bli cel brzmi \u201e[fruit]+[seed] w koszcie Twoich ptak\u00f3w\u201d, policz wszystkie [fruit] i [seed], kt\u00f3re znajduj\u0105 si\u0119 w lewym g\u00f3rnym rogu wszystkich zagranych przez Ciebie kart na Twojej planszy. Pami\u0119taj, aby policzy\u0107 tylko 1 rodzaj po\u017cywienia z kart ptak\u00f3w, kt\u00f3re maj\u0105 mo\u017cliwo\u015b\u0107 wyboru rodzaju po\u017cywienia np. \u201e[fruit]/[seed]\u201d (te ptaki kosztowa\u0142y Ci\u0119 [fruit] ALBO [seed]). Nie licz [wild] ani [nectar]."
     },
     "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
+      "English name": "Fruit + Seed in food cost of your birds",
       "Name": "Owoc + Ziarno w koszcie Twoich ptak\u00f3w",
       "Condition": "[fruit] + [seed] w koszcie twoich ptak\u00f3w",
       "Explanatory Text": "Policz liczb\u0119 symboli wskazanego rodzaju po\u017cywienia na zagranych przez siebie kartach ptak\u00f3w. Na przyk\u0142ad, je\u015bli cel brzmi \u201e[fruit]+[seed] w koszcie Twoich ptak\u00f3w\u201d, policz wszystkie [fruit] i [seed], kt\u00f3re znajduj\u0105 si\u0119 w lewym g\u00f3rnym rogu wszystkich zagranych przez Ciebie kart na Twojej planszy. Pami\u0119taj, aby policzy\u0107 tylko 1 rodzaj po\u017cywienia z kart ptak\u00f3w, kt\u00f3re maj\u0105 mo\u017cliwo\u015b\u0107 wyboru rodzaju po\u017cywienia np. \u201e[fruit]/[seed]\u201d (te ptaki kosztowa\u0142y Ci\u0119 [fruit] ALBO [seed]). Nie licz [wild] ani [nectar]."
     },
     "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
+      "English name": "Rodent + Fish in food cost of your birds",
       "Name": "Gryzo\u0144 + Ryba w koszcie Twoich ptak\u00f3w",
       "Condition": "[rodent] + [fish] w koszcie twoich ptak\u00f3w",
       "Explanatory Text": "Policz liczb\u0119 symboli wskazanego rodzaju po\u017cywienia na zagranych przez siebie kartach ptak\u00f3w. Na przyk\u0142ad, je\u015bli cel brzmi \u201e[fruit]+[seed] w koszcie Twoich ptak\u00f3w\u201d, policz wszystkie [fruit] i [seed], kt\u00f3re znajduj\u0105 si\u0119 w lewym g\u00f3rnym rogu wszystkich zagranych przez Ciebie kart na Twojej planszy. Pami\u0119taj, aby policzy\u0107 tylko 1 rodzaj po\u017cywienia z kart ptak\u00f3w, kt\u00f3re maj\u0105 mo\u017cliwo\u015b\u0107 wyboru rodzaju po\u017cywienia np. \u201e[fruit]/[seed]\u201d (te ptaki kosztowa\u0142y Ci\u0119 [fruit] ALBO [seed]). Nie licz [wild] ani [nectar]."
     },
     "2032": {
-      "English name": "No Goal",
+      "English name": "No goal",
       "Name": "Brak celu",
       "Condition": "brak celu",
       "Explanatory Text": "Na koniec danej rundy nie punktujecie \u017cadnego celu. Nie odk\u0142adajcie w tej rundzie \u017cadnych kostek akcji na plansz\u0119 cel\u00f3w. We wszystkich kolejnych rundach rozgrywacie o 1 tur\u0119 wi\u0119cej."
     },
     "2026": {
-      "English name": "Beak Pointing Left",
+      "English name": "Beak pointing left",
       "Name": "Zwr\u00f3cone dziobem w lewo",
       "Condition": "[beak-left] zwr\u00f3cone dziobem w lewo",
       "Explanatory Text": "Te cele zapewniaj\u0105 punkty za ptaki zwr\u00f3cone dziobem w okre\u015blonym kierunku. Do tych cel\u00f3w nie wliczaj\u0105 si\u0119 ptaki z dziobem skierowanym na wprost albo w g\u00f3r\u0119.<br>Cele zwi\u0105zane z kierunkiem dzioba zosta\u0142y stworzone po to, aby\u015bcie mieli kolejny pow\u00f3d do przyjrzenia si\u0119 pi\u0119knym ilustracjom. Po przejrzeniu wszystkich kart uznali\u015bmy, \u017ce okre\u015blenie, w kt\u00f3r\u0105 stron\u0119 skierowany jest dzi\u00f3b ptaka, nie powinno sprawia\u0107 trudno\u015bci. Je\u015bli jednak uznacie, \u017ce jest to kwestia dyskusyjna, usu\u0144cie ten \u017ceton celu z gry. Kilka ptak\u00f3w wymaga jednak dodatkowych wyja\u015bnie\u0144:<br><ul><li>Skr\u0119todzi\u00f3b (dodatek <i>Ptaki Oceanii</i>) ma dzi\u00f3b skierowany w lewo, chocia\u017c patrzy przed siebie.</li><li>Nur lodowiec (gra podstawowa) oraz perkozek zwyczajny (dodatek <i>Ptaki Azji</i>) maj\u0105 na kartach ptaki z dziobami skierowanymi w obie strony, wi\u0119c punktuje oba cele.</li><li>Perkoz dwuczuby (dodatek <i>Ptaki Europy</i>) ma na karcie 2 ptaki z dziobami skierowanymi w t\u0119 sam\u0105 stron\u0119. Na potrzeby celu ta karta liczy si\u0119 tylko raz.</li></ul><br>Poni\u017cej prezentujemy list\u0119 ptak\u00f3w, kt\u00f3re nie s\u0105 zwr\u00f3cone dziobem ani w prawo, ani w lewo.<br><b>Gra podstawowa</b><ul><li>G\u00f3rniczek zwyczajny</li><li>Kondor kalifornijski</li><li>P\u0142omyk\u00f3wka zwyczajna</li><li>P\u00f3jd\u017aka ziemna</li><li>Puchacz wirginijski</li><li>Puszczyk kreskowany</li><li>Puszczyk plamisty</li><li>Syczo\u0144 krzykliwy</li></ul><b>Ptaki Europy</b><ul><li>Pe\u0142zacz ogrodowy</li><li>P\u00f3jd\u017aka zwyczajna</li><li>Puchacz \u015bnie\u017cny</li></ul><b>Ptaki Oceanii</b><ul><li>Kakapo</li><li>Sownik australijski</li><li>Sowica maskowa</li></ul><b>Ptaki Azji</b><ul><li>Biegus \u0142y\u017ckodzioby</li><li>G\u0119bal cejlo\u0144ski</li><li>P\u00f3jd\u017aka le\u015bna</li><li>Puchacz zwyczajny</li><li>Puch\u00f3wka</li><li>W\u0105satka</li></ul>"
     },
     "2027": {
-      "English name": "Beak Pointing Right",
+      "English name": "Beak pointing right",
       "Name": "Zwr\u00f3cone dziobem w prawo",
       "Condition": "[beak-right] zwr\u00f3cone dziobem w prawo",
       "Explanatory Text": "Te cele zapewniaj\u0105 punkty za ptaki zwr\u00f3cone dziobem w okre\u015blonym kierunku. Do tych cel\u00f3w nie wliczaj\u0105 si\u0119 ptaki z dziobem skierowanym na wprost albo w g\u00f3r\u0119.<br>Cele zwi\u0105zane z kierunkiem dzioba zosta\u0142y stworzone po to, aby\u015bcie mieli kolejny pow\u00f3d do przyjrzenia si\u0119 pi\u0119knym ilustracjom. Po przejrzeniu wszystkich kart uznali\u015bmy, \u017ce okre\u015blenie, w kt\u00f3r\u0105 stron\u0119 skierowany jest dzi\u00f3b ptaka, nie powinno sprawia\u0107 trudno\u015bci. Je\u015bli jednak uznacie, \u017ce jest to kwestia dyskusyjna, usu\u0144cie ten \u017ceton celu z gry. Kilka ptak\u00f3w wymaga jednak dodatkowych wyja\u015bnie\u0144:<br><ul><li>Skr\u0119todzi\u00f3b (dodatek <i>Ptaki Oceanii</i>) ma dzi\u00f3b skierowany w lewo, chocia\u017c patrzy przed siebie.</li><li>Nur lodowiec (gra podstawowa) oraz perkozek zwyczajny (dodatek <i>Ptaki Azji</i>) maj\u0105 na kartach ptaki z dziobami skierowanymi w obie strony, wi\u0119c punktuje oba cele.</li><li>Perkoz dwuczuby (dodatek <i>Ptaki Europy</i>) ma na karcie 2 ptaki z dziobami skierowanymi w t\u0119 sam\u0105 stron\u0119. Na potrzeby celu ta karta liczy si\u0119 tylko raz.</li></ul><br>Poni\u017cej prezentujemy list\u0119 ptak\u00f3w, kt\u00f3re nie s\u0105 zwr\u00f3cone dziobem ani w prawo, ani w lewo.<br><b>Gra podstawowa</b><ul><li>G\u00f3rniczek zwyczajny</li><li>Kondor kalifornijski</li><li>P\u0142omyk\u00f3wka zwyczajna</li><li>P\u00f3jd\u017aka ziemna</li><li>Puchacz wirginijski</li><li>Puszczyk kreskowany</li><li>Puszczyk plamisty</li><li>Syczo\u0144 krzykliwy</li></ul><b>Ptaki Europy</b><ul><li>Pe\u0142zacz ogrodowy</li><li>P\u00f3jd\u017aka zwyczajna</li><li>Puchacz \u015bnie\u017cny</li></ul><b>Ptaki Oceanii</b><ul><li>Kakapo</li><li>Sownik australijski</li><li>Sowica maskowa</li></ul><b>Ptaki Azji</b><ul><li>Biegus \u0142y\u017ckodzioby</li><li>G\u0119bal cejlo\u0144ski</li><li>P\u00f3jd\u017aka le\u015bna</li><li>Puchacz zwyczajny</li><li>Puch\u00f3wka</li><li>W\u0105satka</li></ul>"
     },
     "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
+      "English name": "Cubes on \"play a bird\"",
       "Name": "Kostki akcji w rz\u0119dzie \u201ezagraj kart\u0119\u201d",
       "Condition": "[cube] w rz\u0119dzie \u201ezagraj kart\u0119\u201d",
       "Explanatory Text": "Policz liczb\u0119 kostek, jakie w tej rundzie umie\u015bci\u0142e\u015b w rz\u0119dzie \u201eZagraj kart\u0119\u201d. Pami\u0119taj, \u017ce ten cel wymaga zachowania kostek akcji na planszy a\u017c do zako\u0144czenia rundy."
     },
     "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
+      "English name": "Birds worth less than or equal to 3 points",
       "Name": "Ptaki warte \u22643 punkty",
       "Condition": "[bird] warte \u22643[point]",
       "Explanatory Text": null
     },
     "2043": {
-      "English name": "Pairs of Matching Symbols",
+      "English name": "Duet tokens on pairs of matching symbols",
       "Name": "Pary pasuj\u0105cych symboli",
       "Condition": "[duet-token] na parach pasuj\u0105cych symboli",
       "Explanatory Text": "Policz, ile Twoich znacznik\u00f3w duetu znajduje si\u0119 na parach p\u00f3l z identycznymi symbolami. Symbole musz\u0105 by\u0107 takie same, np. 2 gryzonie albo 2 pola rozpi\u0119to\u015bci skrzyde\u0142 <50 cm. Bonusy tych p\u00f3l nie musz\u0105 do siebie pasowa\u0107. Ka\u017cdy znacznik liczy si\u0119 tylko raz. Je\u015bli masz 4 znaczniki na polach z identycznymi symbolami, licz\u0105 si\u0119 jako 2 pary."
     },
     "2040": {
-      "English name": "Nest Symbols",
+      "English name": "Duet tokens on nest symbols",
       "Name": "Symbole gniazd",
       "Condition": "[duet-token] na [bowl][cavity][ground][platform]",
       "Explanatory Text": "Policz wszystkie swoje znaczniki duetu na polach z symbolem gniazda ([bowl], [cavity], [ground], [platform]). Symbole mog\u0105 si\u0119 powtarza\u0107 (np.. oba znaczniki na 2 r\u00f3\u017cnych polach [platform] si\u0119 licz\u0105)."
     },
     "2035": {
-      "English name": "Food Symbols",
+      "English name": "Duet tokens on food symbols",
       "Name": "Symbole po\u017cywienia",
       "Condition": "[duet-token] na [fish][fruit][rodent][seed][invertebrate]",
       "Explanatory Text": "Policz wszystkie swoje znaczniki duetu na polach z symbolem po\u017cywienia ([fruit], [seed], [invertebrate], [rodent], [fish]). Symbole mog\u0105 si\u0119 powtarza\u0107 (np.. oba znaczniki na 2 r\u00f3\u017cnych polach [fish] si\u0119 licz\u0105)."
     },
     "2041": {
-      "English name": "Not on Edge of Map",
+      "English name": "Duet tokens not on edge of map",
       "Name": "Nie na skraju mapy",
       "Condition": "[duet-token] nie na skraju mapy",
       "Explanatory Text": "Ka\u017cda kraw\u0119d\u017a mapy ma 6 p\u00f3l. Na ka\u017cdej z bocznych kraw\u0119dzi znajduj\u0105 si\u0119 3 pola przesuni\u0119te do \u015brodka, kt\u00f3re wci\u0105\u017c s\u0105 na skraju. Na mapie jest w sumie 20 p\u00f3l zewn\u0119trznych i 16 p\u00f3l wewn\u0119trznych. Policz, ile Twoich znacznik\u00f3w znajduje si\u0119 na skraju mapy (pola zewn\u0119trzne) albo nie na skraju (pola wewn\u0119trzne)."
     },
     "2042": {
-      "English name": "On Edge of Map",
+      "English name": "Duet tokens on edge of map",
       "Name": "Na skraju mapy",
       "Condition": "[duet-token] na skraju mapy",
       "Explanatory Text": "Ka\u017cda kraw\u0119d\u017a mapy ma 6 p\u00f3l. Na ka\u017cdej z bocznych kraw\u0119dzi znajduj\u0105 si\u0119 3 pola przesuni\u0119te do \u015brodka, kt\u00f3re wci\u0105\u017c s\u0105 na skraju. Na mapie jest w sumie 20 p\u00f3l zewn\u0119trznych i 16 p\u00f3l wewn\u0119trznych. Policz, ile Twoich znacznik\u00f3w znajduje si\u0119 na skraju mapy (pola zewn\u0119trzne) albo nie na skraju (pola wewn\u0119trzne)."
     },
     "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
+      "English name": "Duet tokens in any one horizontal row",
       "Name": "Znaczniki w 1 dowolnym poziomym rz\u0119dzie",
       "Condition": "[duet-token] w 1 dowolnym poziomym rz\u0119dzie",
       "Explanatory Text": "Wybierz najkorzystniejszy dla siebie poziomy rz\u0105d i policz, ile Twoich znacznik\u00f3w duetu si\u0119 w nim znajduje. Znaczniki nie musz\u0105 le\u017ce\u0107 obok siebie."
     },
     "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
+      "English name": "Horizontal rows with at least 1 of your duet tokens",
       "Name": "Poziome rz\u0119dy z przynajmniej 1 Twoim znacznikiem",
       "Condition": "poziome rz\u0119dy z przynajmniej 1 Twoim [duet-token]",
       "Explanatory Text": "Policz, w ilu spo\u015br\u00f3d wszystkich 6 poziomych rz\u0119d\u00f3w znajduje si\u0119 przynajmniej 1 Tw\u00f3j znacznik duetu."
     },
     "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
+      "English name": "Fewest duet tokens on bonus spaces",
       "Name": "Najmniej znacznik\u00f3w na polach z bonusami",
       "Condition": "najmniej [duet-token] na polach z bonusami",
       "Explanatory Text": "Bonusy na polach mapy zapewniaj\u0105 [dice]/[egg]/[card], gdy umie\u015bci si\u0119 na nich znacznik. Policz, ile Twoich znacznik\u00f3w jest na tych 9 polach. Cel zostaje osi\u0105gni\u0119ty przez gracza z najmniejsz\u0105 liczb\u0105 takich znacznik\u00f3w."
     },
     "2037": {
-      "English name": "In Forest",
+      "English name": "Duet tokens in Forest",
       "Name": "W lesie",
       "Condition": "[duet-token] w [forest]",
       "Explanatory Text": "Policz, ile Twoich znacznik\u00f3w na mapie znajduje si\u0119 we wskazanym siedlisku. Ich liczba na mapie mo\u017ce si\u0119 r\u00f3\u017cni\u0107 od liczby ptak\u00f3w w tym siedlisku na Twojej planszy, je\u015bli w trakcie gry karty ptak\u00f3w by\u0142y przemieszczane."
     },
     "2038": {
-      "English name": "In Grassland",
+      "English name": "Duet tokens in Grassland",
       "Name": "Na \u0142\u0105ce",
       "Condition": "[duet-token] w [grassland]",
       "Explanatory Text": "Policz, ile Twoich znacznik\u00f3w na mapie znajduje si\u0119 we wskazanym siedlisku. Ich liczba na mapie mo\u017ce si\u0119 r\u00f3\u017cni\u0107 od liczby ptak\u00f3w w tym siedlisku na Twojej planszy, je\u015bli w trakcie gry karty ptak\u00f3w by\u0142y przemieszczane."
     },
     "2039": {
-      "English name": "In Wetland",
+      "English name": "Duet tokens in Wetland",
       "Name": "Na mokrad\u0142ach",
       "Condition": "[duet-token] w [wetland]",
       "Explanatory Text": "Policz, ile Twoich znacznik\u00f3w na mapie znajduje si\u0119 we wskazanym siedlisku. Ich liczba na mapie mo\u017ce si\u0119 r\u00f3\u017cni\u0107 od liczby ptak\u00f3w w tym siedlisku na Twojej planszy, je\u015bli w trakcie gry karty ptak\u00f3w by\u0142y przemieszczane."
     },
     "2045": {
-      "English name": "Total Duet Tokens",
+      "English name": "Total duet tokens",
       "Name": "Suma znacznik\u00f3w na mapie",
       "Condition": "suma [duet-token] na mapie",
       "Explanatory Text": "Policz, ile Twoich znacznik\u00f3w duetu znajduje si\u0119 na mapie. Ich liczba na mapie mo\u017ce si\u0119 r\u00f3\u017cni\u0107 od liczby ptak\u00f3w na Twojej planszy, je\u015bli w trakcie gry karty ptak\u00f3w by\u0142y przemieszczane."

@@ -390,23 +390,23 @@
     "id":2038
   },
   {
-    "Goal":"[duet_token] on [bowl] [cavity] [ground] [platform]",
+    "Goal":"[duet_token] on [bowl][cavity][ground][platform]",
     "Set":"asia",
     "1":null,
     "2":null,
     "3":null,
     "4":null,
-    "Reverse":"[duet_token] on [fish] [fruit] [rodent] [seed] [invertebrate]",
+    "Reverse":"[duet_token] on [fish][fruit][rodent][seed][invertebrate]",
     "id":2039
   },
   {
-    "Goal":"[duet_token] on [fish] [fruit] [rodent] [seed] [invertebrate]",
+    "Goal":"[duet_token] on [fish][fruit][rodent][seed][invertebrate]",
     "Set":"asia",
     "1":null,
     "2":null,
     "3":null,
     "4":null,
-    "Reverse":"[duet_token] on [bowl] [cavity] [ground] [platform]",
+    "Reverse":"[duet_token] on [bowl][cavity][ground][platform]",
     "id":2040
   },
   {

@@ -5440,7 +5440,7 @@
       "Condition": "Aves em seu habitat com menos aves",
       "Explanatory text": "Empates valem.",
       "VP": "2[point] por ave",
-      "Note": "Conte o n\u00famero de aves que voc\u00ea jogou no habitat em que voc\u00ea jogou menos aves. Mesmo se voc\u00ea possuir dois habitats empatados por menos aves, voc\u00ea pode pontuar esse b\u00f4nus. Por exemplo, se todos os seus habitats tiverem 3 aves neles, seu habitat com menos aves  tem 3 aves."
+      "Note": "Conte o n\u00famero de aves que voc\u00ea jogou no habitat em que voc\u00ea jogou menos aves. Mesmo se voc\u00ea possuir dois habitats empatados por menos aves, voc\u00ea pode pontuar esse b\u00f4nus. Por exemplo, se todos os seus habitats tiverem 3 aves neles, seu habitat com menos aves tem 3 aves."
     },
     "1011": {
       "English name": "Enclosure Builder",
@@ -5765,103 +5765,103 @@
   },
   "goals": {
     "2000": {
-      "English name": "Bird in Forest",
+      "English name": "Birds in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2001": {
-      "English name": "Bird in Grassland",
+      "English name": "Birds in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2002": {
-      "English name": "Bird in Wetland",
+      "English name": "Birds in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2013": {
-      "English name": "Egg in Forest",
+      "English name": "Eggs in Forest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2014": {
-      "English name": "Egg in Grassland",
+      "English name": "Eggs in Grassland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2017": {
-      "English name": "Egg in Wetland",
+      "English name": "Eggs in Wetland",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2010": {
-      "English name": "Cavity Nest Bird with Egg",
+      "English name": "Cavity nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2008": {
-      "English name": "Bowl Nest Bird with Egg",
+      "English name": "Bowl nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2021": {
-      "English name": "Ground Nest Bird with Egg",
+      "English name": "Ground nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2022": {
-      "English name": "Platform Nest Bird with Egg",
+      "English name": "Platform nest birds with eggs",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2012": {
-      "English name": "Egg in Cavity Nest",
+      "English name": "Eggs in Cavity Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2011": {
-      "English name": "Egg in Bowl Nest",
+      "English name": "Eggs in Bowl Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2015": {
-      "English name": "Egg in Ground Nest",
+      "English name": "Eggs in Ground Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2016": {
-      "English name": "Egg in Platform Nest",
+      "English name": "Eggs in Platform Nest",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2023": {
-      "English name": "Sets of Eggs in 3 Habitats",
+      "English name": "Sets of eggs in 3 habitats",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2024": {
-      "English name": "Total Bird",
+      "English name": "Total birds",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2020": {
-      "English name": "Food in Supply",
+      "English name": "Food in personal supply",
       "Name": "Comida no estoque pessoal",
       "Condition": "[wild] no estoque pessoal",
       "Explanatory Text": "O n\u00famero de fichas de comida em seu estoque pessoal"
@@ -5873,169 +5873,169 @@
       "Explanatory Text": "O n\u00famero de cartas de ave na sua m\u00e3o"
     },
     "2004": {
-      "English name": "Birds Worth over 4 Points",
+      "English name": "Birds worth over 4 points",
       "Name": "Aves que valem mais de 4 pontos",
       "Condition": "[bird] que valem >4[point]",
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui com um valor impresso de mais de 4 pontos"
     },
     "2006": {
-      "English name": "Birds with No Eggs",
+      "English name": "Birds with no eggs",
       "Name": "Aves sem nenhum ovo",
       "Condition": null,
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que n\u00e3o tenham nenhum ovo sobre elas quando este objetivo for pontuado"
     },
     "2005": {
-      "English name": "Birds in 1 Row",
+      "English name": "Birds in one row",
       "Name": "Aves em uma linha",
       "Condition": "[bird] em uma linha",
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui no habitat com mais aves"
     },
     "2018": {
-      "English name": "Filled Columns",
+      "English name": "Filled columns",
       "Name": "Colunas preenchidas",
       "Condition": null,
       "Explanatory Text": "O n\u00famero de colunas onde todos os tr\u00eas espa\u00e7os estejam preenchidos"
     },
     "2009": {
-      "English name": "Brown Powers",
+      "English name": "Brown powers",
       "Name": "Poderes marrons",
       "Condition": "poderes marrons",
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham poderes marrons \"quando ativado\""
     },
     "2025": {
-      "English name": "White & No Powers",
+      "English name": "White & no powers",
       "Name": "Poderes brancos & sem poderes",
       "Condition": null,
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham um poder \"quando jogado\", ou n\u00e3o tenham poder"
     },
     "2007": {
-      "English name": "Birds with Tucked Cards",
+      "English name": "Birds with tucked cards",
       "Name": "Aves com cartas embaixo",
       "Condition": "[flocking] com cartas embaixo",
       "Explanatory Text": "O n\u00famero de aves que voc\u00ea possui que tenham pelo menos 1 carta enfiada embaixo delas"
     },
     "2019": {
-      "English name": "Food Cost of Played Birds",
+      "English name": "Food cost of played birds",
       "Name": "Custo em comida das aves jogadas",
       "Condition": null,
       "Explanatory Text": "Conte o custo em comida de suas aves, lembrando de contar apenas 1 comida para aves que tenham uma escolha em seus custos de comida"
     },
     "2031": {
-      "English name": "Invertebrate in Food Cost of Your Birds",
+      "English name": "Invertebrate in food cost of your birds",
       "Name": "Invertebrados no custo em comida das suas aves",
       "Condition": "[invertebrate] no custo em comida das suas aves",
       "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2030": {
-      "English name": "Fruit + Seed in Food Cost of Your Birds",
+      "English name": "Fruit + Seed in food cost of your birds",
       "Name": "Frutas + sementes no custo em comida das suas aves",
       "Condition": "[fruit] + [seed] no custo em comida das suas aves",
       "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2033": {
-      "English name": "Rodent + Fish in Food Cost of Your Birds",
+      "English name": "Rodent + Fish in food cost of your birds",
       "Name": "Roedores + peixes no custo em comida das suas aves",
       "Condition": "[rodent] + [fish] no custo em comida das suas aves",
       "Explanatory Text": "Conte a quantidade de s\u00edmbolos da comida dessa pe\u00e7a de objetivo que aparecem nos custos em comida das suas cartas de ave. Por exemplo, para o objetivo \u201c[fruit] + [seed] no custo em comida das suas aves\u201d, olhe os custos em comida no canto superior esquerdo das aves que voc\u00ea jogou em seu tabuleiro, e conte todos os [fruit] mais todos os [seed]. Se uma ave tiver um custo \u201c[fruit]/[seed]\u201d (voc\u00ea paga um OU um para jogar a ave), ele conta como apenas uma comida para este objetivo de final de rodada. N\u00e3o conte [wild] ou [nectar]."
     },
     "2032": {
-      "English name": "No Goal",
+      "English name": "No goal",
       "Name": "Sem objetivo",
       "Condition": "sem objetivo",
       "Explanatory Text": "N\u00e3o pontue um objetivo no final desta rodada. Mantenha seu cubo. Todas as rodadas seguintes ter\u00e3o 1 cubo a mais do que normalmente teria."
     },
     "2026": {
-      "English name": "Beak Pointing Left",
+      "English name": "Beak pointing left",
       "Name": "Bico para a esquerda",
       "Condition": "[beak-left] para a esquerda",
       "Explanatory Text": "Estes objetivos contam cartas que mostram uma ave cujo bico est\u00e1 apontando na dire\u00e7\u00e3o indicada. Aves cujos bicos est\u00e3o apontando diretamente para frente (ou para cima) n\u00e3o contam para nenhum destes objetivos.<br>Esses objetivos foram adicionados para dar aos jogadores outra raz\u00e3o para olhar atentamente para a arte. Apesar de termos avaliado todas as cartas e conclu\u00eddo que a dire\u00e7\u00e3o do bico n\u00e3o seria muito dif\u00edcil de determinar, se sua mesa tiver problemas com isso, fique \u00e0 vontade para deixar essa pe\u00e7a fora do jogo. Existem algumas aves que precisam de esclarecimentos:<br><ul><li>O Wrybill, apesar de estar olhando para frente, tem um bico que est\u00e1 apontando para o lado esquerdo da carta.</li><li>A carta Common Loon (do jogo base) e a carta Little Grebe (da Expans\u00e3o Asia) tem 1 ave apontando para cada dire\u00e7\u00e3o, portanto ela se qualifica para ambos os objetivos.</li><li>A carta Great Crested Grebe (da Expans\u00e3o Europa) tem 2 aves apontando para a mesma dire\u00e7\u00e3o: ela conta como uma \u00fanica carta que tem uma ave que est\u00e1 apontando para a esquerda.</li></ul><br>Aqui est\u00e1 uma lista com as aves que n\u00e3o est\u00e3o apontando para a direita e nem para a esquerda.<br><b>Jogo Base</b><ul><li>Barn Owl</li><li>Barred Owl</li><li>Burrowing Owl</li><li>California Condor</li><li>Eastern Screech-Owl</li><li>Great Horned Owl</li><li>Horned Lark</li><li>Spotted Owl</li></ul><b>Europa</b><ul><li>Little Owl</li><li>Snowy Owl</li><li>Short-Toed Treecreeper</li></ul><b>Oceania</b><ul><li>Australian Owlet-Nightjar</li><li>K\u0101k\u0101p\u014d</li><li>Rufous Owl</li></ul><b>Asia</b><ul><li>Bearded Reedling</li><li>Eurasian Eagle-Owl</li><li>Forest Owlet</li><li>Oriental Bay-Owl</li><li>Spoon-Billed Sandpiper</li><li>Sri Lanka Frogmouth</li></ul>"
     },
     "2027": {
-      "English name": "Beak Pointing Right",
+      "English name": "Beak pointing right",
       "Name": "Bico para a direita",
       "Condition": "[beak-right] bico para a direita",
       "Explanatory Text": "Estes objetivos contam cartas que mostram uma ave cujo bico est\u00e1 apontando na dire\u00e7\u00e3o indicada. Aves cujos bicos est\u00e3o apontando diretamente para frente (ou para cima) n\u00e3o contam para nenhum destes objetivos.<br>Esses objetivos foram adicionados para dar aos jogadores outra raz\u00e3o para olhar atentamente para a arte. Apesar de termos avaliado todas as cartas e conclu\u00eddo que a dire\u00e7\u00e3o do bico n\u00e3o seria muito dif\u00edcil de determinar, se sua mesa tiver problemas com isso, fique \u00e0 vontade para deixar essa pe\u00e7a fora do jogo. Existem algumas aves que precisam de esclarecimentos:<br><ul><li>O Wrybill, apesar de estar olhando para frente, tem um bico que est\u00e1 apontando para o lado esquerdo da carta.</li><li>A carta Common Loon (do jogo base) e a carta Little Grebe (da Expans\u00e3o Asia) tem 1 ave apontando para cada dire\u00e7\u00e3o, portanto ela se qualifica para ambos os objetivos.</li><li>A carta Great Crested Grebe (da Expans\u00e3o Europa) tem 2 aves apontando para a mesma dire\u00e7\u00e3o: ela conta como uma \u00fanica carta que tem uma ave que est\u00e1 apontando para a esquerda.</li></ul><br>Aqui est\u00e1 uma lista com as aves que n\u00e3o est\u00e3o apontando para a direita e nem para a esquerda.<br><b>Jogo Base</b><ul><li>Barn Owl</li><li>Barred Owl</li><li>Burrowing Owl</li><li>California Condor</li><li>Eastern Screech-Owl</li><li>Great Horned Owl</li><li>Horned Lark</li><li>Spotted Owl</li></ul><b>Europa</b><ul><li>Little Owl</li><li>Snowy Owl</li><li>Short-Toed Treecreeper</li></ul><b>Oceania</b><ul><li>Australian Owlet-Nightjar</li><li>K\u0101k\u0101p\u014d</li><li>Rufous Owl</li></ul><b>Asia</b><ul><li>Bearded Reedling</li><li>Eurasian Eagle-Owl</li><li>Forest Owlet</li><li>Oriental Bay-Owl</li><li>Spoon-Billed Sandpiper</li><li>Sri Lanka Frogmouth</li></ul>"
     },
     "2029": {
-      "English name": "Cubes on \"Play a Bird\"",
+      "English name": "Cubes on \"play a bird\"",
       "Name": "Cubos em \u201cJogar Ave\u201d",
       "Condition": "[cube] cubos em \u201cjogar ave\u201d",
       "Explanatory Text": "Conte a quantidade de cubos que voc\u00ea colocou em \u201cJogar Ave\u201d nesta rodada. Note que este objetivo requer que voc\u00ea mantenha os cubos nas linhas onde voc\u00ea os jogou."
     },
     "2028": {
-      "English name": "Birds Worth Less than or Equal to 3 Points",
+      "English name": "Birds worth less than or equal to 3 points",
       "Name": null,
       "Condition": "[bird] que valem \u22643[point]",
       "Explanatory Text": null
     },
     "2043": {
-      "English name": "Pairs of Matching Symbols",
+      "English name": "Duet tokens on pairs of matching symbols",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2040": {
-      "English name": "Nest Symbols",
+      "English name": "Duet tokens on nest symbols",
       "Name": null,
       "Condition": "[duet-token] EM [bowl][cavity][ground][platform]",
       "Explanatory Text": null
     },
     "2035": {
-      "English name": "Food Symbols",
+      "English name": "Duet tokens on food symbols",
       "Name": null,
       "Condition": "[duet-token] EM [fish][fruit][rodent][seed][invertebrate]",
       "Explanatory Text": null
     },
     "2041": {
-      "English name": "Not on Edge of Map",
+      "English name": "Duet tokens not on edge of map",
       "Name": null,
       "Condition": "[duet-token] QUE N\u00c3O ESTEJAM NA BORDA DO MAPA",
       "Explanatory Text": null
     },
     "2042": {
-      "English name": "On Edge of Map",
+      "English name": "Duet tokens on edge of map",
       "Name": null,
       "Condition": "[duet-token] QUE ESTEJAM NA BORDA DO MAPA",
       "Explanatory Text": null
     },
     "2044": {
-      "English name": "Tokens in Any One Horizontal Row",
+      "English name": "Duet tokens in any one horizontal row",
       "Name": null,
       "Condition": "[duet-token] EM UMA LINHA HORIZONTAL QUALQUER",
       "Explanatory Text": null
     },
     "2036": {
-      "English name": "Horizontal Rows with at Least One of Your Tokens",
+      "English name": "Horizontal rows with at least 1 of your duet tokens",
       "Name": null,
       "Condition": null,
       "Explanatory Text": null
     },
     "2034": {
-      "English name": "Fewest Tokens on Bonus Spaces",
+      "English name": "Fewest duet tokens on bonus spaces",
       "Name": null,
       "Condition": "MENOS [duet-token] EM ESPA\u00c7OS DE B\u00d4NUS",
       "Explanatory Text": null
     },
     "2037": {
-      "English name": "In Forest",
+      "English name": "Duet tokens in Forest",
       "Name": null,
       "Condition": "[duet-token] EM [forest]",
       "Explanatory Text": null
     },
     "2038": {
-      "English name": "In Grassland",
+      "English name": "Duet tokens in Grassland",
       "Name": null,
       "Condition": "[duet-token] EM [grassland]",
       "Explanatory Text": null
     },
     "2039": {
-      "English name": "In Wetland",
+      "English name": "Duet tokens in Wetland",
       "Name": null,
       "Condition": "[duet-token] EM [wetland]",
       "Explanatory Text": null
     },
     "2045": {
-      "English name": "Total Duet Tokens",
+      "English name": "Total duet tokens",
       "Name": null,
       "Condition": "TOTAL DE [duet-token] NO MAPA",
       "Explanatory Text": null
