@@ -15,12 +15,15 @@ Below you find the table of all needed icons and their codes.
 | Icon | Code |
 | ----------- | ----------- |
 | ![automa](../src/assets/icons/png/automa.png) | [automa] |
+| ![bee](../src/assets/icons/png/bee.png) | [bee] |
 | ![bird](../src/assets/icons/png/bird.png) | [bird] |
 | ![bowl](../src/assets/icons/png/bowl.png) | [bowl] |
+| ![brilliant](../src/assets/icons/png/brilliant.png) | [brilliant] |
 | ![card](../src/assets/icons/png/card.png) | [card] |
 | ![cavity](../src/assets/icons/png/cavity.png) | [cavity] |
 | ![die](../src/assets/icons/png/die.png) | [die] |
 | ![egg](../src/assets/icons/png/egg.png) | [egg] |
+| ![emerald](../src/assets/icons/png/emerald.png) | [emerald] |
 | ![fish](../src/assets/icons/png/fish.png) | [fish] |
 | ![flocking](../src/assets/icons/png/flocking.png) | [flocking] |
 | ![forest](../src/assets/icons/png/forest.png) | [forest] |
@@ -28,6 +31,7 @@ Below you find the table of all needed icons and their codes.
 | ![grassland](../src/assets/icons/png/grassland.png) | [grassland] |
 | ![ground](../src/assets/icons/png/ground.png) | [ground] |
 | ![invertebrate](../src/assets/icons/png/invertebrate.png) | [invertebrate] |
+| ![mango](../src/assets/icons/png/mango.png) | [mango] |
 | ![nectar](../src/assets/icons/png/nectar.png) | [nectar] |
 | ![platform](../src/assets/icons/png/platform.png) | [platform] |
 | ![point](../src/assets/icons/png/point.png) | [point] |
@@ -35,6 +39,7 @@ Below you find the table of all needed icons and their codes.
 | ![rodent](../src/assets/icons/png/rodent.png) | [rodent] |
 | ![seed](../src/assets/icons/png/seed.png) | [seed] |
 | ![star](../src/assets/icons/png/star.png) | [star] |
+| ![topaz](../src/assets/icons/png/topaz.png) | [topaz] |
 | ![wetland](../src/assets/icons/png/wetland.png) | [wetland] |
 | ![wild](../src/assets/icons/png/wild.png) | [wild] |
 
